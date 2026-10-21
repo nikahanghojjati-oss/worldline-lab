@@ -1,0 +1,144 @@
+{
+  "schema": "worldline-research/v1",
+  "updated": "2026-10-21",
+  "mission": "Can one coherent history or multiple histories be distinguished by physically testable predictions?",
+  "phase": "Foundation / sources and model design",
+  "milestones": [
+    {
+      "id": "M1",
+      "name": "Separate time dilation, backward travel, and branching histories",
+      "state": "active",
+      "completion": "Scope defined, source review ongoing",
+      "acceptance": "A sourced definitions paper with no category errors"
+    },
+    {
+      "id": "M2",
+      "name": "Formalize single-history and branching models",
+      "state": "planned",
+      "completion": "Not yet evaluated",
+      "acceptance": "Explicit assumptions, mathematical commitments, and counterexamples"
+    },
+    {
+      "id": "M3",
+      "name": "Grade experimental and theoretical evidence",
+      "state": "active",
+      "completion": "Initial source ledger established",
+      "acceptance": "Every entry has origin, citation, category, uncertainty and discrimination status"
+    },
+    {
+      "id": "M4",
+      "name": "Compare alternative interpretations and constraints",
+      "state": "planned",
+      "completion": "Research questions drafted",
+      "acceptance": "Falsifiability matrix and equivalent-prediction audit"
+    },
+    {
+      "id": "M5",
+      "name": "Develop discriminating thought and computational experiments",
+      "state": "planned",
+      "completion": "Not begun",
+      "acceptance": "A reproducible model or clear proof of a no-go limitation"
+    },
+    {
+      "id": "M6",
+      "name": "Publish versioned synthesis and peer critique",
+      "state": "planned",
+      "completion": "Not begun",
+      "acceptance": "Citable review with open objections and change history"
+    }
+  ],
+  "disciplines": [
+    {
+      "name": "Physics",
+      "symbol": "Φ",
+      "theme": "Causality, relativity, decoherence",
+      "work": "Map closed timelike curves and physically realistic constraints.",
+      "state": "in review"
+    },
+    {
+      "name": "Mathematics",
+      "symbol": "∑",
+      "theme": "Consistency and branching logic",
+      "work": "Formalize assumptions; test fixed points and contradictions.",
+      "state": "queued"
+    },
+    {
+      "name": "Quantum computing",
+      "symbol": "Q",
+      "theme": "Simulations, circuits, and information",
+      "work": "Distinguish laboratory analogs from actual temporal loops.",
+      "state": "queued"
+    },
+    {
+      "name": "AI & computer science",
+      "symbol": "AI",
+      "theme": "Inference, causal graphs, provenance",
+      "work": "Build reproducible evidence classification and contradiction audits.",
+      "state": "queued"
+    },
+    {
+      "name": "Neuroscience",
+      "symbol": "Ψ",
+      "theme": "Perception and experienced time",
+      "work": "Separate subjective temporal experience from spacetime mechanics.",
+      "state": "queued"
+    },
+    {
+      "name": "Chemistry",
+      "symbol": "⚗",
+      "theme": "Molecular coherence",
+      "work": "Assess whether large-scale quantum interference informs interpretation tests.",
+      "state": "queued"
+    },
+    {
+      "name": "Biology",
+      "symbol": "⌁",
+      "theme": "Biological clocks and causal histories",
+      "work": "Evaluate where biological timing is informative or non-discriminating.",
+      "state": "queued"
+    },
+    {
+      "name": "History",
+      "symbol": "H",
+      "theme": "Epistemology and records",
+      "work": "Model counterfactual histories and independent provenance verification.",
+      "state": "queued"
+    },
+    {
+      "name": "Astronomy",
+      "symbol": "✺",
+      "theme": "Observational clocks and cosmic distances",
+      "work": "Review gravitational timing and astrophysical proposals.",
+      "state": "queued"
+    }
+  ],
+  "journal": [
+    {
+      "id": "J-001",
+      "date": "21 October 2026",
+      "category": "EDITOR'S NOTE · 01",
+      "title": "The problem is not the grandfather. It is the meaning of a history.",
+      "intro": "The grandfather paradox is a warning against combining incompatible assumptions. It is not evidence that the cosmos forks.",
+      "sections": [
+        {
+          "heading": "Three distinct questions",
+          "text": "Can a clock traverse time at a different rate? Can a physical observer return to an earlier event? If quantum theory branches, are these branches independent histories? The first is experimentally supported; the others remain open."
+        },
+        {
+          "heading": "An evidence discipline",
+          "text": "A mathematical solution is not a physical device. A quantum simulation is not a journey to yesterday. A philosophical interpretation is not an observation of parallel timelines."
+        },
+        {
+          "heading": "Our research standard",
+          "text": "Every claim is connected to a dated source, an evidence category, a relevance judgment and a clearly stated limitation. Only findings that distinguish competing accounts can move an empirical verdict."
+        }
+      ],
+      "sourceIds": [
+        "WL-001",
+        "WL-002",
+        "WL-004",
+        "WL-005"
+      ]
+    }
+  ]
+}
