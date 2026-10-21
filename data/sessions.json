@@ -1,0 +1,46 @@
+{
+  "schema": "worldline-session/v1",
+  "updated": "2026-10-21",
+  "authority": "Session statistics are reported only when instrumented or explicitly provided. ChatGPT token totals/context windows are not directly available to this static website.",
+  "liveUsage": {
+    "tokens": null,
+    "contextWindow": null,
+    "minutes": null,
+    "reason": "Not exposed to the GitHub Pages website."
+  },
+  "state": "READY",
+  "activeWork": "Launch evidence-led premium research website and define verified continuity.",
+  "lastVerified": "Worldline Lab public repository confirmed; seed sources and plan prepared.",
+  "nextStep": "Review deployed site, audit scientific source labels, then implement reviewed ledger update protocol.",
+  "blocking": [
+    "Future ledger updates require commits to source JSON. Public visitors cannot overwrite the GitHub repository via a static page."
+  ],
+  "sessionHistory": [
+    {
+      "id": "S-001",
+      "date": "2026-10-21",
+      "label": "Founding research and repository setup",
+      "work": "Hypothesis taxonomy, preliminary ledger, initial UI architecture, POS20-inspired continuity.",
+      "status": "Recorded project phase; no measured token or elapsed-time telemetry",
+      "tokenCount": null,
+      "elapsedMinutes": null,
+      "scope": "Founding session"
+    }
+  ],
+  "handoff": {
+    "readFirst": [
+      "data/research.json",
+      "data/ledger.json",
+      "data/sessions.json"
+    ],
+    "rules": [
+      "Never award multiple-timeline evidence credit for mere mathematical possibility or simulation.",
+      "Distinguish source publication date from retrieval date.",
+      "Never fabricate session token usage, elapsed time, experiment conditions, or confidence.",
+      "Check cited sources before new evidence classification.",
+      "Record a reproducible rationale for any meter change."
+    ],
+    "minimumPacket": "Mission · current state · disputed claim · exact source · next falsifiable question",
+    "continuity": "READY — recheck live repository state on next session, do not treat handoff as fresh web evidence."
+  }
+}
