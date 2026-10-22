@@ -1,7 +1,7 @@
 {
   "schema": "worldline-truth-engine/v0.2",
-  "updated": "2026-10-21",
-  "releaseStatus": "Source CI plus 2 reproduced collapse parameter bounds and public comparison published; v0.2 human score approval and live browser QA remain open; v0.25 nine room source CI passed but live browser QA pending",
+  "updated": "2026-10-22",
+  "releaseStatus": "R010: source-schema and quantitative tests, GitHub API-reviewed directional decision gate plus Chromium browser acceptance workflow added; v0.2 real human reviewer signoff and full accessibility acceptance still open. v0.25 automated multi-route/lab browser checks run via GitHub CI, independently verified success required before marking accepted.",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
     "score": 50,
@@ -47,8 +47,9 @@
     "automaticMeterChange": false,
     "sourceReviewMustPrecedeProposal": true,
     "localReviewerModule": "tools/truth-engine/review.cjs",
-    "reviewerGate": "check(p,data), record(p,data,review stamp), reverse(prior decision,current score,review stamp) in trusted Node, with real source/notes IDs and reviewed evidence commit SHA; no browser can mutate or auto-approve",
-    "noAutoWrites": true
+    "reviewerGate": "check(p,data), record(p,data,review stamp), reverse(prior decision,current score,review stamp) in trusted Node, with real source/notes IDs and reviewed evidence commit SHA; no browser can mutate or auto-approve; nonzero directional revisions require github-approval.cjs API-confirmed distinct human approved review for current PR head SHA; use trusted fetchGitHubApproval, not unchecked reviewer text.",
+    "noAutoWrites": true,
+    "humanReviewVerification": "tools/truth-engine/github-approval.cjs verifies actual PR reviewer identity, newest decision, non-author distinction, and exact current evidence commit; synthetic fixtures are not production approval."
   },
   "proposals": [],
   "changeLedger": [],
@@ -59,10 +60,10 @@
   },
   "releaseAcceptance": {
     "w2001": "verified: local data schema CI",
-    "w2002": "verified unit-level gate, pending integration to end-to-end governed proposals",
-    "w2003": "tested versioned decision and reversible record primitives, no real nonzero score approvals",
+    "w2002": "GitHub API receipt validator for review chain and author/commit identity added, fixture validated; actual external human signoff remains pending.",
+    "w2003": "Versioned record and reversal fixtures retained, nonzero decisions rejected without trusted GitHub API verified human approval; no actual score movements authorized.",
     "w2004": "site ledger source movement published, browser/mobile review UX not independently verified",
-    "v025": "nine existing reading rooms and eight stages static fixture tests added; live navigation/back/phone keyboard QA open"
+    "v025": "Browser automation for all nine rooms, three view modes, two viewport sizes added to GitHub workflow. Do not call acceptance passed unless real CI job succeeds; full independent human/mobile/assistive-tech check still separate."
   },
   "reproductionChecks": {
     "version": "S-002-R008",
