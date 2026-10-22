@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "Ontology-first inquiry: what do observed quantum outcomes tell us about one real history versus many? Six research sections plus a PBR conceptual check.",
+  "phase": "R006: ten original-source comprehensive main-text critical studies, with explicit non-replication caveats and one-versus-many timeline verdict audit.",
   "milestones": [
     {
       "id": "M1",
@@ -126,6 +126,19 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Full-text critical review complete · R006",
+          "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "sourceIds": [
+            "SRC-002",
+            "SRC-003"
+          ],
+          "readingNoteIds": [
+            "NOTE-041",
+            "NOTE-042"
+          ],
+          "limitation": "Whole-source critical reading is not independent laboratory replication and does not by itself support extra quantum branches."
+        },
         {
           "title": "Quantum reality after a measurement",
           "summary": "Contrast Everett branch multiplicity, Bohmian one actual configuration and GRW collapse.",
@@ -263,6 +276,21 @@
       },
       "caseHighlights": [
         {
+          "title": "Full-text critical review complete · R006",
+          "summary": "3 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "sourceIds": [
+            "SRC-044",
+            "SRC-020",
+            "SRC-002"
+          ],
+          "readingNoteIds": [
+            "NOTE-034",
+            "NOTE-037",
+            "NOTE-041"
+          ],
+          "limitation": "Whole-source critical reading is not independent laboratory replication and does not by itself support extra quantum branches."
+        },
+        {
           "title": "State reality is not branch count",
           "summary": "PBR constrains specific epistemic descriptions under preparation independence, without requiring Everett.",
           "sourceIds": [
@@ -361,6 +389,19 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Full-text critical review complete · R006",
+          "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "sourceIds": [
+            "SRC-008",
+            "SRC-020"
+          ],
+          "readingNoteIds": [
+            "NOTE-033",
+            "NOTE-037"
+          ],
+          "limitation": "Whole-source critical reading is not independent laboratory replication and does not by itself support extra quantum branches."
+        },
         {
           "title": "Bell violation is not a branch detector",
           "summary": "2015 loophole-free Bell experiments constrain local-realist nulls, not the number of quantum worlds.",
@@ -896,6 +937,19 @@
       },
       "caseHighlights": [
         {
+          "title": "Full-text critical review complete · R006",
+          "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "sourceIds": [
+            "SRC-062",
+            "SRC-002"
+          ],
+          "readingNoteIds": [
+            "NOTE-035",
+            "NOTE-041"
+          ],
+          "limitation": "Whole-source critical reading is not independent laboratory replication and does not by itself support extra quantum branches."
+        },
+        {
           "title": "Bubble regions are not Everett branches",
           "summary": "WMAP searches found no compelling bubble-collision addition under studied scenarios.",
           "sourceIds": [
@@ -913,6 +967,51 @@
     }
   ],
   "journal": [
+    {
+      "id": "J-004",
+      "date": "21 October 2026",
+      "category": "FULL-SOURCE RESEARCH · R006 · TEN COMPLETE STUDIES",
+      "title": "Ten full scientific reviews: what original research establishes about timelines",
+      "intro": "The first ten critical main-text source studies are complete. Their conclusions constrain local hidden-variable theories, wavefunction ontology, chronology horizons, quantum causal operations and inflationary bubble detection—but none directly counts real quantum branches.",
+      "sections": [
+        {
+          "heading": "The main milestone: 10 of 400 full-source reviews",
+          "text": "We studied whole original main publications or the complete scholarly entry, and logged their sections, methods, assumptions, limitations, independent checks and competing explanations. Nine previously indexed works and one new single-world paper were promoted; no abstract-only work was relabeled merely to raise the counter."
+        },
+        {
+          "heading": "1. Bell and PBR: strong theorems, narrow conclusions",
+          "text": "Bell's 1964 original demonstrates the nonlocality constraint on precise preassignment models. PBR's full paper and appendices restrict overlapping ψ-epistemic descriptions under independent preparation. Neither theorem asserts that Everettian branches were directly observed."
+        },
+        {
+          "heading": "2. Many-worlds theory alongside a substantive single-world response",
+          "text": "Vaidman's full 2026 scholarly treatment explains branch ontology, Born-weight and preferred-basis objections. Lazarovici and Hubert's complete rebuttal addresses a Wigner's-friend paradox using Bohmian definite particle configurations and still-live empty wave branches. They disagree about ontology and do not provide a new branch detector."
+        },
+        {
+          "heading": "3. Quantum causal order and a Bell-Wigner experiment",
+          "text": "Oreshkov's process-matrix paper yields a theoretical causal-inequality violation. Procopio's optical quantum switch demonstrates a controlled ordering advantage; Proietti's six-photon Bell-Wigner experiment violates an observer-independent-facts inequality with explicit fair-sampling and observer-definition limitations. These different results must never be counted as direct observation of parallel physical timelines."
+        },
+        {
+          "heading": "4. Cosmology, rotating metrics and time-loop formation",
+          "text": "Feeney's complete five-page WMAP analysis uses matched simulations and Bayesian evidence to constrain detectable bubble collisions. Gödel's four-page paper constructs an exact rotating metric with closed timelike circles. Hawking's full original paper investigates restrictions on manufactured chronology horizons. None is evidence for quantum branching in our actual universe."
+        },
+        {
+          "heading": "Math checks and what remains unverified",
+          "text": "Limited independent checks included CHSH singlet 2√2, PBR two-qubit exclusion orthogonality, Gödel's radius asinh(1), the causal-success value (2+√2)/4, and Proietti's reported significance. Entire experimental datasets, external appendices and full general-relativistic tensor calculations were not independently reproduced. Complete details, source URLs and caveats are in research/full-study-batch-001.md."
+        },
+        {
+          "heading": "The empirical verdict did not move",
+          "text": "Our central question remains unresolved: one experienced outcome is not an experimental count of all physically real histories. The inherited 59/100 meter is an editorial display rather than calibrated posterior. Research audit VC-007 records 59 to 59 with zero evidential branch-count shift. Next, work on original Everett and Bohm papers, objective-collapse experimental constraints and a quantitative discrimination matrix."
+        }
+      ],
+      "sourceIds": [
+        "WL-008",
+        "WL-009",
+        "WL-002",
+        "WL-003",
+        "WL-004"
+      ],
+      "fullReport": "research/full-study-batch-001.md"
+    },
     {
       "id": "J-003",
       "date": "21 October 2026",
@@ -1035,7 +1134,7 @@
       "id": "P3",
       "title": "Read, annotate and critically compare primary works",
       "state": "in progress",
-      "deliverable": "Six bounded original-source comparison tracks plus PBR check; no abstract promoted to a completed full paper.",
+      "deliverable": "R006: 10 complete main-text critical source reviews with sections, methodological critique, limits, and original source links; other works remain catalogued/abstract/partial.",
       "gate": "High-priority works are examined at source level; no abstract is counted as a full reading."
     },
     {
@@ -1144,5 +1243,28 @@
       "A human's one experienced record"
     ],
     "standard": "Do not interpret empirical agreement across models as proof of physical plurality; require a discriminating prediction."
+  },
+  "fullStudyMilestone": {
+    "batch": "research/full-study-batch-001.md",
+    "completed": 10,
+    "target": 400,
+    "percentOfSourceReviewTarget": 2.5,
+    "interpretation": "10 original full-main-text critical literature reviews; not 10 independent experimental reproductions or empirical probability",
+    "reviewedSources": [
+      "SRC-008",
+      "SRC-044",
+      "SRC-062",
+      "SRC-012",
+      "SRC-020",
+      "SRC-045",
+      "SRC-047",
+      "SRC-064",
+      "SRC-002",
+      "SRC-003"
+    ],
+    "session": "S-001",
+    "round": "S-001-R006",
+    "completedOn": "2026-10-21",
+    "scoreChange": 0
   }
 }
