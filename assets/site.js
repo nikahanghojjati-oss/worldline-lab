@@ -71,6 +71,7 @@ function renderResearchExpansion(){
  const h=$('lab-program-overview');if(!h||!research||!libraryIndex)return;
  const all=libraryIndex.works||[],targets=libraryIndex.expansionTargets||{},minimum=targets.minimumCataloguedWorks||400,stretch=targets.stretchCataloguedWorks||4000;
  const summaries=all.filter(x=>x.access==='abstract-reviewed').length,fully=all.filter(x=>x.access==='fully-studied').length;
+ if($('home-reviewed-heading'))$('home-reviewed-heading').textContent=String(fully); if($('home-reviewed-count'))$('home-reviewed-count').textContent=String(fully);
  const tasks=research.disciplines.reduce((n,d)=>n+(d.topics||[]).length,0);
  h.innerHTML='<span class="kicker">THE LITERATURE EXPANSION · DISCIPLINED GROWTH</span><h2>Tenfold research depth, with a hundredfold horizon.</h2><p>Our original library began with 40 works. The first corpus target is 400 unique verified works, with an ambitious 4,000-work stretch target. More importantly, we aim for 400 substantive full-text critical studies before claiming a mature synthesis; today’s completed count remains honestly separate.</p>'+
  '<div class="program-stats"><div class="program-stat"><strong>'+all.length+' / '+minimum+'</strong><small>CATALOGUED / FIRST TARGET</small></div><div class="program-stat"><strong>'+fully+' / 400</strong><small>FULL SCIENTIFIC REVIEWS / INITIAL TARGET</small></div><div class="program-stat"><strong>'+summaries+'</strong><small>ABSTRACT / SUMMARY CHECKS</small></div><div class="program-stat"><strong>'+tasks+'</strong><small>SUBJECT TOPICS MAPPED</small></div></div>'+
