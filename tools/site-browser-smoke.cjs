@@ -10,6 +10,8 @@ const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
 const research=JSON.parse(fs.readFileSync(path.join(root,'data/research.json'),'utf8'));
 const expected=research.disciplines.map(d=>d.slug);
+const sessions=JSON.parse(fs.readFileSync(path.join(root,'data/sessions.json'),'utf8'));
+const latestRound=sessions.roundLog.at(-1).id;
 const port=Number(process.env.WORLDLINE_TEST_PORT||8765);
 const base='http://127.0.0.1:'+port+'/';
 const server=spawn('python3',['-m','http.server',String(port),'--bind','127.0.0.1','--directory',root],{stdio:'ignore'});
@@ -25,7 +27,7 @@ async function assertRoute(page,route){
  assert.equal(await page.locator('.page.active').count(),1,'exactly one active route '+route);
  const status=page.locator('#research-round-banner');
  await status.waitFor({state:'visible',timeout:10000});
- assert.match(await status.innerText(),/S-002-R010/,'live R010 research checkpoint '+route);
+ assert.ok((await status.innerText()).includes(latestRound),'current canonical research round '+route+' '+latestRound);
 }
 async function run(viewportName,viewport){
  const browser=await chromium.launch({headless:true});
@@ -34,7 +36,7 @@ async function run(viewportName,viewport){
  page.on('pageerror',e=>exceptions.push(String(e.message)));
  try{
   await page.goto(base+'#home',{waitUntil:'domcontentloaded'});
-  await page.waitForFunction(()=>document.querySelector('#research-round-banner')?.textContent?.includes('S-002-R010'),null,{timeout:15000});
+  await page.waitForFunction(r=>document.querySelector('#research-round-banner')?.textContent?.includes(r),latestRound,{timeout:15000});
   for(const route of ['home','dashboard','ledger','journal','disciplines','atlas','library','sessions']){
    await assertRoute(page,route);
   }

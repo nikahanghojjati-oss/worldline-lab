@@ -5,6 +5,7 @@ on:
     paths:
       - "data/**"
       - "tools/truth-engine/**"
+      - "tools/site-browser-smoke.cjs"
       - "assets/**"
       - "index.html"
       - ".github/workflows/worldline-integrity.yml"
@@ -12,6 +13,7 @@ on:
     paths:
       - "data/**"
       - "tools/truth-engine/**"
+      - "tools/site-browser-smoke.cjs"
       - "assets/**"
       - "index.html"
       - ".github/workflows/worldline-integrity.yml"
@@ -32,6 +34,8 @@ jobs:
         run: node tools/truth-engine/validate.cjs
       - name: Execute intentionally failing integrity fixtures
         run: node tools/truth-engine/test.cjs
+      - name: Reconstruct 2016 original experiment and GRW scaling
+        run: node tools/truth-engine/macrorealism-reproduce.cjs
       - name: Validate public JavaScript syntax
         run: |
           node --check assets/site.js

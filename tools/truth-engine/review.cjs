@@ -1,6 +1,8 @@
 'use strict';
 // Trusted local proposal gate; never a browser mutation or an auto-scoring mechanism.
 const hex40=/^[0-9a-f]{40}$/;
+// Private in-process gate: untrusted JSON receipts cannot authorize a score revision.
+const apiSeal=Symbol('fetchGitHubApproval-executed');
 function check(p,db){
  const problems=[];
  const fields=['claimClass','hypothesis','nullHypothesis','prediction','testedObservable','measurement','controls','counterevidenceSearch','alternativeExplanations','uncertainty','discriminationArgument','impactRationale','reviewer','priorAuditId','reviewedEvidenceCommit','scoreMapping'];
@@ -20,13 +22,21 @@ function record(p,db,stamp){
  if(db.truthEngine.changeLedger.some(x=>x.id===stamp.id))throw Error('duplicate');
  if(p.oldScore!==p.proposedScore){
   const a=stamp.approval;
-  if(!a||a.kind!=='github-human-approval'||a.verifiedVia!=='github-rest'||a.evidenceCommit!==p.reviewedEvidenceCommit||a.reviewer!==p.reviewer||!Number.isSafeInteger(a.reviewId)||!Number.isSafeInteger(a.prNumber))
+  if(stamp[apiSeal]!==true||!a||a.kind!=='github-human-approval'||a.verifiedVia!=='github-rest'||a.evidenceCommit!==p.reviewedEvidenceCommit||a.reviewer!==p.reviewer||!Number.isSafeInteger(a.reviewId)||!Number.isSafeInteger(a.prNumber))
    throw Error('directional score revision requires an API-verified human approval for the exact evidence commit');
  }
  return {id:stamp.id,kind:'decision',date:stamp.date,oldScore:p.oldScore,newScore:p.proposedScore,priorJudgment:p.priorAuditId,evidenceCommit:p.reviewedEvidenceCommit,decisionCommit:stamp.sha,sourceIds:p.sourceIds,readingNoteIds:p.readingNoteIds,reason:stamp.reason,approvalEvidence:stamp.approval||null,reverses:null};
+}
+async function recordReviewed(p,db,stamp,receipt,fetchJson){
+ const {fetchGitHubApproval}=require('./github-approval.cjs');
+ if(!Number.isFinite(p.oldScore)||!Number.isFinite(p.proposedScore)||p.oldScore===p.proposedScore)
+  throw Error('recordReviewed exclusively processes directional changes');
+ const approval=await fetchGitHubApproval(p,receipt,fetchJson);
+ // Only this module can set the private seal; the JSON ledger stores a serializable receipt.
+ return record(p,db,{...stamp,approval,[apiSeal]:true});
 }
 function reverse(entry,score,stamp){
  if(entry.newScore!==score||!hex40.test(stamp.sha)||!stamp.reason)throw Error('stale or unsupported reversal');
  return {id:stamp.id,kind:'reversal',date:stamp.date,oldScore:score,newScore:entry.oldScore,priorJudgment:entry.id,evidenceCommit:stamp.sha,decisionCommit:stamp.sha,sourceIds:entry.sourceIds,readingNoteIds:entry.readingNoteIds,reason:stamp.reason,reverses:entry.id};
 }
-module.exports={check,record,reverse};
+module.exports={check,record,recordReviewed,reverse};

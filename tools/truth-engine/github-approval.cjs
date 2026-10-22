@@ -15,6 +15,7 @@ function apiApproval(p,receipt,pr,reviews){
  if(!pr||pr.number!==receipt.prNumber||pr.base?.repo?.full_name!==repo||pr.head?.repo?.full_name!==repo)fail('same-repository PR');
  if(pr.head?.sha!==p.reviewedEvidenceCommit)fail('PR changed after evidence commit');
  if(!Array.isArray(reviews))fail('GitHub review list');
+ if(reviews.length>=100)fail('incomplete review history (>one page); do not certify');
  const author=pr.user?.login?.toLowerCase();
  const candidate=reviews.find(x=>x.id===receipt.reviewId);
  if(!candidate||candidate.state!=='APPROVED'||!str(candidate.submitted_at))fail('actual approved GitHub review');

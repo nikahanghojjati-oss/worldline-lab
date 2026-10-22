@@ -1,7 +1,7 @@
 {
   "schema": "worldline-truth-engine/v0.2",
   "updated": "2026-10-22",
-  "releaseStatus": "R010 27 full original studies; source-backed 8 route sweep and Chromium automated acceptance PASS, human approval real signed decision and real-device assistive QA remain OPEN. No score change.",
+  "releaseStatus": "R011: 28 full main-text studies, ~84sigma control-bounded macrorealism finding, private-seal verified PR approval path code under CI. Live independent scientific PR review and full human accessible browser testing remain release blockers. Central editorial baseline 50 unchanged.",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
     "score": 50,
@@ -60,10 +60,10 @@
   },
   "releaseAcceptance": {
     "w2001": "verified: local data schema CI",
-    "w2002": "GitHub API receipt validator for review chain and author/commit identity added, fixture validated; actual external human signoff remains pending.",
-    "w2003": "Versioned record and reversal fixtures retained, nonzero decisions rejected without trusted GitHub API verified human approval; no actual score movements authorized.",
+    "w2002": "R011 directional revisions require real GitHub PR reviewer fetch in trusted async recordReviewed; the private in-process seal makes forged JSON approval fail. Synthetic test does NOT constitute an approved revision.",
+    "w2003": "Append-only decision and reversal primitives tested, now reject forged approval JSON for score changes. No real signed reviewer PR, actual reversal or score movement yet.",
     "w2004": "Automated real Chromium site read-only tests PASS, source/Truth Ledger and all routes render; independent human approval path and full accessibility still open.",
-    "v025": "Automated real Chromium browser integration PASS on run 39774068530: 8 routes, all 9 laboratories times 3 room modes, 1440 and 390px, filter, keyboard. Physical handset / human screen-reader assessment remains open."
+    "v025": "Chromium desktop and phone-size 8-route/9-lab/3-mode suite passed R010; R011 test resolves the current Session round dynamically instead of stale hardcoded R010. Human assistive-tech and physical iPhone/Chromebook QA remain pending."
   },
   "reproductionChecks": {
     "version": "S-002-R008",

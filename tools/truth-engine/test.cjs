@@ -28,7 +28,7 @@ if(base.truthEngine){
   reviewedEvidenceCommit:'959e3df0b0031201742cd1019ad6a15db514d18d',oldScore:50,proposedScore:51
  }), 'counterevidenceSearch');
 }
-const {check,record,reverse}=require('./review.cjs');
+const {check,record,recordReviewed,reverse}=require('./review.cjs');
 const proposal={id:'TEST-P',target:'central-ontology',claimClass:'Experimental measurement',hypothesis:'Hmany',nullHypothesis:'Hone',prediction:'measured distribution',testedObservable:'pointer',measurement:'controlled count',controls:'preparation and detector',counterevidenceSearch:'search rival experiments',alternativeExplanations:'environmental noise',uncertainty:'finite counts',discriminationArgument:'requires distinct likelihood',impactRationale:'conditional only',reviewer:'test fixture',priorAuditId:base.library.verdictAudit.changeLog.at(-1).id,reviewedEvidenceCommit:'a'.repeat(40),scoreMapping:'explicit score mapping proposal',distinguishingLikelihood:'illustrative synthetic likelihoods',sourceIds:['SRC-066'],readingNoteIds:['NOTE-052'],oldScore:50,proposedScore:50};
 assert.deepEqual(check(proposal,base),[]);
 const invalid={...proposal,counterevidenceSearch:''};
@@ -49,8 +49,10 @@ const signedPr={
 const signedReview={id:491,state:'APPROVED',commit_id:'a'.repeat(40),submitted_at:'2026-10-22T12:00:00Z',user:{login:'science-reviewer'},author_association:'COLLABORATOR'};
 const receipt={prNumber:72,reviewId:491};
 const verified=apiApproval(approvalCandidate,receipt,signedPr,[signedReview]);
-const signed=record(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-VERIFIED-FIXTURE',date:'2026-10-22',reason:'Verified synthetic external response test',approval:verified});
-assert.equal(signed.approvalEvidence.reviewId,491);
+assert.throws(()=>record(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-FORGED',date:'2026-10-22',reason:'Forged object',approval:verified}),/API-verified human approval/);
+recordReviewed(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-VERIFIED-FIXTURE',date:'2026-10-22',reason:'Synthetic API fixture only'},receipt,async(url)=>url.includes('/reviews?')?[signedReview]:signedPr)
+ .then(signed=>{assert.equal(signed.approvalEvidence.reviewId,491);console.log('PASS async trusted review flow (synthetic API fixture; no human approval claimed)')})
+ .catch(err=>{console.error('FAIL trusted async review',err);process.exitCode=1;});
 assert.throws(()=>apiApproval(approvalCandidate,receipt,{...signedPr,head:{...signedPr.head,sha:'c'.repeat(40)}},[signedReview]),/changed after evidence commit/);
 assert.throws(()=>apiApproval(approvalCandidate,receipt,{...signedPr,user:{login:'science-reviewer'}},[signedReview]),/distinct reviewer/);
 assert.throws(()=>apiApproval(approvalCandidate,receipt,signedPr,[{...signedReview,state:'COMMENTED'}]),/actual approved/);
@@ -93,6 +95,11 @@ assert.equal(comparison.channels.filter(s=>s.lambdaUpper===null).length,2,'no in
 assert.equal(comparison.scientificVerdict.includes('none of these observations distinguish'),true,'ontology caveat required');
 console.log('PASS versioned five-channel bound comparison and original source-data reproduction integration');
 console.log('PASS original Ge posterior and LISA acceleration-noise numerical reproductions; no detector-level data claimed');
+const macro=require('./macrorealism-reproduce.cjs').reproduce();
+assert.ok(Math.abs(macro.z+83.9146113203905)<1e-9,'Knee original paper ~84sigma conditional');
+assert.ok(macro.rho.delta<macro.bound[0],'macrorealist Eq7 control bound violated');
+assert.equal(base.library.works.find(w=>w.id==='SRC-077').access,'fully-studied');
+console.log('PASS source-Fig2 experimental 84sigma and GRW benchmark model safeguards');
 const mainQuestion=base.discriminator;
 assert.equal(mainQuestion.candidates.length,5,'five primary ontology-discrimination research gates');
 assert.equal(mainQuestion.scorePolicy.centralScore,base.ledger.editorialMeter.score,'candidate score must match real scoreboard');
@@ -104,8 +111,8 @@ assert.ok(Math.abs(conditionalLogLR(1e-12)+10.017982050900116)<1e-9,'original Ge
 assert.ok(mainQuestion.fixedBackgroundDiagnostic.warning.includes('NOT'),'conditional calculation must not masquerade as score');
 assert.equal(base.pageFreshness.pages.length,8,'eight public routes require freshness inventory');
 assert.equal(base.pageFreshness.nextMandatorySweepRoundLogCount,17,'first mandatory full sweep R010');
-assert.equal(base.pageFreshness.lastCompletedSweepRoundLogCount,17,'R010 source audit must be recorded');
-assert.equal(base.sessions.roundLog.length,17,'R010 closure should have 17 cumulative rounds');
+assert.ok(base.pageFreshness.lastCompletedSweepRoundLogCount>=17,'R010 source audit must be recorded');
+assert.ok(base.sessions.roundLog.length>=17,'R010 first mandatory website sweep must be preserved');
 fails('freshness missing at next fifth round',d=>{
  for(let i=11;i<=15;i++)d.sessions.roundLog.push({...d.sessions.roundLog.at(-1),id:'S-002-R0'+i});
 },'five-round website sweep missing');
