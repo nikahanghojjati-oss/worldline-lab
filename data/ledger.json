@@ -674,6 +674,81 @@
         "NOTE-071",
         "research/hammer-assumption-surgery-S003-R007.md"
       ]
+    },
+    {
+      "id": "WL-023",
+      "date": "2026-10-22",
+      "title": "Observed 172-kDa sodium-cluster matter-wave fringes quantitatively restrict minimal macrorealist collapse modifications",
+      "field": "Quantum foundations",
+      "kind": "2026 original experiment; source-parameter arithmetic independently reproduced",
+      "status": "Observed matter-wave interference with source-classified, model-specific Bayesian exclusion; no new independent raw-data posterior refit",
+      "question": "Does a cluster of more than 7,000 atoms retain quantum interference at 133 nm separation, and which specified spontaneous-superposition-loss models remain compatible?",
+      "finding": "Pedalino et al. (Nature 2026) observed sodium-cluster fringes at mean 172 kDa with reported fitted visibilities 0.10±0.01 and 0.08±0.01. For source-defined minimal macrorealist modifications, 3,895 analysis points yield a reported 5% posterior classicalization-time quantile 2.84×10^15 s, hence mu=log10(tau/1s)=15.45. HAMMER independently checks the transform and first-Talbot nominal beam-speed scale; original raw Zenodo counts and posterior code were NOT rerun. This is model-scoped evidence against sufficient spontaneous coherence suppression, not detection of multiple realized histories.",
+      "source": "Pedalino et al., Nature 649, 866–870 (2026), DOI 10.1038/s41586-025-09917-9; original dataset/code Zenodo 10.5281/zenodo.17502163",
+      "url": "https://doi.org/10.1038/s41586-025-09917-9",
+      "impact": 0,
+      "direction": "Empirical model-specific movement against the specified minimal macrorealist superposition-loss family; NO Everett vs equilibrium Bohm ontology preference",
+      "strength": "Real source experiment and author-derived 5% posterior quantile; HAMMER independent geometry/log transform only, not raw-data statistical reanalysis.",
+      "place": "University of Vienna, Vienna, Austria (associated institution, NOT precise apparatus coordinate)",
+      "lat": null,
+      "long": null,
+      "locationType": "Source-associated institution only; physical detector coordinates not verified",
+      "notes": "The paper's mu maximizes a posterior quantile over a momentum-transfer parameter under Jeffreys prior and defined minimal macrorealist modifications; it is NOT a universal collapse exclusion probability or physical multiworld posterior. Source published 3895 analysis data points, not independently certified photon/cluster trial count. Both Everett and Bohm equilibrium predict standard quantum fringes.",
+      "reviewRefs": [
+        "SRC-081",
+        "NOTE-072",
+        "research/hammer-observed-evidence-S003-R008.md"
+      ]
+    },
+    {
+      "id": "WL-024",
+      "date": "2026-10-22",
+      "title": "Real 4.32-billion-trial loophole-free Hardy experiment sharply rejects a Bell-local one-history model subclass",
+      "field": "Quantum foundations",
+      "kind": "Published measured photonic nonlocality experiment and exact source-constrained statistical inference",
+      "status": "Local-realist null experimentally disfavored under original source conditions; p upper reported, NOT independently recomputed",
+      "question": "Is a Bell-local, measurement-independent, single-actual-outcome explanation sufficient for observed photon correlations?",
+      "finding": "Zhao et al. (PRL 133, 060201, 2024) report 4.32×10^9 Hardy trials, efficiency 82.2%, fidelity 99.10%, Hardy statistic 4.646×10^-4 and local-realist null p upper bound 10^-16348. The source's probability is under a specified Bell-local null, not the posterior chance of one real history. It rejects an empirically constrained single-history LOCAL subclass, but nonlocal one-history models and standard equilibrium Bohm remain available.",
+      "source": "Zhao et al., Physical Review Letters 133, 060201 (2024), DOI 10.1103/PhysRevLett.133.060201",
+      "url": "https://doi.org/10.1103/PhysRevLett.133.060201",
+      "impact": 0,
+      "direction": "Strong empirical evidence AGAINST the tested Bell-local realism subclass; not general single actual histories versus multiple histories",
+      "strength": "Real experiment, publisher-reported 4.32 billion trials and very small local-null p bound; no event-level source p recalculation",
+      "place": "Hefei, China (collaborating scientific institution context, not experimental geotag)",
+      "lat": null,
+      "long": null,
+      "locationType": "Institution city only; no verified experiment coordinate",
+      "notes": "Hardy p is not P(one world | data) or an Everett/Bohm Bayes factor, cannot multiply across experiments or turn into a compass score. Authors' loophole-free detection and measurement independence assumptions are essential. Source original full text and supplemental not completely studied.",
+      "reviewRefs": [
+        "SRC-082",
+        "NOTE-073",
+        "research/hammer-observed-evidence-S003-R008.md"
+      ]
+    },
+    {
+      "id": "WL-025",
+      "date": "2026-10-22",
+      "title": "Controlled 2026 circuit-QED reservoir experiment observes declining spontaneous mesoscopic recoherence",
+      "field": "Quantum foundations",
+      "kind": "Published original experimental abstract, no independent fit or raw measurements obtained",
+      "status": "Observed qualitative system-bath decoherence transition reported; effect size and sample data not independently reconstructed",
+      "question": "Does increasing a controllable quantum reservoir's degrees of freedom reduce naturally recoverable which-path information in a mesoscopic photonic cat?",
+      "finding": "Zheng et al. (PRL 137, 150201, October 5 2026) report a photonic cat in a bus microwave resonator coupled to a variable number of nonlinear oscillator bath degrees. Spontaneously erasable path information decreases as reservoir degrees increase and spontaneous coherence recovery ceases for sufficiently large bath, under their controlled circuit-QED conditions. Published original abstract checked; no raw numeric dependence, universal entropy law or true fundamental objective collapse established.",
+      "source": "Zheng et al., Physical Review Letters 137, 150201 (2026), DOI 10.1103/t2yx-9bqh",
+      "url": "https://doi.org/10.1103/t2yx-9bqh",
+      "impact": 0,
+      "direction": "Supports a reservoir-degree-sensitive practical recoherence boundary under measured system-bath dynamics; no fundamental one/many ontology movement",
+      "strength": "Peer-reviewed publisher abstract real experimental observation, but no original full-text figures or effect sizes reproduced",
+      "place": "Fuzhou University, Fuzhou / Hefei National Laboratory, China (institutions only)",
+      "lat": null,
+      "long": null,
+      "locationType": "Institution affiliations only, precise apparatus site not sourced",
+      "notes": "Practical irreversibility of bath-coupled cat does not prove fundamental nonunitary reduction. The global system can remain unitary; a single-configuration pilot-wave theory can predict the same operational records.",
+      "reviewRefs": [
+        "SRC-083",
+        "NOTE-074",
+        "research/hammer-observed-evidence-S003-R008.md"
+      ]
     }
   ],
   "scientificMovements": [
@@ -846,6 +921,69 @@
       "centralScoreImpact": 0,
       "researchReport": "research/full-study-batch-005-macrorealism-R011.md",
       "reproducibleCode": "tools/truth-engine/macrorealism-reproduce.cjs"
+    },
+    {
+      "id": "MOVE-010",
+      "date": "2026-10-22",
+      "ledgerId": "WL-023",
+      "sourceIds": [
+        "SRC-081"
+      ],
+      "readingNoteIds": [
+        "NOTE-072"
+      ],
+      "claim": "Minimal macrorealist spontaneous loss of massive-cluster coherence under source's modified quantum theory family",
+      "from": "Original 2026 sodium-nanoparticle fringes and their author-defined minimal macrorealist macroscopicity unrepresented in this project's model-specific evidence history",
+      "to": "Observed interference visibility .10±.01/.08±.01 at mean172kDa; source Bayesian 5% quantile tau=2.84e15s gives μ≈15.45 (confirmed by independent log10 transform); limits model-scoped spontaneous classicalization.",
+      "modelDirection": "AGAINST overly strong tested minimal-macrorealist collapse dynamics at this mass/coherence scale",
+      "reportedMeasurement": true,
+      "sourceModelPosteriorQuantileSeconds": 2840000000000000,
+      "sourcePosteriorTailProbability": 0.05,
+      "centralHistoryDirection": "NEITHER Everett nor quantum-equilibrium Bohm preferred: same standard interference predictions",
+      "centralScoreImpact": 0,
+      "researchReport": "research/hammer-observed-evidence-S003-R008.md",
+      "reproducibleCode": "tools/hammer/observed-evidence.cjs"
+    },
+    {
+      "id": "MOVE-011",
+      "date": "2026-10-22",
+      "ledgerId": "WL-024",
+      "sourceIds": [
+        "SRC-082"
+      ],
+      "readingNoteIds": [
+        "NOTE-073"
+      ],
+      "claim": "Measurement-independent Bell-local actual-outcome model class under published Hardy photonic trial null",
+      "from": "Project's previous schematic conditional Bell mathematical examples and theorem bounds only",
+      "to": "Real 4.32 billion trial Hardy test disfavored this restricted local model class with source-reported null probability upper bound 10^-16348. p is not a postulated world probability or independently recalculated by HAMMER.",
+      "modelDirection": "AGAINST Bell-local hidden-variable subclass of single-outcome interpretations",
+      "reportedMeasurement": true,
+      "reportedNullLog10PUpperBound": -16348,
+      "centralHistoryDirection": "NEITHER Everett nor quantum-equilibrium Bohm preferred: nonlocal one-history completions remain consistent",
+      "centralScoreImpact": 0,
+      "researchReport": "research/hammer-observed-evidence-S003-R008.md",
+      "reproducibleCode": "tools/hammer/observed-evidence.cjs"
+    },
+    {
+      "id": "MOVE-012",
+      "date": "2026-10-22",
+      "ledgerId": "WL-025",
+      "sourceIds": [
+        "SRC-083"
+      ],
+      "readingNoteIds": [
+        "NOTE-074"
+      ],
+      "claim": "Reservoir-number dependence of spontaneous recoherence in mesoscopic microwave cat states",
+      "from": "No direct 2026 controlled-reservoir mesoscopic recoherence experiment entered in project's scoped evidence Ledger",
+      "to": "The October 5 2026 original PRL abstract reports diminished recoverable which-path information with increased coupled oscillator reservoir degrees and loss of spontaneous recoherence at sufficiently many; effect-size unavailable from accessible abstract.",
+      "modelDirection": "FOR empirical bath-dependent apparent irreversibility in specified mesoscopic circuit-QED system",
+      "reportedMeasurement": true,
+      "sourceQuantitativeEffectNotIndependentlyAvailable": true,
+      "centralHistoryDirection": "No inference that irreversibility is ontological wavefunction collapse or evidence for number of real branches",
+      "centralScoreImpact": 0,
+      "researchReport": "research/hammer-observed-evidence-S003-R008.md"
     }
   ]
 }

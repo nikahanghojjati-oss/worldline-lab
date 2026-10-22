@@ -1,6 +1,6 @@
 # HAMMER · Hypothesis Adversarial Mapping, Measurement & Evidence Refinement
 
-**Version:** experimental AGI-inspired research instrument v0.4 · 2026-10-22 · Worldline Lab only
+**Version:** experimental AGI-inspired research instrument v0.5 · 2026-10-22 · Worldline Lab only
 
 **Owner's goal:** Push the frontier of the project's actual one-versus-many-physically-real-histories question by deep reading, adversarial theory comparison, mathematical reproduction, uncertainty-aware experiments, criticism, and sometimes genuinely evidence-justified revisions of a model-specific claim or the Truth Ledger. HAMMER does **not** make an AI model a scientist, render an experiment by drawing a chart, or change a scientific score to manufacture progress.
 
@@ -122,6 +122,19 @@ Its new research procedure (a Worldline Lab integration, **not** an assertion th
 **Prior scholarly context:** Bong et al. (2020) [Nature Physics](https://doi.org/10.1038/s41567-020-0990-x) establishes the Local Friendliness no-go conditional on observer-level control; Walleghem (2026) [Physical Review A](https://doi.org/10.1103/hf5j-t83v) provides a recent different extended-friend assumption analysis; a 2025 [critical reassessment](https://pmc.ncbi.nlm.nih.gov/articles/PMC12192408/) argues the practical strength of these no-go arguments can be limited. The [2026 Stanford Encyclopedia of Philosophy survey](https://plato.stanford.edu/archives/sum2026/entries/qm-manyworlds/) emphasizes testing specific collapse dynamics rather than treating a Born-correct interpretation as already distinguished from equilibrium Bohm.
 
 **Status:** All results are synthetic calculations, conditional mathematics or a diagram of theorem dependencies. No new quantum measurement, genuine AI reviewer call, recognized independently established new mathematical theorem, or empirically discriminating ontology discovery occurred. This honest barrier certificate is useful precisely because it tells the research engine **what would need to be different and measured** for a future update to be defensible.
+
+
+## HAMMER v0.5 · actual experimental evidence and scoped Ledger movement (S-003-R008)
+
+HAMMER is now able to produce **genuine source-grounded empirical movements**, not merely mathematical no-go results or hypothetical theory differences. Under the explicitly scoped research question, it accepts real reported observations and extracts only the falsifiable physical model claims they genuinely test.
+
+Three real original experimental studies are recorded in the [S-003-R008 report](research/hammer-observed-evidence-S003-R008.md), with **WL-023–025** and **MOVE-010–012**. The original studies were published in Nature 2026 and Physical Review Letters 2024 / October 2026. Their three directions are: (1) measured 172 kDa massive-cluster interference constrains source-defined minimum macrorealist spontaneous localization; (2) the 4.32-billion-trial Hardy experiment excludes the tested Bell-local realist null under its paper-defined statistical assumptions; (3) circuit-QED experiments observe reduced spontaneous which-path erasure with increasing controlled reservoir complexity.
+
+**Independent reproducible calculations:** `tools/hammer/observed-evidence.cjs` and its test rebuild the approximate first-Talbot resonance velocity from source mass (172000 Da), optical period (133 nm) and grating separation (.983 m), confirming agreement with the paper's 120–170 m/s beam. It also reproduces `mu=log10(2.84e15 seconds / 1 second)≈15.45`, the source's model-specific posterior macroscopicity summary, and records the published Hardy `p ≤ 10^-16348` in logarithmic form. The enormous Hardy p is **not** a probability the single-world ontology is false, nor a reproduced raw-data likelihood. The original Zenodo raw data/code archive exists, but attempts to obtain its ZIP failed in the tool environment; HAMMER has NOT rerun the original posterior analysis or measurement records. The October 2026 bath study was only accessible at abstract level; its effect size has not been independently derived.
+
+**Evidence partition integrity:** `scientificMovements` in `data/ledger.json` separately captures source IDs, source-depth notes, real experimental effects, model-specific direction, exact reported quantitative results, reproducible arithmetic, and the logically separate `centralScoreImpact=0` where the history ontology does not follow. This is a scientifically real movement of three **restricted physical claims**, not an arbitrary central-score shift. The generic physically one- versus many-history question remains unresolved and the historical 50/100 is an uncalibrated editorial anchor.
+
+**Source totals:** 83 indexed original works, 74 reading notes, still 28 genuinely fully studied original main-text critical reviews. The mandatory R008 eight-route research-source sweep at cumulative round-log27 is completed with the next at32 (R013). The research-first next requirement is to download and actually replay the publicly available [Nature data and code](https://zenodo.org/records/17502163), reproduce its 5% posterior and collapse-family sensitivity, and independently evaluate a physically feasible *operationally different* one-history versus many-history prediction. No AI model-panel run or real new experiment was invented.
 
 ## Growth path (not falsely claimed complete)
 

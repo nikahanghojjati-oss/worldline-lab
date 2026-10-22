@@ -1338,6 +1338,36 @@
   ],
   "journal": [
     {
+      "id": "J-015",
+      "date": "22 October 2026",
+      "category": "HAMMER · REAL EXPERIMENTS, THREE SCOPED SCIENTIFIC MOVEMENTS · S-003-R008",
+      "title": "The Evidence Ledger moves when a physical model fails—without inventing parallel worlds",
+      "intro": "Three source-backed physical experiments produce claim-specific scientific updates: observed sodium-cluster interferometry, a loophole-free Hardy nonlocality test, and controlled reservoir-dependent loss of spontaneous recoherence. Their model-scoped evidence moves, but the one-vs-many-histories Compass remains unresolved.",
+      "sections": [
+        {
+          "heading": "New observed matter-wave interference in massive metal clusters",
+          "text": "Pedalino et al. (Nature 2026) report coherent sodium cluster fringes at ~172 kDa, visibility 0.10±0.01 and 0.08±0.01. Their 3895 analysis points imply a source-defined minimal macrorealism 5%-posterior classicalization-time quantile 2.84e15 seconds, giving macroscopicity mu=15.45. HAMMER independently checked this logarithm and nominal Talbot geometry but could not yet rerun the original Zenodo raw posterior. This moves model-specific empirical collapse/superposition constraints, not Everett-over-Bohm."
+        },
+        {
+          "heading": "Hardy experiment rules out locality, not a single actual outcome",
+          "text": "Zhao et al. (PRL 2024) report 4.32e9 trials and a local-realism null p upper 10^-16348 under the original assumptions. The local hidden-variable model class is disfavored, but nonlocal one-world quantum-equilibrium Bohmian predictions remain empirically allowed. The reported p is not P(many worlds | data), and HAMMER did not rerun the trial-level source test."
+        },
+        {
+          "heading": "A real reservoir changes recoverability of a quantum-cat record",
+          "text": "Zheng et al. (PRL Oct 5, 2026) report controllably coupling a photonic cat to increasing nonlinear oscillator bath degrees and reduced spontaneous which-path erasure, eventually irreversible under that protocol. The original abstract is accessible; full figures and measured quantitative scaling were not independently retrieved. It supports operational system-bath decoherence, not an observation of a fundamental physical branch or actual collapse event."
+        },
+        {
+          "heading": "The new proof obligation",
+          "text": "The true one-vs-many-histories inference still requires a feasible experiment with different complete conditional likelihoods for genuinely physically specified and viable Everett and one-history alternatives. HAMMER preserves exact source, scope, raw-reproduction status and three new MOVE-010 to MOVE-012 claim-specific movements; the central score stays an editorial neutral 50."
+        }
+      ],
+      "sourceIds": [
+        "WL-023",
+        "WL-024",
+        "WL-025"
+      ]
+    },
+    {
       "id": "J-014",
       "date": "22 October 2026",
       "category": "HAMMER ASSUMPTION SURGERY · S-003-R007",

@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+'use strict';
+const assert=require('node:assert/strict');
+const m=require('./observed-evidence.cjs');
+const a=m.audit(),nano=m.nanoCheck(),hardy=m.hardyCheck();
+assert.equal(a.centralScoreChange,0);
+assert.equal(a.movements.length,3);
+assert.equal(a.rawLikelihoodsIndependentlyRefitted,0);
+assert.equal(a.hammerCollectedExperimentalMeasurements,0);
+assert.ok(nano.insideBeamRange,'published Talbot geometry should agree with printed cluster speed range');
+assert.ok(nano.approxTalbotBeamSpeedMS>120&&nano.approxTalbotBeamSpeedMS<170);
+assert.ok(Math.abs(nano.reconstructedMu-15.4533)<.001,'independent log10 of source posterior 5% quantile');
+assert.equal(nano.sourceMuReconstructedWithinRounding,true);
+assert.equal(nano.sourcePosteriorDataPoints,3895);
+assert.equal(nano.publishedScans[0].amplitudeToQuotedFitError,10);
+assert.equal(hardy.publishedLocalRealismNullLog10PUpperBound,-16348);
+assert.equal(hardy.publishedTrials,4320000000);
+assert.match(hardy.nonConclusion,/NOT posterior probability/);
+assert.throws(()=>m.nanoCheck({...m.src.nano,massDa:-1}),/positive printed/);
+assert.throws(()=>m.hardyCheck({...m.src.hardy,pExponent:1}),/valid printed/);
+assert.ok(a.movements.every(x=>x.centralImpact===0),'never promote a class-conditional exclusion to Everett-vs-Bohm ontology');
+console.log('PASS HAMMER empirical audit: real source numbers, independent Talbot and macroscopicity transforms, no raw detector refit, scientific movement strictly scoped.');
+console.log(JSON.stringify({expectedBeamSpeed:nano.approxTalbotBeamSpeedMS,recomputedMu:nano.reconstructedMu,modelSpecificMovements:a.movements.length,historyScore:a.centralScoreChange}));

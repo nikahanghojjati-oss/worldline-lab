@@ -1751,6 +1751,84 @@
       "verdictEffect": "Counterargument registered, no central score movement",
       "effectReason": "Critical conclusion from Okon is a scholarly position, not a mathematically established blanket refutation without analyzing each objection.",
       "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-081",
+      "field": "Quantum foundations",
+      "title": "Probing quantum mechanics with nanoparticle matter-wave interferometry",
+      "authors": [
+        "Sebastian Pedalino",
+        "Bruno E. Ramírez-Galindo",
+        "Richard Ferstl",
+        "Klaus Hornberger",
+        "Markus Arndt",
+        "Stefan Gerlich"
+      ],
+      "year": 2026,
+      "type": "experimental original paper",
+      "url": "https://doi.org/10.1038/s41586-025-09917-9",
+      "role": "Original experimentally observed high-mass matter-wave fringes, Bayesian minimal-macrorealist classicalization-time bound and public data/code",
+      "access": "partially-studied",
+      "note": "Reviewed source's original accessible main findings, Fig2 scan visibilities, interferometer Methods geometry, macroscopicity definition and 5% posterior quantile. Public Zenodo original code/raw data located DOI 10.5281/zenodo.17502163 but NOT downloaded or rerun here; full supplement and raw-data inference not independently reproduced.",
+      "linkedLedger": [
+        "WL-023"
+      ],
+      "verdictEffect": "Observed 2026 massive-cluster coherence strengthens restricted collapse-family constraint; neither single nor many histories uniquely selected.",
+      "effectReason": "Source-specific coherent fringes and mu15.45 constrain model-defined superposition loss; equilibrium Bohm and Everett have same quantum interference.",
+      "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-082",
+      "field": "Quantum foundations",
+      "title": "Loophole-Free Test of Local Realism via Hardy's Violation",
+      "authors": [
+        "Si-Ran Zhao",
+        "Shuai Zhao",
+        "Hai-Hao Dong",
+        "Wen-Zhao Liu",
+        "Jing-Ling Chen",
+        "Kai Chen",
+        "Qiang Zhang",
+        "Jian-Wei Pan"
+      ],
+      "year": 2024,
+      "type": "experimental original paper",
+      "url": "https://doi.org/10.1103/PhysRevLett.133.060201",
+      "role": "Original loophole-free 4.32-billion-trial Hardy nonlocality experiment against defined Bell-local realism under its statistical assumptions",
+      "access": "partially-studied",
+      "note": "APS published abstract and harvest full-text excerpt examined; no complete original supplement/event-level data, and the paper's p upper bound NOT independently recomputed.",
+      "linkedLedger": [
+        "WL-024"
+      ],
+      "verdictEffect": "Source model class Bell-local realism strongly empirically disfavored; single-actual-history NONLOCAL completions not ruled out.",
+      "effectReason": "Null p ≤10^-16348 is conditional on local realism/test assumptions, not probability one or many worlds.",
+      "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-083",
+      "field": "Quantum foundations",
+      "title": "Observation of the Transition from Reversible to Irreversible Decoherence of Mesoscopic Quantum Superpositions",
+      "authors": [
+        "Ri-Hua Zheng",
+        "Jia-Hao Lü",
+        "Fan Wu",
+        "Yan Xia",
+        "Li-Hua Lin",
+        "Zhen-Biao Yang",
+        "Shi-Biao Zheng"
+      ],
+      "year": 2026,
+      "type": "experimental original paper",
+      "url": "https://doi.org/10.1103/t2yx-9bqh",
+      "role": "October 2026 circuit-QED experiment varying quantum bath degrees of freedom and mesoscopic which-path erasure",
+      "access": "abstract-reviewed",
+      "note": "APS PRL original published abstract and bibliographic information inspected. Full subscription text, raw data and quantitative size dependence NOT obtained.",
+      "linkedLedger": [
+        "WL-025"
+      ],
+      "verdictEffect": "Reported reservoir-induced loss of spontaneous recoherence under controlled bath supports open-system dynamics; no fundamental irreversibility theorem or multiple worlds detection.",
+      "effectReason": "Operational spontaneous recoherence in a finite bath is compatible with unitary global dynamics and with quantum-equilibrium one-history theories.",
+      "verifiedAt": "2026-10-22"
     }
   ],
   "scholars": [
