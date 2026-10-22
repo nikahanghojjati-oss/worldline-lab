@@ -232,12 +232,15 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRev.85.166",
       "role": "Single-outcome alternative framework",
-      "access": "catalogued",
-      "note": "",
-      "linkedLedger": [],
+      "access": "fully-studied",
+      "note": "Whole original main published text source-critically read 2026-10-21; NOTE-043 and research/full-study-batch-002.md. No full independent proof or data replication.",
+      "linkedLedger": [
+        "WL-008",
+        "WL-010"
+      ],
       "verdictEffect": "none",
-      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
-      "verifiedAt": null
+      "effectReason": "Bohmian quantum equilibrium remains observationally equivalent to ordinary Born laboratory statistics despite single actual configuration, no direct empirical branch census.",
+      "verifiedAt": "2026-10-21"
     },
     {
       "id": "SRC-011",
@@ -1224,13 +1227,14 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRev.85.180",
       "role": "Single actual particle configurations and nonlocal correlations",
-      "access": "abstract-reviewed",
-      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "access": "fully-studied",
+      "note": "Whole original main published text source-critically read 2026-10-21; NOTE-044 and research/full-study-batch-002.md. No full independent proof or data replication.",
       "linkedLedger": [
-        "WL-008"
+        "WL-008",
+        "WL-010"
       ],
       "verdictEffect": "none",
-      "effectReason": "No direct unique history-count discrimination.",
+      "effectReason": "Bohmian quantum equilibrium remains observationally equivalent to ordinary Born laboratory statistics despite single actual configuration, no direct empirical branch census.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -1360,6 +1364,75 @@
         "readingNoteId": "NOTE-040",
         "sourceVerified": "original publisher/institution full text"
       }
+    },
+    {
+      "id": "SRC-065",
+      "field": "Quantum information",
+      "title": "Loophole-free Bell test using electron spins in diamond: second experiment and additional analysis",
+      "authors": [
+        "B. Hensen",
+        "N. Kalb",
+        "M. S. Blok",
+        "A. E. Dréau",
+        "A. Reiserer",
+        "R. Hanson",
+        "et al."
+      ],
+      "year": 2016,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/srep30289",
+      "role": "Second run plus finite-sample Bell p-values and RNG-bias theorem, not a branch detector",
+      "access": "fully-studied",
+      "note": "Whole open-access original main published text read; NOTE-045, research/full-study-batch-002.md; not raw/supplemental data reanalysis.",
+      "linkedLedger": [
+        "WL-010"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Prediction/parameter evidence does not directly determine physically real branch count.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-066",
+      "field": "Quantum foundations",
+      "title": "Challenging Spontaneous Quantum Collapse with the XENONnT Dark Matter Detector",
+      "authors": [
+        "E. Aprile",
+        "XENON Collaboration"
+      ],
+      "year": 2026,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/2jm3-4976",
+      "role": "1–140 keV X-rays constrain specific Markovian CSL and Diósi–Penrose dynamics",
+      "access": "abstract-reviewed",
+      "note": "Original publisher abstract and targeted introduction/model passage only, NOTE-047; NOT full main text or reproduced likelihood.",
+      "linkedLedger": [
+        "WL-011"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Prediction/parameter evidence does not directly determine physically real branch count.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-067",
+      "field": "Physics",
+      "title": "Updating the constraint on the quantum collapse models via kilogram masses",
+      "authors": [
+        "Qi Dai",
+        "Haixing Miao",
+        "Yiqiu Ma"
+      ],
+      "year": 2024,
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2411.17588",
+      "role": "LISA Pathfinder noise reinterpretation provides model-conditioned CSL and DP parameter bounds",
+      "access": "abstract-reviewed",
+      "note": "Original arXiv v1 abstract checked, NOTE-048; forward underground projection not measured.",
+      "linkedLedger": [
+        "WL-011"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Prediction/parameter evidence does not directly determine physically real branch count.",
+      "verifiedAt": "2026-10-21"
     }
   ],
   "scholars": [
@@ -2495,7 +2568,7 @@
   ],
   "verdictAudit": {
     "currentScore": 59,
-    "empiricalConclusion": "Undetermined: one experienced record is observed, but the physically real multiplicity of quantum histories is not uniquely established or excluded by reviewed evidence.",
+    "empiricalConclusion": "Unresolved: equilibrium Bohmian single-configuration and Everett unitary branch models can reproduce the same quantum results; objective-collapse parameter exclusions do not count histories.",
     "initialScoreExplanation": "59 is a preexisting editorial illustration, not a scientifically validated Bayesian posterior. No newly indexed work warrants an adjustment.",
     "changeLog": [
       {
@@ -2707,6 +2780,44 @@
         ],
         "fullStudyReport": "research/full-study-batch-001.md",
         "justification": "Critical reviews of Bell, PBR, Everett/SEP, causal-process formalism, photon quantum switches, Bell-Wigner experiment, single-outcome rebuttal, Gödel, Hawking and bubble-CMB tests yield mathematical theorems and model-dependent observations, none uniquely distinguishing the number of physically actual quantum histories. A higher count of reviewed papers is progress in scholarship, not numerical likelihood of many worlds."
+      },
+      {
+        "id": "VC-008",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Original Bohm I+II and 2016 Hensen second Bell main-text full reviews; Everett/Bohm/GRW/CSL model comparison; 2026 XENONnT parameter-targeted source checks",
+        "sourceIds": [
+          "SRC-007",
+          "SRC-010",
+          "SRC-059",
+          "SRC-042",
+          "SRC-048",
+          "SRC-065",
+          "SRC-066",
+          "SRC-067"
+        ],
+        "ledgerIds": [
+          "WL-005",
+          "WL-008",
+          "WL-009",
+          "WL-010",
+          "WL-011"
+        ],
+        "readingNotes": [
+          "NOTE-043",
+          "NOTE-044",
+          "NOTE-045",
+          "NOTE-046",
+          "NOTE-047",
+          "NOTE-048",
+          "NOTE-049"
+        ],
+        "fieldNote": "research/ontology-predictions-S002-R001.md",
+        "fullStudyReport": "research/full-study-batch-002.md",
+        "justification": "Quantum-equilibrium Bohmian mechanics (one actual configuration) and Everettian unitary dynamics (multiple emergent relative states) agree on ordinary Born measurements. Bell tests constrain local hidden-variable classes, and 2026 XENONnT limits are conditional on specific altered collapse dynamics. Neither theory-only toy calculation nor reading new papers constitutes a history-count experiment. Compass 59 remains inherited editorial, not calibrated probability."
       }
     ],
     "revisionRequirements": [
