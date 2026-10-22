@@ -1,6 +1,6 @@
 # HAMMER · Hypothesis Adversarial Mapping, Measurement & Evidence Refinement
 
-**Version:** experimental research instrument v0.1 · 2026-10-22 · Worldline Lab only
+**Version:** experimental AGI-inspired research instrument v0.2 · 2026-10-22 · Worldline Lab only
 
 **Owner's goal:** Push the frontier of the project's actual one-versus-many-physically-real-histories question by deep reading, adversarial theory comparison, mathematical reproduction, uncertainty-aware experiments, criticism, and sometimes genuinely evidence-justified revisions of a model-specific claim or the Truth Ledger. HAMMER does **not** make an AI model a scientist, render an experiment by drawing a chart, or change a scientific score to manufacture progress.
 
@@ -86,8 +86,8 @@ HAMMER now adds a bounded, **inspectable reasoning-search architecture** on top 
 
 ## Growth path (not falsely claimed complete)
 
-HAMMER v0.2: source-bound AI model study packets with independently replayed exact citation passages; deterministic audited numerical likelihoods, power, calibration and model-discrepancy bounds; optional trusted provider audit trail with commit-binding.
+HAMMER v0.3: source-bound AI model study packets with independently replayed exact citation passages; deterministic audited numerical likelihoods, power, calibration and model-discrepancy bounds; optional trusted provider audit trail with commit-binding.
 
-HAMMER v0.3: discover candidate cross-field discriminators (decoherence, cosmological structure, nonequilibrium pilot waves) from verified physics/math libraries; reject equivalence traps before costly instrument proposals; rank testability and known failure modes.
+HAMMER v0.4: discover candidate cross-field discriminators (decoherence, cosmological structure, nonequilibrium pilot waves) from verified physics/math libraries; reject equivalence traps before costly instrument proposals; rank testability and known failure modes.
 
 HAMMER v1: evidence-bearing original theoretical contribution **only if mathematically proved or empirically replicated**. Include red-team model criticism and reversible claim provenance; never confer AGI capability status by the product name.
