@@ -1,0 +1,30 @@
+name: Worldline Truth Engine v0.2 integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "tools/truth-engine/**"
+      - ".github/workflows/worldline-integrity.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "tools/truth-engine/**"
+      - ".github/workflows/worldline-integrity.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Worldline Lab
+        uses: actions/checkout@v4
+      - name: Install supported Node LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Audit source and claim dependencies
+        run: node tools/truth-engine/validate.cjs
+      - name: Execute intentionally failing integrity fixtures
+        run: node tools/truth-engine/test.cjs
