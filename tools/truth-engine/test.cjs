@@ -24,8 +24,8 @@ if(base.truthEngine){
   id:'P-TEST',claimClass:'Experiment',hypothesis:'one versus many',nullHypothesis:'no change',
   prediction:'test',counterevidenceSearch:'',alternativeExplanations:'named alternatives',
   sourceIds:['SRC-007'],readingNoteIds:['NOTE-050'],uncertainty:'noise',
-  impactRationale:'conditional',priorAuditId:'VC-009',
-  reviewedEvidenceCommit:'959e3df0b0031201742cd1019ad6a15db514d18d',oldScore:59,proposedScore:60
+  impactRationale:'conditional',priorAuditId:'VC-010',
+  reviewedEvidenceCommit:'959e3df0b0031201742cd1019ad6a15db514d18d',oldScore:50,proposedScore:51
  }), 'counterevidenceSearch');
 }
 console.log('Truth Engine fixtures PASS, baseline: '+JSON.stringify(pass.counts));
