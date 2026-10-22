@@ -7,11 +7,11 @@ const ham=require('./identifiability.cjs');
 function arm(x,shots,baseline=.98){
  if(!Number.isFinite(x)||x<=0||x>20)throw Error('dimensionless separation must be 0 < x <= 20');
  const a=x*x,b=-Math.expm1(-x*x/4);
- return {id:'sep-'+x.toFixed(4),environment:a,intrinsic:b,time:1,shots,baseline};
+ return {id:'sep-'+x.toFixed(4).replace('.','p'),environment:a,intrinsic:b,time:1,shots,baseline};
 }
 function config(x,y,shots=1000,rates={gamma:.09,lambda:.12}){
  return {schema:'worldline-hammer-two-rate/v1',evidenceClass:'synthetic-theory-only',
-  gamma:rates.gamma,lambda:rates.lambda,arms:[arm(x,shots),arm(y,shots)]};
+  gamma:rates.gamma,lambda:rates.lambda,arms:[{...arm(x,shots),id:'arm-one'},{...arm(y,shots),id:'arm-two'}]};
 }
 function scan(options={}){
  const xs=options.separations||Array.from({length:30},(_,i)=>Number(((i+1)*.15).toFixed(4)));
