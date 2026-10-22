@@ -82,6 +82,14 @@ async function run(viewportName,viewport){
    await page.waitForFunction(()=>document.querySelector('#lab-detail')?.hidden===true);
   }
   await assertRoute(page,'ledger');
+  const truthPanel=page.locator('#truth-engine-view');
+  await page.waitForFunction(()=>document.querySelector('#truth-engine-view')?.textContent?.includes('Recorded directional decisions:'));
+  assert.match(await truthPanel.innerText(),/Independent human scientific GitHub review is required/,'v0.2 trusted reviewer policy is explained');
+  assert.match(await truthPanel.innerText(),/not an empirical probability/,'compass scientific calibration caveat');
+  assert.ok(await truthPanel.locator('a[href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/truth-engine.json"]').count()===1,'auditable Truth Engine source link');
+  const publishedDecisions=JSON.parse(fs.readFileSync(path.join(root,'data/truth-engine.json'),'utf8')).changeLedger.length;
+  assert.match(await truthPanel.innerText(),new RegExp('Recorded directional decisions: '+publishedDecisions+'\\b'),'display equals actual versioned decision count');
+  if(publishedDecisions===0)assert.match(await truthPanel.innerText(),/No approved directional score-changing decision has been published/,'no fabricated directional approvals');
   const ledgerText=await page.locator('#page-ledger').innerText();
   assert.ok(ledgerText.includes('WL-019')||ledgerText.includes('Born-rule'),'R010 primary question source finding displayed');
   assert.equal(exceptions.length,0,'no uncaught client JS errors: '+exceptions.join('; '));
