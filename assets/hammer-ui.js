@@ -33,7 +33,7 @@
     '<p><strong>Generated new research question:</strong> '+esc(correlations.nextQuestion)+'</p>'+
     '<p>Verified novel discoveries: 0 · Scientific verdict: unresolved · Ledger change: 0</p></div></section>'+
     '<p class="hammer-boundary">AI scientific reviewing is intended to be model-led, with source-study and adversarial critique from separate AI models. None have been invoked by this public page. The current score remains editorial 50; no experiment here changes it.</p>'+
-    '<p class="hammer-links"><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/hammer.json" target="_blank" rel="noopener noreferrer">Inspect model assumptions ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/tools/hammer/ai-panel.cjs" target="_blank" rel="noopener noreferrer">Inspect the AI-review protocol ↗</a></p>';
+    '<p class="hammer-links"><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/hammer.json" target="_blank" rel="noopener noreferrer">Inspect model assumptions ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/research/hammer-identifiability-and-source-critique-S003-R006.md" target="_blank" rel="noopener noreferrer">Read the HAMMER scientific manuscript and source audit ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/tools/hammer/ai-panel.cjs" target="_blank" rel="noopener noreferrer">Inspect the AI-review protocol ↗</a></p>';
    const select=root.querySelector('#hammer-design');
    function update(){
     const d=data.designs.find(x=>x.id===select.value)||data.designs[0],summary=report.results.find(x=>x.id===d.id),[a,b]=d.models;
