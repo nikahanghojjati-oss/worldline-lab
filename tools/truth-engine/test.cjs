@@ -73,4 +73,22 @@ assert.equal(comparison.channels.filter(s=>s.lambdaUpper===null).length,2,'no in
 assert.equal(comparison.scientificVerdict.includes('none of these observations distinguish'),true,'ontology caveat required');
 console.log('PASS versioned five-channel bound comparison and original source-data reproduction integration');
 console.log('PASS original Ge posterior and LISA acceleration-noise numerical reproductions; no detector-level data claimed');
+const mainQuestion=base.discriminator;
+assert.equal(mainQuestion.candidates.length,5,'five primary ontology-discrimination research gates');
+assert.equal(mainQuestion.scorePolicy.centralScore,base.ledger.editorialMeter.score,'candidate score must match real scoreboard');
+const counts={n:mainQuestion.fixedBackgroundDiagnostic.observedCounts,b:mainQuestion.fixedBackgroundDiagnostic.backgroundFixedAt,k:mainQuestion.fixedBackgroundDiagnostic.coefficient,r:mainQuestion.fixedBackgroundDiagnostic.referenceRCm};
+const conditionalLogLR=lambda=>{const s=counts.k*lambda/(counts.r*counts.r);return counts.n*Math.log1p(s/counts.b)-s};
+assert.ok(conditionalLogLR(3.34e-13)>0,'fixed background can favor some specific CSL strengths');
+assert.ok(conditionalLogLR(1e-12)<0,'same data can disfavor other preselected CSL strengths');
+assert.ok(Math.abs(conditionalLogLR(1e-12)+10.017982050900116)<1e-9,'original Ge count-level likelihood diagnostics reproduce');
+assert.ok(mainQuestion.fixedBackgroundDiagnostic.warning.includes('NOT'),'conditional calculation must not masquerade as score');
+assert.equal(base.pageFreshness.pages.length,8,'eight public routes require freshness inventory');
+assert.equal(base.pageFreshness.nextMandatorySweepRoundLogCount,14,'next mandatory full sweep R010');
+fails('freshness missing at fifth round',d=>{
+ d.sessions.roundLog.push({...d.sessions.roundLog.at(-1),id:'S-002-R010'});
+},'five-round website sweep missing');
+fails('unpaired central test',d=>{
+ d.discriminator.candidates[0].candidateObservable='';
+},'missing paired hypotheses');
+console.log('PASS central-question opposite-direction conditional likelihood and five-round publication freshness fail-closed tests');
 console.log('Truth Engine fixtures PASS, baseline: '+JSON.stringify(pass.counts));
