@@ -23,7 +23,31 @@
     "influenceRule": "A work influences the measured single-history vs many-histories direction only if it demonstrates a verifiable prediction that differentiates candidates after alternatives and dependencies are considered. Bibliographic influence alone has no compass impact.",
     "countingRule": "Only 'fully-studied' records count as completed full works; abstracts and catalogue entries are separate. Avoid duplicated counts for same DOI or coauthored work; count per work once and per field once.",
     "notesRule": "Advance a work only with source ID, exact section/pages, study date, researcher/session, claim, methods, limitations, alternative interpretations and evidence-led impact reason.",
-    "datePrecision": "A catalogue entry's year is publication year, not the date personally studied."
+    "datePrecision": "A catalogue entry's year is publication year, not the date personally studied.",
+    "scholarIdentityAudit": {
+      "date": "2026-10-21",
+      "round": "S-002-R004",
+      "kind": "repair-preexisting-three-duplicate-researcher-ids",
+      "changes": [
+        {
+          "oldId": "R-055",
+          "researcher": "Michael S. Morris",
+          "newId": "R-101"
+        },
+        {
+          "oldId": "R-056",
+          "researcher": "Kip S. Thorne",
+          "newId": "R-102"
+        },
+        {
+          "oldId": "R-057",
+          "researcher": "Ulvi Yurtsever",
+          "newId": "R-103"
+        }
+      ],
+      "preservation": "No researcher work lists/names/field mappings altered; only later-collision entries re-keyed. Existing earlier R-055 Thomas Kuhn, R-056 Daniel Kahneman, R-057 Amos Tversky preserved unchanged. No source count or study-depth credit changes.",
+      "validation": "Truth Engine v0.2 automated ID tests required"
+    }
   },
   "works": [
     {
@@ -2057,7 +2081,7 @@
       "focus": "Avoid motivated interpretation of weighted claims"
     },
     {
-      "id": "R-055",
+      "id": "R-101",
       "name": "Michael S. Morris",
       "fields": [
         "Relativity"
@@ -2068,7 +2092,7 @@
       "focus": "Conditional wormhole chronology and weak energy constraint"
     },
     {
-      "id": "R-056",
+      "id": "R-102",
       "name": "Kip S. Thorne",
       "fields": [
         "Relativity"
@@ -2079,7 +2103,7 @@
       "focus": "Conditional wormhole chronology and weak energy constraint"
     },
     {
-      "id": "R-057",
+      "id": "R-103",
       "name": "Ulvi Yurtsever",
       "fields": [
         "Relativity"
