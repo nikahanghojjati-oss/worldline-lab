@@ -1,8 +1,8 @@
 {
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
-  "mission": "Can one coherent history or multiple histories be distinguished by physically testable predictions?",
-  "phase": "Source-checked chronology-protection research, with explicit assumption/counterargument notes visible in physics and quantum labs",
+  "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
+  "phase": "Ontology-first inquiry: what do observed quantum outcomes tell us about one real history versus many? Six research sections plus a PBR conceptual check.",
   "milestones": [
     {
       "id": "M1",
@@ -52,7 +52,7 @@
       "name": "Physics",
       "symbol": "Φ",
       "theme": "Causality, relativity, decoherence",
-      "work": "Map closed timelike curves and physically realistic constraints.",
+      "work": "One-world and many-world quantum ontology, experiments and causal structure",
       "state": "in review",
       "slug": "physics",
       "readingFields": [
@@ -61,18 +61,20 @@
       ],
       "additionalSourceIds": [],
       "prioritySourceIds": [
+        "SRC-007",
+        "SRC-010",
+        "SRC-011",
+        "SRC-042",
         "SRC-003",
         "SRC-055",
         "SRC-056",
         "SRC-057",
         "SRC-002",
         "SRC-004",
-        "SRC-007",
-        "SRC-011",
         "SRC-005"
       ],
       "goal": "Distinguish tested relativistic effects, mathematically allowed time loops, and rival quantum interpretations.",
-      "question": "Which original predictions, if any, discriminate a physically realized branching history from a single one?",
+      "question": "What evidence from physics distinguishes one actually real history from many physically real histories?",
       "topics": [
         {
           "id": "physics-T1",
@@ -125,6 +127,21 @@
       },
       "caseHighlights": [
         {
+          "title": "Quantum reality after a measurement",
+          "summary": "Contrast Everett branch multiplicity, Bohmian one actual configuration and GRW collapse.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-011",
+            "SRC-042"
+          ],
+          "readingNoteIds": [
+            "NOTE-026",
+            "NOTE-028"
+          ],
+          "limitation": "No unique evidence for physical branch count."
+        },
+        {
           "title": "Hawking: formation restrictions",
           "summary": "Compactly generated Cauchy horizons arising from a bounded intervention face energy-condition obstacles and semiclassical vacuum-polarization concerns.",
           "sourceIds": [
@@ -160,13 +177,13 @@
           "limitation": "This undermines overconfident extrapolation; it does not create a time machine."
         }
       ],
-      "fieldNote": "research/field-note-003.md"
+      "fieldNote": "research/field-note-004.md"
     },
     {
       "name": "Mathematics",
       "symbol": "∑",
       "theme": "Consistency and branching logic",
-      "work": "Formalize assumptions; test fixed points and contradictions.",
+      "work": "Analyze which ontologies are observationally equivalent",
       "state": "queued",
       "slug": "mathematics",
       "readingFields": [
@@ -178,16 +195,22 @@
         "SRC-020",
         "SRC-024",
         "SRC-055",
-        "SRC-056"
+        "SRC-056",
+        "SRC-044",
+        "SRC-010",
+        "SRC-059"
       ],
       "prioritySourceIds": [
+        "SRC-044",
+        "SRC-010",
+        "SRC-059",
         "SRC-023",
         "SRC-024",
         "SRC-002",
         "SRC-019"
       ],
       "goal": "State assumptions, paradoxes, fixed-point consistency, and causal graphs precisely.",
-      "question": "Do proposed histories differ mathematically in observable predictions or only in interpretation?",
+      "question": "What evidence from mathematics distinguishes one actually real history from many physically real histories?",
       "topics": [
         {
           "id": "mathematics-T1",
@@ -237,13 +260,29 @@
         "presentationRoom": "v1 research presentation",
         "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
         "interdisciplinary": "linked cross-field topics"
-      }
+      },
+      "caseHighlights": [
+        {
+          "title": "State reality is not branch count",
+          "summary": "PBR constrains specific epistemic descriptions under preparation independence, without requiring Everett.",
+          "sourceIds": [
+            "SRC-044",
+            "SRC-010",
+            "SRC-059"
+          ],
+          "readingNoteIds": [
+            "NOTE-032"
+          ],
+          "limitation": "Independent theorem proof not yet reconstructed."
+        }
+      ],
+      "fieldNote": "research/field-note-004.md"
     },
     {
       "name": "Quantum computing",
       "symbol": "Q",
       "theme": "Simulations, circuits, and information",
-      "work": "Distinguish laboratory analogs from actual temporal loops.",
+      "work": "Quantum models, decoherence, Bell correlations and distinct predictions",
       "state": "queued",
       "slug": "quantum-computing",
       "readingFields": [
@@ -256,16 +295,21 @@
         "SRC-014",
         "SRC-018",
         "SRC-055",
-        "SRC-056"
+        "SRC-056",
+        "SRC-058"
       ],
       "prioritySourceIds": [
+        "SRC-060",
+        "SRC-061",
+        "SRC-058",
+        "SRC-007",
         "SRC-019",
         "SRC-020",
         "SRC-021",
         "SRC-022"
       ],
       "goal": "Compare quantum circuits, indefinite causal order and hypothetical closed-timelike-curve models.",
-      "question": "What does an experiment actually measure, versus what a circuit merely simulates?",
+      "question": "What evidence from quantum computing distinguishes one actually real history from many physically real histories?",
       "topics": [
         {
           "id": "quantum-computing-T1",
@@ -318,6 +362,20 @@
       },
       "caseHighlights": [
         {
+          "title": "Bell violation is not a branch detector",
+          "summary": "2015 loophole-free Bell experiments constrain local-realist nulls, not the number of quantum worlds.",
+          "sourceIds": [
+            "SRC-060",
+            "SRC-061",
+            "SRC-058",
+            "SRC-007"
+          ],
+          "readingNoteIds": [
+            "NOTE-030"
+          ],
+          "limitation": "No current Bell experiment chooses Everett over nonlocal Bohmian mechanics."
+        },
+        {
           "title": "Model boundaries: circuits versus horizons",
           "summary": "Deutsch and postselected models assume consistency prescriptions; chronology-horizon theorems address semiclassical spacetime and field states. Mathematical circuit consistency does not resolve gravitational existence.",
           "sourceIds": [
@@ -335,13 +393,13 @@
           "limitation": "Cross-discipline synthesis; no common operational experiment yet."
         }
       ],
-      "fieldNote": "research/field-note-003.md"
+      "fieldNote": "research/field-note-004.md"
     },
     {
       "name": "AI & computer science",
       "symbol": "AI",
       "theme": "Inference, causal graphs, provenance",
-      "work": "Build reproducible evidence classification and contradiction audits.",
+      "work": "Compute dependency graphs and observational-equivalence matrices",
       "state": "queued",
       "slug": "ai-computer-science",
       "readingFields": [
@@ -351,16 +409,20 @@
         "SRC-024",
         "SRC-025",
         "SRC-039",
-        "SRC-040"
+        "SRC-040",
+        "SRC-007",
+        "SRC-010"
       ],
       "prioritySourceIds": [
         "SRC-024",
+        "SRC-007",
+        "SRC-010",
         "SRC-029",
         "SRC-027",
         "SRC-040"
       ],
       "goal": "Build a reproducible source-provenance graph, inference rules and contradiction audits.",
-      "question": "Can claims and revisions be traced through evidence and causal assumptions without overstating confidence?",
+      "question": "What evidence from ai & computer science distinguishes one actually real history from many physically real histories?",
       "topics": [
         {
           "id": "ai-computer-science-T1",
@@ -410,7 +472,24 @@
         "presentationRoom": "v1 research presentation",
         "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
         "interdisciplinary": "linked cross-field topics"
-      }
+      },
+      "caseHighlights": [
+        {
+          "title": "Model selection needs distinctive predictions",
+          "summary": "Causal-model comparisons will identify when rival ontologies agree with the same empirical evidence.",
+          "sourceIds": [
+            "SRC-024",
+            "SRC-007",
+            "SRC-010"
+          ],
+          "readingNoteIds": [
+            "NOTE-026",
+            "NOTE-028"
+          ],
+          "limitation": "Algorithmic simulation is not a physical branch experiment."
+        }
+      ],
+      "fieldNote": "research/field-note-004.md"
     },
     {
       "name": "Neuroscience",
@@ -486,7 +565,7 @@
       "name": "Chemistry",
       "symbol": "⚗",
       "theme": "Molecular coherence",
-      "work": "Assess whether large-scale quantum interference informs interpretation tests.",
+      "work": "Quantitative coherence, noise and collapse-model tests",
       "state": "queued",
       "slug": "chemistry",
       "readingFields": [
@@ -494,14 +573,17 @@
       ],
       "additionalSourceIds": [
         "SRC-011",
-        "SRC-021"
+        "SRC-021",
+        "SRC-042"
       ],
       "prioritySourceIds": [
-        "SRC-032",
-        "SRC-011"
+        "SRC-048",
+        "SRC-042",
+        "SRC-011",
+        "SRC-032"
       ],
       "goal": "Review interference, molecular decoherence and scale-dependent quantum coherence.",
-      "question": "What can molecular interference establish about quantum mechanics, and what remains interpretive?",
+      "question": "What evidence from chemistry distinguishes one actually real history from many physically real histories?",
       "topics": [
         {
           "id": "chemistry-T1",
@@ -551,7 +633,23 @@
         "presentationRoom": "v1 research presentation",
         "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
         "interdisciplinary": "linked cross-field topics"
-      }
+      },
+      "caseHighlights": [
+        {
+          "title": "Molecular coherence constrains collapse",
+          "summary": "Molecule interference tests superpositions and parameters of objective-collapse alternatives.",
+          "sourceIds": [
+            "SRC-048",
+            "SRC-042",
+            "SRC-011"
+          ],
+          "readingNoteIds": [
+            "NOTE-029"
+          ],
+          "limitation": "Neither every collapse theory nor one-history ontology is ruled out."
+        }
+      ],
+      "fieldNote": "research/field-note-004.md"
     },
     {
       "name": "Biology",
@@ -628,7 +726,7 @@
       "name": "History",
       "symbol": "H",
       "theme": "Epistemology and records",
-      "work": "Model counterfactual histories and independent provenance verification.",
+      "work": "Trace publication-era quantum ontology and scientific change",
       "state": "queued",
       "slug": "history",
       "readingFields": [
@@ -636,16 +734,22 @@
       ],
       "additionalSourceIds": [
         "SRC-023",
-        "SRC-025"
+        "SRC-025",
+        "SRC-007",
+        "SRC-010",
+        "SRC-042"
       ],
       "prioritySourceIds": [
+        "SRC-007",
+        "SRC-010",
+        "SRC-042",
         "SRC-038",
         "SRC-039",
         "SRC-040",
         "SRC-023"
       ],
       "goal": "Apply source criticism, counterfactual logic and philosophy of science to historical claims.",
-      "question": "How can a claim about an alternative history be framed without fabricating observations?",
+      "question": "What evidence from history distinguishes one actually real history from many physically real histories?",
       "topics": [
         {
           "id": "history-T1",
@@ -695,13 +799,30 @@
         "presentationRoom": "v1 research presentation",
         "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
         "interdisciplinary": "linked cross-field topics"
-      }
+      },
+      "caseHighlights": [
+        {
+          "title": "A history of theories is not proof of alternate histories",
+          "summary": "Everett, Bohm and GRW propose different laws or ontologies in different historical contexts.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-042"
+          ],
+          "readingNoteIds": [
+            "NOTE-026",
+            "NOTE-028"
+          ],
+          "limitation": "Historical prominence does not experimentally count worlds."
+        }
+      ],
+      "fieldNote": "research/field-note-004.md"
     },
     {
       "name": "Astronomy",
       "symbol": "✺",
       "theme": "Observational clocks and cosmic distances",
-      "work": "Review gravitational timing and astrophysical proposals.",
+      "work": "Inflationary cosmologies tested via CMB data, separate from quantum histories",
       "state": "queued",
       "slug": "astronomy",
       "readingFields": [
@@ -714,13 +835,15 @@
         "SRC-002"
       ],
       "prioritySourceIds": [
-        "SRC-035",
+        "SRC-062",
+        "SRC-063",
         "SRC-036",
+        "SRC-035",
         "SRC-037",
         "SRC-005"
       ],
       "goal": "Study observed cosmic clocks, cosmological models and extreme relativistic predictions.",
-      "question": "What do astronomical observations constrain, and do any discriminate rival history hypotheses?",
+      "question": "What evidence from astronomy distinguishes one actually real history from many physically real histories?",
       "topics": [
         {
           "id": "astronomy-T1",
@@ -770,10 +893,72 @@
         "presentationRoom": "v1 research presentation",
         "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
         "interdisciplinary": "linked cross-field topics"
-      }
+      },
+      "caseHighlights": [
+        {
+          "title": "Bubble regions are not Everett branches",
+          "summary": "WMAP searches found no compelling bubble-collision addition under studied scenarios.",
+          "sourceIds": [
+            "SRC-062",
+            "SRC-063",
+            "SRC-036"
+          ],
+          "readingNoteIds": [
+            "NOTE-031"
+          ],
+          "limitation": "A null sky signal cannot exclude all possible external regions."
+        }
+      ],
+      "fieldNote": "research/field-note-004.md"
     }
   ],
   "journal": [
+    {
+      "id": "J-003",
+      "date": "21 October 2026",
+      "category": "RESEARCH REPORT · R005 · ONE REAL HISTORY OR MANY",
+      "title": "Does our universe contain one timeline—or many physically real histories?",
+      "intro": "The central problem is the number of actual outcome histories in our own universe, not whether people can revisit the past.",
+      "sections": [
+        {
+          "heading": "1 · Everett and relative-state branches",
+          "text": "Everett interprets one universal uncollapsed quantum state as encompassing many branch-relative worlds. No other actual branch has been directly counted. SRC-007, SRC-012, NOTE-026."
+        },
+        {
+          "heading": "2 · Decoherence and the quantum cat",
+          "text": "Environmental entanglement suppresses locally visible interference but does not decide whether a single outcome or multiple branch-relative histories are physically actual. SRC-011, SRC-058, NOTE-027."
+        },
+        {
+          "heading": "3 · Bohm's one actual configuration",
+          "text": "Nonlocal particle guidance assigns definite actual positions while reproducing many quantum results, showing that generic interference alone does not demand many actual histories. SRC-010, SRC-059, NOTE-028."
+        },
+        {
+          "heading": "4 · GRW collapse and molecular experiments",
+          "text": "Physical-collapse modifications have parameter-dependent predictions. Large-molecule quantum interference constrains some, not all, modified models. SRC-042, SRC-048, NOTE-029."
+        },
+        {
+          "heading": "5 · Bell tests do not count timelines",
+          "text": "Loophole-free Bell experiments reject specified local-realist models, not nonlocal single-outcome physics as a category or Everett-vs-Bohm ontology. SRC-060, SRC-061, NOTE-030."
+        },
+        {
+          "heading": "6 · Separate cosmological bubble hypotheses",
+          "text": "Eternal-inflation bubbles are physically different from Everett branches. WMAP bubble-collision data showed no warrant for additional model complexity under the tested scenario. SRC-062, SRC-063, NOTE-031."
+        },
+        {
+          "heading": "7 · PBR's narrower conclusion",
+          "text": "Wavefunction ontic-status constraints under preparation independence do not prove many actual histories. SRC-044, NOTE-032."
+        },
+        {
+          "heading": "Verdict and continuation",
+          "text": "One observed history is consistent with competing ontologies. No decisive physical history-count experiment; editorial compass stays 59→59, VC-006. More detailed mathematical and experimental comparisons are next."
+        }
+      ],
+      "sourceIds": [
+        "WL-005",
+        "WL-008",
+        "WL-009"
+      ]
+    },
     {
       "id": "J-002",
       "date": "21 October 2026",
@@ -836,7 +1021,7 @@
       "id": "P1",
       "title": "Define the question and rules of evidence",
       "state": "in progress",
-      "deliverable": "A clear distinction among time dilation, backward time travel, and multiple physical histories; a falsifiable claim taxonomy.",
+      "deliverable": "Distinguish one observed record from one globally actual outcome, many Everett branches, cosmological bubbles and hypothetical causal loops.",
       "gate": "Definitions and limits are explicitly sourced; the Truth Ledger cannot mistake interpretation for observation."
     },
     {
@@ -850,7 +1035,7 @@
       "id": "P3",
       "title": "Read, annotate and critically compare primary works",
       "state": "in progress",
-      "deliverable": "Targeted source-level readings are underway with specific pages and counterarguments; 5 works partial, 0 completed full-study reviews.",
+      "deliverable": "Six bounded original-source comparison tracks plus PBR check; no abstract promoted to a completed full paper.",
       "gate": "High-priority works are examined at source level; no abstract is counted as a full reading."
     },
     {
@@ -944,5 +1129,20 @@
       "instrument": "Scale and timing comparison",
       "state": "initial presentation"
     }
-  ]
+  ],
+  "primaryQuestion": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
+  "questionScope": {
+    "core": "One physically actual sequence of outcome events versus multiple branch-relative Everett worlds within one universal wave state",
+    "competing": [
+      "Everett unitary branching",
+      "Bohmian definite configuration",
+      "Objective collapse with genuinely modified dynamics"
+    ],
+    "distinct": [
+      "Cosmological bubble universes",
+      "Hypothetical backward travel/closed timelike curves",
+      "A human's one experienced record"
+    ],
+    "standard": "Do not interpret empirical agreement across models as proof of physical plurality; require a discriminating prediction."
+  }
 }
