@@ -1,5 +1,5 @@
 {
-  "schema": "worldline-session/v2",
+  "schema": "worldline-session/v3",
   "updated": "2026-10-21",
   "authority": "GitHub's versioned JSON records what research sessions reported. The public website cannot inspect ChatGPT context, token counts, or unreported chats, and local browser assessments do not automatically publish.",
   "liveUsage": {
@@ -9,9 +9,9 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "IN PROGRESS",
-  "activeWork": "Expand the Worldline Lab research canon, connect a public scholar library, and write the first source-bound analytical research notes.",
-  "lastVerified": "First Scholar Library publication includes 40 distinct works, 54 researchers, 11 fields and 10 source-level notes; a formal preliminary field note and review protocol are versioned alongside the website.",
-  "nextStep": "Check deployed Scholar Library functionality, repair any remaining navigation issues, and begin a full-text section-by-section review of Gödel, Hawking, Everett, Bell and Deutsch. Document precise quotations/sections and model predictions before any empirical compass adjustment.",
+  "activeWork": "Expand the evidence library and full-text physics research while keeping the public Session Observatory synchronized with verified repository work.",
+  "lastVerified": "Published the Worldline Lab Scholar Library with 40 indexed works, 54 named researchers and 10 abstract-level notes, plus the first field note. The session control redesign is underway.",
+  "nextStep": "Complete source-level research on the physics of chronology protection and evaluate the candidate interpretations with section-cited evidence; develop functioning individual laboratory views after the session control update.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -37,7 +37,8 @@
           "Dedicated Session Observatory implementation added with manual context-quality signals, checkpoint assessment and compact export.",
           "First Scholar Library dataset established with 40 works, 54 researchers and 11 fields; 10 source-specific abstract-level notes created.",
           "All verdict change events must link their source IDs and supporting interpretation; no unearned numerical change was made.",
-          "Published LIBRARY_PROTOCOL.md and research/field-note-001.md with a source-linked, limited preliminary scientific synthesis."
+          "Published LIBRARY_PROTOCOL.md and research/field-note-001.md with a source-linked, limited preliminary scientific synthesis.",
+          "Introduced a machine-readable transition assessment with explicit documented criteria and a cross-section workstream register."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
@@ -45,7 +46,7 @@
           "Research claims and future compass adjustments require source-by-source scientific review.",
           "Perform detailed full-text reviews with section citations; none is recorded as complete in the founding library index."
         ],
-        "next": "Check deployed Scholar Library functionality, repair any remaining navigation issues, and begin a full-text section-by-section review of Gödel, Hawking, Everett, Bell and Deutsch. Document precise quotations/sections and model predictions before any empirical compass adjustment."
+        "next": "Complete source-level research on the physics of chronology protection and evaluate the candidate interpretations with section-cited evidence; develop functioning individual laboratory views after the session control update."
       }
     }
   ],
@@ -55,8 +56,7 @@
       "data/library.json",
       "data/reading-notes.json",
       "research/field-note-001.md",
-      "relevant entries in data/ledger.json",
-      "SESSION_START.md"
+      "relevant entries in data/ledger.json"
     ],
     "rules": [
       "Never award multiple-timeline evidence credit for mere mathematical possibility or simulation.",
@@ -66,7 +66,7 @@
       "Record a reproducible rationale for any meter change."
     ],
     "minimumPacket": "Repository authority · session ID · verified change (with source) · unresolved limit · one highest-value next action · restart guardrails",
-    "continuity": "SESSION 001 ACTIVE. Do not imply additional GPT chats exist until their checkpoint is committed. Each new chat reads the small state file, revalidates any time-sensitive evidence, and records the next session after real work."
+    "continuity": "Session 001 is active. A recent GitHub commit is project activity, not a new GPT chat. Page-open public commit polling is not automatic background research. For cross-chat handoff, record milestones and continuation decisions in this same authoritative file."
   },
   "activeSession": "S-001",
   "readinessModel": {
@@ -87,5 +87,68 @@
       "Never use a fabricated token budget, elapsed time, percentage of actual GPT context, or fixed short session duration as a handoff trigger."
     ],
     "telemetry": "Self-reported browser signals, not live ChatGPT instrumentation. Browser drafts are not versioned until reviewed and committed."
-  }
+  },
+  "transition": {
+    "assessedOn": "2026-10-21",
+    "milestoneName": "Source-level comparison of chronology protection and quantum branching models",
+    "milestoneComplete": false,
+    "checkpointCommitted": true,
+    "openQuestionsRecorded": true,
+    "nextActionDefined": true,
+    "naturalBoundary": false,
+    "documentedContinuityRisk": "not measured",
+    "decisionBasis": "Checkpoint documentation is prepared, but the next substantive scientific study remains incomplete. Continue this chat while reasoning remains coherent; a restart is warranted after a meaningful stage boundary or serious observed continuity loss.",
+    "updatePolicy": "Update data/sessions.json on each substantial research or website milestone. The public Sessions page also fetches recent GitHub commits for near-current activity, while it is open."
+  },
+  "workstreams": [
+    {
+      "area": "Homepage & Observatory",
+      "route": "home",
+      "status": "published",
+      "latest": "Premium editorial homepage, research compass and source-based dispatches",
+      "next": "Refine visual QA and link explanatory research."
+    },
+    {
+      "area": "Evidence Ledger",
+      "route": "ledger",
+      "status": "published",
+      "latest": "Initial graded evidence with reference links and versioned compass rationale",
+      "next": "Audit every claim against original experiment or mathematical argument."
+    },
+    {
+      "area": "Research Library",
+      "route": "library",
+      "status": "published",
+      "latest": "40 works, 54 scholars, 11 fields, 10 study notes and discipline counts",
+      "next": "Convert priority sources into section-cited full-text critical studies."
+    },
+    {
+      "area": "Journal & Research",
+      "route": "journal",
+      "status": "active",
+      "latest": "Field Note 001 comparing time dilation, time loops and quantum branching",
+      "next": "Examine Hawking, Gödel and Deutsch equations and competing predictions."
+    },
+    {
+      "area": "Research Laboratories",
+      "route": "disciplines",
+      "status": "planned",
+      "latest": "Nine discipline summaries available; dedicated labs not yet built",
+      "next": "Build usable physics and quantum labs first."
+    },
+    {
+      "area": "Origins Atlas",
+      "route": "atlas",
+      "status": "published",
+      "latest": "Interactive conceptual Earth and solar-system provenance markers",
+      "next": "Connect verified experiment locations to ledger records."
+    },
+    {
+      "area": "Session Observatory",
+      "route": "sessions",
+      "status": "active",
+      "latest": "Versioned Session 001 checkpoint and milestone-based restart model",
+      "next": "Deploy live GitHub activity feed and handoff readiness indicators."
+    }
+  ]
 }
