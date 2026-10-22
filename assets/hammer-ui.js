@@ -3,19 +3,29 @@
  'use strict';
  const root=document.getElementById('hammer-forge');if(!root)return;
  const math=window.WorldlineHammer;
+ const discovery=window.WorldlineHammerDiscovery;
  const esc=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const fmt=x=>Number.isFinite(x)?x.toFixed(5):'—';
  async function start(){
   try{
-   if(!math)throw Error('Mathematical HAMMER core unavailable');
-   const r=await fetch('data/hammer.json',{cache:'no-store'});if(!r.ok)throw Error('HAMMER model file unavailable');
-   const data=math.validate(await r.json()),report=math.forge(data);
+   if(!math||!discovery)throw Error('HAMMER mathematical or discovery core unavailable');
+   const [r,frontierResponse]=await Promise.all(['data/hammer.json','data/hammer-frontier.json'].map(u=>fetch(u,{cache:'no-store'})));
+   if(!r.ok||!frontierResponse.ok)throw Error('HAMMER source or mission model file unavailable');
+   const data=math.validate(await r.json()),frontier=discovery.validate(await frontierResponse.json(),data),
+     report=math.forge(data),research=discovery.discover(frontier,data);
    root.innerHTML='<div class="hammer-intro"><div class="kicker">HAMMER / THEORY FORGE / v0.1</div>'+
     '<h2>Find the experiment. Attack the theory. Earn the evidence.</h2>'+
     '<p>Compare rival predictions, mutate their nuisance assumptions and find whether an apparent discovery survives its strongest counterexample. These are <strong>synthetic models, not observations or AGI discoveries.</strong></p></div>'+
     '<div class="hammer-controls"><label for="hammer-design">Research challenge</label><select id="hammer-design">'+
     data.designs.map(d=>'<option value="'+esc(d.id)+'">'+esc(d.id+' · '+d.title)+'</option>').join('')+'</select></div>'+
     '<div id="hammer-workbench" aria-live="polite"></div>'+
+    '<section class="hammer-frontier" aria-label="HAMMER cross-question discovery research">'+
+    '<div class="kicker">QUESTION FUSION · SELF-CRITIQUE · SCIENTIFIC MEMORY</div>'+
+    '<h3>Combine questions. Find a flaw. Generate the next test.</h3>'+
+    '<p>HAMMER constructs joint predictions from separate thought experiments, refuses incompatible hypotheses and writes down what could falsify each proposal. All novelty remains unverified.</p>'+
+    '<label for="hammer-mission">Research mission</label><select id="hammer-mission">'+
+    frontier.missions.map(m=>'<option value="'+esc(m.id)+'">'+esc(m.id+' · '+m.question.slice(0,78))+'</option>').join('')+'</select>'+
+    '<div id="hammer-mission-results" aria-live="polite"></div></section>'+
     '<p class="hammer-boundary">AI scientific reviewing is intended to be model-led, with source-study and adversarial critique from separate AI models. None have been invoked by this public page. The current score remains editorial 50; no experiment here changes it.</p>'+
     '<p class="hammer-links"><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/hammer.json" target="_blank" rel="noopener noreferrer">Inspect model assumptions ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/tools/hammer/ai-panel.cjs" target="_blank" rel="noopener noreferrer">Inspect the AI-review protocol ↗</a></p>';
    const select=root.querySelector('#hammer-design');
@@ -43,6 +53,22 @@
     host.querySelector('#hammer-right').addEventListener('change',redraw);
     redraw();
    }
+   const mselect=root.querySelector('#hammer-mission');
+   function showMission(){
+    const m=frontier.missions.find(x=>x.id===mselect.value)||frontier.missions[0],
+      r=research.missions.find(x=>x.id===m.id),result=root.querySelector('#hammer-mission-results');
+    const rejected=r.status==='VETO',silent=r.status==='NO_IDENTIFIABLE_WEDGE';
+    result.innerHTML='<div class="hammer-quest-card"><p class="micro">'+esc(r.status.replaceAll('_',' '))+
+     ' · '+esc(m.id)+' · '+(rejected?'Rejected theory fusion':'Joint thought experiment')+'</p>'+
+     '<h4>'+esc(m.question)+'</h4>'+
+     (rejected?'<p><strong>Scientific category error:</strong> '+esc(r.reason)+'</p>':
+      '<p>Predicted nominal JSD: <strong>'+fmt(r.nominalJSBits)+'</strong> bits; adversarial joint JSD: <strong>'+fmt(r.robustJSBits)+'</strong> bits. '+(silent?'Additional data of this kind do not resolve the specified question.':'Conditional test only: independence and nuisance calibration remain unproven.')+'</p>')+
+     '<p><strong>What would falsify it?</strong> '+esc(m.falsifier)+'</p>'+
+     '<p><strong>What could counterfeit it?</strong> '+esc(m.confounder)+'</p>'+
+     '<p><strong>Next research question:</strong> '+esc(r.nextQuestion||m.researchTask)+'</p>'+
+     '<p class="micro">Source scenario IDs: '+esc(m.left)+' × '+esc(m.right)+' · No measured data, no verified scientific novelty, no Truth Compass movement.</p></div>';
+   }
+   mselect.addEventListener('change',showMission);showMission();
    select.addEventListener('change',update);update();
   }catch(e){root.textContent='HAMMER model unavailable: '+e.message+'. Consult the repository for the versioned theory packets.';}
  }
