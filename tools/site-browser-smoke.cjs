@@ -50,6 +50,13 @@ async function run(viewportName,viewport){
   await page.locator('#hammer-right').selectOption('1');
   const afterForge=await page.locator('#hammer-outcome').innerText();
   assert.notEqual(beforeForge,afterForge,'HAMMER scenario mutation responds to selection');
+  await page.waitForFunction(()=>document.querySelector('#hammer-mission option')?.value==='HF-001');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/NO IDENTIFIABLE WEDGE/,'repeated Born question is a no-go');
+  await page.locator('#hammer-mission').selectOption('HF-002');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/CONDITIONAL WEDGE/,'fused conditional two-arm experiment');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/shared-nuisance/,'recursive metacognitive next-step proposal');
+  await page.locator('#hammer-mission').selectOption('HF-003');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/VETO/,'ontology/dynamics invalid fusion must be rejected');
   await hammerSelect.selectOption('HM-002');
   assert.match(await page.locator('#hammer-workbench').innerText(),/Conditional wedge/,'specified physical-dynamics wedge detected');
   await assertRoute(page,'disciplines');
