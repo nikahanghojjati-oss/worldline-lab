@@ -75,3 +75,6 @@ Growing the number of sources is useful only when it increases coverage of relev
 
 ## Next atomic work unit
 Verify new room navigation and model math across desktop/mobile, then carry out source-level reviews of chronology protection, quantum branching and competing measurement dynamics, with section-cited notes. Add automated uniqueness and source-schema validation for the enlarged bibliography. Every significant lab or reading milestone must update data/sessions.json and the verdict audit; there is no forced compass movement.
+
+## Per-round closure rule (binding, all releases)
+All development and scientific review rounds end with a GitHub-backed `data/sessions.json` checkpoint, including up-to-date workstream summaries, the complete transition recommendation and source-linked verdict or no-change reasoning. See `PROJECT_RULES.md` for required `roundLog` fields and write-failure handling. This rule applies to every worker and session, not only release or scientific milestone boundaries. No inferred GPT usage telemetry.
