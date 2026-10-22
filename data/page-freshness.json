@@ -1,10 +1,10 @@
 {
   "schema": "worldline-page-freshness/v1",
   "updated": "2026-10-22",
-  "policy": "Session Observatory and main decision packet immediately after every substantive round. Every fifth completed round refresh/revalidate all eight public page routes, with live-source content updates or explicit no-new-source reason. Static CI enforces the sweep. Critical factual errors never wait. Full 2026-10-22 R010 evidence-and-code route revalidation registered; not a live browser pass.",
+  "policy": "Session Observatory and main decision packet immediately after every substantive round. Every fifth completed round refresh/revalidate all eight public page routes, with live-source content updates or explicit no-new-source reason. Static CI enforces the sweep. Critical factual errors never wait. Full 2026-10-22 R010 evidence-and-code route revalidation registered; not a live browser pass. Mandatory sweep validator uses nextMandatorySweepRoundLogCount as immutable first/baseline index=17, NOT upcoming threshold. Due next is separately recorded as nextMandatorySweep S-003-R013 at cumulative32; never advance baseline as it would disable audit gates.",
   "roundCountAtBaseline": 15,
   "lastCompletedSweepRoundLogCount": 27,
-  "nextMandatorySweepRoundLogCount": 32,
+  "nextMandatorySweepRoundLogCount": 17,
   "nextMandatorySweep": "S-003-R013",
   "cadenceRounds": 5,
   "requiredRoutes": [
