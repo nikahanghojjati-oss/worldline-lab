@@ -38,3 +38,16 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 .full-review-library{font-size:14px;text-decoration:underline;color:#1a6172;text-underline-offset:4px}
 .library-full-study-link a,.research-review-link a{display:inline-block;margin:10px 0 4px;padding:10px 14px;border-left:3px solid #4c9889;background:#edf6f2;color:#12596e;font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:4px;border-radius:3px}
 @media(max-width:760px){.full-review-dispatch{grid-template-columns:1fr;gap:19px}.full-review-dispatch-action strong{font-size:37px}.full-review-dispatch-action{text-align:left}}
+
+/* S-002 accessible mobile comparison; research data-driven */
+.worldline-model-room{margin:1.4rem 0;padding:1.15rem;background:rgba(247,250,249,.97);color:#153647;border:1px solid rgba(72,124,140,.35);border-radius:15px}
+.worldline-model-room h3{font-size:clamp(1.2rem,2.5vw,1.65rem);line-height:1.3;margin:.5rem 0 .8rem;color:#173748}
+.worldline-model-room p{line-height:1.62}
+.worldline-model-scroll{overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch;outline-offset:4px}
+.worldline-model-scroll:focus-visible{outline:3px solid #216c81}
+.worldline-model-table{border-collapse:collapse;width:100%;min-width:1020px;font-size:.91rem}
+.worldline-model-table caption{text-align:left;padding:.55rem 0;color:#526b72}
+.worldline-model-table th,.worldline-model-table td{text-align:left;vertical-align:top;line-height:1.5;min-width:145px;overflow-wrap:anywhere;border-bottom:1px solid #cad8d8;padding:.75rem}
+.worldline-model-table thead th{background:#dfebed;color:#143b4a}.worldline-model-table tbody th{background:#edf4f2;color:#174758}
+.worldline-model-links a,.worldline-model-room .micro a{color:#185b6f;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:650px){.worldline-model-room{padding:.75rem;margin:1rem 0}.worldline-model-room h3{font-size:1.2rem}.worldline-model-table{font-size:.85rem}.worldline-model-table th,.worldline-model-table td{padding:.6rem}}
