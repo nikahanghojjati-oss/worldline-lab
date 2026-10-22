@@ -3205,6 +3205,37 @@
         ],
         "fieldNote": "research/csl-bound-reconstruction-S002-R008.md",
         "justification": "A genuine advance in computation/audit reproducibility validates conditional parameter claims: Donadi published 95%-credible bound is reproduced at 5.1973236e-13 using BOTH signal/background +1 counts; Dai LISA conservative PSD calculation yields 8.364e-11 using published geometry. XENON 90%-CL paper ratio converts to 3e-17 at rC=1e-7 without detector likelihood replication. Interferometric molecules and LISA torque remain non-digitized. These tests differentiate modified stochastic dynamics from unitary quantum behavior in model-specific limits, not actual-history ontology of Everett versus quantum-equilibrium Bohm. Neutral 50 remains editorial, not probability."
+      },
+      {
+        "id": "VC-013",
+        "date": "2026-10-22",
+        "oldScore": 50,
+        "newScore": 50,
+        "delta": 0,
+        "status": "no-change",
+        "empiricalImpact": 0,
+        "trigger": "Independent finite quantum-instrument pointer operational-equivalence derivation plus reversible two-qubit record and opposing wholly synthetic fixed-binomial physical-loss model likelihoods",
+        "sourceIds": [
+          "SRC-007",
+          "SRC-010",
+          "SRC-059",
+          "SRC-076",
+          "SRC-042"
+        ],
+        "ledgerIds": [
+          "WL-021",
+          "WL-019",
+          "WL-020"
+        ],
+        "readingNotes": [
+          "NOTE-068",
+          "NOTE-050",
+          "NOTE-043",
+          "NOTE-044",
+          "NOTE-066"
+        ],
+        "fieldNote": "research/operational-identifiability-S002-R012.md",
+        "justification": "Under explicitly matched Born-weight unitary apparatus and Bohmian configuration equilibrium, each physically accessible record outcome has exactly equal likelihood in Everett and Bohm models. A second assumed physical decoherence/collapse term yields potentially testable differences, but project-owned n=1000 binomial examples are SYNTHETIC and cannot supply empirical odds. Extra detector model and actual observations absent. This is a real no-go boundary for one broad class of proposed experiments, not a physical history census; neutral 50 remains an editorial anchor, not probability."
       }
     ],
     "revisionRequirements": [

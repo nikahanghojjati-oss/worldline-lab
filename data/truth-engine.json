@@ -1,7 +1,7 @@
 {
   "schema": "worldline-truth-engine/v0.2",
   "updated": "2026-10-22",
-  "releaseStatus": "R011: 28 full main-text studies, ~84sigma control-bounded macrorealism finding, private-seal verified PR approval path code under CI. Live independent scientific PR review and full human accessible browser testing remain release blockers. Central editorial baseline 50 unchanged.",
+  "releaseStatus": "S-002-R012: 28 original main-text critical studies unchanged; 77 sources and 68 notes. New WL-021 central-model operational-equivalence restriction; v0.2 production score revision and directional reversal cannot inject fake GitHub response lists, require authenticated live API plus distinct reviewer/commit match; real human reviewer absent. v0.25 automatic axe WCAG 8-route plus priority-lab check added and tested in GitHub Actions; final accessibility acceptance pending validation and real physical/assistive device QA.",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
     "score": 50,
@@ -47,7 +47,7 @@
     "automaticMeterChange": false,
     "sourceReviewMustPrecedeProposal": true,
     "localReviewerModule": "tools/truth-engine/review.cjs",
-    "reviewerGate": "check(p,data), record(p,data,review stamp), reverse(prior decision,current score,review stamp) in trusted Node, with real source/notes IDs and reviewed evidence commit SHA; no browser can mutate or auto-approve; nonzero directional revisions require github-approval.cjs API-confirmed distinct human approved review for current PR head SHA; use trusted fetchGitHubApproval, not unchecked reviewer text.",
+    "reviewerGate": "v0.2: check, record and reverse for neutral fixtures, recordReviewed and reverseReviewed with trusted live GitHub API only for real directional changes. Synthetic response injection removed from production interface; API-verified recognized distinct PR reviewer for exact evidence SHA needed. No browser mutation and no automatic score promotion; current human peer science signoff still pending.",
     "noAutoWrites": true,
     "humanReviewVerification": "tools/truth-engine/github-approval.cjs verifies actual PR reviewer identity, newest decision, non-author distinction, and exact current evidence commit; synthetic fixtures are not production approval."
   },
@@ -55,15 +55,15 @@
   "changeLedger": [],
   "historicAudits": {
     "authority": "data/library.json verdictAudit.changeLog",
-    "latestId": "VC-012",
+    "latestId": "VC-013",
     "rule": "Past no-change VC records remain immutable; this array records future scored revisions only. A future revision must reference the previous audit and evidence-bearing repository commit."
   },
   "releaseAcceptance": {
     "w2001": "verified: local data schema CI",
-    "w2002": "R011 directional revisions require real GitHub PR reviewer fetch in trusted async recordReviewed; the private in-process seal makes forged JSON approval fail. Synthetic test does NOT constitute an approved revision.",
-    "w2003": "Append-only decision and reversal primitives tested, now reject forged approval JSON for score changes. No real signed reviewer PR, actual reversal or score movement yet.",
+    "w2002": "R012 production recordReviewed/real API refuses response injection and requires GITHUB_TOKEN, current open non-draft PR into main, exact head SHA, distinct recognized repo reviewer and current approval; tests pass with synthetic pure apiApproval, but actual human scientific approval remains absent.",
+    "w2003": "R012 directional reversals now also require trusted live GitHub review entrypoint; old direct reversal could otherwise make an unauthorized directional change. Source and science-packet binding still needs production end-to-end human gate.",
     "w2004": "Automated real Chromium site read-only tests PASS, source/Truth Ledger and all routes render; independent human approval path and full accessibility still open.",
-    "v025": "Chromium desktop and phone-size 8-route/9-lab/3-mode suite passed R010; R011 test resolves the current Session round dynamically instead of stale hardcoded R010. Human assistive-tech and physical iPhone/Chromebook QA remain pending."
+    "v025": "R010/R011 automated Chromium nine laboratories x 3 modes and 8 routes PASS; R012 axe WCAG serious/critical checker added at desktop/phone viewport, initial harness browser context failure corrected, final full audit CI result pending. No human WCAG, real iPhone Safari or screen-reader signoff."
   },
   "reproductionChecks": {
     "version": "S-002-R008",
