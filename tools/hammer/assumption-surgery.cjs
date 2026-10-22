@@ -108,6 +108,33 @@ function adaptiveProof(){
   scope:'A proof of equality under identical conditional predictions, NOT proof that all imaginable quantum interpretations are identical.',
   historyCountDiscovered:null,ledgerChange:0};
 }
+// Model-extension search: what explicit changed conditional physics would make a
+// new experiment information-bearing? This is a target DESIGN, not real physics.
+function interventionRequirement(targetJSBits=.001){
+ must(Number.isFinite(targetJSBits)&&targetJSBits>0&&targetJSBits<.05,'reasonable theory-design target in JSD bits');
+ const bestAt=delta=>policies().map(p=>({
+  policy:p.id,jsdBits:jsd(distribution(BASE,p),distribution(mutatedModel(delta),p))
+ })).sort((a,b)=>b.jsdBits-a.jsdBits||a.policy.localeCompare(b.policy))[0];
+ let low=0,high=.25;
+ const upper=bestAt(high);
+ if(upper.jsdBits<targetJSBits)return {status:'TARGET_NOT_REACHABLE_IN_TOY_FAMILY',targetJSBits,
+  upper:upper.jsdBits,ledgerChange:0};
+ for(let i=0;i<65;i++){
+  const mid=(low+high)/2;
+  if(bestAt(mid).jsdBits>=targetJSBits)high=mid;else low=mid;
+ }
+ const candidate=bestAt(high);
+ return {status:'CONDITIONAL_MUTATION_REQUIRED',targetJSBits,
+  minimumChangeInConditionalProbability:high,
+  bestAdaptivePolicy:candidate.policy,
+  predictedJSD:candidate.jsdBits,
+  counterfactualPremise:'Physical preparation or intervention changes P(0|previous=1,operation=x), contrary to both baseline conditional Born kernels.',
+  nextExperimentalAction:'Derive this changed conditional probability from a specific well-posed physical extension and demonstrate a reproducible preparation/control protocol; otherwise it is only an adjustable number.',
+  evidenceClass:'SYNTHETIC_THEORY_ONLY',
+  statementAboutStandardEverettVsBohm:'NONE',
+  ontologyInference:'NOT_IDENTIFIED',ledgerChange:0};
+}
+
 function assumptionCuts(clauses){
  must(Array.isArray(clauses)&&clauses.length>0&&clauses.length<=7,'1-7 clauses');
  const universe=[...new Set(clauses.flatMap(x=>x.assumptions))].sort();
@@ -137,15 +164,15 @@ const THEOREMS=[
   preconditions:'controllable observer-scale quantum operations, settings/records and a genuinely violated LF inequality; not just CHSH'}
 ];
 function certificate(){
- const bell=bellSurgery(),adaptive=adaptiveProof(),cuts=assumptionCuts(THEOREMS),strategies=localDeterministicBound();
+ const bell=bellSurgery(),adaptive=adaptiveProof(),cuts=assumptionCuts(THEOREMS),strategies=localDeterministicBound(),extension=interventionRequirement();
  const table=jointTable(0,0);
  return {schema:'worldline-hammer-ontology-boundary/v1',method:'assumption surgery + constructive alternative + adaptive-policy no-go',
-  bell,strategies,oneHistoryTable:table,adaptive,cuts,
+  bell,strategies,oneHistoryTable:table,adaptive,cuts,extension,
   strongestFalsifier:'Specify a well-formed experimentally accessible operation with unequal likelihoods under both fully defined baseline ontologies at matching preparation, controls and no hidden changed dynamics; or construct and test a new explicit physics extension. Mere CHSH/LF violations do not do this.',
   survivingOneHistoryMechanism:'explicitly nonlocal single-record countermodel, not established physical Bohm model',
   theoreticalNovelty:'NOT_ESTABLISHED; built from established Bell/LF/conditional-probability results in a traceable research workflow',
   verifiedNewExperiments:0,actualAIPanels:0,
   verdict:'ONE_VS_MANY_UNRESOLVED',ledgerChange:0};
 }
-module.exports={singletCorrelation,settings,chsh,localDeterministicBound,singleHistoryOutput,jointTable,bellSurgery,validateModel,policies,distribution,mutatedModel,adaptiveProof,assumptionCuts,THEOREMS,certificate};
+module.exports={singletCorrelation,settings,chsh,localDeterministicBound,singleHistoryOutput,jointTable,bellSurgery,validateModel,policies,distribution,mutatedModel,adaptiveProof,interventionRequirement,assumptionCuts,THEOREMS,certificate};
 if(require.main===module)console.log(JSON.stringify(certificate(),null,2));
