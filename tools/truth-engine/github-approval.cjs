@@ -13,6 +13,7 @@ function apiApproval(p,receipt,pr,reviews){
  if(!Number.isSafeInteger(receipt.reviewId)||receipt.reviewId<1)fail('review ID');
  if(!sha.test(p.reviewedEvidenceCommit||''))fail('evidence commit');
  if(!pr||pr.number!==receipt.prNumber||pr.base?.repo?.full_name!==repo||pr.head?.repo?.full_name!==repo)fail('same-repository PR');
+ if(pr.base?.ref!=='main'||pr.state!=='open'||pr.draft===true)fail('PR must be open, non-draft, targeting main');
  if(pr.head?.sha!==p.reviewedEvidenceCommit)fail('PR changed after evidence commit');
  if(!Array.isArray(reviews))fail('GitHub review list');
  if(reviews.length>=100)fail('incomplete review history (>one page); do not certify');
@@ -26,18 +27,21 @@ function apiApproval(p,receipt,pr,reviews){
  const ordered=reviews.filter(x=>x.user?.login?.toLowerCase()===reviewer&&str(x.submitted_at))
    .sort((a,b)=>String(a.submitted_at).localeCompare(String(b.submitted_at))||a.id-b.id);
  if(ordered.at(-1)?.id!==candidate.id)fail('newer reviewer decision overrides approval');
- if(candidate.author_association==='NONE'&&!receipt.allowExternalReviewer)fail('untrusted external reviewer');
+ if(!['OWNER','MEMBER','COLLABORATOR'].includes(candidate.author_association))fail('GitHub reviewer must be recognized by repository');
  return Object.freeze({kind:'github-human-approval',verifiedVia:'github-rest',evidenceCommit:p.reviewedEvidenceCommit,reviewer:p.reviewer,prNumber:pr.number,reviewId:candidate.id,approvalDate:candidate.submitted_at,reviewUrl:pr.html_url||'https://github.com/'+repo+'/pull/'+pr.number});
 }
-async function fetchGitHubApproval(p,receipt,fetchJson){
- // fetchJson must be injected by a trusted environment; no private tokens or writes go to the client.
- const grab=fetchJson||(async(url)=>{
-  const token=process.env.GITHUB_TOKEN;const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'};
-  if(token)headers.Authorization='Bearer '+token;
-  const response=await fetch(url,{headers});if(!response.ok)throw Error('GitHub approval HTTP '+response.status);
+async function fetchGitHubApproval(p,receipt){
+ if(arguments.length!==2)throw Error('No injected GitHub responses accepted in production reviewer path');
+ const token=process.env.GITHUB_TOKEN;
+ if(!token)throw Error('Real GitHub API scientific approval requires GITHUB_TOKEN in a trusted server/CI runner');
+ const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Authorization':'Bearer '+token};
+ const grab=async url=>{
+  const response=await fetch(url,{headers,redirect:'error'});
+  if(!response.ok)throw Error('GitHub approval HTTP '+response.status);
   return response.json();
- });
+ };
  const base='https://api.github.com/repos/'+repo+'/pulls/'+receipt.prNumber;
- return apiApproval(p,receipt,await grab(base),await grab(base+'/reviews?per_page=100'));
+ const [pr,reviews]=await Promise.all([grab(base),grab(base+'/reviews?per_page=100')]);
+ return apiApproval(p,receipt,pr,reviews);
 }
 module.exports={apiApproval,fetchGitHubApproval};

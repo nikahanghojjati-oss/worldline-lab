@@ -27,16 +27,31 @@ function record(p,db,stamp){
  }
  return {id:stamp.id,kind:'decision',date:stamp.date,oldScore:p.oldScore,newScore:p.proposedScore,priorJudgment:p.priorAuditId,evidenceCommit:p.reviewedEvidenceCommit,decisionCommit:stamp.sha,sourceIds:p.sourceIds,readingNoteIds:p.readingNoteIds,reason:stamp.reason,approvalEvidence:stamp.approval||null,reverses:null};
 }
-async function recordReviewed(p,db,stamp,receipt,fetchJson){
+async function recordReviewed(p,db,stamp,receipt){
+ if(arguments.length!==4)throw Error('No injected GitHub responses accepted in production reviewer path');
+ const priorProblems=check(p,db);if(priorProblems.length)throw Error(priorProblems.join(', '));
  const {fetchGitHubApproval}=require('./github-approval.cjs');
  if(!Number.isFinite(p.oldScore)||!Number.isFinite(p.proposedScore)||p.oldScore===p.proposedScore)
   throw Error('recordReviewed exclusively processes directional changes');
- const approval=await fetchGitHubApproval(p,receipt,fetchJson);
+ const approval=await fetchGitHubApproval(p,receipt);
  // Only this module can set the private seal; the JSON ledger stores a serializable receipt.
  return record(p,db,{...stamp,approval,[apiSeal]:true});
 }
 function reverse(entry,score,stamp){
- if(entry.newScore!==score||!hex40.test(stamp.sha)||!stamp.reason)throw Error('stale or unsupported reversal');
+ if(entry.newScore!==score||!hex40.test(stamp.sha)||!stamp.reason||!stamp.id)throw Error('stale or unsupported reversal');
+ if(entry.oldScore!==entry.newScore){
+  const a=stamp.approval;
+  if(stamp[apiSeal]!==true||!a||a.kind!=='github-human-approval'||a.verifiedVia!=='github-rest'||a.evidenceCommit!==stamp.reviewedEvidenceCommit||!Number.isSafeInteger(a.reviewId)||!Number.isSafeInteger(a.prNumber))
+   throw Error('directional reversal requires independent API-verified scientific PR approval');
+ }
  return {id:stamp.id,kind:'reversal',date:stamp.date,oldScore:score,newScore:entry.oldScore,priorJudgment:entry.id,evidenceCommit:stamp.sha,decisionCommit:stamp.sha,sourceIds:entry.sourceIds,readingNoteIds:entry.readingNoteIds,reason:stamp.reason,reverses:entry.id};
 }
-module.exports={check,record,recordReviewed,reverse};
+async function reverseReviewed(entry,score,stamp,proposal,receipt){
+ if(arguments.length!==5)throw Error('No injected GitHub responses accepted in production reviewer path');
+ if(entry.newScore!==score||entry.oldScore===entry.newScore||proposal.oldScore!==score||proposal.proposedScore!==entry.oldScore||proposal.reviewedEvidenceCommit!==stamp.reviewedEvidenceCommit)
+  throw Error('reversal requires exact prior decision, proposed inverse score and reviewed evidence commit');
+ const {fetchGitHubApproval}=require('./github-approval.cjs');
+ const approval=await fetchGitHubApproval(proposal,receipt);
+ return reverse(entry,score,{...stamp,approval,[apiSeal]:true});
+}
+module.exports={check,record,recordReviewed,reverse,reverseReviewed};

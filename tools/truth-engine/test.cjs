@@ -28,7 +28,7 @@ if(base.truthEngine){
   reviewedEvidenceCommit:'959e3df0b0031201742cd1019ad6a15db514d18d',oldScore:50,proposedScore:51
  }), 'counterevidenceSearch');
 }
-const {check,record,recordReviewed,reverse}=require('./review.cjs');
+const {check,record,recordReviewed,reverse,reverseReviewed}=require('./review.cjs');
 const proposal={id:'TEST-P',target:'central-ontology',claimClass:'Experimental measurement',hypothesis:'Hmany',nullHypothesis:'Hone',prediction:'measured distribution',testedObservable:'pointer',measurement:'controlled count',controls:'preparation and detector',counterevidenceSearch:'search rival experiments',alternativeExplanations:'environmental noise',uncertainty:'finite counts',discriminationArgument:'requires distinct likelihood',impactRationale:'conditional only',reviewer:'test fixture',priorAuditId:base.library.verdictAudit.changeLog.at(-1).id,reviewedEvidenceCommit:'a'.repeat(40),scoreMapping:'explicit score mapping proposal',distinguishingLikelihood:'illustrative synthetic likelihoods',sourceIds:['SRC-066'],readingNoteIds:['NOTE-052'],oldScore:50,proposedScore:50};
 assert.deepEqual(check(proposal,base),[]);
 const invalid={...proposal,counterevidenceSearch:''};
@@ -41,7 +41,8 @@ const approvalCandidate={...proposal,proposedScore:51,reviewer:'science-reviewer
 assert.throws(()=>record(approvalCandidate,base,{sha:'c'.repeat(40),id:'DEC-NO-REVIEW',date:'2026-10-22',reason:'Unapproved directional test'}),/API-verified human approval/);
 const signedPr={
  number:72,
- base:{repo:{full_name:'nikahanghojjati-oss/worldline-lab'}},
+ base:{ref:'main',repo:{full_name:'nikahanghojjati-oss/worldline-lab'}},
+ state:'open',draft:false,
  head:{repo:{full_name:'nikahanghojjati-oss/worldline-lab'},sha:'a'.repeat(40)},
  user:{login:'independent-proposer'},
  html_url:'https://github.com/nikahanghojjati-oss/worldline-lab/pull/72'
@@ -50,9 +51,11 @@ const signedReview={id:491,state:'APPROVED',commit_id:'a'.repeat(40),submitted_a
 const receipt={prNumber:72,reviewId:491};
 const verified=apiApproval(approvalCandidate,receipt,signedPr,[signedReview]);
 assert.throws(()=>record(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-FORGED',date:'2026-10-22',reason:'Forged object',approval:verified}),/API-verified human approval/);
-recordReviewed(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-VERIFIED-FIXTURE',date:'2026-10-22',reason:'Synthetic API fixture only'},receipt,async(url)=>url.includes('/reviews?')?[signedReview]:signedPr)
- .then(signed=>{assert.equal(signed.approvalEvidence.reviewId,491);console.log('PASS async trusted review flow (synthetic API fixture; no human approval claimed)')})
- .catch(err=>{console.error('FAIL trusted async review',err);process.exitCode=1;});
+assert.throws(()=>reverse({...decision,newScore:51},51,{sha:'c'.repeat(40),id:'REV-FORGED',date:'2026-10-22',reason:'Unapproved reversal'}),/API-verified scientific PR approval/);
+Promise.all([
+ assert.rejects(recordReviewed(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-INJECT',reason:'Injected',date:'2026-10-22'},receipt,async()=>signedPr),/No injected GitHub responses accepted/),
+ assert.rejects(reverseReviewed({...decision,newScore:51},51,{sha:'b'.repeat(40),id:'REV-INJECT',reason:'Injected',reviewedEvidenceCommit:'a'.repeat(40)},{...approvalCandidate,oldScore:51,proposedScore:50},receipt,async()=>signedPr),/No injected GitHub responses accepted/)
+]).then(()=>console.log('PASS producer fail-closed: injected PR responses and unauthorized score reversals rejected')).catch(e=>{console.error(e);process.exitCode=1});
 assert.throws(()=>apiApproval(approvalCandidate,receipt,{...signedPr,head:{...signedPr.head,sha:'c'.repeat(40)}},[signedReview]),/changed after evidence commit/);
 assert.throws(()=>apiApproval(approvalCandidate,receipt,{...signedPr,user:{login:'science-reviewer'}},[signedReview]),/distinct reviewer/);
 assert.throws(()=>apiApproval(approvalCandidate,receipt,signedPr,[{...signedReview,state:'COMMENTED'}]),/actual approved/);
@@ -95,6 +98,14 @@ assert.equal(comparison.channels.filter(s=>s.lambdaUpper===null).length,2,'no in
 assert.equal(comparison.scientificVerdict.includes('none of these observations distinguish'),true,'ontology caveat required');
 console.log('PASS versioned five-channel bound comparison and original source-data reproduction integration');
 console.log('PASS original Ge posterior and LISA acceleration-noise numerical reproductions; no detector-level data claimed');
+const idDiag=require('./ontology-identifiability.cjs').run();
+assert.equal(idDiag.syntheticPositive.logLR_Everett_vs_Bohm,0);
+assert.equal(idDiag.syntheticNegative.logLR_Everett_vs_Bohm,0);
+assert.ok(idDiag.syntheticPositive.logLR_Unitary_vs_extraLoss>0);
+assert.ok(idDiag.syntheticNegative.logLR_Unitary_vs_extraLoss<0);
+assert.ok(Math.abs(idDiag.quantumEraser.stipulatedIrreversibleLossQ0-0.5)<1e-12);
+assert.ok(base.ledger.entries.some(e=>e.id==='WL-021'&&e.impact===0));
+console.log('PASS matched Born pointer records no-go and opposite purely synthetic loss-dynamics likelihoods');
 const macro=require('./macrorealism-reproduce.cjs').reproduce();
 assert.ok(Math.abs(macro.z+83.9146113203905)<1e-9,'Knee original paper ~84sigma conditional');
 assert.ok(macro.rho.delta<macro.bound[0],'macrorealist Eq7 control bound violated');
