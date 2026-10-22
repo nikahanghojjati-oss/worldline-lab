@@ -1,7 +1,7 @@
 {
   "schema": "worldline-truth-engine/v0.2",
   "updated": "2026-10-21",
-  "releaseStatus": "v0.2 W20-01 CI verified; W20-02 proposal-gate logic and W20-03 reversible decision primitive implemented/tested; full end-to-end approved-revision flow and W20-04 accessibility remain candidates, not shipped",
+  "releaseStatus": "Source CI plus 2 reproduced collapse parameter bounds and public comparison published; v0.2 human score approval and live browser QA remain open; v0.25 nine room source CI passed but live browser QA pending",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
     "score": 50,
@@ -54,7 +54,7 @@
   "changeLedger": [],
   "historicAudits": {
     "authority": "data/library.json verdictAudit.changeLog",
-    "latestId": "VC-011",
+    "latestId": "VC-012",
     "rule": "Past no-change VC records remain immutable; this array records future scored revisions only. A future revision must reference the previous audit and evidence-bearing repository commit."
   },
   "releaseAcceptance": {
@@ -63,5 +63,20 @@
     "w2003": "tested versioned decision and reversible record primitives, no real nonzero score approvals",
     "w2004": "site ledger source movement published, browser/mobile review UX not independently verified",
     "v025": "nine existing reading rooms and eight stages static fixture tests added; live navigation/back/phone keyboard QA open"
+  },
+  "reproductionChecks": {
+    "version": "S-002-R008",
+    "ledgerId": "WL-018",
+    "movementId": "MOVE-008",
+    "sourceNotes": [
+      "NOTE-063",
+      "NOTE-064"
+    ],
+    "code": "tools/truth-engine/csl-reproduce.cjs",
+    "comparison": "data/csl-exclusion-comparison.json",
+    "report": "research/csl-bound-reconstruction-S002-R008.md",
+    "verified": "Independent Ge published aggregated Poisson/Gamma 95% posterior λ=5.19732362463e-13/s with paper both+1 terms, independent LISA published acceleration PSD bound λ=8.36417404452e-11/s at rC=1e-7m, primary published ratio conversion XENON λ<3e-17/s at same rC.",
+    "limits": "Not detector raw likelihood or cross-experiment joint confidence; no observed physical actual-histories count.",
+    "scoreImpact": 0
   }
 }
