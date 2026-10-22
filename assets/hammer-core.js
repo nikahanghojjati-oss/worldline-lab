@@ -23,6 +23,8 @@
   for(const d of data.designs){
    invariant(/^HM-[0-9]{3,}$/.test(d.id)&&!ids.has(d.id),'invalid/duplicate design ID');ids.add(d.id);
    invariant(typeof d.question==='string'&&d.question.length>=30,'specific research question');
+   invariant(typeof d.title==='string'&&d.title.length>=8,'named experiment');
+   invariant(typeof d.researchReport==='string'&&/^research\/[a-z0-9-]+\.md$/.test(d.researchReport),'safe source report path');
    invariant(d.evidenceClass==='synthetic-theory-only','unverified measurements prohibited');
    invariant(['central-ontology','model-dynamics'].includes(d.impactScope),'impact scope');
    invariant(Array.isArray(d.outcomes)&&d.outcomes.length>=2&&new Set(d.outcomes).size===d.outcomes.length,'distinct outcomes');
