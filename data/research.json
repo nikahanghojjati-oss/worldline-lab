@@ -1442,13 +1442,13 @@
         "observable": "V=|γ|; P(+)= (1+Re γ)/2 for equal amplitudes",
         "sameAs": "Bohmian equilibrium: identical standard Born distribution for same preparation",
         "difference": "No intrinsic stochastic physical localization or excess collapse radiation",
-        "status": "No direct branch census; original Everett 1957 publisher abstract only here",
+        "status": "Original Everett 1957 six-section main text fully critically reviewed R003; no independent experimental branch census",
         "objection": "Preferred basis, branch granularity and Born weights require further review",
         "sourceIds": [
           "SRC-007",
           "SRC-012"
         ],
-        "readingDepth": "SRC-007 abstract; SRC-012 previously complete original scholarly entry"
+        "readingDepth": "SRC-007 complete 1957 original main text critically reviewed in retypeset mirror S-002-R003 (NOTE-050), publisher proofread and probability objections still open; SRC-012 full 2026 scholarly entry S-001"
       },
       {
         "model": "Bohmian · quantum equilibrium",
