@@ -56,6 +56,8 @@ function packet(){
  'Next precise action: '+(state.nextStep||'not recorded'),
  'Transition status: '+d.title+' · '+d.count+' of 4 checkpoint conditions',
  'Milestone: '+(d.t.milestoneName||'not recorded')+' · '+(d.t.milestoneComplete?'complete':'in progress'),
+ 'Prepared successor handoff: '+(state.handoff?.url||'SESSION_START.md'),
+ 'Successor target: '+(state.handoff?.targetSessionId||'not assigned')+' · do not claim it exists until the real new chat starts.',
  'On entry: read data/sessions.json, then relevant data/library.json and ledger source IDs.',
  'Do not equate mathematical models, simulations or interpretations with observed branching realities.'
  ].join('\n');
