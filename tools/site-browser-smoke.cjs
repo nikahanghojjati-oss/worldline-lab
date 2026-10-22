@@ -55,6 +55,19 @@ async function run(viewportName,viewport){
    await page.evaluate(s=>{location.hash='#disciplines?lab='+s+'&room=presentation'},slug);
    await page.waitForFunction(()=>document.querySelector('#lab-room-stage')?.textContent?.trim()?.length>50 && !!document.querySelector('.lab-rooms-switcher a.chosen[href*="presentation"]'));
    assert.equal(await page.locator('.lab-rooms-switcher a').count(),3,'three room selectors '+slug);
+   // Exercise the actual deck, not only the location hash. Keyboard activation must
+   // change the source-grounded slide and expose a reversible, bounded index.
+   const deckIndex=page.locator('#deck-index');
+   assert.match(await deckIndex.innerText(),/^01 \/ 06$/,'deck opens at first topic '+slug);
+   const prev=page.locator('#deck-prev'),next=page.locator('#deck-next');
+   assert.equal(await prev.isDisabled(),true,'previous disabled at slide one '+slug);
+   await next.focus();
+   await page.keyboard.press('Enter');
+   await page.waitForFunction(()=>document.querySelector('#deck-index')?.textContent?.trim()==='02 / 06');
+   assert.equal(await prev.isEnabled(),true,'previous available after advancing '+slug);
+   await prev.focus();
+   await page.keyboard.press('Enter');
+   await page.waitForFunction(()=>document.querySelector('#deck-index')?.textContent?.trim()==='01 / 06');
    await page.evaluate(s=>{location.hash='#disciplines?lab='+s+'&room=interactive'},slug);
    await page.waitForFunction(()=>!!document.querySelector('.lab-rooms-switcher a.chosen[href*="interactive"]')&&!!document.querySelector('#lab-control'));
    const slider=page.locator('#lab-control');
