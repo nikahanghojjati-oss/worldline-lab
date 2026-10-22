@@ -57,3 +57,7 @@ Before marking **any** research, website, validation or documentation work round
 
 ## Mandatory question and page-freshness checkpoint (2026-10-22)
 At the start of each substantive study read the latest data/sessions.json, data/discriminator-program.json and data/page-freshness.json before unrelated sources. Define the main question's competing one-real-history / many-real-history models, test prediction and evidentiary status (or explicit equality). Every scientific round closes and commits all seven Session Observatory workstreams and CONTINUE/HANDOFF decision. Every 5 cumulative rounds, including R010 at log length 17, refresh/revalidate all eight public pages and record source-linked route actions. Fail closed rather than claim the page sweep, browser test or score movement without evidence.
+
+## New S-003-R010 website visual revision checkpoint
+
+At the owner's request, the published HAMMER page was restyled toward their supplied cosmic dashboard sketch in feature branch `chatgpt/hammer-cinematic-dashboard`, via PR #10. For exact state check `data/sessions.json` rather than a fixed page title. The original screenshot contains unsupported **56/+6** and outdated 71-note/R008 counts; these were **not** inserted as science. Final PR head CI and deployment must be verified before treating this visual revision as published. Return to main task: the original-source nanoparticle Zenodo posterior reproduction and physics-derived feasible rival-ontology likelihood differences, not more decorative research.
