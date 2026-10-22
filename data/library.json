@@ -345,11 +345,11 @@
       "type": "paper",
       "url": "https://doi.org/10.1038/s41467-018-05739-8",
       "role": "Assumption-dependent thought-experiment paradox",
-      "access": "abstract-reviewed",
-      "note": "",
+      "access": "fully-studied",
+      "note": " R006: complete published original main text critically studied including methods, controls and counterarguments, research/full-study-batch-003-ten-discriminator-candidates.md. Supplements and raw detector records not independently replicated; named original versions in report.",
       "linkedLedger": [],
       "verdictEffect": "none",
-      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "effectReason": "Source-specific claim movement is possible, but no observed equal-assumption Everett-vs-Bohm ontology-discriminating likelihood.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -1031,11 +1031,11 @@
       "type": "paper",
       "url": "https://doi.org/10.1038/s41567-019-0663-9",
       "role": "Large-molecule interferometry and limits on objective-collapse alternatives",
-      "access": "abstract-reviewed",
-      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed.",
+      "access": "fully-studied",
+      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed. R006: complete published original main text critically studied including methods, controls and counterarguments, research/full-study-batch-003-ten-discriminator-candidates.md. Supplements and raw detector records not independently replicated; named original versions in report.",
       "linkedLedger": [],
       "verdictEffect": "none",
-      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "effectReason": "Source-specific claim movement is possible, but no observed equal-assumption Everett-vs-Bohm ontology-discriminating likelihood.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -1453,13 +1453,153 @@
       "type": "paper",
       "url": "https://arxiv.org/abs/2411.17588",
       "role": "LISA Pathfinder noise reinterpretation provides model-conditioned CSL and DP parameter bounds",
-      "access": "abstract-reviewed",
-      "note": "Original arXiv v1 abstract checked, NOTE-048; forward underground projection not measured.",
+      "access": "fully-studied",
+      "note": "Original arXiv v1 abstract checked, NOTE-048; forward underground projection not measured. R006: complete published original main text critically studied including methods, controls and counterarguments, research/full-study-batch-003-ten-discriminator-candidates.md. Supplements and raw detector records not independently replicated; named original versions in report.",
       "linkedLedger": [
         "WL-011"
       ],
       "verdictEffect": "none",
-      "effectReason": "Prediction/parameter evidence does not directly determine physically real branch count.",
+      "effectReason": "Source-specific claim movement is possible, but no observed equal-assumption Everett-vs-Bohm ontology-discriminating likelihood.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-068",
+      "title": "Improved bounds on collapse models from rotational noise of the Laser Interferometer Space Antenna Pathfinder mission",
+      "authors": [
+        "Davide Giordano Ario Altamura",
+        "Andrea Vinante",
+        "Matteo Carlesso"
+      ],
+      "year": 2025,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.1103/PhysRevA.111.L020203",
+      "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
+      "access": "fully-studied",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Original seven-page author paper v1 https://iris.cnr.it/bitstream/20.500.14243/536713/1/2501.08971v1.pdf; journal PR A 111 L020203 2025",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-069",
+      "title": "Novel CSL bounds from the noise-induced radiation emission from atoms",
+      "authors": [
+        "Sandro Donadi",
+        "Kristian Piscicchia",
+        "Raffaele Del Grande",
+        "Catalina Curceanu",
+        "Matthias Laubenstein",
+        "Angelo Bassi"
+      ],
+      "year": 2021,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.1140/epjc/s10052-021-09556-0",
+      "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
+      "access": "fully-studied",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full open publisher original EPJC article 81 773 (2021)",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-070",
+      "title": "Colored collapse models from the non-interferometric perspective",
+      "authors": [
+        "Matteo Carlesso",
+        "Luca Ferialdi",
+        "Angelo Bassi"
+      ],
+      "year": 2018,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.1140/epjd/e2018-90248-x",
+      "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
+      "access": "fully-studied",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full original EPJ D seven-page publisher PDF, volume 72 article 159",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-071",
+      "title": "On the choice of the collapse operator in cosmological Continuous Spontaneous Localisation (CSL) theories",
+      "authors": [
+        "Jérôme Martin",
+        "Vincent Vennin"
+      ],
+      "year": 2021,
+      "type": "paper",
+      "field": "Cosmology",
+      "url": "https://doi.org/10.1140/epjc/s10052-021-09290-7",
+      "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
+      "access": "fully-studied",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full publisher original EPJC HTML 81 article 516",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-072",
+      "title": "Classical theories of gravity produce entanglement",
+      "authors": [
+        "Joseph Aziz",
+        "Richard Howl"
+      ],
+      "year": 2025,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.1038/s41586-025-09595-7",
+      "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
+      "access": "fully-studied",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full Nature open original main article volume 646 pages 813–817",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-073",
+      "title": "Time Reversal Symmetry and Collapse Models",
+      "authors": [
+        "D. J. Bedingham",
+        "O. J. E. Maroney"
+      ],
+      "year": 2017,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.1007/s10701-017-0084-5",
+      "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
+      "access": "fully-studied",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full open Foundations of Physics original main article 47 pages 670–696",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-074",
+      "title": "Master equations for Wigner functions with spontaneous collapse and their relation to thermodynamic irreversibility",
+      "authors": [
+        "Michael te Vrugt",
+        "Gyula I. Tóth",
+        "Raphael Wittkowski"
+      ],
+      "year": 2021,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.1007/s10825-021-01804-6",
+      "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
+      "access": "fully-studied",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full open Journal of Computational Electronics main original 20 pages 2209–2231",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
       "verifiedAt": "2026-10-21"
     }
   ],
