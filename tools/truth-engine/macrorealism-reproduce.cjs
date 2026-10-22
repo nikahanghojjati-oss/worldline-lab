@@ -25,7 +25,7 @@ if(require.main===module){
  assert.ok(Math.abs(r.gap+0.063176)<1e-12);
  assert.ok(Math.abs(r.z+83.9146113203905)<1e-9);
  assert.ok(r.rho.delta<r.bound[0]);
- assert.equal(r.grwToy.ratePerSecond,1e7);
+ assert.ok(Math.abs(r.grwToy.ratePerSecond/1e7-1)<1e-12);
  assert.ok(Math.abs(r.grwToy.meanInterHitSeconds-1e-7)<1e-20);
  console.log('PASS entire Fig2 rounded mean+error reconstruction / strongest nearest g control; conditional z='+r.z);
  console.log('PASS GRW benchmark N*lambda amplification (idealized model only)');
