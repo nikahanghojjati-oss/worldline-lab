@@ -96,3 +96,27 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 .truth-engine-empty{padding:15px 18px;border:1px solid #c6d8d5;border-radius:5px;background:white}
 .truth-engine-warning{color:#7b2835!important;background:#fff0f0;border:1px solid #ad5e6b;border-radius:5px;padding:12px 16px}
 .truth-engine-links{border-top:1px solid #c3d5d2;margin-top:20px!important;padding-top:15px}
+
+/* HAMMER v0.1 · science first, ink on light cards, accessible native controls */
+.hammer-forge{margin:28px 0 34px;padding:clamp(21px,3vw,38px);background:#edf5f2;border:1px solid #bdd5d0;border-left:5px solid #235d69;border-radius:10px}
+.hammer-intro h2{font:500 clamp(27px,4vw,40px)/1.18 var(--serif);margin:12px 0;color:#153c49}
+.hammer-forge p,.hammer-forge li{font-size:14px;line-height:1.7;color:#2f4f59}
+.hammer-forge .kicker,.hammer-forge .micro{color:#254e60}
+.hammer-forge label{font-size:14px;font-weight:700;color:#1b4655;display:block;margin-bottom:6px}
+.hammer-forge select{width:100%;max-width:100%;font:500 15px/1.4 var(--sans);padding:12px 14px;color:#193a48;background:#fff;border:1px solid #91b0b5;border-radius:5px}
+.hammer-controls{margin:22px 0}
+.hammer-summary{background:#fff;padding:21px;border:1px solid #cbdcda;border-radius:7px}
+.hammer-summary h3{font:500 24px/1.35 var(--serif);margin:8px 0 14px;color:#1d4656}
+.hammer-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}
+.hammer-metrics>div{background:#f0f6f4;border:1px solid #d4e5df;border-radius:6px;padding:15px}
+.hammer-metrics strong{display:block;font:600 clamp(16px,2.1vw,23px) var(--sans);color:#174856;overflow-wrap:anywhere}
+.hammer-metrics span{display:block;font:600 12px/1.4 var(--sans);color:#345665;margin-top:7px}
+.hammer-scenarios{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:18px 0}
+.hammer-scenario-result{background:#174859;color:#f8fffd;padding:17px;border-radius:5px;line-height:1.6;font-size:14px}
+.hammer-attack{border-left:3px solid #9e5364;padding:12px 18px;margin:16px 0;background:#fff8f6}
+.hammer-attack strong{color:#743449}
+.hammer-forge details{border-top:1px solid #afc7c7;padding:14px 2px}
+.hammer-forge summary{font-size:14px;font-weight:700;color:#215565;cursor:pointer}
+.hammer-forge a{color:#15536a;text-decoration:underline;text-underline-offset:3px;font-weight:650}
+.hammer-boundary{padding:14px 17px;background:#fff9ed;border:1px solid #d4c39f;border-radius:6px}
+@media(max-width:650px){.hammer-metrics{grid-template-columns:1fr}.hammer-scenarios{grid-template-columns:1fr}}
