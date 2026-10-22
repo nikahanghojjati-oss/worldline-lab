@@ -26,7 +26,8 @@ async function scan(page,name,include){
   await ready();browser=await chromium.launch({headless:true});const issues=[];
   const routes=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'];
   for(const [viewportName,width,height] of [['desktop',1440,900],['phone-width',390,844]]){
-   const page=await browser.newPage({viewport:{width,height}});
+   const context=await browser.newContext({viewport:{width,height}});
+   const page=await context.newPage();
    await page.goto(url+'#home',{waitUntil:'domcontentloaded'});
    await page.waitForFunction(r=>document.querySelector('#research-round-banner')?.textContent?.includes(r),latest,{timeout:15000});
    for(const route of routes){
@@ -43,7 +44,7 @@ async function scan(page,name,include){
      issues.push(...await scan(page,viewportName+'/'+slug+'/'+room,'#lab-detail'));
     }
    }
-   await page.close();
+   await context.close();
   }
   if(issues.length)throw Error('Severe automated WCAG findings:\n'+issues.join('\n'));
   console.log('PASS automated axe WCAG A/AA serious/critical: eight routes and six lab views, desktop and phone widths. Human/physical-device review NOT performed.');
