@@ -1204,6 +1204,41 @@
         "appendicesAsRecorded": false,
         "independentFullReproduction": false
       }
+    },
+    {
+      "id": "NOTE-052",
+      "workId": "SRC-066",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R005",
+      "stage": "fully-studied",
+      "label": "XENONnT 2026 main original article: measured Markovian CSL/DP model-specific constraints",
+      "basis": "Complete 7-page published original PDF https://journals.aps.org/prl/pdf/10.1103/2jm3-4976 , Phys Rev Lett 136 120201 (2026), figures 1-2 and article text; separate Supplemental Material/raw data NOT fully reviewed",
+      "sectionsRead": [
+        "p120201-1 title, authors, original DOI/issue and provenance",
+        "p120201-2 abstract, measurement problem and nonunitary radiation hypotheses",
+        "p120201-3 Markovian CSL/DP coupling, parameter assumptions, radiation Eq(1), xenon electron–proton cancellation, detector reconstruction",
+        "p120201-4 exposure 1.16 tonne-years, nine-component background model, detector efficiency controls, unbinned likelihood, CSL fit, 90/95% bound, 9.1 sigma benchmark departure, Fig.1",
+        "p120201-5 DP cutoff bound, ~5x previous improvement, model alternatives, Fig.2 exclusion contours and data availability caveat",
+        "pp120201-6–7 research bibliography and relation to separate supplemental data; figure result audit"
+      ],
+      "summary": "XENONnT measured first-science-run 1–140 keV electronic recoils and found no convincing X-ray excess for Markovian CSL/DP physical-collapse models. Published 90% CSL λ/rC²<3.0×10^-3 s^-1 m^-2 (~135-fold previous improvement), GRW-associated parameter pair in CSL noise model 9.1 sigma from best fit, DP R0>4.9×10^-10m at 90%. This model-specific parameter exclusion is real scientific movement, not evidence counting Everett branches.",
+      "method": "Read published seven-page original article with rendered PDFs including figures; checked detector exposure 1.16 t×y, event background, radiation cancellation, unbinned profile-likelihood asymptotic assumption and both confidence bounds. Independently checked λ/rC² for benchmark 10^-16 s^-1 /(10^-7m)^2=10^-2 s^-1m^-2, 3.333× the stated 90% bound; this is NOT an independent calculation of the paper's reported 9.1σ statistic.",
+      "limitations": "No access to complete original event-level data: paper says available on reasonable request. Supplemental emission calculations and unbinned nuisance-parameter likelihood not independently replicated. White-noise Markovian CSL only; cannot claim original GRW hit-law fully falsified, all collapse theories eliminated, or an Everett branch directly seen. Sensitivity results depend on detector efficiency and background corrections.",
+      "alternativeExplanations": "Ordinary quantum theory with astrophysical/detector backgrounds, colored/dissipative CSL models, alternate DP regularization, equipment and selected signal assumptions; Bohm/Everett standard Born ontology unaffected by this constraint.",
+      "conclusion": "MODEL-SPECIFIC SCIENTIFIC MOVEMENT: reported benchmark Markovian CSL parameter excluded, 90% bound with qualified paper method. CENTRAL ONE-VS-MANY physically realized history question remains observationally undetermined.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire published original seven-page main article read with figures/statistical conditions; separate appendix/supplement/raw and full likelihood NOT re-derived",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-011"
+      ],
+      "fieldNote": "research/score-origin-and-testable-results-S002-R005.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
     }
   ]
 }
