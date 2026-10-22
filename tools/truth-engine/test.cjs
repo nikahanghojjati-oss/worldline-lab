@@ -36,6 +36,26 @@ assert.ok(check(invalid,base).some(x=>x.includes('counterevidenceSearch')));
 const decision=record(proposal,base,{sha:'b'.repeat(40),id:'DEC-TEST',date:'2026-10-21',reason:'TEST FIXTURE NOT SCIENTIFIC APPROVAL'});
 const reversed=reverse(decision,50,{sha:'c'.repeat(40),id:'DEC-UNDO',date:'2026-10-21',reason:'TEST reversal'});
 assert.equal(reversed.reverses,'DEC-TEST');
+const {apiApproval}=require('./github-approval.cjs');
+const approvalCandidate={...proposal,proposedScore:51,reviewer:'science-reviewer'};
+assert.throws(()=>record(approvalCandidate,base,{sha:'c'.repeat(40),id:'DEC-NO-REVIEW',date:'2026-10-22',reason:'Unapproved directional test'}),/API-verified human approval/);
+const signedPr={
+ number:72,
+ base:{repo:{full_name:'nikahanghojjati-oss/worldline-lab'}},
+ head:{repo:{full_name:'nikahanghojjati-oss/worldline-lab'},sha:'a'.repeat(40)},
+ user:{login:'independent-proposer'},
+ html_url:'https://github.com/nikahanghojjati-oss/worldline-lab/pull/72'
+};
+const signedReview={id:491,state:'APPROVED',commit_id:'a'.repeat(40),submitted_at:'2026-10-22T12:00:00Z',user:{login:'science-reviewer'},author_association:'COLLABORATOR'};
+const receipt={prNumber:72,reviewId:491};
+const verified=apiApproval(approvalCandidate,receipt,signedPr,[signedReview]);
+const signed=record(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-VERIFIED-FIXTURE',date:'2026-10-22',reason:'Verified synthetic external response test',approval:verified});
+assert.equal(signed.approvalEvidence.reviewId,491);
+assert.throws(()=>apiApproval(approvalCandidate,receipt,{...signedPr,head:{...signedPr.head,sha:'c'.repeat(40)}},[signedReview]),/changed after evidence commit/);
+assert.throws(()=>apiApproval(approvalCandidate,receipt,{...signedPr,user:{login:'science-reviewer'}},[signedReview]),/distinct reviewer/);
+assert.throws(()=>apiApproval(approvalCandidate,receipt,signedPr,[{...signedReview,state:'COMMENTED'}]),/actual approved/);
+assert.throws(()=>apiApproval(approvalCandidate,receipt,signedPr,[signedReview,{...signedReview,id:492,state:'CHANGES_REQUESTED',submitted_at:'2026-10-22T12:01:00Z'}]),/newer reviewer decision/);
+console.log('PASS source-commit matched distinct-human GitHub approval fixtures, fail closed on stale/dismissed decisions');
 console.log('PASS provisional review and reversible append-only decision fixtures');
 const labRooms=base.research.disciplines,stages=base.research.programStages;
 assert.equal(labRooms.length,9,'nine discipline syllabi expected');
