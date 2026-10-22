@@ -3,7 +3,7 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const allowed=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'];
-let ledger=null,research=null,sessions=null,libraryIndex=null,comparison=null,pageFreshness=null,questionGates=null,filter='All';
+let ledger=null,research=null,sessions=null,libraryIndex=null,comparison=null,pageFreshness=null,questionGates=null,truthEngine=null,filter='All';
 const html=s=>String(s==null?'':s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const trustedUrl=u=>typeof u==='string'&&/^https:\/\//.test(u)?u:'#ledger';
 function navigate(){
@@ -70,6 +70,35 @@ function renderLedger(){
    const kind=e.kind==='Experiment'?'blue':e.kind==='Interpretation'?'pink':'gray';
    return '<article class="evidence-card"><div class="evidence-meta"><span class="id">'+html(e.id)+'</span><span class="date">'+html(e.date)+'</span><p class="micro">'+html(e.field)+'</p></div><div><h3>'+html(e.title)+'</h3><span class="pill '+kind+'">'+html(e.kind)+'</span> <span class="pill">'+html(e.status)+'</span><p>'+html(e.finding)+'</p><p class="caption">Evidence grade: '+html(e.strength)+'</p><p><a class="sourcelink" target="_blank" rel="noopener noreferrer" href="'+html(trustedUrl(e.url))+'">'+html(e.source)+' ↗</a></p><p class="source-note">'+html(e.notes)+'</p></div><div><span class="pill">Compass impact: '+(Number(e.impact)>0?'+':'')+html(e.impact)+'</span><p class="caption">'+html(e.direction)+'</p></div></article>';
   }).join(''):'<div class="empty">No entries match those filters. Clear the search or select another category.</div>';
+}
+
+function renderTruthEngine(){
+ const host=$('truth-engine-view');if(!host||!truthEngine||!ledger)return;
+ const rules=truthEngine.proposalRules||{},decisions=truthEngine.changeLedger||[],proposals=truthEngine.proposals||[];
+ const source='https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/truth-engine.json';
+ const meter=Number(ledger.editorialMeter?.score);
+ const baseline=Number(truthEngine.baseline?.score);
+ const aligned=Number.isFinite(meter)&&baseline===meter;
+ const commitLink=sha=>typeof sha==='string'&&/^[0-9a-f]{40}$/.test(sha)
+  ?'<a href="https://github.com/nikahanghojjati-oss/worldline-lab/commit/'+sha+'" target="_blank" rel="noopener noreferrer">Evidence commit '+html(sha.slice(0,10))+' ↗</a>'
+  :'<span>No verified evidence commit reference</span>';
+ const receipts=decisions.map(d=>{
+  const a=d.approvalEvidence;
+  const reviewed=a&&a.kind==='github-human-approval'&&a.verifiedVia==='github-rest';
+  const reviewUrl=reviewed&&typeof a.reviewUrl==='string'&&/^https:\/\/github\.com\/nikahanghojjati-oss\/worldline-lab\/pull\/\d+$/.test(a.reviewUrl)?a.reviewUrl:null;
+  return '<li><strong>'+html(d.id||'Unidentified record')+' · '+html(d.kind||'decision')+'</strong> · '+html(d.oldScore)+' → '+html(d.newScore)+
+   '<p>'+html(d.reason||'No published reason')+'</p><p>'+commitLink(d.evidenceCommit)+
+   (reviewUrl?' · <a href="'+html(reviewUrl)+'" target="_blank" rel="noopener noreferrer">Recorded review receipt (verify on GitHub) ↗</a>':' · No linked verified external reviewer receipt shown')+'</p></li>';
+ }).join('');
+ host.innerHTML='<div class="kicker">TRUTH ENGINE v0.2 · READ-ONLY PROVENANCE</div><h3>How a scientific verdict could be revised</h3>'+
+ '<p>This page reads the versioned review data published in GitHub. Visitors cannot submit an approval, update a score, or authorize a reversal here. A stored receipt is an audit claim, not proof that this browser independently queried GitHub reviewers.</p>'+
+ '<div class="truth-engine-status"><strong>Recorded directional decisions: '+decisions.length+'</strong><span>Proposals queued: '+proposals.length+'</span><span>Central editorial reference: '+html(meter)+'/100 (not an empirical probability)</span></div>'+
+ '<p><strong>Review gate:</strong> '+(rules.humanScientificReviewRequired?'Independent human scientific GitHub review is required for directional changes.':'Review requirement needs verification.')+
+ ' '+(rules.automaticMeterChange===false?'There is no automatic score promotion.':'Automatic decision policy requires inspection.')+'</p>'+
+ (aligned?'':'<p class="truth-engine-warning" role="alert">The Truth Engine baseline and current published meter differ. Treat this as unresolved provenance until audited.</p>')+
+ (decisions.length?'<ol class="truth-engine-records">'+receipts+'</ol>':
+ '<p class="truth-engine-empty">No approved directional score-changing decision has been published in the Truth Engine ledger. Existing historical no-change audits and model-specific findings remain visible above.</p>')+
+ '<p class="truth-engine-links"><a href="'+source+'" target="_blank" rel="noopener noreferrer">Inspect complete versioned review data on GitHub ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/tools/truth-engine/github-approval.cjs" target="_blank" rel="noopener noreferrer">Inspect trusted human-approval rules ↗</a></p>';
 }
 
 function renderVerdictAudit(){
@@ -234,15 +263,15 @@ function bindAtlas(){
  $('planet-outer')?.addEventListener('click',()=>setFocus('Outer solar system · future research lane','Navigation, clocks, and gravitational models may yield future research questions. Current atlas markers are conceptual and not records of observations there.','#ledger'));
 }
 async function load(){
- const targets=['data/ledger.json','data/research.json','data/sessions.json','data/library.json','data/csl-exclusion-comparison.json','data/page-freshness.json','data/discriminator-program.json'];
+ const targets=['data/ledger.json','data/research.json','data/sessions.json','data/library.json','data/csl-exclusion-comparison.json','data/page-freshness.json','data/discriminator-program.json','data/truth-engine.json'];
  try{
   const res=await Promise.all(targets.map(u=>fetch(u,{cache:'no-store'})));
   if(res.some(r=>!r.ok))throw Error('Missing source JSON');
   const data=await Promise.all(res.map(r=>r.json()));
-  [ledger,research,sessions,libraryIndex,comparison,pageFreshness,questionGates]=data;
+  [ledger,research,sessions,libraryIndex,comparison,pageFreshness,questionGates,truthEngine]=data;
   compass(ledger.editorialMeter.score);
   if($('hero-count'))$('hero-count').textContent=String(ledger.entries.length);
-  renderLedger();renderVerdictAudit();renderCSLComparison();renderQuestionGates();renderRoundBanner();renderMilestones();renderDisciplines();renderJournal();renderSessions();
+  renderLedger();renderVerdictAudit();renderTruthEngine();renderCSLComparison();renderQuestionGates();renderRoundBanner();renderMilestones();renderDisciplines();renderJournal();renderSessions();
  }catch(e){
   const message='<div class="empty">The public research files could not be loaded. Try refreshing; the source record is also available in the GitHub repository.</div>';
   for(const id of ['ledger-list','milestone-list','disciplines-list','journal-body'])if($(id))$(id).innerHTML=message;
