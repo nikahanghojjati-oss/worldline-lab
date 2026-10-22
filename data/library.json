@@ -1,7 +1,7 @@
 {
   "schema": "worldline-scholar-library/v1",
   "updated": "2026-10-21",
-  "purpose": "Versioned interdisciplinary index of influential researchers and works. Bibliographic scope is selective, not a ranking or exhaustive census.",
+  "purpose": "Versioned selective source index with a growing cross-disciplinary syllabus. A 10x / 100x literature ambition is an explicit target, never counted as works already read.",
   "methods": {
     "statuses": {
       "catalogued": "Reference registered for reading; no claim of having read its paper, book, recording or full text.",
@@ -773,6 +773,244 @@
       "verdictEffect": "none",
       "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
       "verifiedAt": null
+    },
+    {
+      "id": "SRC-041",
+      "field": "Relativity",
+      "title": "Wormholes, Time Machines, and the Weak Energy Condition",
+      "authors": [
+        "Michael S. Morris",
+        "Kip S. Thorne",
+        "Ulvi Yurtsever"
+      ],
+      "year": 1988,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevLett.61.1446",
+      "role": "Conditional wormhole chronology and weak energy constraint",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-042",
+      "field": "Quantum foundations",
+      "title": "Unified dynamics for microscopic and macroscopic systems",
+      "authors": [
+        "GianCarlo Ghirardi",
+        "Alberto Rimini",
+        "Tullio Weber"
+      ],
+      "year": 1986,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.34.470",
+      "role": "Foundational objective-collapse alternative to unitary quantum dynamics",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-043",
+      "field": "Quantum foundations",
+      "title": "Quantum Darwinism",
+      "authors": [
+        "Wojciech Zurek"
+      ],
+      "year": 2009,
+      "type": "review",
+      "url": "https://doi.org/10.1038/nphys1202",
+      "role": "Environmental-record redundancy and emergence of classical objectivity",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-044",
+      "field": "Quantum foundations",
+      "title": "On the reality of the quantum state",
+      "authors": [
+        "Matthew Pusey",
+        "Jonathan Barrett",
+        "Terry Rudolph"
+      ],
+      "year": 2012,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/nphys2309",
+      "role": "Ontology of the quantum state under preparation independence",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-045",
+      "field": "Quantum information",
+      "title": "Experimental superposition of orders of quantum gates",
+      "authors": [
+        "Lorenzo Procopio",
+        "Mateus Araújo",
+        "Fabio Costa",
+        "Časlav Brukner",
+        "Philip Walther"
+      ],
+      "year": 2015,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/ncomms8913",
+      "role": "Quantum switch implementation and interpretation limits",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-046",
+      "field": "Quantum information",
+      "title": "Experimental verification of an indefinite causal order",
+      "authors": [
+        "Giulia Rubino",
+        "Lee A. Rozema",
+        "Časlav Brukner",
+        "Philip Walther"
+      ],
+      "year": 2017,
+      "type": "paper",
+      "url": "https://doi.org/10.1126/sciadv.1602589",
+      "role": "Operational witnessing of indefinite causal order in a quantum system",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-047",
+      "field": "Quantum foundations",
+      "title": "Experimental test of local observer independence",
+      "authors": [
+        "Massimiliano Proietti",
+        "Alexander Pickston",
+        "Alessandro Fedrizzi"
+      ],
+      "year": 2019,
+      "type": "paper",
+      "url": "https://doi.org/10.1126/sciadv.aaw9832",
+      "role": "Extended Wigner-friend constraints under locality and free-choice assumptions",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-048",
+      "field": "Chemistry",
+      "title": "Quantum superposition of molecules beyond 25 kDa",
+      "authors": [
+        "Yaakov Fein",
+        "Stefan Gerlich",
+        "Markus Arndt"
+      ],
+      "year": 2019,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/s41567-019-0663-9",
+      "role": "Large-molecule interferometry and limits on objective-collapse alternatives",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-049",
+      "field": "Neuroscience",
+      "title": "The Neural Basis of Temporal Processing",
+      "authors": [
+        "Michael Mauk",
+        "Dean Buonomano"
+      ],
+      "year": 2004,
+      "type": "review",
+      "url": "https://doi.org/10.1146/annurev.neuro.27.070203.144247",
+      "role": "Neural temporal coding across distributed timing circuits",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-050",
+      "field": "Neuroscience",
+      "title": "Timing and time perception: a review of recent behavioral and neuroscience findings and theoretical directions",
+      "authors": [
+        "Simon Grondin"
+      ],
+      "year": 2010,
+      "type": "review",
+      "url": "https://doi.org/10.3758/APP.72.3.561",
+      "role": "Human interval timing and models of subjective duration",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-051",
+      "field": "Neuroscience",
+      "title": "How do we tell time?",
+      "authors": [
+        "Dean Buonomano",
+        "Uma Karmarkar"
+      ],
+      "year": 2002,
+      "type": "review",
+      "url": "https://doi.org/10.1177/107385840200800109",
+      "role": "Subsecond interval processing",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-052",
+      "field": "Neuroscience",
+      "title": "Time and the brain: how subjective time relates to neural time",
+      "authors": [
+        "David Eagleman",
+        "Peter Tse",
+        "Dean Buonomano",
+        "Anna Christina Nobre"
+      ],
+      "year": 2005,
+      "type": "review",
+      "url": "https://doi.org/10.1523/JNEUROSCI.3487-05.2005",
+      "role": "Subjective duration versus neural event timing",
+      "access": "catalogued",
+      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
     }
   ],
   "scholars": [
@@ -939,7 +1177,8 @@
         "Quantum foundations"
       ],
       "works": [
-        "SRC-011"
+        "SRC-011",
+        "SRC-043"
       ],
       "focus": "Environment-induced suppression of interference"
     },
@@ -1075,7 +1314,8 @@
         "Quantum information"
       ],
       "works": [
-        "SRC-020"
+        "SRC-020",
+        "SRC-045"
       ],
       "focus": "Operational framework for indefinite causal order"
     },
@@ -1086,7 +1326,9 @@
         "Quantum information"
       ],
       "works": [
-        "SRC-020"
+        "SRC-020",
+        "SRC-045",
+        "SRC-046"
       ],
       "focus": "Operational framework for indefinite causal order"
     },
@@ -1212,7 +1454,8 @@
         "Neuroscience"
       ],
       "works": [
-        "SRC-030"
+        "SRC-030",
+        "SRC-052"
       ],
       "focus": "Subjective temporal distortion versus physical time"
     },
@@ -1245,7 +1488,8 @@
         "Chemistry"
       ],
       "works": [
-        "SRC-032"
+        "SRC-032",
+        "SRC-048"
       ],
       "focus": "Molecular quantum coherence and decoherence"
     },
@@ -1278,7 +1522,8 @@
         "Chemistry"
       ],
       "works": [
-        "SRC-032"
+        "SRC-032",
+        "SRC-048"
       ],
       "focus": "Molecular quantum coherence and decoherence"
     },
@@ -1383,6 +1628,273 @@
         "SRC-040"
       ],
       "focus": "Avoid motivated interpretation of weighted claims"
+    },
+    {
+      "id": "R-055",
+      "name": "Michael S. Morris",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-041"
+      ],
+      "focus": "Conditional wormhole chronology and weak energy constraint"
+    },
+    {
+      "id": "R-056",
+      "name": "Kip S. Thorne",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-041"
+      ],
+      "focus": "Conditional wormhole chronology and weak energy constraint"
+    },
+    {
+      "id": "R-057",
+      "name": "Ulvi Yurtsever",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-041"
+      ],
+      "focus": "Conditional wormhole chronology and weak energy constraint"
+    },
+    {
+      "id": "R-058",
+      "name": "GianCarlo Ghirardi",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-042"
+      ],
+      "focus": "Foundational objective-collapse alternative to unitary quantum dynamics"
+    },
+    {
+      "id": "R-059",
+      "name": "Alberto Rimini",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-042"
+      ],
+      "focus": "Foundational objective-collapse alternative to unitary quantum dynamics"
+    },
+    {
+      "id": "R-060",
+      "name": "Tullio Weber",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-042"
+      ],
+      "focus": "Foundational objective-collapse alternative to unitary quantum dynamics"
+    },
+    {
+      "id": "R-061",
+      "name": "Matthew Pusey",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-044"
+      ],
+      "focus": "Ontology of the quantum state under preparation independence"
+    },
+    {
+      "id": "R-062",
+      "name": "Jonathan Barrett",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-044"
+      ],
+      "focus": "Ontology of the quantum state under preparation independence"
+    },
+    {
+      "id": "R-063",
+      "name": "Terry Rudolph",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-044"
+      ],
+      "focus": "Ontology of the quantum state under preparation independence"
+    },
+    {
+      "id": "R-064",
+      "name": "Lorenzo Procopio",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-045"
+      ],
+      "focus": "Quantum switch implementation and interpretation limits"
+    },
+    {
+      "id": "R-065",
+      "name": "Mateus Araújo",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-045"
+      ],
+      "focus": "Quantum switch implementation and interpretation limits"
+    },
+    {
+      "id": "R-066",
+      "name": "Philip Walther",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-045",
+        "SRC-046"
+      ],
+      "focus": "Quantum switch implementation and interpretation limits"
+    },
+    {
+      "id": "R-067",
+      "name": "Giulia Rubino",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-046"
+      ],
+      "focus": "Operational witnessing of indefinite causal order in a quantum system"
+    },
+    {
+      "id": "R-068",
+      "name": "Lee A. Rozema",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-046"
+      ],
+      "focus": "Operational witnessing of indefinite causal order in a quantum system"
+    },
+    {
+      "id": "R-069",
+      "name": "Massimiliano Proietti",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-047"
+      ],
+      "focus": "Extended Wigner-friend constraints under locality and free-choice assumptions"
+    },
+    {
+      "id": "R-070",
+      "name": "Alexander Pickston",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-047"
+      ],
+      "focus": "Extended Wigner-friend constraints under locality and free-choice assumptions"
+    },
+    {
+      "id": "R-071",
+      "name": "Alessandro Fedrizzi",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-047"
+      ],
+      "focus": "Extended Wigner-friend constraints under locality and free-choice assumptions"
+    },
+    {
+      "id": "R-072",
+      "name": "Yaakov Fein",
+      "fields": [
+        "Chemistry"
+      ],
+      "works": [
+        "SRC-048"
+      ],
+      "focus": "Large-molecule interferometry and limits on objective-collapse alternatives"
+    },
+    {
+      "id": "R-073",
+      "name": "Michael Mauk",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-049"
+      ],
+      "focus": "Neural temporal coding across distributed timing circuits"
+    },
+    {
+      "id": "R-074",
+      "name": "Dean Buonomano",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-049",
+        "SRC-051",
+        "SRC-052"
+      ],
+      "focus": "Neural temporal coding across distributed timing circuits"
+    },
+    {
+      "id": "R-075",
+      "name": "Simon Grondin",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-050"
+      ],
+      "focus": "Human interval timing and models of subjective duration"
+    },
+    {
+      "id": "R-076",
+      "name": "Uma Karmarkar",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-051"
+      ],
+      "focus": "Subsecond interval processing"
+    },
+    {
+      "id": "R-077",
+      "name": "Peter Tse",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-052"
+      ],
+      "focus": "Subjective duration versus neural event timing"
+    },
+    {
+      "id": "R-078",
+      "name": "Anna Christina Nobre",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-052"
+      ],
+      "focus": "Subjective duration versus neural event timing"
     }
   ],
   "verdictAudit": {
@@ -1424,5 +1936,15 @@
       "Confounders, uncertainty, limitations, and counterarguments",
       "Session ID, date, old and new score, mathematical or explicit qualitative rationale"
     ]
+  },
+  "expansionTargets": {
+    "baselineWorks": 40,
+    "minimumCataloguedWorks": 400,
+    "stretchCataloguedWorks": 4000,
+    "minimumFullStudies": 400,
+    "stretchFullStudies": 4000,
+    "scope": "Targets across future sessions, not present inventory or estimated time",
+    "countPolicy": "Only unique real bibliographic records count as catalogued. Only dated section-level notes meeting library protocol count as fully-studied.",
+    "nextCollectionGate": "Fill coverage gaps by research topic, verify DOI or institutional source, then record genuine reading status and review notes."
   }
 }
