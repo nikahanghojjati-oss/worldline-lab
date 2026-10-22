@@ -1458,9 +1458,10 @@
       "url": "https://arxiv.org/abs/2411.17588",
       "role": "LISA Pathfinder noise reinterpretation provides model-conditioned CSL and DP parameter bounds",
       "access": "fully-studied",
-      "note": "Original arXiv v1 abstract checked, NOTE-048; forward underground projection not measured. R006: complete published original main text critically studied including methods, controls and counterarguments, research/full-study-batch-003-ten-discriminator-candidates.md. Supplements and raw detector records not independently replicated; named original versions in report.",
+      "note": "Original arXiv v1 abstract checked, NOTE-048; forward underground projection not measured. R006: complete published original main text critically studied including methods, controls and counterarguments, research/full-study-batch-003-ten-discriminator-candidates.md. Supplements and raw detector records not independently replicated; named original versions in report. R008 independently reproduced original published-input numerical bound; source notes NOTE-063/064 and research/csl-bound-reconstruction-S002-R008.md, without raw detector fit replication.",
       "linkedLedger": [
-        "WL-011"
+        "WL-011",
+        "WL-018"
       ],
       "verdictEffect": "none",
       "effectReason": "Source-specific claim movement is possible, but no observed equal-assumption Everett-vs-Bohm ontology-discriminating likelihood.",
@@ -1505,9 +1506,10 @@
       "url": "https://doi.org/10.1140/epjc/s10052-021-09556-0",
       "role": "Experiment-directed test of ontology-adjacent quantum dynamics, explicit model assumptions, potential falsifier and cross-source critique",
       "access": "fully-studied",
-      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full open publisher original EPJC article 81 773 (2021) R006 source-linked claim: WL-013; status moved in ledger but central editorial direction unchanged.",
+      "note": "Complete original published main-text critical source review S-002-R006; exact method, results, counterevidence, limits and original source access in research/full-study-batch-003-ten-discriminator-candidates.md. Supplemental data and independent all-derivations replication not claimed. Full open publisher original EPJC article 81 773 (2021) R006 source-linked claim: WL-013; status moved in ledger but central editorial direction unchanged. R008 independently reproduced original published-input numerical bound; source notes NOTE-063/064 and research/csl-bound-reconstruction-S002-R008.md, without raw detector fit replication.",
       "linkedLedger": [
-        "WL-013"
+        "WL-013",
+        "WL-018"
       ],
       "verdictEffect": "none",
       "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
@@ -2748,7 +2750,7 @@
   ],
   "verdictAudit": {
     "currentScore": 50,
-    "empiricalConclusion": "Main physical multiplicity of actual histories remains empirically unresolved: Everett and equilibrium Bohm share ordinary Born outcome distributions. Strong or white-noise collapse parameter sets are experimentally excluded in measured molecule, germanium, xenon and LISA regimes; colored spectra and apparatus correlations require explicit model restrictions. The 50 compass is neutral editorial, not 50% odds.",
+    "empiricalConclusion": "Physically actual one-versus-many histories remains experimentally unresolved. XENON/Ge published radiation constraints and LISA reported force-noise bounds narrow white-noise CSL parameter domains. Independent R008 source-input reconstructions reproduce Ge 95% Bayesian and LISA Eq10 numerical limits, while molecule and angular limits remain source-only. Everett vs quantum-equilibrium Bohm ordinary Born predictions are operationally equivalent. Editorial 50 is NOT a 50% probability.",
     "initialScoreExplanation": "Historical 59 was an unsupported +9 editorial preference inherited from pre-project discussion. VC-010 on 2026-10-21 resets to neutral editorial 50 as a methodology correction, NOT experimental support for one history nor 50% probability. Earlier 59 events remain preserved.",
     "changeLog": [
       {
@@ -3102,6 +3104,38 @@
         ],
         "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
         "justification": "Scientific ledger advanced six named model propositions (MOVE-002–007), including true molecule and germanium observations, existing LISA rotational/translational reanalysis, spectral cutoff parameter qualifications and explicit theoretical countermodels. No reviewed experiment has a different likelihood for matched standard Everett vs equilibrium Bohm histories, so the neutral 50 editorial compass must not be pushed toward either ontology. This is a substantive scientific advance without arbitrary central scoring."
+      },
+      {
+        "id": "VC-012",
+        "date": "2026-10-21",
+        "oldScore": 50,
+        "newScore": 50,
+        "delta": 0,
+        "status": "no-change",
+        "empiricalImpact": 0,
+        "trigger": "Independent published-input 95% Ge gamma posterior reconstruction and 2024 LISA acceleration-noise parameter calculation, source-level common white-noise CSL bound comparison",
+        "sourceIds": [
+          "SRC-069",
+          "SRC-067",
+          "SRC-066",
+          "SRC-048",
+          "SRC-068",
+          "SRC-070"
+        ],
+        "ledgerIds": [
+          "WL-018",
+          "WL-011",
+          "WL-012",
+          "WL-013",
+          "WL-014",
+          "WL-015"
+        ],
+        "readingNotes": [
+          "NOTE-063",
+          "NOTE-064"
+        ],
+        "fieldNote": "research/csl-bound-reconstruction-S002-R008.md",
+        "justification": "A genuine advance in computation/audit reproducibility validates conditional parameter claims: Donadi published 95%-credible bound is reproduced at 5.1973236e-13 using BOTH signal/background +1 counts; Dai LISA conservative PSD calculation yields 8.364e-11 using published geometry. XENON 90%-CL paper ratio converts to 3e-17 at rC=1e-7 without detector likelihood replication. Interferometric molecules and LISA torque remain non-digitized. These tests differentiate modified stochastic dynamics from unitary quantum behavior in model-specific limits, not actual-history ontology of Everett versus quantum-equilibrium Bohm. Neutral 50 remains editorial, not probability."
       }
     ],
     "revisionRequirements": [
