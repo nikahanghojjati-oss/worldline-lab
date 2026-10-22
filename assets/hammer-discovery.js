@@ -60,7 +60,7 @@
    try{jointDesign(a,b,m);reason='owner-declared veto despite compatible mathematical form';}
    catch(e){reason=e.message;}
    return {id:m.id,question:m.question,status:'VETO',reason,trace,proposedLedgerScoreChange:0,
-    verdictImpact:'NONE',hypothesisNovelty:'UNASSESSED'};
+    verdictImpact:'NONE',hypothesisNovelty:'UNASSESSED',nextQuestion:'Which rival physical models would make this question meaningful without an ontology-to-dynamics category error?'};
   }
   try{
    const fused=jointDesign(a,b,m);
@@ -75,7 +75,7 @@
     nominalJSBits:result.nominalJSBits,robustJSBits:result.robustJSBits,
     improvementOverBestComponentBits:safeGain,planningPriority:result.robustInformationPerCost,
     falsifier:m.falsifier,confounder:m.confounder,nuisanceCounterexample:result.worstCase,
-    trace,independenceUnverified:true,hypothesisNovelty:'UNASSESSED',proposedLedgerScoreChange:0,
+    trace,nextQuestion:status==='NO_IDENTIFIABLE_WEDGE'?'What physical assumption must change before these two models predict different joint observations?':'Which shared-nuisance model or real calibration data could destroy the predicted independent-arm wedge?',independenceUnverified:true,hypothesisNovelty:'UNASSESSED',proposedLedgerScoreChange:0,
     verdictImpact:'NONE',sourceIds:fused.sources,
     caution:'Theory-only product assumptions; joint correlations, actual rates, calibration, literature novelty and physical feasibility not established.'};
   }catch(e){
