@@ -19,6 +19,8 @@ Repository: https://github.com/nikahanghojjati-oss/worldline-lab
 - Never treat simulations, philosophical assumptions or model interpretations as experimental proof of branching realities; reverify sources before changing any editorial orientation score.
 - No automatic background research occurs unless a separately scheduled task or workflow is actually set up.
 
+Research synthesis: `research/field-note-001.md` and full-study standards: `LIBRARY_PROTOCOL.md`.
+
 ## Immediate next verification
 Confirm that the Session Observatory at `#sessions` loads the GitHub-backed founding record, calculates recommendations from the assessment, copies or downloads the compact handoff, and clearly differentiates browser drafts from committed research. After that, expand the scholar corpus carefully and conduct full-text, section-cited reviews beginning with core relativity and quantum foundations. Then design interactive labs.
 
