@@ -30,7 +30,7 @@
       "furtherSources": [
         "https://arxiv.org/abs/0811.0810"
       ],
-      "nextTask": "Derive one full controlled quantum eraser and pointer distribution in both theories and identify where an added assumption would break equality",
+      "nextTask": "S-002-R012 exact 2-qubit reversible pointer/eraser model and matched Born likelihood equality completed (WL-021); next seek operationally distinct added one-history or many-history physical premise rather than add more Born-equivalent trials.",
       "scorePossible": "no under matching equilibrium"
     },
     {
@@ -161,6 +161,6 @@
     ],
     "warning": "Simulated background is NOT known precisely; parameter chosen AFTER seeing counts biases inference; no nuisance marginalization, raw spectrum likelihood or CSL parameter-family integration; never update canonical 50 with these choices. A physical model-averaged score requires preregistered prior probabilities and sensitivity ranges."
   },
-  "researchReport": "research/full-study-batch-004-one-many-Born-R010.md",
-  "nextRound": "S-002-R011: empirical feasibility and opposing physical collapse/recoherence model with preregistered detector controls."
+  "researchReport": "research/operational-identifiability-S002-R012.md",
+  "nextRound": "S-002-R013: audit detector/source-calibrated actual non-equilibrium Born-rule or macroscopic recoherence results, not routine quantum sample size."
 }

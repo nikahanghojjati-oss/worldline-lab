@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-22",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "S-002-R011: original flux-qubit macrorealism trial study, 84-sigma conditional physical claim and release acceptance safeguards",
+  "phase": "S-002-R012 mathematically tested operational equivalence: Everett versus quantum-equilibrium Bohm equal under matched pointer experiments; specified extra collapse can differ.",
   "milestones": [
     {
       "id": "M1",
@@ -145,6 +145,20 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "S-002-R012 matched operational Born predictions cannot count physically real histories",
+          "summary": "Original two-qubit eraser plus exact Born-pointer likelihood proof: Everett branch weights and Bohmian quantum equilibrium actual-pointer frequencies are identical. A stipulated extra loss channel differs only as a dynamical hypothesis, shown by separate synthetic binomial models.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-059",
+            "SRC-076"
+          ],
+          "readingNoteIds": [
+            "NOTE-068"
+          ],
+          "limitation": "Conditional finite Hilbert-space model, not new detector results or independent evidence of real branches; human/macroscopic recoherence and experimental collapse kernel not reproduced."
+        },
         {
           "title": "Measured macrorealism class exclusion, not multiverse evidence · S-002-R011",
           "summary": "Knee et al. 2016 full original main article: superconducting flux qubit 170 nA / roughly 10 ns, calibrated disturbances d_g=-0.026612, d_e=+0.015884 and d_rho=-0.089788, our published-number significance 83.91 sigma. Physically rejects specified mixture-control macrorealist models, yet standard Everett and Bohmian equilibrium agree.",
@@ -402,6 +416,20 @@
       },
       "caseHighlights": [
         {
+          "title": "S-002-R012 matched operational Born predictions cannot count physically real histories",
+          "summary": "Original two-qubit eraser plus exact Born-pointer likelihood proof: Everett branch weights and Bohmian quantum equilibrium actual-pointer frequencies are identical. A stipulated extra loss channel differs only as a dynamical hypothesis, shown by separate synthetic binomial models.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-059",
+            "SRC-076"
+          ],
+          "readingNoteIds": [
+            "NOTE-068"
+          ],
+          "limitation": "Conditional finite Hilbert-space model, not new detector results or independent evidence of real branches; human/macroscopic recoherence and experimental collapse kernel not reproduced."
+        },
+        {
           "title": "Founding source-critical study milestone (historical)",
           "summary": "3 whole-main-text reviewed works then had documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; founding batch report is archived; today's live completion count comes from source status records.",
           "sourceIds": [
@@ -530,6 +558,20 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "S-002-R012 matched operational Born predictions cannot count physically real histories",
+          "summary": "Original two-qubit eraser plus exact Born-pointer likelihood proof: Everett branch weights and Bohmian quantum equilibrium actual-pointer frequencies are identical. A stipulated extra loss channel differs only as a dynamical hypothesis, shown by separate synthetic binomial models.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-059",
+            "SRC-076"
+          ],
+          "readingNoteIds": [
+            "NOTE-068"
+          ],
+          "limitation": "Conditional finite Hilbert-space model, not new detector results or independent evidence of real branches; human/macroscopic recoherence and experimental collapse kernel not reproduced."
+        },
         {
           "title": "Measured macrorealism class exclusion, not multiverse evidence · S-002-R011",
           "summary": "Knee et al. 2016 full original main article: superconducting flux qubit 170 nA / roughly 10 ns, calibrated disturbances d_g=-0.026612, d_e=+0.015884 and d_rho=-0.089788, our published-number significance 83.91 sigma. Physically rejects specified mixture-control macrorealist models, yet standard Everett and Bohmian equilibrium agree.",
@@ -1295,6 +1337,37 @@
     }
   ],
   "journal": [
+    {
+      "id": "J-013",
+      "date": "22 October 2026",
+      "category": "ORIGINAL MODEL EQUIVALENCE & TEST DESIGN · S-002-R012",
+      "title": "When more quantum experiments cannot tell us how many histories are real",
+      "intro": "A reproducible two-qubit quantum record and explicitly fixed likelihood comparison prove a crucial limitation: Everett and equilibrium Bohm yield exactly the same outcomes for matched standard measurements, while specified physical collapse dynamics can change statistics.",
+      "sections": [
+        {
+          "heading": "An exact conditional equality",
+          "text": "Quantum equilibrium and apparatus pointer calibration imply P_Bohm(k)=P_Everett(k)=Born weight for every ordinary record. The data likelihood ratio is 1 under matched predictions, no matter how many such observations are repeated. This is a meaningful research finding: the measurement class does not identify how many physical histories exist."
+        },
+        {
+          "heading": "Undo a physical record coherently",
+          "text": "A source-backed illustrative H/CNOT record can be reversed with unit probability. If a separate irreversible dephasing operation is inserted and the environment is not restored, the corresponding first-qubit return probability becomes 1/2. Both Everett and equilibrium Bohm predict the coherent reversal, so a difference would constrain added collapse or decoherence dynamics, not itself prove multiple actual worlds."
+        },
+        {
+          "heading": "A preregistered synthetic likelihood demonstration",
+          "text": "For 1000 wholly synthetic records, an explicitly assumed environment factor 0.8 and extra-physical-dephasing factor 0.5 yield p=.9 versus .7. 900 positive synthetic results give log LR +116.3218 for two fixed dynamics, while Everett/Bohm is exactly zero. Different synthetic counts can reverse the dynamical-model likelihood; no toy numbers should be presented as observations."
+        },
+        {
+          "heading": "What research we should pursue now",
+          "text": "Seek empirical Born-rule deviations under specified non-equilibrium models, calibrated source/detector alternatives and durable recoherence experiments with fully specified collapse/environment kernels. Conventional Bell, ordinary interference and Born confirmations alone do not identify physically actual branch count. Read research/operational-identifiability-S002-R012.md for assumptions and reproducible code."
+        }
+      ],
+      "sourceIds": [
+        "WL-021",
+        "WL-020",
+        "WL-019"
+      ],
+      "fullReport": "research/operational-identifiability-S002-R012.md"
+    },
     {
       "id": "J-012",
       "date": "22 October 2026",

@@ -614,6 +614,37 @@
         "NOTE-067",
         "research/full-study-batch-005-macrorealism-R011.md"
       ]
+    },
+    {
+      "id": "WL-021",
+      "date": "2026-10-22",
+      "title": "Operational history-count nonidentifiability in the Born-equilibrium class; conditional coherence-loss discriminators",
+      "field": "Quantum foundations",
+      "kind": "Original mathematical model-comparison analysis with reproducible two-qubit and fixed-likelihood calculations",
+      "status": "Finite-dimensional conditional equality analytically derived and tested; no new physical detector data",
+      "question": "Can repeatable Born-rule pointer observations ever tell Everett real branches from Bohm's single actual configuration under the same wave dynamics?",
+      "finding": "Under quantum equilibrium and matched physically accessible apparatus, Bohmian pointer P(k)=integral_Rk |Psi(q)|² dq equals Everett branch weight ||Pi_k Psi||²; sequential instrument outcomes likewise share Tr(I_kn∘...∘I_k1(rho)). For any data in this operational class, likelihood ratio Everett/Bohm is identically one; more trials cannot resolve physical branch ontology. Original inverse H/CNOT test yields P(q0)=1 with coherent inverse, 1/2 for a stipulated genuinely incoherent mixture. A synthetic binomial n1000/k900 with Punitary=.9 and specified extra loss P=.7 has fixed-hypothesis log likelihood ratio +116.3218, whereas Everett/Bohm remains exactly 0. These test dynamical extra assumptions, not direct branch reality.",
+      "source": "Everett 1957 full original SRC-007, Bohm 1952 originals SRC-010 and SRC-059, Norsen 2018 full original SRC-076; project-owned transparent derivation and Node test S-002-R012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7512940/",
+      "impact": 0,
+      "direction": "Eliminates matched Born operational measurements as a central-history discriminator unless an added physical premise creates different measurable predictions; no central directional movement",
+      "strength": "Exact finite Hilbert-space and conditional equivariance proof sketch, symbolic algebra and numeric code; literature premises sourced, not observational discovery",
+      "place": "Abstract computational model, no geographic experimental site",
+      "lat": null,
+      "long": null,
+      "locationType": "Theory and reproducible code only; no fabricated laboratory coordinate",
+      "notes": "Requires quantum equilibrium, matched wave and pointer apparatus, Everett Born-weight record rule, disjoint pointer regions and measurement regularity. Conditional c=0.5 is illustrative, not derived original GRW/CSL. Synthetic n/k not observed. Ordinary environmental decoherence can mimic an irreversible reduced mixture unless controlled. Detailed proof in research/operational-identifiability-S002-R012.md; code in tools/truth-engine/ontology-identifiability.cjs.",
+      "reviewRefs": [
+        "SRC-007",
+        "SRC-010",
+        "SRC-059",
+        "SRC-076",
+        "NOTE-050",
+        "NOTE-043",
+        "NOTE-044",
+        "NOTE-066",
+        "research/operational-identifiability-S002-R012.md"
+      ]
     }
   ],
   "scientificMovements": [

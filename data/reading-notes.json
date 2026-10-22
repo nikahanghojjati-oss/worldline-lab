@@ -1721,6 +1721,35 @@
         "appendicesAsRecorded": false,
         "independentFullReproduction": false
       }
+    },
+    {
+      "id": "NOTE-068",
+      "workId": "SRC-076",
+      "date": "2026-10-22",
+      "sessionId": "S-002",
+      "roundId": "S-002-R012",
+      "stage": "partially-studied",
+      "label": "Independent operational-equivalence mathematical derivation anchored in previously completed Norsen/Bohm/Everett reviews",
+      "basis": "Source-complete earlier NOTE-066 for SRC-076; this additional round reexamines Norsen §2 equivariance/pointer derivation and Everett SRC-007 + Bohm I/II original full-study notes. No new whole-main-text source completed.",
+      "sectionsRead": [
+        "Norsen §2 guidance/continuity and Born equilibrium",
+        "Norsen §5 typicality versus absolute equilibrium caveats",
+        "Everett original relative-state recording and squared norm measure",
+        "Bohm I/II original pointer single-configuration assumptions",
+        "Project original inverse CNOT/H calculation and finite quantum instruments likelihood"
+      ],
+      "summary": "Given matched initial wave, measurement apparatus and equilibrium configuration, all operational pointer probabilities match Everett Born weighting. A reversible two-qubit quantum record can exhibit unitary recoherence with P=1, whereas a stipulated irreversibly dephased record after attempted inversion gives P=1/2. Both Everett and equilibrium Bohm give P=1; collapse distinction is dynamical not actual branch census.",
+      "method": "Source-grounded conditional equivalence proof and code, independent two-qubit and two opposing synthetic fixed-hypothesis likelihood checks.",
+      "limitations": "No new full paper read, no physical macroscopic erasure experiment, non-equilibrium Bohm, alternate apparatus ontology and objective-collapse geometry outside the theorem premises; synthetic data NOT new evidence.",
+      "alternativeExplanations": "Bohmian unequilibrium distributions, phenomenological environmental phase loss, unmodeled pointer-device channel, non-markovian colored collapse.",
+      "conclusion": "Prioritize tests involving physically distinct predictions rather than increasing uninformative standard Born sample size; no evidence score movement.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Mathematical addendum revisiting sections of already fully studied primary papers; do not count as an additional full source.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-021"
+      ],
+      "fieldNote": "research/operational-identifiability-S002-R012.md"
     }
   ]
 }
