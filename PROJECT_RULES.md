@@ -41,3 +41,18 @@ Effective 2026-10-21 · Owner-approved research-first operating policy
 5. Continue while coherent; hand off at a meaningful boundary with links and one precise next action.
 
 This policy complements `RESEARCH_PROTOCOL.md` and `LIBRARY_PROTOCOL.md`; it does not relax their scientific evidentiary standards.
+
+
+## Mandatory end-of-round Session Observatory update (all GPT sessions and workers)
+Effective 2026-10-21. An **end-of-round checkpoint is mandatory after every discrete round of substantive work**, not just at a project milestone, before reporting the round complete or switching to another task. A round may be one bounded literature review, code change, UI improvement, experiment, QA pass, research audit or governance edit. This rule applies to the founding session and all future GPT chats or delegated workers who can write to this repository.
+
+1. Fetch the latest `data/sessions.json` immediately before writing. Preserve existing session IDs and other workers' updates; do not overwrite concurrent progress.
+2. Update the active session checkpoint and top-level `updated`, `activeWork`, `lastVerified`, `nextStep`, and `blocking` as appropriate. Review **every** entry in `workstreams` on every round: refresh affected status/latest/next and explicitly preserve truthful unchanged areas rather than silently letting stale summaries stand.
+3. Recompute and **save every `transition` decision field every round**, especially `assessedOn`, `milestoneComplete`, `checkpointCommitted`, `openQuestionsRecorded`, `nextActionDefined`, `naturalBoundary`, `documentedContinuityRisk`, `decisionBasis`, and `updatePolicy`. State an explicit CONTINUE / PREPARE HANDOFF / TRANSITION RECOMMENDED reason; no fabricated token or time metrics. A positive readiness gauge indicates preparation, never a compulsory chat switch.
+4. Append a dated entry to `roundLog` with session ID, round ID, scope, files changed, verified achievements, research coverage/read depth, verdict decision (changed or unchanged with source references), changes/no-change to each site section, continuity assessment, and one next action. Increment only for actual work. If a round includes research, update linked `data/reading-notes.json`, `data/library.json`, `data/ledger.json` and the verdict audit where relevant. Review counts must come from actual records.
+5. Treat the session-record commit as a required part of the round, ideally in the same commit as the work or immediately after it. If publication/write access fails, clearly report that the Observatory is **not synced**, record exact missing steps, and never claim it is current.
+6. Update the session page through its existing GitHub-backed data model. The public activity feed is a poll of GitHub history while open, not live GPT activity. Browser-only handoff drafts never qualify as persisted checkpoints.
+7. Before a future GPT session starts, inspect the most recent roundLog entry, the active transition recommendation, open research question, links to source records, and `ROADMAP.md`, then continue without inventing work. Do not create another session ID until a genuinely new chat begins.
+
+Acceptance test for every round: can the project owner open `#sessions` and distinguish what was completed, what did not change, why the verdict did or did not move, the precise next action, and whether a transition is recommended? If not, the round is not properly closed.
+
