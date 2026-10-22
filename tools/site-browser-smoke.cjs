@@ -97,7 +97,7 @@ async function run(viewportName,viewport){
   await assertRoute(page,'ledger');
   const truthPanel=page.locator('#truth-engine-view');
   await page.waitForFunction(()=>document.querySelector('#truth-engine-view')?.textContent?.includes('Recorded directional decisions:'));
-  assert.match(await truthPanel.innerText(),/Independent human scientific GitHub review is required/,'v0.2 trusted reviewer policy is explained');
+  assert.match(await truthPanel.innerText(),/Two distinct AI model reviewers must study original-source material/,'scientific review policy is explained');
   assert.match(await truthPanel.innerText(),/not an empirical probability/,'compass scientific calibration caveat');
   assert.ok(await truthPanel.locator('a[href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/truth-engine.json"]').count()===1,'auditable Truth Engine source link');
   const publishedDecisions=JSON.parse(fs.readFileSync(path.join(root,'data/truth-engine.json'),'utf8')).changeLedger.length;
