@@ -115,5 +115,58 @@
    scienceVerdict:'UNRESOLVED',proposedLedgerScoreChange:0,
    note:'HAMMER recombines question structures and hunts mathematical counterexamples. This does not establish novelty, physical feasibility, causal independence, measured data, AGI or actual ontology.'};
  }
- return Object.freeze({validate,jointDesign,evaluateMission,postprocess,discover});
+
+ // Deterministic bounded hypothesis inventor: no fixed human-authored fusion list needed.
+ // Search depth and finite nuisance grids are capped to avoid combinatorial explosion.
+ function search(library,options){
+  core.validate(library);
+  const depth=Math.min(2,Math.max(1,Number.isSafeInteger(options?.depth)?options.depth:2));
+  const beamWidth=Math.min(5,Math.max(1,Number.isSafeInteger(options?.beamWidth)?options.beamWidth:3));
+  let frontier=library.designs.map(d=>({design:d,lineage:[d.id],depth:0}));
+  const catalog=frontier.slice(),memory=[],visited=new Set();
+  let attempts=0;
+  for(let level=1;level<=depth;level++){
+   const produced=[];
+   const choices=level===1?catalog:catalog;
+   for(const a of frontier)for(const b of choices){
+    const lineage=[...a.lineage,...b.lineage].sort();
+    const fingerprint=lineage.join('+');
+    if(visited.has(fingerprint))continue;
+    visited.add(fingerprint);attempts++;
+    if(attempts>100)break;
+    const mission={id:'HG-'+String(attempts).padStart(4,'0'),
+     question:'If '+a.design.title+' and '+b.design.title+' are measured together, do their joint outcomes still distinguish the same rival physical models?',
+     action:'fuse'};
+    try{
+     const design=jointDesign(a.design,b.design,mission);
+     const r=core.analyze(design),single=Math.max(core.analyze(a.design).robustJSBits,core.analyze(b.design).robustJSBits);
+     const candidate={id:mission.id,depth:level,lineage,
+      robustJSBits:r.robustJSBits,incrementalJSBits:Math.max(0,r.robustJSBits-single),
+      informationPerDeclaredCost:r.robustInformationPerCost,
+      result:r.robustJSBits===0?'NONIDENTIFIABLE':'UNTESTED_CONDITIONAL_WEDGE',
+      scientificScope:design.impactScope,novelty:'NOT_CHECKED',
+      falsifier:'Show a matched rival-model explanation after measuring calibrated shared-detector correlations and control-arm losses.',
+      sourceIds:design.sources,
+      caveat:'Product joint probabilities require unmeasured conditional independence. No actual experiment, fitted nuisance, raw data or scientific verdict shift.',
+      scoreMovement:0};
+     memory.push(candidate);
+     if(r.robustJSBits>0)produced.push({design,lineage,depth:level,score:r.robustInformationPerCost});
+    }catch(err){
+     memory.push({id:mission.id,depth:level,lineage,result:'VETO',reason:err.message,
+      scienceScope:'not transferable',scoreMovement:0});
+    }
+   }
+   frontier=produced.sort((x,y)=>y.score-x.score||x.lineage.join().localeCompare(y.lineage.join())).slice(0,beamWidth);
+   if(!frontier.length)break;
+  }
+  const ranked=memory.filter(x=>x.result==='UNTESTED_CONDITIONAL_WEDGE')
+   .sort((x,y)=>y.informationPerDeclaredCost-x.informationPerDeclaredCost||x.id.localeCompare(y.id));
+  return {schema:'worldline-hammer-search/v1',depth,beamWidth,attempts,
+   explored:memory.length,topCandidate:ranked[0]||null,
+   trace:memory,feedback:['Generate a model-discriminating test','Attack nuisance ranges and independence','Reject mismatched theory categories','Translate a surviving design into data requirements'],
+   evidenceStatus:'SYNTHETIC_THEORY_ONLY',verifiedNovelDiscoveries:0,providerReviewsPerformed:0,
+   ledgerMovement:0,centralVerdict:'UNRESOLVED'};
+ }
+
+ return Object.freeze({validate,jointDesign,evaluateMission,postprocess,discover,search});
 });
