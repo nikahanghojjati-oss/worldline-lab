@@ -26,3 +26,15 @@ Confirm that the Session Observatory at `#sessions` loads the GitHub-backed foun
 
 ## Durable output to record
 Update `data/sessions.json` with only verified work, next action, current status, and a new session ID only when a truly new GPT chat begins. Keep historical IDs stable.
+
+## Session Control Center v3
+The Sessions page retrieves the authoritative progress and handoff evaluation from `data/sessions.json`, and while open it retrieves the most recent project-wide GitHub commits about every three minutes. These represent commits, not live GPT telemetry. Do not infer context capacity from the activity feed.
+
+Whenever any substantial research, library, laboratory, homepage, atlas or methodology work is committed, update `data/sessions.json` in the same milestone (or the immediately following commit):
+- Update `lastVerified`, `activeWork`, `nextStep`, and the relevant `workstreams` item.
+- Append only actual work completed to S-001 checkpoint verified entries; keep limitations honest.
+- Update the `transition` gate: `milestoneComplete`, `checkpointCommitted`, `openQuestionsRecorded`, `nextActionDefined`, and `naturalBoundary`. Do not mark the next phase boundary simply because a file was saved.
+- Change `activeSession` and create S-002 only when a separate chat actually begins, after finishing an authentic handoff.
+- Keep `SESSION_START.md` short and keep original evidence in linked source files.
+
+Default is to continue the same coherent research session. Recommend a handoff only when a meaningful stage has ended and the saved packet can resume it, or when serious continuity loss is explicitly reported. No short timer or made-up context percentage.
