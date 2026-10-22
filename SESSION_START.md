@@ -1,10 +1,26 @@
-# Worldline Lab · One-page session starter
+# Worldline Lab · session bootstrap
 
+Website: https://nikahanghojjati-oss.github.io/worldline-lab/#sessions
 Repository: https://github.com/nikahanghojjati-oss/worldline-lab
-Website: https://nikahanghojjati-oss.github.io/worldline-lab/
 
-On a new session: read `data/sessions.json`, `data/research.json` and relevant ledger entries from `data/ledger.json`. Reverify live branch/head and any time-sensitive cited sources. Choose one highest-information-gain research action. Do not re-read all historical chat or Career Mode Showdown. Cite new sources; tag the category; decide whether the result discriminates before adjusting any compass value. Record exactly what changed, what is unresolved, and the next verification in `data/sessions.json`.
+## Start with the smallest authoritative state
+1. Read `data/sessions.json` for active session, progress, limitations, and next action.
+2. Read only relevant `data/ledger.json` records, then fetch primary sources as required.
+3. If necessary, use `data/research.json` and `RESEARCH_PROTOCOL.md` for goals and evidence rules.
+4. Verify repository head, recent relevant commits, and any time-sensitive cited material.
 
-Current task: verify the Worldline Lab GitHub Pages release and build a reviewed evidence-update protocol.
+## Session continuity contract
+- The first actual founding session is S-001. Do not invent additional sessions.
+- Make one meaningful, reviewable advance per stage. Continue while the task remains coherent.
+- A handoff is recommended at a meaningful stage boundary with a committed, minimal restart packet or after serious self-reported context degradation.
+- Save: verified change / link to source, open limitation, and one highest-value next action.
+- Do not switch just because an arbitrary amount of time has elapsed.
+- The static website cannot measure ChatGPT tokens or remaining context. If no instrumentation exists, report "not available." Browser checkboxes are manually supplied signals and do not sync to GitHub.
+- Never treat simulations, philosophical assumptions or model interpretations as experimental proof of branching realities; reverify sources before changing any editorial orientation score.
+- No automatic background research occurs unless a separately scheduled task or workflow is actually set up.
 
-Never invent usage totals or claim unattended research runs without scheduled automation. Current 59 is an editorial orientation only; empirical answer remains open.
+## Immediate next verification
+Confirm that the Session Observatory at `#sessions` loads the GitHub-backed founding record, calculates recommendations from the assessment, copies or downloads the compact handoff, and clearly differentiates browser drafts from committed research. After that, design the separate lab detail interfaces.
+
+## Durable output to record
+Update `data/sessions.json` with only verified work, next action, current status, and a new session ID only when a truly new GPT chat begins. Keep historical IDs stable.
