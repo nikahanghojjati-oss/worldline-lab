@@ -29,13 +29,14 @@ async function scan(page,name,include){
   await ready();browser=await chromium.launch({headless:true});const issues=[];
   const routes=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'];
   for(const [viewportName,width,height] of [['desktop',1440,900],['phone-width',390,844]]){
-   const context=await browser.newContext({viewport:{width,height}});
+   const context=await browser.newContext({viewport:{width,height},reducedMotion:'reduce'});
    const page=await context.newPage();
    await page.goto(url+'#home',{waitUntil:'domcontentloaded'});
    await page.waitForFunction(r=>document.querySelector('#research-round-banner')?.textContent?.includes(r),latest,{timeout:15000});
    for(const route of routes){
     await page.evaluate(r=>location.hash='#'+r,route);
     await page.waitForFunction(r=>document.querySelector('.page.active')?.dataset.page===r,route);
+    await page.waitForTimeout(400); // settle dynamic layout and route transition before contrast sampling
     issues.push(...await scan(page,viewportName+'/'+route));
    }
    for(const slug of ['physics','quantum-computing','chemistry']){
@@ -44,6 +45,7 @@ async function scan(page,name,include){
      await page.evaluate(({slug,room})=>location.hash='#disciplines?lab='+slug+'&room='+room,{slug,room});
      await page.waitForFunction(s=>document.querySelector('#lab-detail')?.hidden===false&&location.hash.includes(s),slug,{timeout:15000});
      if(room==='interactive')await page.waitForFunction(()=>!!document.querySelector('#lab-control'));
+     await page.waitForTimeout(400);
      issues.push(...await scan(page,viewportName+'/'+slug+'/'+room,'#lab-detail'));
     }
    }

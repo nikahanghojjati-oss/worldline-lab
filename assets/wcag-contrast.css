@@ -1,27 +1,6 @@
-/* S-002-R012 automated WCAG 2.x AA contrast repair.
-   Deep navy on the site's pale paper/card backgrounds; soft white in intentional
-   ink-blue editorial panels. Fonts, spacing, art and surface palette are preserved.
-   This stylesheet loads last to override historical inherited low-contrast accents. */
-body .page.active,
-body .page.active *{color:#163b4b!important}
-/* Explicitly intentional ink-blue regions must retain high-contrast light text. */
-body .page.active :is(.featured,.lab-hero,.room-cover,.session-hero,.library-hero,.verdict-monitor,.cross-lab-card),
-body .page.active :is(.featured,.lab-hero,.room-cover,.session-hero,.library-hero,.verdict-monitor,.cross-lab-card) *{
-  color:#f3faf8!important
+/* Accessibility adjustments grounded in an axe audit of fully rendered pages.
+   Do not globally recolor research magazine typography on transient fade frames. */
+#sc-packet:focus-visible,.session-packet:focus-visible{
+  outline:3px solid #0c687c;
+  outline-offset:3px;
 }
-/* Selected navigation pills and primary buttons use a dark background. */
-body .page.active :is(.btn.primary,.control.active,.lab-rooms-switcher a.chosen,.session-actions .primary,.room-deck-controls button.active),
-body .page.active :is(.btn.primary,.control.active,.lab-rooms-switcher a.chosen,.session-actions .primary,.room-deck-controls button.active) *{
-  color:#fff!important
-}
-/* Child white or pale panels within dark sections need the normal ink foreground. */
-body .page.active :is(.verdict-monitor,.lab-hero,.library-hero,.cross-lab-card) :is(.notice,.panel,.lab-guidance,.library-work,.lab-source,.session-frame,.instrument-caution),
-body .page.active :is(.verdict-monitor,.lab-hero,.library-hero,.cross-lab-card) :is(.notice,.panel,.lab-guidance,.library-work,.lab-source,.session-frame,.instrument-caution) *{
-  color:#163b4b!important
-}
-body .page.active :is(input,select,textarea,button):not(.primary):not(.active),
-body .page.active :is(input,select,textarea,button):not(.primary):not(.active) *{
- color:#163b4b!important
-}
-body .page.active :is(input,textarea)::placeholder{color:#3b5764!important;opacity:1}
-#sc-packet:focus-visible,.session-packet:focus-visible{outline:3px solid #0c687c;outline-offset:3px}
