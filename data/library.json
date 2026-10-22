@@ -55,11 +55,11 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/RevModPhys.21.447",
       "role": "A spacetime model admitting closed timelike curves",
-      "access": "abstract-reviewed",
-      "note": "",
+      "access": "partially-studied",
+      "note": "Targeted original paper pages/sections examined on 2026-10-21; see NOTE-015..NOTE-017 and research/field-note-002.md. NOT a complete full-text review.",
       "linkedLedger": [],
       "verdictEffect": "none",
-      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "effectReason": "Original mathematical and conditional theories have no verified, discriminating observation of physical history multiplicity; see VC-003.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -73,11 +73,11 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRevD.46.603",
       "role": "Physical constraints on closed timelike curves",
-      "access": "abstract-reviewed",
-      "note": "",
+      "access": "partially-studied",
+      "note": "Targeted original paper pages/sections examined on 2026-10-21; see NOTE-015..NOTE-017 and research/field-note-002.md. NOT a complete full-text review.",
       "linkedLedger": [],
       "verdictEffect": "none",
-      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "effectReason": "Original mathematical and conditional theories have no verified, discriminating observation of physical history multiplicity; see VC-003.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -373,11 +373,11 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRevD.44.3197",
       "role": "Quantum fixed-point model of hypothetical CTCs",
-      "access": "abstract-reviewed",
-      "note": "",
+      "access": "partially-studied",
+      "note": "Targeted original paper pages/sections examined on 2026-10-21; see NOTE-015..NOTE-017 and research/field-note-002.md. NOT a complete full-text review.",
       "linkedLedger": [],
       "verdictEffect": "none",
-      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "effectReason": "Original mathematical and conditional theories have no verified, discriminating observation of physical history multiplicity; see VC-003.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -1010,6 +1010,50 @@
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-053",
+      "field": "Quantum information",
+      "title": "Path integrals, density matrices, and information flow with closed timelike curves",
+      "authors": [
+        "H. David Politzer"
+      ],
+      "year": 1994,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.49.3981",
+      "role": "Counter-model: inequivalent consistency prescriptions for stipulated CTCs",
+      "access": "abstract-reviewed",
+      "note": "Official APS publisher abstract examined on 2026-10-21, NOTE-018. Not full text.",
+      "linkedLedger": [
+        "WL-004"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Inequivalent mathematical predictions in hypothetical CTCs do not demonstrate physical CTCs.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-054",
+      "field": "Quantum information",
+      "title": "Quantum mechanics of time travel through post-selected teleportation",
+      "authors": [
+        "Seth Lloyd",
+        "Lorenzo Maccone",
+        "Raul Garcia-Patron",
+        "Vittorio Giovannetti",
+        "Yutaka Shikano"
+      ],
+      "year": 2011,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.84.025007",
+      "role": "Alternative postselection consistency rule and its differences from Deutsch CTCs",
+      "access": "abstract-reviewed",
+      "note": "Official APS publisher abstract and MIT record examined on 2026-10-21, NOTE-019. Not full text.",
+      "linkedLedger": [
+        "WL-004"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Postselection-based toy models do not establish gravitational time loops.",
       "verifiedAt": "2026-10-21"
     }
   ],
@@ -1895,6 +1939,72 @@
         "SRC-052"
       ],
       "focus": "Subjective duration versus neural event timing"
+    },
+    {
+      "id": "R-079",
+      "name": "H. David Politzer",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-053"
+      ],
+      "focus": "Counter-model: inequivalent consistency prescriptions for stipulated CTCs"
+    },
+    {
+      "id": "R-080",
+      "name": "Seth Lloyd",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-054"
+      ],
+      "focus": "Alternative postselection consistency rule and its differences from Deutsch CTCs"
+    },
+    {
+      "id": "R-081",
+      "name": "Lorenzo Maccone",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-054"
+      ],
+      "focus": "Alternative postselection consistency rule and its differences from Deutsch CTCs"
+    },
+    {
+      "id": "R-082",
+      "name": "Raul Garcia-Patron",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-054"
+      ],
+      "focus": "Alternative postselection consistency rule and its differences from Deutsch CTCs"
+    },
+    {
+      "id": "R-083",
+      "name": "Vittorio Giovannetti",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-054"
+      ],
+      "focus": "Alternative postselection consistency rule and its differences from Deutsch CTCs"
+    },
+    {
+      "id": "R-084",
+      "name": "Yutaka Shikano",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-054"
+      ],
+      "focus": "Alternative postselection consistency rule and its differences from Deutsch CTCs"
     }
   ],
   "verdictAudit": {
@@ -1948,6 +2058,36 @@
           "WL-005"
         ],
         "justification": "The wormhole model is conditional, the collapse model is a proposed alternative, the Wigner-friend inequality result requires specific assumptions, and large-molecule interference tests coherence; none presently distinguishes a physical plurality of histories from a single realized history. New bibliography and abstract-level review therefore increase scientific coverage but not the editorial verdict."
+      },
+      {
+        "id": "VC-003",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Targeted primary-paper section-level reading of Gödel, Hawking and Deutsch; abstract-level counterchecks of Politzer and Lloyd et al.",
+        "sourceIds": [
+          "SRC-002",
+          "SRC-003",
+          "SRC-019",
+          "SRC-053",
+          "SRC-054"
+        ],
+        "ledgerIds": [
+          "WL-002",
+          "WL-003",
+          "WL-004"
+        ],
+        "readingNotes": [
+          "NOTE-015",
+          "NOTE-016",
+          "NOTE-017",
+          "NOTE-018",
+          "NOTE-019"
+        ],
+        "fieldNote": "research/field-note-002.md",
+        "justification": "Gödel supplies an exact CTC spacetime, not an observation. Hawking's formation obstruction has specific energy/horizon assumptions and semiclassical caveats; Deutsch proves a fixed-point result given a CTC rather than establishing one. Politzer and Lloyd expose model dependence. None directly measures or distinguishes the count of physically realized histories; 59 is editorial and not an empirical probability."
       }
     ],
     "revisionRequirements": [
