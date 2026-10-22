@@ -8,10 +8,10 @@
     "minutes": null,
     "reason": "Not exposed to the GitHub Pages website."
   },
-  "state": "ACTIVE · S-002-R002 QA CHECKPOINT PUBLISHED",
-  "activeWork": "S-002-R002 site/continuity QA: preserved R001 model comparison, full critical original texts and physics/quantum computing/chemistry matrix; verified main data and Pages workflow successful, corrected Session Observatory starter to identify S-001 handoff as consumed and S-002 as actually active. No new science review in this QA-only round.",
-  "lastVerified": "GitHub re-read confirms S-002-R001 model data, 67 works, 49 notes, 13/400 true full original-main-text critical reviews, VC-008 (59→59). GitHub Pages workflow for R001 checkpoint commit 45f98a7 completed successfully. R002 corrects stale successor handoff message in assets/session-control.js. Live browser JS/keyboard/mobile not independently tested because public Pages could not be fetched in available website retrieval; Page workflow success does not prove browser usability.",
-  "nextStep": "S-002-R003: source-complete original Everett (1957) and GRW (1986) studies plus quantitative 2026 XENONnT Markovian CSL exclusion-likelihood audit, with environment confounders; after that research round, refresh every Observatory workstream, reading counts, ledger and no-change/change audit. Independently test the live Physics/Quantum Computing/Chemistry matrix on desktop and mobile when browser access permits.",
+  "state": "ACTIVE · S-002-R003 RESEARCH AND ALLOCATION CHECKPOINT",
+  "activeWork": "S-002-R003: audited roadmap version ordering (v0.25 implemented, v0.2 Truth Engine incomplete); created a prospective remaining-work allocation of 27 research/9 website points for v0.2 and 9 research/3 website for v0.25 QA; critically read complete Everett 1957 six-section main text in a retypeset original-paper copy and recorded GRW publisher-only limits. 75/25 is planning effort, not actual recorded time.",
+  "lastVerified": "GitHub main: release allocation research/release-020-025-allocation.md (36 scientific +12 website prospective points), Everett entire original main text critical analysis research/everett-1957-source-study-S002-R003.md; library 67 authentic works / 14 fully studied main-text reviews / 3 partial / 25 abstract / 25 catalogued, 51 notes; VC-009 editor-only 59→59. Full publisher facsimile equation fidelity not independently proofread; v0.2 not yet certified; existing v0.25 lab queues preserved.",
+  "nextStep": "S-002-R004: implement and test first v0.2 Truth Engine W20-01 schema/unique ID/DOI/source-depth/citation/geolocation validator and runnable fixtures, plus a small source-grounded data-integrity audit; re-evaluate website allocation, all seven workstreams and release acceptance honestly at round end.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -29,11 +29,13 @@
     "An experiment that directly distinguishes Everett branches from standard Bohmian quantum-equilibrium predictions has not been identified; the 59 is not a probability.",
     "Public GitHub Pages publication and on-device browser rendering of the new 10/400 milestone still need independent confirmation.",
     "The 10 recorded full-source critical reviews are not a full independent reconstruction of their external supplements, experimental raw datasets, or all proofs; no justified experimental branch-count verdict.",
-    "Original Everett 1957 and GRW 1986 whole main publications were NOT source-completely read in R001; original publisher abstracts only; full-study claim prohibited until reaudited.",
     "XENONnT 2026 targeted publisher material and LISA Pathfinder original abstract support conditional reported bounds; full likelihood, raw spectra and confidence curves remain unreplicated.",
     "Analytic two-path decoherence and GRW N=10^12 independent-hit visibility are toy calculations, not observed experiments and not a full CSL mass-geometry treatment.",
     "R001 page code and research data are in GitHub main, but GitHub Pages propagation, public browser navigation and small-screen table scroll/contrast remain to be verified.",
-    "R002 GitHub Pages build succeeded for R001 checkpoint, but live site/browsers were not independently fetched/operated; keyboard/mobile matrix and clipboard controls remain QA."
+    "R002 GitHub Pages build succeeded for R001 checkpoint, but live site/browsers were not independently fetched/operated; keyboard/mobile matrix and clipboard controls remain QA.",
+    "Everett original main text read via 22-page retypeset copy; original APS facsimile has not been proofread line by line for notation fidelity.",
+    "GRW 1986 pp470–491 whole main text and XENONnT 2026 supplementary likelihood remain unreviewed; no new score discriminating evidence.",
+    "The v0.25 labs and eight program stages are implemented in the repo, but end-to-end nine-lab mobile/browser revalidation is not independently completed."
   ],
   "sessionHistory": [
     {
@@ -85,8 +87,8 @@
       "date": "2026-10-21",
       "label": "Predictive tests of physical history ontology",
       "objective": "Determine whether any measurement distinguishes one Bohmian actual history from multiple Everett branch histories and separately test genuinely modified collapse dynamics.",
-      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text.",
-      "status": "ACTIVE · R002 QA checkpoint committed",
+      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text. R003: original Everett 1957 whole-main-text critical reading; source-provenance limits; v0.2 and v0.25 remaining-work 36 science/12 website effort points plan.",
+      "status": "ACTIVE · S-002-R003 research checkpoint",
       "scope": "Original-source literature, competing quantum ontologies and physics / quantum computing / chemistry laboratory research presentation",
       "tokenCount": null,
       "elapsedMinutes": null,
@@ -98,16 +100,19 @@
           "2026 XENONnT and 2024 acceleration-noise claims audited at honestly marked abstract/targeted passage level.",
           "VC-008 editorial 59→59 with explicit no-change rationale and two new ledger entries.",
           "Data-driven four-model comparison attached to Physics, Quantum computing and Chemistry presentation rooms and homepage source link, keeping all other rooms and atlas.",
-          "R002: verified R001 source counts against GitHub, confirmed successful GitHub Pages workflow, corrected stale Session Observatory packet that mislabeled actual S-002 as an unstarted successor; no research reviews claimed."
+          "R002: verified R001 source counts against GitHub, confirmed successful GitHub Pages workflow, corrected stale Session Observatory packet that mislabeled actual S-002 as an unstarted successor; no research reviews claimed.",
+          "R003: Everett 1957 six-section full original-main-text review in retypeset source with APS bibliographic verification; full study 14/400, 51 notes, VC-009 59→59.",
+          "R003: roadmap audited; v0.25 reading syllabi and v0.26 introductory instruments already implemented, v0.2 Truth Engine next. v0.2 allocated 27 research/9 site points and v0.25 QA 9 research/3 site; 75/25 forecast not hours."
         ],
         "unresolved": [
           "Complete original Everett 1957 and GRW 1986 primary text review remains open.",
           "Reproduce actual source XENONnT likelihood/parameter exclusion and instrument environmental noise baselines.",
           "No experiment yet directly decides reality/count of Everett branches versus Bohmian equilibrium history.",
           "Verify GitHub Pages live browser and mobile render, keyboard-focusable horizontally scrollable table.",
-          "R002: GitHub Pages browser and mobile navigation rendering unavailable for independent direct verification; successful build does not validate controls."
+          "R002: GitHub Pages browser and mobile navigation rendering unavailable for independent direct verification; successful build does not validate controls.",
+          "Complete original GRW pp470–491 and confirm original publisher Everett notation; test 0.2 validator and v0.25 nine-room browser acceptance."
         ],
-        "next": "S-002-R003: source-complete original Everett (1957) and GRW (1986) studies plus quantitative 2026 XENONnT Markovian CSL exclusion-likelihood audit, with environment confounders; after that research round, refresh every Observatory workstream, reading counts, ledger and no-change/change audit. Independently test the live Physics/Quantum Computing/Chemistry matrix on desktop and mobile when browser access permits."
+        "next": "S-002-R004: implement and test first v0.2 Truth Engine W20-01 schema/unique ID/DOI/source-depth/citation/geolocation validator and runnable fixtures, plus a small source-grounded data-integrity audit; re-evaluate website allocation, all seven workstreams and release acceptance honestly at round end."
       }
     }
   ],
@@ -173,15 +178,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "S-002-R002: verified publication and corrected Session Observatory actual/predecessor session state",
+    "milestoneName": "S-002-R003: original Everett full critical study and scoped 75/25 v0.2 → v0.25 roadmap plan",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No measured chat usage/context depletion and no self-reported coherence loss. QA fixes completed within continuing S-002 scientific phase; first prediction matrix is not the completed broader experiment-discrimination research program.",
-    "decisionBasis": "CONTINUE. A GitHub Pages successful build and corrected handoff UI text verify saved publication and proper session identity, but no new physics evidence is introduced. Retain 59→59 from VC-008, 13/400 full critical study count, and 75% research/25% site effort across R001-R002. Next substantive work must be primary Everett/GRW whole-text and 2026 experimental likelihood review; no premature handoff.",
-    "updatePolicy": "Every substantive round, including QA: fetch latest sessions, update active record and all seven workstreams (explicit change and unchanged), assess all transition fields, append roundLog and commit; no source-review inflation or telemetry fiction.",
+    "documentedContinuityRisk": "No observed GPT context/token/time metrics or self-reported coherence loss. v0.2 release scope now estimated but technical validator/score provenance and v0.25 QA remain unfinished. Continue research stage in same real session.",
+    "decisionBasis": "CONTINUE. R003 full Everett original main-text critical review records important assumptions but no history-count experiment, so VC-009 remains 59→59 editorial. Roadmap audit finds v0.25 lab syllabi already implemented and v0.2 not; proportional 36 science/12 site points is a plan, not actual labor. Next complete W20-01 validator and source-grounded research integrity.",
+    "updatePolicy": "After every scientific or website round, re-fetch all authoritative JSON sources, update actual study depths and all seven workstream fields and all transition keys, explicit scored/no-change logic, next action and blockers. Commit before announcing sync; never claim tracked GPT usage.",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -189,56 +194,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "No scientific/homepage code change in R002; R001 research stats 13/400, score 59 preserved. Verified GitHub Pages successful prior R001 deploy.",
-      "next": "Unchanged; live DOM and mobile QA outstanding.",
+      "latest": "Homepage existing question/compass preserved; prospective site work W20-04 remains future after validator.",
+      "next": "No visual homepage changes in R003; v0.2 Truth Engine unimplemented.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "No new scientific finding. WL-010/011 and VC-008 intact; 59→59 editorial maintained.",
-      "next": "No new source review, no new VC entry warranted in QA-only round.",
+      "latest": "VC-009 scientifically explicit no-change 59→59, linked SRC-007 Everett original and NOTE-050; existing WL-005/008/010 source-review metadata updated.",
+      "next": "No proof of real branch multiplicity; no score movement.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "No research status changes: 67 works, 49 notes, 13 whole-main-text full studies, three new during R001.",
-      "next": "Everett and GRW entire originals remain unreviewed; counts from JSON.",
+      "latest": "Everett original source SRC-007 completed main-text critical study; 14/400, 67 works, 51 notes. GRW 1986 targeted publisher abstract only.",
+      "next": "Other baseline statuses preserved; no false GRW study completion.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "J-005 and R001 source reports verified in main unchanged in R002.",
-      "next": "Quantitative XENONnT exclusion reconstruction open.",
+      "latest": "Published detailed source-critical Everett review, 75/25 quantitative allocation plan, J-006 current research essay and refreshed four-model Everett source status.",
+      "next": "Proofread Everett facsimile and independently audit statistical Born typicality objections next.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Four-model data matrix for Physics, Quantum computing and Chemistry in GitHub code; no new lab changes in R002.",
-      "next": "Live browser scroll, responsive layout, keyboard focus unverified.",
+      "latest": "Physics and quantum computing source highlights include Everett source-critical conclusions and limitations; data-driven source status from library now full.",
+      "next": "No nine-room navigation or mobile interaction QA yet; chemistry/other rooms preserved.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "Untouched R002; no added geospatial claim or any cosmological bubbles-to-branches conflation.",
-      "next": "3D true globe and independent geospatial provenance remain roadmap.",
+      "latest": "Unchanged R003: original atlas context and separated bubble cosmology, no new geographic pins.",
+      "next": "3D/2D attribution and verified location roadmap remains future; no new coordinates.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published GitHub-backed record; browser verification open",
-      "latest": "Corrected copy/download packet: handoff is predecessor consumed S-001, actual S-002 verified; R002 all seven streams and transition re-evaluated.",
-      "next": "Public interactive clipboard/export behavior untested in browser.",
+      "latest": "S-002-R003 will record real work allocation, research coverage, seven workstreams, honest obstacles, exact next action and CONTINUE.",
+      "next": "No live GPT time/token measurements or false handoff readiness.",
       "lastReviewedOn": "2026-10-21"
     }
   ],
@@ -249,8 +254,8 @@
     "websiteShareTarget": 25,
     "measure": "approximate substantive-effort priorities over meaningful research/development cycles, not measured session time or token capacity",
     "researchFirst": true,
-    "plannedResearch": "S-002-R001 establishes matched-model Everett vs equilibrium Bohm vs stochastic GRW/CSL predictions. Next read original Everett and GRW full main texts, quantify model-specific experimental collapse bounds and reproduce likelihood assumptions with counterarguments.",
-    "websitePlan": "Follow ROADMAP.md 0.2 Truth Engine, 0.3 sourced globe/atlas, 0.4 deeper field laboratories, 0.5 continuity and 0.6 science review. Preserve 0.25 reading lists and 0.26 field presentation rooms and introductory tools. Include interdisciplinary laboratory plans.",
+    "plannedResearch": "Remaining roadmap v0.2 27 science/9 site relative planning points; existing v0.25 acceptance revalidation 9 science/3 site points; 36/12 combined planned effort, not tracked hours. R003 actual main-text Everett critical study complete; remaining GRW and XENONnT quantitative audits.",
+    "websitePlan": "Follow ROADMAP.md 0.2 Truth Engine, 0.3 sourced globe/atlas, 0.4 deeper field laboratories, 0.5 continuity and 0.6 science review. Preserve 0.25 reading lists and 0.26 field presentation rooms and introductory tools. Include interdisciplinary laboratory plans. R003 prospective v0.2 Truth Engine and v0.25 nine-lab acceptance allocation at research/release-020-025-allocation.md; no claim of completed implementation.",
     "deviationPolicy": "Urgent correctness, data integrity, security, accessibility and broken controls may be fixed ahead of allocation; document the reason and resume research priority.",
     "milestoneReporting": "Update this sessions record for significant research and website progress; explicitly record linked evidence and verdict change or no-change rationale in the research audit.",
     "nextSessionRule": "Read PROJECT_RULES.md, ROADMAP.md and SESSION_START.md, then the authoritative session and reading records; do not invent reading achievements or a handoff."
@@ -1160,6 +1165,116 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "CONTINUE. A GitHub Pages successful build and corrected handoff UI text verify saved publication and proper session identity, but no new physics evidence is introduced. Retain 59→59 from VC-008, 13/400 full critical study count, and 75% research/25% site effort across R001-R002. Next substantive work must be primary Everett/GRW whole-text and 2026 experimental likelihood review; no premature handoff.",
       "nextAction": "S-002-R003: source-complete original Everett (1957) and GRW (1986) studies plus quantitative 2026 XENONnT Markovian CSL exclusion-likelihood audit, with environment confounders; after that research round, refresh every Observatory workstream, reading counts, ledger and no-change/change audit. Independently test the live Physics/Quantum Computing/Chemistry matrix on desktop and mobile when browser access permits."
+    },
+    {
+      "id": "S-002-R003",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "scope": "Scientific release-capacity estimation for unfinished v0.2 Truth Engine and already-implemented v0.25 lab syllabi; complete critical main original-paper Everett 1957 review and GRW 1986 limited bibliographic audit.",
+      "files": [
+        "research/release-020-025-allocation.md",
+        "research/everett-1957-source-study-S002-R003.md",
+        "data/library.json",
+        "data/reading-notes.json",
+        "data/ledger.json",
+        "data/research.json",
+        "data/sessions.json"
+      ],
+      "verified": "Committed research/release-020-025-allocation.md with 9 website/27 science relative points to finish v0.2 plus 3 website/9 science points to revalidate existing v0.25, 75/25 combined. Everett SRC-007 full original six-section main text critically read via 22-page retypeset original-paper mirror, original published publisher DOI/page span confirmed; original facsimile typo-fidelity outstanding. GRW SRC-042 original publisher abstract only. Model comparison source depth, physics/quantum labs and current J-006 updated; all v0.26 starter rooms preserved.",
+      "research": {
+        "worksCatalogued": 67,
+        "scholars": 100,
+        "readingNotes": 51,
+        "partiallyStudiedWorks": 3,
+        "abstractReviewedWorks": 24,
+        "fullyStudiedWorks": 14,
+        "sourceDepth": "One new complete critically reviewed original Everett 1957 published six-section main text using 22-page retypeset copy; not independent full original publisher facsimile proofread. GRW main text NOT read; targeted abstract level. No new experiment.",
+        "fullStudyReport": "research/everett-1957-source-study-S002-R003.md",
+        "sourcePacket": "research/release-020-025-allocation.md",
+        "lastResearchRound": "S-002-R003"
+      },
+      "verdict": {
+        "oldScore": 59,
+        "newScore": 59,
+        "status": "no-change",
+        "auditId": "VC-009",
+        "why": "Everett §5 asserts all branches actual within unitary formalism and derives amplitude measure under additivity, but observable Born data remain consistent with equilibrium Bohmian one actual configuration. No direct physical history census."
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "Homepage existing question/compass preserved; prospective site work W20-04 remains future after validator.",
+          "next": "No visual homepage changes in R003; v0.2 Truth Engine unimplemented.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Homepage existing question/compass preserved; prospective site work W20-04 remains future after validator.",
+          "unchangedOrOpen": "No visual homepage changes in R003; v0.2 Truth Engine unimplemented."
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "VC-009 scientifically explicit no-change 59→59, linked SRC-007 Everett original and NOTE-050; existing WL-005/008/010 source-review metadata updated.",
+          "next": "No proof of real branch multiplicity; no score movement.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "VC-009 scientifically explicit no-change 59→59, linked SRC-007 Everett original and NOTE-050; existing WL-005/008/010 source-review metadata updated.",
+          "unchangedOrOpen": "No proof of real branch multiplicity; no score movement."
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "Everett original source SRC-007 completed main-text critical study; 14/400, 67 works, 51 notes. GRW 1986 targeted publisher abstract only.",
+          "next": "Other baseline statuses preserved; no false GRW study completion.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Everett original source SRC-007 completed main-text critical study; 14/400, 67 works, 51 notes. GRW 1986 targeted publisher abstract only.",
+          "unchangedOrOpen": "Other baseline statuses preserved; no false GRW study completion."
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "Published detailed source-critical Everett review, 75/25 quantitative allocation plan, J-006 current research essay and refreshed four-model Everett source status.",
+          "next": "Proofread Everett facsimile and independently audit statistical Born typicality objections next.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Published detailed source-critical Everett review, 75/25 quantitative allocation plan, J-006 current research essay and refreshed four-model Everett source status.",
+          "unchangedOrOpen": "Proofread Everett facsimile and independently audit statistical Born typicality objections next."
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "published reading queues",
+          "latest": "Physics and quantum computing source highlights include Everett source-critical conclusions and limitations; data-driven source status from library now full.",
+          "next": "No nine-room navigation or mobile interaction QA yet; chemistry/other rooms preserved.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Physics and quantum computing source highlights include Everett source-critical conclusions and limitations; data-driven source status from library now full.",
+          "unchangedOrOpen": "No nine-room navigation or mobile interaction QA yet; chemistry/other rooms preserved."
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "Unchanged R003: original atlas context and separated bubble cosmology, no new geographic pins.",
+          "next": "3D/2D attribution and verified location roadmap remains future; no new coordinates.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Unchanged R003: original atlas context and separated bubble cosmology, no new geographic pins.",
+          "unchangedOrOpen": "3D/2D attribution and verified location roadmap remains future; no new coordinates."
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "published GitHub-backed record; browser verification open",
+          "latest": "S-002-R003 will record real work allocation, research coverage, seven workstreams, honest obstacles, exact next action and CONTINUE.",
+          "next": "No live GPT time/token measurements or false handoff readiness.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "S-002-R003 will record real work allocation, research coverage, seven workstreams, honest obstacles, exact next action and CONTINUE.",
+          "unchangedOrOpen": "No live GPT time/token measurements or false handoff readiness."
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "CONTINUE. R003 full Everett original main-text critical review records important assumptions but no history-count experiment, so VC-009 remains 59→59 editorial. Roadmap audit finds v0.25 lab syllabi already implemented and v0.2 not; proportional 36 science/12 site points is a plan, not actual labor. Next complete W20-01 validator and source-grounded research integrity.",
+      "nextAction": "S-002-R004: implement and test first v0.2 Truth Engine W20-01 schema/unique ID/DOI/source-depth/citation/geolocation validator and runnable fixtures, plus a small source-grounded data-integrity audit; re-evaluate website allocation, all seven workstreams and release acceptance honestly at round end."
     }
   ]
 }
