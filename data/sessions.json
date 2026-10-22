@@ -10,8 +10,8 @@
   },
   "state": "IN PROGRESS",
   "activeWork": "Expand the Worldline Lab research canon, connect a public scholar library, and write the first source-bound analytical research notes.",
-  "lastVerified": "Worldline Lab now holds a seeded scholar index of 40 distinct works and 54 named researchers across 11 research fields, with 10 auditable summary-level study notes. Homepage editorial accents and research dispatch are committed.",
-  "nextStep": "Validate the live Scholar Library filters, source citations, verdict trail and Sessions interface. Expand source coverage responsibly and conduct section-by-section full paper study, beginning with foundational relativity and quantum papers.",
+  "lastVerified": "First Scholar Library publication includes 40 distinct works, 54 researchers, 11 fields and 10 source-level notes; a formal preliminary field note and review protocol are versioned alongside the website.",
+  "nextStep": "Check deployed Scholar Library functionality, repair any remaining navigation issues, and begin a full-text section-by-section review of Gödel, Hawking, Everett, Bell and Deutsch. Document precise quotations/sections and model predictions before any empirical compass adjustment.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -36,7 +36,8 @@
           "Editorial homepage, hypothesis compass, journal, source atlas, and initial research-lane overview exist in GitHub.",
           "Dedicated Session Observatory implementation added with manual context-quality signals, checkpoint assessment and compact export.",
           "First Scholar Library dataset established with 40 works, 54 researchers and 11 fields; 10 source-specific abstract-level notes created.",
-          "All verdict change events must link their source IDs and supporting interpretation; no unearned numerical change was made."
+          "All verdict change events must link their source IDs and supporting interpretation; no unearned numerical change was made.",
+          "Published LIBRARY_PROTOCOL.md and research/field-note-001.md with a source-linked, limited preliminary scientific synthesis."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
@@ -44,7 +45,7 @@
           "Research claims and future compass adjustments require source-by-source scientific review.",
           "Perform detailed full-text reviews with section citations; none is recorded as complete in the founding library index."
         ],
-        "next": "Validate the live Scholar Library filters, source citations, verdict trail and Sessions interface. Expand source coverage responsibly and conduct section-by-section full paper study, beginning with foundational relativity and quantum papers."
+        "next": "Check deployed Scholar Library functionality, repair any remaining navigation issues, and begin a full-text section-by-section review of Gödel, Hawking, Everett, Bell and Deutsch. Document precise quotations/sections and model predictions before any empirical compass adjustment."
       }
     }
   ],
@@ -53,6 +54,7 @@
       "data/sessions.json",
       "data/library.json",
       "data/reading-notes.json",
+      "research/field-note-001.md",
       "relevant entries in data/ledger.json",
       "SESSION_START.md"
     ],
