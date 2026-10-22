@@ -5,8 +5,8 @@
     "score": 59,
     "reference": 50,
     "label": "Exploratory orientation",
-    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search. R006: Ten complete main-text critical source studies (read-through with assumptions and objections, not complete experimental replication) add research coverage and reproducible limited math checks, but no observation that discriminates realized Everett branch count. Audit VC-007 explicitly retains 59→59.",
-    "empiricalVerdict": "Unresolved: observers record one sequence, but that does not experimentally determine how many alternative quantum histories are physically real."
+    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search. R006: Ten complete main-text critical source studies (read-through with assumptions and objections, not complete experimental replication) add research coverage and reproducible limited math checks, but no observation that discriminates realized Everett branch count. Audit VC-007 explicitly retains 59→59. S-002-R001/VC-008: three whole-original-main-text critical source studies, an explicit falsifiable Everett/Bohm/GRW/CSL model-equivalence matrix, XENONnT 2026 model-parameter constraints; 59→59 editorial no-change.",
+    "empiricalVerdict": "Unresolved. Single-outcome equilibrium Bohmian models and many relative Everett branches share standard Born laboratory predictions, while specific objective-collapse dynamics are experimentally constrained but not a direct count of real quantum histories."
   },
   "entries": [
     {
@@ -133,7 +133,18 @@
       "lat": null,
       "long": null,
       "locationType": "Reference work",
-      "notes": "See SRC-007/010/011/012/042/048/058–061; NOTE-026–030; field-note-004. The central test requires differing physical predictions, not a vote from Bell tests."
+      "notes": "See SRC-007/010/011/012/042/048/058–061; NOTE-026–030; field-note-004. The central test requires differing physical predictions, not a vote from Bell tests. S-002-R001: explicitly compared Bohm-Everett Born equivalence and objective-collapse parametric prediction limits; VC-008 remains editorial 59→59.",
+      "lastResearchReview": "2026-10-21",
+      "reviewRefs": [
+        "SRC-010",
+        "SRC-059",
+        "SRC-065",
+        "SRC-066",
+        "NOTE-043",
+        "NOTE-044",
+        "NOTE-045",
+        "research/ontology-predictions-S002-R001.md"
+      ]
     },
     {
       "id": "WL-006",
@@ -199,7 +210,18 @@
       "lat": null,
       "long": null,
       "locationType": "Synthesis, no unique location",
-      "notes": "SRC-007/010/011/012/042/048/058–061; NOTE-026–030 and field-note-004. Bell tests are not proof of branching. R006 full-source batch in research/full-study-batch-001.md, NOTE-033–042, SRC-008/012/020/044/045/047/064 and complementary SRC-002/003/062; 10 completed literature reviews, not proof of branch ontology."
+      "notes": "SRC-007/010/011/012/042/048/058–061; NOTE-026–030 and field-note-004. Bell tests are not proof of branching. R006 full-source batch in research/full-study-batch-001.md, NOTE-033–042, SRC-008/012/020/044/045/047/064 and complementary SRC-002/003/062; 10 completed literature reviews, not proof of branch ontology. S-002-R001: explicitly compared Bohm-Everett Born equivalence and objective-collapse parametric prediction limits; VC-008 remains editorial 59→59.",
+      "lastResearchReview": "2026-10-21",
+      "reviewRefs": [
+        "SRC-010",
+        "SRC-059",
+        "SRC-065",
+        "SRC-066",
+        "NOTE-043",
+        "NOTE-044",
+        "NOTE-045",
+        "research/ontology-predictions-S002-R001.md"
+      ]
     },
     {
       "id": "WL-009",
@@ -220,6 +242,69 @@
       "long": null,
       "locationType": "Astronomical survey",
       "notes": "SRC-062/063, NOTE-031, field-note-004; no observed separate bubble."
+    },
+    {
+      "id": "WL-010",
+      "date": "2026-10-21",
+      "title": "Everett versus quantum-equilibrium Bohm predicts the same ordinary Born measurements",
+      "field": "Quantum foundations",
+      "kind": "Model comparison",
+      "status": "Empirically equivalent under matched unitary/equilibrium assumptions",
+      "direction": "Neutral",
+      "impact": 0,
+      "strength": "Whole original Bohm 1952 Parts I/II, Hensen 2016 whole main paper, Everett source comparison",
+      "question": "Do ordinary quantum probabilities, decoherence or Bell violations reveal the count of physically real quantum histories?",
+      "finding": "Bohmian mechanics with one actual particle configuration and ρ=|ψ|² reproduces standard quantum probabilities and typical Everettian unitary measurement data. A measured Bell locality violation does not exclude explicitly nonlocal Bohm. Distinguishing the actual histories requires a model-dependent operational difference absent from this comparison.",
+      "source": "Bohm I/II (1952), Everett (1957) and Hensen et al. (2016)",
+      "url": "https://doi.org/10.1103/PhysRev.85.166",
+      "place": "Foundational theoretical comparison, no claimed geographic detection",
+      "lat": null,
+      "long": null,
+      "locationType": "Theoretical / experimental-method comparison",
+      "notes": "research/ontology-predictions-S002-R001.md; research/full-study-batch-002.md. Original Bohm I/II and Hensen second Bell main texts critically studied; Everett original publisher abstract only. Second Hensen run complete p=.061; pooled p=.017 or .0080 under different methods. 2×2 matrix educational.",
+      "lastResearchReview": "2026-10-21",
+      "reviewRefs": [
+        "SRC-007",
+        "SRC-010",
+        "SRC-059",
+        "SRC-065",
+        "NOTE-043",
+        "NOTE-044",
+        "NOTE-045",
+        "NOTE-046",
+        "research/ontology-predictions-S002-R001.md"
+      ]
+    },
+    {
+      "id": "WL-011",
+      "date": "2026-10-21",
+      "title": "Objective-collapse dynamics face explicit molecular, force-noise and X-ray parameter tests",
+      "field": "Physics",
+      "kind": "Experimental constraint",
+      "status": "Conditional parameter exclusions; fundamental history count unresolved",
+      "direction": "Neutral",
+      "impact": 0,
+      "strength": "XENONnT original publisher abstract and targeted passage; LISA abstract; not a replicated likelihood",
+      "question": "Do observed data support stochastic collapse beyond ordinary unitary dynamics with environmental decoherence?",
+      "finding": "2026 XENONnT 1–140 keV X-ray measurements constrain benchmark Markovian CSL and DP collapse parameters, including proposed regions under modeled assumptions. LISA Pathfinder force-noise reanalysis restricts other parameter combinations; neither alone establishes or refutes Everettian multiple real worlds.",
+      "source": "XENON Collaboration (2026); Dai–Miao–Ma (2024); GRW (1986)",
+      "url": "https://doi.org/10.1103/2jm3-4976",
+      "place": "XENONnT experiment (exact detector coordinates not verified here)",
+      "lat": null,
+      "long": null,
+      "locationType": "Physical experiment + later analytic constraints; no plotted coordinates",
+      "notes": "XENONnT original March 2026 publisher states ~100-fold improvement for benchmark CSL and factor five for DP with electron/proton cancellation; full confidence/likelihood contours not read. LISA abstract gives λ_CSL≤8.3×10^-11/s at rC=10^-7m. Projected underground sensitivity is not achieved measurement. Source depth NOTE-047–049.",
+      "lastResearchReview": "2026-10-21",
+      "reviewRefs": [
+        "SRC-042",
+        "SRC-048",
+        "SRC-066",
+        "SRC-067",
+        "NOTE-047",
+        "NOTE-048",
+        "NOTE-049",
+        "research/ontology-predictions-S002-R001.md"
+      ]
     }
   ]
 }
