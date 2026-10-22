@@ -10,7 +10,7 @@
   },
   "state": "TRANSITION RECOMMENDED · AWAITING REAL S-002 CHAT",
   "activeWork": "S-001 completed its first ten-source critical review milestone and owner-requested source-linked handoff preparation (R007). No new research in this governance-only round; new Session S-002 not yet started.",
-  "lastVerified": "Handoff S-001→S-002 committed at HANDOFF_S001_TO_S002.md, linked from SESSION_START.md. Verified same unchanged research corpus: 64 catalogued works, 100 researchers, 42 reading notes, 10 full-main-text critical reviews /400 (not experimental replications); last verdict VC-007=59→59 editorial. Full seven-workstream R007 update and transition recommendation saved; next genuine new GPT chat begins S-002.",
+  "lastVerified": "Handoff S-001→S-002 committed at HANDOFF_S001_TO_S002.md, linked from SESSION_START.md. Verified same unchanged research corpus: 64 catalogued works, 100 researchers, 42 reading notes, 10 full-main-text critical reviews /400 (not experimental replications); last verdict VC-007=59→59 editorial. Full seven-workstream R007 update and transition recommendation saved; next genuine new GPT chat begins S-002. The Session Observatory starter now links the prepared packet. R007 JSON/official bootstrap deployment succeeded; latest UI-code deployment may still be queued.",
   "nextStep": "Open a genuinely new GPT chat, read HANDOFF_S001_TO_S002.md and linked PROJECT_RULES.md/SESSION_START.md, then initialize S-002-R001 and research a source-backed Everett vs Bohmian quantum equilibrium vs GRW/CSL observational-equivalence and predictive-differences matrix. Complete critical full-text reviews as evidence permits, updating all research and website data every round.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
@@ -204,7 +204,7 @@
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published",
-      "latest": "Owner-requested S-001-R007 handoff documented; transition now TRANSITION RECOMMENDED; source packet HANDOFF_S001_TO_S002.md linked from official bootstrap. S-001 still canonical; next genuine chat starts S-002.",
+      "latest": "Owner-requested S-001-R007 handoff documented; transition now TRANSITION RECOMMENDED; source packet HANDOFF_S001_TO_S002.md linked from official bootstrap. S-001 still canonical; next genuine chat starts S-002. Its copy/download starter now embeds the handoff URL and correct successor target.",
       "next": "S-002 create first actual session record and round after loading canonical state; continue every-round full seven-workstream/transition update.",
       "lastReviewedOn": "2026-10-21"
     }
@@ -831,9 +831,10 @@
       "files": [
         "HANDOFF_S001_TO_S002.md",
         "SESSION_START.md",
-        "data/sessions.json"
+        "data/sessions.json",
+        "assets/session-control.js"
       ],
-      "verified": "Created and GitHub-committed compact authoritative handoff, linked from official session bootstrap. Rechecked unchanged source totals: 64 works, 100 researcher records, 42 notes, 10 main-full-source reviews (not independent experimental replication). New Session S-002 deliberately not pre-created.",
+      "verified": "Created and GitHub-committed compact authoritative handoff, linked from official session bootstrap. Rechecked unchanged source totals: 64 works, 100 researcher records, 42 notes, 10 main-full-source reviews (not independent experimental replication). New Session S-002 deliberately not pre-created. The site's Session Observatory copy/download starter now includes the handoff file URL and future session label.",
       "research": {
         "worksCatalogued": 64,
         "scholars": 100,
