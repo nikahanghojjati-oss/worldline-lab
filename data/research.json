@@ -1726,7 +1726,7 @@
     "verdictAudit": "VC-008"
   },
   "releaseAllocation": {
-    "version": "S-002-R004",
+    "version": "S-002-R007",
     "date": "2026-10-21",
     "roadmap": "ROADMAP.md",
     "plan": "research/release-020-025-allocation.md",
@@ -1776,7 +1776,7 @@
         "R25-03"
       ]
     },
-    "status": "W20-01 CI and fixture validator verified; R20-01 original Everett full main-text critical study verified; v0.2 overall still candidate and v0.25 lab features await acceptance QA",
+    "status": "R006 ten full-original-main-text experiments and adversarial primary-source critical reviews completed; R007 v0.2 reviewer+reversal primitives and v0.25 static reading-syllabus tests passing CI, not final releases",
     "records": [
       {
         "id": "R20-01",
@@ -1795,6 +1795,32 @@
           "research/truth-engine-integrity-audit-S002-R004.md"
         ],
         "knownLimit": "Local integrity check, not live HTTP/source correctness or full W20-02/03/04"
+      },
+      {
+        "id": "R20-03-06-R006",
+        "state": "ten-critical-main-original-studies-and-ledger-claims-completed",
+        "evidence": "research/full-study-batch-003-ten-discriminator-candidates.md",
+        "limits": "Does not replace full XENON raw-data likelihood or GRW original full paper"
+      },
+      {
+        "id": "W20-02",
+        "state": "unit-reviewed-proposal-gate-pass; governed end-to-end UI approval open",
+        "evidence": "tools/truth-engine/review.cjs"
+      },
+      {
+        "id": "W20-03",
+        "state": "synthetic reviewed/reversible ledger decision structures tested; real approval integration open",
+        "evidence": "tools/truth-engine/test.cjs"
+      },
+      {
+        "id": "W25-01",
+        "state": "source-status static data acceptance verified",
+        "evidence": "research/release-020-025-verification-S002-R007.md"
+      },
+      {
+        "id": "W25-03",
+        "state": "eight-stage and nine-room static research queue audit verified; real browser QA open",
+        "evidence": "tools/truth-engine/test.cjs"
       }
     ],
     "deliveredEstimatedPoints": {
@@ -1816,7 +1842,8 @@
         "website": 9,
         "total": 41
       }
-    }
+    },
+    "progressCaveat": "Original prospective effort-point allocations are not measured time. Ten new full critical studies and source-independent analysis cannot be automatically translated into 10 points; do not subtract fictitious time or claim 75% measured exactness. Scientific priority adhered across R006-R007."
   },
   "answerProgram": {
     "version": "S-002-R006",
