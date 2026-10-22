@@ -666,6 +666,12 @@
       "locationType": "Mathematical/source-bound analysis, not an experiment or physical detector location",
       "notes": "The nonlocal single-record construction is not Bohmian mechanics and not a Local Friendliness model. The Local Friendliness inequality is stronger/different than CHSH and includes observer-level control assumptions. Its interpretation is contested. Statistical calibration thresholds refer only to an ideal bounded-error design and do not represent measured confidence. Altered operational kernels are invented design targets; they do not identify generic single-history models or justify score movement. Linked report: research/hammer-assumption-surgery-S003-R007.md; executable tools/hammer/assumption-surgery.cjs and test.",
       "reviewRefs": [
+        "SRC-078",
+        "SRC-079",
+        "SRC-080",
+        "NOTE-069",
+        "NOTE-070",
+        "NOTE-071",
         "research/hammer-assumption-surgery-S003-R007.md"
       ]
     }
