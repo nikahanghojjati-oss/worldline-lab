@@ -38,7 +38,7 @@ function filteredWorks(){
 }
 function workCard(x){
  const seen=notes.filter(n=>n.workId===x.id);
- return '<article class="library-work"><div><span class="source-id">'+esc(x.id)+'</span><span class="source-type">'+esc(x.type)+' · '+esc(x.year)+'</span></div><div><h3>'+esc(x.title)+'</h3><p class="authors">'+esc(x.authors.join(' · '))+'<br><span class="micro">'+esc(x.field)+'</span></p><p class="relevance">'+esc(x.role)+'</p>'+ (seen.length?'<p class="library-note">'+seen.length+' auditable source note(s) in this repository.</p>':'') +'<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">View source or publisher record ↗</a></div><span class="research-status '+esc(x.access)+'">'+esc(x.access==='abstract-reviewed'?'Abstract checked':x.access==='catalogued'?'Catalogued':x.access==='fully-studied'?'Full study':'Partial study')+'</span></article>'
+ return '<article class="library-work"><div><span class="source-id">'+esc(x.id)+'</span><span class="source-type">'+esc(x.type)+' · '+esc(x.year)+'</span></div><div><h3>'+esc(x.title)+'</h3><p class="authors">'+esc(x.authors.join(' · '))+'<br><span class="micro">'+esc(x.field)+'</span></p><p class="relevance">'+esc(x.role)+'</p>'+ (seen.length?'<p class="library-note">'+seen.length+' auditable source note(s) in this repository.</p>':'') +'<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">View source or publisher record ↗</a>'+(x.access==='fully-studied'&&typeof x.fullReview?.report==='string'&&/^research\/[a-z0-9-]+\.md$/.test(x.fullReview.report)?'<p class="library-full-study-link"><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/'+esc(x.fullReview.report)+'" target="_blank" rel="noopener noreferrer">Read full critical study · methods, objections and limits ↗</a></p>':'')+'</div><span class="research-status '+esc(x.access)+'">'+esc(x.access==='abstract-reviewed'?'Abstract checked':x.access==='catalogued'?'Catalogued':x.access==='fully-studied'?'Full study':'Partial study')+'</span></article>'
 }
 function scholars(){
  const q=state.q.toLowerCase(),m=lib.scholars.filter(x=>(state.field==='All'||x.fields.includes(state.field))&&(!q||[x.name,x.fields.join(' '),x.focus].join(' ').toLowerCase().includes(q)));
@@ -49,7 +49,7 @@ function scholars(){
 }
 function notesPanel(){
  const matched=notes.filter(x=>{const w=lib.works.find(y=>y.id===x.workId);return w&&(state.field==='All'||w.field===state.field)&&(!state.q||[x.label,x.summary,x.workId].join(' ').toLowerCase().includes(state.q.toLowerCase()))});
- $('lib-match').textContent=matched.length+' source-level abstract or summary notes recorded. No full-paper completion is implied.';
+ $('lib-match').textContent=matched.length+' source notes recorded, including '+matched.filter(n=>n.stage==='fully-studied').length+' full-source reviews. Reading depth is recorded separately for every note.';
  $('lib-results').className='library-notes';
  $('lib-results').innerHTML=matched.length?matched.map(n=>'<article class="library-note-card"><span class="kicker">'+esc(n.workId)+' · '+esc(n.stage)+' · '+esc(n.sessionId)+'</span><h3>'+esc(n.label)+'</h3><p>'+esc(n.summary)+'</p><p><span class="micro">LIMITATION</span><br>'+esc(n.limitations)+'</p><p><span class="micro">VERDICT</span><br>'+esc(n.conclusion)+'</p></article>').join(''):'<div class="library-empty">No notes found for this selection.</div>';
 }
