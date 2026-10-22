@@ -54,6 +54,7 @@ jobs:
         run: |
           node --check assets/site.js
           node --check assets/hammer-core.js
+          node --check assets/hammer-discovery.js
           node --check assets/hammer-ui.js
           node --check tools/hammer/ai-panel.cjs
           node --check assets/library.js
