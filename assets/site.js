@@ -3,7 +3,7 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const allowed=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'];
-let ledger=null,research=null,sessions=null,libraryIndex=null,comparison=null,filter='All';
+let ledger=null,research=null,sessions=null,libraryIndex=null,comparison=null,pageFreshness=null,questionGates=null,filter='All';
 const html=s=>String(s==null?'':s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const trustedUrl=u=>typeof u==='string'&&/^https:\/\//.test(u)?u:'#ledger';
 function navigate(){
@@ -16,7 +16,30 @@ function navigate(){
  });
  document.title=(key==='home'?'One Timeline or Many?':key.charAt(0).toUpperCase()+key.slice(1))+' | Worldline Lab';
  if(research&&libraryIndex&&key==='disciplines')renderLabDetail();
+ renderRoundBanner();
  window.scrollTo({top:0,behavior:'instant'});
+}
+function renderRoundBanner(){
+ const host=$('research-round-banner');if(!host||!sessions||!pageFreshness)return;
+ const latest=sessions.roundLog?.at(-1);
+ const active=(location.hash||'#home').slice(1).split('?')[0];
+ const audit=pageFreshness.pages.find(p=>p.route===active);
+ const pageNote=audit?.lastContentRound?('Last substantive page change: '+audit.lastContentRound):'Full page refresh required';
+ const due=pageFreshness.nextMandatorySweep;
+ const status=ledger?.editorialMeter?.empiricalVerdict||'Central scientific assessment unresolved';
+ const short=status.length>165?status.slice(0,162)+'…':status;
+ host.innerHTML='<span class="micro">LIVE RESEARCH CHECKPOINT · '+html(latest?.id||sessions.activeSession)+'</span>'+
+ '<p><strong>Decision: '+html(sessions.transition?.decision||'UNASSESSED')+'</strong> · '+html(short)+'</p>'+
+ '<p class="caption">Current page: '+html(active)+' · '+html(pageNote)+' · Next required eight-page source refresh: '+html(due)+'. <a href="#sessions">Read the complete Session Observatory and next falsifiable test ↗</a></p>';
+}
+function renderQuestionGates(){
+ const host=$('question-gates-view');if(!host||!questionGates)return;
+ const items=(questionGates.candidates||[]).slice().sort((a,b)=>a.order-b.order);
+ host.innerHTML='<div class="kicker">CENTRAL QUESTION · FALSIFIABLE RESEARCH PRIORITIES</div><h2>Which experiment could change what we believe about actual histories?</h2>'+
+ '<p>Competing theories must predict different records before we award evidence toward one or many. Results that constrain collapse without distinguishing Everett and Bohm are still genuine model-specific science.</p>'+
+ '<div class="question-gates-grid">'+items.map(g=>'<article class="question-gate-item"><span class="micro">GATE '+html(g.order)+' · '+html(g.scorePossible)+'</span><h3>'+html(g.program)+'</h3><p>'+html(g.candidateObservable)+'</p><p class="caption"><strong>Test:</strong> '+html(g.nextTask)+'</p><p class="caption"><strong>Result type:</strong> '+html(g.expectedOutcome)+'</p></article>').join('')+'</div>'+
+ '<p class="caption">The existing 50/100 is an editorial neutral reference, NOT physical odds. A particular CSL parameter can be favored or disfavored by the same aggregate count data; score changes need predeclared hypothesis families and instrument uncertainties.</p>'+
+ '<p><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/research/central-question-discriminators-S002-R009.md" target="_blank" rel="noopener noreferrer">Read the mathematical identification check and original primary sources ↗</a></p>';
 }
 function compass(score){
  const v=Math.max(0,Math.min(100,Number(score)||50));
@@ -211,15 +234,15 @@ function bindAtlas(){
  $('planet-outer')?.addEventListener('click',()=>setFocus('Outer solar system · future research lane','Navigation, clocks, and gravitational models may yield future research questions. Current atlas markers are conceptual and not records of observations there.','#ledger'));
 }
 async function load(){
- const targets=['data/ledger.json','data/research.json','data/sessions.json','data/library.json','data/csl-exclusion-comparison.json'];
+ const targets=['data/ledger.json','data/research.json','data/sessions.json','data/library.json','data/csl-exclusion-comparison.json','data/page-freshness.json','data/discriminator-program.json'];
  try{
   const res=await Promise.all(targets.map(u=>fetch(u,{cache:'no-store'})));
   if(res.some(r=>!r.ok))throw Error('Missing source JSON');
   const data=await Promise.all(res.map(r=>r.json()));
-  [ledger,research,sessions,libraryIndex,comparison]=data;
+  [ledger,research,sessions,libraryIndex,comparison,pageFreshness,questionGates]=data;
   compass(ledger.editorialMeter.score);
   if($('hero-count'))$('hero-count').textContent=String(ledger.entries.length);
-  renderLedger();renderVerdictAudit();renderCSLComparison();renderMilestones();renderDisciplines();renderJournal();renderSessions();
+  renderLedger();renderVerdictAudit();renderCSLComparison();renderQuestionGates();renderRoundBanner();renderMilestones();renderDisciplines();renderJournal();renderSessions();
  }catch(e){
   const message='<div class="empty">The public research files could not be loaded. Try refreshing; the source record is also available in the GitHub repository.</div>';
   for(const id of ['ledger-list','milestone-list','disciplines-list','journal-body'])if($(id))$(id).innerHTML=message;
