@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "S-002 test-directed model-discrimination program: replace borrowed 59 editorial preference with documented neutral 50, track claim-specific experimental movement",
+  "phase": "S-002-R006: 10 critical original main-text studies and model-specific claim movements, not central ontology score manipulation",
   "milestones": [
     {
       "id": "M1",
@@ -65,7 +65,16 @@
         "SRC-059",
         "SRC-042",
         "SRC-065",
-        "SRC-066"
+        "SRC-066",
+        "SRC-048",
+        "SRC-067",
+        "SRC-068",
+        "SRC-069",
+        "SRC-070",
+        "SRC-071",
+        "SRC-072",
+        "SRC-073",
+        "SRC-074"
       ],
       "prioritySourceIds": [
         "SRC-007",
@@ -133,6 +142,32 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Ten original main-paper tests and adversarial checks · R006",
+          "summary": "Fein molecular interference; Donadi 124kg-day germanium X-rays; shared-LISA force/torque reanalyses; colored CSL, inflation operator, classical-gravity entanglement and Wigner-friend conditional counterarguments. New MOVE-002–007 model-specific constraints; central histories score neutral 50.",
+          "sourceIds": [
+            "SRC-048",
+            "SRC-067",
+            "SRC-068",
+            "SRC-069",
+            "SRC-070",
+            "SRC-071",
+            "SRC-072"
+          ],
+          "readingNoteIds": [
+            "NOTE-053",
+            "NOTE-054",
+            "NOTE-055",
+            "NOTE-056",
+            "NOTE-057",
+            "NOTE-058",
+            "NOTE-059",
+            "NOTE-060",
+            "NOTE-061",
+            "NOTE-062"
+          ],
+          "limitation": "Whole accessible main texts reviewed; not raw experimental-data or all supplemental-proofs replication; correlated LISA evidence not independently counted."
+        },
         {
           "title": "Real experimental result: benchmark Markovian CSL parameter region constrained · S-002-R005",
           "summary": "XENONnT 2026 complete main paper reports 90%-CL λ/rC²<3×10^-3 s^-1 m^-2 and 9.1σ deviation of historical GRW-associated benchmark when specified as white-noise CSL. Strong experimental progress for collapse physics, not a direct Everett-versus-Bohm branch census.",
@@ -381,7 +416,16 @@
         "SRC-058",
         "SRC-010",
         "SRC-059",
-        "SRC-065"
+        "SRC-065",
+        "SRC-048",
+        "SRC-067",
+        "SRC-068",
+        "SRC-069",
+        "SRC-070",
+        "SRC-071",
+        "SRC-072",
+        "SRC-073",
+        "SRC-074"
       ],
       "prioritySourceIds": [
         "SRC-060",
@@ -446,6 +490,32 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Ten original main-paper tests and adversarial checks · R006",
+          "summary": "Fein molecular interference; Donadi 124kg-day germanium X-rays; shared-LISA force/torque reanalyses; colored CSL, inflation operator, classical-gravity entanglement and Wigner-friend conditional counterarguments. New MOVE-002–007 model-specific constraints; central histories score neutral 50.",
+          "sourceIds": [
+            "SRC-048",
+            "SRC-067",
+            "SRC-068",
+            "SRC-069",
+            "SRC-070",
+            "SRC-071",
+            "SRC-072"
+          ],
+          "readingNoteIds": [
+            "NOTE-053",
+            "NOTE-054",
+            "NOTE-055",
+            "NOTE-056",
+            "NOTE-057",
+            "NOTE-058",
+            "NOTE-059",
+            "NOTE-060",
+            "NOTE-061",
+            "NOTE-062"
+          ],
+          "limitation": "Whole accessible main texts reviewed; not raw experimental-data or all supplemental-proofs replication; correlated LISA evidence not independently counted."
+        },
         {
           "title": "Real experimental result: benchmark Markovian CSL parameter region constrained · S-002-R005",
           "summary": "XENONnT 2026 complete main paper reports 90%-CL λ/rC²<3×10^-3 s^-1 m^-2 and 9.1σ deviation of historical GRW-associated benchmark when specified as white-noise CSL. Strong experimental progress for collapse physics, not a direct Everett-versus-Bohm branch census.",
@@ -719,7 +789,15 @@
         "SRC-021",
         "SRC-042",
         "SRC-048",
-        "SRC-066"
+        "SRC-066",
+        "SRC-067",
+        "SRC-068",
+        "SRC-069",
+        "SRC-070",
+        "SRC-071",
+        "SRC-072",
+        "SRC-073",
+        "SRC-074"
       ],
       "prioritySourceIds": [
         "SRC-048",
@@ -780,6 +858,32 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Ten original main-paper tests and adversarial checks · R006",
+          "summary": "Fein molecular interference; Donadi 124kg-day germanium X-rays; shared-LISA force/torque reanalyses; colored CSL, inflation operator, classical-gravity entanglement and Wigner-friend conditional counterarguments. New MOVE-002–007 model-specific constraints; central histories score neutral 50.",
+          "sourceIds": [
+            "SRC-048",
+            "SRC-067",
+            "SRC-068",
+            "SRC-069",
+            "SRC-070",
+            "SRC-071",
+            "SRC-072"
+          ],
+          "readingNoteIds": [
+            "NOTE-053",
+            "NOTE-054",
+            "NOTE-055",
+            "NOTE-056",
+            "NOTE-057",
+            "NOTE-058",
+            "NOTE-059",
+            "NOTE-060",
+            "NOTE-061",
+            "NOTE-062"
+          ],
+          "limitation": "Whole accessible main texts reviewed; not raw experimental-data or all supplemental-proofs replication; correlated LISA evidence not independently counted."
+        },
         {
           "title": "Real experimental result: benchmark Markovian CSL parameter region constrained · S-002-R005",
           "summary": "XENONnT 2026 complete main paper reports 90%-CL λ/rC²<3×10^-3 s^-1 m^-2 and 9.1σ deviation of historical GRW-associated benchmark when specified as white-noise CSL. Strong experimental progress for collapse physics, not a direct Everett-versus-Bohm branch census.",
@@ -1102,6 +1206,36 @@
     }
   ],
   "journal": [
+    {
+      "id": "J-008",
+      "date": "21 October 2026",
+      "category": "PRIMARY EXPERIMENT & THEORY AUDIT · S-002-R006",
+      "title": "Ten high-impact papers move physical claims, not unearned points",
+      "intro": "Ten complete original main-text critical readings span genuine molecular and germanium measurements, LISA noise reanalyses, colored collapse-law escape routes and rigorous counterexamples to interpretation claims.",
+      "sections": [
+        {
+          "heading": "Real measurement changes",
+          "text": "Measured 25±3% molecular interference fringe example and 124kg-day germanium X-ray search constrain specified objective-collapse models. Two distinct LISA analyses are based on the same spacecraft data and are not independent experiments."
+        },
+        {
+          "heading": "Why specific experiments are decisive",
+          "text": "Each finding has a named generator, geometry, detector frequency range, null/alternative and caveat. Colored CSL spectra and alternate gravity-matter channels limit over-generalizing tests."
+        },
+        {
+          "heading": "What would answer the original question?",
+          "text": "A measured likelihood ratio separating one physically realized history from Everett multiple real branches under matched physical preparations, or a rigorous demonstration that an experiment cannot identify them. None of the ten constitutes an observed branch census."
+        }
+      ],
+      "sourceIds": [
+        "WL-012",
+        "WL-013",
+        "WL-014",
+        "WL-015",
+        "WL-016",
+        "WL-017"
+      ],
+      "fullReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    },
     {
       "id": "J-007",
       "date": "21 October 2026",
@@ -1468,9 +1602,9 @@
   },
   "fullStudyMilestone": {
     "batch": "research/full-study-batch-001.md",
-    "completed": 15,
+    "completed": 25,
     "target": 400,
-    "percentOfSourceReviewTarget": 3.75,
+    "percentOfSourceReviewTarget": 6.25,
     "interpretation": "13 critically reviewed complete published main texts, 3 new in S-002-R001; neither individual replication of every proof nor experimental independent validation.",
     "reviewedSources": [
       "SRC-002",
@@ -1479,23 +1613,33 @@
       "SRC-008",
       "SRC-010",
       "SRC-012",
+      "SRC-014",
       "SRC-020",
       "SRC-044",
       "SRC-045",
       "SRC-047",
+      "SRC-048",
       "SRC-059",
       "SRC-062",
       "SRC-064",
       "SRC-065",
-      "SRC-066"
+      "SRC-066",
+      "SRC-067",
+      "SRC-068",
+      "SRC-069",
+      "SRC-070",
+      "SRC-071",
+      "SRC-072",
+      "SRC-073",
+      "SRC-074"
     ],
     "session": "S-002",
-    "round": "S-002-R005",
+    "round": "S-002-R006",
     "completedOn": "2026-10-21",
     "scoreChange": 0,
-    "newBatch": "research/full-study-batch-002.md",
+    "newBatch": "research/full-study-batch-003-ten-discriminator-candidates.md",
     "foundingBatch": "research/full-study-batch-001.md",
-    "latestStudy": "research/score-origin-and-testable-results-S002-R005.md"
+    "latestStudy": "research/full-study-batch-003-ten-discriminator-candidates.md"
   },
   "modelComparison": {
     "version": "S-002-R001",
@@ -1675,7 +1819,7 @@
     }
   },
   "answerProgram": {
-    "version": "S-002-R005",
+    "version": "S-002-R006",
     "date": "2026-10-21",
     "centralQuestion": "Our physical universe: one realized outcome history or multiple physically actual Everett-relative histories?",
     "currentEmpiricalAnswer": "Unresolved; standard Everett and quantum-equilibrium Bohm are observationally equivalent under matched measurement assumptions.",
@@ -1683,7 +1827,7 @@
     "meaning": "Neutral display anchor; not a calibrated prior/posterior or odds",
     "scoreHistory": "VC-010 repairs unsupported historical 59→50. Scientific evidence impact 0; historic 59 preserved.",
     "progressKind": "claim-level experiments constraining real dynamics independently from unresolved ontology",
-    "lastScientificMovement": "MOVE-001",
+    "lastScientificMovement": "MOVE-007",
     "linkedSources": [
       "SRC-007",
       "SRC-010",
@@ -1691,9 +1835,9 @@
       "SRC-066"
     ],
     "nextCriticalTests": [
-      "Reconstruct reported Markovian CSL 2026 XENONnT 90%-CL profile likelihood using supplement and data availability conditions",
-      "Seek empirically differentiating single-history vs multiple-history alternative and state its test prediction or rigorous measurement-equivalence obstruction",
-      "Systematically test objective-collapse variants versus conventional environmental decoherence using measured background nuisance parameters"
+      "Reconstruct common CSL parameter graph with experimentally independent vs reused LISA data and separate noise assumptions",
+      "Reproduce one published likelihood/credible contour where input data accessible",
+      "Derive a paired actual-history hypothesis experiment or explicit equal-Born probability limitation"
     ],
     "scoringPolicy": "A new model parameter constraint always changes relevant scientific claim state if verified; a central 0–100 directional score needs physically discriminating evidence between one-real-history and multiple-real-history models, plus a justified reproducible map from likelihood to score. Do not move on interpretive preference or catalogue counts."
   }
