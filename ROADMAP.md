@@ -7,6 +7,14 @@ GitHub Pages run: https://github.com/nikahanghojjati-oss/worldline-lab/actions/r
 The research journal, compass, source-ledger filtering, multidisciplinary lab index, stylized interactive Earth and solar-atlas selectors, and measured-only session registry are live site features.
 The atlas is a stylized diagram. A true geographic projection or 3D globe has NOT been implemented; no experiment locations should be inferred from its illustration.
 
+## Release 0.25 · Lab reading syllabi and end-to-end research program (2026-10-21)
+- Research Labs tiles open discipline-specific, directly linked reading lists drawn from the versioned Scholar Library.
+- The full current reading queue is assembled by indexed discipline and curated cross-disciplinary source IDs. When new papers are indexed in the library under those fields, the related lists expand automatically.
+- Source progress distinguishes catalogued, abstract-reviewed, partially-studied and fully-studied; ✓ appears only for fully-studied works with notes.
+- Eight public program stages describe the path from scientific definitions through source-level reading, mathematics, experiments, synthesis, critique and publication. Each stage has an explicit acceptance gate.
+- A final inconclusive result is scientifically valid when available evidence cannot discriminate the hypotheses.
+- Acceptance: click any of the nine Research Lab tiles, inspect its complete current source list with original links, and navigate back; no abstract-level check appears as a completed reading.
+
 ## Release 0.2 · Truth Engine (next)
 - Introduce a schema and test runner validating source URLs, type, timestamps, unique IDs, geographic precision and dependent citations.
 - Require a claim classification, counter-evidence search and an auditable impact rationale for every proposed meter change.
