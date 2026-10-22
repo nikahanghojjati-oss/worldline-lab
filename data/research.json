@@ -1511,7 +1511,7 @@
     "verdictAudit": "VC-008"
   },
   "releaseAllocation": {
-    "version": "S-002-R003",
+    "version": "S-002-R004",
     "date": "2026-10-21",
     "roadmap": "ROADMAP.md",
     "plan": "research/release-020-025-allocation.md",
@@ -1561,13 +1561,46 @@
         "R25-03"
       ]
     },
-    "status": "Allocation committed; not all points delivered",
+    "status": "W20-01 CI and fixture validator verified; R20-01 original Everett full main-text critical study verified; v0.2 overall still candidate and v0.25 lab features await acceptance QA",
     "records": [
       {
         "id": "R20-01",
         "state": "full-main-text-reviewed-with-provenance-limits",
         "evidence": "research/everett-1957-source-study-S002-R003.md"
+      },
+      {
+        "id": "W20-01",
+        "state": "verified-ci-and-fixtures-passed",
+        "evidence": "https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39717393718",
+        "repoFiles": [
+          "tools/truth-engine/validate.cjs",
+          "tools/truth-engine/test.cjs",
+          ".github/workflows/worldline-integrity.yml",
+          "data/truth-engine.json",
+          "research/truth-engine-integrity-audit-S002-R004.md"
+        ],
+        "knownLimit": "Local integrity check, not live HTTP/source correctness or full W20-02/03/04"
       }
-    ]
+    ],
+    "deliveredEstimatedPoints": {
+      "science": 4,
+      "website": 3,
+      "total": 7
+    },
+    "remainingEstimatedPoints": {
+      "v02": {
+        "science": 23,
+        "website": 6
+      },
+      "v025": {
+        "science": 9,
+        "website": 3
+      },
+      "combined": {
+        "science": 32,
+        "website": 9,
+        "total": 41
+      }
+    }
   }
 }
