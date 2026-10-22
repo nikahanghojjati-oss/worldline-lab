@@ -351,6 +351,156 @@
           "research/score-origin-and-testable-results-S002-R005.md"
         ]
       }
+    },
+    {
+      "id": "WL-012",
+      "date": "2026-10-21",
+      "title": "Molecular fringes beyond 25 kDa restrict collapse dynamics",
+      "field": "Chemistry",
+      "kind": "Experiment",
+      "status": "Observed coherence, parameter-dependent collapse constraint",
+      "question": "Fein 2019 >25 kDa interference",
+      "finding": "Measured quantum-model near-field fringes; 25±3% example visibility, normalized fit 0.93±0.06, with grating, thermal and pressure controls.",
+      "source": "Molecular fringes beyond 25 kDa restrict collapse dynamics",
+      "url": "https://doi.org/10.1038/s41567-019-0663-9",
+      "impact": 0,
+      "direction": "Changes model-specific claim, no Everett/Bohm ontology likelihood",
+      "strength": "Original full main text critically reviewed; supplementary data, raw likelihood and simulations not independently replicated",
+      "place": "Source location not geocoded",
+      "lat": null,
+      "long": null,
+      "locationType": "No experiment-site coordinate attributed",
+      "notes": "See research/full-study-batch-003-ten-discriminator-candidates.md for model assumptions, competing backgrounds, uncertainties and independence audit.",
+      "reviewRefs": [
+        "SRC-048",
+        "NOTE-053",
+        "research/full-study-batch-003-ten-discriminator-candidates.md"
+      ]
+    },
+    {
+      "id": "WL-013",
+      "date": "2026-10-21",
+      "title": "Germanium X-ray data restrict white-noise CSL emissions",
+      "field": "Physics",
+      "kind": "Experimental constraint",
+      "status": "Reported model-conditional 95% credible restriction",
+      "question": "Donadi 2021 124 kg-day HPGe",
+      "finding": "No CSL excess over modeled detector backgrounds; paper reports ~13-fold tighter parameter constraints in its high-energy nuclear-coherence calculation.",
+      "source": "Germanium X-ray data restrict white-noise CSL emissions",
+      "url": "https://doi.org/10.1140/epjc/s10052-021-09556-0",
+      "impact": 0,
+      "direction": "Changes model-specific claim, no Everett/Bohm ontology likelihood",
+      "strength": "Original full main text critically reviewed; supplementary data, raw likelihood and simulations not independently replicated",
+      "place": "Source location not geocoded",
+      "lat": null,
+      "long": null,
+      "locationType": "No experiment-site coordinate attributed",
+      "notes": "See research/full-study-batch-003-ten-discriminator-candidates.md for model assumptions, competing backgrounds, uncertainties and independence audit.",
+      "reviewRefs": [
+        "SRC-069",
+        "NOTE-056",
+        "research/full-study-batch-003-ten-discriminator-candidates.md"
+      ]
+    },
+    {
+      "id": "WL-014",
+      "date": "2026-10-21",
+      "title": "LISA acceleration and torque noise restrict different CSL regimes",
+      "field": "Physics",
+      "kind": "Experimental reanalysis",
+      "status": "Conditional upper bounds with correlated LISA observations",
+      "question": "Dai 2024 and Altamura 2025",
+      "finding": "Translational reanalysis reports λ<8.3e-11/s at rC=1e-7m. Rotational noise reanalysis reports roughly factor-two tighter constraints over a different correlation-length band. Both reuse LISA Pathfinder datasets.",
+      "source": "LISA acceleration and torque noise restrict different CSL regimes",
+      "url": "https://doi.org/10.1103/PhysRevA.111.L020203",
+      "impact": 0,
+      "direction": "Changes model-specific claim, no Everett/Bohm ontology likelihood",
+      "strength": "Original full main text critically reviewed; supplementary data, raw likelihood and simulations not independently replicated",
+      "place": "Source location not geocoded",
+      "lat": null,
+      "long": null,
+      "locationType": "No experiment-site coordinate attributed",
+      "notes": "See research/full-study-batch-003-ten-discriminator-candidates.md for model assumptions, competing backgrounds, uncertainties and independence audit.",
+      "reviewRefs": [
+        "SRC-068",
+        "NOTE-055",
+        "research/full-study-batch-003-ten-discriminator-candidates.md"
+      ]
+    },
+    {
+      "id": "WL-015",
+      "date": "2026-10-21",
+      "title": "Colored CSL models weaken blanket white-noise exclusions",
+      "field": "Quantum foundations",
+      "kind": "Model limitation",
+      "status": "Frequency-conditional theoretical alternative",
+      "question": "Carlesso 2018 colored spectrum",
+      "finding": "Finite noise cutoff suppresses high-frequency radiation while low-frequency mechanical probes remain sensitive; white-noise X-ray bounds cannot eliminate every colored CSL variant.",
+      "source": "Colored CSL models weaken blanket white-noise exclusions",
+      "url": "https://doi.org/10.1140/epjd/e2018-90248-x",
+      "impact": 0,
+      "direction": "Changes model-specific claim, no Everett/Bohm ontology likelihood",
+      "strength": "Original full main text critically reviewed; supplementary data, raw likelihood and simulations not independently replicated",
+      "place": "Source location not geocoded",
+      "lat": null,
+      "long": null,
+      "locationType": "No experiment-site coordinate attributed",
+      "notes": "See research/full-study-batch-003-ten-discriminator-candidates.md for model assumptions, competing backgrounds, uncertainties and independence audit.",
+      "reviewRefs": [
+        "SRC-070",
+        "NOTE-057",
+        "research/full-study-batch-003-ten-discriminator-candidates.md"
+      ]
+    },
+    {
+      "id": "WL-016",
+      "date": "2026-10-21",
+      "title": "Gravitationally mediated entanglement alone is not a universally unique gravity-quantization witness",
+      "field": "Physics",
+      "kind": "Theoretical counterexample",
+      "status": "Conditional discriminator limitation",
+      "question": "Aziz Howl 2025 QFT coupling",
+      "finding": "A constructed classical gravity field coupled to quantum matter can mediate entanglement via quantum matter; experiment-specific geometry and parameter region are required before inferring gravitons.",
+      "source": "Gravitationally mediated entanglement alone is not a universally unique gravity-quantization witness",
+      "url": "https://doi.org/10.1038/s41586-025-09595-7",
+      "impact": 0,
+      "direction": "Changes model-specific claim, no Everett/Bohm ontology likelihood",
+      "strength": "Original full main text critically reviewed; supplementary data, raw likelihood and simulations not independently replicated",
+      "place": "Source location not geocoded",
+      "lat": null,
+      "long": null,
+      "locationType": "No experiment-site coordinate attributed",
+      "notes": "See research/full-study-batch-003-ten-discriminator-candidates.md for model assumptions, competing backgrounds, uncertainties and independence audit.",
+      "reviewRefs": [
+        "SRC-072",
+        "NOTE-059",
+        "research/full-study-batch-003-ten-discriminator-candidates.md"
+      ]
+    },
+    {
+      "id": "WL-017",
+      "date": "2026-10-21",
+      "title": "Observer consistency and collapse time asymmetry require explicit premises",
+      "field": "Mathematics",
+      "kind": "Formal result",
+      "status": "Scope-narrowing adversarial review",
+      "question": "Frauchiger Renner and collapse critics",
+      "finding": "Frauchiger–Renner Q/C/S contradiction is conditional, opposed by a Bohmian global-state counteranalysis. Reversible collapse-event laws under special boundary conditions and negative GRW thermodynamics simulations challenge broad claims.",
+      "source": "Observer consistency and collapse time asymmetry require explicit premises",
+      "url": "https://doi.org/10.1038/s41467-018-05739-8",
+      "impact": 0,
+      "direction": "Changes model-specific claim, no Everett/Bohm ontology likelihood",
+      "strength": "Original full main text critically reviewed; supplementary data, raw likelihood and simulations not independently replicated",
+      "place": "Source location not geocoded",
+      "lat": null,
+      "long": null,
+      "locationType": "No experiment-site coordinate attributed",
+      "notes": "See research/full-study-batch-003-ten-discriminator-candidates.md for model assumptions, competing backgrounds, uncertainties and independence audit.",
+      "reviewRefs": [
+        "SRC-014",
+        "NOTE-060",
+        "research/full-study-batch-003-ten-discriminator-candidates.md"
+      ]
     }
   ],
   "scientificMovements": [
@@ -371,6 +521,114 @@
       "centralHistoryDirection": "Neither Everett over Bohm nor Bohm over Everett",
       "centralScoreImpact": 0,
       "researchReport": "research/score-origin-and-testable-results-S002-R005.md"
+    },
+    {
+      "id": "MOVE-002",
+      "date": "2026-10-21",
+      "ledgerId": "WL-012",
+      "sourceIds": [
+        "SRC-048"
+      ],
+      "readingNoteIds": [
+        "NOTE-053"
+      ],
+      "claim": "Fein 2019 >25 kDa interference",
+      "from": "Prior project claim lacked this detailed main-original source review and specific model caveat",
+      "to": "Measured quantum-model near-field fringes; 25±3% example visibility, normalized fit 0.93±0.06, with grating, thermal and pressure controls.",
+      "modelDirection": "Evidence changes the tested model or claimed discriminator under stated assumptions",
+      "centralHistoryDirection": "Neither Everett nor quantum-equilibrium Bohm uniquely favored",
+      "centralScoreImpact": 0,
+      "researchReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    },
+    {
+      "id": "MOVE-003",
+      "date": "2026-10-21",
+      "ledgerId": "WL-013",
+      "sourceIds": [
+        "SRC-069"
+      ],
+      "readingNoteIds": [
+        "NOTE-056"
+      ],
+      "claim": "Donadi 2021 124 kg-day HPGe",
+      "from": "Prior project claim lacked this detailed main-original source review and specific model caveat",
+      "to": "No CSL excess over modeled detector backgrounds; paper reports ~13-fold tighter parameter constraints in its high-energy nuclear-coherence calculation.",
+      "modelDirection": "Evidence changes the tested model or claimed discriminator under stated assumptions",
+      "centralHistoryDirection": "Neither Everett nor quantum-equilibrium Bohm uniquely favored",
+      "centralScoreImpact": 0,
+      "researchReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    },
+    {
+      "id": "MOVE-004",
+      "date": "2026-10-21",
+      "ledgerId": "WL-014",
+      "sourceIds": [
+        "SRC-068"
+      ],
+      "readingNoteIds": [
+        "NOTE-055"
+      ],
+      "claim": "Dai 2024 and Altamura 2025",
+      "from": "Prior project claim lacked this detailed main-original source review and specific model caveat",
+      "to": "Translational reanalysis reports λ<8.3e-11/s at rC=1e-7m. Rotational noise reanalysis reports roughly factor-two tighter constraints over a different correlation-length band. Both reuse LISA Pathfinder datasets.",
+      "modelDirection": "Evidence changes the tested model or claimed discriminator under stated assumptions",
+      "centralHistoryDirection": "Neither Everett nor quantum-equilibrium Bohm uniquely favored",
+      "centralScoreImpact": 0,
+      "researchReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    },
+    {
+      "id": "MOVE-005",
+      "date": "2026-10-21",
+      "ledgerId": "WL-015",
+      "sourceIds": [
+        "SRC-070"
+      ],
+      "readingNoteIds": [
+        "NOTE-057"
+      ],
+      "claim": "Carlesso 2018 colored spectrum",
+      "from": "Prior project claim lacked this detailed main-original source review and specific model caveat",
+      "to": "Finite noise cutoff suppresses high-frequency radiation while low-frequency mechanical probes remain sensitive; white-noise X-ray bounds cannot eliminate every colored CSL variant.",
+      "modelDirection": "Evidence changes the tested model or claimed discriminator under stated assumptions",
+      "centralHistoryDirection": "Neither Everett nor quantum-equilibrium Bohm uniquely favored",
+      "centralScoreImpact": 0,
+      "researchReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    },
+    {
+      "id": "MOVE-006",
+      "date": "2026-10-21",
+      "ledgerId": "WL-016",
+      "sourceIds": [
+        "SRC-072"
+      ],
+      "readingNoteIds": [
+        "NOTE-059"
+      ],
+      "claim": "Aziz Howl 2025 QFT coupling",
+      "from": "Prior project claim lacked this detailed main-original source review and specific model caveat",
+      "to": "A constructed classical gravity field coupled to quantum matter can mediate entanglement via quantum matter; experiment-specific geometry and parameter region are required before inferring gravitons.",
+      "modelDirection": "Evidence changes the tested model or claimed discriminator under stated assumptions",
+      "centralHistoryDirection": "Neither Everett nor quantum-equilibrium Bohm uniquely favored",
+      "centralScoreImpact": 0,
+      "researchReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    },
+    {
+      "id": "MOVE-007",
+      "date": "2026-10-21",
+      "ledgerId": "WL-017",
+      "sourceIds": [
+        "SRC-014"
+      ],
+      "readingNoteIds": [
+        "NOTE-060"
+      ],
+      "claim": "Frauchiger Renner and collapse critics",
+      "from": "Prior project claim lacked this detailed main-original source review and specific model caveat",
+      "to": "Frauchiger–Renner Q/C/S contradiction is conditional, opposed by a Bohmian global-state counteranalysis. Reversible collapse-event laws under special boundary conditions and negative GRW thermodynamics simulations challenge broad claims.",
+      "modelDirection": "Evidence changes the tested model or claimed discriminator under stated assumptions",
+      "centralHistoryDirection": "Neither Everett nor quantum-equilibrium Bohm uniquely favored",
+      "centralScoreImpact": 0,
+      "researchReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
     }
   ]
 }
