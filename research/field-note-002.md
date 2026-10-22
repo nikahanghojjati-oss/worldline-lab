@@ -65,3 +65,25 @@ Important distinction: **A closed timelike path within one globally unusual spac
 4. Read Politzer (1994) and Lloyd et al. (2011) beyond abstracts and compare operational predictions under identical toy circuit assumptions. Then return to Everett/Bell/Bohm/GRW where experiments may actually discriminate dynamics.
 
 **Review accounting:** 3 papers have **targeted original-text partial reviews** with sections/pages identified; 2 contrasting papers have **abstract-only** reviews; **0 additional completed full-text studies**. Source links and paper pages record the exact basis of this checkpoint. Future sessions must not silently promote these to 'fully-studied'.
+
+## Round S-001-R003 · small independent model checks (2026-10-21)
+These are **algebraic/toy-model calculations**, not physical CTC simulations or empirical observations.
+
+### Gödel's circular path sign (published p.449)
+The transformed metric given in Gödel §3 is, with `a > 0` and `s = sinh(r)`:
+```
+ds² = 4 a² [dt² − dr² − dy² + (sinh⁴r − sinh²r)dφ²
+             + 2√2 sinh²r dφ dt].
+```
+Set `dt = dr = dy = 0` and vary the angular coordinate `φ` around a closed circle. The resulting coefficient is
+```
+g_φφ = 4 a² sinh²(r) [sinh²(r) − 1].
+```
+Using Gödel's time-positive metric convention, this circle is timelike for `sinh²(r) > 1`, or `r > asinh(1) = ln(1 + √2) ≈ 0.881373587`. Direct numeric checks of the sign for the inner coefficient `sinh⁴r−sinh²r` give `−0.1978061734` at `r=0.5`, zero at `r≈0.881373587`, and `+0.5263334134` at `r=1.0`. This independently checks the timelike-circle inequality in his metric **conditional on the Gödel geometry**; it does not reproduce the field-equation verification or imply a CTC in our Universe.
+
+### Deutsch-type one-bit fixed-point toy (published consistency logic pp.3202–3204)
+A classical NOT loop requires `b = 1−b`, impossible for the discrete deterministic values `b ∈ {0,1}`. In a stipulated closed quantum loop, take a qubit's channel to be `Φ(ρ)=XρX`, where `X` is the Pauli bit-flip matrix. The maximally mixed density matrix `I/2` obeys `Φ(I/2)=I/2`. So does `|+⟩⟨+|`, showing the fixed point is not necessarily unique. Direct 2×2 matrix multiplication gives zero residual for both, with eigenvalues `(0.5,0.5)` and `(0,1)` respectively. Under a maximum-von-Neumann-entropy selection, `I/2` would be preferred for this toy among the fixed points.
+
+This toy reproduces a small consequence of density-operator self-consistency, but not Deutsch's full computational-network proof or any semiclassical-gravity construction. An ordinary laboratory NOT gate demonstrates the channel algebra, not a closed timelike curve or a branching ontology. It remains essential to state that assumptions about physically allowed loops are independent of their circuit consistency models.
+
+**Result:** Mathematical checks succeeded at the stated scope. No empirical discrimination of physical histories has been added. The illustrative Truth Compass remains **59/100 (no change)**; see audit VC-004 and notes NOTE-020–021.
