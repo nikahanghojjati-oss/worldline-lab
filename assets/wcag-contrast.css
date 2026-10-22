@@ -1,6 +1,50 @@
-/* Accessibility adjustments grounded in an axe audit of fully rendered pages.
-   Do not globally recolor research magazine typography on transient fade frames. */
+/* WCAG A/AA stable-state contrast fixes. CSS keeps the original illustrated surfaces,
+   layout, headings and pale/gold/mint accents; only previously low-contrast small text
+   on white/pastel panels is darkened. R012 audit runs with reduced motion and waits
+   for route animations so transient opacity is not mistaken for a contrast failure. */
+body .page.active :is(
+ .micro,.kicker,.caption,.soft,.status-tag,.detail,.source-note,.source-id,
+ .source-type,.source-date,.tile-index,.dispatch-no,.pill,.lab-source-meta,
+ .lab-source-status,.lab-source-role,.lab-search-label,.program-stat small,
+ .metric span,.session-stage,.session-mini,.session-form-label,
+ .session-chip,.session-fact span,.session-help,.session-packet,
+ .library-field small,.research-status,.library-note,.library-verdict-number span,
+ .sc-stages span,.sc-gate p,.sc-meter span,.sc-meter-note,
+ .sc-commit small,.sc-commit span,.sc-commit p,.sc-stream-label,
+ .sc-stream-badge,.sc-stream p,.sc-open,.instrument-caution small
+){color:#254b5b!important}
+/* Source-specific small explanatory text in paper-colored cards. */
+body .page.active :is(
+ .stat-card .detail,.evidence-meta .date,.evidence-meta .id,
+ .lab-source p,.lab-source-n,.library-work .relevance,
+ .library-work .authors,.library-work .source-id,
+ .library-work .library-note,.library-scholar p,
+ .sc-meter-text p,.session-fact span,.session-history-card .session-date,
+ .session-history-details summary,.session-frame p,
+ .program-stat small,.stage-index,.lab-guidance,.slide-disclaimer,
+ .future-experiments p,.room-sources>p,.stage-gate
+){color:#254b5b!important}
+body .page.active .wl-model-movements p,
+body .page.active .wl-model-movements small,
+body .page.active .wl-model-movements .micro,
+body .page.active .wl-movement p{color:#254b5b!important}
+/* Preserve clear pale text on ink-blue editorial hero and verdict rooms. */
+body .page.active :is(.featured,.lab-hero,.room-cover,.session-hero,.library-hero,.verdict-monitor,.cross-lab-card)
+ :is(.micro,.kicker,.caption,.soft,.detail,small,span,p,.lab-source-meta,.source-id){
+ color:#eff9f7!important
+}
+/* If a light evidence inset is inside a dark verdict panel, switch back to ink. */
+body .page.active .verdict-monitor :is(.wl-model-movements,.wl-csl-view,.wl-movement,.panel,.notice) *,
+body .page.active .verdict-monitor :is(.wl-model-movements,.wl-csl-view,.wl-movement,.panel,.notice){
+ color:#254b5b!important
+}
+/* Selected tabs are navy, unlike normal pale navigation. */
+body .page.active :is(.lab-rooms-switcher a.chosen,.control.active,.btn.primary),
+body .page.active :is(.lab-rooms-switcher a.chosen,.control.active,.btn.primary) *{
+ color:#fff!important
+}
+body .page.active .session-chip.rose{color:#793e58!important}
+body .page.active .session-chip.navy{color:#29475f!important}
 #sc-packet:focus-visible,.session-packet:focus-visible{
-  outline:3px solid #0c687c;
-  outline-offset:3px;
+ outline:3px solid #0c687c;outline-offset:3px
 }
