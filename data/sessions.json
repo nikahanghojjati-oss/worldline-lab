@@ -10,8 +10,8 @@
   },
   "state": "IN PROGRESS",
   "activeWork": "Session 001: discipline source-reading syllabi and eight-stage research plan committed; continue source-level reviews of chronology protection, quantum branching, and causal models.",
-  "lastVerified": "Nine clickable discipline reading queues and an eight-stage program committed to main; every one of the 40 indexed source records is assigned to at least one lab. JavaScript syntax and data IDs validated against the repository. Published interactive browser QA and final GitHub Pages propagation remain unverified.",
-  "nextStep": "Verify all nine laboratory reading pages on the published site, then complete a source-level study of Hawking chronology protection, Gödel CTC geometry, and Deutsch quantum consistency; write section-cited notes and update the evidence ledger only where discriminating evidence exists.",
+  "lastVerified": "Owner-approved project priority and future-session handoff rule recorded on 2026-10-21 in PROJECT_RULES.md, ROADMAP.md and SESSION_START.md. This policy update does not independently verify site features or claim completion of scientific full-text reviews.",
+  "nextStep": "Follow the research-first 75/25 policy: undertake and document the source-level Gödel/Hawking/Deutsch comparison and counterarguments; perform smaller necessary roadmap-aligned website tasks; record evidence-based verdict change or explicit no-change decision and update Session Observatory on milestone completion.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -41,7 +41,8 @@
           "Published LIBRARY_PROTOCOL.md and research/field-note-001.md with a source-linked, limited preliminary scientific synthesis.",
           "Introduced a machine-readable transition assessment with explicit documented criteria and a cross-section workstream register.",
           "Committed Session Observatory v3 with milestone-derived readiness meter and page-open GitHub commits feed, plus documented cross-project update protocol.",
-          "All 40 currently indexed publications have an assigned lab reading queue; completed-study markings are derived from the source library rather than presentation estimates."
+          "All 40 currently indexed publications have an assigned lab reading queue; completed-study markings are derived from the source library rather than presentation estimates.",
+          "Owner-approved 75/25 research-first operating policy committed to PROJECT_RULES.md and enforced in ROADMAP.md and SESSION_START.md; this is a planning rule, not a measured performance statistic."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
@@ -50,12 +51,15 @@
           "Perform detailed full-text reviews with section citations; none is recorded as complete in the founding library index.",
           "Interactive browser validation of new session control widgets, accessibility, responsive layout, and GitHub activity feed is outstanding."
         ],
-        "next": "Verify all nine laboratory reading pages on the published site, then complete a source-level study of Hawking chronology protection, Gödel CTC geometry, and Deutsch quantum consistency; write section-cited notes and update the evidence ledger only where discriminating evidence exists."
+        "next": "Follow the research-first 75/25 policy: undertake and document the source-level Gödel/Hawking/Deutsch comparison and counterarguments; perform smaller necessary roadmap-aligned website tasks; record evidence-based verdict change or explicit no-change decision and update Session Observatory on milestone completion."
       }
     }
   ],
   "handoff": {
     "readFirst": [
+      "PROJECT_RULES.md",
+      "ROADMAP.md",
+      "SESSION_START.md",
       "data/sessions.json",
       "data/library.json",
       "data/reading-notes.json",
@@ -67,7 +71,8 @@
       "Distinguish source publication date from retrieval date.",
       "Never fabricate session token usage, elapsed time, experiment conditions, or confidence.",
       "Check cited sources before new evidence classification.",
-      "Record a reproducible rationale for any meter change."
+      "Record a reproducible rationale for any meter change.",
+      "Apply PROJECT_RULES.md: plan roughly 75% rigorous research and 25% roadmap-aligned website work over meaningful cycles, without fabricated effort telemetry."
     ],
     "minimumPacket": "Repository authority · session ID · verified change (with source) · unresolved limit · one highest-value next action · restart guardrails",
     "continuity": "Session 001 is active. A recent GitHub commit is project activity, not a new GPT chat. Page-open public commit polling is not automatic background research. For cross-chat handoff, record milestones and continuation decisions in this same authoritative file."
@@ -101,8 +106,8 @@
     "nextActionDefined": true,
     "naturalBoundary": false,
     "documentedContinuityRisk": "not measured",
-    "decisionBasis": "Session 001 has the milestone of nine lab reading queues and an eight-stage research plan committed. The substantive comparative source-level physics review milestone is still open, and the compact handoff has the required recorded next step; continue Session 001 while research remains coherent.",
-    "updatePolicy": "Update data/sessions.json on each substantial research or website milestone. The public Sessions page also fetches recent GitHub commits for near-current activity, while it is open."
+    "decisionBasis": "The project and next-session instructions now preserve the owner-approved 75% research / 25% roadmap-driven site priority, while the substantive Gödel/Hawking/Deutsch review milestone remains open. Remain in Session 001 while work is coherent; this rule update is not a reason to transition.",
+    "updatePolicy": "Update data/sessions.json on each substantive research or website milestone, capturing 75/25 research-first adherence or justified deviations, next action and verdict-impact rationale. GitHub commit feed is not ChatGPT telemetry."
   },
   "workstreams": [
     {
@@ -151,8 +156,21 @@
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published",
-      "latest": "v3 transition meter, GitHub commit feed, seven workstream summaries and compact handoff published in repository",
-      "next": "Verify live display and refresh behavior, update session checkpoint after each substantial workstream milestone."
+      "latest": "Founding session handoff now includes durable 75/25 research-first governance linked to PROJECT_RULES.md and ROADMAP.md; previous Session Observatory UI status is not reverified by this policy update.",
+      "next": "Track substantive source-level research and smaller roadmap-driven site milestones with clear handoff recommendations and no unverified usage metrics."
     }
-  ]
+  ],
+  "operatingPolicy": {
+    "effective": "2026-10-21",
+    "authority": "PROJECT_RULES.md",
+    "researchShareTarget": 75,
+    "websiteShareTarget": 25,
+    "measure": "approximate substantive-effort priorities over meaningful research/development cycles, not measured session time or token capacity",
+    "researchFirst": true,
+    "plannedResearch": "Follow the eight research stages, nine discipline reading queues, 54 mapped subtopics and source prioritization in LIBRARY_PROTOCOL.md; commence section-cited Gödel/Hawking/Deutsch comparative review; distinguish catalogued sources from fully studied works.",
+    "websitePlan": "Follow ROADMAP.md 0.2 Truth Engine, 0.3 sourced globe/atlas, 0.4 deeper field laboratories, 0.5 continuity and 0.6 science review. Preserve 0.25 reading lists and 0.26 field presentation rooms and introductory tools. Include interdisciplinary laboratory plans.",
+    "deviationPolicy": "Urgent correctness, data integrity, security, accessibility and broken controls may be fixed ahead of allocation; document the reason and resume research priority.",
+    "milestoneReporting": "Update this sessions record for significant research and website progress; explicitly record linked evidence and verdict change or no-change rationale in the research audit.",
+    "nextSessionRule": "Read PROJECT_RULES.md, ROADMAP.md and SESSION_START.md, then the authoritative session and reading records; do not invent reading achievements or a handoff."
+  }
 }
