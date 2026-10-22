@@ -9,13 +9,14 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "IN PROGRESS",
-  "activeWork": "Develop and verify the session observatory, its durable research checkpoint, and an evidence-based handoff recommendation model.",
-  "lastVerified": "Public Worldline Lab repository contains the original research atlas, evidence ledger, roadmap and a single founding session record. A new session observatory stylesheet and script have been committed to GitHub.",
-  "nextStep": "Validate the interactive Session Observatory in the deployed website, confirm correct handoff state and export, then plan functioning discipline-specific laboratory detail views.",
+  "activeWork": "Expand the Worldline Lab research canon, connect a public scholar library, and write the first source-bound analytical research notes.",
+  "lastVerified": "Worldline Lab now holds a seeded scholar index of 40 distinct works and 54 named researchers across 11 research fields, with 10 auditable summary-level study notes. Homepage editorial accents and research dispatch are committed.",
+  "nextStep": "Validate the live Scholar Library filters, source citations, verdict trail and Sessions interface. Expand source coverage responsibly and conduct section-by-section full paper study, beginning with foundational relativity and quantum papers.",
   "blocking": [
-    "GitHub Pages is a read-only public site; visitor or browser changes cannot directly edit repository history without a separate authenticated workflow.",
-    "ChatGPT token use and actual remaining context are not exposed to the public website. Handoff reasoning uses explicitly reported continuity symptoms and verified checkpoints.",
-    "Research Labs currently presents discipline summaries rather than interactive laboratory detail pages; those remain for a later phase."
+    "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
+    "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
+    "Browser session handoff drafts remain local until explicitly reviewed and saved to GitHub.",
+    "Individual interactive discipline laboratories remain a future milestone."
   ],
   "sessionHistory": [
     {
@@ -23,7 +24,7 @@
       "date": "2026-10-21",
       "label": "Founding session · Worldline Lab",
       "objective": "Create an open, scientifically disciplined publication and a reliable research continuity system that survives chat boundaries.",
-      "work": "Studied POS20 and the multi-session factory principles from Career Mode Showdown; founded Worldline Lab; built initial public atlas, compass, evidence and journal views; began the dedicated handoff console.",
+      "work": "Established scientific atlas, Truth Compass, session continuity protocol, and a multidisciplinary research library with source-linked editorial verdict auditing.",
       "status": "Active · initial session",
       "scope": "Research architecture, repository construction, website publication, continuity methods",
       "tokenCount": null,
@@ -33,24 +34,27 @@
           "Public repository established as the durable research source of truth.",
           "Versioned evidence ledger, research protocol, roadmap and session bootstrap exist.",
           "Editorial homepage, hypothesis compass, journal, source atlas, and initial research-lane overview exist in GitHub.",
-          "Dedicated Session Observatory implementation added with manual context-quality signals, checkpoint assessment and compact export."
+          "Dedicated Session Observatory implementation added with manual context-quality signals, checkpoint assessment and compact export.",
+          "First Scholar Library dataset established with 40 works, 54 researchers and 11 fields; 10 source-specific abstract-level notes created.",
+          "All verdict change events must link their source IDs and supporting interpretation; no unearned numerical change was made."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
           "Discipline summaries are not yet individual functional laboratory pages.",
-          "No public site access to live ChatGPT token or context telemetry.",
-          "Research claims and future compass adjustments require source-by-source scientific review."
+          "Research claims and future compass adjustments require source-by-source scientific review.",
+          "Perform detailed full-text reviews with section citations; none is recorded as complete in the founding library index."
         ],
-        "next": "Verify the Session Observatory, keep Session 001 active until a meaningful research milestone is complete, and write the smallest truthful handoff before creating Session 002."
+        "next": "Validate the live Scholar Library filters, source citations, verdict trail and Sessions interface. Expand source coverage responsibly and conduct section-by-section full paper study, beginning with foundational relativity and quantum papers."
       }
     }
   ],
   "handoff": {
     "readFirst": [
       "data/sessions.json",
-      "SESSION_START.md",
+      "data/library.json",
+      "data/reading-notes.json",
       "relevant entries in data/ledger.json",
-      "data/research.json when needed"
+      "SESSION_START.md"
     ],
     "rules": [
       "Never award multiple-timeline evidence credit for mere mathematical possibility or simulation.",
