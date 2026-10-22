@@ -28,4 +28,13 @@ if(base.truthEngine){
   reviewedEvidenceCommit:'959e3df0b0031201742cd1019ad6a15db514d18d',oldScore:50,proposedScore:51
  }), 'counterevidenceSearch');
 }
+const {check,record,reverse}=require('./review.cjs');
+const proposal={id:'TEST-P',target:'central-ontology',claimClass:'Experimental measurement',hypothesis:'Hmany',nullHypothesis:'Hone',prediction:'measured distribution',testedObservable:'pointer',measurement:'controlled count',controls:'preparation and detector',counterevidenceSearch:'search rival experiments',alternativeExplanations:'environmental noise',uncertainty:'finite counts',discriminationArgument:'requires distinct likelihood',impactRationale:'conditional only',reviewer:'test fixture',priorAuditId:base.library.verdictAudit.changeLog.at(-1).id,reviewedEvidenceCommit:'a'.repeat(40),scoreMapping:'explicit score mapping proposal',distinguishingLikelihood:'illustrative synthetic likelihoods',sourceIds:['SRC-066'],readingNoteIds:['NOTE-052'],oldScore:50,proposedScore:50};
+assert.deepEqual(check(proposal,base),[]);
+const invalid={...proposal,counterevidenceSearch:''};
+assert.ok(check(invalid,base).some(x=>x.includes('counterevidenceSearch')));
+const decision=record(proposal,base,{sha:'b'.repeat(40),id:'DEC-TEST',date:'2026-10-21',reason:'TEST FIXTURE NOT SCIENTIFIC APPROVAL'});
+const reversed=reverse(decision,50,{sha:'c'.repeat(40),id:'DEC-UNDO',date:'2026-10-21',reason:'TEST reversal'});
+assert.equal(reversed.reverses,'DEC-TEST');
+console.log('PASS provisional review and reversible append-only decision fixtures');
 console.log('Truth Engine fixtures PASS, baseline: '+JSON.stringify(pass.counts));
