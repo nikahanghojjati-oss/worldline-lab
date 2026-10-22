@@ -12,8 +12,8 @@
    const [r,frontierResponse]=await Promise.all(['data/hammer.json','data/hammer-frontier.json'].map(u=>fetch(u,{cache:'no-store'})));
    if(!r.ok||!frontierResponse.ok)throw Error('HAMMER source or mission model file unavailable');
    const data=math.validate(await r.json()),frontier=discovery.validate(await frontierResponse.json(),data),
-     report=math.forge(data),research=discovery.discover(frontier,data);
-   root.innerHTML='<div class="hammer-intro"><div class="kicker">HAMMER / THEORY FORGE / v0.1</div>'+
+     report=math.forge(data),research=discovery.discover(frontier,data),automatic=discovery.search(data,{depth:2,beamWidth:3});
+   root.innerHTML='<div class="hammer-intro"><div class="kicker">HAMMER / RECURSIVE DISCOVERY FORGE / v0.2</div>'+
     '<h2>Find the experiment. Attack the theory. Earn the evidence.</h2>'+
     '<p>Compare rival predictions, mutate their nuisance assumptions and find whether an apparent discovery survives its strongest counterexample. These are <strong>synthetic models, not observations or AGI discoveries.</strong></p></div>'+
     '<div class="hammer-controls"><label for="hammer-design">Research challenge</label><select id="hammer-design">'+
@@ -25,7 +25,11 @@
     '<p>HAMMER constructs joint predictions from separate thought experiments, refuses incompatible hypotheses and writes down what could falsify each proposal. All novelty remains unverified.</p>'+
     '<label for="hammer-mission">Research mission</label><select id="hammer-mission">'+
     frontier.missions.map(m=>'<option value="'+esc(m.id)+'">'+esc(m.id+' · '+m.question.slice(0,78))+'</option>').join('')+'</select>'+
-    '<div id="hammer-mission-results" aria-live="polite"></div></section>'+
+    '<div id="hammer-mission-results" aria-live="polite"></div>'+
+    '<div class="hammer-auto-memory" aria-label="Bounded autonomous research search">'+
+    '<strong>Autonomous question search</strong><p>HAMMER tested '+esc(automatic.explored)+' candidate combinations through two bounded levels, including incompatible theories and nuisance-counterfeits. No new physical data were used.</p>'+
+    (automatic.topCandidate?'<p>Top theory-only candidate: <strong>'+esc(automatic.topCandidate.lineage.join(' × '))+'</strong>; worst-case separation '+fmt(automatic.topCandidate.robustJSBits)+' bits under explicitly unverified conditional independence.</p>':'<p>No surviving conditional experiment.</p>')+
+    '<p>Verified novel discoveries: 0 · Scientific verdict: unresolved · Ledger change: 0</p></div></section>'+
     '<p class="hammer-boundary">AI scientific reviewing is intended to be model-led, with source-study and adversarial critique from separate AI models. None have been invoked by this public page. The current score remains editorial 50; no experiment here changes it.</p>'+
     '<p class="hammer-links"><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/hammer.json" target="_blank" rel="noopener noreferrer">Inspect model assumptions ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/tools/hammer/ai-panel.cjs" target="_blank" rel="noopener noreferrer">Inspect the AI-review protocol ↗</a></p>';
    const select=root.querySelector('#hammer-design');
