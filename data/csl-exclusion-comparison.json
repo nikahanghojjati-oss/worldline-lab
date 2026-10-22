@@ -1,0 +1,145 @@
+{
+  "schema": "worldline-csl-exclusions/v1",
+  "date": "2026-10-21",
+  "session": "S-002",
+  "round": "S-002-R008",
+  "researchReport": "research/csl-bound-reconstruction-S002-R008.md",
+  "reproducibleCode": "tools/truth-engine/csl-reproduce.cjs",
+  "researchQuestion": "What mass-proportional Markovian white-noise CSL parameter regions are restricted by molecular interference, Ge and Xe emitted radiation, and LISA force/torque noise?",
+  "model": {
+    "name": "mass-proportional white-noise Markovian CSL",
+    "lambdaUnit": "s^-1",
+    "rCUnit": "m",
+    "normalization": "per nucleon",
+    "caveat": "Different experiments have different kernels, energy spectra, geometric response, priors, statistical conditions and shared datasets; do not multiply limits as likelihoods"
+  },
+  "referenceRadius": 1e-7,
+  "channels": [
+    {
+      "id": "XENONnT-2026",
+      "workId": "SRC-066",
+      "ledgerId": "WL-011",
+      "observable": "1–140 keV xenon electronic-recoil X-ray spectrum",
+      "lambdaUpper": 3e-17,
+      "statistic": "90% CL profile-likelihood, original paper reported",
+      "status": "source-reported bound; dimensional conversion independently checked",
+      "curve": "lambda<0.003*r_C^2",
+      "validity": "white noise Markovian, r_C roughly <=1e-5 m, xenon electron-proton cancellation, energy smearing and 9 backgrounds",
+      "independence": "Original xenon detector exposure distinct from 2021 Ge"
+    },
+    {
+      "id": "Ge-2021",
+      "workId": "SRC-069",
+      "ledgerId": "WL-013",
+      "observable": "1000–3800 keV HPGe photon counts",
+      "lambdaUpper": 5.197323624630836e-13,
+      "statistic": "95% Bayesian credible upper bound; fixed simulated background and prior on total Poisson mean",
+      "status": "independently reproduced from printed z_c=576 z_b=506 a=2.0986 and Eq11-14, double +1 offsets",
+      "curve": "lambda<5.197323624630836e-13*(r_C/1e-7)^2",
+      "validity": "paper claims dominant high-energy nuclear signal; approximate r_C <=1e-6 m, detector efficiency coefficient fixed",
+      "independence": "Independent Ge apparatus"
+    },
+    {
+      "id": "LISA-translation-2024",
+      "workId": "SRC-067",
+      "ledgerId": "WL-014",
+      "observable": "2017 LISA Pathfinder Brownian acceleration noise PSD uncertainty",
+      "lambdaUpper": 8.364174044519352e-11,
+      "statistic": "Conservative model-conditional PSD-attribution upper bound, NOT confidence/credible level",
+      "status": "independently reproduced Eq10 from printed M/rho/b/noise S_a",
+      "curve": "lambda<8.364174044519352e-11*(1e-7/r_C)^2 under stated geometry",
+      "validity": "small r_C compared to 46mm cube, low-frequency approximation, fitted Brownian noise assumption",
+      "independence": "shares LISA instrument with rotational reanalysis"
+    },
+    {
+      "id": "LISA-rotation-2025",
+      "workId": "SRC-068",
+      "ledgerId": "WL-014",
+      "observable": "Torque PSD 5.7e-34 N²m²/Hz at 3mHz",
+      "lambdaUpper": null,
+      "statistic": "Published ~factor two tighter than translation in one r_C interval, no source-tabulated numeric at reference r_C",
+      "status": "not independently computed full torque-integral/curve; do not invent curve",
+      "curve": null,
+      "validity": "r_C approx 10^-5.5 to 10^-3.5m as reported for improvement, confinement gas-noise geometry",
+      "independence": "NOT separate experiment from LISA translation"
+    },
+    {
+      "id": "Fein-molecule-2019",
+      "workId": "SRC-048",
+      "ledgerId": "WL-012",
+      "observable": "Oligoporphyrin >25kDa near-field interferometer visibility",
+      "lambdaUpper": null,
+      "statistic": "Measured example V 25±3%, quantum model fit 0.93±0.06; not transformed into a numeric CSL limit without fringe/geometry kernel",
+      "status": "real demonstrated interference and qualitative collapse parameter restriction, numeric curve not reproduced",
+      "curve": null,
+      "validity": "finite velocities, mass spread, grating drift, gas/thermal decoherence and actual interferometer geometry",
+      "independence": "Independent molecular interferometer"
+    }
+  ],
+  "reproductions": {
+    "germanium": {
+      "observed": 576,
+      "background": 506,
+      "signalCoefficient": 2.0986,
+      "posteriorGammaShape": 577,
+      "totalMean95": 617.0710335865,
+      "totalPseudocountOffset": 508,
+      "modelSignal95": 109.0710335865,
+      "lambda95": 5.197323624630836e-13,
+      "publishedRoundedLambda95": 5.2e-13,
+      "physicalPositivePriorMassExcluded": 0.0014332324887000477,
+      "positiveOnlyLambda95": 5.198155761456188e-13,
+      "rawCountsFitReproduced": false
+    },
+    "lisa": {
+      "massKg": 1.928,
+      "densityKgM3": 19881,
+      "cubeSideM": 0.046,
+      "brownianPSDInputM2S4PerHz": 7.5e-32,
+      "computedLambdaUpper": 8.364174044519352e-11,
+      "publishedRounded": 8.3e-11,
+      "originalSpectralFitReproduced": false
+    },
+    "xenon": {
+      "ratioLambdaOverRC2Limit": 0.003,
+      "confidence": "90% CL",
+      "lambdaAtReferenceRadius": 3e-17,
+      "paperReportedNinePointOneSigmaNotReproduced": true
+    }
+  },
+  "referenceGrid": [
+    {
+      "rC": 1e-8,
+      "xenonUpper": 3e-19,
+      "germaniumUpper": 5.197323624630836e-15,
+      "lisaTranslationUpper": 8.364174044519352e-9
+    },
+    {
+      "rC": 1e-7,
+      "xenonUpper": 3e-17,
+      "germaniumUpper": 5.197323624630836e-13,
+      "lisaTranslationUpper": 8.364174044519352e-11
+    },
+    {
+      "rC": 0.000001,
+      "xenonUpper": 3e-15,
+      "germaniumUpper": 5.197323624630836e-11,
+      "lisaTranslationUpper": 8.364174044519352e-13
+    },
+    {
+      "rC": 0.00001,
+      "xenonUpper": 3e-13,
+      "germaniumUpper": null,
+      "lisaTranslationUpper": 8.364174044519352e-15
+    }
+  ],
+  "scientificVerdict": "Some mass-proportional white-noise CSL parameter regions are experimentally restricted; none of these observations distinguish standard Everett branches from equilibrium Bohm's single actual configuration. No new universal ontology score.",
+  "scoreImpact": 0,
+  "evidenceLimits": [
+    "Gamma posterior reproduction assumes publisher's 2 pseudo-counts; detector-model systematic background not independently propagated",
+    "LISA Eq10 is arithmetic reproduction from published fitted PSD, not independent mission noise analysis",
+    "Germanium Bayesian 95%, XENON frequentist 90%, LISA conservative noise cannot be pooled without explicit likelihood models",
+    "No digitization/invention of molecular or rotational numerical exclusion curves",
+    "Colored and dissipative CSL signal spectra not subject to blanket white-noise extrapolation"
+  ]
+}
