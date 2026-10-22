@@ -1,7 +1,6 @@
 # Worldline Lab · session bootstrap
 
-> **S-002 genuinely active (2026-10-21).** S-001 handoff [HANDOFF_S001_TO_S002.md](HANDOFF_S001_TO_S002.md) consumed. Current scientific checkpoint: [S-002-R001 predictions matrix](research/ontology-predictions-S002-R001.md), [full original-main-text study batch 002](research/full-study-batch-002.md), data/sessions.json, verdict audit VC-008. 13 /400 full critical readings, not independently replicated experiments; compass unchanged 59→59 editorial.
-
+> **S-003 active as of October 22, 2026, R009 on an isolated PR.** Canonical checkpoint: [data/sessions.json](data/sessions.json). Published through R008: **83 indexed primary works, 74 source-specific reading notes, 28 fully critically read original main texts, 25 Ledger findings and 12 genuine model-specific scientific movements**. Central editorial Truth Compass **50/100, not a probability**; no genuine Everett-versus-equilibrium Bohm empirical discriminator. The new illustrated [dedicated HAMMER page](hammer.html) is being released through PR #9 and remains subject to latest-head CI. R009 is primarily a research-presentation/accessibility milestone, not a new experiment. Read [HAMMER.md](HAMMER.md) and the R008 research report for precise method, progress and limitations.
 
 Website: https://nikahanghojjati-oss.github.io/worldline-lab/#sessions
 Repository: https://github.com/nikahanghojjati-oss/worldline-lab
