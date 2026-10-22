@@ -4,7 +4,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const hammer=require('../../assets/hammer-core.js');
 const fixture=JSON.parse(fs.readFileSync(path.join(__dirname,'../../data/hammer.json'),'utf8'));
 const r=hammer.forge(fixture);
-assert.equal(r.results.length,3);
+assert.equal(r.results.length,4);
 assert.equal(r.centralVerdict,'UNRESOLVED');
 assert.equal(r.proposedLedgerScoreChange,0);
 const a=Object.fromEntries(r.results.map(x=>[x.id,x]));
@@ -19,3 +19,31 @@ assert.throws(()=>hammer.validate({...fixture,designs:[{...fixture.designs[0],ev
 assert.throws(()=>hammer.validate({...fixture,designs:[fixture.designs[0],fixture.designs[0]]}),/duplicate/);
 assert.throws(()=>hammer.validate({...fixture,designs:[{...fixture.designs[0],sources:[]}]}),/source IDs/);
 console.log('PASS HAMMER theory forge: no-go, robust wedge, adversarial false-positive veto, normalization, provenance, no autonomous ledger move.');
+
+
+const discovery=require('../../assets/hammer-discovery.js');
+const frontier=JSON.parse(fs.readFileSync(path.join(__dirname,'../../data/hammer-frontier.json'),'utf8'));
+const result=discovery.discover(frontier,fixture);
+assert.equal(result.missions.length,4);
+assert.equal(result.proposedLedgerScoreChange,0);
+assert.equal(result.actualMeasurementsUsed,0);
+assert.equal(result.originalDiscoveryCount,0);
+const mission=Object.fromEntries(result.missions.map(x=>[x.id,x]));
+assert.equal(mission['HF-001'].status,'NO_IDENTIFIABLE_WEDGE','repeating matched Born outcomes cannot discover branch ontology');
+assert.equal(mission['HF-001'].robustJSBits,0);
+assert.equal(mission['HF-003'].status,'VETO','collapse dynamics may not be recast as Bohm ontology');
+assert.match(mission['HF-003'].reason,/incompatible/);
+assert.equal(mission['HF-002'].status,'CONDITIONAL_WEDGE');
+assert.ok(mission['HF-002'].robustJSBits>0,'joint conditional model predictions should differ');
+assert.ok(mission['HF-002'].improvementOverBestComponentBits>0,'joint thought experiment adds information under independence');
+assert.equal(mission['HF-002'].independenceUnverified,true);
+assert.match(mission['HF-002'].nextQuestion,/shared-nuisance/);
+assert.throws(()=>discovery.validate({...frontier,missions:[frontier.missions[0],frontier.missions[0]]},fixture),/duplicate/);
+assert.throws(()=>discovery.jointDesign(fixture.designs[0],fixture.designs[1],frontier.missions[2]),/incompatible scientific scope/);
+const markov=[[.9,.1],[.2,.8]];
+const p=[.8,.2],q=[.5,.5];
+const p2=discovery.postprocess(p,markov),q2=discovery.postprocess(q,markov);
+assert.ok(hammer.jsd(p2,q2)<=hammer.jsd(p,q)+1e-12,'classical postprocessing cannot increase JSD in identical channels');
+assert.equal(hammer.jsd(discovery.postprocess(p,markov),discovery.postprocess(p,markov)),0,'matched observations stay indistinguishable after identical processing');
+assert.throws(()=>discovery.postprocess(p,[[.8,.8],[.2,.8]]),/unnormalized channel/);
+console.log('PASS HAMMER v0.2 recursion: question fusion, conditional synergy, physical scope veto, next falsifier, data-processing firewall.');
