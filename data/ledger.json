@@ -645,6 +645,35 @@
         "NOTE-066",
         "research/operational-identifiability-S002-R012.md"
       ]
+    },
+    {
+      "id": "WL-022",
+      "date": "2026-10-22",
+      "title": "Assumption Surgery: Bell-type violations and identical operational kernels do not independently identify how many physical histories are realized",
+      "field": "Quantum foundations",
+      "kind": "Reproducible original research-workflow synthesis of established Bell/LF theorems, finite constructive single-outcome countermodel, and adaptive identifiability certificates",
+      "status": "Analytic calculations and coded finite witnesses; published theorem scope partially source-read; no new physical measurement",
+      "question": "Can violations of locality-related inequalities or repeated/adaptive quantum record measurements decide one physically realized history versus many without independently eliminating single-history alternatives?",
+      "finding": "For four singlet configurations, |CHSH|=2√2 while every Bell-local deterministic assignment satisfies |CHSH|≤2; an explicitly nonlocal mathematical single-realized-outcome response model reproduces exactly those same ideal four joint tables. When rival theories share every physically accessible conditional measurement kernel, their adaptive outcome likelihoods agree by the probability chain rule. A synthetic counterfactual change of approximately 0.04708 in one conditional probability produces a 0.001-bit JSD design wedge, but no physical model or observed intervention establishes that change. A Bell or Local Friendliness assumption-conjunction rejection does not alone certify many actual histories.",
+      "source": "Bong et al., Nature Physics 16 (2020) DOI 10.1038/s41567-020-0990-x; Walleghem, Physical Review A 114 (2026) DOI 10.1103/hf5j-t83v; Okon, Entropy 27 (2025) DOI 10.3390/e27060563; Worldline Lab S003-R007 computational derivation",
+      "url": "https://doi.org/10.1038/s41567-020-0990-x",
+      "impact": 0,
+      "direction": "Neutral — resolves inferential method limits, not the true ontology",
+      "strength": "Exact finite CHSH deterministic enumeration, analytic source-derived ideal correlation, 4-setting nonlocal single-record countermodel, 8-policy adaptive Born-kernel witness, conditional theorem-assumption graph and change-in-kernel design target; all simulated/no hardware.",
+      "place": "Theoretical mathematical and literature research only; no geolocatable experimental event",
+      "lat": null,
+      "long": null,
+      "locationType": "Mathematical/source-bound analysis, not an experiment or physical detector location",
+      "notes": "The nonlocal single-record construction is not Bohmian mechanics and not a Local Friendliness model. The Local Friendliness inequality is stronger/different than CHSH and includes observer-level control assumptions. Its interpretation is contested. Statistical calibration thresholds refer only to an ideal bounded-error design and do not represent measured confidence. Altered operational kernels are invented design targets; they do not identify generic single-history models or justify score movement. Linked report: research/hammer-assumption-surgery-S003-R007.md; executable tools/hammer/assumption-surgery.cjs and test.",
+      "reviewRefs": [
+        "SRC-078",
+        "SRC-079",
+        "SRC-080",
+        "NOTE-069",
+        "NOTE-070",
+        "NOTE-071",
+        "research/hammer-assumption-surgery-S003-R007.md"
+      ]
     }
   ],
   "scientificMovements": [

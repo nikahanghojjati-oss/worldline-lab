@@ -1,6 +1,6 @@
 # HAMMER · Hypothesis Adversarial Mapping, Measurement & Evidence Refinement
 
-**Version:** experimental AGI-inspired research instrument v0.3 · 2026-10-22 · Worldline Lab only
+**Version:** experimental AGI-inspired research instrument v0.4 · 2026-10-22 · Worldline Lab only
 
 **Owner's goal:** Push the frontier of the project's actual one-versus-many-physically-real-histories question by deep reading, adversarial theory comparison, mathematical reproduction, uncertainty-aware experiments, criticism, and sometimes genuinely evidence-justified revisions of a model-specific claim or the Truth Ledger. HAMMER does **not** make an AI model a scientist, render an experiment by drawing a chart, or change a scientific score to manufacture progress.
 
@@ -102,6 +102,26 @@ node tools/hammer/source-critique-test.cjs
 ```
 
 These are rigorous, source-linked artifacts of **scientific reasoning**, but statistical Fisher information is established mathematical prior art, and the source-criticism conclusions require comparison with the definitive author version. Publication-level novelty, new empirical laws and true theory discrimination are **not** certified. The model-level scientific output can evolve only as far as its inputs and test assumptions permit. Neither synthetic data nor source typos justify changing the editorial Truth Compass 50 or claiming a previously unrealized physical discovery. Future iterations must actively seek primary-source full text, derive real physical generators, reproduce experimental raw data, calibrate nuisance parameters and seek AI-model critical reviews with genuine provider records.
+
+
+## HAMMER v0.4 · Assumption Surgery: a falsification firewall for history ontology (S-003-R007)
+
+The central question is harder than detecting interference or even Bell violation: *can an accessible experiment tell one actually realized history from multiple physically real histories?* Different ontologies can yield the same measured statistical distribution. HAMMER's **Assumption Surgery** module treats that as an actionable research obstruction instead of filling the Ledger with weak indirect evidence.
+
+**Implementation:** `tools/hammer/assumption-surgery.cjs` and `tools/hammer/assumption-surgery-test.cjs`; source-linked mathematical note [R007](research/hammer-assumption-surgery-S003-R007.md); the Observatory links to the full certificate.
+
+Its new research procedure (a Worldline Lab integration, **not** an assertion that the constituent theorems are original):
+
+1. **Cut the theorem precisely.** Specify a real no-go theorem's conjunction of assumptions, required experimental preconditions and the measured quantity. Do not infer a preferred ontology just because the conjunction fails.
+2. **Construct the rival's strongest compatible outcome model.** Compute singlet Born correlations with `|CHSH|=2√2`, enumerate all 16 local deterministic assignments, and construct an explicitly **nonlocal single-realized-outcome toy model** with exactly the same four outcome joint probabilities. This demonstrates the logical insufficiency of CHSH as a many-world counter; it is **not Bohmian dynamics** or a local Wigner-friend model.
+3. **Compile the operational impossibility certificate.** If two fully specified theories share every accessible conditional Born measurement kernel, the probability chain rule guarantees equal sequence statistics under every finite adaptive observation policy. The code exhaustively checks all eight two-step binary-action policies; the general chain-rule statement is mathematics, not an empirical new-physics result.
+4. **Search the surgery frontier.** Enumerate minimum premise-relaxation sets for a simplified Bell conjunction and a distinct Local Friendliness conjunction; do not equate LF local agency with Bell-local factorization or treat Bell tests as LF violations. Every relaxation is a logically possible research avenue, not proof it occurs in nature.
+5. **Derive an intervention target.** Instead of proposing to “observe another branch” without a detector, quantitatively search for the minimum changed outcome conditional that creates an information-bearing protocol, explicitly labeling invented preparation dynamics and calibration requirements. One synthetic example needs a ~0.0471 change in the specified Bernoulli conditional to produce 0.001 JSD bits; no experiment or source claims this deviation exists.
+6. **Only then consider a Ledger-scoped finding.** The experiment must identify a *specific physically defined model extension*, with authentic original source, detector calibration, actual independently reproducible measurements, nuisance robustness and provider-backed AI methodological critique. Excluding an extension to physical dynamics does not establish how many fully real Everett-style histories exist. The inherited central editorial 50 is untouched.
+
+**Prior scholarly context:** Bong et al. (2020) [Nature Physics](https://doi.org/10.1038/s41567-020-0990-x) establishes the Local Friendliness no-go conditional on observer-level control; Walleghem (2026) [Physical Review A](https://doi.org/10.1103/hf5j-t83v) provides a recent different extended-friend assumption analysis; a 2025 [critical reassessment](https://pmc.ncbi.nlm.nih.gov/articles/PMC12192408/) argues the practical strength of these no-go arguments can be limited. The [2026 Stanford Encyclopedia of Philosophy survey](https://plato.stanford.edu/archives/sum2026/entries/qm-manyworlds/) emphasizes testing specific collapse dynamics rather than treating a Born-correct interpretation as already distinguished from equilibrium Bohm.
+
+**Status:** All results are synthetic calculations, conditional mathematics or a diagram of theorem dependencies. No new quantum measurement, genuine AI reviewer call, recognized independently established new mathematical theorem, or empirically discriminating ontology discovery occurred. This honest barrier certificate is useful precisely because it tells the research engine **what would need to be different and measured** for a future update to be defensible.
 
 ## Growth path (not falsely claimed complete)
 

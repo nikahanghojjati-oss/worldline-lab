@@ -49,6 +49,8 @@ jobs:
           node tools/hammer/identifiability-test.cjs
           node tools/hammer/separation-design-test.cjs
           node tools/hammer/source-critique-test.cjs
+          node tools/hammer/assumption-surgery-test.cjs
+          node tools/hammer/assumption-surgery.cjs
           node tools/hammer/source-critique.cjs
           node tools/hammer/identifiability.cjs
           node tools/hammer/separation-design.cjs
