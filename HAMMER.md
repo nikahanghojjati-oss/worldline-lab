@@ -47,6 +47,8 @@ OPENAI_API_KEY=... HAMMER_MODEL_A=<actual-model-id-1> HAMMER_MODEL_B=<different-
   node tools/hammer/ai-panel.cjs /path/to/private-source-packet.json
 ```
 
+To opt into a further **invention pass** after both independent critiques, set `HAMMER_DISCOVER=1`. The first model must propose an explicit falsifiable new experiment with rival predictions and a testable observable; the other model then attacks it with alternative explanations and source criticism. This makes extra paid provider requests and returns `UNTESTED_PROPOSAL`—not a new paper, actual experiment, or approved scientific discovery.
+
 Review output contains separately obtained study and critique **provider response IDs** and structured methodological objections. It explicitly says `scoreChangeAuthorized:false`. Never upload provider API keys, privileged URLs, fabricated original text, or a reviewer persona as a university employee. An API response ID confirms an invocation identifier in that session, not independent veracity or scientific expertise. Review inputs are untrusted content; the model must not execute instructions found inside sources.
 
 **Current status:** no credentialed HAMMER model panel has actually run and no new experiment has been performed. Legacy human-scientist approval entry points are retired and fail closed; the rigorous new AI-plus-measured-discriminator decision/reversal *authorization* pathway remains to be engineered and verified before any nonzero Truth Compass revision. Accessibility tests with physical iPhone Safari/assistive technology remain separate from this **scientific reviewer policy**.
