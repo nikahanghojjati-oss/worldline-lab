@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Can one coherent history or multiple histories be distinguished by physically testable predictions?",
-  "phase": "Foundation / sources and model design",
+  "phase": "Foundational framework and literature mapping in progress",
   "milestones": [
     {
       "id": "M1",
@@ -53,63 +53,209 @@
       "symbol": "Φ",
       "theme": "Causality, relativity, decoherence",
       "work": "Map closed timelike curves and physically realistic constraints.",
-      "state": "in review"
+      "state": "in review",
+      "slug": "physics",
+      "readingFields": [
+        "Relativity",
+        "Quantum foundations"
+      ],
+      "additionalSourceIds": [],
+      "prioritySourceIds": [
+        "SRC-003",
+        "SRC-002",
+        "SRC-004",
+        "SRC-007",
+        "SRC-011",
+        "SRC-005"
+      ],
+      "goal": "Distinguish tested relativistic effects, mathematically allowed time loops, and rival quantum interpretations.",
+      "question": "Which original predictions, if any, discriminate a physically realized branching history from a single one?"
     },
     {
       "name": "Mathematics",
       "symbol": "∑",
       "theme": "Consistency and branching logic",
       "work": "Formalize assumptions; test fixed points and contradictions.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "mathematics",
+      "readingFields": [
+        "Mathematics"
+      ],
+      "additionalSourceIds": [
+        "SRC-002",
+        "SRC-019",
+        "SRC-020",
+        "SRC-024"
+      ],
+      "prioritySourceIds": [
+        "SRC-023",
+        "SRC-024",
+        "SRC-002",
+        "SRC-019"
+      ],
+      "goal": "State assumptions, paradoxes, fixed-point consistency, and causal graphs precisely.",
+      "question": "Do proposed histories differ mathematically in observable predictions or only in interpretation?"
     },
     {
       "name": "Quantum computing",
       "symbol": "Q",
       "theme": "Simulations, circuits, and information",
       "work": "Distinguish laboratory analogs from actual temporal loops.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "quantum-computing",
+      "readingFields": [
+        "Quantum information"
+      ],
+      "additionalSourceIds": [
+        "SRC-007",
+        "SRC-008",
+        "SRC-011",
+        "SRC-014",
+        "SRC-018"
+      ],
+      "prioritySourceIds": [
+        "SRC-019",
+        "SRC-020",
+        "SRC-021",
+        "SRC-022"
+      ],
+      "goal": "Compare quantum circuits, indefinite causal order and hypothetical closed-timelike-curve models.",
+      "question": "What does an experiment actually measure, versus what a circuit merely simulates?"
     },
     {
       "name": "AI & computer science",
       "symbol": "AI",
       "theme": "Inference, causal graphs, provenance",
       "work": "Build reproducible evidence classification and contradiction audits.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "ai-computer-science",
+      "readingFields": [
+        "AI and computation"
+      ],
+      "additionalSourceIds": [
+        "SRC-024",
+        "SRC-025",
+        "SRC-039",
+        "SRC-040"
+      ],
+      "prioritySourceIds": [
+        "SRC-024",
+        "SRC-029",
+        "SRC-027",
+        "SRC-040"
+      ],
+      "goal": "Build a reproducible source-provenance graph, inference rules and contradiction audits.",
+      "question": "Can claims and revisions be traced through evidence and causal assumptions without overstating confidence?"
     },
     {
       "name": "Neuroscience",
       "symbol": "Ψ",
       "theme": "Perception and experienced time",
       "work": "Separate subjective temporal experience from spacetime mechanics.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "neuroscience",
+      "readingFields": [
+        "Neuroscience"
+      ],
+      "additionalSourceIds": [
+        "SRC-040"
+      ],
+      "prioritySourceIds": [
+        "SRC-030",
+        "SRC-031"
+      ],
+      "goal": "Separate human experiences of duration, memory and temporal order from claims about physical spacetime.",
+      "question": "Which findings explain perception without implying altered external chronology?"
     },
     {
       "name": "Chemistry",
       "symbol": "⚗",
       "theme": "Molecular coherence",
       "work": "Assess whether large-scale quantum interference informs interpretation tests.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "chemistry",
+      "readingFields": [
+        "Chemistry"
+      ],
+      "additionalSourceIds": [
+        "SRC-011",
+        "SRC-021"
+      ],
+      "prioritySourceIds": [
+        "SRC-032",
+        "SRC-011"
+      ],
+      "goal": "Review interference, molecular decoherence and scale-dependent quantum coherence.",
+      "question": "What can molecular interference establish about quantum mechanics, and what remains interpretive?"
     },
     {
       "name": "Biology",
       "symbol": "⌁",
       "theme": "Biological clocks and causal histories",
       "work": "Evaluate where biological timing is informative or non-discriminating.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "biology",
+      "readingFields": [
+        "Biology"
+      ],
+      "additionalSourceIds": [
+        "SRC-030",
+        "SRC-031"
+      ],
+      "prioritySourceIds": [
+        "SRC-033",
+        "SRC-034"
+      ],
+      "goal": "Study circadian clocks, biological timing and the limits of analogy to relativistic clocks.",
+      "question": "Does a biological clock test spacetime structure or only living systems' timing mechanisms?"
     },
     {
       "name": "History",
       "symbol": "H",
       "theme": "Epistemology and records",
       "work": "Model counterfactual histories and independent provenance verification.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "history",
+      "readingFields": [
+        "Research methods"
+      ],
+      "additionalSourceIds": [
+        "SRC-023",
+        "SRC-025"
+      ],
+      "prioritySourceIds": [
+        "SRC-038",
+        "SRC-039",
+        "SRC-040",
+        "SRC-023"
+      ],
+      "goal": "Apply source criticism, counterfactual logic and philosophy of science to historical claims.",
+      "question": "How can a claim about an alternative history be framed without fabricating observations?"
     },
     {
       "name": "Astronomy",
       "symbol": "✺",
       "theme": "Observational clocks and cosmic distances",
       "work": "Review gravitational timing and astrophysical proposals.",
-      "state": "queued"
+      "state": "queued",
+      "slug": "astronomy",
+      "readingFields": [
+        "Astrophysics",
+        "Cosmology"
+      ],
+      "additionalSourceIds": [
+        "SRC-005",
+        "SRC-006",
+        "SRC-002"
+      ],
+      "prioritySourceIds": [
+        "SRC-035",
+        "SRC-036",
+        "SRC-037",
+        "SRC-005"
+      ],
+      "goal": "Study observed cosmic clocks, cosmological models and extreme relativistic predictions.",
+      "question": "What do astronomical observations constrain, and do any discriminate rival history hypotheses?"
     }
   ],
   "journal": [
@@ -139,6 +285,64 @@
         "WL-004",
         "WL-005"
       ]
+    }
+  ],
+  "programStages": [
+    {
+      "id": "P1",
+      "title": "Define the question and rules of evidence",
+      "state": "in progress",
+      "deliverable": "A clear distinction among time dilation, backward time travel, and multiple physical histories; a falsifiable claim taxonomy.",
+      "gate": "Definitions and limits are explicitly sourced; the Truth Ledger cannot mistake interpretation for observation."
+    },
+    {
+      "id": "P2",
+      "title": "Build the scholarly map and planned reading syllabus",
+      "state": "in progress",
+      "deliverable": "Indexed researchers, books, papers and lectures, assigned to discipline reading queues with recorded depth of study.",
+      "gate": "Each planned work has provenance, disciplinary relevance and a transparent reading status."
+    },
+    {
+      "id": "P3",
+      "title": "Read, annotate and critically compare primary works",
+      "state": "planned",
+      "deliverable": "Section-cited notes describing assumptions, derivations, experiments, limitations and opposing results.",
+      "gate": "High-priority works are examined at source level; no abstract is counted as a full reading."
+    },
+    {
+      "id": "P4",
+      "title": "Formalize rival models and their mathematical commitments",
+      "state": "planned",
+      "deliverable": "Explicit single-history, branching-history and chronology-consistency models, with their different assumptions.",
+      "gate": "A comparison matrix identifies genuine predictions versus mathematically equivalent interpretations."
+    },
+    {
+      "id": "P5",
+      "title": "Audit experiments, constraints and proposed discriminators",
+      "state": "planned",
+      "deliverable": "A graded and reproducible evidence table, including strongest objections and negative findings.",
+      "gate": "Every meaningful verdict update has a cited observation and an explicit discrimination argument."
+    },
+    {
+      "id": "P6",
+      "title": "Build transparent simulations and discipline exhibits",
+      "state": "planned",
+      "deliverable": "Reproducible diagrams, calculations and educational simulations for physics, quantum information and other relevant labs.",
+      "gate": "Each demonstration clearly distinguishes a conceptual model from a physical experiment."
+    },
+    {
+      "id": "P7",
+      "title": "Write the interdisciplinary synthesis and provisional verdict",
+      "state": "planned",
+      "deliverable": "A citable research monograph showing what is supported, unproved, contradicted or currently untestable.",
+      "gate": "Readers can trace every major conclusion to reviewed works and follow its revision history."
+    },
+    {
+      "id": "P8",
+      "title": "Invite critique, verify reproducibility and archive the final edition",
+      "state": "planned",
+      "deliverable": "A public, versioned report with outstanding disagreements, replication materials and a continuing-evidence policy.",
+      "gate": "The research can legitimately end inconclusive if no decisive experimental distinction exists; unresolved questions are preserved."
     }
   ]
 }
