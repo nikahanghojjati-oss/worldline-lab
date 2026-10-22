@@ -52,4 +52,16 @@ for(const room of labRooms){
  roomTotals.push(room.slug+':'+indexed.length);
 }
 console.log('PASS v0.25 nine reading room data QA and eight stage check: '+roomTotals.join(', '));
+const csl=require('./csl-reproduce.cjs');
+const a95=csl.germanium(),lin=csl.lisa();
+const close=(a,b,tol)=>Math.abs(a-b)/Math.abs(b)<tol;
+assert.ok(close(csl.gammaCdf(577,a95.totalUpper),.95,1e-9),'gamma 95% posterior quantile');
+assert.ok(close(a95.lambdaUpper,5.2e-13,.012),'independent Ge published rounded bound');
+assert.ok(close(lin.lambdaUpper,8.3e-11,.012),'independent LISA published rounded bound');
+assert.ok(csl.germanium({conditionOnPositive:true}).lambdaUpper>a95.lambdaUpper,'positive signal truncation matters slightly');
+assert.ok(close(csl.xenon(1e-7).lambdaUpper,3e-17,1e-12),'XENON published bound conversion');
+assert.ok(close(csl.germanium({r:1e-6}).lambdaUpper,100*a95.lambdaUpper,1e-12),'Ge scales with r squared at fixed detector coefficient');
+assert.ok(close(csl.lisa({r:1e-6}).lambdaUpper,lin.lambdaUpper/100,1e-12),'LISA translational approximate bound scales inverse r squared');
+assert.ok(csl.run().grid.at(-1).germanium95lambda===null,'no unsourced 1e-5 Ge extrapolation');
+console.log('PASS original Ge posterior and LISA acceleration-noise numerical reproductions; no detector-level data claimed');
 console.log('Truth Engine fixtures PASS, baseline: '+JSON.stringify(pass.counts));
