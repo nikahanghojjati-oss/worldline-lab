@@ -1549,6 +1549,72 @@
         "appendicesAsRecorded": false,
         "independentFullReproduction": false
       }
+    },
+    {
+      "id": "NOTE-063",
+      "workId": "SRC-069",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R008",
+      "stage": "partially-studied",
+      "label": "Original Donadi 2021 experimental-count posterior independently reproduced from printed inputs",
+      "basis": "Full original main article previously reviewed NOTE-056. Quantitative R008 reanalysis of original Eqs7,10–15, source z_c=576, z_b=506, a=2.0986; github Node tool and independent SciPy calculation.",
+      "sectionsRead": [
+        "§3.1 fixed Geant4 simulated background z_b=506 versus measured 576",
+        "§3.2 signal coefficient z_s=2.0986 lambda/r_C^2 Eq7",
+        "§3.3 both Lambda_s=z_s+1 and Lambda_b=z_b+1, Poisson/Gamma shape577, Eq11/14/15 95th posterior integral"
+      ],
+      "summary": "Independently calculate Gamma(577,1) 95th mean =617.0710335865, subtract both signal/background offsets 508, signal 109.071, then divide a and multiply r_C² at 1e-7m to obtain lambda_95=5.19732362463e-13/s (paper 5.2e-13). Physical-positive truncation changes to 5.19815576146e-13 (~0.016%); background ±25 count hypothetical sensitivity moves limit ~4.006e-13 to ~6.389e-13.",
+      "method": "Dependency-free Node Lanczos log-Gamma, lower incomplete Gamma CDF and bisection; independent SciPy gamma.ppf cross-check. Source-input reconstruction (aggregate counts), NOT raw spectra, background simulation or source detector response.",
+      "limitations": "Assumes fixed simulated Geant4 background and coefficient; flat prior on total mean and both +1 pseudocounts. This is 95% Bayesian credible, not XENON 90% frequentist. Initial interim analysis omitted signal-side +1 and was corrected transparently. No independent systematic uncertainty propagation.",
+      "alternativeExplanations": "Radionuclide background mismodeling, efficiency coefficient variations, colored-noise non-Markovian CSL alternative not constrained by identical radiation rate.",
+      "conclusion": "Independent published aggregate-data credible bound reproduced with 0.0515% relative difference to source rounded figure; confirms narrow model-specific numerical calculation, not observed collapse/branch census.",
+      "fullTextRead": false,
+      "readDepthDefinition": "New equation-level computational audit of already full main-text studied source (NOTE-056); NO new full review credit",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-013",
+        "WL-018"
+      ],
+      "fieldNote": "research/csl-bound-reconstruction-S002-R008.md",
+      "fullReviewVerified": {
+        "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-064",
+      "workId": "SRC-067",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R008",
+      "stage": "partially-studied",
+      "label": "Dai/Miao/Ma 2024 CSL kilogram-noise Eq10 independently reproduced from published aggregate data",
+      "basis": "Original full seven-page 2024 author preprint previously critically reviewed NOTE-054, now quantitatively reconstructed Eq10/14 and LISA 2017 fitted acceleration Brownian PSD uncertainty.",
+      "sectionsRead": [
+        "page 2 Eq9 and Eq10 geometry/noise conversion",
+        "page 2 rho=19881 kg/m³, M=1.928 kg, b=46mm, rC=1e-7m",
+        "page 2 February 2017 PSD uncertainty 0.075 fm² s^-4 Hz^-1 and report Eq14 bound; earlier 5.2fm s^-2/√Hz comparison"
+      ],
+      "summary": "Calculating Eq10 using CODATA nucleon mass and hbar yields lambda_CSL<8.36417404452e-11/s, paper reports 8.3e-11. Older 5.2fm amplitude squared yields ~3.016e-8/s, close to reported 2.96e-8. Correct approximate geometry slope lambda upper ~r_C^-2, NOT r_C².",
+      "method": "Independent SI units computation in dependency-free Node and Python cross-check. Uncertainty is a reported fitted PSD noise uncertainty, NOT confidence-limit with same probability as 2026 xenon or 2021 germanium.",
+      "limitations": "2017 raw LISA Brownian PSD fit, experimental noise correlation and 2025 angular torque integral NOT independently rerun; uses continuum small-rC cube model. Later LISA rotational results share mission data.",
+      "alternativeExplanations": "Residual gas outgassing Brownian frequency-dependent noise, electrode/electric fields, colored collapse noise, low-frequency seismic/environment backgrounds.",
+      "conclusion": "Published source-parameter CSL bound numerically reconstructed, with coherent but distinct statistical meaning and modeled geometry; actual Everett vs Bohm physical history count unaffected.",
+      "fullTextRead": false,
+      "readDepthDefinition": "New equation-level numerical audit of original already full main-text reviewed source NOTE-054; NO new full credit",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-014",
+        "WL-018"
+      ],
+      "fieldNote": "research/csl-bound-reconstruction-S002-R008.md",
+      "fullReviewVerified": {
+        "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
     }
   ]
 }
