@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Can one coherent history or multiple histories be distinguished by physically testable predictions?",
-  "phase": "Foundational framework and literature mapping in progress",
+  "phase": "Growing verified bibliography; reading plans, presentation rooms, and first interactive teaching instruments",
   "milestones": [
     {
       "id": "M1",
@@ -69,7 +69,57 @@
         "SRC-005"
       ],
       "goal": "Distinguish tested relativistic effects, mathematically allowed time loops, and rival quantum interpretations.",
-      "question": "Which original predictions, if any, discriminate a physically realized branching history from a single one?"
+      "question": "Which original predictions, if any, discriminate a physically realized branching history from a single one?",
+      "topics": [
+        {
+          "id": "physics-T1",
+          "title": "Experimental relativity",
+          "scope": "Atomic clocks, GPS redshift and tests of Lorentz invariance",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "physics-T2",
+          "title": "General relativity geometry",
+          "scope": "Causal structure, horizons, singularities and global hyperbolicity",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "physics-T3",
+          "title": "Time travel feasibility",
+          "scope": "Closed timelike curves, wormhole constraints and energy conditions",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "physics-T4",
+          "title": "Quantum measurement",
+          "scope": "State evolution, interpretation and decoherence",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "physics-T5",
+          "title": "Alternative theories",
+          "scope": "Collapse models, Bohmian mechanics and Everettian models",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "physics-T6",
+          "title": "Discriminating tests",
+          "scope": "Identify divergent predictions, controls and failure conditions",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "Mathematics",
@@ -94,7 +144,57 @@
         "SRC-019"
       ],
       "goal": "State assumptions, paradoxes, fixed-point consistency, and causal graphs precisely.",
-      "question": "Do proposed histories differ mathematically in observable predictions or only in interpretation?"
+      "question": "Do proposed histories differ mathematically in observable predictions or only in interpretation?",
+      "topics": [
+        {
+          "id": "mathematics-T1",
+          "title": "Causal graphs",
+          "scope": "Directed acyclic graphs, interventions and counterfactuals",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "mathematics-T2",
+          "title": "Topological causality",
+          "scope": "Spacetime structure and chronology",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "mathematics-T3",
+          "title": "Fixed-point mathematics",
+          "scope": "Consistency conditions and self-reference",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "mathematics-T4",
+          "title": "Probability theory",
+          "scope": "Conditionalization and Bayesian model comparison",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "mathematics-T5",
+          "title": "Formal logic",
+          "scope": "Possibility, necessity, paradoxes and identity",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "mathematics-T6",
+          "title": "Information theory",
+          "scope": "Entropy, coding and physical information constraints",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "Quantum computing",
@@ -120,7 +220,57 @@
         "SRC-022"
       ],
       "goal": "Compare quantum circuits, indefinite causal order and hypothetical closed-timelike-curve models.",
-      "question": "What does an experiment actually measure, versus what a circuit merely simulates?"
+      "question": "What does an experiment actually measure, versus what a circuit merely simulates?",
+      "topics": [
+        {
+          "id": "quantum-computing-T1",
+          "title": "Quantum gates and circuits",
+          "scope": "Unitary evolution and measurement",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "quantum-computing-T2",
+          "title": "Indefinite causal order",
+          "scope": "Operational process matrices and quantum switches",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "quantum-computing-T3",
+          "title": "Closed-timelike-curve algorithms",
+          "scope": "Deutsch fixed points and post-selection models",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "quantum-computing-T4",
+          "title": "Entanglement experiments",
+          "scope": "Bell tests, loopholes and interpretation",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "quantum-computing-T5",
+          "title": "Quantum simulation limits",
+          "scope": "Analogs versus demonstrated time travel",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "quantum-computing-T6",
+          "title": "Verifiability",
+          "scope": "Replication, noise and robustness in experiments",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "AI & computer science",
@@ -145,7 +295,57 @@
         "SRC-040"
       ],
       "goal": "Build a reproducible source-provenance graph, inference rules and contradiction audits.",
-      "question": "Can claims and revisions be traced through evidence and causal assumptions without overstating confidence?"
+      "question": "Can claims and revisions be traced through evidence and causal assumptions without overstating confidence?",
+      "topics": [
+        {
+          "id": "ai-computer-science-T1",
+          "title": "Evidence provenance",
+          "scope": "Machine-readable citations and dependency graphs",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "ai-computer-science-T2",
+          "title": "Causal inference",
+          "scope": "Observational versus interventional claims",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "ai-computer-science-T3",
+          "title": "Scientific information retrieval",
+          "scope": "Discovery and scholarly metadata quality",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "ai-computer-science-T4",
+          "title": "Bayesian model checking",
+          "scope": "Calibration and uncertainty",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "ai-computer-science-T5",
+          "title": "Adversarial critique",
+          "scope": "Counterexamples and contradictory findings",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "ai-computer-science-T6",
+          "title": "Research reproducibility",
+          "scope": "Code tests and artifact traceability",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "Neuroscience",
@@ -165,7 +365,57 @@
         "SRC-031"
       ],
       "goal": "Separate human experiences of duration, memory and temporal order from claims about physical spacetime.",
-      "question": "Which findings explain perception without implying altered external chronology?"
+      "question": "Which findings explain perception without implying altered external chronology?",
+      "topics": [
+        {
+          "id": "neuroscience-T1",
+          "title": "Subjective duration",
+          "scope": "Time dilation illusions and attention",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "neuroscience-T2",
+          "title": "Neural timing",
+          "scope": "Distributed clocks, oscillation and dynamics",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "neuroscience-T3",
+          "title": "Event ordering",
+          "scope": "Simultaneity, agency and sensory delays",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "neuroscience-T4",
+          "title": "Memory and causality",
+          "scope": "Reconstruction and order judgments",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "neuroscience-T5",
+          "title": "Predictive brain models",
+          "scope": "Anticipation, forecasting and prediction error",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "neuroscience-T6",
+          "title": "Boundary with physics",
+          "scope": "Why perceived time is not physical time travel",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "Chemistry",
@@ -186,7 +436,57 @@
         "SRC-011"
       ],
       "goal": "Review interference, molecular decoherence and scale-dependent quantum coherence.",
-      "question": "What can molecular interference establish about quantum mechanics, and what remains interpretive?"
+      "question": "What can molecular interference establish about quantum mechanics, and what remains interpretive?",
+      "topics": [
+        {
+          "id": "chemistry-T1",
+          "title": "Molecular interference",
+          "scope": "Matter-wave observations in complex molecules",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "chemistry-T2",
+          "title": "Decoherence pathways",
+          "scope": "Environmental interaction and coherence",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "chemistry-T3",
+          "title": "Macromolecule constraints",
+          "scope": "Size scaling and measurement challenges",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "chemistry-T4",
+          "title": "Chemical reaction dynamics",
+          "scope": "Time-resolved spectroscopy and dynamics",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "chemistry-T5",
+          "title": "Quantum-to-classical boundary",
+          "scope": "Objective collapse alternatives",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "chemistry-T6",
+          "title": "Applicability review",
+          "scope": "What molecular data cannot establish about histories",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "Biology",
@@ -207,7 +507,57 @@
         "SRC-034"
       ],
       "goal": "Study circadian clocks, biological timing and the limits of analogy to relativistic clocks.",
-      "question": "Does a biological clock test spacetime structure or only living systems' timing mechanisms?"
+      "question": "Does a biological clock test spacetime structure or only living systems' timing mechanisms?",
+      "topics": [
+        {
+          "id": "biology-T1",
+          "title": "Circadian rhythms",
+          "scope": "Molecular transcription feedback and entrainment",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "biology-T2",
+          "title": "Neural and peripheral clocks",
+          "scope": "Synchronization across tissues",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "biology-T3",
+          "title": "Development and aging",
+          "scope": "Timing across life stages",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "biology-T4",
+          "title": "Evolutionary timing",
+          "scope": "Selection and biological anticipation",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "biology-T5",
+          "title": "Biophysical quantum effects",
+          "scope": "Scope of quantum biology claims",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "biology-T6",
+          "title": "Evidence transfer",
+          "scope": "Distinguish metaphorical branching from physical branching",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "History",
@@ -230,7 +580,57 @@
         "SRC-023"
       ],
       "goal": "Apply source criticism, counterfactual logic and philosophy of science to historical claims.",
-      "question": "How can a claim about an alternative history be framed without fabricating observations?"
+      "question": "How can a claim about an alternative history be framed without fabricating observations?",
+      "topics": [
+        {
+          "id": "history-T1",
+          "title": "Source criticism",
+          "scope": "Original documents and provenance checks",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "history-T2",
+          "title": "Counterfactual methodology",
+          "scope": "Alternative histories as analytical tools",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "history-T3",
+          "title": "Scientific revolutions",
+          "scope": "How theoretical consensus changes",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "history-T4",
+          "title": "Bias and inference",
+          "scope": "Selective evidence and motivated reasoning",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "history-T5",
+          "title": "Record authenticity",
+          "scope": "Independent corroboration and archival custody",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "history-T6",
+          "title": "Knowledge boundaries",
+          "scope": "What can and cannot be inferred from historical records",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     },
     {
       "name": "Astronomy",
@@ -255,7 +655,57 @@
         "SRC-005"
       ],
       "goal": "Study observed cosmic clocks, cosmological models and extreme relativistic predictions.",
-      "question": "What do astronomical observations constrain, and do any discriminate rival history hypotheses?"
+      "question": "What do astronomical observations constrain, and do any discriminate rival history hypotheses?",
+      "topics": [
+        {
+          "id": "astronomy-T1",
+          "title": "Observed cosmic expansion",
+          "scope": "Redshift and cosmological distance",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "astronomy-T2",
+          "title": "Cosmic chronology",
+          "scope": "Background radiation and cosmic age",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "astronomy-T3",
+          "title": "Black holes and horizons",
+          "scope": "Physical observations and mathematical models",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "astronomy-T4",
+          "title": "Gravitational-wave astronomy",
+          "scope": "Relativistic signals and propagation",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "astronomy-T5",
+          "title": "Cosmological models",
+          "scope": "Inflation, initial conditions and alternatives",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        },
+        {
+          "id": "astronomy-T6",
+          "title": "Observational discrimination",
+          "scope": "Which measurements constrain space-time histories",
+          "state": "planned",
+          "studyGoal": "Identify 4–15 influential primary works per topic in the first coverage pass; expand based on references and counterarguments."
+        }
+      ],
+      "venue": {
+        "readingPlan": "published",
+        "presentationRoom": "v1 research presentation",
+        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interdisciplinary": "linked cross-field topics"
+      }
     }
   ],
   "journal": [
@@ -343,6 +793,62 @@
       "state": "planned",
       "deliverable": "A public, versioned report with outstanding disagreements, replication materials and a continuing-evidence policy.",
       "gate": "The research can legitimately end inconclusive if no decisive experimental distinction exists; unresolved questions are preserved."
+    }
+  ],
+  "literatureExpansion": {
+    "baselineWorks": 40,
+    "minimumTarget": 400,
+    "stretchTarget": 4000,
+    "fullTextMinimum": 400,
+    "fullTextStretch": 4000,
+    "rule": "Distinct authentic records only. No synthetic mass citations. No full-study status without primary-source review and section-level notes.",
+    "selectionPolicy": [
+      "Survey discipline reviews and influential foundational works",
+      "Follow citations forward and backward",
+      "Prioritize primary experiments and substantive objections",
+      "Identify contradictory and null findings",
+      "Deduplicate DOI/title; verify publication provenance",
+      "Do not reward sheer volume over relevance or quality"
+    ]
+  },
+  "interdisciplinaryLabs": [
+    {
+      "id": "causal-evidence",
+      "name": "Causality & Scientific Evidence",
+      "fields": [
+        "Mathematics",
+        "AI & computer science",
+        "History"
+      ],
+      "question": "When does correlated evidence warrant a causal claim?",
+      "instrument": "Provenance / intervention comparison",
+      "state": "initial presentation"
+    },
+    {
+      "id": "quantum-molecules",
+      "name": "Quantum Coherence Across Scale",
+      "fields": [
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Quantum computing"
+      ],
+      "question": "Where does coherence become difficult to observe, and what does that establish?",
+      "instrument": "Illustrative decoherence visibility model",
+      "state": "initial presentation"
+    },
+    {
+      "id": "clocks",
+      "name": "Clocks, Minds & Cosmos",
+      "fields": [
+        "Physics",
+        "Astronomy",
+        "Biology",
+        "Neuroscience"
+      ],
+      "question": "How do physical, living and experienced clocks differ?",
+      "instrument": "Scale and timing comparison",
+      "state": "initial presentation"
     }
   ]
 }
