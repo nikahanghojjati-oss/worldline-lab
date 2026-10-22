@@ -5,11 +5,15 @@ on:
     paths:
       - "data/**"
       - "tools/truth-engine/**"
+      - "assets/**"
+      - "index.html"
       - ".github/workflows/worldline-integrity.yml"
   pull_request:
     paths:
       - "data/**"
       - "tools/truth-engine/**"
+      - "assets/**"
+      - "index.html"
       - ".github/workflows/worldline-integrity.yml"
   workflow_dispatch:
 permissions:
@@ -28,3 +32,8 @@ jobs:
         run: node tools/truth-engine/validate.cjs
       - name: Execute intentionally failing integrity fixtures
         run: node tools/truth-engine/test.cjs
+      - name: Validate public JavaScript syntax
+        run: |
+          node --check assets/site.js
+          node --check assets/library.js
+          node --check assets/lab-experience.js
