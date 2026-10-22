@@ -14,7 +14,7 @@ function navigate(){
   if(a.dataset.route===key)a.setAttribute('aria-current','page');
   else a.removeAttribute('aria-current');
  });
- document.title=(key==='home'?'An Atlas of Possible Histories':key.charAt(0).toUpperCase()+key.slice(1))+' | Worldline Lab';
+ document.title=(key==='home'?'One Timeline or Many?':key.charAt(0).toUpperCase()+key.slice(1))+' | Worldline Lab';
  if(research&&libraryIndex&&key==='disciplines')renderLabDetail();
  window.scrollTo({top:0,behavior:'instant'});
 }
