@@ -1,6 +1,6 @@
 # HAMMER · Hypothesis Adversarial Mapping, Measurement & Evidence Refinement
 
-**Version:** experimental AGI-inspired research instrument v0.2 · 2026-10-22 · Worldline Lab only
+**Version:** experimental AGI-inspired research instrument v0.3 · 2026-10-22 · Worldline Lab only
 
 **Owner's goal:** Push the frontier of the project's actual one-versus-many-physically-real-histories question by deep reading, adversarial theory comparison, mathematical reproduction, uncertainty-aware experiments, criticism, and sometimes genuinely evidence-justified revisions of a model-specific claim or the Truth Ledger. HAMMER does **not** make an AI model a scientist, render an experiment by drawing a chart, or change a scientific score to manufacture progress.
 
@@ -83,6 +83,25 @@ HAMMER now adds a bounded, **inspectable reasoning-search architecture** on top 
 - Co-Scientist (Nature 2026) and Robin (Nature 2026) already integrate AI scientific hypothesis generation and critical processes; HAMMER therefore does **not** claim to have invented multiagent scientific discovery: https://www.nature.com/articles/s41586-026-10644-y and https://www.nature.com/articles/s41586-026-10652-y
 - FIRE-Bench (Wang et al., ICML 2026) reports substantial difficulty verifying AI rediscovery experimentally; benchmark orientation matters: https://proceedings.mlr.press/v306/wang26d.html
 - Dürr, Goldstein and Zanghì (1992/2004 quantum equilibrium) anchor the no-go assumptions; see https://doi.org/10.1023/b%3Ajoss.0000037234.80916.d0 . Primary full text was **not newly reviewed end-to-end** in this HAMMER software round.
+
+
+## HAMMER v0.3 — publish scientific derivations and challenge original equations (R006)
+
+The research engine must produce **falsifiable mathematical/scientific material**, not merely a visually impressive argument. Its first original repo-specific paper is [Two-mechanism identifiability and source-equation consistency](research/hammer-identifiability-and-source-critique-S003-R006.md).
+
+**New independently testable results:**
+- A generic two-arm Bernoulli interference model now derives its complete `(environment gamma, intrinsic lambda)` Fisher matrix and the exact determinant `det F = w1*w2*(a1*b2-a2*b1)^2`. A zero determinant is an explicit inability to identify the two causes even with arbitrarily many measurements of the *same* sensitivity ratio.
+- A deterministic two-rate likelihood/grid search computes synthetic expected counts, analytic and finite-difference derivatives, asymptotic Cramér–Rao error floors, and optimal finite shots between arms; this is a *statistical planning prototype*, not a physical CSL simulator.
+- A dimensionless separation-scan exposes why two tiny separations are almost physically indistinguishable while huge displacements lose contrast. Its best two-arm *toy* separation pair and uncertainty bound are reproducible; **none** is a calibrated detector forecast.
+- The first **original-source critical consistency audit** (`tools/hammer/source-critique.cjs`) checks a 2025 arXiv preprint's displayed unitary displacement, finite-size zero-separation collapse rate, coherence lifetime, dominance claim and printed rate parameter substitution. It records *possible internal mathematical inconsistencies requiring figure/author clarification*, not a refutation of objective-collapse physics.
+
+```bash
+node tools/hammer/identifiability-test.cjs
+node tools/hammer/separation-design-test.cjs
+node tools/hammer/source-critique-test.cjs
+```
+
+These are rigorous, source-linked artifacts of **scientific reasoning**, but statistical Fisher information is established mathematical prior art, and the source-criticism conclusions require comparison with the definitive author version. Publication-level novelty, new empirical laws and true theory discrimination are **not** certified. The model-level scientific output can evolve only as far as its inputs and test assumptions permit. Neither synthetic data nor source typos justify changing the editorial Truth Compass 50 or claiming a previously unrealized physical discovery. Future iterations must actively seek primary-source full text, derive real physical generators, reproduce experimental raw data, calibrate nuisance parameters and seek AI-model critical reviews with genuine provider records.
 
 ## Growth path (not falsely claimed complete)
 
