@@ -20,27 +20,27 @@
   "pages": [
     {
       "route": "home",
-      "lastContentRound": "S-002-R005",
-      "verifiedBasis": "Compass neutral 50 corrected on homepage; leading question remains current",
+      "lastContentRound": "S-002-R009",
+      "verifiedBasis": "Stale 59 headline and 10-study fallback corrected to neutral 50 and current source-backed 25 critical study baseline; live round banner introduced",
       "lastFullSweepRound": null,
       "lastFullSweepEvidenceCommit": null,
       "lastFullSweepAction": null,
       "lastFullSweepReason": null,
       "interactiveBrowserChecked": false,
       "sweepTask": "Homepage hero/editorial and Observatory shortcut accuracy",
-      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+      "status": "R009 targeted source update committed; final R010 full route QA still due"
     },
     {
       "route": "dashboard",
-      "lastContentRound": "S-002-R005",
-      "verifiedBasis": "Neutral baseline and three hypothesis summaries; formula test plan not yet summarized",
+      "lastContentRound": "S-002-R009",
+      "verifiedBasis": "Five central physical-history hypothesis discriminator proposals shown live from source-linked data/discriminator-program.json",
       "lastFullSweepRound": null,
       "lastFullSweepEvidenceCommit": null,
       "lastFullSweepAction": null,
       "lastFullSweepReason": null,
       "interactiveBrowserChecked": false,
       "sweepTask": "Prior assumptions vs conditional model support and experiments",
-      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+      "status": "R009 targeted source update committed; final R010 full route QA still due"
     },
     {
       "route": "ledger",
@@ -56,27 +56,27 @@
     },
     {
       "route": "journal",
-      "lastContentRound": "S-002-R008",
-      "verifiedBasis": "J-009 latest scientific reconstruction driven from research.json",
+      "lastContentRound": "S-002-R009",
+      "verifiedBasis": "J-010 dynamically becomes the current primary-ontology journal, replacing generic latest paper summary",
       "lastFullSweepRound": null,
       "lastFullSweepEvidenceCommit": null,
       "lastFullSweepAction": null,
       "lastFullSweepReason": null,
       "interactiveBrowserChecked": false,
       "sweepTask": "Link the latest question-first report and original experimental test queue",
-      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+      "status": "R009 targeted source update committed; final R010 full route QA still due"
     },
     {
       "route": "disciplines",
-      "lastContentRound": "S-002-R008",
-      "verifiedBasis": "Physics, chemistry and quantum labs dynamically updated with source review highlights",
+      "lastContentRound": "S-002-R009",
+      "verifiedBasis": "Three core physics/math/quantum labs corrected stale 59 notices and founding-count phrasing; per-round status banner reports source update",
       "lastFullSweepRound": null,
       "lastFullSweepEvidenceCommit": null,
       "lastFullSweepAction": null,
       "lastFullSweepReason": null,
       "interactiveBrowserChecked": false,
       "sweepTask": "Survey all nine room labels for stale R003/R006 claims",
-      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+      "status": "R009 targeted source update committed; final R010 full route QA still due"
     },
     {
       "route": "atlas",
@@ -104,8 +104,8 @@
     },
     {
       "route": "sessions",
-      "lastContentRound": "S-002-R008",
-      "verifiedBasis": "Live session data from canonical JSON, seven streams; UI last changed earlier",
+      "lastContentRound": "S-002-R009",
+      "verifiedBasis": "Canonical seven-stream S-002-R009 Observatory decision dynamically loads; latest round shown on all routes. This is NOT independent browser QA.",
       "lastFullSweepRound": null,
       "lastFullSweepEvidenceCommit": null,
       "lastFullSweepAction": null,
@@ -128,5 +128,13 @@
     "Document keyboard/phone/browser status honestly, do not claim a manual run when none happened",
     "Record observed/blocked layout/route behavior and fixes with GitHub SHA",
     "GitHub CI rejects omitted five-round full route audit; website still requires human browser signoff"
-  ]
+  ],
+  "interimRefresh": {
+    "round": "S-002-R009",
+    "kind": "immediate factual corrections and central question priority",
+    "sourceReport": "research/central-question-discriminators-S002-R009.md",
+    "verification": "GitHub data and JS source changes; real browser phone/keyboard not tested",
+    "dueNext": "S-002-R010",
+    "note": "An interim update does not count as the required complete eight-page R010 sweep."
+  }
 }
