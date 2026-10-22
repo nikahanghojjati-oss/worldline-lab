@@ -1,6 +1,12 @@
 # Worldline Lab · Product and Research Roadmap
 Updated 2026-10-21
 
+## Standing operating policy (owner-approved 2026-10-21)
+- Follow [PROJECT_RULES.md](PROJECT_RULES.md): target roughly **75% substantive scientific research / 25% roadmap-aligned website development** over meaningful work cycles. This is a priority guideline, not measured ChatGPT usage or a per-chat timer.
+- Research leads design. Preserve the nine field reading plans, presentation rooms, introductory instruments and the interdisciplinary laboratory vision. Keep work on the Truth Engine, atlas/globe, deeper labs, and session continuity aligned with the versions below.
+- Record evidence-linked reviews and a verdict change **or explained no-change**; never move the Truth Compass merely to show visible progress. Every substantial research or website milestone updates the Session Observatory's versioned record.
+- Research questions and initial sources are mapped in [LIBRARY_PROTOCOL.md](LIBRARY_PROTOCOL.md), the eight-stage program, and the lab reading queues. They are open-ended research targets, not claims of complete study.
+
 ## Release 0.1 · Published foundation (verified)
 Public URL: https://nikahanghojjati-oss.github.io/worldline-lab/
 GitHub Pages run: https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39696764814
