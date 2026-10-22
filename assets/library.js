@@ -55,9 +55,18 @@ function notesPanel(){
 }
 function fieldsPanel(){
  const names=[...new Set(lib.works.map(x=>x.field))].sort();
- $('lib-match').textContent=names.length+' disciplines and thematic collections. Counts describe holdings, not how much of a field has been studied.';
+ $('lib-match').textContent=names.length+' fields indexed. Each item counts once in its primary discipline, never once per coauthor.';
  $('lib-results').className='library-field-grid';
- $('lib-results').innerHTML=names.map(f=>{let w=lib.works.filter(x=>x.field===f),abstract=w.filter(x=>x.access==='abstract-reviewed').length,read=w.filter(x=>x.access==='fully-studied').length;return '<button class="library-field" type="button" data-field-go="'+esc(f)+'"><strong>'+esc(f)+'</strong><small>'+w.length+' holdings · '+abstract+' summaries · '+read+' full studies</small><span class="mini-track"><i style="width:'+100*(abstract+read)/w.length+'%"></i></span></button>'}).join('');
+ const tiles=names.map(f=>{let w=lib.works.filter(x=>x.field===f),abstract=w.filter(x=>x.access==='abstract-reviewed').length,read=w.filter(x=>x.access==='fully-studied').length;return '<button class="library-field" type="button" data-field-go="'+esc(f)+'"><strong>'+esc(f)+'</strong><small>'+w.length+' works · '+abstract+' summaries · '+read+' full studies</small><span class="mini-track"><i style="width:'+100*(abstract+read)/w.length+'%"></i></span></button>'}).join('');
+ const rows=names.map(f=>{
+  const w=lib.works.filter(x=>x.field===f),t={paper:0,book:0,ref:0,media:0,checked:0,complete:0};
+  w.forEach(x=>{if(['paper','review'].includes(x.type))t.paper++;else if(x.type==='book')t.book++;else if(['lecture','award archive','video','interview'].includes(x.type))t.media++;else t.ref++;
+   if(x.access==='abstract-reviewed')t.checked++;
+   if(x.access==='fully-studied')t.complete++;
+  });
+  return '<tr><th scope="row">'+esc(f)+'</th><td>'+t.paper+'</td><td>'+t.book+'</td><td>'+t.ref+'</td><td>'+t.media+'</td><td>'+t.checked+'</td><td>'+t.complete+'</td><td>'+w.length+'</td></tr>'
+ }).join('');
+ $('lib-results').innerHTML=tiles+'<div class="library-matrix-wrap"><div class="kicker">ACCOUNTING BY MEDIUM AND REVIEW DEPTH</div><h3>Exactly what has been collected and studied</h3><table class="library-matrix"><thead><tr><th scope="col">Discipline</th><th scope="col">Papers / reviews</th><th scope="col">Books</th><th scope="col">Essays / references</th><th scope="col">Lectures / media</th><th scope="col">Summaries checked</th><th scope="col">Full studies</th><th scope="col">Works held</th></tr></thead><tbody>'+rows+'</tbody></table><p class="caption">Summaries checked are not completed full works. Essays and references include encyclopedia, scientific background and research overview records. The catalogue contains no indexed video-specific studies yet. Source records can be inspected in the Publications view.</p></div>';
  document.querySelectorAll('[data-field-go]').forEach(b=>b.addEventListener('click',()=>{state.field=b.dataset.fieldGo;state.mode='works';$('lib-field').value=state.field;render()}));
 }
 function render(){
