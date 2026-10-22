@@ -55,12 +55,21 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/RevModPhys.21.447",
       "role": "A spacetime model admitting closed timelike curves",
-      "access": "partially-studied",
-      "note": "Targeted original paper pages/sections examined on 2026-10-21; see NOTE-015..NOTE-017 and research/field-note-002.md. NOT a complete full-text review.",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-041. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "Original mathematical and conditional theories have no verified, discriminating observation of physical history multiplicity; see VC-003.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-041",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-003",
@@ -73,12 +82,21 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRevD.46.603",
       "role": "Physical constraints on closed timelike curves",
-      "access": "partially-studied",
-      "note": "Targeted original paper pages/sections examined on 2026-10-21; see NOTE-015..NOTE-017 and research/field-note-002.md. NOT a complete full-text review.",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-042. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "Original mathematical and conditional theories have no verified, discriminating observation of physical history multiplicity; see VC-003.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-042",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-004",
@@ -167,12 +185,21 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195",
       "role": "Bell inequality and locality constraints",
-      "access": "abstract-reviewed",
-      "note": "",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-033. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-033",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-009",
@@ -241,12 +268,21 @@
       "type": "encyclopedia",
       "url": "https://plato.stanford.edu/entries/qm-manyworlds/",
       "role": "Updated scholarly guide to Everett interpretation",
-      "access": "abstract-reviewed",
-      "note": "Revision date 17 June 2026.",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-036. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-036",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-013",
@@ -393,12 +429,21 @@
       "type": "paper",
       "url": "https://doi.org/10.1038/ncomms2076",
       "role": "Operational framework for indefinite causal order",
-      "access": "abstract-reviewed",
-      "note": "",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-037. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-037",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-021",
@@ -845,12 +890,21 @@
       "type": "paper",
       "url": "https://doi.org/10.1038/nphys2309",
       "role": "Ontology of the quantum state under preparation independence",
-      "access": "catalogued",
-      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-034. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-034",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-045",
@@ -867,12 +921,21 @@
       "type": "paper",
       "url": "https://doi.org/10.1038/ncomms8913",
       "role": "Quantum switch implementation and interpretation limits",
-      "access": "catalogued",
-      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-038. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-038",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-046",
@@ -908,12 +971,21 @@
       "type": "paper",
       "url": "https://doi.org/10.1126/sciadv.aaw9832",
       "role": "Extended Wigner-friend constraints under locality and free-choice assumptions",
-      "access": "abstract-reviewed",
-      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed.",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-039. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-039",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-048",
@@ -1217,14 +1289,23 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRevLett.107.071301",
       "role": "CMB search for bubble collisions, separate from Everett",
-      "access": "abstract-reviewed",
-      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-035. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
       "linkedLedger": [
         "WL-008"
       ],
       "verdictEffect": "none",
       "effectReason": "No direct unique history-count discrimination.",
-      "verifiedAt": "2026-10-21"
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-035",
+        "sourceVerified": "original publisher/institution full text"
+      }
     },
     {
       "id": "SRC-063",
@@ -1248,6 +1329,37 @@
       "verdictEffect": "none",
       "effectReason": "No direct unique history-count discrimination.",
       "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-064",
+      "field": "Quantum foundations",
+      "title": "How Quantum Mechanics can consistently describe the use of itself",
+      "authors": [
+        "Dustin Lazarovici",
+        "Mario Hubert"
+      ],
+      "year": 2019,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/s41598-018-37535-1",
+      "role": "Full-length critical single-world account of extended Wigner-friend inference in Bohmian quantum mechanics",
+      "access": "fully-studied",
+      "note": "Full original main-text critical study completed 2026-10-21 in S-001-R006, research/full-study-batch-001.md, NOTE-040. Full review of publication does not imply independent replication of all supplementary calculations or raw experiments; prior abstract/partial notes retained.",
+      "linkedLedger": [
+        "WL-005",
+        "WL-008"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "A qualified counterargument to a no-go thought experiment is not a measurement of physical branch multiplicity.",
+      "verifiedAt": "2026-10-21",
+      "fullReview": {
+        "sessionId": "S-001",
+        "roundId": "S-001-R006",
+        "date": "2026-10-21",
+        "method": "Complete main text and formal critique with original sections, limits and adversarial counterinterpretation; supplementary and replication caveats documented",
+        "report": "research/full-study-batch-001.md",
+        "readingNoteId": "NOTE-040",
+        "sourceVerified": "original publisher/institution full text"
+      }
     }
   ],
   "scholars": [
@@ -2357,6 +2469,28 @@
         "SRC-063"
       ],
       "focus": "Conditional observational forecasts for cosmic bubble collisions"
+    },
+    {
+      "id": "R-099",
+      "name": "Dustin Lazarovici",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-064"
+      ],
+      "focus": "Single-outcome Bohmian analysis of Wigner's-friend inferences"
+    },
+    {
+      "id": "R-100",
+      "name": "Mario Hubert",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-064"
+      ],
+      "focus": "Single-outcome Bohmian analysis of Wigner's-friend inferences"
     }
   ],
   "verdictAudit": {
@@ -2530,6 +2664,49 @@
         ],
         "fieldNote": "research/field-note-004.md",
         "justification": "Everett, Bohm and collapse models differ in interpretation and sometimes predictions but currently reviewed Bell, coherence and CMB results do not uniquely count actual branches. Bubble cosmology differs from quantum branching. The old 59/100 compass remains non-probabilistic editorial orientation."
+      },
+      {
+        "id": "VC-007",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Ten source-level complete main-text critical reviews and limited theoretical/mathematical sanity checks",
+        "sourceIds": [
+          "SRC-008",
+          "SRC-044",
+          "SRC-062",
+          "SRC-012",
+          "SRC-020",
+          "SRC-045",
+          "SRC-047",
+          "SRC-064",
+          "SRC-002",
+          "SRC-003"
+        ],
+        "ledgerIds": [
+          "WL-002",
+          "WL-003",
+          "WL-004",
+          "WL-005",
+          "WL-008",
+          "WL-009"
+        ],
+        "readingNotes": [
+          "NOTE-033",
+          "NOTE-034",
+          "NOTE-035",
+          "NOTE-036",
+          "NOTE-037",
+          "NOTE-038",
+          "NOTE-039",
+          "NOTE-040",
+          "NOTE-041",
+          "NOTE-042"
+        ],
+        "fullStudyReport": "research/full-study-batch-001.md",
+        "justification": "Critical reviews of Bell, PBR, Everett/SEP, causal-process formalism, photon quantum switches, Bell-Wigner experiment, single-outcome rebuttal, Gödel, Hawking and bubble-CMB tests yield mathematical theorems and model-dependent observations, none uniquely distinguishing the number of physically actual quantum histories. A higher count of reviewed papers is progress in scholarship, not numerical likelihood of many worlds."
       }
     ],
     "revisionRequirements": [
