@@ -3,8 +3,16 @@
 Website: https://nikahanghojjati-oss.github.io/worldline-lab/#sessions
 Repository: https://github.com/nikahanghojjati-oss/worldline-lab
 
+## Standing research-first handoff rule (owner-approved 2026-10-21)
+Read [PROJECT_RULES.md](PROJECT_RULES.md) and [ROADMAP.md](ROADMAP.md) before planning a new session. Across substantial work cycles, target approximately **75% rigorous scientific research and 25% roadmap-driven website development**. This is a flexible effort priority, not a measured time or token quota; urgent site integrity fixes may take precedence with explanation.
+
+- Research is mapped but not finished: nine field queues, 54 subtopics, eight scientific stages and the prioritized source sequence in `LIBRARY_PROTOCOL.md`. Resume the highest-value unfinished original-source review, currently Gödel, Hawking and Deutsch, using `data/library.json` and `data/reading-notes.json` to verify what has truly been read.
+- Preserve existing reading lists, field presentation rooms, starter instruments, and interdisciplinary studio directions. Plan further Truth Engine, atlas/3D globe, deeper laboratories and observatory work **from the roadmap**, not by replacing previous commitments.
+- After any substantive research or website milestone, update `data/sessions.json`, workstream progress, next step, and the verdict audit if relevant. Record why the scientific verdict changed **or why it did not**. No forced compass movement or fabricated study count.
+- Before handoff, record the exact research question, completed source citations, counterarguments, blockers, outstanding website roadmap item, and one best next action. Recommend transition only at a natural, documented checkpoint or serious continuity loss; preserve the current session ID until a new chat actually starts.
+
 ## Start with the smallest authoritative state
-1. Read `data/sessions.json` for active session, progress, limitations, and next action.
+1. Read `PROJECT_RULES.md` and `ROADMAP.md` for the standing 75/25 priority and version commitments, then `data/sessions.json` for active session, progress, limitations, and next action.
 2. Read `data/library.json` and `data/reading-notes.json` for bibliographic works, researcher relationships and what was actually studied. Retrieve only relevant `data/ledger.json` entries, then fetch original sources as required.
 3. If necessary, use `data/research.json` and `RESEARCH_PROTOCOL.md` for goals and evidence rules.
 4. Verify repository head, recent relevant commits, and any time-sensitive cited material.
