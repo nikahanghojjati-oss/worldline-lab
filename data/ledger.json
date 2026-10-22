@@ -2,11 +2,12 @@
   "schema": "worldline-ledger/v1",
   "updated": "2026-10-21",
   "editorialMeter": {
-    "score": 59,
+    "score": 50,
     "reference": 50,
-    "label": "Exploratory orientation",
-    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search. R006: Ten complete main-text critical source studies (read-through with assumptions and objections, not complete experimental replication) add research coverage and reproducible limited math checks, but no observation that discriminates realized Everett branch count. Audit VC-007 explicitly retains 59→59. S-002-R001/VC-008: three whole-original-main-text critical source studies, an explicit falsifiable Everett/Bohm/GRW/CSL model-equivalence matrix, XENONnT 2026 model-parameter constraints; 59→59 editorial no-change. S-002-R003/VC-009: entire main text of Everett 1957 critically read via retypeset copy (text-fidelity limitation); modified GRW source remains abstract-only; no empirical ontology discrimination. Score unchanged 59.",
-    "empiricalVerdict": "Unresolved. Single-outcome equilibrium Bohmian models and many relative Everett branches share standard Born laboratory predictions, while specific objective-collapse dynamics are experimentally constrained but not a direct count of real quantum histories."
+    "label": "Neutral editorial anchor · no justified directional preference",
+    "method": "VC-010 methodological reset from unsupported inherited 59 to neutral display 50, correcting old unsourced +9 without changing observed physics. This is not 50% chance and the -9 is not evidence for a single history. All VC-001–009 original history retained. Future directional movement requires an actual model-discriminating comparison for one-vs-many physically realized histories; claim-specific experiments must independently change the ledger even if this compass remains neutral.",
+    "empiricalVerdict": "Unresolved count of actually real histories. Benchmark Markovian CSL physical-collapse parameters have been experimentally constrained and some excluded; that is a concrete model-specific conclusion. Everett and Bohm quantum equilibrium still share ordinary tested Born statistics. Neutral 50 is an uncalibrated display anchor, never odds.",
+    "historicalInitialScore": 59
   },
   "entries": [
     {
@@ -289,19 +290,19 @@
       "title": "Objective-collapse dynamics face explicit molecular, force-noise and X-ray parameter tests",
       "field": "Physics",
       "kind": "Experimental constraint",
-      "status": "Conditional parameter exclusions; fundamental history count unresolved",
+      "status": "Benchmark Markovian CSL regions experimentally excluded under specified assumptions; other collapse dynamics unresolved",
       "direction": "Neutral",
       "impact": 0,
-      "strength": "XENONnT original publisher abstract and targeted passage; LISA abstract; not a replicated likelihood",
+      "strength": "Complete 2026 XENONnT main primary article critically read; published 90% CL CSL/DP limits, 9.1σ benchmark under author's analysis; not independently reproduced likelihood",
       "question": "Do observed data support stochastic collapse beyond ordinary unitary dynamics with environmental decoherence?",
-      "finding": "2026 XENONnT 1–140 keV X-ray measurements constrain benchmark Markovian CSL and DP collapse parameters, including proposed regions under modeled assumptions. LISA Pathfinder force-noise reanalysis restricts other parameter combinations; neither alone establishes or refutes Everettian multiple real worlds.",
-      "source": "XENON Collaboration (2026); Dai–Miao–Ma (2024); GRW (1986)",
+      "finding": "XENONnT found no significant 1–140 keV collapse-X-ray excess in 1.16 tonne-year exposure and published 90% CL CSL λ/rC²<3.0×10^-3 s^-1 m^-2. Under Markovian white-noise CSL a GRW-associated benchmark (λ=10^-16 s^-1, rC=10^-7m) is reported 9.1σ from best-fit; DP R0>4.9×10^-10m at 90% CL. This excludes a specified dynamical-model slice, NOT all GRW/CSL/one-history ontologies or multiple histories.",
+      "source": "XENON Collaboration, Phys Rev Lett 136 120201 (published March 23 2026)",
       "url": "https://doi.org/10.1103/2jm3-4976",
       "place": "XENONnT experiment (exact detector coordinates not verified here)",
       "lat": null,
       "long": null,
       "locationType": "Physical experiment + later analytic constraints; no plotted coordinates",
-      "notes": "XENONnT original March 2026 publisher states ~100-fold improvement for benchmark CSL and factor five for DP with electron/proton cancellation; full confidence/likelihood contours not read. LISA abstract gives λ_CSL≤8.3×10^-11/s at rC=10^-7m. Projected underground sensitivity is not achieved measurement. Source depth NOTE-047–049.",
+      "notes": "XENONnT original March 2026 publisher states ~100-fold improvement for benchmark CSL and factor five for DP with electron/proton cancellation; full confidence/likelihood contours not read. LISA abstract gives λ_CSL≤8.3×10^-11/s at rC=10^-7m. Projected underground sensitivity is not achieved measurement. Source depth NOTE-047–049. S-002-R005 original entire seven-page main text read and original Figs1/2 examined. Radiation model supplement/raw data were NOT independently rerun. Authors' 9.1σ is not a reproduced statistic, and applies to Markovian CSL with GRW-associated parameter values, not proof discrete GRW dynamics falsified.",
       "lastResearchReview": "2026-10-21",
       "reviewRefs": [
         "SRC-042",
@@ -311,8 +312,65 @@
         "NOTE-047",
         "NOTE-048",
         "NOTE-049",
-        "research/ontology-predictions-S002-R001.md"
-      ]
+        "research/ontology-predictions-S002-R001.md",
+        "NOTE-052",
+        "research/score-origin-and-testable-results-S002-R005.md"
+      ],
+      "scientificMovement": {
+        "id": "MOVE-001",
+        "reviewedOn": "2026-10-21",
+        "model": "Markovian white-noise CSL and paper-specific DP collapse models",
+        "oldStatus": "Previously only generic, abstract-level parameter constraints recorded; benchmark strength unquantified in project",
+        "newStatus": "Quantitatively excluded benchmark Markovian CSL region; paper-reported 9.1σ at GRW-associated parameter point; DP cutoff constrained at 90% CL",
+        "direction": "against specified benchmark Markovian CSL parameter region",
+        "evidenceType": "Experimental parameter limit",
+        "observable": "Unbinned 1–140 keV X-ray electronic-recoil spectrum",
+        "sample": "XENONnT SR0 1.16 tonne-year electron-recoil exposure",
+        "modelAssumptions": "White-noise Markovian CSL with electron/proton cancellation; published detector efficiency and nine-background fit",
+        "measurements": {
+          "CSL_90pct_lambda_over_rC2_upper": {
+            "value": 0.003,
+            "unit": "s^-1 m^-2"
+          },
+          "CSL_benchmark": {
+            "lambda": 1e-16,
+            "rC": 1e-7,
+            "reportedSigma": 9.1
+          },
+          "DP_R0_90pct_lower": {
+            "value": 4.9e-10,
+            "unit": "m"
+          },
+          "CSL_limit_vs_previous_factor": 135
+        },
+        "limits": "Not all collapse models; full profile likelihood and event counts not independently replicated; no direct branch count",
+        "centralCompassImpact": 0,
+        "links": [
+          "SRC-066",
+          "NOTE-052",
+          "research/score-origin-and-testable-results-S002-R005.md"
+        ]
+      }
+    }
+  ],
+  "scientificMovements": [
+    {
+      "id": "MOVE-001",
+      "date": "2026-10-21",
+      "ledgerId": "WL-011",
+      "sourceIds": [
+        "SRC-066"
+      ],
+      "readingNoteIds": [
+        "NOTE-052"
+      ],
+      "claim": "Benchmark Markovian CSL physical-collapse parameter space constrained by XENONnT",
+      "from": "Unquantified abstract-based physical-collapse constraints in the project",
+      "to": "Specific reported 90%-CL λ/rC² upper bound and benchmark deviation; other hypotheses retain separate status",
+      "modelDirection": "Against benchmark Markovian CSL parameter slice",
+      "centralHistoryDirection": "Neither Everett over Bohm nor Bohm over Everett",
+      "centralScoreImpact": 0,
+      "researchReport": "research/score-origin-and-testable-results-S002-R005.md"
     }
   ]
 }
