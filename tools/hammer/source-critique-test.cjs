@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+'use strict';
+const assert=require('node:assert/strict');
+const c=require('./source-critique.cjs');
+assert.equal(c.cslFactor(0,0),0,'zero-size particle zero-separation factor');
+assert.ok(c.cslFactor(0,.5)>.28,'quoted finite-radius rate at zero separation is nonzero');
+assert.ok(c.cslFactor(1,.5)<1);
+assert.ok(Math.abs(c.gateNormSquared(0)-1)<1e-15);
+assert.ok(c.gateNormSquared(.5)<1,'extra scalar is not unitary');
+const tau=c.rateLifetime(8.99e-3,7.93e4);
+assert.ok(tau>1e-5&&tau<2e-5,'stated rates imply microsecond rather than 1e-24 second lifetime');
+const a=c.audit();
+assert.equal(a.issues.length,5);
+assert.equal(a.truthCompassChange,0);
+assert.equal(a.newPhysicsDiscovery,false);
+assert.ok(a.issues[2].ratioCollapseToEnvironment>1e6);
+assert.ok(a.issues[3].quotedToComputed<1e-18);
+assert.ok(a.issues[4].ratioPrintedToCalculated>1e5);
+assert.throws(()=>c.cslFactor(-.2,.5),/nonnegative/);
+console.log('PASS HAMMER original-source self-consistency audit: unitary norm, finite-size zero limit, displayed decay arithmetic, source uncertainty and no physics-verdict promotion.');
+console.log(JSON.stringify({finiteSizeZero:c.cslFactor(0,.5),rateRatio:a.issues[2].ratioCollapseToEnvironment,impliedLifetimeSeconds:tau,reportedLifetimeSeconds:a.issues[3].quotedSeconds,eq12RatePerSecond:a.issues[4].calculatedEq12CSLPerSecond}));
