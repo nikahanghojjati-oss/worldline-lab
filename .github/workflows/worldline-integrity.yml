@@ -5,6 +5,7 @@ on:
     paths:
       - "data/**"
       - "tools/truth-engine/**"
+      - "tools/hammer/**"
       - "tools/site-browser-smoke.cjs"
       - "tools/site-axe-audit.cjs"
       - "assets/**"
@@ -14,6 +15,7 @@ on:
     paths:
       - "data/**"
       - "tools/truth-engine/**"
+      - "tools/hammer/**"
       - "tools/site-browser-smoke.cjs"
       - "tools/site-axe-audit.cjs"
       - "assets/**"
@@ -36,6 +38,10 @@ jobs:
         run: node tools/truth-engine/validate.cjs
       - name: Execute intentionally failing integrity fixtures
         run: node tools/truth-engine/test.cjs
+      - name: HAMMER adversarial theory forge and AI review input gates
+        run: |
+          node tools/hammer/test.cjs
+          node tools/hammer/run.cjs --check
       - name: Reconstruct 2016 original experiment and GRW scaling
         run: node tools/truth-engine/macrorealism-reproduce.cjs
       - name: Reproduce source-grounded Born-equilibrium no-go and undo calculation
@@ -43,6 +49,9 @@ jobs:
       - name: Validate public JavaScript syntax
         run: |
           node --check assets/site.js
+          node --check assets/hammer-core.js
+          node --check assets/hammer-ui.js
+          node --check tools/hammer/ai-panel.cjs
           node --check assets/library.js
           node --check assets/lab-experience.js
 
