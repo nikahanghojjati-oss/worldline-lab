@@ -501,6 +501,67 @@
         "NOTE-060",
         "research/full-study-batch-003-ten-discriminator-candidates.md"
       ]
+    },
+    {
+      "id": "WL-018",
+      "date": "2026-10-21",
+      "title": "Published germanium Poisson posterior and LISA noise collapse limits independently reconstructed from printed aggregate data",
+      "field": "Quantum foundations",
+      "kind": "Experimental constraint reproduction",
+      "status": "Two published parameter bound equations reproduced, with exact source prior conventions and independent numerical checks; full raw detector/simulation not replicated",
+      "question": "Can we independently reproduce a quantitative CSL exclusion, retaining source statistical methods and geometry rather than trusting plotted curves?",
+      "finding": "Germanium 2021 source z_c=576, z_b=506, coefficient 2.0986 and BOTH paper +1 pseudocounts give Gamma(577,1) 95% mean 617.071, a 95% Bayesian λ upper 5.19732362463e-13/s at rC=1e-7m (publisher 5.2e-13). LISA 2024 reported Brownian PSD uncertainty 0.075 femtometre²/s⁴/Hz and geometry give λ upper 8.36417404452e-11/s (source 8.3e-11). XENON 2026 90%-CL λ/rC²<0.003 implies λ<3e-17/s at rC=1e-7m (conversion, NOT own detector fit). Source-validated constraints are not 3 independent same-level likelihoods and cannot be multiplied to claim many worlds.",
+      "source": "Donadi et al., EPJC 81 773 (2021); Dai/Miao/Ma arXiv:2411.17588 (2024); XENON Collaboration PRL 136 120201 (2026)",
+      "url": "https://doi.org/10.1140/epjc/s10052-021-09556-0",
+      "direction": "Independent source-input statistical/mathematical reproduction strengthens parameter-domain conclusion; zero differentiation of Everett vs equilibrium Bohm history count",
+      "impact": 0,
+      "strength": "Germanium Bayesian 95% aggregated-count quantile reproduced; LISA published summary-noise conversion reproduced; XENON dimensional conversion only, original 9.1 sigma not replicated",
+      "lat": null,
+      "long": null,
+      "locationType": "No experiment geolocation established by numerical reproduction; original cited detector sources retain their site context",
+      "place": "Multiple distinct apparatus; not one geolocated experiment",
+      "notes": "The paper's Eq11 adds 1 to BOTH z_b and z_s, so correct total offset=508 and λ=5.1973e-13. An interim result wrongly subtracting only 507 (5.245e-13) was corrected, documented, and regression-tested. Gamma posterior is Bayesian with fixed background; physical λ>=0 truncation shifts bound ~0.016%, while artificial ±25 background count sensitivity shifts ~4.006e-13 to 6.389e-13; that is NOT a validated systematic error bar. LISA trans low-rC λ upper scales inverse r², unlike X-ray radiation λ upper proportional r². Full angular LISA and molecular CSL numerics not reconstructed. Do not combine different CL/credible/noise-attribution upper limits.",
+      "reviewRefs": [
+        "SRC-069",
+        "SRC-067",
+        "SRC-066",
+        "SRC-048",
+        "SRC-068",
+        "NOTE-063",
+        "NOTE-064",
+        "research/csl-bound-reconstruction-S002-R008.md",
+        "tools/truth-engine/csl-reproduce.cjs"
+      ],
+      "scientificMovement": {
+        "id": "MOVE-008",
+        "reviewedOn": "2026-10-21",
+        "model": "White-noise nucleon-normalized CSL limits with distinct apparatus noise models",
+        "oldStatus": "Paper-reported Ge/LISA bound values noted, but computational inference and proper +1 pseudo-counts not independently reproduced",
+        "newStatus": "Donadi Ge 95% Gamma posterior and LISA 2024 low-frequency acceleration geometry equation computed independently in two implementations; XENON dimensional conversion and scope distinction audited",
+        "direction": "More reproducible and confidence-qualified exclusions in a specified parameter slice, not a new detector result",
+        "evidenceType": "Independent numeric reconstruction from primary-source published summary data",
+        "observable": "Ge detector total counts plus simulated background/efficiency; LISA fitted Brownian PSD uncertainty",
+        "modelAssumptions": "Uniform prior on Ge total expected counts, both paper pseudocounts, fixed Ge background/response; LISA continuum small-rC and PSD uncertainty; XENON white-noise spectral fit imported as published",
+        "measurements": {
+          "germanium95LambdaUpper": 5.197323624630836e-13,
+          "germaniumMean95": 617.0710335865,
+          "germaniumPseudocountOffset": 508,
+          "germaniumPositivePriorUpper": 5.198155761456188e-13,
+          "lisaUpper": 8.364174044519352e-11,
+          "xenon90ConvertedLambda": 3e-17,
+          "referenceRC": 1e-7
+        },
+        "limits": "No raw detector likelihood, Geant4, source figure contour digitization or event uncertainty replication; no many-history branch discriminating evidence",
+        "centralCompassImpact": 0,
+        "links": [
+          "SRC-069",
+          "SRC-067",
+          "SRC-066",
+          "NOTE-063",
+          "NOTE-064",
+          "research/csl-bound-reconstruction-S002-R008.md"
+        ]
+      }
     }
   ],
   "scientificMovements": [
@@ -629,6 +690,31 @@
       "centralHistoryDirection": "Neither Everett nor quantum-equilibrium Bohm uniquely favored",
       "centralScoreImpact": 0,
       "researchReport": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    },
+    {
+      "id": "MOVE-008",
+      "date": "2026-10-21",
+      "ledgerId": "WL-018",
+      "sourceIds": [
+        "SRC-069",
+        "SRC-067",
+        "SRC-066",
+        "SRC-048",
+        "SRC-068"
+      ],
+      "readingNoteIds": [
+        "NOTE-063",
+        "NOTE-064"
+      ],
+      "claim": "Published Ge Bayesian 95% and LISA 2024 conservative noise CSL bounds independently reconstructed from source summary inputs",
+      "from": "Source-published model-parameter numbers without a project-owned verified statistical evaluation",
+      "to": "Ge Γ(577,1) q95=617.071 (both +1 offsets), λ95=5.1973236e-13/s; LISA Eq10 with PSD=7.5e-32 SI gives λ upper 8.36417e-11/s; XENON 90% ratio converts λ<3e-17/s at common radius",
+      "modelDirection": "Increased reproducibility and clarified model/uncertainty conditions, no newly measured physical events",
+      "centralHistoryDirection": "No experimental discrimination between conventional Everett and Bohmian equilibrium",
+      "centralScoreImpact": 0,
+      "researchReport": "research/csl-bound-reconstruction-S002-R008.md",
+      "reproducibleCode": "tools/truth-engine/csl-reproduce.cjs",
+      "comparisonData": "data/csl-exclusion-comparison.json"
     }
   ]
 }
