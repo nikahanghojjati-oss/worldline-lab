@@ -335,7 +335,7 @@
       "area": "Journal & Research",
       "route": "journal",
       "status": "R006 source-linked mathematical research and potential source corrections under CI review",
-      "latest": "New R006 2-rate Fisher determinant, conditional Cramér–Rao uncertainty/shot allocation, separation-dimension design tradeoff, and five potential arXiv equation/number consistency issues reported with reproducible code.",
+      "latest": "New R006 2-rate Fisher determinant, conditional Cramér–Rao uncertainty/shot allocation, separation-dimension design tradeoff, and six potential arXiv equation/number consistency issues reported with reproducible code.",
       "next": "Independently rederive CSL finite-sphere generator and fit public measured decoherence counts rather than synthetic binary readouts.",
       "lastReviewedOn": "2026-10-22"
     },
@@ -3169,10 +3169,10 @@
           "area": "Journal & Research",
           "route": "journal",
           "status": "R006 source-linked mathematical research and potential source corrections under CI review",
-          "latest": "New R006 2-rate Fisher determinant, conditional Cramér–Rao uncertainty/shot allocation, separation-dimension design tradeoff, and five potential arXiv equation/number consistency issues reported with reproducible code.",
+          "latest": "New R006 2-rate Fisher determinant, conditional Cramér–Rao uncertainty/shot allocation, separation-dimension design tradeoff, and six potential arXiv equation/number consistency issues reported with reproducible code.",
           "next": "Independently rederive CSL finite-sphere generator and fit public measured decoherence counts rather than synthetic binary readouts.",
           "lastReviewedOn": "2026-10-22",
-          "change": "Reproducible research output or source audit: New R006 2-rate Fisher determinant, conditional Cramér–Rao uncertainty/shot allocation, separation-dimension design tradeoff, and five potential arXiv equation/number consistency issues reported with reproducible code.",
+          "change": "Reproducible research output or source audit: New R006 2-rate Fisher determinant, conditional Cramér–Rao uncertainty/shot allocation, separation-dimension design tradeoff, and six potential arXiv equation/number consistency issues reported with reproducible code.",
           "unchangedOrOpen": "Independently rederive CSL finite-sphere generator and fit public measured decoherence counts rather than synthetic binary readouts."
         },
         {
