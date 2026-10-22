@@ -787,8 +787,8 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRevLett.61.1446",
       "role": "Conditional wormhole chronology and weak energy constraint",
-      "access": "catalogued",
-      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "access": "abstract-reviewed",
+      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
@@ -807,8 +807,8 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/PhysRevD.34.470",
       "role": "Foundational objective-collapse alternative to unitary quantum dynamics",
-      "access": "catalogued",
-      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "access": "abstract-reviewed",
+      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
@@ -908,8 +908,8 @@
       "type": "paper",
       "url": "https://doi.org/10.1126/sciadv.aaw9832",
       "role": "Extended Wigner-friend constraints under locality and free-choice assumptions",
-      "access": "catalogued",
-      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "access": "abstract-reviewed",
+      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
@@ -928,8 +928,8 @@
       "type": "paper",
       "url": "https://doi.org/10.1038/s41567-019-0663-9",
       "role": "Large-molecule interferometry and limits on objective-collapse alternatives",
-      "access": "catalogued",
-      "note": "Bibliographic metadata located on publisher or peer-reviewed archive. Full text has not been read for Worldline Lab.",
+      "access": "abstract-reviewed",
+      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
@@ -1926,6 +1926,28 @@
           "WL-004",
           "WL-005"
         ]
+      },
+      {
+        "id": "VC-002",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Twelve additional verified bibliographic records and four new abstract-level critical notes",
+        "sourceIds": [
+          "SRC-041",
+          "SRC-042",
+          "SRC-047",
+          "SRC-048"
+        ],
+        "ledgerIds": [
+          "WL-002",
+          "WL-003",
+          "WL-004",
+          "WL-005"
+        ],
+        "justification": "The wormhole model is conditional, the collapse model is a proposed alternative, the Wigner-friend inequality result requires specific assumptions, and large-molecule interference tests coherence; none presently distinguishes a physical plurality of histories from a single realized history. New bibliography and abstract-level review therefore increase scientific coverage but not the editorial verdict."
       }
     ],
     "revisionRequirements": [
