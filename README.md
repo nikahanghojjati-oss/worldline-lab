@@ -10,7 +10,7 @@ The magazine-style front page features the Truth Compass. The navigation opens O
 
 ## Current scientific status
 
-The answer is unresolved. The current 50/100 Truth Compass is an editorial neutral reference, **not a measured probability** of single versus multiple physical histories. The inherited 59/100 preference was withdrawn when its basis could not be supported; it was not an experimental score movement. As of S-002-R010 the research record contains 76 unique original sources and 27 complete critical main-text studies. The physical ontology question remains unresolved. Evidence is categorized before relevance is evaluated. No amount of simulated closed timelike curve behavior on its own proves time travel or branching histories.
+The answer is unresolved. The current 50/100 Truth Compass is an editorial neutral reference, **not a measured probability** of single versus multiple physical histories. The inherited 59/100 preference was withdrawn when its basis could not be supported; it was not an experimental score movement. As of S-002-R010 the research record contains 77 unique original sources and 28 complete critical main-text studies. The physical ontology question remains unresolved. Evidence is categorized before relevance is evaluated. No amount of simulated closed timelike curve behavior on its own proves time travel or branching histories.
 
 ## Standing project policy
 

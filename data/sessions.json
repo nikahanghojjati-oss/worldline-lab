@@ -8,10 +8,10 @@
     "minutes": null,
     "reason": "Not exposed to the GitHub Pages website."
   },
-  "state": "ACTIVE · S-002-R010 BORN RULE FULL STUDIES · MANDATORY PAGE SWEEP",
-  "activeWork": "R010 two genuinely complete original main-text studies on high-energy two-state Born deviations and Bohmian quantum-equilibrium Born-record explanation. Recomputed 360000 clean photon feasibility and existing 0.21sigma tau helicity agreement from published summary. Matched Everett and equilibrium Bohm pointer P(k) equal, hence no central score movement. Recorded all eight source/static page audits and seven-stream Observatory, retained v0.2 human review/browser QA and v0.25 real-nine-room browser acceptance as OPEN. New Playwright GitHub CI tested 8 routes, 9 labs x 3, two viewports and keyboard filtering: PASS on commit 8934661. Directional score requires GitHub API authenticated separate-reviewer PR approval; no actual reviewer signoff.",
-  "lastVerified": "R010 main-text source URLs https://arxiv.org/html/2505.07510 and https://pmc.ncbi.nlm.nih.gov/articles/PMC7512940/; source formula arithmetic Nmin360000, background dilution 562500 and tau epsilon 0.0032±0.01509=0.21sigma. Code/CI and real-browser verification pending independent execution. GitHub Actions source-integrity success 39773875403 and automated real Chromium browser acceptance PASS https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530. Separate reviewer approval signed by human NOT obtained. Verified added github-approval.cjs code still requires synthetic/live CI regression.",
-  "nextStep": "S-002-R011: get real independent scientific reviewer approval via GitHub PR and verify v0.2 score-gate end-to-end without forcing a score change; inspect one physical mobile/keyboard screen reader for v0.25 final acceptance. Continue empirical born-rule detector-alternative research. Next full page sweep R015.",
+  "state": "ACTIVE · S-002-R011 MACROREALISM CRITICAL FULL STUDY · v0.2/0.25 QA",
+  "activeWork": "R011 completed full original five-page Knee et al. 2016 experimental paper analysis, independently reproduced experiment-defined 83.91σ macrorealist mixture/control-class rejection from published Fig2 errors, recorded SRC-077 NOTE-067 WL-020 MOVE-009 without Everett/Bohm history-count inference. GRW original remains abstract-reviewed, benchmark Nλ model only. v0.2 review.cjs now has unforgeable in-process seal on approved score changes, with API-author/reviewer/commit matching; synthetic CI passes, no actual approved score change. v0.25 real Chromium 8-route nine-lab x three room modes at two viewport widths previously PASS R010; R011 browser test resolves active round dynamically. Physical handset and assistive-tech sign-off not observed.",
+  "lastVerified": "Verified original 2016 5-page PDF via https://inspirehep.net/files/f78569ff8b2f26953b7d8d2f42ff39b7, DOI https://doi.org/10.1038/ncomms13253; published g/e/rho disturbance and error propagation checks -83.91461 sigma using Node code. Repo science commit 5963b76debd79e846ed13d9de40a3b02f2afae02; code integrity unit+numeric GitHub CI validate job success (run 39777019918), full browser CI job still in progress at checkpoint drafting. Original 1986 GRW 22-page PDF not fully accessible, so no artificial status promotion.",
+  "nextStep": "S-002-R012: audit v0.2 committed-score changeLedger end-to-end without ever modifying the editorial 50 absent reviewed discriminating evidence; obtain genuinely independent human GitHub PR scientific reviewer before certifying directional decisions. Evaluate automated accessibility and actual Chromebook/iPhone Safari or voiceover with explicit owner assistance for physical-device signoff. Science-first: seek original GRW 1986 complete 22-page main text (do not fake), compare nonlinear Born pilot-wave assumptions with source-specific experimental detector controls and full matched Born-model identifiability proof. Next mandatory eight-page research sweep R015 (roundLog index 22).",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -49,7 +49,10 @@
     "R008 XENON 2026 90% likelihood, 9.1σ and source curve remain publisher-reported, not independently fitted; raw detector events author-request only. Molecule numeric and LISA rotational full kernel uncomputed. Different statistical semantics cannot be naively combined.",
     "R009 central meter conditional likelihood sensitivity Ge fixed-background Poisson is ONLY pedagogical; the real Ge nuisance background model/parameter-family priors have not been integrated, and standard Everett-vs-equilibrium Bohm retains Born equality.",
     "R009 first mandatory eight-page source sweep is NEXT round R010 (global log count17). Existing site carries genuinely older Atlas/library copy; CI now prevents omission of scheduled full refresh but has not passed any real browser/mobile test.",
-    "R010 eight-page content/code sweep is NOT independent browser QA; v0.2 human-reviewed score approval flow and v0.25 real-nine-room mobile/keyboard E2E remain open."
+    "R010 eight-page content/code sweep is NOT independent browser QA; v0.2 human-reviewed score approval flow and v0.25 real-nine-room mobile/keyboard E2E remain open.",
+    "R011 GitHub Actions automated Chromium pass only covers Chromium emulated phone width, not actual iOS Safari, Chromebook owner session or assistive technology; record this as release acceptance outstanding rather than claim universal browser correctness.",
+    "R011 trusted in-process GitHub PR approval path has synthetic fixture evidence only. No independent human scientific approver submitted a real matching evidence-commit PR approval; forbidden to force directional score or declare finished human gate.",
+    "R011 complete 1986 original GRW 22-page PDF not source-available for full critical reading; publisher abstract and indexed excerpt/SEP benchmark used for scale illustration only, SRC-042 stays abstract-reviewed."
   ],
   "sessionHistory": [
     {
@@ -101,8 +104,8 @@
       "date": "2026-10-21",
       "label": "Predictive tests of physical history ontology",
       "objective": "Determine whether any measurement distinguishes one Bohmian actual history from multiple Everett branch histories and separately test genuinely modified collapse dynamics.",
-      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text. R003: original Everett 1957 whole-main-text critical reading; source-provenance limits; v0.2 and v0.25 remaining-work 36 science/12 website effort points plan. R004: first Truth Engine local schema CI, negative tests, provenance audit and 100-unique-researcher-ID integrity fix; no new physics source read. R005: historical arbitrary 59 identified and corrected to neutral editorial 50, original full-main-text XENONnT 2026 seven-page paper critically studied; exact model-parameter exclusion logged separately as MOVE-001 in Truth Ledger with report and public model-specific movement display. R006 ten original main-text discriminator candidates and six specific model-claim updates, VC-011 50 editorial neutral; scientific main answer unresolved. R007: v0.2 reviewer counterevidence/commit gate, append-only reversal primitives; nine-lab syllabus and eight-stage acceptance fixtures passing CI, existing site rooms preserved. R008: independently computed original Ge Gamma/Bayesian 95%-credible and LISA translational noise bounds; math report, original cross-check, CI tests, five-channel public CSL comparison, MOVE-008 source audit and no central score manipulation. R009: formalize question-first falsifiable Everett-vs-Bohm equality, pilot-wave nonequilibrium and recoherence research queues; owner-requested five-round website fresh-data source sweep policy with CI; correct historic stale homepage copy. R010: two complete source main-text Born model theoretical and collider proposal reviews; empirical tau null within 0.21 sigma, nine labs remain structurally data-preserved, mandatory eight-route static content sweep logged; browser and reviewer gates still open.",
-      "status": "ACTIVE · S-002-R010 question-discriminating research and route freshness sweep",
+      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text. R003: original Everett 1957 whole-main-text critical reading; source-provenance limits; v0.2 and v0.25 remaining-work 36 science/12 website effort points plan. R004: first Truth Engine local schema CI, negative tests, provenance audit and 100-unique-researcher-ID integrity fix; no new physics source read. R005: historical arbitrary 59 identified and corrected to neutral editorial 50, original full-main-text XENONnT 2026 seven-page paper critically studied; exact model-parameter exclusion logged separately as MOVE-001 in Truth Ledger with report and public model-specific movement display. R006 ten original main-text discriminator candidates and six specific model-claim updates, VC-011 50 editorial neutral; scientific main answer unresolved. R007: v0.2 reviewer counterevidence/commit gate, append-only reversal primitives; nine-lab syllabus and eight-stage acceptance fixtures passing CI, existing site rooms preserved. R008: independently computed original Ge Gamma/Bayesian 95%-credible and LISA translational noise bounds; math report, original cross-check, CI tests, five-channel public CSL comparison, MOVE-008 source audit and no central score manipulation. R009: formalize question-first falsifiable Everett-vs-Bohm equality, pilot-wave nonequilibrium and recoherence research queues; owner-requested five-round website fresh-data source sweep policy with CI; correct historic stale homepage copy. R010: two complete source main-text Born model theoretical and collider proposal reviews; empirical tau null within 0.21 sigma, nine labs remain structurally data-preserved, mandatory eight-route static content sweep logged; browser and reviewer gates still open. R011: full 2016 flux qubit five-page experiment main text and Fig2 summary error propagation 83.91sigma, constrained mixture-class physical claim, zero direct histories discrimination; v0.2 sealed API GitHub human approval path, v0.25 dynamic latest-round browser checks in CI.",
+      "status": "ACTIVE · S-002-R011 full experimental macrorealism primary review and release controls",
       "scope": "Original-source literature, competing quantum ontologies and physics / quantum computing / chemistry laboratory research presentation",
       "tokenCount": null,
       "elapsedMinutes": null,
@@ -134,7 +137,10 @@
           "R009: created data/discriminator-program.json five ranked experimental questions, research/central-question-discriminators-S002-R009.md, dashboard data-driven research gates, globally visible latest round/decision and all page last-content/refresh due banner.",
           "R009: original hardcoded homepage '59' and '10 studies' corrected to neutral 50 and 25 study fallback; five-round eight-page CI gate now due log index17 (R010), negative fixture passes, git tests and Pages successful.",
           "R010 full original publisher-linked collider Born-rule candidate and Norsen equilibrium critical review, 27/400; conditional 1% requires 360000 clean photons, tau 0.21sigma; no physical branch discrimination.",
-          "R010 automated desktop/mobile viewport Chromium end-to-end testing of eight routes and 9x3 lab modes passed on GitHub run 39774068530."
+          "R010 automated desktop/mobile viewport Chromium end-to-end testing of eight routes and 9x3 lab modes passed on GitHub run 39774068530.",
+          "R011: complete five-page original Nature Communications Knee 2016 experiment SRC-077 and NOTE-067, 28/400 genuine main-text reviews across 77 sources/67 notes. Independently reproduced source-defined nearest-control gap -0.063176 ±0.000752861 and 83.91sigma; no detector raw trials.",
+          "R011: WL-020/MOVE-009 materially update specific tested macrorealist mixture claim without counting histories; actual Everett/quantum-equilibrium Bohm likelihood equality maintained, editorial 50 unchanged.",
+          "R011: replaced forgeable directional-score approval object with process-private capability only created by an async GitHub PR reviewer fetch. Unit fixtures for exact PR evidence commit, distinct author/reviewer and rejected fabricated direct record passed source integrity CI."
         ],
         "unresolved": [
           "Complete original Everett 1957 and GRW 1986 primary text review remains open.",
@@ -150,9 +156,11 @@
           "Real human-approved prior-commit score review workflow and interactive browser/mobile accessibility QA required before declaring v0.2/v0.25 release accepted.",
           "Full XENON nuisance/background fit 9.1sigma, Fein molecule full wave-visibility exclusion kernel and LISA torque angular response not reproduced; no measured Everett-vs-Bohm discriminator.",
           "Cannot use illustrative Ge Poisson fixed background as a science posterior; need nuisance and preset prior over ALL relevant one-history collapse models, not cherry-picked λ. B_eq vs Everett identifiability proof needed.",
-          "Full eight-page freshness audit due R010; 2025 novel collider Born test full original article unread; live keyboard/phone browser acceptance still open."
+          "Full eight-page freshness audit due R010; 2025 novel collider Born test full original article unread; live keyboard/phone browser acceptance still open.",
+          "R011: real distinct-scientist PR approval has not occurred; physical iPhone Safari and human accessibility assessment not performed. Do not declare v0.2 or v0.25 final release signoff; automated Chromium tests are narrower.",
+          "Full original GRW 1986 22-page main paper not accessible: do not treat benchmark Poisson math as original full-text review."
         ],
-        "next": "S-002-R010: prioritise science: derive exact Everett vs Bohmian quantum-equilibrium pointer / quantum eraser outcome probability equality or a specific testable extra premise, critically review primary 2025 pilot-wave nonequilibrium collider spin/polarization protocol with detector alternatives, then **perform mandatory eight-page scientific content sweep** (home/dashboard/ledger/journal/disciplines/atlas/library/sessions). For each route evidence-backed update or explicit no-new-source revalidation, remove stale text/links, state real browser/phone status; record all page audits in data/page-freshness.json lastFullSweepRoundLogCount=17 with source commit SHA before closing round. Never move editorial 50 without a legitimate discriminating or fully modeled prior-sensitive result."
+        "next": "S-002-R012: audit v0.2 committed-score changeLedger end-to-end without ever modifying the editorial 50 absent reviewed discriminating evidence; obtain genuinely independent human GitHub PR scientific reviewer before certifying directional decisions. Evaluate automated accessibility and actual Chromebook/iPhone Safari or voiceover with explicit owner assistance for physical-device signoff. Science-first: seek original GRW 1986 complete 22-page main text (do not fake), compare nonlinear Born pilot-wave assumptions with source-specific experimental detector controls and full matched Born-model identifiability proof. Next mandatory eight-page research sweep R015 (roundLog index 22)."
       }
     }
   ],
@@ -186,7 +194,7 @@
       "Core mission is real history multiplicity in our universe; do not make backward time travel the center of inquiry.",
       "Full study means complete main publication and source-critical methods/limits with report; not automatic independent validation of supplements or raw experimental findings."
     ],
-    "minimumPacket": "Active S-002 R001: report research/ontology-predictions-S002-R001.md, full-study-batch-002.md, NOTE-043–049, WL-010–011, VC-008 (59→59, editorial). 67 works, 49 notes, 13/400 full original-main-text reviews. NEXT original Everett/GRW entire publication readings and XENONnT model curve reproduction. Preserve 75/25 and seven-workstream every-round updates.",
+    "minimumPacket": "As of S-002-R011: 77 genuine source records, 67 notes, 28/400 complete original-main-text critical studies. Source report research/full-study-batch-005-macrorealism-R011.md, NOTE-067, WL-020/MOVE-009, academic source https://doi.org/10.1038/ncomms13253. Conditional control-calibrated result ~83.91σ tests Eq7 macroscopic eigenstate-mixture subclass; Everett vs equilibrium Bohm histories still observationally indistinguishable. Editorial score remains neutral 50 not probability. Full GRW original 1986 still abstract-reviewed. Truth Engine v0.2 sealed PR approval and fixtures plus v0.25 automated Chromium nine-lab 3-mode navigation are implemented but external human review and physical iPhone/a11y QA remain open; 75% scientific / 25% website planning, every-round seven streams and R015 full-eight-route sweep.",
     "continuity": "Owner-requested S-001 source handoff was read in genuine successor chat. S-002-R001 actual source-linked research and site publication saved with 3 whole-main-text critical reviews; prior S-001 history preserved. The new next question is original Everett/GRW full primary audit and 2026 XENONnT quantitative comparison.",
     "document": "HANDOFF_S001_TO_S002.md",
     "url": "https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/HANDOFF_S001_TO_S002.md",
@@ -218,15 +226,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-22",
-    "milestoneName": "R010 two full studies and mandatory eight page content freshness review",
-    "milestoneComplete": false,
+    "milestoneName": "S-002-R011 full original flux-qubit study and safeguarded v0.2 review + v0.25 browser regressions",
+    "milestoneComplete": true,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "Automated Chromium checked both responsive widths but physical mobile device/assistive tech human experience is not certified; API approval gate has only synthetic review fixtures, not an actual signed scientific PR approval.",
-    "decisionBasis": "Two original full papers genuinely reviewed and source-linked. The scientific model-pair difference is conditional: existing tau data remain Born-compatible and Everett/Bohm equilibrium equal. Central 50 is not probability. Eight-route static content survey recorded, but real-browser and human-review release gates are open. Automated Chromium browser PASS on run 39774068530 (8 routes and 9x3 labs both viewport widths), but physical mobile / human accessibility QA and real reviewer approval remain open.",
-    "updatePolicy": "Every substantive round update seven streams, current hypothesis predictions/evidence judgment, session roundLog/transition, source and code provenance in same GitHub commit. Every 5 accumulated rounds prove each of 8 routes updated or explicitly revalidated via data/page-freshness.json (R010=17). Browser results never fabricated.",
+    "documentedContinuityRisk": "Code/tests are in GitHub; independent human scientist PR approval and real handset/screen reader experience remain absent, but no reported context continuity failure.",
+    "decisionBasis": "One new complete original main-paper critical review and independently replicated source-statistic ~84σ measured macrorealism control-model rejection materially improved a model claim; Everett vs Bohm equilibrium remains experimentally equivalent, editorial 50 unchanged. Human signed GitHub PR and physical-device/a11y acceptance are still open, hence v0.2 and v0.25 not certified complete. Continue research-first.",
+    "updatePolicy": "Each substantive round refresh all seven streams and transition plus roundLog under GitHub. Every 5 rounds after canonical count17 revalidate all 8 routes; next count22 R015; failures require correction not false acceptance.",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -234,56 +242,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Editorial 50 neutral baseline and source-reviewed 27 complete primary main-text studies; no branch observation.",
-      "next": "Real smartphone/browser hero and links acceptance unverified.",
+      "latest": "Neutral 50 editorial (not posterior) with 28 original full-main-text reviews now reflected in canonical content and fallback; paper J-012",
+      "next": "Independent mobile readability and actual human accessibility not checked",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "WL-019 paired model difference and source-reported tau null, no new ontology claim; VC-012 prior central audit retained.",
-      "next": "Require actual independent detector calibrations for directional evidence.",
+      "latest": "WL-020/MOVE-009 record Knee 2016 calibrated macrorealism-class exclusion, numerically reproduced ~83.91σ, no multiverse census",
+      "next": "No human-approved directional score change; model-specific findings only",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "76 original unique sources, 27 complete main-text studies and 66 notes with DOI/reading links.",
-      "next": "Next source selection should be prior-registered falsifiable and independently replicable.",
+      "latest": "77 authentic records, 67 study notes and 28 original whole-main-text critical studies; SRC-077/NOTE-067 source-verified, GRW source incomplete",
+      "next": "Original GRW 22 pages and qubit raw-event/supplementary reanalysis remain open",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "J-011 detailed high-energy Born gate and Norsen adversarial interpretation, full report R010.",
-      "next": "Need fuller alternate models and collider acceptance likelihood.",
+      "latest": "J-012 publishes full original 2016 Knee 5-page study, source-matched conditional model test and limitations",
+      "next": "Separate model-specific exclusion from physical history existence",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Nine discipline rooms preserved; new quantum-relevant sources included and historical contexts retained. GitHub Chromium desktop and phone-size acceptance PASS, physical assistive-tech QA remains open.",
-      "next": "Interactive mobile/keyboard lab tests still not measured.",
+      "latest": "Nine laboratories retained; Physics and Quantum computing reading queues and source-based finding updated, Chromium regression suite resolves most recent round dynamically",
+      "next": "Human screen reader, physical iPhone Safari and actual Chromebook visual pass still open",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "R010 checked provenance: none of these theoretical studies justify a new site coordinate.",
-      "next": "No fabricated experiment markers; future true 2D map remains v0.3.",
+      "latest": "Revalidated: flux qubit authors' institution does not imply an observed apparatus point with independently verified coordinates; no invented dot",
+      "next": "Future real 2D map remains v0.3, not v0.25",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published GitHub-backed record; browser verification open",
-      "latest": "Eight pages reviewed for source/data freshness at R010; seven streams and decision updated. Source/current-round and eight-route automated browser pass logged against GitHub 39774068530.",
-      "next": "Continue real human review and e2e browser acceptance, periodic review next R015.",
+      "latest": "S-002-R011 new source-based round, explicit full-seven-stream review and scientific neutral score disposition, next mandatory all-route research audit R015",
+      "next": "CI browser full job must independently finish; no synthetic reviewer acceptance or token measurement",
       "lastReviewedOn": "2026-10-22"
     }
   ],
@@ -301,10 +309,10 @@
     "nextSessionRule": "Read PROJECT_RULES.md, ROADMAP.md and SESSION_START.md, then the authoritative session and reading records; do not invent reading achievements or a handoff.",
     "pageRefresh": {
       "cadence": "every fifth completed round, global count",
-      "currentRound": "S-002-R009",
-      "currentRoundLogCount": 16,
-      "next": "S-002-R010",
-      "nextRoundLogCount": 17,
+      "currentRound": "S-002-R011",
+      "currentRoundLogCount": 18,
+      "next": "S-002-R015",
+      "nextRoundLogCount": 22,
       "source": "data/page-freshness.json",
       "routes": [
         "home",
@@ -317,7 +325,7 @@
         "sessions"
       ],
       "priority": "current seven-stream decision every round, full research pages every fifth",
-      "unverified": "No physical browser or mobile usage QA in this session"
+      "unverified": "Automated Chromium R010 passed, physical iPhone Safari and human assistive technology not verified"
     }
   },
   "roundLog": [
@@ -2166,6 +2174,133 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "Two original full papers genuinely reviewed and source-linked. The scientific model-pair difference is conditional: existing tau data remain Born-compatible and Everett/Bohm equilibrium equal. Central 50 is not probability. Eight-route static content survey recorded, but real-browser and human-review release gates are open.",
       "nextAction": "R011: integrate and test explicit human reviewer approval artifact into Truth Engine append-only change pathway; run instrumented headless-browser navigation for nine labs and three room views across viewport/keyboard, and investigate detector-independent high-energy Born-rule data model. Maintain 50 central editorial neutral unless truly discriminating measured evidence."
+    },
+    {
+      "id": "S-002-R011",
+      "sessionId": "S-002",
+      "date": "2026-10-22",
+      "scope": "Original entire 2016 Knee et al. superconducting flux-qubit macroscopic realism experiment, numeric source-Fig2 replication and GRW benchmark caution; v0.2 verified PR approval sealing and v0.25 version-resilient real browser QA.",
+      "files": [
+        "research/full-study-batch-005-macrorealism-R011.md",
+        "tools/truth-engine/macrorealism-reproduce.cjs",
+        "data/library.json",
+        "data/reading-notes.json",
+        "data/ledger.json",
+        "data/research.json",
+        "data/truth-engine.json",
+        "tools/truth-engine/review.cjs",
+        "tools/truth-engine/github-approval.cjs",
+        "tools/truth-engine/test.cjs",
+        "tools/site-browser-smoke.cjs",
+        ".github/workflows/worldline-integrity.yml",
+        "index.html",
+        "ROADMAP.md",
+        "README.md",
+        "data/sessions.json"
+      ],
+      "verified": "Full original source PDF p1-5 and Fig1–3 read; Fig2 classical d_g=-0.026612, d_e=+0.015884 and coherent d_rho=-0.089788 reproduce 83.91461s.d. nearest-control Eq7 gap. Trial-level experiment and appendices not redone. Source statuses 77 works, 67 notes, 28 studies. Real GitHub CI validate step PASS on 10c68617efb070530fdc2af1b39842578907065f; browser acceptance latest rerun may still be processing. Trusted GitHub PR async receipt entrypoint rejects direct synthetic score approval object; a genuine human approval remains absent.",
+      "research": {
+        "worksCatalogued": 77,
+        "readingNotes": 67,
+        "fullyStudiedWorks": 28,
+        "fullSourceMainTextReview": "SRC-077",
+        "sourceNote": "NOTE-067",
+        "source": "https://doi.org/10.1038/ncomms13253",
+        "report": "research/full-study-batch-005-macrorealism-R011.md",
+        "originalGRWStatus": "SRC-042 publisher abstract and excerpt only; NOT fully studied",
+        "numericReproduction": "tools/truth-engine/macrorealism-reproduce.cjs",
+        "claimMovement": "MOVE-009"
+      },
+      "verdict": {
+        "oldScore": 50,
+        "newScore": 50,
+        "status": "no-change",
+        "auditId": "VC-012",
+        "modelSpecificMovement": "MOVE-009",
+        "why": "Experiment rejects only specified mixture/control macrorealism under Eq7; one Bohmian occupied configuration reproduces observed coherent Born qubit distributions as Everett does. 50 editorial neutral anchor is not a scientific posterior and must not move."
+      },
+      "website": {
+        "v02": "Private-sealed async external GitHub PR review before directional revision; only synthetic fixtures tested; real PR approval open",
+        "v025": "Chromium 8 routes and 9x3 labs two viewports passed R010 and dynamic latest-round regression added; real physical phone and screen reader pending",
+        "sourceCI": "https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39777019918",
+        "browserCurrentCI": "https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39777019918",
+        "nextMandatoryFullPageSweep": "S-002-R015"
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "Neutral 50 editorial (not posterior) with 28 original full-main-text reviews now reflected in canonical content and fallback; paper J-012",
+          "next": "Independent mobile readability and actual human accessibility not checked",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Neutral 50 editorial (not posterior) with 28 original full-main-text reviews now reflected in canonical content and fallback; paper J-012",
+          "unchangedOrOpen": "Independent mobile readability and actual human accessibility not checked"
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "WL-020/MOVE-009 record Knee 2016 calibrated macrorealism-class exclusion, numerically reproduced ~83.91σ, no multiverse census",
+          "next": "No human-approved directional score change; model-specific findings only",
+          "lastReviewedOn": "2026-10-22",
+          "change": "WL-020/MOVE-009 record Knee 2016 calibrated macrorealism-class exclusion, numerically reproduced ~83.91σ, no multiverse census",
+          "unchangedOrOpen": "No human-approved directional score change; model-specific findings only"
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "77 authentic records, 67 study notes and 28 original whole-main-text critical studies; SRC-077/NOTE-067 source-verified, GRW source incomplete",
+          "next": "Original GRW 22 pages and qubit raw-event/supplementary reanalysis remain open",
+          "lastReviewedOn": "2026-10-22",
+          "change": "77 authentic records, 67 study notes and 28 original whole-main-text critical studies; SRC-077/NOTE-067 source-verified, GRW source incomplete",
+          "unchangedOrOpen": "Original GRW 22 pages and qubit raw-event/supplementary reanalysis remain open"
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "J-012 publishes full original 2016 Knee 5-page study, source-matched conditional model test and limitations",
+          "next": "Separate model-specific exclusion from physical history existence",
+          "lastReviewedOn": "2026-10-22",
+          "change": "J-012 publishes full original 2016 Knee 5-page study, source-matched conditional model test and limitations",
+          "unchangedOrOpen": "Separate model-specific exclusion from physical history existence"
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "published reading queues",
+          "latest": "Nine laboratories retained; Physics and Quantum computing reading queues and source-based finding updated, Chromium regression suite resolves most recent round dynamically",
+          "next": "Human screen reader, physical iPhone Safari and actual Chromebook visual pass still open",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Nine laboratories retained; Physics and Quantum computing reading queues and source-based finding updated, Chromium regression suite resolves most recent round dynamically",
+          "unchangedOrOpen": "Human screen reader, physical iPhone Safari and actual Chromebook visual pass still open"
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "Revalidated: flux qubit authors' institution does not imply an observed apparatus point with independently verified coordinates; no invented dot",
+          "next": "Future real 2D map remains v0.3, not v0.25",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Revalidated: flux qubit authors' institution does not imply an observed apparatus point with independently verified coordinates; no invented dot",
+          "unchangedOrOpen": "Future real 2D map remains v0.3, not v0.25"
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "published GitHub-backed record; browser verification open",
+          "latest": "S-002-R011 new source-based round, explicit full-seven-stream review and scientific neutral score disposition, next mandatory all-route research audit R015",
+          "next": "CI browser full job must independently finish; no synthetic reviewer acceptance or token measurement",
+          "lastReviewedOn": "2026-10-22",
+          "change": "S-002-R011 new source-based round, explicit full-seven-stream review and scientific neutral score disposition, next mandatory all-route research audit R015",
+          "unchangedOrOpen": "CI browser full job must independently finish; no synthetic reviewer acceptance or token measurement"
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "One new complete original main-paper critical review and independently replicated source-statistic ~84σ measured macrorealism control-model rejection materially improved a model claim; Everett vs Bohm equilibrium remains experimentally equivalent, editorial 50 unchanged. Human signed GitHub PR and physical-device/a11y acceptance are still open, hence v0.2 and v0.25 not certified complete. Continue research-first.",
+      "nextAction": "S-002-R012: audit v0.2 committed-score changeLedger end-to-end without ever modifying the editorial 50 absent reviewed discriminating evidence; obtain genuinely independent human GitHub PR scientific reviewer before certifying directional decisions. Evaluate automated accessibility and actual Chromebook/iPhone Safari or voiceover with explicit owner assistance for physical-device signoff. Science-first: seek original GRW 1986 complete 22-page main text (do not fake), compare nonlinear Born pilot-wave assumptions with source-specific experimental detector controls and full matched Born-model identifiability proof. Next mandatory eight-page research sweep R015 (roundLog index 22)."
     }
   ]
 }
