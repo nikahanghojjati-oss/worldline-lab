@@ -1826,6 +1826,83 @@
         "WL-022"
       ],
       "fieldNote": "research/hammer-assumption-surgery-S003-R007.md"
+    },
+    {
+      "id": "NOTE-072",
+      "workId": "SRC-081",
+      "date": "2026-10-22",
+      "sessionId": "S-003",
+      "roundId": "S-003-R008",
+      "stage": "partially-studied",
+      "label": "Pedalino et al. experimental mass coherence / quantitative macroscopicity source arithmetic",
+      "basis": "Original Nature public paper full-text sections on experiment, interference scans, Methods/macroscopicity and data availability viewed; archive identity/contents confirmed on Zenodo but raw ZIP could not be downloaded for rerun.",
+      "sectionsRead": [
+        "Nature abstract and main matter-wave interpretation",
+        "Experiment: 3 UV gratings, d=133nm and L=0.983m",
+        "Fig. 2 visibility scans V=.10±.01 / .08±.01 near 172 kDa",
+        "Methods: macroscopicity Bayesian 5% tau=2.84e15s, 3895 data points",
+        "Data availability: Zenodo 17502163 source code and actual counts"
+      ],
+      "summary": "Sodium clusters with more than 7000 atoms exhibit high-mass interferometric quantum fringes; original source reports macroscopicity mu≈15.45 for the author-defined minimal macrorealist family. HAMMER independently transforms source posterior tau quantile via log10 and checks first-Talbot speed using printed geometric and mass values, without raw detector refit.",
+      "method": "Compare original printed geometry to h/(mv) Talbot condition, log10 author posterior quantile, visibility-to-fit-error ratios and scope-specific model assumptions; source declares Bayesian Jeffreys prior.",
+      "limitations": "No raw Zenodo archive ingestion, no independent posterior fit, no full supplementary quantile/audited source code, no general many-worlds test. 3895 source analysis data points not asserted to be detector events.",
+      "alternativeExplanations": "Ordinary environmental decoherence, grating depletion/alignment controls and alternative collapse parameter families; either Everett or equilibrium Bohm yields fringes.",
+      "conclusion": "Document positive experimental model-specific evidence of mesoscopic coherence and limits on minimal macrorealist modifications, not real number of branches.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Targeted original main/Methods plus source archive catalog, NOT complete source/underlying raw code analysis.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-023"
+      ],
+      "fieldNote": "research/hammer-observed-evidence-S003-R008.md"
+    },
+    {
+      "id": "NOTE-073",
+      "workId": "SRC-082",
+      "date": "2026-10-22",
+      "sessionId": "S-003",
+      "roundId": "S-003-R008",
+      "stage": "partially-studied",
+      "label": "Zhao et al. Hardy loophole-free empirical local realism rejection",
+      "basis": "APS primary paper abstract and publicly visible original full-text excerpt / source text indexed; no independent event-level raw refit.",
+      "sectionsRead": [
+        "PRL 2024 original abstract and experimental conditions",
+        "Original full-text introduction: Hardy's inequality logic, loopholes and use of local-realistic null"
+      ],
+      "summary": "Published 4.32e9 photonic trials, 82.2% detection efficiency, 99.10% fidelity, Hardy statistic 4.646e-4 and a reported p upper bound 10^-16348 under the authors' local-realistic null. HAMMER checks precise log10 representation and refuses posterior or alternative-ontology conversion.",
+      "method": "Exact source metadata and numerical extraction; inference firewall reproduces claim scope but DOES NOT recompute source martingale/hypothesis test.",
+      "limitations": "Published null p cannot be derived from just total trial number and Hardy parameter; raw trial setting/outcome data, detector correlations and null test machinery not retrieved. Loophole-free claim rests on source conditions.",
+      "alternativeExplanations": "Nonlocal one-history pilot-wave theories, other departures from Bell local assumptions, setting measurement independence challenges.",
+      "conclusion": "Directional evidence against Bell-local model subclass, but not Everett-vs-Bohm or generic one-versus-many history ontology.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Publisher abstract/selected main-text excerpt only; original full analysis and supplemental not completely studied.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-024"
+      ],
+      "fieldNote": "research/hammer-observed-evidence-S003-R008.md"
+    },
+    {
+      "id": "NOTE-074",
+      "workId": "SRC-083",
+      "date": "2026-10-22",
+      "sessionId": "S-003",
+      "roundId": "S-003-R008",
+      "stage": "abstract-reviewed",
+      "label": "Zheng et al. 2026 reversible–irreversible controlled-bath mesoscopic coherence",
+      "basis": "Original PRL October 5 abstract and date verified; published article main text subscription required and no raw figures or event counts accessible.",
+      "summary": "Photonic cat state in microwave bus coupled to increasing nonlinear oscillator bath degrees; source reports spontaneous which-path information erasure declining as bath grows, with apparent irreversibility when sufficiently many oscillators participate.",
+      "method": "Primary publisher abstract verification; compare qualitative conclusion to open-system versus fundamental-collapse epistemic distinction.",
+      "limitations": "No raw quantitative recovery scaling or source-fit reproduction; observed practical irreversibility ≠ fundamental objective collapse or number of histories.",
+      "alternativeExplanations": "Unitary system-bath entanglement, inaccessible reversal controls, non-Markovian loss and instrument-specific pathways.",
+      "conclusion": "Model-specific controlled-bath dynamics reported; cannot infer a fundamental collapse event or Everett world count.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Original abstract only, not article text.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-025"
+      ],
+      "fieldNote": "research/hammer-observed-evidence-S003-R008.md"
     }
   ]
 }
