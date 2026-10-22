@@ -1,0 +1,164 @@
+{
+  "schema": "worldline-central-question/v1",
+  "date": "2026-10-22",
+  "ownerQuestion": "Does the physical universe we inhabit contain one actual outcome history, or multiple physically real histories?",
+  "status": "Candidate-specific theoretical and experimental question gate; no new central ontology score assigned",
+  "scorePolicy": {
+    "centralScore": 50,
+    "meaning": "Neutral editorial anchor, not a 50% observed probability",
+    "mayMoveWith": "Fully specified actually competing one-history and many-history predicted event distributions, independent physical data, confidence and alternative-model review; or model-averaged clearly qualified posterior with declared priors/parameter nuisance integration and sensitivity",
+    "mustNotMoveWith": "Paper counts, unspecified collapse exclusions, quantum Bell violations alone, source prestige, simulation counts, parameter cherry-picking",
+    "pairedEquality": "For standard Everett and Bohmian equilibrium with same Born preparation, L_E(data)/L_Beq(data)=1; no Bayesian update of their pairwise odds is possible from those measurements."
+  },
+  "candidates": [
+    {
+      "id": "GATE-01",
+      "order": 1,
+      "program": "Direct Everett versus Bohmian-equilibrium identifiability",
+      "status": "theorem/prediction comparison required, not yet a positive discriminator",
+      "manyHypothesis": "Everett unitary branches",
+      "oneHypothesis": "Bohmian actual configuration at quantum equilibrium",
+      "candidateObservable": "Specified pointer or quantum-eraser measurement outcomes",
+      "decisivePattern": "Different falsifiable likelihoods under identical preparation; if equal, certify non-identifiability in this measurement class",
+      "expectedOutcome": "Equal Born outcomes for standard versions; a proof narrows search space rather than moving the needle",
+      "sources": [
+        "SRC-007",
+        "SRC-010",
+        "SRC-059"
+      ],
+      "furtherSources": [
+        "https://arxiv.org/abs/0811.0810"
+      ],
+      "nextTask": "Derive one full controlled quantum eraser and pointer distribution in both theories and identify where an added assumption would break equality",
+      "scorePossible": "no under matching equilibrium"
+    },
+    {
+      "id": "GATE-02",
+      "order": 2,
+      "program": "Born-rule / pilot-wave nonequilibrium discrimination",
+      "status": "2025 primary test proposal; no observed Born violation claimed",
+      "manyHypothesis": "Standard Everett obeying Born rule",
+      "oneHypothesis": "Specified Bohmian pilot-wave nonequilibrium (not standard Bohm equilibrium)",
+      "candidateObservable": "High-energy collision spin/polarization expectation versus angle and process control; nonlinear deviations from Born relation",
+      "decisivePattern": "Predeclared repeatable nonlinear polarization law after standard systematic and alternate-dynamics exclusions",
+      "expectedOutcome": "Anomaly can favor particular B_neq relative to ordinary unitary Born models under strong controls; null disfavors tested nonequilibrium family only",
+      "sources": [
+        "SRC-010",
+        "SRC-059"
+      ],
+      "furtherSources": [
+        "https://doi.org/10.1103/4llk-pt1j",
+        "https://arxiv.org/abs/2505.07510"
+      ],
+      "nextTask": "Read the original 2025 high-energy proposal and design an observable/null, detector acceptance, conventional rivals and sensitivity floor",
+      "scorePossible": "yes conditional on full experimentally tested model"
+    },
+    {
+      "id": "GATE-03",
+      "order": 3,
+      "program": "Irreversible collapse vs controlled large-system coherence / recoherence",
+      "status": "existing experiments restrict particular collapse parameters; controlled macroscopic record reversal untested",
+      "manyHypothesis": "Unitary Everett multiple physically real relative records",
+      "oneHypothesis": "Actual single record under specified stochastic GRW/CSL law",
+      "candidateObservable": "Mass/separation/time dependent fringe visibility, spontaneous X-ray/force noise, reversed durable pointer record coherence",
+      "decisivePattern": "Validated non-unitary excess under registered environment/noise can favor specified collapse dynamics; no excess weakens those parameters",
+      "expectedOutcome": "Cannot distinguish Everett vs Bohmian equilibrium even if collapse ruled out",
+      "sources": [
+        "SRC-042",
+        "SRC-048",
+        "SRC-066",
+        "SRC-069",
+        "SRC-067",
+        "SRC-068"
+      ],
+      "furtherSources": [
+        "https://doi.org/10.1007/s10701-025-00831-8"
+      ],
+      "nextTask": "Derive two original contrast predictions for a controlled durable quantum record with specified collapse rate and environmental channels",
+      "scorePossible": "indirect, requires full family priors"
+    },
+    {
+      "id": "GATE-04",
+      "order": 4,
+      "program": "Observer fact / extended Wigner friend adversarial tests",
+      "status": "no-go premises contested, not a unique direct branch-count test",
+      "manyHypothesis": "Everett observer-relative histories",
+      "oneHypothesis": "Explicit globally consistent local/nonlocal one-history account",
+      "candidateObservable": "Observer/friend correlation inequality under separated measurement settings",
+      "decisivePattern": "Distinct inequality under explicitly fixed freedom, locality, and observer-event assumption",
+      "expectedOutcome": "Violation alone does not disprove nonlocal Bohm or establish branches",
+      "sources": [
+        "SRC-014",
+        "SRC-047",
+        "SRC-064"
+      ],
+      "furtherSources": [
+        "https://doi.org/10.1038/s41567-020-0990-x",
+        "https://doi.org/10.3390/e27060563"
+      ],
+      "nextTask": "Adversarial premise table versus nonlocal Bohmian counterexample",
+      "scorePossible": "only if one physically matched model separately falsified"
+    },
+    {
+      "id": "GATE-05",
+      "order": 5,
+      "program": "Cosmological fossil quantum nonequilibrium",
+      "status": "conditional cosmological prediction, high astrophysical degeneracy",
+      "manyHypothesis": "Unitary Born statistical cosmology",
+      "oneHypothesis": "Primordial pilot-wave nonequilibrium survival model",
+      "candidateObservable": "Predeclared CMB scale-dependent power, cross-mode phase and relic spectra",
+      "decisivePattern": "Specific anomalous spectrum after inflationary astrophysical and instrument confounds",
+      "expectedOutcome": "Would update a specified pilot-wave nonequilibrium premise, not directly branch reality",
+      "sources": [
+        "SRC-062",
+        "SRC-063"
+      ],
+      "furtherSources": [
+        "https://doi.org/10.1103/PhysRevD.82.063513",
+        "https://doi.org/10.1103/PhysRevD.92.063531"
+      ],
+      "nextTask": "Set exact functions and compare observational Planck likelihood with standard inflation nuisance",
+      "scorePossible": "conditional and currently weak"
+    }
+  ],
+  "fixedBackgroundDiagnostic": {
+    "kind": "Didactic fixed-model Poisson likelihood sensitivity only, NOT calibrated published science scores",
+    "sourceIds": [
+      "SRC-069"
+    ],
+    "sourceReadingNoteIds": [
+      "NOTE-056",
+      "NOTE-063"
+    ],
+    "observedCounts": 576,
+    "backgroundFixedAt": 506,
+    "coefficient": 2.0986,
+    "referenceRCm": 1e-7,
+    "equation": "log LR(lambda vs no CSL) = 576 * log(1 + 2.0986*lambda/(r_C²*506)) - 2.0986*lambda/r_C²",
+    "choices": [
+      {
+        "lambda": 1e-16,
+        "logLR": 0.0029027062
+      },
+      {
+        "lambda": 1e-13,
+        "logLR": 2.4210925392
+      },
+      {
+        "lambda": 3.34e-13,
+        "logLR": 4.6328835055
+      },
+      {
+        "lambda": 1e-12,
+        "logLR": -10.0179820509
+      },
+      {
+        "lambda": 2e-12,
+        "logLR": -71.7957571574
+      }
+    ],
+    "warning": "Simulated background is NOT known precisely; parameter chosen AFTER seeing counts biases inference; no nuisance marginalization, raw spectrum likelihood or CSL parameter-family integration; never update canonical 50 with these choices. A physical model-averaged score requires preregistered prior probabilities and sensitivity ranges."
+  },
+  "researchReport": "research/central-question-discriminators-S002-R009.md",
+  "nextRound": "S-002-R010: exact Everett vs Bohmian equilibrium measurement-distribution proof with quantified scope, independently scrutinize 2025 Born-rule experimental proposal; due mandatory whole-site eight-page five-round sweep."
+}
