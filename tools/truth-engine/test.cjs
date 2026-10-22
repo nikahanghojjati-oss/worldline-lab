@@ -36,9 +36,16 @@ assert.ok(check(invalid,base).some(x=>x.includes('counterevidenceSearch')));
 const decision=record(proposal,base,{sha:'b'.repeat(40),id:'DEC-TEST',date:'2026-10-21',reason:'TEST FIXTURE NOT SCIENTIFIC APPROVAL'});
 const reversed=reverse(decision,50,{sha:'c'.repeat(40),id:'DEC-UNDO',date:'2026-10-21',reason:'TEST reversal'});
 assert.equal(reversed.reverses,'DEC-TEST');
+
+const {packetCheck}=require('../hammer/ai-panel.cjs');
+assert.throws(()=>packetCheck({evidenceCommit:'bad',evidenceClass:'observed'}),/evidence commit/);
+assert.throws(()=>packetCheck({evidenceCommit:'a'.repeat(40),researchQuestion:'too short',evidenceClass:'theoretical',sources:[]}),/research question/);
+assert.throws(()=>packetCheck({evidenceCommit:'a'.repeat(40),researchQuestion:'Would coherent reversal distinguish specific rival physical dynamics?',evidenceClass:'observed',sources:[{id:'SRC-007',url:'https://example.org/original',accessDepth:'targeted-passage',material:'a'.repeat(220)},{id:'SRC-066',url:'https://example.org/source',accessDepth:'targeted-passage',material:'b'.repeat(220)}]}),/measured data/);
+console.log('PASS HAMMER AI-only policy gate: source packets, no fake human scientific signoff');
+
 const {apiApproval}=require('./github-approval.cjs');
 const approvalCandidate={...proposal,proposedScore:51,reviewer:'science-reviewer'};
-assert.throws(()=>record(approvalCandidate,base,{sha:'c'.repeat(40),id:'DEC-NO-REVIEW',date:'2026-10-22',reason:'Unapproved directional test'}),/API-verified human approval/);
+assert.throws(()=>record(approvalCandidate,base,{sha:'c'.repeat(40),id:'DEC-NO-REVIEW',date:'2026-10-22',reason:'Unapproved directional test'}),/verified HAMMER AI research/);
 const signedPr={
  number:72,
  base:{ref:'main',repo:{full_name:'nikahanghojjati-oss/worldline-lab'}},
@@ -50,8 +57,8 @@ const signedPr={
 const signedReview={id:491,state:'APPROVED',commit_id:'a'.repeat(40),submitted_at:'2026-10-22T12:00:00Z',user:{login:'science-reviewer'},author_association:'COLLABORATOR'};
 const receipt={prNumber:72,reviewId:491};
 const verified=apiApproval(approvalCandidate,receipt,signedPr,[signedReview]);
-assert.throws(()=>record(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-FORGED',date:'2026-10-22',reason:'Forged object',approval:verified}),/API-verified human approval/);
-assert.throws(()=>reverse({...decision,newScore:51},51,{sha:'c'.repeat(40),id:'REV-FORGED',date:'2026-10-22',reason:'Unapproved reversal'}),/API-verified scientific PR approval/);
+assert.throws(()=>record(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-FORGED',date:'2026-10-22',reason:'Forged object',approval:verified}),/verified HAMMER AI research/);
+assert.throws(()=>reverse({...decision,newScore:51},51,{sha:'c'.repeat(40),id:'REV-FORGED',date:'2026-10-22',reason:'Unapproved reversal'}),/verified HAMMER AI research/);
 Promise.all([
  assert.rejects(recordReviewed(approvalCandidate,base,{sha:'b'.repeat(40),id:'DEC-INJECT',reason:'Injected',date:'2026-10-22'},receipt,async()=>signedPr),/No injected GitHub responses accepted/),
  assert.rejects(reverseReviewed({...decision,newScore:51},51,{sha:'b'.repeat(40),id:'REV-INJECT',reason:'Injected',reviewedEvidenceCommit:'a'.repeat(40)},{...approvalCandidate,oldScore:51,proposedScore:50},receipt,async()=>signedPr),/No injected GitHub responses accepted/)

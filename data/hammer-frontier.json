@@ -1,0 +1,52 @@
+{
+  "schema": "worldline-hammer-frontier/v1",
+  "date": "2026-10-22",
+  "evidenceClass": "synthetic-theory-only",
+  "method": "Cross-question conditional-product models with finite nuisance minimax; exact topic-mismatch veto, no empirical evidence and no guaranteed discovery",
+  "missions": [
+    {
+      "id": "HF-001",
+      "action": "fuse",
+      "left": "HM-001",
+      "right": "HM-001",
+      "independence": "conditional-assumption-not-verified",
+      "question": "If two ordinary Born pointer measurements are independently recorded under the same Everett and Bohm equilibrium apparatus settings, can their combined outcomes count physically realized histories?",
+      "falsifier": "Derive the complete two-record joint probability from each physical model; a genuinely unequal distribution under the same operational controls would refute the restricted equality calculation.",
+      "confounder": "The two models can share exactly the same quantum-equilibrium distribution across both records; more identical data is not ontology discrimination.",
+      "researchTask": "Prove restricted compositional equality, then identify what non-equilibrium or changed dynamics assumption a purported distinction actually requires."
+    },
+    {
+      "id": "HF-002",
+      "action": "fuse",
+      "left": "HM-002",
+      "right": "HM-004",
+      "independence": "conditional-assumption-not-verified",
+      "question": "Could combining a coherence-recovery experiment with a separately calibrated reference arm eliminate enough modeled nuisance freedom to distinguish a stipulated physical-loss law from imperfect unitary dynamics?",
+      "falsifier": "Measure a predeclared joint recovery/reference distribution whose calibrated confidence interval overlaps an allowed adversarial nuisance explanation, thereby defeating the proposed distinction.",
+      "confounder": "Unmeasured shared detector drift can correlate recovery and reference outcomes, invalidating a product-likelihood advantage; toy nuisance ranges are not physical calibration.",
+      "researchTask": "Derive the *joint* likelihood with shared detector nuisance, quantify sensitivity to arm correlations, and locate accessible original detector datasets before any science claim."
+    },
+    {
+      "id": "HF-003",
+      "action": "veto",
+      "left": "HM-001",
+      "right": "HM-002",
+      "independence": "conditional-assumption-not-verified",
+      "question": "Can we combine an Everett-versus-Bohm branch question with a model of nonunitary loss and mistakenly claim that detecting loss proves or disproves physical Everett histories?",
+      "falsifier": "Produce a coherent mapping of the same two rival fully specified physical models across both arms, with disjoint calibrated predictions, rather than silently relabeling an alternative collapse dynamics as Bohm.",
+      "confounder": "The rival model identities differ: Bohmian quantum equilibrium and a stipulated physical-loss hypothesis are not the same alternative theory, so their probabilities cannot be multiplied as if interchangeable.",
+      "researchTask": "Preserve the ontology-versus-dynamics distinction and explore explicitly extended physical models rather than transferring a collapse constraint to branch count."
+    },
+    {
+      "id": "HF-004",
+      "action": "fuse",
+      "left": "HM-002",
+      "right": "HM-002",
+      "independence": "conditional-assumption-not-verified",
+      "question": "If an identical coherence-recovery protocol is independently repeated under a stable preparation model, does predeclared repetition strengthen predicted dynamics discrimination while revealing its own independence assumptions?",
+      "falsifier": "Show preparation drift, correlated noise, or a cross-trial nuisance family that reproduces the same joint count distribution and collapses the expected two-trial sensitivity advantage.",
+      "confounder": "Repeated runs can share drift, loss, and calibration nuisance; a product of two same-protocol distributions is not an empirically verified joint distribution.",
+      "researchTask": "Replace independence with an explicit hierarchical shared-noise calibration model; use real data only with authentic provenance and controls."
+    }
+  ]
+}

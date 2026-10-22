@@ -40,6 +40,28 @@ async function run(viewportName,viewport){
   for(const route of ['home','dashboard','ledger','journal','disciplines','atlas','library','sessions']){
    await assertRoute(page,route);
   }
+  await assertRoute(page,'dashboard');
+  await page.waitForFunction(()=>document.querySelector('#hammer-design option')&&document.querySelector('#hammer-outcome')?.textContent?.includes('Jensen'));
+  assert.match(await page.locator('#hammer-forge').innerText(),/synthetic models, not observations/,'HAMMER does not invent experiments');
+  const hammerSelect=page.locator('#hammer-design');
+  await hammerSelect.selectOption('HM-003');
+  assert.match(await page.locator('#hammer-workbench').innerText(),/No reliable wedge/,'adversarial nuisance defeats apparent result');
+  const beforeForge=await page.locator('#hammer-outcome').innerText();
+  await page.locator('#hammer-right').selectOption('1');
+  const afterForge=await page.locator('#hammer-outcome').innerText();
+  assert.notEqual(beforeForge,afterForge,'HAMMER scenario mutation responds to selection');
+  await page.waitForFunction(()=>document.querySelector('#hammer-mission option')?.value==='HF-001');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/NO IDENTIFIABLE WEDGE/,'repeated Born question is a no-go');
+  await page.locator('#hammer-mission').selectOption('HF-002');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/CONDITIONAL WEDGE/,'fused conditional two-arm experiment');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/shared-nuisance/,'recursive metacognitive next-step proposal');
+  assert.match(await page.locator('.hammer-auto-memory').innerText(),/Autonomous question search/,'HAMMER generated new multiquestion research paths');
+  assert.match(await page.locator('.hammer-auto-memory').innerText(),/Verified novel discoveries: 0/,'not masquerading a hypothesis as a discovery');
+  await page.locator('#hammer-mission').selectOption('HF-003');
+  assert.match(await page.locator('#hammer-mission-results').innerText(),/VETO/,'ontology/dynamics invalid fusion must be rejected');
+  await hammerSelect.selectOption('HM-002');
+  assert.match(await page.locator('#hammer-workbench').innerText(),/Conditional wedge/,'specified physical-dynamics wedge detected');
+  await assertRoute(page,'disciplines');
   await page.waitForFunction(()=>document.querySelectorAll('#disciplines-list .lab-tile-link').length===9);
   assert.equal(await page.locator('#research-program .research-stage').count(),8,'eight gated stages');
   assert.equal(await page.locator('#disciplines-list .lab-tile-link').count(),9,'nine lab entry points');
@@ -84,7 +106,7 @@ async function run(viewportName,viewport){
   await assertRoute(page,'ledger');
   const truthPanel=page.locator('#truth-engine-view');
   await page.waitForFunction(()=>document.querySelector('#truth-engine-view')?.textContent?.includes('Recorded directional decisions:'));
-  assert.match(await truthPanel.innerText(),/Independent human scientific GitHub review is required/,'v0.2 trusted reviewer policy is explained');
+  assert.match(await truthPanel.innerText(),/Two distinct AI model reviewers must study original-source material/,'scientific review policy is explained');
   assert.match(await truthPanel.innerText(),/not an empirical probability/,'compass scientific calibration caveat');
   assert.ok(await truthPanel.locator('a[href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/truth-engine.json"]').count()===1,'auditable Truth Engine source link');
   const publishedDecisions=JSON.parse(fs.readFileSync(path.join(root,'data/truth-engine.json'),'utf8')).changeLedger.length;

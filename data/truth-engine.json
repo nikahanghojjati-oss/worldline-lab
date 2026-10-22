@@ -1,7 +1,7 @@
 {
   "schema": "worldline-truth-engine/v0.2",
   "updated": "2026-10-22",
-  "releaseStatus": "S-003-R003 release candidate: trusted API-only GitHub evidence-commit scientific approval and reversible source ledger logic are tested, with no real external scientist-approved directional change. Public Truth Ledger now presents a read-only versioned score/review provenance panel on a separate draft PR. v0.25 all nine labs x three modes at desktop/mobile-width Chromium passed comprehensive browser and axe A/AA CI on main (39785099189). Full release human scientific review, physical iPhone Safari and independent screen-reader QA remain open.",
+  "releaseStatus": "HAMMER v0.1 AI-only scientific review policy and deterministic adversarial experiment-design forge in isolated PR. No human scientific reviewer planned or required; retired GitHub-human-only score modification path is disabled. Provider-backed two-AI-model source-first advisory reviews are optional and require real credentials; none have run. All synthetic model scores do not alter the neutral 50 compass. v0.25 automated browser and WCAG testing remains previously passed; physical device accessibility not certified.",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
     "score": 50,
@@ -43,13 +43,21 @@
       "reviewer",
       "scoreMapping"
     ],
-    "humanScientificReviewRequired": true,
+    "humanScientificReviewRequired": false,
     "automaticMeterChange": false,
     "sourceReviewMustPrecedeProposal": true,
     "localReviewerModule": "tools/truth-engine/review.cjs",
-    "reviewerGate": "v0.2: check, record and reverse for neutral fixtures, recordReviewed and reverseReviewed with trusted live GitHub API only for real directional changes. Synthetic response injection removed from production interface; API-verified recognized distinct PR reviewer for exact evidence SHA needed. No browser mutation and no automatic score promotion; current human peer science signoff still pending.",
+    "reviewerGate": "HAMMER AI-only policy: two distinct authenticated AI provider model invocations study source packets before independent adversarial critique. No human scientific review required. An AI review is advisory, cannot independently authenticate citations or physical measurements, and cannot directly write a direction-changing decision. Retired human-only recordReviewed/reverseReviewed reject all live changes; future score authorization needs reproducible measured discriminator and versioned AI review record.",
     "noAutoWrites": true,
-    "humanReviewVerification": "tools/truth-engine/github-approval.cjs verifies actual PR reviewer identity, newest decision, non-author distinction, and exact current evidence commit; synthetic fixtures are not production approval."
+    "humanReviewVerification": "Historical GitHub human review validator archived for old test fixtures only; it cannot authorize new score movement.",
+    "aiScientificReviewRequired": true,
+    "aiModelsMinimum": 2,
+    "reviewModelRoles": [
+      "original-source methods analysis",
+      "independent adversarial falsification"
+    ],
+    "aiReviewRunner": "tools/hammer/ai-panel.cjs",
+    "aiReviewSecurity": "OPENAI_API_KEY remains server-side; two distinct model IDs (HAMMER_MODEL_A/B), genuine provider response IDs and study-before-critique; no browser secret or synthetic reviewer credentials."
   },
   "proposals": [],
   "changeLedger": [],
@@ -60,10 +68,11 @@
   },
   "releaseAcceptance": {
     "w2001": "verified: local data schema CI",
-    "w2002": "R012 production recordReviewed/real API refuses response injection and requires GITHUB_TOKEN, current open non-draft PR into main, exact head SHA, distinct recognized repo reviewer and current approval; tests pass with synthetic pure apiApproval, but actual human scientific approval remains absent.",
-    "w2003": "R012 directional reversals now also require trusted live GitHub review entrypoint; old direct reversal could otherwise make an unauthorized directional change. Source and science-packet binding still needs production end-to-end human gate.",
-    "w2004": "S-003-R003 read-only public versioned proposal/decision ledger and human reviewer gate displayed in the Truth Ledger on draft branch, with direct canonical GitHub source/reviewer-code links. User browser has no write permissions or tokens; CI needs to validate new panel and human assistive-technology/real-science approval is still pending.",
-    "v025": "S-003-R002 all nine discipline reading/presentation/instrument modes × two viewport widths passed Chromium browser and axe WCAG A/AA serious/critical automation at main workflow 39785099189, with keyboard presentation Next/Previous tests. Real physical iOS Safari and human screen-reader acceptance not performed."
+    "w2002": "Legacy human-only API gate disabled as owner explicitly chooses no human scientific reviewers; HAMMER two-AI model source study and adversarial review supported in trusted command-line runner. No live AI call or scientist approval claimed.",
+    "w2003": "Directional score writes and reversals currently fail closed; no direct JSON approval receipts, AI consensus or synthetic predictions can authorize them. Future fully reproduced measured evidence+AI review pipeline required.",
+    "w2004": "Public Truth Engine provenance panel is read only and now explains AI-only advisory review policy and lack of published measured score-changing decisions.",
+    "v025": "S-003-R002 all nine discipline reading/presentation/instrument modes × two viewport widths passed Chromium browser and axe WCAG A/AA serious/critical automation at main workflow 39785099189, with keyboard presentation Next/Previous tests. Real physical iOS Safari and human screen-reader acceptance not performed.",
+    "hammer": "HAMMER v0.1 computes minimax Jensen-Shannon hypothesis wedges, adversarial nuisance matches and scientific no-go outcomes, and does not move the central editorial score. Study-first AI review runner is configured but not executed."
   },
   "reproductionChecks": {
     "version": "S-002-R008",

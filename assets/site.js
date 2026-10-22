@@ -88,21 +88,21 @@ function renderTruthEngine(){
   :'<span>No verified evidence commit reference</span>';
  const receipts=decisions.map(d=>{
   const a=d.approvalEvidence;
-  const reviewed=a&&a.kind==='github-human-approval'&&a.verifiedVia==='github-rest';
+  const reviewed=a&&a.kind==='provider-ai-panel-review'&&a.verifiedVia==='live-model-api';
   const reviewUrl=reviewed&&typeof a.reviewUrl==='string'&&/^https:\/\/github\.com\/nikahanghojjati-oss\/worldline-lab\/pull\/\d+$/.test(a.reviewUrl)?a.reviewUrl:null;
   return '<li><strong>'+html(d.id||'Unidentified record')+' · '+html(d.kind||'decision')+'</strong> · '+html(d.oldScore)+' → '+html(d.newScore)+
    '<p>'+html(d.reason||'No published reason')+'</p><p>'+commitLink(d.evidenceCommit)+
-   (reviewUrl?' · <a href="'+html(reviewUrl)+'" target="_blank" rel="noopener noreferrer">Recorded review receipt (verify on GitHub) ↗</a>':' · No linked verified external reviewer receipt shown')+'</p></li>';
+   (reviewUrl?' · <a href="'+html(reviewUrl)+'" target="_blank" rel="noopener noreferrer">Stored AI-panel receipt reference (verify provenance) ↗</a>':' · No provider-backed AI-panel review receipt shown')+'</p></li>';
  }).join('');
  host.innerHTML='<div class="kicker">TRUTH ENGINE v0.2 · READ-ONLY PROVENANCE</div><h3>How a scientific verdict could be revised</h3>'+
  '<p>This page reads the versioned review data published in GitHub. Visitors cannot submit an approval, update a score, or authorize a reversal here. A stored receipt is an audit claim, not proof that this browser independently queried GitHub reviewers.</p>'+
  '<div class="truth-engine-status"><strong>Recorded directional decisions: '+decisions.length+'</strong><span>Proposals queued: '+proposals.length+'</span><span>Central editorial reference: '+html(meter)+'/100 (not an empirical probability)</span></div>'+
- '<p><strong>Review gate:</strong> '+(rules.humanScientificReviewRequired?'Independent human scientific GitHub review is required for directional changes.':'Review requirement needs verification.')+
+ '<p><strong>Review gate:</strong> '+(rules.aiScientificReviewRequired?'Two distinct AI model reviewers must study original-source material and independently challenge the science; their agreement alone is not evidence or permission to move the score. No human scientific approval is expected.':'AI review policy needs verification.')+
  ' '+(rules.automaticMeterChange===false?'There is no automatic score promotion.':'Automatic decision policy requires inspection.')+'</p>'+
  (aligned?'':'<p class="truth-engine-warning" role="alert">The Truth Engine baseline and current published meter differ. Treat this as unresolved provenance until audited.</p>')+
  (decisions.length?'<ol class="truth-engine-records">'+receipts+'</ol>':
  '<p class="truth-engine-empty">No approved directional score-changing decision has been published in the Truth Engine ledger. Existing historical no-change audits and model-specific findings remain visible above.</p>')+
- '<p class="truth-engine-links"><a href="'+source+'" target="_blank" rel="noopener noreferrer">Inspect complete versioned review data on GitHub ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/tools/truth-engine/github-approval.cjs" target="_blank" rel="noopener noreferrer">Inspect trusted human-approval rules ↗</a></p>';
+ '<p class="truth-engine-links"><a href="'+source+'" target="_blank" rel="noopener noreferrer">Inspect complete versioned review data on GitHub ↗</a> · <a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/tools/hammer/ai-panel.cjs" target="_blank" rel="noopener noreferrer">Inspect source-first AI review rules ↗</a></p>';
 }
 
 function renderVerdictAudit(){

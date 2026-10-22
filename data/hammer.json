@@ -1,0 +1,273 @@
+{
+  "schema": "worldline-hammer/v1",
+  "mode": "theory-only",
+  "updated": "2026-10-22",
+  "name": "HAMMER — Hypothesis Adversarial Mapping, Measurement & Evidence Refinement",
+  "mission": "Find an observable that separates rival physical theories; attack its assumptions with nuisance models before making an evidence claim.",
+  "reviewProtocol": {
+    "reviewerType": "AI-only; no human scientist impersonation",
+    "roles": [
+      "primary-source methods examiner",
+      "adversarial falsification and alternative-model examiner"
+    ],
+    "mandatoryBeforeScientificAcceptance": [
+      "distinct named AI model identities and genuine provider response IDs",
+      "source-specific study packets and depth labels",
+      "independent reasoning packets and explicit objections",
+      "reproducible measured input with uncertainties and controls",
+      "validated model-discriminating likelihood",
+      "traceable GitHub evidence SHA and reversible decision"
+    ],
+    "reviewStatus": "not-executed",
+    "approvedDirectionalReviews": 0,
+    "policy": "AI panels may recommend but cannot establish physical truth by agreement. AI role-play is not human professor expertise. No model calls are made by this static site."
+  },
+  "designs": [
+    {
+      "id": "HM-001",
+      "title": "Born pointer: Everett versus equilibrium Bohm",
+      "question": "Can the recorded 0/1 outcomes under the ordinary Born measurement class distinguish Everett and Bohmian quantum equilibrium?",
+      "impactScope": "central-ontology",
+      "evidenceClass": "synthetic-theory-only",
+      "costUnits": 1,
+      "outcomes": [
+        "0",
+        "1"
+      ],
+      "sources": [
+        "SRC-066",
+        "SRC-007"
+      ],
+      "researchReport": "research/operational-identifiability-S002-R012.md",
+      "models": [
+        {
+          "id": "everett",
+          "label": "Everett, unitary quantum equilibrium",
+          "variants": [
+            {
+              "assumptions": "matched Born pointer measurement",
+              "p": [
+                0.5,
+                0.5
+              ]
+            },
+            {
+              "assumptions": "matched alternative detector basis",
+              "p": [
+                0.8,
+                0.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bohm",
+          "label": "Bohm, quantum equilibrium",
+          "variants": [
+            {
+              "assumptions": "matched Born pointer measurement",
+              "p": [
+                0.5,
+                0.5
+              ]
+            },
+            {
+              "assumptions": "matched alternative detector basis",
+              "p": [
+                0.8,
+                0.2
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": [
+        "Matched detector settings are paired; crossing configurations in worst-case search is deliberately an overconservative attack, not proof of operational equivalence on its own.",
+        "The precise equality in the matched class is separately established by the R012 derivation."
+      ]
+    },
+    {
+      "id": "HM-002",
+      "title": "Coherence recovery versus stipulated physical loss",
+      "question": "Would a prespecified recombination outcome separate a nearly unitary recovery model from a specifically irreversible-loss model?",
+      "impactScope": "model-dynamics",
+      "evidenceClass": "synthetic-theory-only",
+      "costUnits": 3,
+      "outcomes": [
+        "recovered",
+        "not-recovered"
+      ],
+      "sources": [
+        "SRC-066",
+        "SRC-007"
+      ],
+      "researchReport": "research/operational-identifiability-S002-R012.md",
+      "models": [
+        {
+          "id": "unitary",
+          "label": "Specified imperfect unitary reversal",
+          "variants": [
+            {
+              "assumptions": "toy visibility .90",
+              "p": [
+                0.9,
+                0.1
+              ]
+            },
+            {
+              "assumptions": "adversarial visibility .80",
+              "p": [
+                0.8,
+                0.2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "loss",
+          "label": "Specified physical irrecoverable-loss hypothesis",
+          "variants": [
+            {
+              "assumptions": "toy recovery .50",
+              "p": [
+                0.5,
+                0.5
+              ]
+            },
+            {
+              "assumptions": "adversarial recovery .65",
+              "p": [
+                0.65,
+                0.35
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": [
+        "Assumed bounds are invented design stress tests, not source-measured collapse parameters.",
+        "Even a physical-loss exclusion is not a measurement of how many Everett branches are real."
+      ]
+    },
+    {
+      "id": "HM-003",
+      "title": "The nuisance impostor: false discovery trap",
+      "question": "Does an apparent distinction survive when a rival theory admits a plausible nuisance configuration that exactly copies the predicted outcomes?",
+      "impactScope": "model-dynamics",
+      "evidenceClass": "synthetic-theory-only",
+      "costUnits": 2,
+      "outcomes": [
+        "fringe",
+        "no-fringe"
+      ],
+      "sources": [
+        "SRC-066",
+        "SRC-007"
+      ],
+      "researchReport": "research/operational-identifiability-S002-R012.md",
+      "models": [
+        {
+          "id": "unitary",
+          "label": "Toy unitary visibility",
+          "variants": [
+            {
+              "assumptions": "nominal coherent signal",
+              "p": [
+                0.9,
+                0.1
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alternative",
+          "label": "Toy alternative with unbounded instrumental nuisance",
+          "variants": [
+            {
+              "assumptions": "nominal alternative",
+              "p": [
+                0.55,
+                0.45
+              ]
+            },
+            {
+              "assumptions": "alternative plus unconstrained false-positive channel",
+              "p": [
+                0.9,
+                0.1
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": [
+        "The exactly matched nuisance case is an intentional counterexample to premature discrimination.",
+        "No empirical measurements or nuisance range calibration are provided."
+      ]
+    },
+    {
+      "id": "HM-004",
+      "title": "Reference-arm calibration as a nuisance cross-check",
+      "question": "Can a concurrently prepared reference arm with a predeclared diagnostic outcome constrain a detector-loss impostor when interpreted alongside the coherence-recovery arm?",
+      "impactScope": "model-dynamics",
+      "evidenceClass": "synthetic-theory-only",
+      "costUnits": 2,
+      "outcomes": [
+        "reference-pass",
+        "reference-fail"
+      ],
+      "sources": [
+        "SRC-066",
+        "SRC-007"
+      ],
+      "researchReport": "research/operational-identifiability-S002-R012.md",
+      "models": [
+        {
+          "id": "unitary",
+          "label": "Specified imperfect unitary reversal",
+          "variants": [
+            {
+              "assumptions": "toy reference pass 0.85 after presumed calibration",
+              "p": [
+                0.85,
+                0.15
+              ]
+            },
+            {
+              "assumptions": "adversarial imperfect reference pass 0.75",
+              "p": [
+                0.75,
+                0.25
+              ]
+            }
+          ]
+        },
+        {
+          "id": "loss",
+          "label": "Specified physical irrecoverable-loss hypothesis",
+          "variants": [
+            {
+              "assumptions": "toy reference pass 0.55 under stipulated loss",
+              "p": [
+                0.55,
+                0.45
+              ]
+            },
+            {
+              "assumptions": "adversarial reference pass 0.62 under stipulated loss",
+              "p": [
+                0.62,
+                0.38
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": [
+        "This arm is an invented model-design exercise with no apparatus construction, source-fitted nuisance bound, or measured counts.",
+        "Conditional independence from the coherence-recovery arm has not been established; shared detector drift could invalidate multiplying their likelihoods.",
+        "Any successful discrimination would concern specified physical-loss dynamics, not whether Everett branches exist."
+      ]
+    }
+  ]
+}
