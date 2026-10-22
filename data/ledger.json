@@ -5,8 +5,8 @@
     "score": 59,
     "reference": 50,
     "label": "Exploratory orientation",
-    "method": "59/100 is a provisional editorial illustration, NOT an empirical probability. Research audits VC-003–005 include targeted original-source checks of model mathematics and compact-horizon quantum-field obstructions with counterarguments. None provides experiments distinguishing realized histories.",
-    "empiricalVerdict": "No decisive evidence establishes physically branching timelines or backward time travel."
+    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search.",
+    "empiricalVerdict": "Unresolved: observers record one sequence, but that does not experimentally determine how many alternative quantum histories are physically real."
   },
   "entries": [
     {
@@ -126,14 +126,14 @@
       "impact": 0,
       "strength": "Interpretive framework",
       "question": "Does quantum mechanics require multiple realized histories?",
-      "finding": "The many-worlds interpretation describes multiple branches; standard quantum predictions alone do not establish a unique experimental confirmation of those branches.",
+      "finding": "Everett, Bohmian particle configurations and objective-collapse models describe observed quantum outcomes with different physical ontologies; current reviews do not uniquely count actual branches.",
       "source": "Stanford Encyclopedia of Philosophy · Many-Worlds Interpretation",
       "url": "https://plato.stanford.edu/entries/qm-manyworlds/",
       "place": "Scholarly reference",
       "lat": null,
       "long": null,
       "locationType": "Reference work",
-      "notes": "Quantum branches are not automatically navigable timelines."
+      "notes": "See SRC-007/010/011/012/042/048/058–061; NOTE-026–030; field-note-004. The central test requires differing physical predictions, not a vote from Bell tests."
     },
     {
       "id": "WL-006",
@@ -180,6 +180,46 @@
         "NOTE-016",
         "research/field-note-002.md"
       ]
+    },
+    {
+      "id": "WL-008",
+      "date": "2026-10-21",
+      "title": "One observer record cannot establish how many physical histories are real",
+      "field": "Foundations",
+      "kind": "Interpretation comparison",
+      "status": "Empirically unresolved",
+      "direction": "Neutral",
+      "impact": 0,
+      "strength": "Theories can have overlapping observable predictions",
+      "question": "Does our physical universe contain one actual timeline or multiple physically real outcome histories?",
+      "finding": "One outcome stream is observed by an individual. Everettian, Bohmian and objective-collapse theories differ in ontology while sharing much empirical quantum behavior; certain collapse dynamics can be tested conditionally.",
+      "source": "Everett 1957, Bohm 1952, GRW 1986, Zurek 2003, loophole-free Bell 2015",
+      "url": "https://plato.stanford.edu/entries/qm-manyworlds/",
+      "place": "Foundational scientific literature",
+      "lat": null,
+      "long": null,
+      "locationType": "Synthesis, no unique location",
+      "notes": "SRC-007/010/011/012/042/048/058–061; NOTE-026–030 and field-note-004. Bell tests are not proof of branching."
+    },
+    {
+      "id": "WL-009",
+      "date": "2026-10-21",
+      "title": "Cosmological bubble regions are not Everett quantum histories",
+      "field": "Cosmology",
+      "kind": "Observation-based model test",
+      "status": "Specific CMB null search, no confirmed bubble",
+      "direction": "Neutral",
+      "impact": 0,
+      "strength": "Condition-dependent astronomical constraints",
+      "question": "Do other inflationary cosmological regions exist, and are they quantum branches?",
+      "finding": "The WMAP 7-year bubble-collision search did not warrant augmenting the reference cosmological model. Bubble regions are distinct from Everett branches; the null result does not exclude all inaccessible regions.",
+      "source": "Feeney et al., Physical Review Letters 2011 and Physical Review D 2015",
+      "url": "https://doi.org/10.1103/PhysRevLett.107.071301",
+      "place": "WMAP cosmic microwave background sky data",
+      "lat": null,
+      "long": null,
+      "locationType": "Astronomical survey",
+      "notes": "SRC-062/063, NOTE-031, field-note-004; no observed separate bubble."
     }
   ]
 }
