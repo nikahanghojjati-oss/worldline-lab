@@ -37,4 +37,19 @@ const decision=record(proposal,base,{sha:'b'.repeat(40),id:'DEC-TEST',date:'2026
 const reversed=reverse(decision,50,{sha:'c'.repeat(40),id:'DEC-UNDO',date:'2026-10-21',reason:'TEST reversal'});
 assert.equal(reversed.reverses,'DEC-TEST');
 console.log('PASS provisional review and reversible append-only decision fixtures');
+const labRooms=base.research.disciplines,stages=base.research.programStages;
+assert.equal(labRooms.length,9,'nine discipline syllabi expected');
+assert.equal(new Set(labRooms.map(x=>x.slug)).size,9,'unique lab slug');
+assert.equal(stages.length,8,'eight research stages expected');
+for(const s of stages)assert.ok(s.gate&&s.deliverable,'explicit acceptance gate '+s.id);
+const roomTotals=[];
+for(const room of labRooms){
+ assert.ok(room.venue.readingPlan&&room.venue.presentationRoom&&room.venue.interactiveLaboratory,'three preserved room views '+room.slug);
+ const sourceSet=new Set(room.additionalSourceIds||[]);
+ const indexed=base.library.works.filter(w=>room.readingFields.includes(w.field)||sourceSet.has(w.id));
+ assert.ok(indexed.length>0,'room has source reading list '+room.slug);
+ for(const w of indexed)if(w.access==='fully-studied')assert.ok(base.notes.notes.some(n=>n.workId===w.id&&n.stage==='fully-studied'&&n.fullTextRead===true),'genuine completed work '+w.id);
+ roomTotals.push(room.slug+':'+indexed.length);
+}
+console.log('PASS v0.25 nine reading room data QA and eight stage check: '+roomTotals.join(', '));
 console.log('Truth Engine fixtures PASS, baseline: '+JSON.stringify(pass.counts));
