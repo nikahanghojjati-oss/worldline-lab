@@ -8,10 +8,10 @@
     "minutes": null,
     "reason": "Not exposed to the GitHub Pages website."
   },
-  "state": "ACTIVE · S-002-R007 v0.2 v0.25 acceptance work",
-  "activeWork": "After ten primary articles in R006, R007 implements trusted v0.2 reviewer proposal validation and append-only decision reversal test fixtures plus CI-backed static v0.25 nine-lab/eight-program-stage acceptance. No autonomous score movement and no release completion claim. Scientific 75% research priority maintained across R006–R007, no measured effort telemetry.",
-  "lastVerified": "GitHub run 39721300875 successful on W20-02/03/25 static acceptance fixtures. Source count 74 works, 25 full original-main-text reviews, 62 notes; ledger 17 claims, 7 model movements, editorial 50. Trusted node proposal/reversal code in tools/truth-engine/review.cjs, current release policy in data/truth-engine.json, report research/release-020-025-verification-S002-R007.md. No browser interaction/mobile QA independently demonstrated.",
-  "nextStep": "S-002-R008: make v0.2 reviewer decision-to-verdict-audit integration executable with real immutable reviewed commit and score mapping under human review; separately test all nine v0.25 lab rooms, back/filter/keyboard/mobile interactions in real browser. Scientifically reconstruct comparable frequency/geometry-specific XENON/Ge/LISA/molecule CSL limits and independently reproduce at least one published numerical confidence analysis.",
+  "state": "ACTIVE · S-002-R008 reproducible two-model CSL parameter bounds",
+  "activeWork": "S-002-R008: independently reconstructed Donadi 2021 germanium Γ(577,1) 95% posterior from published zc576 zb506 and coefficient2.0986, including BOTH signal/background +1 counts, λ<5.19732362e-13/s at rC1e-7m; Dai 2024 LISA Eq10 from Brownian PSD and test-cube SI gives λ<8.36417404e-11/s. Source-reported XENON 90% profile limit converted to 3e-17/s. Compared molecule and LISA rotational without invented curves or pseudo-joint likelihood. Code, tests, machine-readable bounds, public Truth Ledger five-channel table, J-009, WL-018/MOVE-008, VC-012. 75% research/25% website priority continued, no invented time tracking.",
+  "lastVerified": "GitHub Truth Engine CI run 39723414609 completed success: gamma CDF/quantile, both-offset Ge λ posterior reproduction at ~0.0515% difference to paper's rounded value, independent LISA SI Eq10 ~0.77% difference, XENON units and r² versus r^-2 slope, five-channel data consistency plus public JS syntax. 74 sources, 25 original full studies, 64 notes, 18 evidence entries, 8 model-specific movements, VC-012 50→50 editorial neutral. Public Pages latest checkpoint pending final run confirmation; no live mobile/browser QA performed.",
+  "nextStep": "S-002-R009 science-first: obtain XENON 2026 full Supplemental Material's atomic rate and detector response, check likelihood/data accessibility for independent 9.1 sigma reconstruction; then reconstruct one actual LISA rotational PSD-to-CSL torque geometry curve and Fein molecular visibility exclusion where source data available. Integrate actual controlled reviewer approval and reversal (v0.2), and real nine-lab/keyboard/mobile checks (v0.25). Do not create fake joint confidence or shift neutral 50 on non-ontology tests.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -44,7 +44,9 @@
     "S-002-R006 ten published main texts critically reviewed, but associated raw detector event data/likelihood, full supplements, and some numerical proof computations not independently replicated.",
     "Main Everett versus equilibrium Bohmian quantum experiment equivalence persists; no physical histories-count experiment in these ten originals.",
     "v0.2 local reviewer/reversal code tested only with synthetic record fixtures; not yet a full human-approved integrated production change transaction.",
-    "v0.25 nine-room and eight-stage source data CI passes but live mobile/keyboard behavior not independently observed in browser."
+    "v0.25 nine-room and eight-stage source data CI passes but live mobile/keyboard behavior not independently observed in browser.",
+    "R008 aggregate-data reconstruction corrects initial omitted signal +1 pseudo-count and documents full Eq11 double offset; no false claim of raw germanium detector data or Geant4 background replication.",
+    "R008 XENON 2026 90% likelihood, 9.1σ and source curve remain publisher-reported, not independently fitted; raw detector events author-request only. Molecule numeric and LISA rotational full kernel uncomputed. Different statistical semantics cannot be naively combined."
   ],
   "sessionHistory": [
     {
@@ -96,8 +98,8 @@
       "date": "2026-10-21",
       "label": "Predictive tests of physical history ontology",
       "objective": "Determine whether any measurement distinguishes one Bohmian actual history from multiple Everett branch histories and separately test genuinely modified collapse dynamics.",
-      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text. R003: original Everett 1957 whole-main-text critical reading; source-provenance limits; v0.2 and v0.25 remaining-work 36 science/12 website effort points plan. R004: first Truth Engine local schema CI, negative tests, provenance audit and 100-unique-researcher-ID integrity fix; no new physics source read. R005: historical arbitrary 59 identified and corrected to neutral editorial 50, original full-main-text XENONnT 2026 seven-page paper critically studied; exact model-parameter exclusion logged separately as MOVE-001 in Truth Ledger with report and public model-specific movement display. R006 ten original main-text discriminator candidates and six specific model-claim updates, VC-011 50 editorial neutral; scientific main answer unresolved. R007: v0.2 reviewer counterevidence/commit gate, append-only reversal primitives; nine-lab syllabus and eight-stage acceptance fixtures passing CI, existing site rooms preserved.",
-      "status": "ACTIVE · S-002-R007 release gate candidate, data QA passed",
+      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text. R003: original Everett 1957 whole-main-text critical reading; source-provenance limits; v0.2 and v0.25 remaining-work 36 science/12 website effort points plan. R004: first Truth Engine local schema CI, negative tests, provenance audit and 100-unique-researcher-ID integrity fix; no new physics source read. R005: historical arbitrary 59 identified and corrected to neutral editorial 50, original full-main-text XENONnT 2026 seven-page paper critically studied; exact model-parameter exclusion logged separately as MOVE-001 in Truth Ledger with report and public model-specific movement display. R006 ten original main-text discriminator candidates and six specific model-claim updates, VC-011 50 editorial neutral; scientific main answer unresolved. R007: v0.2 reviewer counterevidence/commit gate, append-only reversal primitives; nine-lab syllabus and eight-stage acceptance fixtures passing CI, existing site rooms preserved. R008: independently computed original Ge Gamma/Bayesian 95%-credible and LISA translational noise bounds; math report, original cross-check, CI tests, five-channel public CSL comparison, MOVE-008 source audit and no central score manipulation.",
+      "status": "ACTIVE · S-002-R008 quantitative experiment-sourced reconciliation",
       "scope": "Original-source literature, competing quantum ontologies and physics / quantum computing / chemistry laboratory research presentation",
       "tokenCount": null,
       "elapsedMinutes": null,
@@ -121,7 +123,10 @@
           "S-002-R006: ten original main text papers critically reviewed; full source tally 25/400, 62 notes, 74 distinct works; source-linked batch 003.",
           "S-002-R006: model-specific ledger WL-012–017 and movements MOVE-002–007; central VC-011 50→50 with explicit physical nondiscrimination and shared LISA-data controls.",
           "S-002-R007: trusted reviewer local gate in tools/truth-engine/review.cjs and synthetic acceptance/reversal negative fixtures pass Node GitHub Actions workflow 39721300875.",
-          "S-002-R007: nine discipline reading queues, three view-mode declarations each, correct ✓ note depth and eight stages validated as static repo data; published v0.2/0.25 release test report."
+          "S-002-R007: nine discipline reading queues, three view-mode declarations each, correct ✓ note depth and eight stages validated as static repo data; published v0.2/0.25 release test report.",
+          "S-002-R008: Ge zc576, zb506, a2.0986, Γ(577,1) q95=617.071 and BOTH +1 offsets (508) => λ95=5.19732362463e-13/s, paper rounds 5.2e-13. Independently checked Node and SciPy; physical prior sensitivity documented.",
+          "S-002-R008: LISA M1.928kg, ρ19881kg/m³, b46mm and ΔPSD0.075 fm²s^-4Hz^-1 => λ=8.364174e-11/s, paper 8.3e-11. Opposite rC slope to X-ray. XENON reported 90% limit converted to 3e-17/s; no raw fit.",
+          "S-002-R008: report and executable script, JSON five-channel comparison, source note addenda NOTE-063/064, WL-018/MOVE-008, VC-012 no-change, public evidence table and successful numeric/JavaScript syntax CI run 39723414609."
         ],
         "unresolved": [
           "Complete original Everett 1957 and GRW 1986 primary text review remains open.",
@@ -134,9 +139,10 @@
           "Independent XENONnT signal-model appendix, raw data and 9.1σ profile likelihood replication unavailable; avoid inferring exclusion of original discrete GRW or all collapse models.",
           "Distinguishing Everett physical branch ontology vs Bohmian one-configuration equilibrium remains central open identifiability issue; precise test needed.",
           "Separate raw detector data, likelihood and independent mathematical replication; v0.2 proposed revision human review and v0.25 browser/site testing.",
-          "Real human-approved prior-commit score review workflow and interactive browser/mobile accessibility QA required before declaring v0.2/v0.25 release accepted."
+          "Real human-approved prior-commit score review workflow and interactive browser/mobile accessibility QA required before declaring v0.2/v0.25 release accepted.",
+          "Full XENON nuisance/background fit 9.1sigma, Fein molecule full wave-visibility exclusion kernel and LISA torque angular response not reproduced; no measured Everett-vs-Bohm discriminator."
         ],
-        "next": "S-002-R008: make v0.2 reviewer decision-to-verdict-audit integration executable with real immutable reviewed commit and score mapping under human review; separately test all nine v0.25 lab rooms, back/filter/keyboard/mobile interactions in real browser. Scientifically reconstruct comparable frequency/geometry-specific XENON/Ge/LISA/molecule CSL limits and independently reproduce at least one published numerical confidence analysis."
+        "next": "S-002-R009 science-first: obtain XENON 2026 full Supplemental Material's atomic rate and detector response, check likelihood/data accessibility for independent 9.1 sigma reconstruction; then reconstruct one actual LISA rotational PSD-to-CSL torque geometry curve and Fein molecular visibility exclusion where source data available. Integrate actual controlled reviewer approval and reversal (v0.2), and real nine-lab/keyboard/mobile checks (v0.25). Do not create fake joint confidence or shift neutral 50 on non-ontology tests."
       }
     }
   ],
@@ -202,15 +208,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "S-002-R007 v0.2 reviewed proposal/reversible audit primitives and v0.25 static nine-lab + eight-stage QA",
+    "milestoneName": "S-002-R008 independently reconstructed two paper-level CSL numerical bounds and published five-channel model-consistent comparison",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No observed context/timing depletion. Research and release phases coherent; significant unfinished live browser and approved score revision integration gates.",
-    "decisionBasis": "CONTINUE. Ten original main texts studied in R006 and six real model-specific ledger updates; R007 added unit-tested reviewer/rollback and static nine-lab/eight-stage source QA. Site v0.2/v0.25 original features not fully QA-certified, no evidence to move neutral ontology score 50. Focus next on experimentally reproducible common-model likelihood, governed release controls and actual device QA.",
-    "updatePolicy": "Re-fetch fresh state; update seven streams, complete transition decision, linked science note/ledger/VC audit if new physics, actual tested source/site evidence, and per-round log every substantive round. Never manufacture measured time/score probabilities.",
+    "documentedContinuityRisk": "No known instrumented model token/time usage nor documented current-session loss of coherence. Original source math, public versioned code and two dynamic experiment channels now traceable; remaining raw-data and site acceptance work can continue.",
+    "decisionBasis": "CONTINUE. Genuine experimental-parameter evidence validation advanced via exact Ge gamma posterior and LISA Eq10 SI computation; 5-channel comparison preserves Bayesian vs frequentist vs conservative noise-statistic differences. None distinguishes Everett from equilibrium Bohm physical history, so VC-012 50→50 neutral editorial no-change; scientific model claims advanced in WL-018/MOVE-008. CI passed. v0.2 human review and v0.25 interactive browser QA remain incomplete.",
+    "updatePolicy": "After each substantive scientific or website round, re-fetch authoritative data, verify actual computational/empirical source distinctions, update 7 workstreams and all transition keys, record explicit why model claim moved but not central ontology, next test and correct source review depth, commit before user claims.",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -218,56 +224,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Unchanged compass neutral editorial 50; source-driven Journal J-008 offers ten-paper research report and 25/400 full study count.",
-      "next": "Actual phone and keyboard UX QA outstanding; not final release.",
+      "latest": "Neutral editorial 50 and main physics question retained; Journal J-009 publishes actual two paper-bound reconstructions, not model-count conclusions.",
+      "next": "Live browser/keyboard/phone visual inspection still not independently completed.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "All 17 canonical evidence records and 7 scientific movements preserved; new trusted reviewer local proposal and reversal decision structures tested without changing central 50.",
-      "next": "No real approved nonzero score revision or real reversal yet; must not invent commit history.",
+      "latest": "WL-018 and MOVE-008 quantify independently computed Ge 95% Bayesian source-count bound 5.1973236e-13/s and LISA reported-noise geometry bound 8.364174e-11/s, qualified XENON published 90% limit; VC-012 50→50 scientific ontology unchanged.",
+      "next": "These are numerical source-input replications, not new raw detector observations or a joint profile likelihood.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "74 authentic original indexed works, 62 study notes, 25 full critical main originals; W25 CI verifies ✓ belongs to a full-study note.",
-      "next": "Separate raw data and supplementary replication open.",
+      "latest": "74 distinct sources, 25/400 full whole-main-text critical original studies preserved; 64 notes with two NEW equation-level reproduction addenda NOTE-063/064 that DO NOT increase full study count.",
+      "next": "XENON unbinned raw event fit, molecule fringe events and LISA torque-integral data still not independently reproduced.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "Ten original article scientific audit published, proposal reviewer now requires falsifiable physical difference, actual measurement and controls.",
-      "next": "Next replicate compatible CSL parameter exclusions rather than accumulating literature for its own sake.",
+      "latest": "J-009 and full S-002-R008 report derive gamma 95%-quantile with both +1 mean offsets, run LISA SI acceleration Eq10, compare five experimental mechanisms; independent SciPy cross-check and CI numeric assertions.",
+      "next": "Check experimental nuisance/Geant4/likelihood; no inference Everett/Bohm likelihood from CSL exclusion.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Static CI verifies nine lab reading syllabi, at least one source each, full-status notes, three retained lab room modes and all eight program gates.",
-      "next": "Live nav/back/filter, touch-screen and keyboard QA remain outstanding; not fully v0.25 signed off.",
+      "latest": "Physics, quantum computing and chemistry now feature source-linked quantified CSL reproduction highlights and a five-channel model-valid comparison in Truth Ledger; nine syllabi/eight-stage status unchanged.",
+      "next": "CSL curves shown numeric only where source inputs support them; full v0.25 mobile navigation and source link checks remain open.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "No new markers or invented geolocation; preserved original 2D/concept atlas.",
-      "next": "v0.3 geographic attribution/3D globe remains future.",
+      "latest": "No fictitious pins: experimental apparatus contexts in report without adding unverified coordinates.",
+      "next": "Original v0.3 geographic-coordinate provenance/globe roadmap remains future.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published GitHub-backed record; browser verification open",
-      "latest": "S-002-R007 seven-stream checkpoint records v0.2 two unit-level reviewer/reversal features and v0.25 nine-room static source QA; still CONTINUE.",
-      "next": "Release certification requires governed integration and live browser testing.",
+      "latest": "S-002-R008 actual summary counts, seven streams, science-method correction of an initially missed Ge +1 pseudo-count, model-specific ledger movement, CI, blockers and decision CONTINUE checkpoint.",
+      "next": "No real-use token/time measurements; no claim final v0.2/v0.25 human approval/phone QA.",
       "lastReviewedOn": "2026-10-21"
     }
   ],
@@ -1759,6 +1765,129 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "CONTINUE. Ten original main texts studied in R006 and six real model-specific ledger updates; R007 added unit-tested reviewer/rollback and static nine-lab/eight-stage source QA. Site v0.2/v0.25 original features not fully QA-certified, no evidence to move neutral ontology score 50. Focus next on experimentally reproducible common-model likelihood, governed release controls and actual device QA.",
       "nextAction": "S-002-R008: make v0.2 reviewer decision-to-verdict-audit integration executable with real immutable reviewed commit and score mapping under human review; separately test all nine v0.25 lab rooms, back/filter/keyboard/mobile interactions in real browser. Scientifically reconstruct comparable frequency/geometry-specific XENON/Ge/LISA/molecule CSL limits and independently reproduce at least one published numerical confidence analysis."
+    },
+    {
+      "id": "S-002-R008",
+      "sessionId": "S-002",
+      "date": "2026-10-21",
+      "scope": "Model-consistent white-noise CSL numerical bounds from molecules, Ge/Xe X-rays and LISA force/torque. Independently reproduce source-input Donadi Gamma posterior and Dai translational LISA Eq10, preserve incompatible statistical semantics.",
+      "files": [
+        "research/csl-bound-reconstruction-S002-R008.md",
+        "tools/truth-engine/csl-reproduce.cjs",
+        "tools/truth-engine/test.cjs",
+        "data/csl-exclusion-comparison.json",
+        "data/reading-notes.json",
+        "data/ledger.json",
+        "data/library.json",
+        "data/research.json",
+        "data/truth-engine.json",
+        "assets/site.js",
+        "assets/readability.css",
+        "index.html",
+        "ROADMAP.md",
+        "data/sessions.json"
+      ],
+      "verified": "Ge 95% Bayesian gamma posterior from published counts and both +1 offsets: lambda_95 5.19732362463e-13/s, source 5.2e-13; LISA 2024 PSD Eq10 gives lambda upper 8.36417404e-11/s, source 8.3e-11. Independent Node and SciPy mathematical implementations; github CI run 39723414609 success incl source comparison JSON and JS syntax. XENON λ/r² 90% conversion implies 3e-17/s at rC1e-7; author 9.1σ NOT independently recalculated. Molecule and rotation channels no invented numeric curve, no combined model confidence or raw detector repl.",
+      "research": {
+        "worksCatalogued": 74,
+        "fullyStudiedWorks": 25,
+        "readingNotes": 64,
+        "fullStudySourceDepth": "0 additional full papers in targeted R008 math replication; source ORIGINAL full texts already reviewed R005/R006; two new numerical study addenda NOTE-063/064 are NOT full studies.",
+        "scientificMovements": 8,
+        "ledgerEntries": 18,
+        "report": "research/csl-bound-reconstruction-S002-R008.md",
+        "code": "tools/truth-engine/csl-reproduce.cjs",
+        "comparison": "data/csl-exclusion-comparison.json",
+        "lastResearchRound": "S-002-R008"
+      },
+      "verdict": {
+        "oldScore": 50,
+        "newScore": 50,
+        "status": "no-change",
+        "auditId": "VC-012",
+        "scientificClaimMovement": "MOVE-008",
+        "why": "Two reported conditional objective-collapse parameter limits reproduced from primary summary data; no experiment separates Everett many actual branches from equilibrium Bohm one actual configuration. The neutral score is editorial not posterior."
+      },
+      "website": {
+        "siteDataTable": "data/csl-exclusion-comparison.json rendered on Truth Ledger, five independent/correlated channel labels",
+        "CI": "https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39723414609",
+        "pending": "Human reviewer end-to-end score decision UI and real nine-lab/browser accessibility acceptance."
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "Neutral editorial 50 and main physics question retained; Journal J-009 publishes actual two paper-bound reconstructions, not model-count conclusions.",
+          "next": "Live browser/keyboard/phone visual inspection still not independently completed.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Neutral editorial 50 and main physics question retained; Journal J-009 publishes actual two paper-bound reconstructions, not model-count conclusions.",
+          "unchangedOrOpen": "Live browser/keyboard/phone visual inspection still not independently completed."
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "WL-018 and MOVE-008 quantify independently computed Ge 95% Bayesian source-count bound 5.1973236e-13/s and LISA reported-noise geometry bound 8.364174e-11/s, qualified XENON published 90% limit; VC-012 50→50 scientific ontology unchanged.",
+          "next": "These are numerical source-input replications, not new raw detector observations or a joint profile likelihood.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "WL-018 and MOVE-008 quantify independently computed Ge 95% Bayesian source-count bound 5.1973236e-13/s and LISA reported-noise geometry bound 8.364174e-11/s, qualified XENON published 90% limit; VC-012 50→50 scientific ontology unchanged.",
+          "unchangedOrOpen": "These are numerical source-input replications, not new raw detector observations or a joint profile likelihood."
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "74 distinct sources, 25/400 full whole-main-text critical original studies preserved; 64 notes with two NEW equation-level reproduction addenda NOTE-063/064 that DO NOT increase full study count.",
+          "next": "XENON unbinned raw event fit, molecule fringe events and LISA torque-integral data still not independently reproduced.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "74 distinct sources, 25/400 full whole-main-text critical original studies preserved; 64 notes with two NEW equation-level reproduction addenda NOTE-063/064 that DO NOT increase full study count.",
+          "unchangedOrOpen": "XENON unbinned raw event fit, molecule fringe events and LISA torque-integral data still not independently reproduced."
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "J-009 and full S-002-R008 report derive gamma 95%-quantile with both +1 mean offsets, run LISA SI acceleration Eq10, compare five experimental mechanisms; independent SciPy cross-check and CI numeric assertions.",
+          "next": "Check experimental nuisance/Geant4/likelihood; no inference Everett/Bohm likelihood from CSL exclusion.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "J-009 and full S-002-R008 report derive gamma 95%-quantile with both +1 mean offsets, run LISA SI acceleration Eq10, compare five experimental mechanisms; independent SciPy cross-check and CI numeric assertions.",
+          "unchangedOrOpen": "Check experimental nuisance/Geant4/likelihood; no inference Everett/Bohm likelihood from CSL exclusion."
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "published reading queues",
+          "latest": "Physics, quantum computing and chemistry now feature source-linked quantified CSL reproduction highlights and a five-channel model-valid comparison in Truth Ledger; nine syllabi/eight-stage status unchanged.",
+          "next": "CSL curves shown numeric only where source inputs support them; full v0.25 mobile navigation and source link checks remain open.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Physics, quantum computing and chemistry now feature source-linked quantified CSL reproduction highlights and a five-channel model-valid comparison in Truth Ledger; nine syllabi/eight-stage status unchanged.",
+          "unchangedOrOpen": "CSL curves shown numeric only where source inputs support them; full v0.25 mobile navigation and source link checks remain open."
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "No fictitious pins: experimental apparatus contexts in report without adding unverified coordinates.",
+          "next": "Original v0.3 geographic-coordinate provenance/globe roadmap remains future.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "No fictitious pins: experimental apparatus contexts in report without adding unverified coordinates.",
+          "unchangedOrOpen": "Original v0.3 geographic-coordinate provenance/globe roadmap remains future."
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "published GitHub-backed record; browser verification open",
+          "latest": "S-002-R008 actual summary counts, seven streams, science-method correction of an initially missed Ge +1 pseudo-count, model-specific ledger movement, CI, blockers and decision CONTINUE checkpoint.",
+          "next": "No real-use token/time measurements; no claim final v0.2/v0.25 human approval/phone QA.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "S-002-R008 actual summary counts, seven streams, science-method correction of an initially missed Ge +1 pseudo-count, model-specific ledger movement, CI, blockers and decision CONTINUE checkpoint.",
+          "unchangedOrOpen": "No real-use token/time measurements; no claim final v0.2/v0.25 human approval/phone QA."
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "CONTINUE. Genuine experimental-parameter evidence validation advanced via exact Ge gamma posterior and LISA Eq10 SI computation; 5-channel comparison preserves Bayesian vs frequentist vs conservative noise-statistic differences. None distinguishes Everett from equilibrium Bohm physical history, so VC-012 50→50 neutral editorial no-change; scientific model claims advanced in WL-018/MOVE-008. CI passed. v0.2 human review and v0.25 interactive browser QA remain incomplete.",
+      "nextAction": "S-002-R009 science-first: obtain XENON 2026 full Supplemental Material's atomic rate and detector response, check likelihood/data accessibility for independent 9.1 sigma reconstruction; then reconstruct one actual LISA rotational PSD-to-CSL torque geometry curve and Fein molecular visibility exclusion where source data available. Integrate actual controlled reviewer approval and reversal (v0.2), and real nine-lab/keyboard/mobile checks (v0.25). Do not create fake joint confidence or shift neutral 50 on non-ontology tests."
     }
   ]
 }
