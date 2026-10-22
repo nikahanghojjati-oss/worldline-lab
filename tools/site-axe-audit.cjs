@@ -17,7 +17,7 @@ async function scan(page,name,include){
  if(include)axe.include(include);
  const report=await axe.analyze();
  const serious=report.violations.filter(x=>['critical','serious'].includes(x.impact));
- console.log(JSON.stringify({scan:name,violations:report.violations.map(x=>({id:x.id,impact:x.impact,description:x.help,nodes:x.nodes.length,examples:x.nodes.slice(0,2).map(n=>n.target.join(' '))})),serious:serious.length}));
+ console.log(JSON.stringify({scan:name,violations:report.violations.map(x=>({id:x.id,impact:x.impact,description:x.help,nodes:x.nodes.length,examples:x.nodes.slice(0,5).map(n=>({target:n.target.join(' '),detail:(n.any||[]).filter(c=>c.id==='color-contrast').map(c=>({contrast:c.data?.contrastRatio,expected:c.data?.expectedContrastRatio,fg:c.data?.fgColor,bg:c.data?.bgColor,summary:c.message})).slice(0,1)}))})),serious:serious.length}));
  return serious.map(x=>name+': '+x.id+' ('+x.nodes.map(n=>n.target.join(' ')).slice(0,3).join('; ')+')');
 }
 (async()=>{
