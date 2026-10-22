@@ -9,15 +9,18 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "IN PROGRESS",
-  "activeWork": "S-001: mandatory end-of-round project governance saved. Next continue Gödel/Hawking/Deutsch original-source analysis with linked notes and verdict audit.",
-  "lastVerified": "Round 001: PROJECT_RULES.md, SESSION_START.md and ROADMAP.md now require an explicit source-of-truth update of every Session Observatory section and complete transition decision after every work round. This rule edit is not a full-text research completion.",
-  "nextStep": "Complete the original-source Gödel 1949 / Hawking 1992 / Deutsch 1991 partial comparative reading, record precise page-level notes and counterarguments, append a no-change or change audit, and refresh ALL Session Observatory sections and transition readiness in the same round.",
+  "activeWork": "S-001 · Source-level chronology research: Gödel/Hawking/Deutsch targeted partial comparisons and counterarguments documented; mathematics/quantum alternative replication remains underway. Mandatory Observatory checkpoint after every work round.",
+  "lastVerified": "Research round S-001-R002 committed: primary PDFs of Gödel 1949 (§1–3 selected), Hawking 1992 (§I–IV selected, §VI), Deutsch 1991 (introduction, eqs.15–18 and maximum-entropy rule) partially studied and page-noted in research/field-note-002.md and NOTE-015..017; two rival CTC papers abstract-checked (NOTE-018..019). Library: 54 verified works, 84 scholars, 19 notes, 3 partially studied, 0 fully studied. Verdict audit VC-003 records explicit no-change (59/100). These are repository facts, not full site QA.",
+  "nextStep": "Reproduce Gödel's constant-radius timelike-circle inequality, fully check Hawking's horizon assumptions and major counterarguments, reproduce Deutsch's one-bit fixed-point channel against a postselection alternative, then update full Session Observatory and verdict audit again.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
     "Browser session handoff drafts remain local until explicitly reviewed and saved to GitHub.",
     "Discipline labs now contain interactive source reading plans; specialized physics simulations and other discipline tools are still planned.",
-    "A repository commit confirms code publication but does not independently verify all browser controls or GitHub Pages propagation."
+    "A repository commit confirms code publication but does not independently verify all browser controls or GitHub Pages propagation.",
+    "Original source coverage is currently targeted partial-paper reading; no complete full-paper critical review, independent mathematical replication or real CTC experiment is established.",
+    "Interdisciplinary subject-specific simulations and automated literature-validation tests remain roadmap work.",
+    "New GitHub commits do not by themselves establish that every live browser component or its deployment has been independently tested."
   ],
   "sessionHistory": [
     {
@@ -43,16 +46,16 @@
           "Committed Session Observatory v3 with milestone-derived readiness meter and page-open GitHub commits feed, plus documented cross-project update protocol.",
           "All 40 currently indexed publications have an assigned lab reading queue; completed-study markings are derived from the source library rather than presentation estimates.",
           "Owner-approved 75/25 research-first operating policy committed to PROJECT_RULES.md and enforced in ROADMAP.md and SESSION_START.md; this is a planning rule, not a measured performance statistic.",
-          "Round S-001-R001: mandatory per-round Session Observatory and decision update contract committed in PROJECT_RULES.md, SESSION_START.md and ROADMAP.md."
+          "Round S-001-R001: mandatory per-round Session Observatory and decision update contract committed in PROJECT_RULES.md, SESSION_START.md and ROADMAP.md.",
+          "Round S-001-R002: original-source targeted page-level analyses of Gödel, Hawking and Deutsch recorded in field-note-002.md and NOTE-015..017; Politzer and Lloyd abstract counterchecks as NOTE-018..019; 54 verified works, 84 scholars, 3 partial, 0 full readings, and scientific no-change audit VC-003."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
-          "Discipline summaries are not yet individual functional laboratory pages.",
           "Research claims and future compass adjustments require source-by-source scientific review.",
-          "Perform detailed full-text reviews with section citations; none is recorded as complete in the founding library index.",
-          "Interactive browser validation of new session control widgets, accessibility, responsive layout, and GitHub activity feed is outstanding."
+          "Interactive browser validation of new session control widgets, accessibility, responsive layout, and GitHub activity feed is outstanding.",
+          "Key source-level review milestone remains open: complete detailed math/counterargument checks and independent model replication; no papers qualify as fully studied yet."
         ],
-        "next": "Complete the original-source Gödel 1949 / Hawking 1992 / Deutsch 1991 partial comparative reading, record precise page-level notes and counterarguments, append a no-change or change audit, and refresh ALL Session Observatory sections and transition readiness in the same round."
+        "next": "Reproduce Gödel's constant-radius timelike-circle inequality, fully check Hawking's horizon assumptions and major counterarguments, reproduce Deutsch's one-bit fixed-point channel against a postselection alternative, then update full Session Observatory and verdict audit again."
       }
     }
   ],
@@ -62,6 +65,7 @@
       "ROADMAP.md",
       "SESSION_START.md",
       "data/sessions.json",
+      "research/field-note-002.md",
       "data/library.json",
       "data/reading-notes.json",
       "research/field-note-001.md",
@@ -77,7 +81,7 @@
       "Every worker and GPT chat must refresh the full Session Observatory and transition decision after EVERY substantive work round, even if the scientific verdict does not move; append a verified roundLog record."
     ],
     "minimumPacket": "Repository authority · session ID · verified change (with source) · unresolved limit · one highest-value next action · restart guardrails",
-    "continuity": "Session 001 is active. A recent GitHub commit is project activity, not a new GPT chat. Page-open public commit polling is not automatic background research. For cross-chat handoff, record milestones and continuation decisions in this same authoritative file."
+    "continuity": "S-001 remains active. Latest science is in research/field-note-002.md and NOTE-015..019; audit VC-003, ledger WL-002..004. Every work round must update this exact session JSON (including full transition recommendation). GitHub commit polling is not GPT telemetry; a separate chat starts a new ID only after authentic handoff."
   },
   "activeSession": "S-001",
   "readinessModel": {
@@ -101,15 +105,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "Source-level comparison of chronology protection and quantum branching, following the newly published lab reading plan",
+    "milestoneName": "Rigorous source-level study and replication of Gödel/Hawking/Deutsch plus counter-models",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No specific loss of coherence reported; live context size cannot be measured by the site",
-    "decisionBasis": "Round 001 governance checkpoint committed, but the substantive original-source scientific comparison has not yet been completed. S-001 should continue. No artificial usage or handoff meter claim.",
-    "updatePolicy": "MANDATORY after EVERY substantive research, development, audit or governance round: review all workstreams and all transition fields, update active work, verified outcomes, blocker list, scientific verdict or documented no-change and next step; append roundLog. Treat a failed write as UNSYNCED.",
+    "documentedContinuityRisk": "No observed loss of coherence reported; no live token or context telemetry.",
+    "decisionBasis": "The 2026-10-21 targeted primary-source review is documented (three partial-paper studies and two abstract-level counterchecks), but rigorous full-paper review, mathematical replication and model discrimination remain open. A complete, usable checkpoint exists; nevertheless the current core investigation has not reached a natural handoff boundary. Continue S-001 rather than switch simply because the round ended.",
+    "updatePolicy": "MANDATORY end-of-round: refresh every Session Observatory field and all seven workstreams, full transition decision, verdict changed/unchanged reason, blockers, next action and dated roundLog; report UNSYNCED if GitHub save fails. Repeat for all GPT sessions and workers.",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -117,50 +121,57 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Premium editorial homepage, research compass and source-based dispatches",
-      "next": "Refine visual QA and link explanatory research."
+      "latest": "Homepage and Truth Compass retained; no visual redesign this research round. 59/100 remains editorial, not scientific probability.",
+      "next": "Make roadmap-driven usability changes as research needs justify them; no major redesign before evidence review.",
+      "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "Initial graded evidence with reference links and versioned compass rationale",
-      "next": "Audit every claim against original experiment or mathematical argument."
+      "latest": "WL-002–WL-004 re-reviewed against original papers and notes; VC-003 documents no-score-change at 59/100 with explicit model assumptions and counterarguments.",
+      "next": "Reassess after actual discriminating observations or competing-model replication; no forced movement.",
+      "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "40 indexed works allocated to nine discipline reading lists with paper-level source links and documented reading-depth labels.",
-      "next": "Record the first completed source-level study with dated section citations and update each affected lab automatically."
+      "latest": "54 distinct verified publications and 84 indexed scholars; 19 research notes, 3 partial original-paper reviews, 0 fully studied; statuses and cited source links are versioned.",
+      "next": "Read full originals and systematically test source coverage, duplicates and methodological claims.",
+      "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "Field Note 001 comparing time dilation, time loops and quantum branching",
-      "next": "Examine Hawking, Gödel and Deutsch equations and competing predictions."
+      "latest": "Field Note 002: Gödel/Hawking/Deutsch original-paper partial reading, page-level assumptions and two abstract counterarguments; linked NOTE-015..019.",
+      "next": "Replicate the key derivations and critically read quantum alternatives before any fully-studied certification.",
+      "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Nine clickable lab tiles with 40 unique catalogued works allocated across discipline reading lists; priority order, status indicators, and eight research stages.",
-      "next": "Expand source coverage and begin source-level physics and quantum studies; build dedicated simulations later."
+      "latest": "All nine field reading queues/presentation rooms and starter tools preserved; expanded bibliography totals 54 unique works. Research notes now deepen the relativity and quantum-information queues.",
+      "next": "Integrate evaluated sources into specialized interactive physics/quantum instruments; verify live browser controls separately.",
+      "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "Interactive conceptual Earth and solar-system provenance markers",
-      "next": "Connect verified experiment locations to ledger records."
+      "latest": "Existing conceptual Earth and solar atlas preserved; no new sourced geospatial marker asserted in this research round.",
+      "next": "Map source-attributed experiment/institution locations with precise coordinates and 2D fallback.",
+      "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published",
-      "latest": "Mandatory every-round update rule and decision reassessment now written into standing governance, roadmap and handoff; this record is the first closure checkpoint.",
-      "next": "After each round refresh all seven workstreams, full transition recommendation, verified outcomes, verdict rationale and next action; publish the authoritative JSON."
+      "latest": "Round S-001-R002 saved; all seven workstreams and complete transition decision reviewed; per-round governance now required for every future GPT session and worker.",
+      "next": "Close every work round with full GitHub-backed Session Observatory update, explicit verdict/no-change decision and transition reassessment.",
+      "lastReviewedOn": "2026-10-21"
     }
   ],
   "operatingPolicy": {
@@ -229,6 +240,105 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "Round 001 governance checkpoint committed, but the substantive original-source scientific comparison has not yet been completed. S-001 should continue. No artificial usage or handoff meter claim.",
       "nextAction": "Complete the original-source Gödel 1949 / Hawking 1992 / Deutsch 1991 partial comparative reading, record precise page-level notes and counterarguments, append a no-change or change audit, and refresh ALL Session Observatory sections and transition readiness in the same round."
+    },
+    {
+      "id": "S-001-R002",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "scope": "Original scientific literature targeted partial reading + counter-evidence and verdict audit",
+      "files": [
+        "research/field-note-002.md",
+        "data/library.json",
+        "data/reading-notes.json",
+        "data/ledger.json",
+        "data/sessions.json"
+      ],
+      "verified": "3 original paper targeted partial analyses, 2 critical abstract reviews, exact sections/pages recorded, core evidence ledger source revisions and VC-003 no-change explanation; no full-paper study or empirical CTC result.",
+      "research": {
+        "worksCatalogued": 54,
+        "scholars": 84,
+        "readingNotes": 19,
+        "partiallyStudiedWorks": 3,
+        "fullyStudiedWorks": 0,
+        "primaryPartials": [
+          "SRC-002",
+          "SRC-003",
+          "SRC-019"
+        ],
+        "abstractCounterchecks": [
+          "SRC-053",
+          "SRC-054"
+        ],
+        "sourceNotes": [
+          "NOTE-015",
+          "NOTE-016",
+          "NOTE-017",
+          "NOTE-018",
+          "NOTE-019"
+        ],
+        "paper": "research/field-note-002.md"
+      },
+      "verdict": {
+        "oldScore": 59,
+        "newScore": 59,
+        "status": "no-change",
+        "why": "Gödel's exact mathematical solution, Hawking's conditional obstruction, and Deutsch's postulated-loop fixed-point model do not empirically resolve physical branch multiplicity; rival CTC prescriptions differ. Score remains editorial, not measured probability.",
+        "auditId": "VC-003"
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "latest": "Homepage and Truth Compass retained; no visual redesign this research round. 59/100 remains editorial, not scientific probability.",
+          "status": "published",
+          "change": "Truthful unchanged state reviewed"
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "latest": "WL-002–WL-004 re-reviewed against original papers and notes; VC-003 documents no-score-change at 59/100 with explicit model assumptions and counterarguments.",
+          "status": "published",
+          "change": "Research/evidence/session metadata refreshed"
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "latest": "54 distinct verified publications and 84 indexed scholars; 19 research notes, 3 partial original-paper reviews, 0 fully studied; statuses and cited source links are versioned.",
+          "status": "published",
+          "change": "Research/evidence/session metadata refreshed"
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "latest": "Field Note 002: Gödel/Hawking/Deutsch original-paper partial reading, page-level assumptions and two abstract counterarguments; linked NOTE-015..019.",
+          "status": "active",
+          "change": "Research/evidence/session metadata refreshed"
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "latest": "All nine field reading queues/presentation rooms and starter tools preserved; expanded bibliography totals 54 unique works. Research notes now deepen the relativity and quantum-information queues.",
+          "status": "published reading queues",
+          "change": "Research/evidence/session metadata refreshed"
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "latest": "Existing conceptual Earth and solar atlas preserved; no new sourced geospatial marker asserted in this research round.",
+          "status": "published",
+          "change": "Truthful unchanged state reviewed"
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "latest": "Round S-001-R002 saved; all seven workstreams and complete transition decision reviewed; per-round governance now required for every future GPT session and worker.",
+          "status": "published",
+          "change": "Research/evidence/session metadata refreshed"
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "The 2026-10-21 targeted primary-source review is documented (three partial-paper studies and two abstract-level counterchecks), but rigorous full-paper review, mathematical replication and model discrimination remain open. A complete, usable checkpoint exists; nevertheless the current core investigation has not reached a natural handoff boundary. Continue S-001 rather than switch simply because the round ended.",
+      "nextAction": "Reproduce Gödel's constant-radius timelike-circle inequality, fully check Hawking's horizon assumptions and major counterarguments, reproduce Deutsch's one-bit fixed-point channel against a postselection alternative, then update full Session Observatory and verdict audit again."
     }
   ]
 }
