@@ -615,6 +615,313 @@
         "WL-008"
       ],
       "fieldNote": "research/field-note-004.md"
+    },
+    {
+      "id": "NOTE-033",
+      "workId": "SRC-008",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Bell — On the Einstein Podolsky Rosen paradox (1964) — full critical review",
+      "basis": "[full text](https://journals.aps.org/ppf/pdf/10.1103/PhysicsPhysiqueFizika.1.195).",
+      "sectionsRead": [
+        "Complete original six-page paper, Physics 1, 195–200, §§I–VI including examples, quantitative contradiction, generalization and conclusion."
+      ],
+      "summary": "The singlet predicts E(a,b)=−a·b. A hidden-variable average of local preassigned A(a,λ), B(b,λ) with setting-independent response and a probability distribution for λ cannot reproduce all quantum spin correlations. Bell constructs one-spin hidden-variable and simpler correlation examples first to show why the locality condition—not the mere existence of hidden variables—drives the contradiction.",
+      "method": "Traced the normalization/perfect anticorrelation condition to Bell’s restriction on response functions, his inequality in §IV and the angle-smoothed non-approximation argument. Separately checked the related CHSH singlet configuration: four coplanar axes yield |S|=2√2≈2.828>2. This CHSH crosscheck is NOT a rederivation of Bell’s specific equation (22).",
+      "limitations": "Original theorem relies on locality and independence of measurement choices from λ, and on identifying outcomes/setting response appropriately; later experiments face statistical and detection assumptions. Bell does not forbid explicitly nonlocal Bohmian dynamics; the abstract claim that all hidden variables were ruled out is incorrect.",
+      "alternativeExplanations": "Bohm’s 1952 nonlocal theory, and the carefully different assumptions of 2015 loophole-free Bell tests; examine outcome independence, parameter independence and superdeterminism debates next.",
+      "conclusion": "Strong theorem against specified local hidden-variable accounts, ZERO direct proof that another physically real quantum history exists.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-034",
+      "workId": "SRC-044",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Pusey–Barrett–Rudolph — On the reality of the quantum state (2012) — full critical review",
+      "basis": "[full text](https://arxiv.org/pdf/1111.3328).",
+      "sectionsRead": [
+        "Entire eight-page arXiv manuscript: definitions and toy example pp.1–2, n-system construction and noise bound pp.2–4, conclusion pp.4–5, Appendix A pp.5–6, Appendix B pp.7–8, Appendix C p.8."
+      ],
+      "summary": "Define an ontic microstate λ prepared according to μψ(λ); overlapping support for different pure quantum states encodes a ψ-epistemic picture. Assuming independent preparations produce independent physical states, n copies yield a nonzero chance of a common overlap for all 2^n preparation combinations. A joint exclusion measurement assigns a zero-probability outcome to each such combination, contradicting an overlap model.",
+      "method": "Directly checked the four two-qubit exclusion states of Eq.(1) against |00>, |0+>, |+0>, |++>: each forbidden inner product is numerically zero (residual <3×10^−17); the four measurement vectors are orthonormal (residual <5×10^−16). Examined Appendix A n-system circuit, Appendix B overlap/total-variation noise bound and Appendix C numerical semidefinite-program discussion; the general circuit and optimization were not independently reconstructed.",
+      "limitations": "Preparation independence and ontic-state sufficiency are substantive assumptions. Paper tests whether the wavefunction is 'mere information' about λ in a defined model family—not the existence or count of Everett branches. Cannot infer many worlds from ψ-ontology.",
+      "alternativeExplanations": "Preparation-correlated models, contextual responses, ontology distinctions in Bohmian and Everett interpretations; seek a recent critical reconstruction of theorem assumptions.",
+      "conclusion": "Rigorous, assumption-scoped constraint on ψ-epistemic models; zero direct history-multiplicity evidence.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-035",
+      "workId": "SRC-062",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Feeney et al. — First Observational Tests of Eternal Inflation (2011) — full critical review",
+      "basis": "[full text](https://arxiv.org/pdf/1012.1995).",
+      "sectionsRead": [
+        "Complete five-page original paper: theory/templates, simulation/data selection, needlets and Hough edge detection, patch-wise Bayesian evidence, WMAP results and references."
+      ],
+      "summary": "Some eternal-inflation models produce observable bubble-collision perturbations with axial symmetry and a causal boundary, modeled by angular temperature profiles. Their pipeline tests for candidate patches and circular edges in foreground-masked WMAP W-band data, then assesses evidence ratios for collision templates vs ΛCDM.",
+      "method": "Checked 94-GHz W-band choice, 70.6% unmasked sky, noise/foreground simulation logic, needlet significance thresholds, edge detector and MultiNest patch-evidence prior choices. Paper reports 15 blobs minus four masked = 11 evaluated; strongest inference posterior peaks at zero mean detectable collisions, with mean number <1.6 at 68% credibility. The original analysis code/maps were not rerun.",
+      "limitations": "Bound is on detectable collision signals under assumed priors, template, masking and survey sensitivity, NOT on the total number of inaccessible bubble regions. An arXiv PDF may be later recompiled; 2011 publication and source model provenance are distinct. Inflation bubbles are ontologically different from Everett branches.",
+      "alternativeExplanations": "Foregrounds, four somewhat anomalous patches, later Planck-era data and alternate collision templates; require fresh full-survey reproduction to update cosmological verdict.",
+      "conclusion": "Model-conditional null CMB result; neither establishes nor eliminates a cosmological multiverse and cannot identify quantum branch count.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-009"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-036",
+      "workId": "SRC-012",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Vaidman — Many-Worlds Interpretation of Quantum Mechanics (SEP, revised 2026) — full critical review",
+      "basis": "[full text](https://plato.stanford.edu/entries/qm-manyworlds/).",
+      "sectionsRead": [
+        "Full scholarly entry, revised 17 June 2026, §§1–8 including definitions, macroscopic state mapping, preferred basis, probability, nonlocality, tests, explicit objections, conclusion and bibliography overview."
+      ],
+      "summary": "MWI treats the universal quantum state as evolving without fundamental collapse, and defines experienced macroscopic worlds as approximate correlated components. It distinguishes the mathematical single global state from empirical experiences of many definite-looking worlds. It outlines Born-weight/post-measurement self-location, decoherence as preferred-basis motivation and disagreements over probability and explanatory adequacy.",
+      "method": "Read all eight sections, including the world's approximate/FAPP status, orthogonal decomposition ∑αᵢ|worldᵢ>, the Born-weight postulate, proposed macroscopic interference tests, criticisms and the author's reply. Critically separated authorial advocacy from uncontested physics and from direct experiments. Checked logical counterpoint that Bohmian mechanics may predict identical tested statistics with one actual configuration.",
+      "limitations": "Scholarly interpretive overview, not an experimental research paper and no direct measurement of branch ontology. World individuation and observer-weight probability are debated; the text itself notes realism tests against Bohm may be infeasible. Full bibliography was indexed as context, not every cited work separately studied.",
+      "alternativeExplanations": "Bohmian definite positions, GRW physical collapse and critiques by Kent, Albert and Hemmo/Shenker; full original studies remain valuable.",
+      "conclusion": "Full scholarly resource examined; establishes the structure and controversies of MWI, not empirical plurality of realized histories.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-037",
+      "workId": "SRC-020",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Oreshkov–Costa–Brukner — Quantum correlations with no causal order (2012) — full critical review",
+      "basis": "[full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3493644/).",
+      "sectionsRead": [
+        "Complete open-access journal main article: problem setup, causal inequality, quantum instruments and process matrices, nonseparable example, classical limit, discussion and methods (PMC main text). Supplementary derivations separately flagged not independently replicated."
+      ],
+      "summary": "In a binary communication task under a definite causal order and independently chosen bits, one direction cannot transmit information and success ≤3/4. If quantum operations remain valid *locally* but no global definite order is assumed, process matrices allow causally nonseparable correlations. Their explicit two-party process exceeds the causal inequality.",
+      "method": "Traced closed-lab/free-choice assumptions, CPTP/CJ machinery and normalization, and the example in their Eqs.(7)–(8). Checked the illustrative maximum (2+√2)/4≈0.853553 against 0.75, a gap of ≈0.10355. This numerical check is not a full independent proof of positivity of their process matrix or the supplementary classification.",
+      "limitations": "A mathematically permitted process with no presupposed global causal order is not an observed gravitational spacetime, and is not proof of physically branching outcomes. Supplementary formalization remains a specific unreplicated component.",
+      "alternativeExplanations": "Quantum-switch optical implementations have different operational assumptions from this causal-inequality model; avoid claiming those experiments directly test the Oreshkov inequality.",
+      "conclusion": "Formal expansion of admissible causal structures, neutral on one-versus-many actual quantum histories.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-038",
+      "workId": "SRC-045",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Procopio et al. — Experimental superposition of orders of quantum gates (2015) — full critical review",
+      "basis": "[full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4918346/).",
+      "sectionsRead": [
+        "Entire open-access journal main text, theory/commutation task, interferometer configuration, all Pauli-gate and 100 random-pair results, discussion and Methods subsections. Separate supplementary PDF identified, not independently reproduced."
+      ],
+      "summary": "A photon's path coherently controls the order of two polarization gates in a Mach–Zehnder-type interferometer. With the promise that gates commute or anticommute, measurement of the control can identify the relation with one use of each gate, surpassing the success ceiling for fixed-order protocols under the stated query model.",
+      "method": "Read gate-use operational definition, 16 Pauli combinations, 50 commuting and 50 anticommuting random cases, optical apparatus, results and noise controls. Reported random-pair correctness 0.976±0.015 vs fixed-order probabilistic bound 0.9288 and Pauli-case rate 0.973±0.016. Algebra sanity check: XZ=−ZX and IX=XI; interference control can encode the sign. Did not independently rerun photon counts or derive the supplementary quantum-comb optimum.",
+      "limitations": "Gate order in an interferometer is an operational quantum-circuit resource in one laboratory spacetime; not a human returning to another history or evidence of coexisting macroscopic worlds. Fixed-order comparison rests on carefully specified allowed queries and promises.",
+      "alternativeExplanations": "Later discussions distinguish causally nonseparable operations from indefinite metric or globally indefinite spacetime; preserve this boundary in lab visuals.",
+      "conclusion": "Strong quantum-information experiment, zero empirical branch-census impact.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-039",
+      "workId": "SRC-047",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Proietti et al. — Experimental test of local observer-independence (2019) — full critical review",
+      "basis": "[full text](https://arxiv.org/pdf/1902.05080).",
+      "sectionsRead": [
+        "Entire original main paper pp.1–5 including setup, inequality, six-photon methods, 64 measurement settings, results, assumptions and discussion; supporting technical appendices pp.5–10 inspected for fusion-gate transformations and analysis framework but raw tables not recomputed."
+      ],
+      "summary": "Models each Wigner-friend record using a photonic degree of freedom and tests a Bell-type inequality encoding assumptions of locality, free choice and observer-independent facts. This is explicitly not a direct observation of another world. Reported S=2.416±0.075 based on 1,794 sixfold events over 360 hours, a violation >5 standard deviations under the stated model.",
+      "method": "Traced memory-photon entanglement, type-I fusion gates, choice of observables, coincidence counting and statistical assumption of Poissonian noise. Checked the numerical significance (2.416−2)/0.075≈5.55. Appendix fusion-gate heralding probability and measurement formalism were inspected but no independent raw-data reanalysis performed.",
+      "limitations": "Authors explicitly discuss fair-sampling, spacetime, observer-memory observables and postselection caveats. Calling a small photonic record 'a human observer' would overreach. They show tension in a conjunction of assumptions, not a proof that Everett histories physically exist.",
+      "alternativeExplanations": "Single-world nonlocal Bohmian models, collapse alternatives and philosophy of observer definition; reanalyze complete probability tables before further experimental attribution.",
+      "conclusion": "Conditional observer-independent-facts result, neutral on realized global history count.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-040",
+      "workId": "SRC-064",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Lazarovici–Hubert — How Quantum Mechanics can consistently describe the use of itself (2019) — full critical review",
+      "basis": "[full text](https://www.nature.com/articles/s41598-018-37535-1).",
+      "sectionsRead": [
+        "Entire 2019 Scientific Reports open-access research article from introduction through extended-FR derivation, analysis of effective collapse, Bohmian framework, relativistic nonlocality, objections and concluding perspective; references/author metadata checked."
+      ],
+      "summary": "Responding to Frauchiger–Renner's claimed conflict among universal quantum validity, unique outcomes and cross-agent consistency, this paper tracks the entire laboratory quantum state through the sequence. A single definite Bohmian configuration can coexist with empty wave components that later recohere. Invalid intermediate inference comes from treating a locally effectively collapsed state as a fundamental collapse even as future Wigner-type measurements revive interference.",
+      "method": "Followed the heads/tails initial weights, t1/t2 state expansion, Wigner measurements, outcome inference and separate discussion of why unobserved environment records invalidate the idealized reversal. Rechecked logically that different observers' local state assignments cannot replace a complete subsystem-plus-environment analysis. Full laboratory Bohmian particle trajectory simulation not reproduced.",
+      "limitations": "Counterargument is theory-specific and contests interpretation of a theorem; it does not experimentally prove Bohmian ontology. Macroscopic recoil/recoherence assumed ideal; relativistic foliation and nonlocality tensions remain. Original Frauchiger–Renner full-paper reconstruction remains a next-phase countercheck.",
+      "alternativeExplanations": "FR 2018 paper, Everett relative states, objective-collapse dynamics, quantum logical frameworks; avoid labeling this rebuttal a consensus refutation.",
+      "conclusion": "Directly demonstrates a formulated single-world response to an influential paradox. Reduces grounds for treating paradox as forced evidence of multiple realities; no numerical shift.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-041",
+      "workId": "SRC-002",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Gödel — Cosmological rotating solution (1949) — full critical review",
+      "basis": "[full text](https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.21.447).",
+      "sectionsRead": [
+        "Entire original four-page paper pp.447–450: nine claimed properties, metric/field-equation construction, explicit timelike circles, homogeneous-space interpretation, and concluding observational caveats."
+      ],
+      "summary": "An exact homogeneous rotating dust solution with cosmological constant is time orientable but does not admit a global time coordinate increasing on all timelike curves. In cylindrical coordinates, a constant-r circle becomes timelike beyond sinh r=1, so a closed timelike worldline is permitted by this particular metric.",
+      "method": "Examined metric/Einstein-equation setup, rotating frame properties and the explicit criterion. Independently factored the constant-radius angular coefficient proportional to sinh²r(sinh²r−1), giving r>asinh(1)=ln(1+√2)≈0.881374. This verifies the local timelike-circle sign but not all tensor field equations, homogeneous group claims or cosmological modeling.",
+      "limitations": "Gödel expressly notes the model lacks cosmological redshift. Physical observations do not identify our actual universe with this rotating metric. Closed curves in a model do not entail multiple Everett histories or travel between branches; chronologically unusual spacetime still contains one mathematical geometry.",
+      "alternativeExplanations": "Observed expansion, chronology protection and modern cosmological isotropy constraints; compare assumptions before translating topology to physical reality.",
+      "conclusion": "Exact classical counterexample to universal global-time ordering in GR, zero empirical evidence for many actual outcome branches.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-002"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-042",
+      "workId": "SRC-003",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "roundId": "S-001-R006",
+      "stage": "fully-studied",
+      "label": "Hawking — Chronology protection conjecture (1992) — full critical review",
+      "basis": "[full text](https://lweb.cfa.harvard.edu/~loeb/Hawking_C.pdf).",
+      "sectionsRead": [
+        "Entire nine-page Phys Rev D paper pp.603–611: introduction, compact-horizon geometry, classical energy restrictions, closed null geodesic boost/area, topology argument, semiclassical Misner-space field state, quantum backreaction speculation and conclusion."
+      ],
+      "summary": "For the formation of causality-violating regions in a finite predictable spacetime domain, Hawking analyzes compactly generated future Cauchy horizons. Under a noncompact initial surface and suitable energy condition, the horizon is obstructed; semiclassical field stress near nearly closed null curves may further destabilize attempts to create such a horizon.",
+      "method": "Reviewed the complete geometric route from horizon generators and Raychaudhuri/Newman–Penrose energy restriction to Misner-space image-state stress and the final Planck-scale cutoff/backreaction assessment. Crosschecked earlier notes NOTE-016/022 and later Kay–Radzikowski–Wald / Visser arguments. The tensor manipulations and stress renormalization have NOT been independently rederived.",
+      "limitations": "A conjecture with theorem-like conditional pieces, not a rigorous universal quantum-gravity theorem. Hawking explicitly lacked proof for all quantum states on Misner space; horizon assumptions are narrower than arbitrary eternally existing CTC spacetime. No direct observation of time machine formation occurs.",
+      "alternativeExplanations": "Kay–Radzikowski–Wald's Hadamard breakdown and Visser's semiclassical reliability critique; both refine the meaning of 'divergence' and prediction failure.",
+      "conclusion": "Theory limits attempted past-directed time travel but provides no direct discrimination between one actually realized quantum history and many.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire main source read and critiqued; replication or external supplements not independently certified unless stated",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-003"
+      ],
+      "fieldNote": "research/full-study-batch-001.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
     }
   ]
 }
