@@ -1,7 +1,7 @@
 {
   "schema": "worldline-truth-engine/v0.2",
   "updated": "2026-10-22",
-  "releaseStatus": "R010: source-schema and quantitative tests, GitHub API-reviewed directional decision gate plus Chromium browser acceptance workflow added; v0.2 real human reviewer signoff and full accessibility acceptance still open. v0.25 automated multi-route/lab browser checks run via GitHub CI, independently verified success required before marking accepted.",
+  "releaseStatus": "R010 27 full original studies; source-backed 8 route sweep and Chromium automated acceptance PASS, human approval real signed decision and real-device assistive QA remain OPEN. No score change.",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
     "score": 50,
@@ -62,8 +62,8 @@
     "w2001": "verified: local data schema CI",
     "w2002": "GitHub API receipt validator for review chain and author/commit identity added, fixture validated; actual external human signoff remains pending.",
     "w2003": "Versioned record and reversal fixtures retained, nonzero decisions rejected without trusted GitHub API verified human approval; no actual score movements authorized.",
-    "w2004": "site ledger source movement published, browser/mobile review UX not independently verified",
-    "v025": "Browser automation for all nine rooms, three view modes, two viewport sizes added to GitHub workflow. Do not call acceptance passed unless real CI job succeeds; full independent human/mobile/assistive-tech check still separate."
+    "w2004": "Automated real Chromium site read-only tests PASS, source/Truth Ledger and all routes render; independent human approval path and full accessibility still open.",
+    "v025": "Automated real Chromium browser integration PASS on run 39774068530: 8 routes, all 9 laboratories times 3 room modes, 1440 and 390px, filter, keyboard. Physical handset / human screen-reader assessment remains open."
   },
   "reproductionChecks": {
     "version": "S-002-R008",
@@ -79,5 +79,10 @@
     "verified": "Independent Ge published aggregated Poisson/Gamma 95% posterior λ=5.19732362463e-13/s with paper both+1 terms, independent LISA published acceleration PSD bound λ=8.36417404452e-11/s at rC=1e-7m, primary published ratio conversion XENON λ<3e-17/s at same rC.",
     "limits": "Not detector raw likelihood or cross-experiment joint confidence; no observed physical actual-histories count.",
     "scoreImpact": 0
+  },
+  "browserAcceptance": {
+    "run": "https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+    "validatedCommit": "8934661060084c7828a711547e1ae00357126b07",
+    "status": "passed automated Chromium desktop+phone-width; physical devices and human accessible review pending"
   }
 }

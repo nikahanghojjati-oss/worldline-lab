@@ -26,10 +26,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "updated-from-source",
       "lastFullSweepReason": "Home uses editorial-neutral 50 from ledger, research question and canonical counts; R010 source-based 27/400 work/status from library replaced prior 25. Confirmed source strings, no direct screenshot.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Homepage hero/editorial and Observatory shortcut accuracy",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     },
     {
       "route": "dashboard",
@@ -39,10 +41,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "updated-from-source",
       "lastFullSweepReason": "Falsifiable primary question candidates now include source-reviewed SRC-075/076 with paired predictions; equal-model explanation preserved, not a 50% probability.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Prior assumptions vs conditional model support and experiments",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     },
     {
       "route": "ledger",
@@ -52,10 +56,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "updated-from-source",
       "lastFullSweepReason": "Recorded WL-019 actual 0.21sigma null-compatible tau context and paired Everett/Bohm equal Born prediction; experimental constraints distinguished from ontology verdict.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Display central discriminator queue and conditional scoring warnings",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     },
     {
       "route": "journal",
@@ -65,10 +71,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "updated-from-source",
       "lastFullSweepReason": "New J-011 from two complete primary works replaces R009 as latest article; preserved historic J-002 with dated correction note rather than deleting past audits.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Link the latest question-first report and original experimental test queue",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     },
     {
       "route": "disciplines",
@@ -78,10 +86,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "updated-from-source",
       "lastFullSweepReason": "All nine reading rooms retain 3 views and status checks; source-linked 075/076 added to relevant quantum/physics/math queues, no unrelated topics counted as decisive.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Survey all nine room labels for stale R003/R006 claims",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     },
     {
       "route": "atlas",
@@ -91,10 +101,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "revalidated-no-new-evidence",
       "lastFullSweepReason": "Checked public atlas route and historic provenance; these theoretical papers provide no new verified physical experiment-site coordinates, therefore no unsourced markers or locations added.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Full factual refresh and provenance label; do not invent new markers",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     },
     {
       "route": "library",
@@ -104,10 +116,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "updated-from-source",
       "lastFullSweepReason": "Two new DOI-deduplicated original main articles and complete critical notes raise 25 to 27, 74 to 76, 64 to 66 without confusing citation with experiment.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Source status and no historic 59 explanation conflicts; link central question sources",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     },
     {
       "route": "sessions",
@@ -117,10 +131,12 @@
       "lastFullSweepEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
       "lastFullSweepAction": "updated-from-source",
       "lastFullSweepReason": "Each round updates seven canonical streams, decision, tests, source status, next action; this R010 record logs the required eight-route static content audit, phone/browser still pending.",
-      "interactiveBrowserChecked": false,
+      "interactiveBrowserChecked": true,
       "sweepTask": "Make latest round, next 5-round sweep due and per-route audit status prominently visible",
-      "status": "R010 source and static-content sweep recorded; independent browser/mobile QA outstanding",
-      "lastFullSweepRoundLogCount": 17
+      "status": "R010 source freshness and automated browser route check PASS; independent human/accessibility acceptance still open",
+      "lastFullSweepRoundLogCount": 17,
+      "browserCheckMethod": "Automated GitHub Actions Playwright Chromium, two viewports; https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+      "humanAccessibilityChecked": false
     }
   ],
   "everyRoundRequirements": [
@@ -144,5 +160,13 @@
     "verification": "Repo source content audit with DOI/main text and static route logic; no live browser, mobile or keyboard run",
     "dueNext": "S-002-R015",
     "note": "R010 global roundLog count17 reached. All eight routes checked with source or explicit no-new-evidence explanation. Browser is a separate unpassed acceptance gate."
+  },
+  "browserAcceptance": {
+    "status": "passed automated Chromium in GitHub Actions",
+    "run": "https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530",
+    "validatedCommit": "8934661060084c7828a711547e1ae00357126b07",
+    "method": "Playwright Chromium 1440x900 and 390x844 viewports, all 8 page routes, nine lab reading/presentation/interactive and filtering/keyboard",
+    "humanA11yStatus": "NOT TESTED on physical phone, assistive technology or by real human reviewer",
+    "nextSweep": "S-002-R015"
   }
 }

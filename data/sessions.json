@@ -9,9 +9,9 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "ACTIVE · S-002-R010 BORN RULE FULL STUDIES · MANDATORY PAGE SWEEP",
-  "activeWork": "R010 two genuinely complete original main-text studies on high-energy two-state Born deviations and Bohmian quantum-equilibrium Born-record explanation. Recomputed 360000 clean photon feasibility and existing 0.21sigma tau helicity agreement from published summary. Matched Everett and equilibrium Bohm pointer P(k) equal, hence no central score movement. Recorded all eight source/static page audits and seven-stream Observatory, retained v0.2 human review/browser QA and v0.25 real-nine-room browser acceptance as OPEN.",
-  "lastVerified": "R010 main-text source URLs https://arxiv.org/html/2505.07510 and https://pmc.ncbi.nlm.nih.gov/articles/PMC7512940/; source formula arithmetic Nmin360000, background dilution 562500 and tau epsilon 0.0032±0.01509=0.21sigma. Code/CI and real-browser verification pending independent execution.",
-  "nextStep": "R011: integrate and test explicit human reviewer approval artifact into Truth Engine append-only change pathway; run instrumented headless-browser navigation for nine labs and three room views across viewport/keyboard, and investigate detector-independent high-energy Born-rule data model. Maintain 50 central editorial neutral unless truly discriminating measured evidence.",
+  "activeWork": "R010 two genuinely complete original main-text studies on high-energy two-state Born deviations and Bohmian quantum-equilibrium Born-record explanation. Recomputed 360000 clean photon feasibility and existing 0.21sigma tau helicity agreement from published summary. Matched Everett and equilibrium Bohm pointer P(k) equal, hence no central score movement. Recorded all eight source/static page audits and seven-stream Observatory, retained v0.2 human review/browser QA and v0.25 real-nine-room browser acceptance as OPEN. New Playwright GitHub CI tested 8 routes, 9 labs x 3, two viewports and keyboard filtering: PASS on commit 8934661. Directional score requires GitHub API authenticated separate-reviewer PR approval; no actual reviewer signoff.",
+  "lastVerified": "R010 main-text source URLs https://arxiv.org/html/2505.07510 and https://pmc.ncbi.nlm.nih.gov/articles/PMC7512940/; source formula arithmetic Nmin360000, background dilution 562500 and tau epsilon 0.0032±0.01509=0.21sigma. Code/CI and real-browser verification pending independent execution. GitHub Actions source-integrity success 39773875403 and automated real Chromium browser acceptance PASS https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39774068530. Separate reviewer approval signed by human NOT obtained. Verified added github-approval.cjs code still requires synthetic/live CI regression.",
+  "nextStep": "S-002-R011: get real independent scientific reviewer approval via GitHub PR and verify v0.2 score-gate end-to-end without forcing a score change; inspect one physical mobile/keyboard screen reader for v0.25 final acceptance. Continue empirical born-rule detector-alternative research. Next full page sweep R015.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -133,7 +133,8 @@
           "R009: central direct Everett-vs-equilibrium-Bohm ordinary Born-model predicted outcomes identical; formal test class currently zero ratio without added premise. Conditional Ge fixed-background Poisson can yield opposite signs for two preselected CSL λ, illustrating why score must avoid parameter cherry-picking.",
           "R009: created data/discriminator-program.json five ranked experimental questions, research/central-question-discriminators-S002-R009.md, dashboard data-driven research gates, globally visible latest round/decision and all page last-content/refresh due banner.",
           "R009: original hardcoded homepage '59' and '10 studies' corrected to neutral 50 and 25 study fallback; five-round eight-page CI gate now due log index17 (R010), negative fixture passes, git tests and Pages successful.",
-          "R010 full original publisher-linked collider Born-rule candidate and Norsen equilibrium critical review, 27/400; conditional 1% requires 360000 clean photons, tau 0.21sigma; no physical branch discrimination."
+          "R010 full original publisher-linked collider Born-rule candidate and Norsen equilibrium critical review, 27/400; conditional 1% requires 360000 clean photons, tau 0.21sigma; no physical branch discrimination.",
+          "R010 automated desktop/mobile viewport Chromium end-to-end testing of eight routes and 9x3 lab modes passed on GitHub run 39774068530."
         ],
         "unresolved": [
           "Complete original Everett 1957 and GRW 1986 primary text review remains open.",
@@ -223,8 +224,8 @@
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No direct end-to-end browser access in this session; cannot sign off v0.25 or v0.2. Scientific priority remains actual one-versus-many discriminators.",
-    "decisionBasis": "Two original full papers genuinely reviewed and source-linked. The scientific model-pair difference is conditional: existing tau data remain Born-compatible and Everett/Bohm equilibrium equal. Central 50 is not probability. Eight-route static content survey recorded, but real-browser and human-review release gates are open.",
+    "documentedContinuityRisk": "Automated Chromium checked both responsive widths but physical mobile device/assistive tech human experience is not certified; API approval gate has only synthetic review fixtures, not an actual signed scientific PR approval.",
+    "decisionBasis": "Two original full papers genuinely reviewed and source-linked. The scientific model-pair difference is conditional: existing tau data remain Born-compatible and Everett/Bohm equilibrium equal. Central 50 is not probability. Eight-route static content survey recorded, but real-browser and human-review release gates are open. Automated Chromium browser PASS on run 39774068530 (8 routes and 9x3 labs both viewport widths), but physical mobile / human accessibility QA and real reviewer approval remain open.",
     "updatePolicy": "Every substantive round update seven streams, current hypothesis predictions/evidence judgment, session roundLog/transition, source and code provenance in same GitHub commit. Every 5 accumulated rounds prove each of 8 routes updated or explicitly revalidated via data/page-freshness.json (R010=17). Browser results never fabricated.",
     "decision": "CONTINUE"
   },
@@ -265,7 +266,7 @@
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Nine discipline rooms preserved; new quantum-relevant sources included and historical contexts retained.",
+      "latest": "Nine discipline rooms preserved; new quantum-relevant sources included and historical contexts retained. GitHub Chromium desktop and phone-size acceptance PASS, physical assistive-tech QA remains open.",
       "next": "Interactive mobile/keyboard lab tests still not measured.",
       "lastReviewedOn": "2026-10-22"
     },
@@ -281,7 +282,7 @@
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published GitHub-backed record; browser verification open",
-      "latest": "Eight pages reviewed for source/data freshness at R010; seven streams and decision updated.",
+      "latest": "Eight pages reviewed for source/data freshness at R010; seven streams and decision updated. Source/current-round and eight-route automated browser pass logged against GitHub 39774068530.",
       "next": "Continue real human review and e2e browser acceptance, periodic review next R015.",
       "lastReviewedOn": "2026-10-22"
     }
@@ -2051,9 +2052,17 @@
         "data/ledger.json",
         "data/discriminator-program.json",
         "data/page-freshness.json",
-        "data/sessions.json"
+        "data/sessions.json",
+        "tools/site-browser-smoke.cjs",
+        ".github/workflows/worldline-integrity.yml",
+        "tools/truth-engine/github-approval.cjs",
+        "tools/truth-engine/review.cjs",
+        "tools/truth-engine/test.cjs",
+        "data/truth-engine.json",
+        "README.md",
+        "ROADMAP.md"
       ],
-      "verified": "Whole original texts Valentini/Varma 2025 and Norsen 2018 reviewed. Photon 1% ideal Nmin360000 and fs0.8 Nmin562500 reproduced; CMS tau 0.21sigma null-compatible. No observed branching or full detector reconstruction. All 8 static route audits recorded with evidence commit f0348ec72a442eb156d17e8a77fcba4d123ea9ce.",
+      "verified": "Whole original texts Valentini/Varma 2025 and Norsen 2018 reviewed. Photon 1% ideal Nmin360000 and fs0.8 Nmin562500 reproduced; CMS tau 0.21sigma null-compatible. No observed branching or full detector reconstruction. All 8 static route audits recorded with evidence commit f0348ec72a442eb156d17e8a77fcba4d123ea9ce. CI source integrity pass earlier run 39773875403; actual Playwright acceptance passed run 39774068530. GitHub-approved real score change path NOT authorized, and editorial 50 unchanged.",
       "research": {
         "worksCatalogued": 76,
         "fullyStudiedWorks": 27,
@@ -2079,7 +2088,8 @@
         "staticSweep": "eight canonical routes source/revalidation recorded in data/page-freshness.json",
         "sourceEvidenceCommit": "f0348ec72a442eb156d17e8a77fcba4d123ea9ce",
         "browserQa": "unperformed; phone keyboard unverified",
-        "releases": "v0.2 and v0.25 remain candidate/pending real acceptance"
+        "releases": "v0.2 and v0.25 remain candidate/pending real acceptance",
+        "browserQA": "Automated Chromium 8 routes, nine lab x 3 views, desktop 1440 and mobile 390 width, original links/filter/keyboard verified PASS run 39774068530; physical device and accessibility human QA pending"
       },
       "workstreamsReviewed": [
         {
@@ -2126,7 +2136,7 @@
           "area": "Research Laboratories",
           "route": "disciplines",
           "status": "updated source-backed; browser QA open",
-          "latest": "Nine discipline rooms preserved; new quantum-relevant sources included and historical contexts retained.",
+          "latest": "Nine discipline rooms preserved; new quantum-relevant sources included and historical contexts retained. Automated nine lab by three modes browser acceptance PASS at two viewport widths, no physical device testing.",
           "next": "Interactive mobile/keyboard lab tests still not measured.",
           "lastReviewedOn": "2026-10-22",
           "change": "Nine discipline rooms preserved; new quantum-relevant sources included and historical contexts retained.",
@@ -2146,7 +2156,7 @@
           "area": "Session Observatory",
           "route": "sessions",
           "status": "updated source-backed; browser QA open",
-          "latest": "Eight pages reviewed for source/data freshness at R010; seven streams and decision updated.",
+          "latest": "Eight pages reviewed for source/data freshness at R010; seven streams and decision updated. Automated CI source+browser acceptance completed for v0.25, human review open.",
           "next": "Continue real human review and e2e browser acceptance, periodic review next R015.",
           "lastReviewedOn": "2026-10-22",
           "change": "Eight pages reviewed for source/data freshness at R010; seven streams and decision updated.",
