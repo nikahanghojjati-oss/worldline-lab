@@ -12,8 +12,14 @@ The magazine-style front page features the Truth Compass. The navigation opens O
 
 The answer is unresolved. The provisional 59/100 compass is an **editorial orientation inherited from the founding conversation, not a probability** or verified result. Evidence is categorized before relevance is evaluated. No amount of simulated closed timelike curve behavior on its own proves time travel or branching histories.
 
+## Standing project policy
+
+[PROJECT_RULES.md](PROJECT_RULES.md) sets the owner's research-first operating priority: approximately **75% substantial scientific research / 25% website development**, with website releases governed by [ROADMAP.md](ROADMAP.md). The split is a planning guideline, not automatic effort telemetry. Every significant scientific or website milestone updates the versioned Session Observatory record and gives a cited verdict change or explicit no-change explanation as applicable. [SESSION_START.md](SESSION_START.md) requires every future GPT chat to inherit these rules. The mapped research questions and bibliographies remain expandable; catalogued works are not falsely counted as fully studied.
+
 ## Source of truth
 
+- `PROJECT_RULES.md` — permanent research-first operating rule and all-session handoff expectations.
+- `ROADMAP.md` — planned website releases and research work stages.
 - `data/ledger.json` — citable evidence with provenance, grade, limitation and explicit compass impact.
 - `data/research.json` — research roadmap, field lanes, first journal issue.
 - `data/library.json` — versioned bibliography and profiles of contributing scholars, with distinct review stages and linked verdict history.
