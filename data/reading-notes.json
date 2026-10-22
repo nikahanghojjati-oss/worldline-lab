@@ -1750,6 +1750,82 @@
         "WL-021"
       ],
       "fieldNote": "research/operational-identifiability-S002-R012.md"
+    },
+    {
+      "id": "NOTE-069",
+      "workId": "SRC-078",
+      "date": "2026-10-22",
+      "sessionId": "S-003",
+      "roundId": "S-003-R007",
+      "stage": "partially-studied",
+      "label": "Bong et al. 2020 Local Friendliness theorem and proof-of-principle scope",
+      "basis": "Read publisher primary abstract, publication and theorem summary; original source-data/author code link identified but NOT downloaded, reproduced or completely reviewed.",
+      "sectionsRead": [
+        "Nature Physics published abstract: No-Superdeterminism, Locality, Absoluteness of Observed Events conditional theorem",
+        "Proof-of-principle experiment description: photon path treated as friend",
+        "2025 code-availability update"
+      ],
+      "summary": "Under reversible quantum operations on observer-scale systems, the specific LF correlation violation excludes a conjunction of AOE, Locality and No-Superdeterminism. The argument is stronger and different from CHSH, and published photonic demo does not establish conscious friend or multiple real histories.",
+      "method": "Source-targeted theorem-premise extraction and comparison with Bell correlation countermodel in R007 report.",
+      "limitations": "Main derivation, specific LF facet inequalities, raw source-data XLSX and author's code have not been independently replicated.",
+      "alternativeExplanations": "Reject local agency, reject absoluteness of events, reject free setting premise, challenge observer-scale implementation or interpretation of photonic friend.",
+      "conclusion": "Use LF only with its full experimental/control premises and inequality; do not infer unique many-world ontology.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Targeted publisher abstract/metadata and methods summary, not a full original-main-text review.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-022"
+      ],
+      "fieldNote": "research/hammer-assumption-surgery-S003-R007.md"
+    },
+    {
+      "id": "NOTE-070",
+      "workId": "SRC-079",
+      "date": "2026-10-22",
+      "sessionId": "S-003",
+      "roundId": "S-003-R007",
+      "stage": "partially-studied",
+      "label": "Walleghem 2026: internalized free choice in Wigner-friend scenarios",
+      "basis": "APS open-access primary article published Sep 14 2026; abstract and targeted opening definitions/theorem summary examined.",
+      "sectionsRead": [
+        "APS publication metadata and abstract",
+        "Introduction: AOE and local agency definitions",
+        "Theorem 1 Local Friendliness setup and PBR argument context"
+      ],
+      "summary": "Under related local agency assumptions, the paper investigates absoluteness of free choices internal to extended friends, challenging simplistic metaphysical inference from LF inequality violations.",
+      "method": "Compare the theorem's named assumptions and scope against 2020 LF and project assumption-cut diagram.",
+      "limitations": "Full body, mathematical detail and supplemental appendix have not been studied end to end; no experiment reproduced.",
+      "alternativeExplanations": "Deny AOE, local agency or the scope of internalized free choices; different hidden causal structures.",
+      "conclusion": "Record assumption-level research avenue, without treating any no-go violation as observed proof of multiple physically actual histories.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Targeted abstract and introductory theorem only.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-022"
+      ],
+      "fieldNote": "research/hammer-assumption-surgery-S003-R007.md"
+    },
+    {
+      "id": "NOTE-071",
+      "workId": "SRC-080",
+      "date": "2026-10-22",
+      "sessionId": "S-003",
+      "roundId": "S-003-R007",
+      "stage": "abstract-reviewed",
+      "label": "Okon 2025 counterargument to extended Wigner-friend no-go strength",
+      "basis": "Publisher and NIH bibliographic abstract cross-checked; 13-page original not read end to end.",
+      "summary": "Okon disputes the soundness or intended interpretation of aspects of extended friend no-go theorems and argues their strong reality claims are unwarranted; project must keep this adversarial scholarly view represented.",
+      "method": "Original abstract and archive identity triangulation; no full proof adjudication.",
+      "limitations": "Unresolved detailed objections and rejoinders; project has not tested exact LF polytope or theorem proof against Okon's mathematical arguments.",
+      "alternativeExplanations": "Bong and coauthors' formal theorem may remain correct under its explicit premises despite philosophical/practical limitations.",
+      "conclusion": "Treat the 2025 criticism as important contested perspective, not a settled disproof of original 2020 mathematics.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Abstract and limited publisher excerpt only.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-022"
+      ],
+      "fieldNote": "research/hammer-assumption-surgery-S003-R007.md"
     }
   ]
 }
