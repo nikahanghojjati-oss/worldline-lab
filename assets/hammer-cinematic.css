@@ -185,3 +185,16 @@ body.hp-body.hc-body{background:radial-gradient(ellipse at 47% 8%,#112d55 0,#071
  .hc-footer{flex-wrap:wrap;justify-content:center;text-align:center}
 }
 @media(prefers-reduced-motion:reduce){.hc-body *, .hc-body *:before,.hc-body *:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Scientific motifs are design metaphors; experimental photos are not implied. */
+.hc-movement-art{display:flex;flex-direction:column;justify-content:center;gap:4px;align-items:center;min-width:0;padding:4px;border-radius:6px;background:radial-gradient(ellipse at 50% 35%,#64378c7a,#101b38 68%);border:1px solid #29385b}
+.hc-movement-art:has(.hp-movement-id){isolation:isolate}
+.hc-movement-glyph{display:grid;place-items:center;width:100%;min-height:34px;font-size:29px;color:#d69aff;text-shadow:0 0 14px #ab3ef2,0 0 24px #5432d0}
+.hc-movement-art:has(.hp-movement-id:first-child) .hc-movement-glyph{color:#b6e5fb}
+.hc-movement-art .hp-movement-id{font-size:10px;color:#67e5c2;letter-spacing:.01em;text-align:center}
+.hc-movement-art .hp-tag{font-size:8px;padding:2px 5px;text-align:center;margin:1px 0 0}
+.hc-movements .hp-movement:nth-child(2) .hc-movement-art{background:radial-gradient(ellipse at 50% 35%,#2469ad85,#09152d 68%)}
+.hc-movements .hp-movement:nth-child(2) .hc-movement-glyph{color:#71cbff;text-shadow:0 0 15px #4eb4ff,0 0 23px #0362e5}
+.hc-movements .hp-movement:nth-child(3) .hc-movement-art{background:radial-gradient(ellipse at 50% 35%,#146e657d,#051b27 69%)}
+.hc-movements .hp-movement:nth-child(3) .hc-movement-glyph{color:#6aebca;text-shadow:0 0 15px #26b5a0,0 0 21px #06867d}
+.hc-movements .hp-movement .hp-links a:focus-visible{background:#092c44}
