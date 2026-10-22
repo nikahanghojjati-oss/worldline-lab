@@ -1239,6 +1239,316 @@
         "appendicesAsRecorded": false,
         "independentFullReproduction": false
       }
+    },
+    {
+      "id": "NOTE-053",
+      "workId": "SRC-048",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Fein et al. 2019 original macromolecule interference",
+      "basis": "Original six-page published Nature Physics letter facsimile https://pub.math.leidenuniv.nl/~gillrd/Peking/Files/two-slit_expt.pdf; DOI 10.1038/s41567-019-0663-9",
+      "sectionsRead": [
+        "p1 model and apparatus, KDTLI vs classical transmission",
+        "p2–3 original interference controls Figs1-2 and experimental velocity/mass distribution",
+        "p3–4 Fig3 macroscopicity/CSL constraints, grating roll vs environment decoherence",
+        "p4–6 methods/data and original paper closing matter"
+      ],
+      "summary": "Observed interference in >25 kDa oligoporphyrin library, 26,777 Da exemplar. Single scan visibility 25±3%; fit quantum predicted V normalization 0.93±0.06; macroscopicity 14.1.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Finite mass/velocity spread and grating drift/misalignment (100 μrad), collisional and thermal channels tested at given vacuum. Raw event counts and supplementary numerical fits not independently recovered.",
+      "alternativeExplanations": "Comparative classical Talbot–Lau fringe-prediction and CSL extra decoherence; independent apparatus channels.",
+      "conclusion": "Strong collapse deviations inconsistent with fringe visibility under apparatus assumptions; no preference between Everett and equilibrium Bohm.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-054",
+      "workId": "SRC-067",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Dai/Miao/Ma 2024 LISA kilogram acceleration reanalysis",
+      "basis": "Full original seven-page 2024 arxiv v1 https://arxiv.org/pdf/2411.17588, figs and calculations",
+      "sectionsRead": [
+        "§I CSL/DP linear acceleration noise generator and parameters",
+        "§II 10 LISA Pathfinder Brownian science runs and 0.075fm² s^-4 Hz^-1 uncertainty",
+        "§III underground design, seismic assumptions and forecast sensitivity",
+        "§IV final comparison X-ray cutoff bound and figures"
+      ],
+      "summary": "Reported λCSL<8.3×10^-11/s at rC=10^-7 m using existing 2017 LISA noise; DP σ>285.5fm; projected underground λ<3×10^-11/s not measured.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Shared LISA data, Brownian gas noise, temperature/time dependence, forecast seismic subtraction; no independent detector likelihood replication.",
+      "alternativeExplanations": "Standard environmental damping, residual-gas backgrounds and modern alternative collapse spectra.",
+      "conclusion": "Model-specific mechanical force-noise bound, with independent 2026 xenon bounds on other slice; central history count unaltered.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-055",
+      "workId": "SRC-068",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Altamura et al. 2025 LISA rotational noise reanalysis",
+      "basis": "Published PRA 111 L020203 publisher identity and original seven-page preprint https://iris.cnr.it/bitstream/20.500.14243/536713/1/2501.08971v1.pdf",
+      "sectionsRead": [
+        "§I collapse/CSL and mission data",
+        "§II stochastic force/torque operators Eqs4–9 and box geometry",
+        "§III LISA noise Fig2, min torque DNS and exclusion contour",
+        "§IV mechanical/environmental correlated noise and when rotation wins",
+        "§V plus Appendix A geometry integrals (independent symbolic reproduction not claimed)"
+      ],
+      "summary": "Reported minimum measured torque noise spectral density 5.7×10^-34 N² m²/Hz at 3mHz for 1.928kg LISA cube and ~2× stronger bound in rC≈10^-5.5–10^-3.5 m.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Rotational and translational are from same mission, not independent experimental replications; conservative all-noise-attributed-to-CSL bound, no detection.",
+      "alternativeExplanations": "Existing translational LISA and residual-gas/electrode torque noise alternatives.",
+      "conclusion": "Updates conditional frequency-geometry constraints and noise floor evidence, not physical branch existence.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-056",
+      "workId": "SRC-069",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Donadi et al. 2021 germanium X-ray CSL radiation experiment",
+      "basis": "Original full publisher HTML https://link.springer.com/article/10.1140/epjc/s10052-021-09556-0",
+      "sectionsRead": [
+        "§1–2 collapse electromagnetic spectrum, nuclear Z² and electron Z, Eq5",
+        "§3 HPGe apparatus under Gran Sasso, shield and 124 kg-day detector exposure, 1000–3800 keV window",
+        "§3.1–3.3 Geant4 and efficiency integration Eq7, uniform-prior Bayesian Poisson posterior Eq13",
+        "§4 original Fig1–3 bounds and data availability"
+      ],
+      "summary": "Experiment plus modeled background produced 13-fold improvement of earlier CSL parameter limits, stated 95% credible range at rC≤10^-6m.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "XENONnT 2026 low-energy cancellation physics is NOT same regime as this high-energy coherent nuclear calculation. Original Geant4/emission-response priors and detector raw records not rerun.",
+      "alternativeExplanations": "Instrument radioisotope backgrounds and spectral cutoff modifications (colored CSL) are alternative explanations.",
+      "conclusion": "Real new parameter bound documented separately without counting XENON and Germanium as identical experiments.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-057",
+      "workId": "SRC-070",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Carlesso et al. 2018 colored CSL model constraints",
+      "basis": "Complete seven-page original publisher PDF https://link.springer.com/content/pdf/10.1140/epjd/e2018-90248-x.pdf",
+      "sectionsRead": [
+        "§1 and §2 optomechanical stochastic Langevin spectrum",
+        "§3 atom X-rays and crystal phonon/heating predictions",
+        "§4 colored Drude–Lorentz cutoff Ωc response and analysis of LISA, LIGO, AURIGA, cantilever, X-ray observations",
+        "§5 Fig1 four cutoff choices Ωc=∞/10^15/10^4/10^1 and boundaries"
+      ],
+      "summary": "Colored noise suppresses effects for ω≫Ωc; existing high-frequency radiation tests therefore cannot exclude all low-frequency colored CSL models with same nominal white-noise λ,rC.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Theory reanalysis, no independent new experiment; precise selected Ωc cutoff and spectrum determine reach.",
+      "alternativeExplanations": "Ordinary thermal/phonon backgrounds, non-Markovian models and colored frequency limits.",
+      "conclusion": "Changes interpretation of collapse-parameter exclusions; prevents overclaim from XENONnT/Donadi.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-058",
+      "workId": "SRC-071",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Martin and Vennin 2021 inflationary CSL collapse operator critique",
+      "basis": "Complete original open publisher HTML https://link.springer.com/article/10.1140/epjc/s10052-021-09290-7",
+      "sectionsRead": [
+        "§1 scalar-noise Schrödinger model",
+        "§2 field Fourier coupling and competing Hamiltonian/energy collapse operators",
+        "§3 width versus stochastic mean, R(k), CMB power and conditional λ example",
+        "§4 operator parity and Gaussianity; §5 conclusions and limitations"
+      ],
+      "summary": "Under their cosmological mode assumptions, even field operators fail to collapse and nonlinear odd operators can generate disfavored non-Gaussianity. Particular constant-parameter H inflation example needs λ<10^-73s^-1 to suppress distortions.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Running energy/curvature-dependent parameters and relativistic unknowns can evade example; not an independent sky-data inference.",
+      "alternativeExplanations": "CMB constraints on power spectrum and approximate Gaussian statistics, alternate collapse generators.",
+      "conclusion": "Theoretical exclusion for particular collapse operator families, not experimental observation of multiple Everett branches.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-059",
+      "workId": "SRC-072",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Aziz and Howl 2025 classical-gravity entanglement counterexample",
+      "basis": "Complete original open Nature main article https://www.nature.com/articles/s41586-025-09595-7",
+      "sectionsRead": [
+        "QFT framework and local classical gravity interaction Hamiltonian Eq4",
+        "Feynman two-mass interference phases and quantum-matter propagator argument",
+        "Fig3 and Fig4 mass/time parameter regions, discussion and Methods"
+      ],
+      "summary": "Classical gravitational field coupled to quantum matter can generate entanglement via virtual matter communication under constructed model: entanglement alone does not uniquely establish a graviton.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "This is a theoretically allowed counterexample, not measured gravity-mediated entanglement; challenge depends on model and experiment parameters.",
+      "alternativeExplanations": "LOCC-motivated no-go theorem with narrower assumptions; conventional quantized gravity remains a viable rival.",
+      "conclusion": "Explicit adversarial test-uniqueness correction: stronger designed discriminator needed for classical vs quantum gravity; not directly history count.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-060",
+      "workId": "SRC-014",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Frauchiger and Renner 2018 nested observer consistency theorem",
+      "basis": "Original main paper Nature Communications 9 3711, institutional author-version https://boulderschool.yale.edu/sites/default/files/files/QConsistency.pdf",
+      "sectionsRead": [
+        "Opening nested lab protocol and Q universal inference rule",
+        "four-agent measurement operators and Tables1–3",
+        "Theorem1: Q + C + S inconsistency given ideal coherent measurements",
+        "Table4 interpretation assumptions; Discussion and conclusion. Appendix extended equations not independently reconstructed."
+      ],
+      "summary": "The paper's claim is a *conditional no-go* for jointly imposing exact universal agent subsystems, cross-agent certainty and one unique outcome in idealized nested measurement. It is not an actual observation.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Adversarial fully reviewed SRC-064 shows a global Bohmian formulation evades at least one inference. Macroscopic lab reversal and agent certainty are stipulated.",
+      "alternativeExplanations": "Bohmian universal quantum state + particle configuration, observer-conditional inference and collapse formalisms.",
+      "conclusion": "Clarifies theory claim scope and falsifiable assumptions, no physical histories counted.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-061",
+      "workId": "SRC-073",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "Bedingham Maroney 2017 time reversibility of physical collapse",
+      "basis": "Complete open main Foundations of Physics §§1–6 https://link.springer.com/article/10.1007/s10701-017-0084-5",
+      "sectionsRead": [
+        "§1–2 jump completeness ∫J²=I and reversible collapse histories with boundary conditions",
+        "§3 stochastic lattice and coarse graining",
+        "§4 QMUPL localized packet examples",
+        "§5–6 time reversal discussion/conclusions"
+      ],
+      "summary": "Given common symmetry basis for J(z) and U, collapse event histories allow formal time-symmetric rule under specified initial/final boundary conditions.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Do not infer actual reversed memories, backward time travel or physically detected stochastic jumps; lattice Monte Carlo not reimplemented.",
+      "alternativeExplanations": "Observer's effective thermodynamic arrow and boundary-condition asymmetry.",
+      "conclusion": "Refutes blanket assertion collapse models are necessarily intrinsically time-asymmetric, a conditional theoretical result.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-062",
+      "workId": "SRC-074",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R006",
+      "stage": "fully-studied",
+      "label": "te Vrugt Tóth Wittkowski 2021 collapse master equations and MD",
+      "basis": "Complete open main Journal of Computational Electronics original https://link.springer.com/article/10.1007/s10825-021-01804-6",
+      "sectionsRead": [
+        "§1–3 Wigner transform/Moyal equation",
+        "§4–7 four model generators GRW/CSL/DP/dissipative GRW",
+        "§8 reported molecular-dynamics reverse-entropy initial configuration experiment in simulation",
+        "§9 environment decoherence/Fokker–Planck and conclusions"
+      ],
+      "summary": "Reported simulation fails to reproduce general thermodynamic equilibration from GRW perturbation under specially chosen initial conditions, challenging Albert's generic derivation.",
+      "method": "Complete original published main-text analysis of introduction, mathematical conditions, relevant apparatus data/figures and conclusion. Cross-theory alternatives and source-dependent uncertainty recorded in research/full-study-batch-003-ten-discriminator-candidates.md. No full independent experimental-statistical reconstruction or all proof/supplement replication claimed.",
+      "limitations": "Simulation is NOT a physics laboratory experiment; no numerical code, time step or statistical rerun independent validation.",
+      "alternativeExplanations": "Dissipative GRW versus environmental bath and different Fokker–Planck limits.",
+      "conclusion": "Nuanced theoretical counter-result: collapse cannot automatically be presented as a solved thermodynamic arrow mechanism.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete scholarly critical reading of main published original text (HTML/PDF; author-version caveats stated). Separately presented supplementary methods, raw events and all numerical replications not credited.",
+      "ledgerImpact": 0,
+      "ledgerIds": [],
+      "fieldNote": "research/full-study-batch-003-ten-discriminator-candidates.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
     }
   ]
 }
