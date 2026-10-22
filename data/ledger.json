@@ -5,7 +5,7 @@
     "score": 59,
     "reference": 50,
     "label": "Exploratory orientation",
-    "method": "59/100 remains an illustrative editorial orientation, not a Bayesian posterior or measured likelihood. 2026-10-21 audit VC-003: original-paper partial reviews of Gödel, Hawking and Deutsch, plus two abstract counterchecks, do not supply discriminating empirical tests of physically realized histories; therefore score unchanged.",
+    "method": "59/100 is a provisional editorial orientation, NOT an empirical probability. Reviews VC-003/004 compare original papers and reproduce limited theoretical examples, but no experiments distinguish actual physical histories; explicit no-change.",
     "empiricalVerdict": "No decisive evidence establishes physically branching timelines or backward time travel."
   },
   "entries": [
@@ -47,14 +47,15 @@
       "lat": null,
       "long": null,
       "locationType": "Theoretical work",
-      "notes": "Original Gödel paper §1 p.447 and §3 p.449 constructs closed timelike paths in a specified rotating spacetime. Hawking studies constraints on forming chronology horizons from specified initial conditions, not a contradiction. Mathematical existence is not a measured machine or multiple histories.",
+      "notes": "Original Gödel paper §1 p.447 and §3 p.449 constructs closed timelike paths in a specified rotating spacetime. Hawking studies constraints on forming chronology horizons from specified initial conditions, not a contradiction. Mathematical existence is not a measured machine or multiple histories. Follow-up limited independent algebra reproduced Gödel's g_phi_phi=4a²sinh²r(sinh²r−1), timelike for r>asinh(1); still only a conditional exact metric.",
       "lastResearchReview": "2026-10-21",
       "reviewRefs": [
         "SRC-002",
         "SRC-003",
         "NOTE-015",
         "NOTE-016",
-        "research/field-note-002.md"
+        "research/field-note-002.md",
+        "NOTE-020"
       ]
     },
     {
@@ -101,7 +102,7 @@
       "lat": null,
       "long": null,
       "locationType": "Theoretical work",
-      "notes": "Deutsch 1991 Eq.15-18 p.3203 establishes a finite-dimensional fixed-point consistency condition GIVEN an assumed CTC; a maximum-entropy selection is separately proposed p.3204. Politzer 1994 and Lloyd et al. 2011 offer mathematically different conditional prescriptions (abstracts examined). No observed gravitational CTC or branch count follows.",
+      "notes": "Deutsch 1991 Eq.15-18 p.3203 establishes a finite-dimensional fixed-point consistency condition GIVEN an assumed CTC; a maximum-entropy selection is separately proposed p.3204. Politzer 1994 and Lloyd et al. 2011 offer mathematically different conditional prescriptions (abstracts examined). No observed gravitational CTC or branch count follows. Follow-up 2x2 NOT-loop toy Phi(rho)=XrhoX has both maximally mixed and pure-state fixed points, while a deterministic Boolean NOT loop cannot; conditional algebra, not proof of CTC existence.",
       "lastResearchReview": "2026-10-21",
       "reviewRefs": [
         "SRC-019",
@@ -110,7 +111,8 @@
         "NOTE-017",
         "NOTE-018",
         "NOTE-019",
-        "research/field-note-002.md"
+        "research/field-note-002.md",
+        "NOTE-021"
       ]
     },
     {
