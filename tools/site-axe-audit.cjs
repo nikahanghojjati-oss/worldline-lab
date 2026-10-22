@@ -39,9 +39,9 @@ async function scan(page,name,include){
     await page.waitForTimeout(400); // settle dynamic layout and route transition before contrast sampling
     issues.push(...await scan(page,viewportName+'/'+route));
    }
-   for(const slug of ['physics','quantum-computing','chemistry']){
+   for(const slug of labs){
     if(!labs.includes(slug))continue;
-    for(const room of ['reading','interactive']){
+    for(const room of ['reading','presentation','interactive']){
      await page.evaluate(({slug,room})=>location.hash='#disciplines?lab='+slug+'&room='+room,{slug,room});
      await page.waitForFunction(s=>document.querySelector('#lab-detail')?.hidden===false&&location.hash.includes(s),slug,{timeout:15000});
      if(room==='interactive')await page.waitForFunction(()=>!!document.querySelector('#lab-control'));
@@ -52,7 +52,7 @@ async function scan(page,name,include){
    await context.close();
   }
   if(issues.length)throw Error('Severe automated WCAG findings:\n'+issues.join('\n'));
-  console.log('PASS automated axe WCAG A/AA serious/critical: eight routes and six lab views, desktop and phone widths. Human/physical-device review NOT performed.');
+  console.log('PASS automated axe WCAG A/AA serious/critical: eight routes and all nine labs x three views, desktop and phone widths. Human/physical-device review NOT performed.');
  }catch(e){console.error(e.stack||e);process.exitCode=1}
  finally{if(browser)await browser.close();server.kill('SIGTERM')}
 })();
