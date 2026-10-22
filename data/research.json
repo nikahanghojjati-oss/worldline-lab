@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "S-002 first quantitative history-ontology discriminator comparison, three new complete main-text source reviews",
+  "phase": "S-002 original Everett 1957 source-critical review plus v0.2 and v0.25 proportional research-first roadmap allocation",
   "milestones": [
     {
       "id": "M1",
@@ -133,6 +133,19 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Everett 1957 original main text critically reviewed · S-002-R003",
+          "summary": "Everett's §5 note added in proof calls all branch elements actual inside the theory; §§4–5 derive relative records and an additive squared-amplitude measure. Mathematical branch weights plus observers' coherent memories still do not empirically identify alternative real histories.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-059"
+          ],
+          "readingNoteIds": [
+            "NOTE-050"
+          ],
+          "limitation": "Original main paper read in retypeset copy rather than verified publisher facsimile; independent full proof/empirical reproduction absent; score remains 59 editorial."
+        },
         {
           "title": "S-002-R001 · Four-theory quantitative observational comparison",
           "summary": "Everett and equilibrium Bohmian mechanics yield the same ordinary Born distribution while describing different actual histories. GRW/CSL differs only when physical collapse changes predicted observables. See detailed 2×2 decoherence and parameterized GRW toy.",
@@ -419,6 +432,19 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Everett 1957 original main text critically reviewed · S-002-R003",
+          "summary": "Everett's §5 note added in proof calls all branch elements actual inside the theory; §§4–5 derive relative records and an additive squared-amplitude measure. Mathematical branch weights plus observers' coherent memories still do not empirically identify alternative real histories.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-059"
+          ],
+          "readingNoteIds": [
+            "NOTE-050"
+          ],
+          "limitation": "Original main paper read in retypeset copy rather than verified publisher facsimile; independent full proof/empirical reproduction absent; score remains 59 editorial."
+        },
         {
           "title": "S-002-R001 · Four-theory quantitative observational comparison",
           "summary": "Everett and equilibrium Bohmian mechanics yield the same ordinary Born distribution while describing different actual histories. GRW/CSL differs only when physical collapse changes predicted observables. See detailed 2×2 decoherence and parameterized GRW toy.",
@@ -1035,6 +1061,34 @@
   ],
   "journal": [
     {
+      "id": "J-006",
+      "date": "21 October 2026",
+      "category": "PRIMARY-SOURCE REVIEW · S-002 / R003",
+      "title": "Everett's claim of actual branches and why it is not a branch census",
+      "intro": "The 1957 primary paper explicitly treats every uncollapsed component as actual in the proposed theory. Its additive measure yields Born weights under assumptions; another theory with one actual configuration reproduces the same ordinary probabilities.",
+      "sections": [
+        {
+          "heading": "One wave function, multiple relative records",
+          "text": "A universal unitary quantum state can correlate observer memories with all relative outcomes. Everett's §5 proof-note says the components are all actual in that framework. The scientific question remains which ontology describes our actual physical universe."
+        },
+        {
+          "heading": "Why additivity matters but does not finish probability",
+          "text": "Everett's positive additive measure yields squared-amplitude weights and typical repeated-memory records, but a measure on hypothetical branches does not alone prove their existence or why a particular observer should expect one future experience."
+        },
+        {
+          "heading": "Next engineering and science work",
+          "text": "The roadmap's Truth Engine v0.2 requires data integrity, counterevidence, explicit score-change provenance and tests, while already implemented v0.25 reading rooms need acceptance revalidation. The planned scientific work is three parts for each part website development."
+        }
+      ],
+      "sourceIds": [
+        "WL-005",
+        "WL-008",
+        "WL-010",
+        "WL-011"
+      ],
+      "fullReport": "research/everett-1957-source-study-S002-R003.md"
+    },
+    {
       "id": "J-005",
       "date": "21 October 2026",
       "category": "SCIENTIFIC DISPATCH · SESSION S-002",
@@ -1344,13 +1398,14 @@
   },
   "fullStudyMilestone": {
     "batch": "research/full-study-batch-001.md",
-    "completed": 13,
+    "completed": 14,
     "target": 400,
-    "percentOfSourceReviewTarget": 3.25,
+    "percentOfSourceReviewTarget": 3.5,
     "interpretation": "13 critically reviewed complete published main texts, 3 new in S-002-R001; neither individual replication of every proof nor experimental independent validation.",
     "reviewedSources": [
       "SRC-002",
       "SRC-003",
+      "SRC-007",
       "SRC-008",
       "SRC-010",
       "SRC-012",
@@ -1364,11 +1419,12 @@
       "SRC-065"
     ],
     "session": "S-002",
-    "round": "S-002-R001",
+    "round": "S-002-R003",
     "completedOn": "2026-10-21",
     "scoreChange": 0,
     "newBatch": "research/full-study-batch-002.md",
-    "foundingBatch": "research/full-study-batch-001.md"
+    "foundingBatch": "research/full-study-batch-001.md",
+    "latestStudy": "research/everett-1957-source-study-S002-R003.md"
   },
   "modelComparison": {
     "version": "S-002-R001",
@@ -1453,5 +1509,65 @@
     },
     "separateCosmology": "Inflation bubbles and CMB collision nulls are distinct from Everett branches (SRC-062/WL-009).",
     "verdictAudit": "VC-008"
+  },
+  "releaseAllocation": {
+    "version": "S-002-R003",
+    "date": "2026-10-21",
+    "roadmap": "ROADMAP.md",
+    "plan": "research/release-020-025-allocation.md",
+    "remaining": {
+      "v02": {
+        "websitePoints": 9,
+        "sciencePoints": 27
+      },
+      "v025": {
+        "websitePoints": 3,
+        "sciencePoints": 9
+      }
+    },
+    "total": {
+      "websitePoints": 12,
+      "sciencePoints": 36,
+      "allPoints": 48
+    },
+    "units": "prospective relative effort, not measured hours",
+    "milestoneOrder": "v0.2 Truth Engine unfinished; v0.25 syllabi already implemented and require revalidation",
+    "websiteTasks": {
+      "v02": [
+        "W20-01",
+        "W20-02",
+        "W20-03",
+        "W20-04"
+      ],
+      "v025": [
+        "W25-01",
+        "W25-02",
+        "W25-03"
+      ]
+    },
+    "scienceTasks": {
+      "v02": [
+        "R20-01",
+        "R20-02",
+        "R20-03",
+        "R20-04",
+        "R20-05",
+        "R20-06",
+        "R20-07"
+      ],
+      "v025": [
+        "R25-01",
+        "R25-02",
+        "R25-03"
+      ]
+    },
+    "status": "Allocation committed; not all points delivered",
+    "records": [
+      {
+        "id": "R20-01",
+        "state": "full-main-text-reviewed-with-provenance-limits",
+        "evidence": "research/everett-1957-source-study-S002-R003.md"
+      }
+    ]
   }
 }
