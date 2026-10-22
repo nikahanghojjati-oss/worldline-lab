@@ -83,10 +83,11 @@ assert.ok(conditionalLogLR(1e-12)<0,'same data can disfavor other preselected CS
 assert.ok(Math.abs(conditionalLogLR(1e-12)+10.017982050900116)<1e-9,'original Ge count-level likelihood diagnostics reproduce');
 assert.ok(mainQuestion.fixedBackgroundDiagnostic.warning.includes('NOT'),'conditional calculation must not masquerade as score');
 assert.equal(base.pageFreshness.pages.length,8,'eight public routes require freshness inventory');
-assert.equal(base.pageFreshness.nextMandatorySweepRoundLogCount,17,'next mandatory full sweep R010');
-fails('freshness missing at fifth round',d=>{
- d.sessions.roundLog.push({...d.sessions.roundLog.at(-1),id:'S-002-R009'});
- d.sessions.roundLog.push({...d.sessions.roundLog.at(-1),id:'S-002-R010'});
+assert.equal(base.pageFreshness.nextMandatorySweepRoundLogCount,17,'first mandatory full sweep R010');
+assert.equal(base.pageFreshness.lastCompletedSweepRoundLogCount,17,'R010 source audit must be recorded');
+assert.equal(base.sessions.roundLog.length,17,'R010 closure should have 17 cumulative rounds');
+fails('freshness missing at next fifth round',d=>{
+ for(let i=11;i<=15;i++)d.sessions.roundLog.push({...d.sessions.roundLog.at(-1),id:'S-002-R0'+i});
 },'five-round website sweep missing');
 fails('unpaired central test',d=>{
  d.discriminator.candidates[0].candidateObservable='';
