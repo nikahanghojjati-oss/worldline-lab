@@ -9,9 +9,9 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "IN PROGRESS",
-  "activeWork": "Session 001: discipline source-reading syllabi and eight-stage research plan committed; continue source-level reviews of chronology protection, quantum branching, and causal models.",
-  "lastVerified": "Owner-approved project priority and future-session handoff rule recorded on 2026-10-21 in PROJECT_RULES.md, ROADMAP.md and SESSION_START.md. This policy update does not independently verify site features or claim completion of scientific full-text reviews.",
-  "nextStep": "Follow the research-first 75/25 policy: undertake and document the source-level Gödel/Hawking/Deutsch comparison and counterarguments; perform smaller necessary roadmap-aligned website tasks; record evidence-based verdict change or explicit no-change decision and update Session Observatory on milestone completion.",
+  "activeWork": "S-001: mandatory end-of-round project governance saved. Next continue Gödel/Hawking/Deutsch original-source analysis with linked notes and verdict audit.",
+  "lastVerified": "Round 001: PROJECT_RULES.md, SESSION_START.md and ROADMAP.md now require an explicit source-of-truth update of every Session Observatory section and complete transition decision after every work round. This rule edit is not a full-text research completion.",
+  "nextStep": "Complete the original-source Gödel 1949 / Hawking 1992 / Deutsch 1991 partial comparative reading, record precise page-level notes and counterarguments, append a no-change or change audit, and refresh ALL Session Observatory sections and transition readiness in the same round.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -42,7 +42,8 @@
           "Introduced a machine-readable transition assessment with explicit documented criteria and a cross-section workstream register.",
           "Committed Session Observatory v3 with milestone-derived readiness meter and page-open GitHub commits feed, plus documented cross-project update protocol.",
           "All 40 currently indexed publications have an assigned lab reading queue; completed-study markings are derived from the source library rather than presentation estimates.",
-          "Owner-approved 75/25 research-first operating policy committed to PROJECT_RULES.md and enforced in ROADMAP.md and SESSION_START.md; this is a planning rule, not a measured performance statistic."
+          "Owner-approved 75/25 research-first operating policy committed to PROJECT_RULES.md and enforced in ROADMAP.md and SESSION_START.md; this is a planning rule, not a measured performance statistic.",
+          "Round S-001-R001: mandatory per-round Session Observatory and decision update contract committed in PROJECT_RULES.md, SESSION_START.md and ROADMAP.md."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
@@ -51,7 +52,7 @@
           "Perform detailed full-text reviews with section citations; none is recorded as complete in the founding library index.",
           "Interactive browser validation of new session control widgets, accessibility, responsive layout, and GitHub activity feed is outstanding."
         ],
-        "next": "Follow the research-first 75/25 policy: undertake and document the source-level Gödel/Hawking/Deutsch comparison and counterarguments; perform smaller necessary roadmap-aligned website tasks; record evidence-based verdict change or explicit no-change decision and update Session Observatory on milestone completion."
+        "next": "Complete the original-source Gödel 1949 / Hawking 1992 / Deutsch 1991 partial comparative reading, record precise page-level notes and counterarguments, append a no-change or change audit, and refresh ALL Session Observatory sections and transition readiness in the same round."
       }
     }
   ],
@@ -72,7 +73,8 @@
       "Never fabricate session token usage, elapsed time, experiment conditions, or confidence.",
       "Check cited sources before new evidence classification.",
       "Record a reproducible rationale for any meter change.",
-      "Apply PROJECT_RULES.md: plan roughly 75% rigorous research and 25% roadmap-aligned website work over meaningful cycles, without fabricated effort telemetry."
+      "Apply PROJECT_RULES.md: plan roughly 75% rigorous research and 25% roadmap-aligned website work over meaningful cycles, without fabricated effort telemetry.",
+      "Every worker and GPT chat must refresh the full Session Observatory and transition decision after EVERY substantive work round, even if the scientific verdict does not move; append a verified roundLog record."
     ],
     "minimumPacket": "Repository authority · session ID · verified change (with source) · unresolved limit · one highest-value next action · restart guardrails",
     "continuity": "Session 001 is active. A recent GitHub commit is project activity, not a new GPT chat. Page-open public commit polling is not automatic background research. For cross-chat handoff, record milestones and continuation decisions in this same authoritative file."
@@ -105,9 +107,10 @@
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "not measured",
-    "decisionBasis": "The project and next-session instructions now preserve the owner-approved 75% research / 25% roadmap-driven site priority, while the substantive Gödel/Hawking/Deutsch review milestone remains open. Remain in Session 001 while work is coherent; this rule update is not a reason to transition.",
-    "updatePolicy": "Update data/sessions.json on each substantive research or website milestone, capturing 75/25 research-first adherence or justified deviations, next action and verdict-impact rationale. GitHub commit feed is not ChatGPT telemetry."
+    "documentedContinuityRisk": "No specific loss of coherence reported; live context size cannot be measured by the site",
+    "decisionBasis": "Round 001 governance checkpoint committed, but the substantive original-source scientific comparison has not yet been completed. S-001 should continue. No artificial usage or handoff meter claim.",
+    "updatePolicy": "MANDATORY after EVERY substantive research, development, audit or governance round: review all workstreams and all transition fields, update active work, verified outcomes, blocker list, scientific verdict or documented no-change and next step; append roundLog. Treat a failed write as UNSYNCED.",
+    "decision": "CONTINUE"
   },
   "workstreams": [
     {
@@ -156,8 +159,8 @@
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published",
-      "latest": "Founding session handoff now includes durable 75/25 research-first governance linked to PROJECT_RULES.md and ROADMAP.md; previous Session Observatory UI status is not reverified by this policy update.",
-      "next": "Track substantive source-level research and smaller roadmap-driven site milestones with clear handoff recommendations and no unverified usage metrics."
+      "latest": "Mandatory every-round update rule and decision reassessment now written into standing governance, roadmap and handoff; this record is the first closure checkpoint.",
+      "next": "After each round refresh all seven workstreams, full transition recommendation, verified outcomes, verdict rationale and next action; publish the authoritative JSON."
     }
   ],
   "operatingPolicy": {
@@ -172,5 +175,60 @@
     "deviationPolicy": "Urgent correctness, data integrity, security, accessibility and broken controls may be fixed ahead of allocation; document the reason and resume research priority.",
     "milestoneReporting": "Update this sessions record for significant research and website progress; explicitly record linked evidence and verdict change or no-change rationale in the research audit.",
     "nextSessionRule": "Read PROJECT_RULES.md, ROADMAP.md and SESSION_START.md, then the authoritative session and reading records; do not invent reading achievements or a handoff."
-  }
+  },
+  "roundLog": [
+    {
+      "id": "S-001-R001",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "scope": "Governance and session continuity; mandatory every-round closure policy",
+      "files": [
+        "PROJECT_RULES.md",
+        "SESSION_START.md",
+        "ROADMAP.md",
+        "data/sessions.json"
+      ],
+      "verified": "Standing rule and next-session instructions now require a complete Session Observatory and transition assessment after every round, including a no-change report.",
+      "research": "No new original-source literature counted as fully studied in this governance-only round.",
+      "verdict": {
+        "oldScore": 59,
+        "newScore": 59,
+        "status": "no-change",
+        "why": "Process rules provide no empirical evidence; existing 59 remains an editorial illustration."
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "change": "Reviewed: no new change asserted this round"
+        },
+        {
+          "area": "Evidence Ledger",
+          "change": "Reviewed: no new change asserted this round"
+        },
+        {
+          "area": "Research Library",
+          "change": "Reviewed: no new change asserted this round"
+        },
+        {
+          "area": "Journal & Research",
+          "change": "Reviewed: no new change asserted this round"
+        },
+        {
+          "area": "Research Laboratories",
+          "change": "Reviewed: no new change asserted this round"
+        },
+        {
+          "area": "Origins Atlas",
+          "change": "Reviewed: no new change asserted this round"
+        },
+        {
+          "area": "Session Observatory",
+          "change": "Governance update recorded"
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "Round 001 governance checkpoint committed, but the substantive original-source scientific comparison has not yet been completed. S-001 should continue. No artificial usage or handoff meter claim.",
+      "nextAction": "Complete the original-source Gödel 1949 / Hawking 1992 / Deutsch 1991 partial comparative reading, record precise page-level notes and counterarguments, append a no-change or change audit, and refresh ALL Session Observatory sections and transition readiness in the same round."
+    }
+  ]
 }
