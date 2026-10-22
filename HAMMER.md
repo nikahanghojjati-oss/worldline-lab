@@ -143,3 +143,15 @@ HAMMER v0.3: source-bound AI model study packets with independently replayed exa
 HAMMER v0.4: discover candidate cross-field discriminators (decoherence, cosmological structure, nonequilibrium pilot waves) from verified physics/math libraries; reject equivalence traps before costly instrument proposals; rank testability and known failure modes.
 
 HAMMER v1: evidence-bearing original theoretical contribution **only if mathematically proved or empirically replicated**. Include red-team model criticism and reversible claim provenance; never confer AGI capability status by the product name.
+
+## Public HAMMER research page · new dedicated route (S-003-R009)
+
+The published website now includes **[HAMMER research forge](hammer.html)**, a dedicated illustrated, responsive page with its own original vector artwork in `assets/hammer-art.svg`. It keeps the old Observatory workbench intact and embeds the interactive theory forge for readers who arrive directly at HAMMER. No simulated result is misrepresented as a real experiment.
+
+On each visit, and when refreshed/revisited, `assets/hammer-page.js` reads current committed `data/ledger.json`, `data/sessions.json`, `data/library.json` and `data/reading-notes.json` from GitHub Pages. The **25 Ledger entries, 12 model-specific movements, 83 indexed works, 28 genuinely fully studied main texts, S-003-R008 scientific checkpoint and the editorial Compass 50** are derived from data, not duplicated constants. New verified commits/deployments will automatically appear in the movement feed and research timeline on refresh; no false live AI execution, speculative time tracking, or invented movement animation. The displayed needle changes only if the actual committed central score changes.
+
+**Ultimate scientific purpose:** the central one-real-history versus many-physically-real-histories Truth Compass may move *either way* after genuine model-specific rival operational likelihoods, feasible tested preparations, calibration and original measured data, adversarial alternative-model assessment, independently reproducible analysis, and source-first legitimate AI model reviews support a real directional conclusion. It does **not** have to move merely because an impressive new observation constrains Bell-local realism or a restricted collapse model. The site explicitly explains the distinction.
+
+This is a ninth **website presentation page**, not a ninth canonical `#` scientific content route. The eight longstanding hash routes and their five-round audited source cadence remain unchanged. Dedicated desktop/mobile browser and axe WCAG tests cover `hammer.html`; passing automated tests does not replace physical-device Safari or human screen-reader usability checks. Browser stays read-only and uses no provider secrets.
+
+**Project continuity:** source evidence and HAMMER logic remain versioned in GitHub. This does not certify or replace human scientific reviews (which the owner excludes); source-first AI science critics remain optional and have not been invoked by this static web page.

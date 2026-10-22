@@ -2,15 +2,16 @@
 
 An open, evidence-driven research publication on time, causality, and the possibility of one or multiple physically realized histories.
 
-Public site: https://nikahanghojjati-oss.github.io/worldline-lab/
+Public site: https://nikahanghojjati-oss.github.io/worldline-lab/  
+Dedicated HAMMER research page: https://nikahanghojjati-oss.github.io/worldline-lab/hammer.html
 
 ## Published sections
 
-The magazine-style front page features the Truth Compass. The navigation opens Observatory, Truth Ledger, Journal, Research Labs, Origins Atlas, Scholar Library, and Session Observatory. The atlas includes an interactive conceptual globe and solar-system navigator, with careful labeling of what is and is not geographically sourced.
+The magazine-style front page features the Truth Compass. The navigation opens Observatory, the dedicated illustrated HAMMER research forge, Truth Ledger, Journal, Research Labs, Origins Atlas, Scholar Library, and Session Observatory. The atlas includes an interactive conceptual globe and solar-system navigator, with careful labeling of what is and is not geographically sourced.
 
 ## Current scientific status
 
-The answer is unresolved. The current 50/100 Truth Compass is an editorial neutral reference, **not a measured probability** of single versus multiple physical histories. The inherited 59/100 preference was withdrawn when its basis could not be supported; it was not an experimental score movement. As of S-002-R010 the research record contains 77 unique original sources and 28 complete critical main-text studies. The physical ontology question remains unresolved. Evidence is categorized before relevance is evaluated. No amount of simulated closed timelike curve behavior on its own proves time travel or branching histories.
+The answer is unresolved. The current 50/100 Truth Compass is an editorial neutral reference, **not a measured probability** of single versus multiple physical histories. The inherited 59/100 preference was withdrawn when its basis could not be supported; it was not an experimental score movement. As of S-003-R008 the recorded research includes **83 indexed works, 74 source notes, 28 complete critical full-original-main-text studies, 25 Ledger evidence findings and 12 claim-specific scientific movements**. The R009 standalone HAMMER page loads these values from source-controlled JSON and shows a continuously refreshable movement and research timeline; new commits/deployments are required before it changes. The physical ontology question remains unresolved. Evidence is categorized before relevance is evaluated. No amount of simulated closed timelike curve behavior on its own proves time travel or branching histories.
 
 ## Standing project policy
 
@@ -29,7 +30,7 @@ The answer is unresolved. The current 50/100 Truth Compass is an editorial neutr
 - `data/sessions.json` — compact session history, blocker, continuity and the next verified research action.
 - `RESEARCH_PROTOCOL.md` — scientific admission rules.
 - `SESSION_START.md` — compact continuation guide for a fresh ChatGPT session.
-- `index.html` and `assets/` — static public site rendered by GitHub Pages.
+- `index.html`, `hammer.html` and `assets/` — static public site plus dedicated read-only HAMMER science and experimental forge, rendered by GitHub Pages.
 
 ## Continuity and safety
 

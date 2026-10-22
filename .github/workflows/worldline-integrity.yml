@@ -12,6 +12,7 @@ on:
       - "tools/site-axe-audit.cjs"
       - "assets/**"
       - "index.html"
+      - "hammer.html"
       - ".github/workflows/worldline-integrity.yml"
   pull_request:
     paths:
@@ -24,6 +25,7 @@ on:
       - "tools/site-axe-audit.cjs"
       - "assets/**"
       - "index.html"
+      - "hammer.html"
       - ".github/workflows/worldline-integrity.yml"
   workflow_dispatch:
 permissions:
@@ -66,6 +68,7 @@ jobs:
           node --check assets/hammer-core.js
           node --check assets/hammer-discovery.js
           node --check assets/hammer-ui.js
+          node --check assets/hammer-page.js
           node --check tools/hammer/ai-panel.cjs
           node --check assets/library.js
           node --check assets/lab-experience.js
@@ -85,6 +88,8 @@ jobs:
           npx playwright install chromium --with-deps
       - name: Test 8 routes and 9 x 3 lab views at desktop and phone widths
         run: node tools/site-browser-smoke.cjs
+      - name: Test standalone HAMMER research page at desktop and phone widths
+        run: node tools/hammer/page-smoke.cjs
       - name: Install axe WCAG automation
         run: npm install --no-save --no-package-lock playwright@1.56.1 @axe-core/playwright@4.10.2
       - name: Audit WCAG serious and critical violations across all routes and priority labs

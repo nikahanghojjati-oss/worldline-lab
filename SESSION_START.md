@@ -1,7 +1,6 @@
 # Worldline Lab · session bootstrap
 
-> **S-002 genuinely active (2026-10-21).** S-001 handoff [HANDOFF_S001_TO_S002.md](HANDOFF_S001_TO_S002.md) consumed. Current scientific checkpoint: [S-002-R001 predictions matrix](research/ontology-predictions-S002-R001.md), [full original-main-text study batch 002](research/full-study-batch-002.md), data/sessions.json, verdict audit VC-008. 13 /400 full critical readings, not independently replicated experiments; compass unchanged 59→59 editorial.
-
+> **S-003 active as of October 22, 2026, R009 on an isolated PR.** Canonical checkpoint: [data/sessions.json](data/sessions.json). Published through R008: **83 indexed primary works, 74 source-specific reading notes, 28 fully critically read original main texts, 25 Ledger findings and 12 genuine model-specific scientific movements**. Central editorial Truth Compass **50/100, not a probability**; no genuine Everett-versus-equilibrium Bohm empirical discriminator. The new illustrated [dedicated HAMMER page](hammer.html) is being released through PR #9 and remains subject to latest-head CI. R009 is primarily a research-presentation/accessibility milestone, not a new experiment. Read [HAMMER.md](HAMMER.md) and the R008 research report for precise method, progress and limitations.
 
 Website: https://nikahanghojjati-oss.github.io/worldline-lab/#sessions
 Repository: https://github.com/nikahanghojjati-oss/worldline-lab
@@ -9,7 +8,7 @@ Repository: https://github.com/nikahanghojjati-oss/worldline-lab
 ## Standing research-first handoff rule (owner-approved 2026-10-21)
 Read [PROJECT_RULES.md](PROJECT_RULES.md) and [ROADMAP.md](ROADMAP.md) before planning a new session. Across substantial work cycles, target approximately **75% rigorous scientific research and 25% roadmap-driven website development**. This is a flexible effort priority, not a measured time or token quota; urgent site integrity fixes may take precedence with explanation.
 
-- Research is mapped but not finished: nine field queues, 54 subtopics, eight scientific stages and the prioritized source sequence in `LIBRARY_PROTOCOL.md`. Resume the highest-value unfinished original-source review, currently Everett 1957 and GRW 1986 original full studies plus XENONnT collapse-likelihood audit, using `data/library.json` and `data/reading-notes.json` to verify what has truly been read.
+- Research is mapped but not finished: nine field queues, 54 subtopics, eight scientific stages and the prioritized source sequence in `LIBRARY_PROTOCOL.md`. Resume the current highest-value gap from the latest \`data/sessions.json\`: independent raw-data reproduction of the 2026 172-kDa nanoparticle interference posterior using the authors' Zenodo archive, then seek physically defined and operationally distinct one-history/many-history likelihoods with feasible tests. Historical original papers (including GRW 1986) remain candidates for full original-main-text studies. Verify actual stages through \`data/library.json\` and \`data/reading-notes.json\`; do not promote a paper from abstract to full study merely for indexing.
 - Preserve existing reading lists, field presentation rooms, starter instruments, and interdisciplinary studio directions. Plan further Truth Engine, atlas/3D globe, deeper laboratories and observatory work **from the roadmap**, not by replacing previous commitments.
 - After any substantive research or website milestone, update `data/sessions.json`, workstream progress, next step, and the verdict audit if relevant. Record why the scientific verdict changed **or why it did not**. No forced compass movement or fabricated study count.
 - Before handoff, record the exact research question, completed source citations, counterarguments, blockers, outstanding website roadmap item, and one best next action. Recommend transition only at a natural, documented checkpoint or serious continuity loss; preserve the current session ID until a new chat actually starts.
@@ -21,7 +20,7 @@ Read [PROJECT_RULES.md](PROJECT_RULES.md) and [ROADMAP.md](ROADMAP.md) before pl
 4. Verify repository head, recent relevant commits, and any time-sensitive cited material.
 
 ## Session continuity contract
-- The founding session S-001 and genuine successor S-002 are recorded. Do not invent other future sessions.
+- The founding S-001 and successor S-002 are archived; the genuine active ChatGPT session is **S-003**, R009 as of 2026-10-22. New session IDs are created only for a genuinely new chat, not to mark arbitrary rounds.
 - Make one meaningful, reviewable advance per stage. Continue while the task remains coherent.
 - A handoff is recommended at a meaningful stage boundary with a committed, minimal restart packet or after serious self-reported context degradation.
 - Save: verified change / link to source, open limitation, and one highest-value next action.

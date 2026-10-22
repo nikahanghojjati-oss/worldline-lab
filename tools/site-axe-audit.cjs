@@ -39,6 +39,13 @@ async function scan(page,name,include){
     await page.waitForTimeout(400); // settle dynamic layout and route transition before contrast sampling
     issues.push(...await scan(page,viewportName+'/'+route));
    }
+   // Dedicated HAMMER is a separate HTML page, not a ninth hash route; audit explicitly.
+   await page.goto(url+'hammer.html',{waitUntil:'domcontentloaded'});
+   await page.waitForFunction(()=>document.querySelector('#hp-findings')?.textContent?.trim()!=='—'&&document.querySelector('#hammer-design option'),null,{timeout:15000});
+   await page.waitForTimeout(400);
+   issues.push(...await scan(page,viewportName+'/hammer-page'));
+   await page.goto(url+'#home',{waitUntil:'domcontentloaded'});
+   await page.waitForFunction(r=>document.querySelector('#research-round-banner')?.textContent?.includes(r),latest,{timeout:15000});
    for(const slug of labs){
     for(const room of ['reading','presentation','interactive']){
      await page.evaluate(({slug,room})=>location.hash='#disciplines?lab='+slug+'&room='+room,{slug,room});
@@ -61,7 +68,7 @@ async function scan(page,name,include){
    await context.close();
   }
   if(issues.length)throw Error('Severe automated WCAG findings:\n'+issues.join('\n'));
-  console.log('PASS automated axe WCAG A/AA serious/critical: eight routes and all nine labs x three views, desktop and phone widths. Human/physical-device review NOT performed.');
+  console.log('PASS automated axe WCAG A/AA serious/critical: eight hash routes, standalone HAMMER page and all nine labs x three views, desktop and phone widths. Human/physical-device review NOT performed.');
  }catch(e){console.error(e.stack||e);process.exitCode=1}
  finally{if(browser)await browser.close();server.kill('SIGTERM')}
 })();
