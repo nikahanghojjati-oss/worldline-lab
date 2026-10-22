@@ -204,6 +204,70 @@
         "The exactly matched nuisance case is an intentional counterexample to premature discrimination.",
         "No empirical measurements or nuisance range calibration are provided."
       ]
+    },
+    {
+      "id": "HM-004",
+      "title": "Reference-arm calibration as a nuisance cross-check",
+      "question": "Can a concurrently prepared reference arm with a predeclared diagnostic outcome constrain a detector-loss impostor when interpreted alongside the coherence-recovery arm?",
+      "impactScope": "model-dynamics",
+      "evidenceClass": "synthetic-theory-only",
+      "costUnits": 2,
+      "outcomes": [
+        "reference-pass",
+        "reference-fail"
+      ],
+      "sources": [
+        "SRC-066",
+        "SRC-007"
+      ],
+      "researchReport": "research/operational-identifiability-S002-R012.md",
+      "models": [
+        {
+          "id": "unitary",
+          "label": "Specified imperfect unitary reversal",
+          "variants": [
+            {
+              "assumptions": "toy reference pass 0.85 after presumed calibration",
+              "p": [
+                0.85,
+                0.15
+              ]
+            },
+            {
+              "assumptions": "adversarial imperfect reference pass 0.75",
+              "p": [
+                0.75,
+                0.25
+              ]
+            }
+          ]
+        },
+        {
+          "id": "loss",
+          "label": "Specified physical irrecoverable-loss hypothesis",
+          "variants": [
+            {
+              "assumptions": "toy reference pass 0.55 under stipulated loss",
+              "p": [
+                0.55,
+                0.45
+              ]
+            },
+            {
+              "assumptions": "adversarial reference pass 0.62 under stipulated loss",
+              "p": [
+                0.62,
+                0.38
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": [
+        "This arm is an invented model-design exercise with no apparatus construction, source-fitted nuisance bound, or measured counts.",
+        "Conditional independence from the coherence-recovery arm has not been established; shared detector drift could invalidate multiplying their likelihoods.",
+        "Any successful discrimination would concern specified physical-loss dynamics, not whether Everett branches exist."
+      ]
     }
   ]
 }
