@@ -16,8 +16,11 @@ async function scan(page,name,include){
  const axe=new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']);
  if(include)axe.include(include);
  const report=await axe.analyze();
+ if(name==='desktop/dashboard'||name==='desktop/ledger'||name==='desktop/physics/reading'){
+  console.log('CSS_DIAGNOSTIC '+name+' '+JSON.stringify(await page.evaluate(()=>({contrastSheet:[...document.styleSheets].map(x=>x.href).filter(x=>x?.includes('wcag-contrast')),notice:(()=>{const e=document.querySelector('#page-ledger > .notice');return e?{color:getComputedStyle(e).color,background:getComputedStyle(e).backgroundColor}:null})(),stat:(()=>{const e=document.querySelector('.program-stat strong');return e?{color:getComputedStyle(e).color,background:getComputedStyle(e).backgroundColor}:null})()}))));
+ }
  const serious=report.violations.filter(x=>['critical','serious'].includes(x.impact));
- console.log(JSON.stringify({scan:name,violations:report.violations.map(x=>({id:x.id,impact:x.impact,description:x.help,nodes:x.nodes.length,examples:x.nodes.slice(0,2).map(n=>n.target.join(' '))})),serious:serious.length}));
+ console.log(JSON.stringify({scan:name,violations:report.violations.map(x=>({id:x.id,impact:x.impact,description:x.help,nodes:x.nodes.length,examples:x.nodes.slice(0,2).map(n=>({target:n.target.join(' '), checks:n.any.map(y=>({id:y.id,data:y.data})), summary:n.failureSummary?.slice(0,220)}))})),serious:serious.length}));
  return serious.map(x=>name+': '+x.id+' ('+x.nodes.map(n=>n.target.join(' ')).slice(0,3).join('; ')+')');
 }
 (async()=>{
