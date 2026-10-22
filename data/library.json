@@ -1656,6 +1656,34 @@
       "verdictEffect": "none",
       "effectReason": "Shows ordinary Born measurements fail to distinguish Everett vs equilibrium Bohm; theory/analysis, not new experimental events.",
       "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-077",
+      "field": "Quantum foundations",
+      "title": "A strict experimental test of macroscopic realism in a superconducting flux qubit",
+      "authors": [
+        "George C. Knee",
+        "Kosuke Kakuyanagi",
+        "Mao-Chuang Yeh",
+        "Yuichiro Matsuzaki",
+        "Hiraku Toida",
+        "Hiroshi Yamaguchi",
+        "Shiro Saito",
+        "Anthony J. Leggett",
+        "William J. Munro"
+      ],
+      "year": 2016,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/ncomms13253",
+      "role": "Original control-calibrated qubit study of operational eigenstate-mixture macrorealism, not a physical histories census",
+      "access": "fully-studied",
+      "note": "Complete five-page published original main text/figures/equations/Methods (2016) critically reviewed as NOTE-067 in S-002-R011, with numerical 84-sigma reconstruction. Publisher supplemental and raw trials not independently rerun.",
+      "linkedLedger": [
+        "WL-020"
+      ],
+      "verdictEffect": "model-specific physical finding; central ontology no-change",
+      "effectReason": "Operational macrorealism under a convex-mixture/clumsiness bound is challenged at a measured scale; Everett and equilibrium Bohm both predict coherent qubit statistics and this does NOT count real histories.",
+      "verifiedAt": "2026-10-22"
     }
   ],
   "scholars": [

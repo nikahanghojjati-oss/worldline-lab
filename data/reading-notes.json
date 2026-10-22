@@ -1687,6 +1687,40 @@
         "appendicesAsRecorded": false,
         "independentFullReproduction": false
       }
+    },
+    {
+      "id": "NOTE-067",
+      "workId": "SRC-077",
+      "date": "2026-10-22",
+      "sessionId": "S-002",
+      "roundId": "S-002-R011",
+      "stage": "fully-studied",
+      "label": "Knee et al. 2016 entire original 5-page flux-qubit experimental macrorealism test with measured control-noise statistics",
+      "basis": "Published five-page original main article and Figs 1–3, https://inspirehep.net/files/f78569ff8b2f26953b7d8d2f42ff39b7 ; DOI https://doi.org/10.1038/ncomms13253. Read all five PDF pages; publisher-hosted text corroborated, supplementary and raw run events NOT independently reviewed.",
+      "sectionsRead": [
+        "p1 abstract: competing macrorealism claim and 170 nA/10 ns experimental scale",
+        "p2 Introduction and Fig 1: MRPS, non-invasive measurability, Leggett–Garg and distinct disturbance controls",
+        "p3 Results Eq 4–5 non-disturbance, conditional preparation controls, Fig 2 measurements and uncertainties",
+        "p4 Results Eq 6–7 convex mixture and weaker clumsiness bound, ~84 s.d. rejection, Fig 3 control sweeps, Discussion",
+        "p5 Methods Eq 8–12 device Hamiltonian, microwave JBA control/readout, propagated variances, data availability and citations"
+      ],
+      "summary": "Under a specifically defined macrorealist convex-mixture criterion and experimentally measured classical disturbances, rho-preparation blind-pulse disturbance -0.089788 is below g=-0.026612 and e=+0.015884. Source Fig 2 numbers give z = (-0.089788+0.026612)/sqrt[(sqrt(.000443²+.000423²))²+(sqrt(.000314²+.000305²))²] = -83.9146 (rounds to ~84). This challenges macrorealist models obeying Eq 7 over ~170 nA, ~10 ns operation, not all one-history theories; Everett and equilibrium Bohm both predict qubit coherence.",
+      "method": "Critical original main-text five-page PDF read including all three figures and methods; independent arithmetic using source Figure 2 six reported means and standard errors; code in tools/truth-engine/macrorealism-reproduce.cjs, without claiming independent trial dataset or supplementary likelihood reproduction.",
+      "limitations": "Control-calibrated statistical significance conditional on independently treated readout uncertainties, chosen experimental operations, and class of hidden-variable/no-extra-substate mixtures; Figure 2 rounded source inputs slightly alter z (~83.9). Rare or exotic contextual ontological definite-state models outside Eq7 not excluded. Author says all data are available on request, not provided in this main text. No exact GRW/CSL mass-geometric exclusion derived.",
+      "alternativeExplanations": "Preparation contextuality hidden within mixture classes, classical invasiveness not captured by two pointer eigenstate controls, correlated apparatus error, model-dependent state/readout tomography, decoherence effects; single-history Bohmian trajectory with equilibrium reproduces this quantum interference.",
+      "conclusion": "Genuine published physical result excluding a specified family of operational macrorealist assumptions while leaving physical multiple-branch ontology undecided. Strengthen WL-020/MOVE-009 independently of editorial compass.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire original published five-page main article and Fig1–3 critically studied, with limits; no supplementary review or raw data replication.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-020"
+      ],
+      "fieldNote": "research/full-study-batch-005-macrorealism-R011.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
     }
   ]
 }

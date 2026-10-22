@@ -589,6 +589,31 @@
         "NOTE-066",
         "research/full-study-batch-004-one-many-Born-R010.md"
       ]
+    },
+    {
+      "id": "WL-020",
+      "date": "2026-10-22",
+      "title": "Flux-qubit control-calibrated coherence rejects an operational macroscopic eigenstate-mixture bound, not one actual history",
+      "field": "Quantum foundations",
+      "kind": "Experimental result / explicitly scoped macrorealism rejection",
+      "status": "Published main experiment source-verified; rounded-source numerical significance independently rechecked",
+      "question": "Does a superconducting circuit show nonclassical disturbance exceeding classically measured controls, and does this identify multiple physically actual histories?",
+      "finding": "Knee et al. 2016 (Nature Communications 7:13253) report 7×10^6 trials per data point on a flux qubit and Fig 2 disturbance d_g=-0.026612±0.000438, d_e=+0.015884±0.000609, d_rho=-0.089788±0.000612. Our re-evaluation from original six displayed means/errors gives d_rho-d_g=-0.063176 and propagated significance 83.91 standard deviations (~84 as paper). Under its Eq7 no-extra-preparation-contextuality convex-control macrorealist class, d_rho falls outside [d_g,d_e]; a genuine conditional model-class exclusion, but compatible with Everett as well as one-configuration Bohmian equilibrium. No Everett branch is detected.",
+      "source": "Knee et al., Nature Communications (2016) main article, Fig 2c–d, Eqs 4–7, Methods and source PDF p1–5",
+      "url": "https://doi.org/10.1038/ncomms13253",
+      "impact": 0,
+      "direction": "Strengthens specific operational macroscopic-coherence claim only; no change in central real-histories dial",
+      "strength": "Original complete main article + independently recomputed statistics from published rounded means; no raw repeated-trial or supplement reanalysis",
+      "place": "Superconducting flux qubit laboratory; exact site coordinate not independently substantiated",
+      "lat": null,
+      "long": null,
+      "locationType": "Physics apparatus publication attribution only; do not geolocate device from authors' institutional affiliations",
+      "notes": "Measurement pulses and preparation-conditioned disturbance bound may not cover all hidden-variable state spaces. Statistical '84σ' is relative to this experiment's assumptions and reported uncertainties, NOT likelihood ratio or odds favoring multiple physically real histories. See research/full-study-batch-005-macrorealism-R011.md.",
+      "reviewRefs": [
+        "SRC-077",
+        "NOTE-067",
+        "research/full-study-batch-005-macrorealism-R011.md"
+      ]
     }
   ],
   "scientificMovements": [
@@ -742,6 +767,25 @@
       "researchReport": "research/csl-bound-reconstruction-S002-R008.md",
       "reproducibleCode": "tools/truth-engine/csl-reproduce.cjs",
       "comparisonData": "data/csl-exclusion-comparison.json"
+    },
+    {
+      "id": "MOVE-009",
+      "date": "2026-10-22",
+      "ledgerId": "WL-020",
+      "sourceIds": [
+        "SRC-077"
+      ],
+      "readingNoteIds": [
+        "NOTE-067"
+      ],
+      "claim": "The operational eigenstate-mixture macrorealist model class compatible with calibrated g/e controls at a superconducting qubit scale",
+      "from": "Not represented explicitly in the Worldline model-specific physics ledger",
+      "to": "Observed d_rho=-0.089788 outside [-0.026612,+0.015884]; source-Fig2 rounded propagation z≈83.9 sigma, rejecting that constrained class at the tested 170 nA and 10 ns scale",
+      "modelDirection": "Rejects particular macrorealist convex-mixture and calibrated clumsiness hypotheses; not generic single actual-world theories",
+      "centralHistoryDirection": "No independent Everett vs quantum equilibrium Bohm discrimination; one real configuration can reproduce same nonclassical flux-qubit outcomes",
+      "centralScoreImpact": 0,
+      "researchReport": "research/full-study-batch-005-macrorealism-R011.md",
+      "reproducibleCode": "tools/truth-engine/macrorealism-reproduce.cjs"
     }
   ]
 }

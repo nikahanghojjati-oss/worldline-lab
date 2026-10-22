@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-22",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "S-002-R010 full-main-text tests of high-energy Born-rule deviations, one-configuration quantum equilibrium, and eight-page freshness sweep",
+  "phase": "S-002-R011: original flux-qubit macrorealism trial study, 84-sigma conditional physical claim and release acceptance safeguards",
   "milestones": [
     {
       "id": "M1",
@@ -76,7 +76,8 @@
         "SRC-073",
         "SRC-074",
         "SRC-075",
-        "SRC-076"
+        "SRC-076",
+        "SRC-077"
       ],
       "prioritySourceIds": [
         "SRC-007",
@@ -144,6 +145,19 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Measured macrorealism class exclusion, not multiverse evidence · S-002-R011",
+          "summary": "Knee et al. 2016 full original main article: superconducting flux qubit 170 nA / roughly 10 ns, calibrated disturbances d_g=-0.026612, d_e=+0.015884 and d_rho=-0.089788, our published-number significance 83.91 sigma. Physically rejects specified mixture-control macrorealist models, yet standard Everett and Bohmian equilibrium agree.",
+          "sourceIds": [
+            "SRC-077",
+            "SRC-010",
+            "SRC-007"
+          ],
+          "readingNoteIds": [
+            "NOTE-067"
+          ],
+          "limitation": "No raw event trials/supplement; 84-sigma pertains to experiment's operational macrorealist Eq7 class only, not Everett vs Bohm or original GRW parameter exclusion."
+        },
         {
           "title": "S-002-R008 quantitative CSL replication, common rC reference",
           "summary": "Ge count-level Gamma 95% posterior λ<5.1973e-13/s independently computed (source 5.2e-13); LISA 2024 acceleration PSD Eq10 λ<8.364e-11/s (source 8.3e-11), both at rC 1e-7m. XENON published 90%-CL model ratio converts to λ<3e-17 but full nuisance likelihood not reproduced; molecule and rotational numeric curves not invented.",
@@ -322,7 +336,8 @@
         "SRC-010",
         "SRC-059",
         "SRC-075",
-        "SRC-076"
+        "SRC-076",
+        "SRC-077"
       ],
       "prioritySourceIds": [
         "SRC-044",
@@ -449,7 +464,8 @@
         "SRC-073",
         "SRC-074",
         "SRC-075",
-        "SRC-076"
+        "SRC-076",
+        "SRC-077"
       ],
       "prioritySourceIds": [
         "SRC-060",
@@ -514,6 +530,19 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Measured macrorealism class exclusion, not multiverse evidence · S-002-R011",
+          "summary": "Knee et al. 2016 full original main article: superconducting flux qubit 170 nA / roughly 10 ns, calibrated disturbances d_g=-0.026612, d_e=+0.015884 and d_rho=-0.089788, our published-number significance 83.91 sigma. Physically rejects specified mixture-control macrorealist models, yet standard Everett and Bohmian equilibrium agree.",
+          "sourceIds": [
+            "SRC-077",
+            "SRC-010",
+            "SRC-007"
+          ],
+          "readingNoteIds": [
+            "NOTE-067"
+          ],
+          "limitation": "No raw event trials/supplement; 84-sigma pertains to experiment's operational macrorealist Eq7 class only, not Everett vs Bohm or original GRW parameter exclusion."
+        },
         {
           "title": "S-002-R008 quantitative CSL replication, common rC reference",
           "summary": "Ge count-level Gamma 95% posterior λ<5.1973e-13/s independently computed (source 5.2e-13); LISA 2024 acceleration PSD Eq10 λ<8.364e-11/s (source 8.3e-11), both at rC 1e-7m. XENON published 90%-CL model ratio converts to λ<3e-17 but full nuisance likelihood not reproduced; molecule and rotational numeric curves not invented.",
@@ -1267,6 +1296,36 @@
   ],
   "journal": [
     {
+      "id": "J-012",
+      "date": "22 October 2026",
+      "category": "COMPLETE ORIGINAL EXPERIMENT STUDY · S-002-R011",
+      "title": "A physical measurement narrows macrorealism without counting worlds",
+      "intro": "A complete five-page original superconducting-qubit article and independent published-error propagation produce a genuine approximately 84-standard-deviation test of a specified nonclassical-disturbance bound. This improves what Worldline can reject, not its ability to count physical histories.",
+      "sections": [
+        {
+          "heading": "An experimental definition matters",
+          "text": "Knee et al. 2016 define an operational macrorealist disturbance inequality: a coherent preparation may not disturb a future measurement more than the range observed for two definite pointer preparations. With an independently applied blind pulse, this bound is experimentally testable."
+        },
+        {
+          "heading": "Reproducing the stated significance",
+          "text": "Published g/e/coherent disturbance means are -0.026612, +0.015884 and -0.089788. The coherent minus g gap -0.063176 divided by 0.00075286 in combined source-rounded uncertainty gives 83.91 standard deviations. Under the defined control-model class, a strong physical result."
+        },
+        {
+          "heading": "Not an Everett branch observation",
+          "text": "The main paper itself allows different hidden-state preparation behavior as an escape from its convex-mixture bound. Everett and Bohmian quantum equilibrium both predict ordinary quantum coherence. A rejection of this macrorealism subclass therefore cannot favor many actual timelines over one actual Bohmian configuration."
+        },
+        {
+          "heading": "Scope of the completed review",
+          "text": "Five full original pages, Fig1–3, control procedures, equations and published errors studied; supplementary figures and author-held raw trial data not reconstructed. Historic GRW original remains an abstract/targeted reading until its full 22 pages can be accessed."
+        }
+      ],
+      "sourceIds": [
+        "WL-020",
+        "WL-019"
+      ],
+      "fullReport": "research/full-study-batch-005-macrorealism-R011.md"
+    },
+    {
       "id": "J-011",
       "date": "22 October 2026",
       "category": "ORIGINAL MAIN-TEXT EVIDENCE · S-002-R010",
@@ -1757,10 +1816,10 @@
   },
   "fullStudyMilestone": {
     "batch": "research/full-study-batch-001.md",
-    "completed": 27,
+    "completed": 28,
     "target": 400,
-    "percentOfSourceReviewTarget": 6.75,
-    "interpretation": "27 complete original research main-text critical readings, not 27 independent detector replications. Main ontology remains experimentally unresolved.",
+    "percentOfSourceReviewTarget": 7,
+    "interpretation": "28 original main-text critical reviews including source complete Knee 2016 experimental macrorealism result; not 28 raw-event or supplementary reanalyses. Actual number of physical histories unresolved.",
     "reviewedSources": [
       "SRC-002",
       "SRC-003",
@@ -1788,15 +1847,16 @@
       "SRC-073",
       "SRC-074",
       "SRC-075",
-      "SRC-076"
+      "SRC-076",
+      "SRC-077"
     ],
     "session": "S-002",
-    "round": "S-002-R010",
+    "round": "S-002-R011",
     "completedOn": "2026-10-22",
     "scoreChange": 0,
     "newBatch": "research/full-study-batch-003-ten-discriminator-candidates.md",
     "foundingBatch": "research/full-study-batch-001.md",
-    "latestStudy": "research/full-study-batch-003-ten-discriminator-candidates.md"
+    "latestStudy": "research/full-study-batch-005-macrorealism-R011.md"
   },
   "modelComparison": {
     "version": "S-002-R001",
