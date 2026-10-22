@@ -83,6 +83,26 @@
     verdictImpact:'NONE',hypothesisNovelty:'UNASSESSED'};
   }
  }
+ // A scientific counterexample to naive marginal reasoning:
+ // equal single-shot distributions do NOT imply equal joint correlations.
+ // This toy is not a claim about Everett versus standard equilibrium Bohm
+ // (those share the full standard quantum operational predictions).
+ function correlationWitness(){
+  const first=[.5,0,0,.5],second=[0,.5,.5,0];
+  const marginal=(p,axis)=>axis===0?[p[0]+p[1],p[2]+p[3]]:[p[0]+p[2],p[1]+p[3]];
+  const marginals=[0,1].map(axis=>({
+   axis,left:marginal(first,axis),right:marginal(second,axis),
+   divergenceBits:core.jsd(marginal(first,axis),marginal(second,axis))
+  }));
+  return {schema:'worldline-hammer-correlation-paradox/v1',
+   label:'Equal one-shot statistics, opposite hypothetical correlations',
+   marginals,jointDivergenceBits:core.jsd(first,second),
+   distributions:[first,second],evidence:'SYNTHETIC_THEORY_ONLY',
+   lesson:'Two models can share single-shot marginals but differ in joint statistics. Everett and equilibrium Bohm are not separated here: their matched full quantum instrument predictions remain equal.',
+   nextQuestion:'Which physically specified extension changes temporal or cross-system correlations while preserving measured single-shot Born statistics, and can its joint likelihood survive realistic nuisance controls?',
+   proposedLedgerScoreChange:0};
+ }
+
  // A mathematical firewall: identical operational distributions remain identical
  // after shared classical processing. This DOES NOT prove physics models identical.
  function postprocess(p,channel){
@@ -168,5 +188,5 @@
    ledgerMovement:0,centralVerdict:'UNRESOLVED'};
  }
 
- return Object.freeze({validate,jointDesign,evaluateMission,postprocess,discover,search});
+ return Object.freeze({validate,jointDesign,evaluateMission,postprocess,discover,search,correlationWitness});
 });
