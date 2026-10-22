@@ -55,6 +55,8 @@ async function run(viewportName,viewport){
   await page.locator('#hammer-mission').selectOption('HF-002');
   assert.match(await page.locator('#hammer-mission-results').innerText(),/CONDITIONAL WEDGE/,'fused conditional two-arm experiment');
   assert.match(await page.locator('#hammer-mission-results').innerText(),/shared-nuisance/,'recursive metacognitive next-step proposal');
+  assert.match(await page.locator('.hammer-auto-memory').innerText(),/Autonomous question search/,'HAMMER generated new multiquestion research paths');
+  assert.match(await page.locator('.hammer-auto-memory').innerText(),/Verified novel discoveries: 0/,'not masquerading a hypothesis as a discovery');
   await page.locator('#hammer-mission').selectOption('HF-003');
   assert.match(await page.locator('#hammer-mission-results').innerText(),/VETO/,'ontology/dynamics invalid fusion must be rejected');
   await hammerSelect.selectOption('HM-002');
