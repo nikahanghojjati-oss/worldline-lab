@@ -8,10 +8,10 @@
     "minutes": null,
     "reason": "Not exposed to the GitHub Pages website."
   },
-  "state": "ACTIVE · S-003-R001 RELEASE ACCEPTANCE REVIEW · v0.2 / v0.25",
-  "activeWork": "S-003-R001 isolated PR #3 expands axe WCAG A/AA automated test coverage to all nine disciplines × three room views × two viewport sizes. Main integrity and deployment runs passed at ce056173; PR complete 9×3 automated WCAG and integrity gate PASSED in run 39783583686. Truth Engine trusted scientific approval code exists, but no actual independent human approval occurred. Science and 50 editorial baseline unchanged. Expanded 9×3 automated axe uncovered two real common presentation text contrast failures: 2.87:1 slide number and 4.37:1 inquiry text versus 4.5:1 required; targeted contrast-only CSS replacements independently calculate 7.19:1 and 6.82:1. Post-fix full branch CI verified green 39783583686.",
-  "lastVerified": "GitHub Actions main 39782263521 integrity/browser/a11y success; Pages 39782262868 success; release report research/release-v02-v025-acceptance-S003-R001.md committed on isolated branch; PR #3 expanded 9×3 automated accessibility gate passed GitHub CI 39783583686; changes remain branch-only and not yet published. Source count from R012: 77 works/68 notes/28 full studies; no new primary literature reviewed. Expanded 9×3 automated axe uncovered two real common presentation text contrast failures: 2.87:1 slide number and 4.37:1 inquiry text versus 4.5:1 required; targeted contrast-only CSS replacements independently calculate 7.19:1 and 6.82:1. Post-fix full branch CI verified green 39783583686. Full eight-route and 9 disciplines × 3 views × 2 viewports automated axe WCAG A/AA serious/critical audit and v0.2 integrity validation **PASSED** at branch commit d86eb9e1 (GitHub Actions run 39783583686), with subsequent S003 doc and session verification workflows 39783780722 and 39783913707 also green. Actual independent scientific approval and physical iPhone Safari/screen-reader signoff remain NOT DONE.",
-  "nextStep": "Merge PR #3 only after review of branch's final CI and current main freshness; the enhanced automated v0.25 acceptance has PASSED but real iPhone Safari and independent human screen-reader tests remain pending. For v0.2, obtain genuine independent human scientific approval for any evidence-justified directional verdict change, never fabricate or force one. Resume question-first discriminating physics work.",
+  "state": "ACTIVE · S-003-R002 v0.25 AUTOMATED LAB ACCEPTANCE VERIFIED · HUMAN RELEASE GATES OPEN",
+  "activeWork": "Completed v0.25 automated eight-route and full nine-discipline x three-room Chromium accessibility audit at desktop/phone viewport widths and keyboard-controlled presentation traversal. GitHub Actions 39783927679 passed source science validation and browser acceptance, including source-grounded contrast fixes. v0.2 forged review/score-reversal security remains tested, but genuine external scientist approval has not occurred. No physical iPhone Safari or human screen-reader testing performed.",
+  "lastVerified": "Green GitHub Actions run 39783927679 at branch evidence commit ae1f73eff30800b30b595070228e605419075312: validate + browser-acceptance both success. Complete fail-closed A/AA nine labs x three views at two viewport widths; presentation Next/Previous keyboard Enter tested across nine disciplines. Source/Truth Engine counts remain 77 indexed, 68 notes, 28 fully critically read, central editorial 50 unchanged.",
+  "nextStep": "After green branch validation, review/merge PR #3, then verify GitHub Pages deploy and public Session Observatory. For actual v0.25 release, arrange physical iPhone Safari and independent human screen-reader QA. For v0.2, obtain a genuine independent scientific-review receipt only for a scientifically supported directional proposal; do not manufacture score movement. Return to the central one-versus-many discriminator and original GRW study when accessible. Mandatory next 8-route source content audit on cumulative roundLog entry22.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -57,7 +57,9 @@
     "R012 1986 original GRW 22-page paper hosted on an externally indexed PDF was not fully retrievable despite checking publisher and independent PDF host, so SRC-042 remains abstract-reviewed; no fabricated source reading.",
     "R012 automated axe WCAG checker added to GitHub CI; initial Playwright context error corrected and final full test may reveal real accessibility issues. Automated desktop/phone viewport is not real iPhone Safari or human screen reader.",
     "R012 live distinct recognized scientific reviewer for an actual nonzero central score has not signed any matching PR; synthetic API tests do not establish human review, so v0.2 signoff remains open.",
-    "S-003-R001: expanded nine-lab WCAG automated CI and human/physical device signoff remain pending; main sampled audit green is not complete release signoff."
+    "S-003-R001: expanded nine-lab WCAG automated CI and human/physical device signoff remain pending; main sampled audit green is not complete release signoff.",
+    "S-003-R002 v0.25 automated WCAG and keyboard suite is passing, but physical iPhone Safari and qualified independent human screen-reader checks are NOT completed.",
+    "S-003-R002 v0.2 real independent scientific approval of a legitimate exact-evidence-commit directional verdict/reversal has NOT been obtained; no synthetic review may count as release acceptance."
   ],
   "sessionHistory": [
     {
@@ -178,8 +180,8 @@
       "date": "2026-10-22",
       "label": "v0.2 and v0.25 release acceptance",
       "objective": "Finish evidence-led Truth Engine and nine research-room release verification without faking independent science approval or physical accessibility checks.",
-      "work": "R001: isolate the complete 9×3 lab axe WCAG A/AA coverage in a review branch, confirm previously passing main CI, document release gates and existing blockers; no new original physical study. Slide presentation failed expanded axe test with measured color ratios, and was repaired with targeted high-contrast text colors; full re-run verified green 39783583686. Full eight-route and 9 disciplines × 3 views × 2 viewports automated axe WCAG A/AA serious/critical audit and v0.2 integrity validation **PASSED** at branch commit d86eb9e1 (GitHub Actions run 39783583686), with subsequent S003 doc and session verification workflows 39783780722 and 39783913707 also green. Actual independent scientific approval and physical iPhone Safari/screen-reader signoff remain NOT DONE.",
-      "status": "ACTIVE · S-003-R001 automated v0.25 gate verified on PR, human review pending",
+      "work": "R001: isolate the complete 9×3 lab axe WCAG A/AA coverage in a review branch, confirm previously passing main CI, document release gates and existing blockers; no new original physical study. Slide presentation failed expanded axe test with measured color ratios, and was repaired with targeted high-contrast text colors; full re-run verified green 39783583686. Full eight-route and 9 disciplines × 3 views × 2 viewports automated axe WCAG A/AA serious/critical audit and v0.2 integrity validation **PASSED** at branch commit d86eb9e1 (GitHub Actions run 39783583686), with subsequent S003 doc and session verification workflows 39783780722 and 39783913707 also green. Actual independent scientific approval and physical iPhone Safari/screen-reader signoff remain NOT DONE. R002: source-backed complete nine-room automated browser and axe verification; keyboard Next/Previous for each six-slide presentation and corrected measured slide contrast; automated jobs green 39783927679. Real phone/screen-reader and real scientist approval explicitly remain open.",
+      "status": "ACTIVE · S-003-R002 full automated lab acceptance verified, human release QA open",
       "scope": "Truth Engine v0.2 production review integrity; v0.25 nine-room Chromium accessibility coverage and release evidence",
       "tokenCount": null,
       "elapsedMinutes": null,
@@ -191,15 +193,18 @@
           "77 sources, 68 reading notes, 28 complete original main-text studies remain historical R012 totals, not new R001 reading achievements.",
           "No empirical evidence separates Everett branch ontology from standard Bohmian equilibrium, and neutral editorial 50 remains unchanged.",
           "Expanded 9×3 automated axe uncovered two real common presentation text contrast failures: 2.87:1 slide number and 4.37:1 inquiry text versus 4.5:1 required; targeted contrast-only CSS replacements independently calculate 7.19:1 and 6.82:1. Post-fix full branch CI verified green 39783583686.",
-          "Full eight-route and 9 disciplines × 3 views × 2 viewports automated axe WCAG A/AA serious/critical audit and v0.2 integrity validation **PASSED** at branch commit d86eb9e1 (GitHub Actions run 39783583686), with subsequent S003 doc and session verification workflows 39783780722 and 39783913707 also green. Actual independent scientific approval and physical iPhone Safari/screen-reader signoff remain NOT DONE."
+          "Full eight-route and 9 disciplines × 3 views × 2 viewports automated axe WCAG A/AA serious/critical audit and v0.2 integrity validation **PASSED** at branch commit d86eb9e1 (GitHub Actions run 39783583686), with subsequent S003 doc and session verification workflows 39783780722 and 39783913707 also green. Actual independent scientific approval and physical iPhone Safari/screen-reader signoff remain NOT DONE.",
+          "R002: GitHub CI 39783927679 validates science schema and all 8 browser routes with 9 labs x 3 modes at both widths; keyboard slide controls tested and axe severe errors cleared on a commit-specific branch."
         ],
         "unresolved": [
           "Full 9×3 v0.25 axe suite after measured slide AA fix has passed run 39783583686; main earlier sampled suite is green.",
           "No real distinct human scientific reviewer has approved a valid measured, score-changing v0.2 claim; never manufacture one.",
           "Physical iPhone Safari and independent screen-reader/keyboard review has not been performed.",
-          "GRW 1986 full original source still not completely reviewed; no new scientific result produced this release-engineering round."
+          "GRW 1986 full original source still not completely reviewed; no new scientific result produced this release-engineering round.",
+          "S-003-R002 v0.25 automated WCAG and keyboard suite is passing, but physical iPhone Safari and qualified independent human screen-reader checks are NOT completed.",
+          "S-003-R002 v0.2 real independent scientific approval of a legitimate exact-evidence-commit directional verdict/reversal has NOT been obtained; no synthetic review may count as release acceptance."
         ],
-        "next": "Merge PR #3 only after review of branch's final CI and current main freshness; the enhanced automated v0.25 acceptance has PASSED but real iPhone Safari and independent human screen-reader tests remain pending. For v0.2, obtain genuine independent human scientific approval for any evidence-justified directional verdict change, never fabricate or force one. Resume question-first discriminating physics work."
+        "next": "After green branch validation, review/merge PR #3, then verify GitHub Pages deploy and public Session Observatory. For actual v0.25 release, arrange physical iPhone Safari and independent human screen-reader QA. For v0.2, obtain a genuine independent scientific-review receipt only for a scientifically supported directional proposal; do not manufacture score movement. Return to the central one-versus-many discriminator and original GRW study when accessible. Mandatory next 8-route source content audit on cumulative roundLog entry22."
       }
     }
   ],
@@ -265,15 +270,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-22",
-    "milestoneName": "S-003-R001 complete automated 9×3 v0.25 WCAG release gate; human science/a11y signoff still blocked",
+    "milestoneName": "S-003-R002 v0.25 full nine-room automated axe and keyboard acceptance verified",
     "milestoneComplete": true,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No actual independent GitHub scientific approver for v0.2 nonzero score changes, no physical iOS Safari or independent screen-reader signoff. Automated nine-room 9×3 acceptance green; latest branch review/merge remains pending.",
-    "decisionBasis": "Main Worldline integrity/browser WCAG and Pages CI passed at ce056173, but 9×3 extended axe PR gate is not yet green and user-facing release/human signoff remains open. No new scientific evidence justifies score movement or new full-paper count. Continue from preserved sources and S003 release report. Newly measured slide text WCAG deficits fixed on isolated branch; full extended suite still pending, physical phone and human science approval still unsigned. Full eight-route and 9 disciplines × 3 views × 2 viewports automated axe WCAG A/AA serious/critical audit and v0.2 integrity validation **PASSED** at branch commit d86eb9e1 (GitHub Actions run 39783583686), with subsequent S003 doc and session verification workflows 39783780722 and 39783913707 also green. Actual independent scientific approval and physical iPhone Safari/screen-reader signoff remain NOT DONE.",
-    "updatePolicy": "Seven workstreams and transition on each substantive round; five-round source content sweep due at cumulative roundLog index 22 (currently new index20).",
+    "documentedContinuityRisk": "No measured branch-ontology discriminator, independent human scientific PR approval or actual iPhone Safari/screen-reader tests. GitHub Pages merge and public deployment for this branch still pending.",
+    "decisionBasis": "Both CI jobs passed run 39783927679 on reviewed branch evidence commit ae1f73eff30800b30b595070228e605419075312. Nine labs x three modes at two widths and slide keyboard interaction now verified; QA is automated Chromium only, does not finalize v0.2 release or substitute for humans. Scientific score remains unchanged (no discriminating measured evidence), source counts unchanged. Continue with manual signoffs and new scientific research.",
+    "updatePolicy": "All seven streams and roundLog checked each round; cumulative count now 21 and next mandatory complete eight-route content source sweep at count22 (S-003-R003).",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -281,56 +286,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Main website and science editorial reference 50 published; no S-003 experimental update. Automated eight-route WCAG main gate green run 39782263521.",
-      "next": "Human physical iPhone Safari contrast and navigation verification still required.",
+      "latest": "No scientific score change; current 50 remains an editorial neutral anchor. Automated eight-route Chromium and axe suite on branch passed (39783927679).",
+      "next": "Real physical-phone editorial contrast and navigation acceptance remains unperformed.",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "No new empirical histories-count evidence; retain WL-021 and VC-013, source-based model-specific constraints and editable-neutral 50.",
-      "next": "Actual measured hypothesis-separating likelihood and trusted distinct-scientist review before central revisions.",
+      "latest": "Truth Engine v0.2 validator, negative anti-forgery fixtures and reviewed-commit logic passed; WL-021 / VC-013 unchanged at neutral 50.",
+      "next": "Real evidence-backed discriminating measurement and independent scientist approval required for any directional compass revision.",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "Unchanged R012 source totals: 77 works, 68 reading notes, 28 complete original main-text critical reviews; no S003 new readings.",
-      "next": "Full original GRW 1986 when legitimately accessible; do not convert indexed abstract to full-read.",
+      "latest": "77 original indexed works, 68 dated reading notes, 28 whole-main-text critical studies; no new primary study in release QA round.",
+      "next": "Obtain and critically read GRW 1986 only if full original article is legitimately available.",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "S-003-R001 release acceptance report adds no original physical research; existing J-013 operational-identifiability treatment still current.",
-      "next": "Prioritize question-first experimental Born-rule or recoherence tests after release gate work.",
+      "latest": "Publication record S-003 R002 now documents verified nine-lab automation and exact design contrast remediation, not a scientific experimental result.",
+      "next": "Return to model-discriminating source comparisons and experimental test design after accessibility stabilization.",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
-      "status": "Automated v0.25 all 9×3 WCAG A/AA gate PASSED (isolated PR), human QA still pending",
-      "latest": "Full eight-route and 9 disciplines × 3 views × 2 viewports automated axe WCAG A/AA serious/critical audit and v0.2 integrity validation **PASSED** at branch commit d86eb9e1 (GitHub Actions run 39783583686), with subsequent S003 doc and session verification workflows 39783780722 and 39783913707 also green. Actual independent scientific approval and physical iPhone Safari/screen-reader signoff remain NOT DONE.",
-      "next": "Independent physical Safari and screen-reader testing, then reviewed PR merge.",
+      "status": "v0.25 automated lab accessibility acceptance passed; physical/human signoff open",
+      "latest": "Nine disciplines × three views × desktop and phone-sized Chromium passed fail-closed axe A/AA and keyboard slide controls on GitHub Actions 39783927679.",
+      "next": "Qualified human screen-reader and physical iPhone Safari testing remain mandatory release-signoff blockers.",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "No new verified experiment-site coordinates or other physical measurements this engineering-only round; provenance unchanged.",
-      "next": "Retain sourced atlas and accessible fallback; true geographic 2D/3D under later v0.3.",
+      "latest": "All eight routes include the atlas in passed automated browser WCAG sweep; no new attributed geographic coordinates or new astronomical observations.",
+      "next": "Preserve existing conceptual map and verified-location v0.3 commitments; no invented experiment points.",
       "lastReviewedOn": "2026-10-22"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
-      "status": "S-003 checkpoint proposed in isolated PR, not yet published to main",
-      "latest": "S-003-R001 seven streams and CONTINUE gate source-linked; PR #3 full 9×3 automation green 39783583686, updated branch checkpoint not published to main.",
-      "next": "Publish branch checkpoint only through reviewed green PR; maintain honest release gate descriptions.",
+      "status": "S-003 R002 branch checkpoint committed; main merge/deploy pending",
+      "latest": "S-003 R002 GitHub-backed seven-stream verified QA closure; all-room A/AA and functional presentation browser CI passed; science verdict not updated.",
+      "next": "Merge reviewable branch with green CI if authorized and current; actual-device/human reviewer gates remain open, next mandatory eight-route research sweep at entry22.",
       "lastReviewedOn": "2026-10-22"
     }
   ],
@@ -2578,6 +2583,120 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "Substantial v0.25 test gate and release documentation completed on branch, but expanded CI, human scientific review and physical device/AT QA are not certified; do not claim release completion or ontological discovery. Green nine-room automated gate doesn't replace physical/independent review.",
       "nextAction": "Merge PR #3 only after review of branch's final CI and current main freshness; the enhanced automated v0.25 acceptance has PASSED but real iPhone Safari and independent human screen-reader tests remain pending. For v0.2, obtain genuine independent human scientific approval for any evidence-justified directional verdict change, never fabricate or force one. Resume question-first discriminating physics work."
+    },
+    {
+      "id": "S-003-R002",
+      "sessionId": "S-003",
+      "date": "2026-10-22",
+      "scope": "Complete v0.25 nine-discipline, three-mode WCAG A/AA and keyboard browser acceptance from isolated GitHub branch; document passing CI and truthful v0.2/v0.25 release limits without new scientific evidence.",
+      "files": [
+        "tools/site-axe-audit.cjs",
+        "tools/site-browser-smoke.cjs",
+        "assets/wcag-contrast.css",
+        "research/release-v02-v025-acceptance-S003-R001.md",
+        "data/sessions.json"
+      ],
+      "verified": "GitHub Actions run 39783927679 at ae1f73eff30800b30b595070228e605419075312 PASS both validate and browser-acceptance; eight routes, all nine labs by reading/presentation/interactive at desktop and phone-width Chromium, serious/critical axe A/AA fail-closed, actual DOM view gating and keyboard Next/Previous checks in every presentation. Not physical iOS/Safari or human AT.",
+      "research": {
+        "worksCatalogued": 77,
+        "fullyStudiedWorks": 28,
+        "readingNotes": 68,
+        "newFullStudies": 0,
+        "sourceReadDepth": "Engineering validation only; no new full original source reading, new detector measurement or independently replicated experiment",
+        "report": "research/release-v02-v025-acceptance-S003-R001.md",
+        "evidenceId": "WL-021 (unchanged prior finding)",
+        "provenance": "research/operational-identifiability-S002-R012.md"
+      },
+      "verdict": {
+        "oldScore": 50,
+        "newScore": 50,
+        "status": "no-change",
+        "auditId": "VC-013 (previous; no new scientific verdict)",
+        "why": "A11y, security and browser tests do not discriminate Everett physical branches from quantum-equilibrium Bohm one-real-history ontology. No source-backed directional likelihood and no measured claim movement."
+      },
+      "website": {
+        "v02": "Validation of GitHub trusted approval and anti-forgery code passes; actual distinct human science approval for a scientifically justified directional central revision absent.",
+        "v025": "Automated Chromium full 8-route / nine-lab x 3 room x two-viewport WCAG A/AA and presentation keyboard tests PASS; true physical iOS Safari and human screen-reader signoff absent.",
+        "validationRun": "https://github.com/nikahanghojjati-oss/worldline-lab/actions/runs/39783927679",
+        "validatedCommit": "ae1f73eff30800b30b595070228e605419075312",
+        "releaseStatus": "v0.25 automated acceptance verified on branch, v0.2 and v0.25 full release signoff open",
+        "nextFullEightRouteSourceSweep": "cumulative roundLog index22"
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "No scientific score change; current 50 remains an editorial neutral anchor. Automated eight-route Chromium and axe suite on branch passed (39783927679).",
+          "next": "Real physical-phone editorial contrast and navigation acceptance remains unperformed.",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Revalidated without a new research result: No scientific score change; current 50 remains an editorial neutral anchor. Automated eight-route Chromium and axe suite on branch passed (39783927679).",
+          "unchangedOrOpen": "Real physical-phone editorial contrast and navigation acceptance remains unperformed."
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "Truth Engine v0.2 validator, negative anti-forgery fixtures and reviewed-commit logic passed; WL-021 / VC-013 unchanged at neutral 50.",
+          "next": "Real evidence-backed discriminating measurement and independent scientist approval required for any directional compass revision.",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Revalidated without a new research result: Truth Engine v0.2 validator, negative anti-forgery fixtures and reviewed-commit logic passed; WL-021 / VC-013 unchanged at neutral 50.",
+          "unchangedOrOpen": "Real evidence-backed discriminating measurement and independent scientist approval required for any directional compass revision."
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "77 original indexed works, 68 dated reading notes, 28 whole-main-text critical studies; no new primary study in release QA round.",
+          "next": "Obtain and critically read GRW 1986 only if full original article is legitimately available.",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Revalidated without a new research result: 77 original indexed works, 68 dated reading notes, 28 whole-main-text critical studies; no new primary study in release QA round.",
+          "unchangedOrOpen": "Obtain and critically read GRW 1986 only if full original article is legitimately available."
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "Publication record S-003 R002 now documents verified nine-lab automation and exact design contrast remediation, not a scientific experimental result.",
+          "next": "Return to model-discriminating source comparisons and experimental test design after accessibility stabilization.",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Revalidated without a new research result: Publication record S-003 R002 now documents verified nine-lab automation and exact design contrast remediation, not a scientific experimental result.",
+          "unchangedOrOpen": "Return to model-discriminating source comparisons and experimental test design after accessibility stabilization."
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "v0.25 automated lab accessibility acceptance passed; physical/human signoff open",
+          "latest": "Nine disciplines × three views × desktop and phone-sized Chromium passed fail-closed axe A/AA and keyboard slide controls on GitHub Actions 39783927679.",
+          "next": "Qualified human screen-reader and physical iPhone Safari testing remain mandatory release-signoff blockers.",
+          "lastReviewedOn": "2026-10-22",
+          "change": "New verified automated acceptance: Nine disciplines × three views × desktop and phone-sized Chromium passed fail-closed axe A/AA and keyboard slide controls on GitHub Actions 39783927679.",
+          "unchangedOrOpen": "Qualified human screen-reader and physical iPhone Safari testing remain mandatory release-signoff blockers."
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "All eight routes include the atlas in passed automated browser WCAG sweep; no new attributed geographic coordinates or new astronomical observations.",
+          "next": "Preserve existing conceptual map and verified-location v0.3 commitments; no invented experiment points.",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Revalidated without a new research result: All eight routes include the atlas in passed automated browser WCAG sweep; no new attributed geographic coordinates or new astronomical observations.",
+          "unchangedOrOpen": "Preserve existing conceptual map and verified-location v0.3 commitments; no invented experiment points."
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "S-003 R002 branch checkpoint committed; main merge/deploy pending",
+          "latest": "S-003 R002 GitHub-backed seven-stream verified QA closure; all-room A/AA and functional presentation browser CI passed; science verdict not updated.",
+          "next": "Merge reviewable branch with green CI if authorized and current; actual-device/human reviewer gates remain open, next mandatory eight-route research sweep at entry22.",
+          "lastReviewedOn": "2026-10-22",
+          "change": "Revalidated without a new research result: S-003 R002 GitHub-backed seven-stream verified QA closure; all-room A/AA and functional presentation browser CI passed; science verdict not updated.",
+          "unchangedOrOpen": "Merge reviewable branch with green CI if authorized and current; actual-device/human reviewer gates remain open, next mandatory eight-route research sweep at entry22."
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "Automated v0.25 acceptance milestone achieved and recorded in GitHub branch; external physical-device/accessibility science-review checks remain incomplete, so no full v0.2/v0.25 release declaration.",
+      "nextAction": "After green branch validation, review/merge PR #3, then verify GitHub Pages deploy and public Session Observatory. For actual v0.25 release, arrange physical iPhone Safari and independent human screen-reader QA. For v0.2, obtain a genuine independent scientific-review receipt only for a scientifically supported directional proposal; do not manufacture score movement. Return to the central one-versus-many discriminator and original GRW study when accessible. Mandatory next 8-route source content audit on cumulative roundLog entry22."
     }
   ]
 }
