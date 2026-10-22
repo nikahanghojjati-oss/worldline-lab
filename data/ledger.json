@@ -1,6 +1,6 @@
 {
   "schema": "worldline-ledger/v1",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "editorialMeter": {
     "score": 50,
     "reference": 50,
@@ -562,6 +562,33 @@
           "research/csl-bound-reconstruction-S002-R008.md"
         ]
       }
+    },
+    {
+      "id": "WL-019",
+      "date": "2026-10-22",
+      "title": "Born-rule collider tests are conditionally discriminating while equilibrium Bohm and Everett pointer likelihoods match",
+      "field": "Quantum foundations",
+      "kind": "Theoretical model comparison and existing collider consistency check",
+      "status": "Prospective measurement gate with null-compatible tau helicity and formal equal-likelihood obstruction",
+      "question": "Do high-energy spin/polarisation counts distinguish one actual Bohmian history from Everett branches?",
+      "finding": "Valentini–Varma derived optional nonequilibrium angular deviations, with ideal 3sigma 1% target N>=360000 clean photons at pi/8; existing CMS tau helicity mean -0.144±0.015 vs Born -0.1472±0.0016 yields approx 0.21sigma, consistent with Born. Norsen analyses pilot-wave equilibrium where rho=|Psi|² and one pointer configuration reproduces unitary Born record statistics. Thus this data cannot distinguish Everett from equilibrium Bohm; genuine anomaly could constrain specified extra nonequilibrium models, not automatically settle actual branch ontology.",
+      "source": "Valentini & Varma (2025), Norsen (2018), source-examined collider inputs cited in former",
+      "url": "https://doi.org/10.1103/4llk-pt1j",
+      "impact": 0,
+      "direction": "No observed departure from Born or Everett-vs-Bohm equilibrium discriminator; original full-text theoretical and feasibility checks added",
+      "strength": "Complete original main texts plus arithmetic from source summary, collider raw likelihood unverified",
+      "place": "Multiple papers and collider datasets; no new coordinate claimed",
+      "lat": null,
+      "long": null,
+      "locationType": "Theoretical and reused experimental data, not a new field experiment",
+      "notes": "The proposed photon count and ta[u] constraints are conditional: detector efficiency/polarimetry and background-trained Born MC selection can hide or mimic departures. Matching Everett and Bohm requires quantum equilibrium. See research/full-study-batch-004-one-many-Born-R010.md",
+      "reviewRefs": [
+        "SRC-075",
+        "SRC-076",
+        "NOTE-065",
+        "NOTE-066",
+        "research/full-study-batch-004-one-many-Born-R010.md"
+      ]
     }
   ],
   "scientificMovements": [

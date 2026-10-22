@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-22",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "S-002-R008 experimental collapse-model parameter reconciliation and independently reproducible Ge Bayesian + LISA force-noise numeric limits",
+  "phase": "S-002-R010 full-main-text tests of high-energy Born-rule deviations, one-configuration quantum equilibrium, and eight-page freshness sweep",
   "milestones": [
     {
       "id": "M1",
@@ -74,7 +74,9 @@
         "SRC-071",
         "SRC-072",
         "SRC-073",
-        "SRC-074"
+        "SRC-074",
+        "SRC-075",
+        "SRC-076"
       ],
       "prioritySourceIds": [
         "SRC-007",
@@ -318,7 +320,9 @@
         "SRC-056",
         "SRC-044",
         "SRC-010",
-        "SRC-059"
+        "SRC-059",
+        "SRC-075",
+        "SRC-076"
       ],
       "prioritySourceIds": [
         "SRC-044",
@@ -443,7 +447,9 @@
         "SRC-071",
         "SRC-072",
         "SRC-073",
-        "SRC-074"
+        "SRC-074",
+        "SRC-075",
+        "SRC-076"
       ],
       "prioritySourceIds": [
         "SRC-060",
@@ -1261,6 +1267,36 @@
   ],
   "journal": [
     {
+      "id": "J-011",
+      "date": "22 October 2026",
+      "category": "ORIGINAL MAIN-TEXT EVIDENCE · S-002-R010",
+      "title": "Testing the one-real-history question with Born-rule anomalies",
+      "intro": "Two complete original-source reviews distinguish proposals that could discriminate physical models from familiar Born measurements that cannot separate the Everett and equilibrium Bohm ontologies.",
+      "sections": [
+        {
+          "heading": "A falsifiable polarization deviation",
+          "text": "Valentini and Varma model a nonlinear polarization-axis probability from specified pilot-wave nonequilibrium. Their illustrative 1% deviation needs at least 360000 usable ideal photons for 3-sigma sensitivity at pi/8; with 80% signal fraction the sample estimate becomes about 562500. Existing directly top-radiated photons are far fewer, and adequate individual gamma-ray polarization analysis remains unavailable."
+        },
+        {
+          "heading": "The measured tau sample does not reject Born statistics",
+          "text": "The paper cites CMS tau helicity -0.144±0.015, versus -0.1472±0.0016 expected, approximately 0.21 standard deviations apart in a simplified Gaussian comparison. The analysis is not a new collider discovery, and background/event-selection algorithms may assume the very Born rule under test."
+        },
+        {
+          "heading": "What one actual configuration predicts",
+          "text": "Norsen compares Born-rule emergence via quantum equilibrium typicality and dynamical relaxation. A Bohmian one-configuration equilibrium account and an Everett unitary Born-weighted account make the same standard pointer-record probabilities; their likelihood ratio is 1 for those matched experiments."
+        },
+        {
+          "heading": "Decision and limitations",
+          "text": "Full papers read and source-linked; no raw CMS/ATLAS detector fit or Norsen simulation independently rerun. WL-019 records a proposed distinguishing model test and why the central editorial 50 is unchanged. The R010 five-round content review checks all eight routes; direct mobile/browser navigation still requires separate acceptance."
+        }
+      ],
+      "sourceIds": [
+        "WL-019",
+        "WL-018"
+      ],
+      "fullReport": "research/full-study-batch-004-one-many-Born-R010.md"
+    },
+    {
       "id": "J-010",
       "date": "22 October 2026",
       "category": "CENTRAL QUESTION · TESTABLE RESEARCH R009",
@@ -1717,10 +1753,10 @@
   },
   "fullStudyMilestone": {
     "batch": "research/full-study-batch-001.md",
-    "completed": 25,
+    "completed": 27,
     "target": 400,
-    "percentOfSourceReviewTarget": 6.25,
-    "interpretation": "13 critically reviewed complete published main texts, 3 new in S-002-R001; neither individual replication of every proof nor experimental independent validation.",
+    "percentOfSourceReviewTarget": 6.75,
+    "interpretation": "27 complete original research main-text critical readings, not 27 independent detector replications. Main ontology remains experimentally unresolved.",
     "reviewedSources": [
       "SRC-002",
       "SRC-003",
@@ -1746,11 +1782,13 @@
       "SRC-071",
       "SRC-072",
       "SRC-073",
-      "SRC-074"
+      "SRC-074",
+      "SRC-075",
+      "SRC-076"
     ],
     "session": "S-002",
-    "round": "S-002-R006",
-    "completedOn": "2026-10-21",
+    "round": "S-002-R010",
+    "completedOn": "2026-10-22",
     "scoreChange": 0,
     "newBatch": "research/full-study-batch-003-ten-discriminator-candidates.md",
     "foundingBatch": "research/full-study-batch-001.md",
@@ -2047,6 +2085,9 @@
     "report": "research/central-question-discriminators-S002-R009.md",
     "focus": "Actual physically realized one history vs multiple real histories: operational differences first, equal-Born experiment classes deprioritized",
     "next": "Study 2025 high-energy nonlinear spin/polarization pilot-wave proposal and prove Everett-vs-equilibrium-Bohm ordinary measurement equivalence",
-    "score": "50 editorial neutral, no actual calibrated posterior"
+    "score": "50 editorial neutral, no actual calibrated posterior",
+    "latestReport": "research/full-study-batch-004-one-many-Born-R010.md",
+    "lastFullTextReviewRound": "S-002-R010",
+    "nextExperimentalTask": "Prospective polarimeter calibration and independent tau backgrounds, preregistered R alternative; branch versus equilibrium Bohm remains equal in standard measurements."
   }
 }

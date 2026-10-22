@@ -1,6 +1,6 @@
 {
   "schema": "worldline-scholar-library/v1",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "purpose": "Versioned selective source index with a growing cross-disciplinary syllabus. A 10x / 100x literature ambition is an explicit target, never counted as works already read.",
   "methods": {
     "statuses": {
@@ -1615,6 +1615,47 @@
       "verdictEffect": "none",
       "effectReason": "Model-specific experimental/theoretical claims change below when warranted; not unique Everett-vs-equilibrium-Bohm actual-history discriminator.",
       "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-075",
+      "title": "Toward a test of the Born rule in high-energy collisions",
+      "authors": [
+        "Antony Valentini",
+        "Mira Varma"
+      ],
+      "year": 2025,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.1103/4llk-pt1j",
+      "role": "Potential direct Born-rule observation class separating specified pilot-wave nonequilibrium from ordinary Everett/Bohm equilibrium; future photonic and measured tau test audit",
+      "access": "fully-studied",
+      "note": "Full six-section author arXiv v4 original main HTML reviewed S-002-R010; study §1–6, figures 1–7 and printed prospective event math; publisher metadata verified; full apparatus simulation/HEPData raw reanalysis not performed. research/full-study-batch-004-one-many-Born-R010.md",
+      "linkedLedger": [
+        "WL-019"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "No observed deviation establishing multiple or one physical histories; tau helicity null-compatible, proposed polarimetry technology absent.",
+      "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-076",
+      "title": "On the Explanation of Born-Rule Statistics in the de Broglie-Bohm Pilot-Wave Theory",
+      "authors": [
+        "Travis Norsen"
+      ],
+      "year": 2018,
+      "type": "paper",
+      "field": "Quantum foundations",
+      "url": "https://doi.org/10.3390/e20060422",
+      "role": "Adversarial complete study of quantum-equilibrium one-actual-configuration Born statistics and contested relaxation versus typicality premises; direct main-question epistemic obstruction",
+      "access": "fully-studied",
+      "note": "Full seven-section original open article critically reviewed S-002-R010; derivation, counterargument, figures and limits examined. Simulations and cited external original papers not rerun. research/full-study-batch-004-one-many-Born-R010.md",
+      "linkedLedger": [
+        "WL-019"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Shows ordinary Born measurements fail to distinguish Everett vs equilibrium Bohm; theory/analysis, not new experimental events.",
+      "verifiedAt": "2026-10-22"
     }
   ],
   "scholars": [

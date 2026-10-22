@@ -1,6 +1,6 @@
 {
   "schema": "worldline-reading-notes/v1",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "policy": "Each note states observed read depth: catalogued, abstract-reviewed, partially-studied (specified original pages), or fully-studied (only after comprehensive critical review). Never count abstracts or targeted pages as fully studied. Source-level verdict reasons are audited separately.",
   "notes": [
     {
@@ -1612,6 +1612,78 @@
       "fieldNote": "research/csl-bound-reconstruction-S002-R008.md",
       "fullReviewVerified": {
         "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-065",
+      "workId": "SRC-075",
+      "date": "2026-10-22",
+      "sessionId": "S-002",
+      "roundId": "S-002-R010",
+      "stage": "fully-studied",
+      "label": "Valentini and Varma complete 2025 collider Born rule proposal and quantitative falsifiability audit",
+      "basis": "Entire original arXiv HTML 2505.07510v4 §§1–6, Fig1–7, https://arxiv.org/html/2505.07510 ; PRD publisher identity https://doi.org/10.1103/4llk-pt1j",
+      "sectionsRead": [
+        "§1 initial assumptions, quantum nonequilibrium target and short-timescale limits",
+        "§2 Eq4–31 Bloch linear Born statistics, hidden Bell model and angle-dependent nonlinear correction",
+        "§3.1–3.2 photon sources top and pion, ATLAS/RHICf signal versus usable polarimetry",
+        "§3.3 Eq34–58 binomial sample-size, backgrounds, detection-count/angle controls and optical benchmarks",
+        "§4.1–4.4 theoretical tau spin density, CMS mean helicity expected -0.1472±0.0016 vs measured -0.144±0.015 and weak null-compatible bound",
+        "§5 selection and simulation use assumed Born scattering models",
+        "§6 limits, no new observed violation, detector technology and referenced claims"
+      ],
+      "summary": "A specified nonequilibrium Born-breaking model could yield a nonlinear spin/polarisation-axis response, unlike matched Everett and equilibrium Bohm. Recomputed prospective Nmin360000 clean photons for 1% deviation at 3sigma ideal setting; with 80% signal 562500. Tau difference 0.0032±0.01509 (0.21 sigma) is compatible with Born rule, not evidence of branching. Polarization-resolved gamma detectors and Born-dependent MC create major blockers.",
+      "method": "Critical complete main-text source review with explicit model predictions, equations, published experiment inputs, counterhypotheses and independent summary-equation arithmetic. Report research/full-study-batch-004-one-many-Born-R010.md",
+      "limitations": "No new polarization test performed; individual high-energy photon polarization unresolved in cited collider technology, 4899 direct top photons far below estimate; no raw ATLAS/CMS events, efficiency response or backgrounds independently fit; 3sigma projection Gaussian ideal and assumes known deviation shape.",
+      "alternativeExplanations": "Detector-angle bias, signal/background dilution, tau mode migration, selection built with Born-conforming Monte Carlo, BSM electroweak couplings and polarization propagation.",
+      "conclusion": "High-priority potential discriminating observation conditional on explicit nonequilibrium premise, no present model-specific discovery or ontology score movement.",
+      "fullTextRead": true,
+      "readDepthDefinition": "All six sections and original figures studied via source HTML; not total raw detector replication.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-019"
+      ],
+      "fieldNote": "research/full-study-batch-004-one-many-Born-R010.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-066",
+      "workId": "SRC-076",
+      "date": "2026-10-22",
+      "sessionId": "S-002",
+      "roundId": "S-002-R010",
+      "stage": "fully-studied",
+      "label": "Norsen complete Born-rule equilibrium typicality versus relaxation critical review",
+      "basis": "Open publisher/PMC main full article https://pmc.ncbi.nlm.nih.gov/articles/PMC7512940/ , Entropy 20(6) 422",
+      "sectionsRead": [
+        "§1 observer problem and Bohm one-configuration ontology",
+        "§2 Eqs5–9 guidance velocity, continuity/equivariance and Born pointer outcomes",
+        "§3 coarse-grained nonequilibrium relaxation H/entropy and figures",
+        "§4 no-microstructure and nonrelaxing-configuration objections",
+        "§5 DGZ typicality measure and subsystem argument",
+        "§6 why selecting |Psi|² measure can seem circular",
+        "§7 dynamic/typicality synthesis, anomalous possible initial states and conclusion"
+      ],
+      "summary": "For quantum equilibrium rho(Q)=|Psi|², one actual Bohmian configuration yields standard Born frequencies. Under matched preparation and pointer apparatus Everett unitary Born-weight records have the same measurable distribution; no likelihood difference in that class. Typicality and dynamical relaxation are distinct but potentially complementary, conditional explanations of equilibrium, not evidence against Everett branch reality.",
+      "method": "Full original main-text critical reading, matched disjoint-pointer probability algebra, objections and scope described in research/full-study-batch-004-one-many-Born-R010.md",
+      "limitations": "Theoretical critical review and author's illustrative simulation; original simulation not independently rerun; universal typicality measure and early nonequilibrium premise not observed.",
+      "alternativeExplanations": "Everettian branch-weighted outcomes with the same Born predictions; alternative typicality measures, nonrelaxing wavefunctions and special preparation histories.",
+      "conclusion": "Sharper operational nonidentifiability finding for the main universe one-versus-many ontology; do not score ordinary Born confirmations toward many worlds.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Seven full main HTML sections critically reviewed, numerical experiments not replicated.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-019"
+      ],
+      "fieldNote": "research/full-study-batch-004-one-many-Born-R010.md",
+      "fullReviewVerified": {
+        "mainText": true,
         "appendicesAsRecorded": false,
         "independentFullReproduction": false
       }
