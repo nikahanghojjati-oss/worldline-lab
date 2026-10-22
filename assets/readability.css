@@ -27,3 +27,14 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 :where(a,button,input,select,summary):focus-visible{outline:3px solid #177f8d;outline-offset:3px}
 @media(max-width:760px){body{font-size:16px}.nav a{font-size:12px;padding:10px 12px}.hero .display{font-size:clamp(40px,9vw,54px)}.hero .dek{font-size:17px}.shell{padding-inline:18px}.lab-research-updates{padding:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.page,.lab-detail{animation:none!important}}
+
+/* R006 full-critical-study progress, carefully distinguished from empirical verdict */
+.full-review-dispatch{margin:24px 0 42px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(220px,.6fr);align-items:center;gap:28px;padding:clamp(22px,3.5vw,42px);border:1px solid #9abdbc;border-radius:10px;background:linear-gradient(120deg,#eef8f5,#f6f7fb 66%,#fcf0f5);box-shadow:0 12px 38px rgba(27,74,87,.07)}
+.full-review-dispatch h2{font:500 clamp(26px,3.5vw,40px)/1.2 var(--serif);color:#174354;margin:10px 0}.full-review-dispatch h2 span{font-size:.72em;color:#3d7481}
+.full-review-dispatch p{font-size:15px;line-height:1.7;color:#335363;margin:0;max-width:720px}
+.full-review-dispatch-action{display:flex;flex-direction:column;gap:11px;align-items:stretch;text-align:center}
+.full-review-dispatch-action strong{font:500 46px/1 var(--serif);color:#19556b}
+.full-review-dispatch-action .btn{background:#163f50;color:white;border-color:#163f50;text-align:center;justify-content:center;font-size:14px;min-height:46px}
+.full-review-library{font-size:14px;text-decoration:underline;color:#1a6172;text-underline-offset:4px}
+.library-full-study-link a,.research-review-link a{display:inline-block;margin:10px 0 4px;padding:10px 14px;border-left:3px solid #4c9889;background:#edf6f2;color:#12596e;font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:4px;border-radius:3px}
+@media(max-width:760px){.full-review-dispatch{grid-template-columns:1fr;gap:19px}.full-review-dispatch-action strong{font-size:37px}.full-review-dispatch-action{text-align:left}}
