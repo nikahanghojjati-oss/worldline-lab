@@ -48,3 +48,7 @@ body .page.active .session-chip.navy{color:#29475f!important}
 #sc-packet:focus-visible,.session-packet:focus-visible{
  outline:3px solid #0c687c;outline-offset:3px
 }
+
+/* Last two measured residual contrasts: 1.01:1 status chip and 4.23:1 lab link. */
+body .page.active #sc-state{color:#214955!important}
+body .page.active .future-experiments > a[href$="#library"]{color:#205468!important}
