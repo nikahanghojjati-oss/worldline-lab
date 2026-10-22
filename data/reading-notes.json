@@ -1,7 +1,7 @@
 {
   "schema": "worldline-reading-notes/v1",
   "date": "2026-10-21",
-  "policy": "Notes record accessible journal abstracts or authoritative institutional summaries, not completed full-text studies. All notes include source provenance and limits; no new verdict credit until comparative predictions and measured results are examined critically.",
+  "policy": "Each note states observed read depth: catalogued, abstract-reviewed, partially-studied (specified original pages), or fully-studied (only after comprehensive critical review). Never count abstracts or targeted pages as fully studied. Source-level verdict reasons are audited separately.",
   "notes": [
     {
       "id": "NOTE-001",
@@ -212,6 +212,120 @@
       "fullTextRead": false,
       "ledgerImpact": 0,
       "confidence": "Scoped to accessible abstract; no full text or independent replication review"
+    },
+    {
+      "id": "NOTE-015",
+      "workId": "SRC-002",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "Gödel original rotating spacetime and timelike circle",
+      "basis": "Original published PDF https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.21.447 ; examined pp. 447 (main properties and metric), 448 (field equation setting), 449 (section 3 timelike circular orbit).",
+      "sectionsRead": [
+        "§1 p.447",
+        "§2 pp.447-448",
+        "§3 p.449 (construction of circular timelike line)"
+      ],
+      "summary": "Exact rotating homogeneous cosmological solution can be time-oriented without a global monotonically increasing time coordinate; sufficiently large circular timelike lines are closed. Mathematical permission is shown for this geometry, not an empirical demonstration of actual loops.",
+      "method": "Direct original text review of model assumptions, properties (4)-(6), field-equation context and construction at p.449.",
+      "limitations": "Not a replication of all tensor algebra or complete review of §4. No evidence this spacetime is an observed cosmological model.",
+      "alternativeExplanations": "Physical chronology protection may prevent formation from realistic initially causal conditions; CTCs are not equivalent to Everett branch multiplicity.",
+      "conclusion": "Strong mathematical-existence result with zero direct evidential support for count or accessibility of alternate physical histories.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-002"
+      ],
+      "fieldNote": "research/field-note-002.md"
+    },
+    {
+      "id": "NOTE-016",
+      "workId": "SRC-003",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "Hawking original chronology-horizon restrictions",
+      "basis": "Original paper PDF hosted by CfA https://lweb.cfa.harvard.edu/~loeb/Hawking_C.pdf ; examined p.603 §I, pp.604-606 selected §II, p.606 §III, pp.608-609 selected §IV, p.610 §VI.",
+      "sectionsRead": [
+        "§I p.603",
+        "§II pp.604-606 (selected)",
+        "§III p.606 (selected)",
+        "§IV pp.608-609 (selected)",
+        "§VI p.610"
+      ],
+      "summary": "Compactly generated horizon assumptions imply constraints under energy conditions, while semiclassical stress-energy/backreaction may inhibit formation of CTCs; quantum gravity caveats remain.",
+      "method": "Check claims against primary paper introduction, geometric argument for compact horizon, semiclassical section and conclusion.",
+      "limitations": "Some intermediate proofs and renormalized-field steps not reproduced. Hawking's conjecture is not an experimental theorem or universal prohibition of every eternal CTC geometry.",
+      "alternativeExplanations": "Exceptional horizon settings, exotic matter, quantum gravity cutoffs and untested alternative gravitational dynamics must be considered.",
+      "conclusion": "Conditional theoretical reason to doubt engineering chronology violation, no measurement of branches and no reason to shift the compass.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-003"
+      ],
+      "fieldNote": "research/field-note-002.md"
+    },
+    {
+      "id": "NOTE-017",
+      "workId": "SRC-019",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "Deutsch 1991 density-matrix fixed-point calculation",
+      "basis": "Published paper accessible scan https://gwern.net/doc/science/physics/1991-deutsch.pdf ; examined pp.3197-3199, 3202-3204; especially eqs.15-18 p.3203 and maximum entropy choice p.3204.",
+      "sectionsRead": [
+        "Introduction pp.3197-3199",
+        "Quantum computational analysis pp.3202-3203",
+        "Fixed point proof eqs.15-18 p.3203",
+        "Maximum entropy rule p.3204"
+      ],
+      "summary": "A prescribed CTC finite-state quantum network admits density operator fixed points; averaged channel iterates and compactness support existence. Some cases allow multiple states and invoke an extra maximum-entropy selection postulate.",
+      "method": "Original-paper check of consistency equation, quantum channel averaging construction and alternative fixed-point-selection issue.",
+      "limitations": "Geometry and path are assumed, not physically created; the rest of paper's examples and later interpretive analysis require full reading.",
+      "alternativeExplanations": "Politzer path-integral analysis and Lloyd postselected-teleportation theory yield inequivalent hypothetical CTC dynamics; no direct observation breaks this tie.",
+      "conclusion": "A significant conditional consistency model, not empirical access to quantum alternate histories.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-004"
+      ],
+      "fieldNote": "research/field-note-002.md"
+    },
+    {
+      "id": "NOTE-018",
+      "workId": "SRC-053",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Politzer countermodel of CTC information flow",
+      "basis": "Publisher abstract https://doi.org/10.1103/PhysRevD.49.3981",
+      "summary": "Different closed-timelike-curve quantum prescriptions can be inequivalent and can handle coherence, unitarity and information differently.",
+      "limitations": "Publisher abstract only; full derivations and sample system have not been examined.",
+      "conclusion": "Challenges uniqueness of Deutsch conditional modeling, supplies no realized CTC or branch-count observation.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-004"
+      ],
+      "fieldNote": "research/field-note-002.md"
+    },
+    {
+      "id": "NOTE-019",
+      "workId": "SRC-054",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Lloyd et al. postselected-teleportation alternative",
+      "basis": "APS publisher abstract https://doi.org/10.1103/PhysRevD.84.025007 and MIT repository metadata https://dspace.mit.edu/entities/publication/4e961ae6-417d-4811-81ea-7aa85bcc055f",
+      "summary": "P-CTC approach based on postselected teleportation is inequivalent to Deutsch's model and uses a different self-consistency construction.",
+      "limitations": "Abstract-level reading; no detailed validation of simulation circuit, postselection probability or path integrals.",
+      "conclusion": "Illustrates model-dependence of hypothetical loop dynamics, not physical time-loop proof.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-004"
+      ],
+      "fieldNote": "research/field-note-002.md"
     }
   ]
 }
