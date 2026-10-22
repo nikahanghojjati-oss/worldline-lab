@@ -127,7 +127,7 @@ function renderLabDetail(){
    return '<article class="library-note-card"><div class="micro">SOURCE-LINKED CURRENT RESEARCH · '+html((f.readingNoteIds||[]).join(', '))+'</div><h3>'+html(f.title)+'</h3><p>'+html(f.summary)+'</p><p class="caption">Scope and limitation: '+html(f.limitation)+'</p><div class="library-ledger-links">'+links+'</div></article>';
   }).join('');
   const fieldNote=typeof d.fieldNote==='string'&&d.fieldNote.startsWith('research/field-note-')&&d.fieldNote.endsWith('.md')?'<a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/'+d.fieldNote+'" target="_blank" rel="noopener noreferrer">Read detailed field note ↗</a>':'';
-  $('lab-source-list').insertAdjacentHTML('beforebegin','<section class="lab-research-updates"><div class="kicker">RESEARCH FINDINGS · VERIFIED SCOPE</div><h3>What the current source review establishes</h3><p class="caption">These are section-level or abstract reviews; none is a completed full-text study or direct evidence of multiple timelines.</p>'+cards+fieldNote+'</section>');
+  $('lab-source-list').insertAdjacentHTML('beforebegin','<section class="lab-research-updates"><div class="kicker">RESEARCH FINDINGS · VERIFIED SCOPE</div><h3>What the current source review establishes</h3><p class="caption">'+done+' full main-text critical review(s) documented in this lab’s reading list. Other source statuses remain partial, abstract-reviewed or planned; full review is not independent experiment replication or proof of multiple timelines.</p>'+cards+fieldNote+'</section>');
  }
  const list=$('lab-source-list'),search=$('lab-source-search');
  function draw(){
@@ -154,6 +154,7 @@ function renderJournal(){
  const j=research.journal[0];if(!j)return;
  let parts='<div class="kicker">'+html(j.category)+'</div><div class="micro">'+html(j.date)+'</div><h2>'+html(j.title)+'</h2><p class="intro">'+html(j.intro)+'</p>';
  j.sections.forEach((s,i)=>{parts+='<h3>'+html(s.heading)+'</h3><p class="'+(i===0?'dropcap':'')+'">'+html(s.text)+'</p>'});
+ if(j.fullReport&&/^research\/[a-z0-9-]+\.md$/.test(j.fullReport)){parts+='<p class="research-review-link"><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/'+html(j.fullReport)+'" target="_blank" rel="noopener noreferrer">Read the complete ten-study research report and methods ↗</a></p>';}
  parts+='<hr style="border:0;border-top:1px solid #d3ddda;margin:35px 0"><div class="micro">OPEN EVIDENCE INDEX</div><p class="caption">Related ledger records: '+j.sourceIds.map(id=>html(id)).join(' · ')+'. <a href="#ledger" style="color:#337d89;text-decoration:underline">Open the source ledger →</a></p>';
  h.innerHTML=parts;
 }
