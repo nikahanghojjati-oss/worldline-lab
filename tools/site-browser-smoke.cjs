@@ -40,6 +40,19 @@ async function run(viewportName,viewport){
   for(const route of ['home','dashboard','ledger','journal','disciplines','atlas','library','sessions']){
    await assertRoute(page,route);
   }
+  await assertRoute(page,'dashboard');
+  await page.waitForFunction(()=>document.querySelector('#hammer-design option')&&document.querySelector('#hammer-outcome')?.textContent?.includes('Jensen'));
+  assert.match(await page.locator('#hammer-forge').innerText(),/synthetic models, not observations/,'HAMMER does not invent experiments');
+  const hammerSelect=page.locator('#hammer-design');
+  await hammerSelect.selectOption('HM-003');
+  assert.match(await page.locator('#hammer-workbench').innerText(),/No reliable wedge/,'adversarial nuisance defeats apparent result');
+  const beforeForge=await page.locator('#hammer-outcome').innerText();
+  await page.locator('#hammer-right').selectOption('1');
+  const afterForge=await page.locator('#hammer-outcome').innerText();
+  assert.notEqual(beforeForge,afterForge,'HAMMER scenario mutation responds to selection');
+  await hammerSelect.selectOption('HM-002');
+  assert.match(await page.locator('#hammer-workbench').innerText(),/Conditional wedge/,'specified physical-dynamics wedge detected');
+  await assertRoute(page,'disciplines');
   await page.waitForFunction(()=>document.querySelectorAll('#disciplines-list .lab-tile-link').length===9);
   assert.equal(await page.locator('#research-program .research-stage').count(),8,'eight gated stages');
   assert.equal(await page.locator('#disciplines-list .lab-tile-link').count(),9,'nine lab entry points');
