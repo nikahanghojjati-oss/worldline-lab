@@ -1,0 +1,29 @@
+/* R005 accessibility pass: loaded after the component styles */
+:root{--ink:#102f40;--slate:#3d5665;--muted:#435b67}
+body{font-size:16px;line-height:1.72;color:var(--ink)}
+.nav a{font-size:12px;min-height:42px;display:inline-flex;align-items:center;color:#254859}
+.brand small{font-size:11px;letter-spacing:.1em;color:#3b5868}
+:where(.micro,.kicker,.tile-index,.edition,.dispatch-no,.dispatch-cta,.stage-status,.session-mini,.session-kicker,.session-chip,.sc-stream-label,.program-stat small,.library-stat span,.lab-source-meta,.lab-source-status,.session-stage,.library-work .source-type){font-size:12px;line-height:1.5;letter-spacing:.06em}
+:where(.caption,.stat-card .detail,.discipline p,.lab-source p,.lab-source-role,.lab-guidance,.lab-subtopic p,.panel p,.room-slide p,.room-sources>p,.library-work .relevance,.library-work .authors,.library-hero p,.session-frame p,.session-decision p,.sc-stream p,.sc-meter-text p,.sc-gate p,.stage-gate){font-size:14px;line-height:1.75}
+:where(.caption,.micro,.kicker,.discipline .tag,.discipline p,.stat-card .detail,.lab-source p,.lab-subtopic p,.panel p,.lab-guidance,.library-work .relevance,.library-work .authors,.session-frame p,.sc-stream p,.sc-meter-text p,.sc-gate p,.room-sources>p,.slide-disclaimer,.lab-source-meta,.library-field small,.stage-gate){color:#3d5665}
+.article p{font-size:17px;line-height:1.85;color:#253f4c}.article .intro{font-size:19px;color:#244e61}
+.dek{font-size:18px;line-height:1.75;color:#334e5c}
+:where(.featured p,.session-hero p,.lab-hero p,.room-cover p,.library-hero p){color:#e6f0ed;font-size:15px;line-height:1.75}
+:where(.featured .kicker,.session-kicker,.lab-hero .kicker,.room-cover .kicker){color:#c5ebdf}
+:where(.cross-lab-card p,.verdict-monitor p,.featured-side p){color:#e5efed}
+:where(.library-work h3,.lab-source h3){line-height:1.35}
+:where(.lab-back,.lab-footer,.lab-guidance,.library-toolbar input,.library-toolbar select){font-size:15px}
+:where(.room-deck-controls button,.lab-rooms-switcher a,.session-check,.sc-gate strong){font-size:14px}
+.bottom-note,.bottom-note a{font-size:13px;color:#3d5866}
+.lab-research-updates{margin:26px 0 25px;padding:24px;border:1px solid #b5cec9;border-radius:10px;background:#f2f9f6;display:grid;gap:15px}
+.lab-research-updates>h3{font:500 27px/1.25 var(--serif);margin:0}
+.lab-research-updates>.library-note-card{padding:20px;border:1px solid #d3e2dd;border-left:4px solid #397e89;border-radius:7px;background:white}
+.lab-research-updates .library-note-card h3{font:500 21px/1.35 var(--serif);margin:8px 0}
+.lab-research-updates .library-note-card p{font-size:15px;line-height:1.7;color:#31515f}
+.lab-research-updates .library-ledger-links,.lab-research-updates>a{font-size:14px;color:#175d71;text-decoration:underline;text-underline-offset:3px}
+.session-history-details{margin:15px 0;padding:12px 15px;background:#f0f6f5;border:1px solid #d1e0db;border-radius:6px}
+.session-history-details summary{font-size:14px;font-weight:700;color:#174c5c;cursor:pointer}
+.session-history-details p,.session-history-details li{font-size:14px;color:#385661;line-height:1.7}
+:where(a,button,input,select,summary):focus-visible{outline:3px solid #177f8d;outline-offset:3px}
+@media(max-width:760px){body{font-size:16px}.nav a{font-size:12px;padding:10px 12px}.hero .display{font-size:clamp(40px,9vw,54px)}.hero .dek{font-size:17px}.shell{padding-inline:18px}.lab-research-updates{padding:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.page,.lab-detail{animation:none!important}}
