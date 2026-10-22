@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "S-002 original Everett 1957 source-critical review plus v0.2 and v0.25 proportional research-first roadmap allocation",
+  "phase": "S-002 test-directed model-discrimination program: replace borrowed 59 editorial preference with documented neutral 50, track claim-specific experimental movement",
   "milestones": [
     {
       "id": "M1",
@@ -133,6 +133,20 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Real experimental result: benchmark Markovian CSL parameter region constrained · S-002-R005",
+          "summary": "XENONnT 2026 complete main paper reports 90%-CL λ/rC²<3×10^-3 s^-1 m^-2 and 9.1σ deviation of historical GRW-associated benchmark when specified as white-noise CSL. Strong experimental progress for collapse physics, not a direct Everett-versus-Bohm branch census.",
+          "sourceIds": [
+            "SRC-066",
+            "SRC-042",
+            "SRC-010",
+            "SRC-007"
+          ],
+          "readingNoteIds": [
+            "NOTE-052"
+          ],
+          "limitation": "Full original 7-page main XENONnT letter examined, but supplementary signal derivations and raw-event likelihood not independently replicated; historical 59→50 is baseline repair, not evidence for one physical history."
+        },
         {
           "title": "Everett 1957 original main text critically reviewed · S-002-R003",
           "summary": "Everett's §5 note added in proof calls all branch elements actual inside the theory; §§4–5 derive relative records and an additive squared-amplitude measure. Mathematical branch weights plus observers' coherent memories still do not empirically identify alternative real histories.",
@@ -432,6 +446,20 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "Real experimental result: benchmark Markovian CSL parameter region constrained · S-002-R005",
+          "summary": "XENONnT 2026 complete main paper reports 90%-CL λ/rC²<3×10^-3 s^-1 m^-2 and 9.1σ deviation of historical GRW-associated benchmark when specified as white-noise CSL. Strong experimental progress for collapse physics, not a direct Everett-versus-Bohm branch census.",
+          "sourceIds": [
+            "SRC-066",
+            "SRC-042",
+            "SRC-010",
+            "SRC-007"
+          ],
+          "readingNoteIds": [
+            "NOTE-052"
+          ],
+          "limitation": "Full original 7-page main XENONnT letter examined, but supplementary signal derivations and raw-event likelihood not independently replicated; historical 59→50 is baseline repair, not evidence for one physical history."
+        },
         {
           "title": "Everett 1957 original main text critically reviewed · S-002-R003",
           "summary": "Everett's §5 note added in proof calls all branch elements actual inside the theory; §§4–5 derive relative records and an additive squared-amplitude measure. Mathematical branch weights plus observers' coherent memories still do not empirically identify alternative real histories.",
@@ -753,6 +781,20 @@
       },
       "caseHighlights": [
         {
+          "title": "Real experimental result: benchmark Markovian CSL parameter region constrained · S-002-R005",
+          "summary": "XENONnT 2026 complete main paper reports 90%-CL λ/rC²<3×10^-3 s^-1 m^-2 and 9.1σ deviation of historical GRW-associated benchmark when specified as white-noise CSL. Strong experimental progress for collapse physics, not a direct Everett-versus-Bohm branch census.",
+          "sourceIds": [
+            "SRC-066",
+            "SRC-042",
+            "SRC-010",
+            "SRC-007"
+          ],
+          "readingNoteIds": [
+            "NOTE-052"
+          ],
+          "limitation": "Full original 7-page main XENONnT letter examined, but supplementary signal derivations and raw-event likelihood not independently replicated; historical 59→50 is baseline repair, not evidence for one physical history."
+        },
+        {
           "title": "S-002-R001 · Four-theory quantitative observational comparison",
           "summary": "GRW/CSL predicts size-, time- and model-specific visibility or spontaneous-radiation changes. 2019 molecule experiment and 2026 XENONnT bounds do not count quantum branches.",
           "sourceIds": [
@@ -1060,6 +1102,34 @@
     }
   ],
   "journal": [
+    {
+      "id": "J-007",
+      "date": "21 October 2026",
+      "category": "METHOD CORRECTION & EXPERIMENTAL TEST · S-002-R005",
+      "title": "Why 59 was unjustified—and what actually moved the evidence",
+      "intro": "The original +9 editorial tilt toward many histories lacked a documented scientific derivation. A neutral 50 editorial anchor restores fairness, while a complete primary-paper reading makes a quantitative experimental constraint visible without treating it as proof of many worlds.",
+      "sections": [
+        {
+          "heading": "The score was an assumption, not a conclusion",
+          "text": "Early Worldline Lab imported 59 from an earlier planning discussion even after changing the central question. VC-010 corrects that unsupported preference to neutral 50. The correction is methodological, not new evidence supporting one-world or a 50% probability."
+        },
+        {
+          "heading": "Scientific progress can genuinely eliminate a physical parameter region",
+          "text": "The 2026 XENONnT paper studied a measured 1–140 keV recoil spectrum and reported a 90%-CL limit λ/rC²<3.0×10^-3 s^-1m^-2 for white-noise Markovian CSL. In that CSL model the historical GRW parameter pair lies 9.1σ away from the best fit, as reported by the collaboration. That meaningfully restricts one outcome-selection dynamical mechanism."
+        },
+        {
+          "heading": "Why the number of actual histories remains a different question",
+          "text": "Everettian unitary branches and quantum-equilibrium Bohm with one actual configuration predict matching Born experiments. Excluding one collapse parameter does not decide their ontology. The scientific ledger now records model-specific moves separately, and further work must seek an actual differentiating likelihood or demonstrate the identifiable limitation."
+        }
+      ],
+      "sourceIds": [
+        "WL-005",
+        "WL-008",
+        "WL-010",
+        "WL-011"
+      ],
+      "fullReport": "research/score-origin-and-testable-results-S002-R005.md"
+    },
     {
       "id": "J-006",
       "date": "21 October 2026",
@@ -1398,9 +1468,9 @@
   },
   "fullStudyMilestone": {
     "batch": "research/full-study-batch-001.md",
-    "completed": 14,
+    "completed": 15,
     "target": 400,
-    "percentOfSourceReviewTarget": 3.5,
+    "percentOfSourceReviewTarget": 3.75,
     "interpretation": "13 critically reviewed complete published main texts, 3 new in S-002-R001; neither individual replication of every proof nor experimental independent validation.",
     "reviewedSources": [
       "SRC-002",
@@ -1416,15 +1486,16 @@
       "SRC-059",
       "SRC-062",
       "SRC-064",
-      "SRC-065"
+      "SRC-065",
+      "SRC-066"
     ],
     "session": "S-002",
-    "round": "S-002-R003",
+    "round": "S-002-R005",
     "completedOn": "2026-10-21",
     "scoreChange": 0,
     "newBatch": "research/full-study-batch-002.md",
     "foundingBatch": "research/full-study-batch-001.md",
-    "latestStudy": "research/everett-1957-source-study-S002-R003.md"
+    "latestStudy": "research/score-origin-and-testable-results-S002-R005.md"
   },
   "modelComparison": {
     "version": "S-002-R001",
@@ -1489,15 +1560,15 @@
         "experiment": "XENONnT 1–140 keV excess X-ray spectrum; LISA Pathfinder force noise; interference",
         "observable": "dR/dE spectral excess, noise PSD, V/Venv=exp[-Γ_CSL t] with separately derived geometry",
         "sameAs": "Near ordinary unitary result at sufficiently low collapse rates",
-        "difference": "XENONnT 2026 excludes model-conditioned Markovian CSL regions under analysis assumptions",
-        "status": "Publisher abstract/targeted passages only, numerical confidence curves not rerun",
+        "difference": "Specific white-noise CSL original benchmark parameter pairs experimentally disfavored; alternate colored/dissipative collapse models remain",
+        "status": "XENONnT published model-specific 90% CL CSL λ/rC² <3.0×10^-3 s^-1m^-2, 9.1σ GRW-associated parameter point in white-noise CSL; not a branch-count detector",
         "objection": "Alternate noise spectra and emission background can modify model bounds",
         "sourceIds": [
           "SRC-066",
           "SRC-067",
           "SRC-048"
         ],
-        "readingDepth": "Abstract/publisher passage level; not full papers"
+        "readingDepth": "SRC-066 full seven-page primary main article critically studied S-002-R005 (NOTE-052), signal-model supplement and raw likelihood NOT reproduced; SRC-067 abstract, SRC-048 abstract"
       }
     ],
     "exercise": {
@@ -1602,5 +1673,28 @@
         "total": 41
       }
     }
+  },
+  "answerProgram": {
+    "version": "S-002-R005",
+    "date": "2026-10-21",
+    "centralQuestion": "Our physical universe: one realized outcome history or multiple physically actual Everett-relative histories?",
+    "currentEmpiricalAnswer": "Unresolved; standard Everett and quantum-equilibrium Bohm are observationally equivalent under matched measurement assumptions.",
+    "editorialNeutralBaseline": 50,
+    "meaning": "Neutral display anchor; not a calibrated prior/posterior or odds",
+    "scoreHistory": "VC-010 repairs unsupported historical 59→50. Scientific evidence impact 0; historic 59 preserved.",
+    "progressKind": "claim-level experiments constraining real dynamics independently from unresolved ontology",
+    "lastScientificMovement": "MOVE-001",
+    "linkedSources": [
+      "SRC-007",
+      "SRC-010",
+      "SRC-059",
+      "SRC-066"
+    ],
+    "nextCriticalTests": [
+      "Reconstruct reported Markovian CSL 2026 XENONnT 90%-CL profile likelihood using supplement and data availability conditions",
+      "Seek empirically differentiating single-history vs multiple-history alternative and state its test prediction or rigorous measurement-equivalence obstruction",
+      "Systematically test objective-collapse variants versus conventional environmental decoherence using measured background nuisance parameters"
+    ],
+    "scoringPolicy": "A new model parameter constraint always changes relevant scientific claim state if verified; a central 0–100 directional score needs physically discriminating evidence between one-real-history and multiple-real-history models, plus a justified reproducible map from likelihood to score. Do not move on interpretive preference or catalogue counts."
   }
 }
