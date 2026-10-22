@@ -1,0 +1,1428 @@
+{
+  "schema": "worldline-scholar-library/v1",
+  "updated": "2026-10-21",
+  "purpose": "Versioned interdisciplinary index of influential researchers and works. Bibliographic scope is selective, not a ranking or exhaustive census.",
+  "methods": {
+    "statuses": {
+      "catalogued": "Reference registered for reading; no claim of having read its paper, book, recording or full text.",
+      "abstract-reviewed": "Publisher/primary abstract, overview or archival summary inspected and summarized, but full text NOT read. Does not count as a completed study.",
+      "partially-studied": "Requires dated reading notes citing specific sections and a named research session.",
+      "fully-studied": "Requires versioned notes on the whole work, methods, limitations, citations and a session log."
+    },
+    "materialTypes": [
+      "paper",
+      "review",
+      "book",
+      "essay",
+      "lecture",
+      "award archive",
+      "scientific background",
+      "research explainer",
+      "encyclopedia"
+    ],
+    "influenceRule": "A work influences the measured single-history vs many-histories direction only if it demonstrates a verifiable prediction that differentiates candidates after alternatives and dependencies are considered. Bibliographic influence alone has no compass impact.",
+    "countingRule": "Only 'fully-studied' records count as completed full works; abstracts and catalogue entries are separate. Avoid duplicated counts for same DOI or coauthored work; count per work once and per field once.",
+    "notesRule": "Advance a work only with source ID, exact section/pages, study date, researcher/session, claim, methods, limitations, alternative interpretations and evidence-led impact reason.",
+    "datePrecision": "A catalogue entry's year is publication year, not the date personally studied."
+  },
+  "works": [
+    {
+      "id": "SRC-001",
+      "field": "Relativity",
+      "title": "On the Electrodynamics of Moving Bodies",
+      "authors": [
+        "Albert Einstein"
+      ],
+      "year": 1905,
+      "type": "paper",
+      "url": "https://doi.org/10.1002/andp.19053221004",
+      "role": "Foundational space-time kinematics",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-002",
+      "field": "Relativity",
+      "title": "An Example of a New Type of Cosmological Solutions",
+      "authors": [
+        "Kurt Gödel"
+      ],
+      "year": 1949,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/RevModPhys.21.447",
+      "role": "A spacetime model admitting closed timelike curves",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-003",
+      "field": "Relativity",
+      "title": "Chronology protection conjecture",
+      "authors": [
+        "Stephen Hawking"
+      ],
+      "year": 1992,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.46.603",
+      "role": "Physical constraints on closed timelike curves",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-004",
+      "field": "Relativity",
+      "title": "Billiard balls in wormhole spacetimes with closed timelike curves",
+      "authors": [
+        "Fernando Echeverria",
+        "Gunnar Klinkhammer",
+        "Kip Thorne"
+      ],
+      "year": 1991,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.44.1077",
+      "role": "Classical self-consistency in hypothetical wormholes",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-005",
+      "field": "Relativity",
+      "title": "Resolving the gravitational redshift across a millimetre-scale atomic sample",
+      "authors": [
+        "Tobias Bothwell",
+        "Colin Kennedy",
+        "Jun Ye"
+      ],
+      "year": 2022,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/s41586-021-04349-7",
+      "role": "Experimental clock evidence without backward travel",
+      "access": "abstract-reviewed",
+      "note": "Coauthors abbreviated; see publisher for complete list.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-006",
+      "field": "Relativity",
+      "title": "Putting Einstein to the Test (atomic clocks)",
+      "authors": [
+        "NIST scientists"
+      ],
+      "year": 2020,
+      "type": "research explainer",
+      "url": "https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test",
+      "role": "Reference behind ledger entry WL-001",
+      "access": "catalogued",
+      "note": "Webpage date not independently validated.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-007",
+      "field": "Quantum foundations",
+      "title": "'Relative State' Formulation of Quantum Mechanics",
+      "authors": [
+        "Hugh Everett III"
+      ],
+      "year": 1957,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/RevModPhys.29.454",
+      "role": "Original relative-state formalism",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-008",
+      "field": "Quantum foundations",
+      "title": "On the Einstein Podolsky Rosen paradox",
+      "authors": [
+        "John Bell"
+      ],
+      "year": 1964,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195",
+      "role": "Bell inequality and locality constraints",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-009",
+      "field": "Quantum foundations",
+      "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+      "authors": [
+        "Albert Einstein",
+        "Boris Podolsky",
+        "Nathan Rosen"
+      ],
+      "year": 1935,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRev.47.777",
+      "role": "Completeness and correlations",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-010",
+      "field": "Quantum foundations",
+      "title": "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables I",
+      "authors": [
+        "David Bohm"
+      ],
+      "year": 1952,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRev.85.166",
+      "role": "Single-outcome alternative framework",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-011",
+      "field": "Quantum foundations",
+      "title": "Decoherence, einselection, and the quantum origins of the classical",
+      "authors": [
+        "Wojciech Zurek"
+      ],
+      "year": 2003,
+      "type": "review",
+      "url": "https://doi.org/10.1103/RevModPhys.75.715",
+      "role": "Environment-induced suppression of interference",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-012",
+      "field": "Quantum foundations",
+      "title": "Many-Worlds Interpretation of Quantum Mechanics",
+      "authors": [
+        "Lev Vaidman"
+      ],
+      "year": 2026,
+      "type": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/qm-manyworlds/",
+      "role": "Updated scholarly guide to Everett interpretation",
+      "access": "abstract-reviewed",
+      "note": "Revision date 17 June 2026.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-013",
+      "field": "Quantum foundations",
+      "title": "Quantum Mechanics (SEP)",
+      "authors": [
+        "Stanford Encyclopedia of Philosophy editors"
+      ],
+      "year": 2026,
+      "type": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/qm/",
+      "role": "Context for measurement problem; editorial work",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-014",
+      "field": "Quantum foundations",
+      "title": "Quantum theory cannot consistently describe the use of itself",
+      "authors": [
+        "Daniela Frauchiger",
+        "Renato Renner"
+      ],
+      "year": 2018,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/s41467-018-05739-8",
+      "role": "Assumption-dependent thought-experiment paradox",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-015",
+      "field": "Quantum foundations",
+      "title": "Experiments with entangled photons and Bell inequalities",
+      "authors": [
+        "Alain Aspect",
+        "John Clauser",
+        "Anton Zeilinger"
+      ],
+      "year": 2022,
+      "type": "award archive",
+      "url": "https://www.nobelprize.org/prizes/physics/2022/summary/",
+      "role": "Evidence about entanglement and locality, not branch counting",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-016",
+      "field": "Quantum foundations",
+      "title": "Experimental Test of Bell's Inequalities Using Time-Varying Analyzers",
+      "authors": [
+        "Alain Aspect",
+        "Jean Dalibard",
+        "Gérard Roger"
+      ],
+      "year": 1982,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevLett.49.1804",
+      "role": "Experimental violation of Bell inequalities",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-017",
+      "field": "Quantum foundations",
+      "title": "Experimental Test of Local Hidden-Variable Theories",
+      "authors": [
+        "Stuart Freedman",
+        "John Clauser"
+      ],
+      "year": 1972,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevLett.28.938",
+      "role": "Early Bell test",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-018",
+      "field": "Quantum foundations",
+      "title": "Experimental quantum teleportation",
+      "authors": [
+        "Anton Zeilinger"
+      ],
+      "year": 1997,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/390575a0",
+      "role": "Teleportation of quantum state, not body or timeline",
+      "access": "catalogued",
+      "note": "Original article title: Experimental quantum teleportation.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-019",
+      "field": "Quantum information",
+      "title": "Quantum mechanics near closed timelike lines",
+      "authors": [
+        "David Deutsch"
+      ],
+      "year": 1991,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.44.3197",
+      "role": "Quantum fixed-point model of hypothetical CTCs",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-020",
+      "field": "Quantum information",
+      "title": "Quantum correlations with no causal order",
+      "authors": [
+        "Ognyan Oreshkov",
+        "Fabio Costa",
+        "Časlav Brukner"
+      ],
+      "year": 2012,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/ncomms2076",
+      "role": "Operational framework for indefinite causal order",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-021",
+      "field": "Quantum information",
+      "title": "Probabilistic theories with purification",
+      "authors": [
+        "Giulio Chiribella",
+        "Giacomo D’Ariano",
+        "Paolo Perinotti"
+      ],
+      "year": 2010,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevA.81.062348",
+      "role": "Foundations of information-theoretic reconstruction",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-022",
+      "field": "Quantum information",
+      "title": "Quantum theory, the Church–Turing principle and the universal quantum computer",
+      "authors": [
+        "David Deutsch"
+      ],
+      "year": 1985,
+      "type": "paper",
+      "url": "https://doi.org/10.1098/rspa.1985.0070",
+      "role": "Quantum computation and simulation",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-023",
+      "field": "Mathematics",
+      "title": "Time Travel",
+      "authors": [
+        "Stanford Encyclopedia of Philosophy contributors"
+      ],
+      "year": 2013,
+      "type": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/time-travel/",
+      "role": "Philosophical definitions and causal-loop puzzles",
+      "access": "catalogued",
+      "note": "Authorship requires bibliographic audit; do not treat names as verified from this index.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-024",
+      "field": "Mathematics",
+      "title": "Causality: Models, Reasoning, and Inference",
+      "authors": [
+        "Judea Pearl"
+      ],
+      "year": 2009,
+      "type": "book",
+      "url": "https://bayes.cs.ucla.edu/BOOK-2K/",
+      "role": "Structural models and counterfactuals",
+      "access": "abstract-reviewed",
+      "note": "Book landing/preface inspected; complete book not read.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-025",
+      "field": "Mathematics",
+      "title": "The Book of Why",
+      "authors": [
+        "Judea Pearl",
+        "Dana Mackenzie"
+      ],
+      "year": 2018,
+      "type": "book",
+      "url": "https://bayes.cs.ucla.edu/WHY/",
+      "role": "Popular treatment of causality and counterfactuals",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-026",
+      "field": "AI and computation",
+      "title": "Computing Machinery and Intelligence",
+      "authors": [
+        "Alan Turing"
+      ],
+      "year": 1950,
+      "type": "essay",
+      "url": "https://doi.org/10.1093/mind/LIX.236.433",
+      "role": "Machine intelligence and operational tests",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-027",
+      "field": "AI and computation",
+      "title": "A Mathematical Theory of Communication",
+      "authors": [
+        "Claude Shannon"
+      ],
+      "year": 1948,
+      "type": "paper",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "role": "Information and noisy-channel reasoning",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-028",
+      "field": "AI and computation",
+      "title": "Deep Learning",
+      "authors": [
+        "Ian Goodfellow",
+        "Yoshua Bengio",
+        "Aaron Courville"
+      ],
+      "year": 2016,
+      "type": "book",
+      "url": "https://www.deeplearningbook.org/",
+      "role": "Representation learning and model limitations",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-029",
+      "field": "AI and computation",
+      "title": "The Mathematics of Causal Inference (lecture materials)",
+      "authors": [
+        "Judea Pearl"
+      ],
+      "year": 2013,
+      "type": "lecture",
+      "url": "https://bayes.cs.ucla.edu/home.htm",
+      "role": "Talk archive about causal inference",
+      "access": "catalogued",
+      "note": "Personal university site links to slides and talks; direct 2013 asset not separately checked.",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-030",
+      "field": "Neuroscience",
+      "title": "Human time perception and its illusions",
+      "authors": [
+        "David Eagleman"
+      ],
+      "year": 2008,
+      "type": "review",
+      "url": "https://doi.org/10.1016/j.conb.2008.06.002",
+      "role": "Subjective temporal distortion versus physical time",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-031",
+      "field": "Neuroscience",
+      "title": "The free-energy principle: a unified brain theory?",
+      "authors": [
+        "Karl Friston"
+      ],
+      "year": 2010,
+      "type": "review",
+      "url": "https://doi.org/10.1038/nrn2787",
+      "role": "Predictive processing and inference",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-032",
+      "field": "Chemistry",
+      "title": "Colloquium: Quantum interference of clusters and molecules",
+      "authors": [
+        "Klaus Hornberger",
+        "Stefan Gerlich",
+        "Philipp Haslinger",
+        "Stefan Nimmrichter",
+        "Markus Arndt"
+      ],
+      "year": 2012,
+      "type": "review",
+      "url": "https://doi.org/10.1103/RevModPhys.84.157",
+      "role": "Molecular quantum coherence and decoherence",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-033",
+      "field": "Biology",
+      "title": "Discoveries of Molecular Mechanisms Controlling the Circadian Rhythm",
+      "authors": [
+        "Jeffrey Hall",
+        "Michael Rosbash",
+        "Michael Young"
+      ],
+      "year": 2017,
+      "type": "scientific background",
+      "url": "https://www.nobelprize.org/prizes/medicine/2017/advanced-information/",
+      "role": "Gene-regulated circadian rhythms; biological timekeeping",
+      "access": "abstract-reviewed",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-034",
+      "field": "Biology",
+      "title": "The discoveries of molecular mechanisms for circadian rhythm",
+      "authors": [
+        "Jeffrey Hall",
+        "Michael Rosbash",
+        "Michael Young"
+      ],
+      "year": 2017,
+      "type": "award archive",
+      "url": "https://www.nobelprize.org/prizes/medicine/2017/summary/",
+      "role": "Nobel source hub for biological clocks",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-035",
+      "field": "Astrophysics",
+      "title": "A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae",
+      "authors": [
+        "Edwin Hubble"
+      ],
+      "year": 1929,
+      "type": "paper",
+      "url": "https://doi.org/10.1073/pnas.15.3.168",
+      "role": "Observational expansion, not branching worlds",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-036",
+      "field": "Cosmology",
+      "title": "Inflationary universe: A possible solution to the horizon and flatness problems",
+      "authors": [
+        "Alan Guth"
+      ],
+      "year": 1981,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.23.347",
+      "role": "Early-universe inflation as distinct from Everett branching",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-037",
+      "field": "Cosmology",
+      "title": "Spacetime and Geometry (publisher listing)",
+      "authors": [
+        "Sean Carroll"
+      ],
+      "year": 2004,
+      "type": "book",
+      "url": "https://www.preposterousuniverse.com/spacetimeandgeometry/",
+      "role": "Modern general relativity reference",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-038",
+      "field": "Research methods",
+      "title": "The Structure of Scientific Revolutions",
+      "authors": [
+        "Thomas Kuhn"
+      ],
+      "year": 1962,
+      "type": "book",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
+      "role": "How conceptual scientific frameworks shift",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-039",
+      "field": "Research methods",
+      "title": "The Art and Science of Cause and Effect (research lecture)",
+      "authors": [
+        "Judea Pearl"
+      ],
+      "year": 1996,
+      "type": "lecture",
+      "url": "https://bayes.cs.ucla.edu/home.htm",
+      "role": "Historical methodological lecture and slides",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    },
+    {
+      "id": "SRC-040",
+      "field": "Research methods",
+      "title": "Human bias and framing in research claims (Prospect Theory)",
+      "authors": [
+        "Daniel Kahneman",
+        "Amos Tversky"
+      ],
+      "year": 1979,
+      "type": "paper",
+      "url": "https://doi.org/10.2307/1914185",
+      "role": "Avoid motivated interpretation of weighted claims",
+      "access": "catalogued",
+      "note": "",
+      "linkedLedger": [],
+      "verdictEffect": "none",
+      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "verifiedAt": null
+    }
+  ],
+  "scholars": [
+    {
+      "id": "R-001",
+      "name": "Albert Einstein",
+      "fields": [
+        "Relativity",
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-001",
+        "SRC-009"
+      ],
+      "focus": "Foundational space-time kinematics"
+    },
+    {
+      "id": "R-002",
+      "name": "Kurt Gödel",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-002"
+      ],
+      "focus": "A spacetime model admitting closed timelike curves"
+    },
+    {
+      "id": "R-003",
+      "name": "Stephen Hawking",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-003"
+      ],
+      "focus": "Physical constraints on closed timelike curves"
+    },
+    {
+      "id": "R-004",
+      "name": "Fernando Echeverria",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-004"
+      ],
+      "focus": "Classical self-consistency in hypothetical wormholes"
+    },
+    {
+      "id": "R-005",
+      "name": "Gunnar Klinkhammer",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-004"
+      ],
+      "focus": "Classical self-consistency in hypothetical wormholes"
+    },
+    {
+      "id": "R-006",
+      "name": "Kip Thorne",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-004"
+      ],
+      "focus": "Classical self-consistency in hypothetical wormholes"
+    },
+    {
+      "id": "R-007",
+      "name": "Tobias Bothwell",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-005"
+      ],
+      "focus": "Experimental clock evidence without backward travel"
+    },
+    {
+      "id": "R-008",
+      "name": "Colin Kennedy",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-005"
+      ],
+      "focus": "Experimental clock evidence without backward travel"
+    },
+    {
+      "id": "R-009",
+      "name": "Jun Ye",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-005"
+      ],
+      "focus": "Experimental clock evidence without backward travel"
+    },
+    {
+      "id": "R-010",
+      "name": "Hugh Everett III",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-007"
+      ],
+      "focus": "Original relative-state formalism"
+    },
+    {
+      "id": "R-011",
+      "name": "John Bell",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-008"
+      ],
+      "focus": "Bell inequality and locality constraints"
+    },
+    {
+      "id": "R-012",
+      "name": "Boris Podolsky",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-009"
+      ],
+      "focus": "Completeness and correlations"
+    },
+    {
+      "id": "R-013",
+      "name": "Nathan Rosen",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-009"
+      ],
+      "focus": "Completeness and correlations"
+    },
+    {
+      "id": "R-014",
+      "name": "David Bohm",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-010"
+      ],
+      "focus": "Single-outcome alternative framework"
+    },
+    {
+      "id": "R-015",
+      "name": "Wojciech Zurek",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-011"
+      ],
+      "focus": "Environment-induced suppression of interference"
+    },
+    {
+      "id": "R-016",
+      "name": "Lev Vaidman",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-012"
+      ],
+      "focus": "Updated scholarly guide to Everett interpretation"
+    },
+    {
+      "id": "R-017",
+      "name": "Daniela Frauchiger",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-014"
+      ],
+      "focus": "Assumption-dependent thought-experiment paradox"
+    },
+    {
+      "id": "R-018",
+      "name": "Renato Renner",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-014"
+      ],
+      "focus": "Assumption-dependent thought-experiment paradox"
+    },
+    {
+      "id": "R-019",
+      "name": "Alain Aspect",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-015",
+        "SRC-016"
+      ],
+      "focus": "Evidence about entanglement and locality, not branch counting"
+    },
+    {
+      "id": "R-020",
+      "name": "John Clauser",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-015",
+        "SRC-017"
+      ],
+      "focus": "Evidence about entanglement and locality, not branch counting"
+    },
+    {
+      "id": "R-021",
+      "name": "Anton Zeilinger",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-015",
+        "SRC-018"
+      ],
+      "focus": "Evidence about entanglement and locality, not branch counting"
+    },
+    {
+      "id": "R-022",
+      "name": "Jean Dalibard",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-016"
+      ],
+      "focus": "Experimental violation of Bell inequalities"
+    },
+    {
+      "id": "R-023",
+      "name": "Gérard Roger",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-016"
+      ],
+      "focus": "Experimental violation of Bell inequalities"
+    },
+    {
+      "id": "R-024",
+      "name": "Stuart Freedman",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-017"
+      ],
+      "focus": "Early Bell test"
+    },
+    {
+      "id": "R-025",
+      "name": "David Deutsch",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-019",
+        "SRC-022"
+      ],
+      "focus": "Quantum fixed-point model of hypothetical CTCs"
+    },
+    {
+      "id": "R-026",
+      "name": "Ognyan Oreshkov",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-020"
+      ],
+      "focus": "Operational framework for indefinite causal order"
+    },
+    {
+      "id": "R-027",
+      "name": "Fabio Costa",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-020"
+      ],
+      "focus": "Operational framework for indefinite causal order"
+    },
+    {
+      "id": "R-028",
+      "name": "Časlav Brukner",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-020"
+      ],
+      "focus": "Operational framework for indefinite causal order"
+    },
+    {
+      "id": "R-029",
+      "name": "Giulio Chiribella",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-021"
+      ],
+      "focus": "Foundations of information-theoretic reconstruction"
+    },
+    {
+      "id": "R-030",
+      "name": "Giacomo D’Ariano",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-021"
+      ],
+      "focus": "Foundations of information-theoretic reconstruction"
+    },
+    {
+      "id": "R-031",
+      "name": "Paolo Perinotti",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-021"
+      ],
+      "focus": "Foundations of information-theoretic reconstruction"
+    },
+    {
+      "id": "R-035",
+      "name": "Judea Pearl",
+      "fields": [
+        "Mathematics",
+        "AI and computation",
+        "Research methods"
+      ],
+      "works": [
+        "SRC-024",
+        "SRC-025",
+        "SRC-029",
+        "SRC-039"
+      ],
+      "focus": "Structural models and counterfactuals"
+    },
+    {
+      "id": "R-036",
+      "name": "Dana Mackenzie",
+      "fields": [
+        "Mathematics"
+      ],
+      "works": [
+        "SRC-025"
+      ],
+      "focus": "Popular treatment of causality and counterfactuals"
+    },
+    {
+      "id": "R-037",
+      "name": "Alan Turing",
+      "fields": [
+        "AI and computation"
+      ],
+      "works": [
+        "SRC-026"
+      ],
+      "focus": "Machine intelligence and operational tests"
+    },
+    {
+      "id": "R-038",
+      "name": "Claude Shannon",
+      "fields": [
+        "AI and computation"
+      ],
+      "works": [
+        "SRC-027"
+      ],
+      "focus": "Information and noisy-channel reasoning"
+    },
+    {
+      "id": "R-039",
+      "name": "Ian Goodfellow",
+      "fields": [
+        "AI and computation"
+      ],
+      "works": [
+        "SRC-028"
+      ],
+      "focus": "Representation learning and model limitations"
+    },
+    {
+      "id": "R-040",
+      "name": "Yoshua Bengio",
+      "fields": [
+        "AI and computation"
+      ],
+      "works": [
+        "SRC-028"
+      ],
+      "focus": "Representation learning and model limitations"
+    },
+    {
+      "id": "R-041",
+      "name": "Aaron Courville",
+      "fields": [
+        "AI and computation"
+      ],
+      "works": [
+        "SRC-028"
+      ],
+      "focus": "Representation learning and model limitations"
+    },
+    {
+      "id": "R-042",
+      "name": "David Eagleman",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-030"
+      ],
+      "focus": "Subjective temporal distortion versus physical time"
+    },
+    {
+      "id": "R-043",
+      "name": "Karl Friston",
+      "fields": [
+        "Neuroscience"
+      ],
+      "works": [
+        "SRC-031"
+      ],
+      "focus": "Predictive processing and inference"
+    },
+    {
+      "id": "R-044",
+      "name": "Klaus Hornberger",
+      "fields": [
+        "Chemistry"
+      ],
+      "works": [
+        "SRC-032"
+      ],
+      "focus": "Molecular quantum coherence and decoherence"
+    },
+    {
+      "id": "R-045",
+      "name": "Stefan Gerlich",
+      "fields": [
+        "Chemistry"
+      ],
+      "works": [
+        "SRC-032"
+      ],
+      "focus": "Molecular quantum coherence and decoherence"
+    },
+    {
+      "id": "R-046",
+      "name": "Philipp Haslinger",
+      "fields": [
+        "Chemistry"
+      ],
+      "works": [
+        "SRC-032"
+      ],
+      "focus": "Molecular quantum coherence and decoherence"
+    },
+    {
+      "id": "R-047",
+      "name": "Stefan Nimmrichter",
+      "fields": [
+        "Chemistry"
+      ],
+      "works": [
+        "SRC-032"
+      ],
+      "focus": "Molecular quantum coherence and decoherence"
+    },
+    {
+      "id": "R-048",
+      "name": "Markus Arndt",
+      "fields": [
+        "Chemistry"
+      ],
+      "works": [
+        "SRC-032"
+      ],
+      "focus": "Molecular quantum coherence and decoherence"
+    },
+    {
+      "id": "R-049",
+      "name": "Jeffrey Hall",
+      "fields": [
+        "Biology"
+      ],
+      "works": [
+        "SRC-033",
+        "SRC-034"
+      ],
+      "focus": "Gene-regulated circadian rhythms; biological timekeeping"
+    },
+    {
+      "id": "R-050",
+      "name": "Michael Rosbash",
+      "fields": [
+        "Biology"
+      ],
+      "works": [
+        "SRC-033",
+        "SRC-034"
+      ],
+      "focus": "Gene-regulated circadian rhythms; biological timekeeping"
+    },
+    {
+      "id": "R-051",
+      "name": "Michael Young",
+      "fields": [
+        "Biology"
+      ],
+      "works": [
+        "SRC-033",
+        "SRC-034"
+      ],
+      "focus": "Gene-regulated circadian rhythms; biological timekeeping"
+    },
+    {
+      "id": "R-052",
+      "name": "Edwin Hubble",
+      "fields": [
+        "Astrophysics"
+      ],
+      "works": [
+        "SRC-035"
+      ],
+      "focus": "Observational expansion, not branching worlds"
+    },
+    {
+      "id": "R-053",
+      "name": "Alan Guth",
+      "fields": [
+        "Cosmology"
+      ],
+      "works": [
+        "SRC-036"
+      ],
+      "focus": "Early-universe inflation as distinct from Everett branching"
+    },
+    {
+      "id": "R-054",
+      "name": "Sean Carroll",
+      "fields": [
+        "Cosmology"
+      ],
+      "works": [
+        "SRC-037"
+      ],
+      "focus": "Modern general relativity reference"
+    },
+    {
+      "id": "R-055",
+      "name": "Thomas Kuhn",
+      "fields": [
+        "Research methods"
+      ],
+      "works": [
+        "SRC-038"
+      ],
+      "focus": "How conceptual scientific frameworks shift"
+    },
+    {
+      "id": "R-056",
+      "name": "Daniel Kahneman",
+      "fields": [
+        "Research methods"
+      ],
+      "works": [
+        "SRC-040"
+      ],
+      "focus": "Avoid motivated interpretation of weighted claims"
+    },
+    {
+      "id": "R-057",
+      "name": "Amos Tversky",
+      "fields": [
+        "Research methods"
+      ],
+      "works": [
+        "SRC-040"
+      ],
+      "focus": "Avoid motivated interpretation of weighted claims"
+    }
+  ],
+  "verdictAudit": {
+    "currentScore": 59,
+    "empiricalConclusion": "Unresolved: no confirmed empirical discrimination between a single experienced physical history and branching Everettian histories, nor demonstration of traversable backward time travel.",
+    "initialScoreExplanation": "59 is a preexisting editorial illustration, not a scientifically validated Bayesian posterior. No newly indexed work warrants an adjustment.",
+    "changeLog": [
+      {
+        "id": "VC-001",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Library indexing and abstract/summary checks",
+        "sourceIds": [
+          "SRC-003",
+          "SRC-007",
+          "SRC-008",
+          "SRC-011",
+          "SRC-012",
+          "SRC-019",
+          "SRC-020"
+        ],
+        "justification": "The cited works are important to relativity, measurement or hypothetical loop consistency but do not supply direct discriminating physical evidence for timeline multiplicity. Indexing alone cannot shift an editorial meter.",
+        "ledgerIds": [
+          "WL-002",
+          "WL-003",
+          "WL-004",
+          "WL-005"
+        ]
+      }
+    ],
+    "revisionRequirements": [
+      "Exact linked source records",
+      "Independent provenance and duplicate check",
+      "Prediction each hypothesis makes under test",
+      "Physical measurements and methodology",
+      "Confounders, uncertainty, limitations, and counterarguments",
+      "Session ID, date, old and new score, mathematical or explicit qualitative rationale"
+    ]
+  }
+}
