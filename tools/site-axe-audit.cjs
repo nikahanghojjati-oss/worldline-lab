@@ -40,11 +40,20 @@ async function scan(page,name,include){
     issues.push(...await scan(page,viewportName+'/'+route));
    }
    for(const slug of labs){
-    if(!labs.includes(slug))continue;
     for(const room of ['reading','presentation','interactive']){
      await page.evaluate(({slug,room})=>location.hash='#disciplines?lab='+slug+'&room='+room,{slug,room});
-     await page.waitForFunction(s=>document.querySelector('#lab-detail')?.hidden===false&&location.hash.includes(s),slug,{timeout:15000});
-     if(room==='interactive')await page.waitForFunction(()=>!!document.querySelector('#lab-control'));
+     // Hash updates can precede DOM updates. Verify the requested view has actually rendered
+     // before scanning, otherwise presentation scans can silently inspect the prior reading room.
+     await page.waitForFunction(({slug,room})=>{
+      const root=document.querySelector('#lab-detail');
+      const chosen=root?.querySelector('.lab-rooms-switcher a.chosen[aria-current="page"]');
+      const params=new URLSearchParams(location.hash.split('?')[1]||'');
+      if(root?.hidden!==false||params.get('lab')!==slug||params.get('room')!==room)return false;
+      if(!chosen||!chosen.getAttribute('href')?.endsWith('room='+room))return false;
+      if(room==='reading')return !!root.querySelector('#lab-source-list .lab-source')&&root.querySelector('#lab-room-stage')?.hidden===true;
+      if(room==='presentation')return !!root.querySelector('#deck-slide h3')&&!!root.querySelector('#deck-next');
+      return !!root.querySelector('#lab-control')&&!!root.querySelector('#lab-control-result strong');
+     },{slug,room},{timeout:15000});
      await page.waitForTimeout(400);
      issues.push(...await scan(page,viewportName+'/'+slug+'/'+room,'#lab-detail'));
     }
