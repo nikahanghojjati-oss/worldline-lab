@@ -37,3 +37,19 @@ jobs:
           node --check assets/site.js
           node --check assets/library.js
           node --check assets/lab-experience.js
+
+  browser-acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Worldline Lab
+        uses: actions/checkout@v4
+      - name: Install Node LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Chromium browser harness
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install chromium --with-deps
+      - name: Test 8 routes and 9 x 3 lab views at desktop and phone widths
+        run: node tools/site-browser-smoke.cjs
