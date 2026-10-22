@@ -5,7 +5,7 @@
     "score": 59,
     "reference": 50,
     "label": "Exploratory orientation",
-    "method": "59/100 is a provisional editorial orientation, NOT an empirical probability. Reviews VC-003/004 compare original papers and reproduce limited theoretical examples, but no experiments distinguish actual physical histories; explicit no-change.",
+    "method": "59/100 is a provisional editorial illustration, NOT an empirical probability. Research audits VC-003–005 include targeted original-source checks of model mathematics and compact-horizon quantum-field obstructions with counterarguments. None provides experiments distinguishing realized histories.",
     "empiricalVerdict": "No decisive evidence establishes physically branching timelines or backward time travel."
   },
   "entries": [
@@ -69,14 +69,14 @@
       "impact": 0,
       "strength": "Conjecture",
       "question": "Might nature prevent paradox-causing time loops?",
-      "finding": "Hawking proposed that physical effects might prevent the formation of closed timelike curves.",
-      "source": "Hawking · Physical Review D (1992)",
+      "finding": "Hawking argues that compactly generated Cauchy horizons from bounded local interventions encounter classical energy-condition and quantum backreaction obstacles. KRW proves Hadamard/local-field obstructions at base points; Visser argues semiclassical reliability may fail before backreaction determines the outcome. None is a universal quantum-gravity prohibition.",
+      "source": "Hawking (1992); Kay–Radzikowski–Wald (1997); Visser (1997)",
       "url": "https://doi.org/10.1103/PhysRevD.46.603",
       "place": "Scholarly publication",
       "lat": null,
       "long": null,
       "locationType": "Theoretical work",
-      "notes": "Original Hawking 1992 §II pp.604-606, §IV pp.608-609, and §VI p.610: compactly generated Cauchy-horizon result depends on initial-surface and energy assumptions; semiclassical backreaction remains conditional and quantum-gravity corrections unresolved. This is a conjecture, not an observed universal ban. Shares Hawking publication with WL-002, not independent evidence.",
+      "notes": "Original Hawking §§II–VI revisited, together with KRW Theorems 1/2 and Visser §§II–V; see SRC-003, SRC-055–057, NOTE-022–025 and research/field-note-003.md. Distinguish a QFT singular/undefined renormalized tensor from universal divergence of every stress component or proof of physical nonexistence.",
       "lastResearchReview": "2026-10-21",
       "reviewRefs": [
         "SRC-003",
@@ -154,6 +154,32 @@
       "long": null,
       "locationType": "Thought experiment",
       "notes": "A thought experiment is not an observation of competing universes."
+    },
+    {
+      "id": "WL-007",
+      "date": "2026-10-21",
+      "title": "A chronology-horizon quantum-field obstruction has narrow theorem scope",
+      "field": "Physics",
+      "kind": "Theoretical model",
+      "status": "Theorem conditional; physical outcome unresolved",
+      "direction": "Neither confirms nor refutes existence of multiple physical histories",
+      "impact": 0,
+      "strength": "Rigorous conditional field-theory theorem plus model-dependent reliability analysis; no direct experiment",
+      "question": "Does breakdown of ordinary field-theoretic assumptions on a compactly generated chronology horizon prove physically impossible time travel?",
+      "finding": "KRW's linear-field results establish breakdown of F-locality and Hadamard regularity at base points, not a universal no-time-machine theorem. Visser argues that semiclassical predictions may be unreliable near this region; special modeled cases evade large mean stress before reliability fails.",
+      "source": "Kay–Radzikowski–Wald (1997); Visser (1997)",
+      "url": "https://doi.org/10.1007/s002200050042",
+      "place": "Scholarly publication",
+      "lat": null,
+      "long": null,
+      "locationType": "Theoretical work",
+      "notes": "Primary passage checks: SRC-055 (arXiv gr-qc/9603012, §§1/4/5/6), SRC-056 (arXiv gr-qc/9702041 §§II–V), SRC-057 (publisher abstract); NOTE-023–025; field-note-003. Not a proof that full quantum gravity forbids all CTCs.",
+      "lastResearchReview": "2026-10-21",
+      "reviewRefs": [
+        "SRC-003",
+        "NOTE-016",
+        "research/field-note-002.md"
+      ]
     }
   ]
 }

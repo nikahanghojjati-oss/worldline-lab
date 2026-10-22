@@ -1055,6 +1055,71 @@
       "verdictEffect": "none",
       "effectReason": "Postselection-based toy models do not establish gravitational time loops.",
       "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-055",
+      "field": "Relativity",
+      "title": "Quantum Field Theory on Spacetimes with a Compactly Generated Cauchy Horizon",
+      "authors": [
+        "Bernard S. Kay",
+        "Marek J. Radzikowski",
+        "Robert M. Wald"
+      ],
+      "year": 1997,
+      "type": "paper",
+      "url": "https://doi.org/10.1007/s002200050042",
+      "role": "Rigorous conditional field-algebra and Hadamard-state obstruction at compactly generated Cauchy-horizon base points",
+      "access": "partially-studied",
+      "note": "Original arXiv gr-qc/9603012v2, selected §§1,4–6 and theorem/proof passages on PDF pp.1–5,24–25,27–28,30; NOTE-023, field-note-003. Full proof not independently replicated.",
+      "linkedLedger": [
+        "WL-003",
+        "WL-007"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Theorem about standard quantum field theory at specified horizon base points does not prove universal chronology protection or branch multiplicity.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-056",
+      "field": "Relativity",
+      "title": "The reliability horizon for semi-classical quantum gravity: Metric fluctuations are often more important than back-reaction",
+      "authors": [
+        "Matt Visser"
+      ],
+      "year": 1997,
+      "type": "paper",
+      "url": "https://doi.org/10.1016/S0370-2693(97)01226-4",
+      "role": "Limits of semiclassical-backreaction in chronology protection reasoning; Planck-scale metric fluctuations",
+      "access": "partially-studied",
+      "note": "Original arXiv gr-qc/9702041v2, selected §§I–V PDF pp.1–4 reviewed; NOTE-024, field-note-003. Complete independent proof audit not done.",
+      "linkedLedger": [
+        "WL-003",
+        "WL-007"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Reliability critique limits extrapolation, not observed CTC creation.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-057",
+      "field": "Relativity",
+      "title": "Traversable wormholes: The Roman ring",
+      "authors": [
+        "Matt Visser"
+      ],
+      "year": 1997,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.55.5212",
+      "role": "Conditional example where backreaction can be small until semiclassical reliability fails",
+      "access": "abstract-reviewed",
+      "note": "APS publisher abstract examined 2026-10-21; full text NOT reviewed. See NOTE-025.",
+      "linkedLedger": [
+        "WL-003",
+        "WL-007"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "Assumed wormhole-ring geometry, not a demonstrated apparatus or measured branching.",
+      "verifiedAt": "2026-10-21"
     }
   ],
   "scholars": [
@@ -2005,6 +2070,51 @@
         "SRC-054"
       ],
       "focus": "Alternative postselection consistency rule and its differences from Deutsch CTCs"
+    },
+    {
+      "id": "R-085",
+      "name": "Bernard S. Kay",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-055"
+      ],
+      "focus": "Compactly generated horizon and Hadamard/field-locality theorem"
+    },
+    {
+      "id": "R-086",
+      "name": "Marek J. Radzikowski",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-055"
+      ],
+      "focus": "Compactly generated horizon and Hadamard/field-locality theorem"
+    },
+    {
+      "id": "R-087",
+      "name": "Robert M. Wald",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-055"
+      ],
+      "focus": "Compactly generated horizon and Hadamard/field-locality theorem"
+    },
+    {
+      "id": "R-088",
+      "name": "Matt Visser",
+      "fields": [
+        "Relativity"
+      ],
+      "works": [
+        "SRC-056",
+        "SRC-057"
+      ],
+      "focus": "Reliability limits and model dependence in chronology protection"
     }
   ],
   "verdictAudit": {
@@ -2111,6 +2221,33 @@
         ],
         "fieldNote": "research/field-note-002.md",
         "justification": "Replicating the radius threshold and self-consistent 2x2 density-matrix toy verifies conditional mathematics of stipulated models but supplies no physical detection of real CTCs or multiple quantum histories. No measurable discrimination; no score adjustment."
+      },
+      {
+        "id": "VC-005",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Source-level partial study of KRW horizon theorem, Visser reliability objections and Hawking assumptions; Roman-ring abstract countercheck",
+        "sourceIds": [
+          "SRC-003",
+          "SRC-055",
+          "SRC-056",
+          "SRC-057"
+        ],
+        "ledgerIds": [
+          "WL-003",
+          "WL-007"
+        ],
+        "readingNotes": [
+          "NOTE-022",
+          "NOTE-023",
+          "NOTE-024",
+          "NOTE-025"
+        ],
+        "fieldNote": "research/field-note-003.md",
+        "justification": "KRW proves mathematical obstruction to standard linear quantum fields at base points of compactly generated Cauchy horizons, while Visser questions reliability of semiclassical-backreaction predictions. These qualified theoretical findings neither demonstrate a constructed CTC nor empirically distinguish one realized history from Everett branching. The editorial indicator cannot be updated for source volume or mathematical difficulty."
       }
     ],
     "revisionRequirements": [

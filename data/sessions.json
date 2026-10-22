@@ -9,18 +9,19 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "IN PROGRESS",
-  "activeWork": "S-001 active: Gödel, Hawking, Deutsch original-paper section reading and small mathematical model checks documented; continue full assumption/objection scrutiny, especially Hawking semiclassical horizon argument and operational differences between CTC models.",
-  "lastVerified": "Research round S-001-R003: independent conditional algebra checks completed for Gödel (constant-radius timelike circle threshold r>asinh(1)) and a Deutsch-type NOT-loop channel fixed-point toy. Both recorded in research/field-note-002.md, NOTE-020/021, ledger WL-002/004 and verdict audit VC-004. Total: 54 unique catalogued works, 84 scholars, 21 notes, 3 partially studied original papers, 0 fully studied. The 59/100 editorial orientation remains unchanged, no experimentally observed CTC or alternate physical history reported.",
-  "nextStep": "Deeply review Hawking §§II–V with later chronology-horizon objections and quantum-gravity limits; extend Deutsch full network analysis and compare Politzer/Lloyd alternatives using specified identical circuits; document source pages and check every Observatory field again.",
+  "activeWork": "S-001 R004 archived: Hawking, Kay–Radzikowski–Wald and Visser chronology-horizon comparison; ongoing deeper horizon proof and Deutsch/postselection operational comparison.",
+  "lastVerified": "Round S-001-R004: original papers targeted for Hawking §§II–VI, KRW §§1/4–6 and Visser reliability §§I–V, with Roman-ring abstract countercheck. Filed NOTE-022–025 and field-note-003; 57 works, 88 indexed researchers, 25 notes, 5 partial and 0 full studies; ledger WL-003/WL-007 and no-change audit VC-005. Editorial 59/100 remains unchanged. Browser smoke-test and Pages deployment propagation still unverified.",
+  "nextStep": "Study the full KRW §5 proof and microlocal assumptions, then compare Deutsch and Lloyd on an explicitly identical toy circuit with input/output probabilities; audit noncompact-horizon exceptions, and update every Session Observatory field at the next round.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
     "Browser session handoff drafts remain local until explicitly reviewed and saved to GitHub.",
     "Discipline labs now contain interactive source reading plans; specialized physics simulations and other discipline tools are still planned.",
     "A repository commit confirms code publication but does not independently verify all browser controls or GitHub Pages propagation.",
-    "Original source coverage is currently targeted partial-paper reading; no complete full-paper critical review, independent mathematical replication or real CTC experiment is established.",
     "Interdisciplinary subject-specific simulations and automated literature-validation tests remain roadmap work.",
-    "New GitHub commits do not by themselves establish that every live browser component or its deployment has been independently tested."
+    "New GitHub commits do not by themselves establish that every live browser component or its deployment has been independently tested.",
+    "KRW's microlocal proof, Visser's complete derivation and full quantum-gravity response are not independently replicated; all added studies remain partial or abstract-level.",
+    "New lab highlights, journal and round-by-round session archive are committed website code/data changes; deployment propagation, mobile layout and live browser controls require testing."
   ],
   "sessionHistory": [
     {
@@ -28,7 +29,7 @@
       "date": "2026-10-21",
       "label": "Founding session · Worldline Lab",
       "objective": "Create an open, scientifically disciplined publication and a reliable research continuity system that survives chat boundaries.",
-      "work": "Established scientific atlas, Truth Compass, session continuity protocol, multidisciplinary library, nine discipline-specific reading queues, and the eight-stage research program with transparent study gates.",
+      "work": "Founding Worldline Lab plus R004 original-source horizon-theorem/reliability comparison and publicly linked lab research.",
       "status": "Active · initial session",
       "scope": "Research architecture, repository construction, website publication, continuity methods",
       "tokenCount": null,
@@ -48,15 +49,17 @@
           "Owner-approved 75/25 research-first operating policy committed to PROJECT_RULES.md and enforced in ROADMAP.md and SESSION_START.md; this is a planning rule, not a measured performance statistic.",
           "Round S-001-R001: mandatory per-round Session Observatory and decision update contract committed in PROJECT_RULES.md, SESSION_START.md and ROADMAP.md.",
           "Round S-001-R002: original-source targeted page-level analyses of Gödel, Hawking and Deutsch recorded in field-note-002.md and NOTE-015..017; Politzer and Lloyd abstract counterchecks as NOTE-018..019; 54 verified works, 84 scholars, 3 partial, 0 full readings, and scientific no-change audit VC-003.",
-          "Round S-001-R003: Gödel closed-circle radius condition and Deutsch-style one-bit fixed points checked with hand algebra and numerical matrix tests; notes NOTE-020/021 and audit VC-004 preserve scientific no-change."
+          "Round S-001-R003: Gödel closed-circle radius condition and Deutsch-style one-bit fixed points checked with hand algebra and numerical matrix tests; notes NOTE-020/021 and audit VC-004 preserve scientific no-change.",
+          "Round S-001-R004: comparison of Hawking, Kay–Radzikowski–Wald, and Visser saved in field-note-003, NOTE-022–025, WL-007 and audit VC-005; research pages and round archive updated in repository."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
           "Research claims and future compass adjustments require source-by-source scientific review.",
           "Interactive browser validation of new session control widgets, accessibility, responsive layout, and GitHub activity feed is outstanding.",
-          "Key source-level review milestone remains open: complete detailed math/counterargument checks and independent model replication; no papers qualify as fully studied yet."
+          "Key source-level review milestone remains open: complete detailed math/counterargument checks and independent model replication; no papers qualify as fully studied yet.",
+          "Verify published lab highlight cards, updated latest journal, source links and round decision archive on live site and mobile."
         ],
-        "next": "Deeply review Hawking §§II–V with later chronology-horizon objections and quantum-gravity limits; extend Deutsch full network analysis and compare Politzer/Lloyd alternatives using specified identical circuits; document source pages and check every Observatory field again."
+        "next": "Study the full KRW §5 proof and microlocal assumptions, then compare Deutsch and Lloyd on an explicitly identical toy circuit with input/output probabilities; audit noncompact-horizon exceptions, and update every Session Observatory field at the next round."
       }
     }
   ],
@@ -67,6 +70,7 @@
       "SESSION_START.md",
       "data/sessions.json",
       "research/field-note-002.md",
+      "research/field-note-003.md",
       "data/library.json",
       "data/reading-notes.json",
       "research/field-note-001.md",
@@ -82,7 +86,7 @@
       "Every worker and GPT chat must refresh the full Session Observatory and transition decision after EVERY substantive work round, even if the scientific verdict does not move; append a verified roundLog record."
     ],
     "minimumPacket": "Repository authority · session ID · verified change (with source) · unresolved limit · one highest-value next action · restart guardrails",
-    "continuity": "S-001 remains active. Latest science is in research/field-note-002.md and NOTE-015..019; audit VC-003, ledger WL-002..004. Every work round must update this exact session JSON (including full transition recommendation). GitHub commit polling is not GPT telemetry; a separate chat starts a new ID only after authentic handoff."
+    "continuity": "S-001 remains active through R004. Latest evidence: field-note-003, NOTE-022–025, SRC-055–057, WL-003/WL-007, VC-005. 57 works, 25 notes, 5 partial, 0 full. All-round session closure policy remains mandatory; public site must be separately checked. Next: KRW proof and D-CTC/P-CTC same-circuit comparison."
   },
   "activeSession": "S-001",
   "readinessModel": {
@@ -106,14 +110,14 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "Detailed original-source review, mathematical replication and counterarguments for Gödel, Hawking and Deutsch",
+    "milestoneName": "Chronology protection: Hawking assumptions, KRW Hadamard theorem, Visser semiclassical reliability, and later operational CTC comparison",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No serious continuity loss observed or reported. Live conversation budget unavailable, intentionally not inferred.",
-    "decisionBasis": "R003 independently checks a Gödel CTC radius criterion and one Deutsch-type quantum channel toy, beyond the R002 source-reading notes. These are genuine results, but the assigned detailed full comparison including Hawking's technical semiclassical argument and rival time-loop prescriptions is still in progress. All checkpoints are saved and resumable; a natural handoff boundary has not yet been reached. Continue S-001.",
+    "documentedContinuityRisk": "Scientific argument coherent and source paths verified; no measured chat context use or independently tested deployment. Continue rather than inventing an exhaustion threshold.",
+    "decisionBasis": "R004 achieves a meaningful bounded deliverable (selected source-level theorem, counterarguments and on-site documentation), but the broader assigned milestone remains unfinished: full KRW proof reconstruction, physical reliability limitations, and same-circuit Deutsch/Lloyd comparison. Checkpoint prepared, next action identified, no natural transition boundary or known continuity loss. Continue S-001.",
     "updatePolicy": "For every discrete research or website round and in every new GPT session: update all seven workstream summaries, progress counts, lastVerified, activeWork, nextStep, blockers, full transition gate and explicit CONTINUE/PREPARE HANDOFF/TRANSITION decision, source-linked verdict/no-change, and roundLog. Unsaved updates must be labelled UNSYNCED.",
     "decision": "CONTINUE"
   },
@@ -122,56 +126,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Research homepage and illustrative 59/100 compass preserved. No visual or version redesign this round.",
-      "next": "Prioritize evidence-driven website work under 75/25 allocation; retain existing homepage.",
+      "latest": "Homepage untouched; editorial compass remains 59/100. Research journal updated; dashboard loads versioned JSON.",
+      "next": "After deployment verify home/journal feed and preserve editorial caveat.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "WL-002/WL-004 updated with independently checked conditional Gödel timelike-circle and one-bit quantum-channel calculations; audit VC-004 explicitly preserves 59/100.",
-      "next": "Seek experimentally discriminating evidence, challenge background assumptions and log any score or reasoned no-change.",
+      "latest": "WL-003 clarified and WL-007 added for precise KRW theorem and Visser reliability objection; VC-005 records explicit 59→59 scientific no-change.",
+      "next": "Review KRW assumptions and test genuinely discriminating predictions.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "54 verified unique works, 84 researchers; 21 source-level research notes, 3 partially studied original papers, 0 fully studied. VC-003/004 no-change events indexed.",
-      "next": "Deeply examine Hawking and CTC counterarguments, then score only completed critical reviews as fully studied.",
+      "latest": "57 works, 88 contributor records, 25 source-level notes, 5 partially studied and 0 fully studied; added SRC-055–057, NOTE-022–025 with true read depths.",
+      "next": "Audit new bibliographic/author references and complete source proofs before raising review depth.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "Field Note 002 now includes the original-source comparison and two reproducible small mathematical checks, plus cited limitations; NOTE-020 and NOTE-021.",
-      "next": "Extend chronology-horizon proof checking and contrast operational predictions between D-CTC and P-CTC.",
+      "latest": "New field-note-003 and J-002 journal report compare Hawking, KRW and Visser, with assumptions and objections; not a universal impossibility proof.",
+      "next": "Full KRW microlocal proof and same-circuit Deutsch/Lloyd analysis.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Nine field presentation rooms, reading plans and starter instruments retained; 54-work indexed source plan includes quantum, relativity and countermodel additions. No new instrument shipped this round.",
-      "next": "Add cited, clearly hypothetical Gödel metric and Deutsch-channel models as deeper subject-specific lab tools under ROADMAP 0.4.",
+      "latest": "Physics and Quantum computing labs now have source-linked current finding highlights; Physics reading priority updated for KRW/Visser.",
+      "next": "Live browser testing and deeper cited field instruments; no real experiment claimed.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "Conceptual atlas retained without adding unsourced geographical data; no atlas code change in this round.",
-      "next": "Follow ROADMAP 0.3: attributed precision-aware locations plus mobile-accessible 2D map.",
+      "latest": "Atlas explicitly reviewed this round; no new location claim or geospatial code change.",
+      "next": "Sourced precision-aware map work remains scheduled under roadmap.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published",
-      "latest": "Rounds R001, R002 and R003 saved with full all-seven-workstream review, explicit scientific no-change audits and updated transition decisions.",
-      "next": "After EVERY round, recompute and publish the full decision, workstream statuses, evidence progress, blockers and next action; flag unsynced commits honestly.",
+      "latest": "S-001-R004 all-seven-workstream checkpoint, full transition decision and new visible round-by-round audit implemented in GitHub-backed UI.",
+      "next": "Verify rendered round log and confirm live Pages propagation; close next research round with the same contract.",
       "lastReviewedOn": "2026-10-21"
     }
   ],
@@ -431,6 +435,109 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "R003 independently checks a Gödel CTC radius criterion and one Deutsch-type quantum channel toy, beyond the R002 source-reading notes. These are genuine results, but the assigned detailed full comparison including Hawking's technical semiclassical argument and rival time-loop prescriptions is still in progress. All checkpoints are saved and resumable; a natural handoff boundary has not yet been reached. Continue S-001.",
       "nextAction": "Deeply review Hawking §§II–V with later chronology-horizon objections and quantum-gravity limits; extend Deutsch full network analysis and compare Politzer/Lloyd alternatives using specified identical circuits; document source pages and check every Observatory field again."
+    },
+    {
+      "id": "S-001-R004",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "scope": "Chronology-protection next research body: Hawking-KRW-Visser original-source boundaries and public laboratory/session visibility",
+      "files": [
+        "data/library.json",
+        "data/reading-notes.json",
+        "data/ledger.json",
+        "data/research.json",
+        "data/sessions.json",
+        "assets/site.js",
+        "assets/session-control.js",
+        "research/field-note-003.md"
+      ],
+      "verified": "Targeted Hawking §II–VI, KRW §1/4/5/6, Visser §I–V original passages reviewed; Roman-ring publisher abstract checked. Added field-note-003, 4 notes, 3 bibliography records, a new ledger theorem entry, updated lab highlights/journal and round-by-round Session Observatory.",
+      "research": {
+        "worksCatalogued": 57,
+        "scholars": 88,
+        "readingNotes": 25,
+        "partiallyStudiedWorks": 5,
+        "fullyStudiedWorks": 0,
+        "sourceNotes": [
+          "NOTE-022",
+          "NOTE-023",
+          "NOTE-024",
+          "NOTE-025"
+        ],
+        "sources": [
+          "SRC-003",
+          "SRC-055",
+          "SRC-056",
+          "SRC-057"
+        ],
+        "fieldNote": "research/field-note-003.md",
+        "readDepth": "three targeted source-level partial reviews plus one publisher abstract; no full-text certifications"
+      },
+      "verdict": {
+        "oldScore": 59,
+        "newScore": 59,
+        "status": "no-change",
+        "why": "Hawking's formation assumptions, KRW's conditional quantum-field singularity and Visser's reliability challenge constrain theoretical inference but do not demonstrate real chronology loops or discriminate Everett histories.",
+        "auditId": "VC-005",
+        "ledgerIds": [
+          "WL-003",
+          "WL-007"
+        ]
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "Homepage untouched; editorial compass remains 59/100. Research journal updated; dashboard loads versioned JSON.",
+          "change": "Reviewed: no change to original feature"
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "WL-003 clarified and WL-007 added for precise KRW theorem and Visser reliability objection; VC-005 records explicit 59→59 scientific no-change.",
+          "change": "Research content, data, or interface updated"
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "57 works, 88 contributor records, 25 source-level notes, 5 partially studied and 0 fully studied; added SRC-055–057, NOTE-022–025 with true read depths.",
+          "change": "Research content, data, or interface updated"
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "New field-note-003 and J-002 journal report compare Hawking, KRW and Visser, with assumptions and objections; not a universal impossibility proof.",
+          "change": "Research content, data, or interface updated"
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "published reading queues",
+          "latest": "Physics and Quantum computing labs now have source-linked current finding highlights; Physics reading priority updated for KRW/Visser.",
+          "change": "Research content, data, or interface updated"
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "Atlas explicitly reviewed this round; no new location claim or geospatial code change.",
+          "change": "Reviewed: no change to original feature"
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "published",
+          "latest": "S-001-R004 all-seven-workstream checkpoint, full transition decision and new visible round-by-round audit implemented in GitHub-backed UI.",
+          "change": "Research content, data, or interface updated"
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "R004 achieves a meaningful bounded deliverable (selected source-level theorem, counterarguments and on-site documentation), but the broader assigned milestone remains unfinished: full KRW proof reconstruction, physical reliability limitations, and same-circuit Deutsch/Lloyd comparison. Checkpoint prepared, next action identified, no natural transition boundary or known continuity loss. Continue S-001.",
+      "nextAction": "Study the full KRW §5 proof and microlocal assumptions, then compare Deutsch and Lloyd on an explicitly identical toy circuit with input/output probabilities; audit noncompact-horizon exceptions, and update every Session Observatory field at the next round."
     }
   ]
 }

@@ -372,6 +372,109 @@
         "WL-004"
       ],
       "fieldNote": "research/field-note-002.md"
+    },
+    {
+      "id": "NOTE-022",
+      "workId": "SRC-003",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "Hawking formation argument: precise assumptions and semiclassical exception",
+      "basis": "Original PRD 46 (1992) PDF https://lweb.cfa.harvard.edu/~loeb/Hawking_C.pdf, §II pp.604–606, §III pp.606–607, §IV p.608–609, §VI pp.610–611.",
+      "sectionsRead": [
+        "§II pp.604–606 compact generation from a bounded local region",
+        "§III pp.606–607 noncompact initial surface and weak-energy condition",
+        "§IV pp.608–609 Misner-space free-field illustration",
+        "§VI pp.610–611 exceptions and heuristic backreaction"
+      ],
+      "summary": "The local-manufacture argument is framed around compactly generated future Cauchy horizons. With a noncompact initial surface a weak-energy-condition obstruction occurs; Hawking then argues, using semiclassical fields and example geometries, that large vacuum polarization/backreaction may prevent chronology formation. The conclusion remains a conjecture rather than a proof for arbitrary quantum gravity.",
+      "method": "Revisited original section statements, distinguished geometric energy-condition inference from model-specific quantum stress growth and hypothetical backreaction.",
+      "limitations": "No independent reproduction of full Raychaudhuri/Newman–Penrose integrations or stress-tensor renormalization; the excerpted model arguments do not decide all interacting fields and geometries.",
+      "alternativeExplanations": "Kay–Radzikowski–Wald prove a different local QFT breakdown theorem; Visser argues semiclassical gravity can lose reliability before its backreaction is predictive.",
+      "conclusion": "Strong but assumption-dependent theoretical case. Does not establish that quantum gravity universally forbids all CTCs or the count of physical histories.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-003",
+        "WL-007"
+      ],
+      "fieldNote": "research/field-note-003.md"
+    },
+    {
+      "id": "NOTE-023",
+      "workId": "SRC-055",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "Kay–Radzikowski–Wald: theorem is singular or ill-defined Hadamard behavior, not universal metric blowup",
+      "basis": "Original arXiv gr-qc/9603012v2 https://arxiv.org/pdf/gr-qc/9603012, introduction PDF pp.1–5, §4 pp.24–25 (F-locality), §5 pp.27–28 (Theorem 2 and proof), §6 p.30 (comparison and limitations).",
+      "sectionsRead": [
+        "Abstract PDF pp.1–2",
+        "Introduction PDF pp.2–5",
+        "§4 F-locality candidate PDF pp.24–25",
+        "§5 Theorem 2/proof PDF pp.27–28",
+        "§6 physical interpretation PDF p.30"
+      ],
+      "summary": "For a linear Klein–Gordon quantum field on a spacetime with compactly generated Cauchy horizon, base points obstruct F-local field-algebra extension and universally regular Hadamard two-point extension; a mismatch fails even local L² regularity, leaving renormalized quantities undefined or singular there. This is stronger than generic expectation of stress divergence but narrower than proving time machines cannot form.",
+      "method": "Checked original theorem statements, geometric assumptions, proof's null-geodesic/local-vs-global singularity comparison, and authors' explicit interpretation caveats; did not reproduce microlocal propagation-of-singularities theorem.",
+      "limitations": "Original proof relies on distributional and microlocal results not independently verified here; theorem's domain is compactly generated horizon, prescribed linear field, and base points. No universal matter+quantum-gravity evolution result.",
+      "alternativeExplanations": "Some states can show bounded stress on approach yet fail Hadamard condition at base points; quantum gravity could change the framework.",
+      "conclusion": "Conditional rigorous obstruction to standard QFT at specified horizon points; not experimental demonstration of chronology protection or multiple histories.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-003",
+        "WL-007"
+      ],
+      "fieldNote": "research/field-note-003.md"
+    },
+    {
+      "id": "NOTE-024",
+      "workId": "SRC-056",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "Visser: reliability horizon versus chronology horizon",
+      "basis": "Original arXiv gr-qc/9702041v2 https://arxiv.org/pdf/gr-qc/9702041, §I–III pp.1–2, §IV pp.2–4, §V p.4; publisher metadata DOI 10.1016/S0370-2693(97)01226-4.",
+      "sectionsRead": [
+        "§I PDF p.1",
+        "§II PDF pp.1–2",
+        "§III PDF p.2",
+        "§IV PDF pp.2–4 selected definitions",
+        "§V PDF p.4"
+      ],
+      "summary": "Defines an invariantly motivated unreliable region using short nontrivial spacelike geodesics, Planck-scale curvature and a reliability horizon. Argues metric fluctuations can invalidate semiclassical gravitational prediction even when expected stress/backreaction remains small before a chronology horizon.",
+      "method": "Direct study of original definitions (including winding/curvature extensions), section III treatment of KRW, and section V conclusions; compared to Hawking's expectation-based backreaction argument.",
+      "limitations": "The reliability threshold and interpretation assume extrapolation of semiclassical effective gravity to short closed paths; it is not a full quantum-gravity solution. The full text and all steps have not been independently reconstructed.",
+      "alternativeExplanations": "Chronology protection might still be enforced by full quantum gravity or pre-horizon effects in specific geometries; an unreliable approximation is not permission for physical CTCs.",
+      "conclusion": "Highlights a central limit of semiclassical predictions without establishing an experimentally realized loop.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-003",
+        "WL-007"
+      ],
+      "fieldNote": "research/field-note-003.md"
+    },
+    {
+      "id": "NOTE-025",
+      "workId": "SRC-057",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Visser Roman ring: example of conditional weak backreaction",
+      "basis": "APS publisher abstract https://doi.org/10.1103/PhysRevD.55.5212 (no full paper review).",
+      "summary": "A postulated ring of traversable wormholes can be arranged in a model to keep vacuum polarization small up to a semiclassical reliability horizon, challenging a universal inference from large mean stress.",
+      "limitations": "Publisher abstract only; no independent derivation, constructed wormholes, or observed chronology violations.",
+      "alternativeExplanations": "Quantum metric fluctuations, energy inequalities and gravitational consistency may still forbid physical construction.",
+      "conclusion": "Conditional counterexample to a universal *mean-backreaction argument*, not evidence of a working time machine.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-003",
+        "WL-007"
+      ],
+      "fieldNote": "research/field-note-003.md"
     }
   ]
 }

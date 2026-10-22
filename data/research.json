@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Can one coherent history or multiple histories be distinguished by physically testable predictions?",
-  "phase": "Growing verified bibliography; reading plans, presentation rooms, and first interactive teaching instruments",
+  "phase": "Source-checked chronology-protection research, with explicit assumption/counterargument notes visible in physics and quantum labs",
   "milestones": [
     {
       "id": "M1",
@@ -28,8 +28,8 @@
     {
       "id": "M4",
       "name": "Compare alternative interpretations and constraints",
-      "state": "planned",
-      "completion": "Research questions drafted",
+      "state": "active",
+      "completion": "Chronology-horizon theorem, quantum-gravity reliability and alternative CTC prescriptions compared provisionally.",
       "acceptance": "Falsifiability matrix and equivalent-prediction audit"
     },
     {
@@ -62,6 +62,9 @@
       "additionalSourceIds": [],
       "prioritySourceIds": [
         "SRC-003",
+        "SRC-055",
+        "SRC-056",
+        "SRC-057",
         "SRC-002",
         "SRC-004",
         "SRC-007",
@@ -119,7 +122,45 @@
         "presentationRoom": "v1 research presentation",
         "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
         "interdisciplinary": "linked cross-field topics"
-      }
+      },
+      "caseHighlights": [
+        {
+          "title": "Hawking: formation restrictions",
+          "summary": "Compactly generated Cauchy horizons arising from a bounded intervention face energy-condition obstacles and semiclassical vacuum-polarization concerns.",
+          "sourceIds": [
+            "SRC-003"
+          ],
+          "readingNoteIds": [
+            "NOTE-022"
+          ],
+          "limitation": "A conditional argument, not a universal theorem about quantum gravity."
+        },
+        {
+          "title": "Kay–Radzikowski–Wald: precise theorem",
+          "summary": "At certain horizon base points, standard linear-field algebra and regular Hadamard state extension cannot satisfy the stipulated local requirements.",
+          "sourceIds": [
+            "SRC-055"
+          ],
+          "readingNoteIds": [
+            "NOTE-023"
+          ],
+          "limitation": "A field-theory mathematical obstruction, not a direct stress-tensor measurement or proof of no time travel."
+        },
+        {
+          "title": "Visser: semiclassical reliability",
+          "summary": "Short closed spacelike paths and metric fluctuations may place the chronology horizon beyond where semiclassical gravity can be trusted.",
+          "sourceIds": [
+            "SRC-056",
+            "SRC-057"
+          ],
+          "readingNoteIds": [
+            "NOTE-024",
+            "NOTE-025"
+          ],
+          "limitation": "This undermines overconfident extrapolation; it does not create a time machine."
+        }
+      ],
+      "fieldNote": "research/field-note-003.md"
     },
     {
       "name": "Mathematics",
@@ -135,7 +176,9 @@
         "SRC-002",
         "SRC-019",
         "SRC-020",
-        "SRC-024"
+        "SRC-024",
+        "SRC-055",
+        "SRC-056"
       ],
       "prioritySourceIds": [
         "SRC-023",
@@ -211,7 +254,9 @@
         "SRC-008",
         "SRC-011",
         "SRC-014",
-        "SRC-018"
+        "SRC-018",
+        "SRC-055",
+        "SRC-056"
       ],
       "prioritySourceIds": [
         "SRC-019",
@@ -270,7 +315,27 @@
         "presentationRoom": "v1 research presentation",
         "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
         "interdisciplinary": "linked cross-field topics"
-      }
+      },
+      "caseHighlights": [
+        {
+          "title": "Model boundaries: circuits versus horizons",
+          "summary": "Deutsch and postselected models assume consistency prescriptions; chronology-horizon theorems address semiclassical spacetime and field states. Mathematical circuit consistency does not resolve gravitational existence.",
+          "sourceIds": [
+            "SRC-019",
+            "SRC-054",
+            "SRC-055",
+            "SRC-056"
+          ],
+          "readingNoteIds": [
+            "NOTE-017",
+            "NOTE-019",
+            "NOTE-023",
+            "NOTE-024"
+          ],
+          "limitation": "Cross-discipline synthesis; no common operational experiment yet."
+        }
+      ],
+      "fieldNote": "research/field-note-003.md"
     },
     {
       "name": "AI & computer science",
@@ -710,6 +775,35 @@
   ],
   "journal": [
     {
+      "id": "J-002",
+      "date": "21 October 2026",
+      "category": "RESEARCH REPORT · ROUND R004",
+      "title": "What chronology protection actually proves—and what it cannot yet prove",
+      "intro": "A rigorous quantum-field theorem can show that a mathematical description breaks down at specified horizon points without establishing what complete quantum gravity will do.",
+      "sections": [
+        {
+          "heading": "Hawking's bounded-region scenario",
+          "text": "Hawking's local construction analysis concerns compactly generated Cauchy horizons, geometric energy conditions and semiclassical vacuum polarization. The backreaction conclusion remains a conditional physical conjecture; it does not eliminate every imaginable closed timelike path."
+        },
+        {
+          "heading": "The precise Kay–Radzikowski–Wald result",
+          "text": "For a linear field on a spacetime with a compactly generated horizon, specified base points obstruct the usual F-local field algebra and regular Hadamard two-point extension. Even where stress looks bounded before the horizon, the limiting quantum field description can become ill-defined at those base points."
+        },
+        {
+          "heading": "Visser's reliability objection",
+          "text": "Visser argues semiclassical gravity can cease to be trustworthy because of Planck-scale metric fluctuations before a chronology horizon; a Roman-ring toy geometry also challenges reliance on universally large mean stress. Neither result creates physical time travel."
+        },
+        {
+          "heading": "Evidence verdict",
+          "text": "The experimental question remains open. This theoretical comparison does not independently detect backward travel or discriminate single-history and many-histories ontology. The site's illustrative 59/100 editorial score stays unchanged; see field-note-003, SOURCE-055–057 and audit VC-005."
+        }
+      ],
+      "sourceIds": [
+        "WL-003",
+        "WL-007"
+      ]
+    },
+    {
       "id": "J-001",
       "date": "21 October 2026",
       "category": "EDITOR'S NOTE · 01",
@@ -755,8 +849,8 @@
     {
       "id": "P3",
       "title": "Read, annotate and critically compare primary works",
-      "state": "planned",
-      "deliverable": "Section-cited notes describing assumptions, derivations, experiments, limitations and opposing results.",
+      "state": "in progress",
+      "deliverable": "Targeted source-level readings are underway with specific pages and counterarguments; 5 works partial, 0 completed full-study reviews.",
       "gate": "High-priority works are examined at source level; no abstract is counted as a full reading."
     },
     {

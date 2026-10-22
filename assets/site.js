@@ -120,6 +120,15 @@ function renderLabDetail(){
  const works=plannedWorks(d),done=works.filter(x=>x.access==='fully-studied').length;
  const summaries=works.filter(x=>x.access==='abstract-reviewed').length;
  detail.innerHTML='<a class="lab-back" href="#disciplines">← All research laboratories</a><div class="lab-hero"><div><span class="kicker">THE WORLDLINE READING PROGRAM / '+html(d.symbol)+'</span><h2>'+html(d.name)+'</h2><p>'+html(d.goal||d.work)+'</p><p class="lab-question">Research question: '+html(d.question||d.theme)+'</p></div><div class="lab-stats"><strong>'+works.length+'</strong><span>WORKS IN CURRENT SYLLABUS</span><strong>'+done+' / '+works.length+'</strong><span>COMPLETE FULL-TEXT STUDIES</span><span class="lab-summary-count">'+summaries+' abstract or overview checks</span></div></div><div class="lab-guidance">The list below is the full current research queue for this lab, ordered with priority sources first. Each title links to its publisher, DOI or archived source. ✓ means a full study has documented notes; ◇ means only an abstract or summary was examined. Cross-disciplinary works may appear in more than one lab.</div><label class="lab-search-label" for="lab-source-search">Filter this reading list</label><input id="lab-source-search" class="lab-search" type="search" placeholder="Find an author, paper, source ID…" autocomplete="off"><div id="lab-source-list" class="lab-source-list"></div><div class="lab-footer"><a href="#library">Explore the full Scholar Library ↗</a><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/library.json" target="_blank" rel="noopener noreferrer">View versioned catalogue ↗</a></div>';
+ const highlights=Array.isArray(d.caseHighlights)?d.caseHighlights:[];
+ if(highlights.length){
+  const cards=highlights.map(f=>{
+   const links=(f.sourceIds||[]).map(id=>{const w=libraryIndex.works.find(v=>v.id===id);return w?'<a target="_blank" rel="noopener noreferrer" href="'+html(trustedUrl(w.url))+'">'+html(id)+' · Original source ↗</a>':''}).join(' · ');
+   return '<article class="library-note-card"><div class="micro">SOURCE-LINKED CURRENT RESEARCH · '+html((f.readingNoteIds||[]).join(', '))+'</div><h3>'+html(f.title)+'</h3><p>'+html(f.summary)+'</p><p class="caption">Scope and limitation: '+html(f.limitation)+'</p><div class="library-ledger-links">'+links+'</div></article>';
+  }).join('');
+  const fieldNote=typeof d.fieldNote==='string'&&/^research\\/field-note-[0-9]+\\.md$/.test(d.fieldNote)?'<a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/'+d.fieldNote+'" target="_blank" rel="noopener noreferrer">Read detailed field note ↗</a>':'';
+  $('lab-source-list').insertAdjacentHTML('beforebegin','<section class="lab-research-updates"><div class="kicker">RESEARCH FINDINGS · VERIFIED SCOPE</div><h3>What the current source review establishes</h3><p class="caption">These are section-level or abstract reviews; none is a completed full-text study or direct evidence of multiple timelines.</p>'+cards+fieldNote+'</section>');
+ }
  const list=$('lab-source-list'),search=$('lab-source-search');
  function draw(){
   const q=search.value.trim().toLowerCase();
