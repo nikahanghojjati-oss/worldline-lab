@@ -46,3 +46,6 @@ Whenever any substantial research, library, laboratory, homepage, atlas or metho
 - Keep `SESSION_START.md` short and keep original evidence in linked source files.
 
 Default is to continue the same coherent research session. Recommend a handoff only when a meaningful stage has ended and the saved packet can resume it, or when serious continuity loss is explicitly reported. No short timer or made-up context percentage.
+
+## Mandatory per-round closing gate (all future chats and workers)
+Before marking **any** research, website, validation or documentation work round complete, comply with the detailed end-of-round contract in `PROJECT_RULES.md`. Update `data/sessions.json` even if the scientific verdict has **not** changed. Refresh all seven workstream summaries for accuracy, the complete handoff/transition assessment and its explicit continue-or-transition recommendation, the latest verified action, unresolved limits and exact next action. Append a source-linked `roundLog` checkpoint with changed and unchanged sections. Update scientific notes and audit records when relevant. Never mark an unsaved browser state or an uncommitted repository update as a completed checkpoint. If saving fails, say so unambiguously. Follow the standing 75% scientific research / 25% roadmap website allocation across meaningful cycles; do not invent actual time measurements.
