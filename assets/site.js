@@ -126,7 +126,7 @@ function renderLabDetail(){
    const links=(f.sourceIds||[]).map(id=>{const w=libraryIndex.works.find(v=>v.id===id);return w?'<a target="_blank" rel="noopener noreferrer" href="'+html(trustedUrl(w.url))+'">'+html(id)+' · Original source ↗</a>':''}).join(' · ');
    return '<article class="library-note-card"><div class="micro">SOURCE-LINKED CURRENT RESEARCH · '+html((f.readingNoteIds||[]).join(', '))+'</div><h3>'+html(f.title)+'</h3><p>'+html(f.summary)+'</p><p class="caption">Scope and limitation: '+html(f.limitation)+'</p><div class="library-ledger-links">'+links+'</div></article>';
   }).join('');
-  const fieldNote=typeof d.fieldNote==='string'&&/^research\\/field-note-[0-9]+\\.md$/.test(d.fieldNote)?'<a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/'+d.fieldNote+'" target="_blank" rel="noopener noreferrer">Read detailed field note ↗</a>':'';
+  const fieldNote=typeof d.fieldNote==='string'&&d.fieldNote.startsWith('research/field-note-')&&d.fieldNote.endsWith('.md')?'<a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/'+d.fieldNote+'" target="_blank" rel="noopener noreferrer">Read detailed field note ↗</a>':'';
   $('lab-source-list').insertAdjacentHTML('beforebegin','<section class="lab-research-updates"><div class="kicker">RESEARCH FINDINGS · VERIFIED SCOPE</div><h3>What the current source review establishes</h3><p class="caption">These are section-level or abstract reviews; none is a completed full-text study or direct evidence of multiple timelines.</p>'+cards+fieldNote+'</section>');
  }
  const list=$('lab-source-list'),search=$('lab-source-search');
