@@ -1684,6 +1684,73 @@
       "verdictEffect": "model-specific physical finding; central ontology no-change",
       "effectReason": "Operational macrorealism under a convex-mixture/clumsiness bound is challenged at a measured scale; Everett and equilibrium Bohm both predict coherent qubit statistics and this does NOT count real histories.",
       "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-078",
+      "field": "Quantum foundations",
+      "title": "A strong no-go theorem on the Wigner's friend paradox",
+      "authors": [
+        "Kok-Wei Bong",
+        "Aníbal Utreras-Alarcón",
+        "Farzad Ghafari",
+        "Yeong-Cherng Liang",
+        "Nora Tischler",
+        "Eric G. Cavalcanti",
+        "Geoff J. Pryde",
+        "Howard M. Wiseman"
+      ],
+      "year": 2020,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/s41567-020-0990-x",
+      "role": "Primary Local Friendliness theorem: conditional contradiction with absoluteness of observed events, locality and no-superdeterminism under observer-scale control; photonic proof-of-principle",
+      "access": "partially-studied",
+      "note": "Publisher abstract, theorem scope, source-data/code availability and primary reference trail inspected 2026-10-22; full mathematics/source data were not re-derived and entire original main text not read.",
+      "linkedLedger": [
+        "WL-022"
+      ],
+      "verdictEffect": "Assumption conditional, zero central history ontology score",
+      "effectReason": "LF violations exclude a conjunction of assumptions, not uniquely one-world physics; LF is distinct from CHSH and the photon's path is not a human friend.",
+      "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-079",
+      "field": "Quantum foundations",
+      "title": "Questioning the absoluteness of free choices when internalized in Wigner's friend scenarios",
+      "authors": [
+        "Laurens Walleghem"
+      ],
+      "year": 2026,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/hf5j-t83v",
+      "role": "September 2026 original extension of Wigner-friend premise analysis to internalized free choice and PBR-inspired assumptions",
+      "access": "partially-studied",
+      "note": "APS publication header, abstract, introductory definition of AOE/local agency and key theorem/setup summary examined 2026-10-22; no claim to have read entire mathematics and supplemental material.",
+      "linkedLedger": [
+        "WL-022"
+      ],
+      "verdictEffect": "Caution on assumption-level interpretation, no ontology direction",
+      "effectReason": "Alternative conditional constraints on free interventions do not distinguish general Everett ontology from every one-history completion.",
+      "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-080",
+      "field": "Quantum foundations",
+      "title": "Reassessing the Strength of a Class of Wigner's Friend No-Go Theorems",
+      "authors": [
+        "Elias Okon"
+      ],
+      "year": 2025,
+      "type": "paper",
+      "url": "https://doi.org/10.3390/e27060563",
+      "role": "Independent critical counterargument questioning the strength/applicability of extended Wigner-friend no-go assumptions",
+      "access": "abstract-reviewed",
+      "note": "Verified publisher/archival bibliographic identity, abstract and limited excerpt 2026-10-22, but NOT the 13-page complete original analysis or its objections in full.",
+      "linkedLedger": [
+        "WL-022"
+      ],
+      "verdictEffect": "Counterargument registered, no central score movement",
+      "effectReason": "Critical conclusion from Okon is a scholarly position, not a mathematically established blanket refutation without analyzing each objection.",
+      "verifiedAt": "2026-10-22"
     }
   ],
   "scholars": [
