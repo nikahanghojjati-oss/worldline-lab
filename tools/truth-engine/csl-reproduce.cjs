@@ -15,9 +15,9 @@ function gammaCdf(a,x){
 }
 function gammaQuantile(a,p){if(p<=0||p>=1)throw Error('p not in (0,1)');let lo=0,hi=Math.max(2*a,a+20*Math.sqrt(a));for(let i=0;i<110;i++){const mid=(lo+hi)/2;if(gammaCdf(a,mid)<p)lo=mid;else hi=mid;}return (lo+hi)/2;}
 function germanium({observed=576,background=506,k=2.0986,r=1e-7,p=.95,conditionOnPositive=false}={}){
- const priorMassBelowBackground=gammaCdf(observed+1,background+1);
+ const priorMassBelowBackground=gammaCdf(observed+1,background+2); // paper Eq.11: Lambda_b=z_b+1 AND Lambda_s=z_s+1
  const pp=conditionOnPositive?priorMassBelowBackground+(1-priorMassBelowBackground)*p:p;
- const totalUpper=gammaQuantile(observed+1,pp),signalUpper=totalUpper-(background+1);
+ const totalUpper=gammaQuantile(observed+1,pp),signalUpper=totalUpper-(background+2);
  return {r,p,observed,background,signalCoefficient:k,totalUpper,signalUpper,lambdaUpper:signalUpper*r*r/k,posteriorBelowBackground:priorMassBelowBackground,conditionOnPositive};
 }
 function lisa({r=1e-7,noisePSD=.075e-30,rho=19881,mass=1.928,side=.046}={}){
