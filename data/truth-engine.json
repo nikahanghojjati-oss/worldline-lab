@@ -4,11 +4,13 @@
   "releaseStatus": "candidate-structure-only",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
-    "score": 59,
-    "reviewAuditId": "VC-009",
+    "score": 50,
+    "reviewAuditId": "VC-010",
     "reviewedEvidenceCommit": "959e3df0b0031201742cd1019ad6a15db514d18d",
-    "summary": "Everett main-text critical reading advances bibliography, not direct observation of physically actual multiple histories.",
-    "scientificVerdict": "unresolved"
+    "summary": "Methodological neutral anchor reset from unsupported borrowed 59 to 50; -9 is NOT experimental one-history evidence. Published claim-specific XENONnT model bound recorded in WL-011/MOVE-001; central ontology unresolved.",
+    "scientificVerdict": "unresolved",
+    "calibration": "editorial neutral anchor, never 50% scientific odds",
+    "historicalScore": 59
   },
   "proposalRules": {
     "claimClasses": [
@@ -42,7 +44,7 @@
   "changeLedger": [],
   "historicAudits": {
     "authority": "data/library.json verdictAudit.changeLog",
-    "latestId": "VC-009",
+    "latestId": "VC-010",
     "rule": "Past no-change VC records remain immutable; this array records future scored revisions only. A future revision must reference the previous audit and evidence-bearing repository commit."
   }
 }
