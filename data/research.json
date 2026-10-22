@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "S-002-R006: 10 critical original main-text studies and model-specific claim movements, not central ontology score manipulation",
+  "phase": "S-002-R008 experimental collapse-model parameter reconciliation and independently reproducible Ge Bayesian + LISA force-noise numeric limits",
   "milestones": [
     {
       "id": "M1",
@@ -142,6 +142,24 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "S-002-R008 quantitative CSL replication, common rC reference",
+          "summary": "Ge count-level Gamma 95% posterior λ<5.1973e-13/s independently computed (source 5.2e-13); LISA 2024 acceleration PSD Eq10 λ<8.364e-11/s (source 8.3e-11), both at rC 1e-7m. XENON published 90%-CL model ratio converts to λ<3e-17 but full nuisance likelihood not reproduced; molecule and rotational numeric curves not invented.",
+          "sourceIds": [
+            "SRC-069",
+            "SRC-067",
+            "SRC-066",
+            "SRC-048",
+            "SRC-068"
+          ],
+          "readingNoteIds": [
+            "NOTE-063",
+            "NOTE-064",
+            "NOTE-056",
+            "NOTE-054"
+          ],
+          "limitation": "Independent summary-input math not independent experimental data; exact Ge double pseudocount, Bayesian vs frequentist vs conservative PSD, opposite rc scaling and correlated LISA data are essential. Physical history ontology unresolved; neutral editorial 50."
+        },
         {
           "title": "Ten original main-paper tests and adversarial checks · R006",
           "summary": "Fein molecular interference; Donadi 124kg-day germanium X-rays; shared-LISA force/torque reanalyses; colored CSL, inflation operator, classical-gravity entanglement and Wigner-friend conditional counterarguments. New MOVE-002–007 model-specific constraints; central histories score neutral 50.",
@@ -490,6 +508,24 @@
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "S-002-R008 quantitative CSL replication, common rC reference",
+          "summary": "Ge count-level Gamma 95% posterior λ<5.1973e-13/s independently computed (source 5.2e-13); LISA 2024 acceleration PSD Eq10 λ<8.364e-11/s (source 8.3e-11), both at rC 1e-7m. XENON published 90%-CL model ratio converts to λ<3e-17 but full nuisance likelihood not reproduced; molecule and rotational numeric curves not invented.",
+          "sourceIds": [
+            "SRC-069",
+            "SRC-067",
+            "SRC-066",
+            "SRC-048",
+            "SRC-068"
+          ],
+          "readingNoteIds": [
+            "NOTE-063",
+            "NOTE-064",
+            "NOTE-056",
+            "NOTE-054"
+          ],
+          "limitation": "Independent summary-input math not independent experimental data; exact Ge double pseudocount, Bayesian vs frequentist vs conservative PSD, opposite rc scaling and correlated LISA data are essential. Physical history ontology unresolved; neutral editorial 50."
+        },
         {
           "title": "Ten original main-paper tests and adversarial checks · R006",
           "summary": "Fein molecular interference; Donadi 124kg-day germanium X-rays; shared-LISA force/torque reanalyses; colored CSL, inflation operator, classical-gravity entanglement and Wigner-friend conditional counterarguments. New MOVE-002–007 model-specific constraints; central histories score neutral 50.",
@@ -859,6 +895,24 @@
       },
       "caseHighlights": [
         {
+          "title": "S-002-R008 quantitative CSL replication, common rC reference",
+          "summary": "Ge count-level Gamma 95% posterior λ<5.1973e-13/s independently computed (source 5.2e-13); LISA 2024 acceleration PSD Eq10 λ<8.364e-11/s (source 8.3e-11), both at rC 1e-7m. XENON published 90%-CL model ratio converts to λ<3e-17 but full nuisance likelihood not reproduced; molecule and rotational numeric curves not invented.",
+          "sourceIds": [
+            "SRC-069",
+            "SRC-067",
+            "SRC-066",
+            "SRC-048",
+            "SRC-068"
+          ],
+          "readingNoteIds": [
+            "NOTE-063",
+            "NOTE-064",
+            "NOTE-056",
+            "NOTE-054"
+          ],
+          "limitation": "Independent summary-input math not independent experimental data; exact Ge double pseudocount, Bayesian vs frequentist vs conservative PSD, opposite rc scaling and correlated LISA data are essential. Physical history ontology unresolved; neutral editorial 50."
+        },
+        {
           "title": "Ten original main-paper tests and adversarial checks · R006",
           "summary": "Fein molecular interference; Donadi 124kg-day germanium X-rays; shared-LISA force/torque reanalyses; colored CSL, inflation operator, classical-gravity entanglement and Wigner-friend conditional counterarguments. New MOVE-002–007 model-specific constraints; central histories score neutral 50.",
           "sourceIds": [
@@ -1206,6 +1260,35 @@
     }
   ],
   "journal": [
+    {
+      "id": "J-009",
+      "date": "21 October 2026",
+      "category": "REPRODUCIBLE QUANTITATIVE PHYSICS · S-002-R008",
+      "title": "Independently reconstructing experimental collapse-model bounds",
+      "intro": "Two previously reported CSL parameter limits are now directly computed in Worldline Lab from original paper formulas and published aggregate data, with full source-statistic distinctions and an explicit correction of a one-count inference offset.",
+      "sections": [
+        {
+          "heading": "Germanium: an independently evaluated Bayesian 95% bound",
+          "text": "For 576 detected photons, 506 simulated background counts, signal coefficient 2.0986, and the source-defined +1 for BOTH signal and background components, the 95th Gamma(577,1) total-mean quantile is 617.071. Subtracting 508 and converting at rC=1e-7 m gives lambda upper 5.1973e-13/s, reproducing the printed 5.2e-13. This conditions on the background/efficiency model; it is not a raw detector reanalysis."
+        },
+        {
+          "heading": "LISA: SI acceleration-noise reconstruction and independent geometry",
+          "text": "For 1.928kg, cube width 46mm, density 19,881kg/m3 and the paper's February 2017 Brownian PSD uncertainty 0.075 fm²s^-4/Hz, Eq10 yields lambda upper 8.364e-11/s, agreeing with the source 8.3e-11. The asymptotic translational upper curve scales inversely with rC², opposite to the X-ray curves. This is not a 90% or 95% bound."
+        },
+        {
+          "heading": "Different instruments, no forced joint likelihood",
+          "text": "XENON's published 90% white-noise CSL bound converts to lambda<3e-17/s at rC=1e-7m, but its original full 9.1sigma nuisance-background likelihood was not rerun; the molecule-fringe and LISA-torque curves remain source-reported but not independently calculated. Don't combine these confidence rules as if independent equal-probability measurements. Ledger MOVE-008 records increased computational trust, not new physical branch observations."
+        }
+      ],
+      "sourceIds": [
+        "WL-018",
+        "WL-013",
+        "WL-014",
+        "WL-011",
+        "WL-012"
+      ],
+      "fullReport": "research/csl-bound-reconstruction-S002-R008.md"
+    },
     {
       "id": "J-008",
       "date": "21 October 2026",
@@ -1846,7 +1929,7 @@
     "progressCaveat": "Original prospective effort-point allocations are not measured time. Ten new full critical studies and source-independent analysis cannot be automatically translated into 10 points; do not subtract fictitious time or claim 75% measured exactness. Scientific priority adhered across R006-R007."
   },
   "answerProgram": {
-    "version": "S-002-R006",
+    "version": "S-002-R008",
     "date": "2026-10-21",
     "centralQuestion": "Our physical universe: one realized outcome history or multiple physically actual Everett-relative histories?",
     "currentEmpiricalAnswer": "Unresolved; standard Everett and quantum-equilibrium Bohm are observationally equivalent under matched measurement assumptions.",
@@ -1854,7 +1937,7 @@
     "meaning": "Neutral display anchor; not a calibrated prior/posterior or odds",
     "scoreHistory": "VC-010 repairs unsupported historical 59→50. Scientific evidence impact 0; historic 59 preserved.",
     "progressKind": "claim-level experiments constraining real dynamics independently from unresolved ontology",
-    "lastScientificMovement": "MOVE-007",
+    "lastScientificMovement": "MOVE-008",
     "linkedSources": [
       "SRC-007",
       "SRC-010",
@@ -1862,10 +1945,67 @@
       "SRC-066"
     ],
     "nextCriticalTests": [
-      "Reconstruct common CSL parameter graph with experimentally independent vs reused LISA data and separate noise assumptions",
-      "Reproduce one published likelihood/credible contour where input data accessible",
-      "Derive a paired actual-history hypothesis experiment or explicit equal-Born probability limitation"
+      "Acquire original XENON Supplemental Material with exact signal efficiency/background and see whether raw detector data are accessible for a 9.1 sigma profile likelihood recreation",
+      "Derive complete rotational LISA torque geometry from published Appendix and actual noise PSD with real frequency dependence",
+      "Reconstruct Fein molecular interferometer CSL visibility response with raw fringe/velocity data or declare justified source-only limitation",
+      "Demonstrate exact Everett vs quantum-equilibrium Bohm same Born distribution as an operational identifiability result"
     ],
     "scoringPolicy": "A new model parameter constraint always changes relevant scientific claim state if verified; a central 0–100 directional score needs physically discriminating evidence between one-real-history and multiple-real-history models, plus a justified reproducible map from likelihood to score. Do not move on interpretive preference or catalogue counts."
+  },
+  "scientificReproductions": {
+    "version": "S-002-R008",
+    "date": "2026-10-21",
+    "program": "White-noise mass-proportional CSL and alternate observable comparisons",
+    "reproducedPrimarySourceLimits": [
+      {
+        "workId": "SRC-069",
+        "observable": "Ge 1000–3800 keV, zc576 zb506 a2.0986",
+        "method": "Gamma(shape577) 95th inverse CDF plus BOTH source pseudocounts, fixed response",
+        "computedLimit": 5.197323624630836e-13,
+        "reported": 5.2e-13,
+        "unit": "s^-1",
+        "confidence": "95% Bayesian credible, not frequentist",
+        "rawEventReplication": false,
+        "sourceNote": "NOTE-063"
+      },
+      {
+        "workId": "SRC-067",
+        "observable": "LISA 2017 acceleration Brownian PSD uncertainty 7.5e-32 SI",
+        "method": "Eq10 low-frequency geometry formula with reference cube M1.928kg b0.046m rho19881kg/m³",
+        "computedLimit": 8.364174044519352e-11,
+        "reported": 8.3e-11,
+        "unit": "s^-1",
+        "confidence": "Conservative fit PSD uncertainty, no nominal CL",
+        "rawEventReplication": false,
+        "sourceNote": "NOTE-064"
+      }
+    ],
+    "conditionalSourceOnly": [
+      {
+        "workId": "SRC-066",
+        "observable": "XENON 1–140 keV recoil",
+        "referenceBound": 3e-17,
+        "confidence": "90% CL publisher fit, conversion only, not reproduced likelihood"
+      },
+      {
+        "workId": "SRC-048",
+        "observable": ">25 kDa molecules",
+        "referenceBound": null,
+        "reason": "No numeric curve reconstructed without fringe likelihood and spatial kernel"
+      },
+      {
+        "workId": "SRC-068",
+        "observable": "LISA rotational torque",
+        "referenceBound": null,
+        "reason": "No full torque kernel digitization/reconstruction, shared mission noise"
+      }
+    ],
+    "matchedReferenceRC": 1e-7,
+    "comparisonData": "data/csl-exclusion-comparison.json",
+    "script": "tools/truth-engine/csl-reproduce.cjs",
+    "researchReport": "research/csl-bound-reconstruction-S002-R008.md",
+    "publicationProtocol": "Authoritative published summary numbers reused with exact paper prior, noise and geometry. No raw detector data or statistical joint meta-analysis.",
+    "ledgerMovement": "MOVE-008",
+    "scoreImpact": 0
   }
 }
