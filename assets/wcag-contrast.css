@@ -52,3 +52,10 @@ body .page.active .session-chip.navy{color:#29475f!important}
 /* Last two measured residual contrasts: 1.01:1 status chip and 4.23:1 lab link. */
 body .page.active #sc-state{color:#214955!important}
 body .page.active .future-experiments > a[href$="#library"]{color:#205468!important}
+
+/* Expanded v0.25 9×3 axe audit: presentation slides' small metadata on light
+   surfaces previously missed by the three-lab reading/instrument sample.
+   Measured baseline: .slide-number 2.87:1, .slide-inquiry p 4.37:1;
+   both require at least 4.5:1 at their existing font sizes. */
+.page.active .room-slide .slide-number{color:#315d67 !important}
+.page.active .room-slide .slide-inquiry p{color:#385b66 !important}
