@@ -5,7 +5,7 @@
     "score": 59,
     "reference": 50,
     "label": "Exploratory orientation",
-    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search. R006: Ten complete main-text critical source studies (read-through with assumptions and objections, not complete experimental replication) add research coverage and reproducible limited math checks, but no observation that discriminates realized Everett branch count. Audit VC-007 explicitly retains 59→59. S-002-R001/VC-008: three whole-original-main-text critical source studies, an explicit falsifiable Everett/Bohm/GRW/CSL model-equivalence matrix, XENONnT 2026 model-parameter constraints; 59→59 editorial no-change.",
+    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search. R006: Ten complete main-text critical source studies (read-through with assumptions and objections, not complete experimental replication) add research coverage and reproducible limited math checks, but no observation that discriminates realized Everett branch count. Audit VC-007 explicitly retains 59→59. S-002-R001/VC-008: three whole-original-main-text critical source studies, an explicit falsifiable Everett/Bohm/GRW/CSL model-equivalence matrix, XENONnT 2026 model-parameter constraints; 59→59 editorial no-change. S-002-R003/VC-009: entire main text of Everett 1957 critically read via retypeset copy (text-fidelity limitation); modified GRW source remains abstract-only; no empirical ontology discrimination. Score unchanged 59.",
     "empiricalVerdict": "Unresolved. Single-outcome equilibrium Bohmian models and many relative Everett branches share standard Born laboratory predictions, while specific objective-collapse dynamics are experimentally constrained but not a direct count of real quantum histories."
   },
   "entries": [
@@ -133,7 +133,7 @@
       "lat": null,
       "long": null,
       "locationType": "Reference work",
-      "notes": "See SRC-007/010/011/012/042/048/058–061; NOTE-026–030; field-note-004. The central test requires differing physical predictions, not a vote from Bell tests. S-002-R001: explicitly compared Bohm-Everett Born equivalence and objective-collapse parametric prediction limits; VC-008 remains editorial 59→59.",
+      "notes": "See SRC-007/010/011/012/042/048/058–061; NOTE-026–030; field-note-004. The central test requires differing physical predictions, not a vote from Bell tests. S-002-R001: explicitly compared Bohm-Everett Born equivalence and objective-collapse parametric prediction limits; VC-008 remains editorial 59→59. S-002-R003: Everett original §5 note in proof explicitly assumes all branches are actual within the mathematical account; its additive positive measure is not independent experimental proof of history plurality. VC-009 editorial 59→59.",
       "lastResearchReview": "2026-10-21",
       "reviewRefs": [
         "SRC-010",
@@ -143,7 +143,10 @@
         "NOTE-043",
         "NOTE-044",
         "NOTE-045",
-        "research/ontology-predictions-S002-R001.md"
+        "research/ontology-predictions-S002-R001.md",
+        "SRC-007",
+        "NOTE-050",
+        "research/everett-1957-source-study-S002-R003.md"
       ]
     },
     {
@@ -210,7 +213,7 @@
       "lat": null,
       "long": null,
       "locationType": "Synthesis, no unique location",
-      "notes": "SRC-007/010/011/012/042/048/058–061; NOTE-026–030 and field-note-004. Bell tests are not proof of branching. R006 full-source batch in research/full-study-batch-001.md, NOTE-033–042, SRC-008/012/020/044/045/047/064 and complementary SRC-002/003/062; 10 completed literature reviews, not proof of branch ontology. S-002-R001: explicitly compared Bohm-Everett Born equivalence and objective-collapse parametric prediction limits; VC-008 remains editorial 59→59.",
+      "notes": "SRC-007/010/011/012/042/048/058–061; NOTE-026–030 and field-note-004. Bell tests are not proof of branching. R006 full-source batch in research/full-study-batch-001.md, NOTE-033–042, SRC-008/012/020/044/045/047/064 and complementary SRC-002/003/062; 10 completed literature reviews, not proof of branch ontology. S-002-R001: explicitly compared Bohm-Everett Born equivalence and objective-collapse parametric prediction limits; VC-008 remains editorial 59→59. S-002-R003: Everett original §5 note in proof explicitly assumes all branches are actual within the mathematical account; its additive positive measure is not independent experimental proof of history plurality. VC-009 editorial 59→59.",
       "lastResearchReview": "2026-10-21",
       "reviewRefs": [
         "SRC-010",
@@ -220,7 +223,10 @@
         "NOTE-043",
         "NOTE-044",
         "NOTE-045",
-        "research/ontology-predictions-S002-R001.md"
+        "research/ontology-predictions-S002-R001.md",
+        "SRC-007",
+        "NOTE-050",
+        "research/everett-1957-source-study-S002-R003.md"
       ]
     },
     {
@@ -261,7 +267,7 @@
       "lat": null,
       "long": null,
       "locationType": "Theoretical / experimental-method comparison",
-      "notes": "research/ontology-predictions-S002-R001.md; research/full-study-batch-002.md. Original Bohm I/II and Hensen second Bell main texts critically studied; Everett original publisher abstract only. Second Hensen run complete p=.061; pooled p=.017 or .0080 under different methods. 2×2 matrix educational.",
+      "notes": "research/ontology-predictions-S002-R001.md; research/full-study-batch-002.md. Original Bohm I/II and Hensen second Bell main texts critically studied; Everett original publisher abstract only. Second Hensen run complete p=.061; pooled p=.017 or .0080 under different methods. 2×2 matrix educational. S-002-R003: Everett original §5 note in proof explicitly assumes all branches are actual within the mathematical account; its additive positive measure is not independent experimental proof of history plurality. VC-009 editorial 59→59.",
       "lastResearchReview": "2026-10-21",
       "reviewRefs": [
         "SRC-007",
@@ -272,7 +278,9 @@
         "NOTE-044",
         "NOTE-045",
         "NOTE-046",
-        "research/ontology-predictions-S002-R001.md"
+        "research/ontology-predictions-S002-R001.md",
+        "NOTE-050",
+        "research/everett-1957-source-study-S002-R003.md"
       ]
     },
     {
