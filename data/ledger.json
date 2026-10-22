@@ -5,7 +5,7 @@
     "score": 59,
     "reference": 50,
     "label": "Exploratory orientation",
-    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search.",
+    "method": "59/100 remains inherited editorial orientation, not a scientific probability. Core question reoriented to physical multiplicity of outcome histories; audit VC-006 does not find experimental branch-count discrimination in Everett/Bohm/GRW/Bell/decoherence or the separate cosmological bubble search. R006: Ten complete main-text critical source studies (read-through with assumptions and objections, not complete experimental replication) add research coverage and reproducible limited math checks, but no observation that discriminates realized Everett branch count. Audit VC-007 explicitly retains 59→59.",
     "empiricalVerdict": "Unresolved: observers record one sequence, but that does not experimentally determine how many alternative quantum histories are physically real."
   },
   "entries": [
@@ -199,7 +199,7 @@
       "lat": null,
       "long": null,
       "locationType": "Synthesis, no unique location",
-      "notes": "SRC-007/010/011/012/042/048/058–061; NOTE-026–030 and field-note-004. Bell tests are not proof of branching."
+      "notes": "SRC-007/010/011/012/042/048/058–061; NOTE-026–030 and field-note-004. Bell tests are not proof of branching. R006 full-source batch in research/full-study-batch-001.md, NOTE-033–042, SRC-008/012/020/044/045/047/064 and complementary SRC-002/003/062; 10 completed literature reviews, not proof of branch ontology."
     },
     {
       "id": "WL-009",
