@@ -1431,13 +1431,13 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/2jm3-4976",
       "role": "1–140 keV X-rays constrain specific Markovian CSL and Diósi–Penrose dynamics",
-      "access": "abstract-reviewed",
-      "note": "Original publisher abstract and targeted introduction/model passage only, NOTE-047; NOT full main text or reproduced likelihood.",
+      "access": "fully-studied",
+      "note": "S-002-R005 critically reviewed all published seven-page primary XENONnT 2026 PRL main article pp120201-1–7, results, assumptions, Fig1/2, statistics, background and conclusions, NOTE-052 and research/score-origin-and-testable-results-S002-R005.md. The separately cited theoretical Supplemental Material, original detector events and exact confidence-likelihood code are NOT independently reproduced.",
       "linkedLedger": [
         "WL-011"
       ],
       "verdictEffect": "none",
-      "effectReason": "Prediction/parameter evidence does not directly determine physically real branch count.",
+      "effectReason": "Meaningful published exclusion of a benchmark Markovian CSL parameter pair, but not a direct Everett-vs-Bohm actual-history discriminator.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -2595,9 +2595,9 @@
     }
   ],
   "verdictAudit": {
-    "currentScore": 59,
-    "empiricalConclusion": "Unresolved: equilibrium Bohmian single-configuration and Everett unitary branch models can reproduce the same quantum results; objective-collapse parameter exclusions do not count histories.",
-    "initialScoreExplanation": "59 is a preexisting editorial illustration, not a scientifically validated Bayesian posterior. No newly indexed work warrants an adjustment.",
+    "currentScore": 50,
+    "empiricalConclusion": "Unresolved count of actually real histories. Benchmark Markovian CSL physical-collapse parameters have been experimentally constrained and some excluded; that is a concrete model-specific conclusion. Everett and Bohm quantum equilibrium still share ordinary tested Born statistics. Neutral 50 is an uncalibrated display anchor, never odds.",
+    "initialScoreExplanation": "Historical 59 was an unsupported +9 editorial preference inherited from pre-project discussion. VC-010 on 2026-10-21 resets to neutral editorial 50 as a methodology correction, NOT experimental support for one history nor 50% probability. Earlier 59 events remain preserved.",
     "changeLog": [
       {
         "id": "VC-001",
@@ -2874,6 +2874,36 @@
         ],
         "fieldNote": "research/everett-1957-source-study-S002-R003.md",
         "justification": "Everett 1957 explicitly treats branch terms as actual within universal unitary theory and derives a positive additive squared-amplitude measure for typical memory records. This defines a model and conceptual justification, not physical direct observation of branch multiplicity; equilibrium Bohm predicts the same Born records with one actual configuration. GRW 1986 targeted record was not full study. New source coverage and release plan do not support empirical score change; legacy 59 is editorial, not probability."
+      },
+      {
+        "id": "VC-010",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 50,
+        "delta": -9,
+        "status": "methodology-reset",
+        "changeType": "repair-unsupported-editorial-starting-assumption",
+        "empiricalImpact": 0,
+        "trigger": "User question about unearned +9 from neutral 50 and serial frozen meter, plus source-critical exact model-specific XENONnT test.",
+        "sourceIds": [
+          "SRC-007",
+          "SRC-010",
+          "SRC-059",
+          "SRC-042",
+          "SRC-066"
+        ],
+        "ledgerIds": [
+          "WL-005",
+          "WL-008",
+          "WL-010",
+          "WL-011"
+        ],
+        "readingNotes": [
+          "NOTE-050",
+          "NOTE-052"
+        ],
+        "fieldNote": "research/score-origin-and-testable-results-S002-R005.md",
+        "justification": "Original 59 was explicitly inherited as editorial and lacks a reproducible nine-point many-real-histories calculation, especially after the primary question changed. Remove unsupported +9 and present neutral 50 for display only, NOT 50% prior odds or 9-point evidence favoring one. Separately, full original 2026 XENONnT source review quantifies meaningful Markovian CSL parameter exclusions but does not differentiate Everett's physically many actual branches from equilibrium Bohm's one actual configuration. Historical nine no-change VC records preserved."
       }
     ],
     "revisionRequirements": [
