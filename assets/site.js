@@ -3,7 +3,7 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const allowed=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'];
-let ledger=null,research=null,sessions=null,libraryIndex=null,filter='All';
+let ledger=null,research=null,sessions=null,libraryIndex=null,comparison=null,filter='All';
 const html=s=>String(s==null?'':s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const trustedUrl=u=>typeof u==='string'&&/^https:\/\//.test(u)?u:'#ledger';
 function navigate(){
@@ -70,6 +70,21 @@ function renderVerdictAudit(){
  }).join(' · ');
  return '<article><div class="micro">'+html(log.date)+' · '+html(log.id)+' · '+(log.status==='methodology-reset'?'BASELINE REPAIR · NOT EXPERIMENTAL EVIDENCE':Number(log.delta||0)===0?'CENTRAL VERDICT UNCHANGED':'SCIENTIFIC VERDICT REVISED')+' · '+html(log.oldScore)+' → '+html(log.newScore)+'</div><p>'+html(log.trigger||'Research reassessment')+': '+html(log.justification||'No explanation recorded.')+'</p><div>'+sourceLinks+'</div></article>';
  }).join('')+'</div><p class="caption">What can move next? A review that supplies a distinguishing prediction, actual relevant measurements, uncertainty and independent comparison — documented in the versioned audit. Otherwise the meter stays put for an explicit reason.</p>';
+}
+function renderCSLComparison(){
+ const host=$('csl-exclusion-view');if(!host||!comparison||!libraryIndex)return;
+ const works=libraryIndex.works||[];
+ const rows=(comparison.channels||[]).map(c=>{
+  const paper=works.find(w=>w.id===c.workId);
+  const value=Number.isFinite(c.lambdaUpper)?Number(c.lambdaUpper).toExponential(3)+' s⁻¹':'No independently reconstructed numerical curve';
+  return '<tr><td><a href="'+html(trustedUrl(paper?.url||'#ledger'))+'" target="_blank" rel="noopener noreferrer">'+html(c.id)+' ↗</a><small>'+html(c.observable)+'</small></td><td><strong>'+html(value)+'</strong><small>'+html(c.statistic)+'</small></td><td>'+html(c.status)+'<small>'+html(c.validity)+'</small></td></tr>';
+ }).join('');
+ host.innerHTML='<div class="micro">REPRODUCIBLE EXPERIMENT · MODEL-CONDITIONAL LIMITS</div>'+
+ '<h2>Same CSL coordinates, different experimental evidence</h2>'+
+ '<p>At correlation length r<sub>C</sub> = 10⁻⁷ m, compare upper limits on the nucleon-normalized, white-noise CSL rate λ. Two numerical limits are independently reconstructed from source-published inputs; the XENON value is a published-profile-likelihood bound converted to λ. Molecule and LISA rotation response curves are not fabricated.</p>'+
+ '<div class="wl-csl-scroll" role="region" tabindex="0" aria-label="Five experiments with CSL rate bounds and statistical definitions"><table><thead><tr><th>Source experiment</th><th>Upper λ at 10⁻⁷ m</th><th>Inference method and limitations</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+ '<p class="caption">These are NOT one joint 90% probability or a score for how many histories exist: Ge uses a 95% Bayesian posterior with background model, XENON a 90% likelihood limit, LISA a conservative noise allocation, and the other source geometries remain incompletely reconstructed.</p>'+
+ '<p><a href="https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/research/csl-bound-reconstruction-S002-R008.md" target="_blank" rel="noopener noreferrer">See full derivations, numerical tests and the corrected +1 source terms ↗</a> · <a href="data/csl-exclusion-comparison.json" target="_blank" rel="noopener noreferrer">Inspect machine-readable experimental inputs ↗</a></p>';
 }
 function renderResearchExpansion(){
  const h=$('lab-program-overview');if(!h||!research||!libraryIndex)return;
@@ -196,15 +211,15 @@ function bindAtlas(){
  $('planet-outer')?.addEventListener('click',()=>setFocus('Outer solar system · future research lane','Navigation, clocks, and gravitational models may yield future research questions. Current atlas markers are conceptual and not records of observations there.','#ledger'));
 }
 async function load(){
- const targets=['data/ledger.json','data/research.json','data/sessions.json','data/library.json'];
+ const targets=['data/ledger.json','data/research.json','data/sessions.json','data/library.json','data/csl-exclusion-comparison.json'];
  try{
   const res=await Promise.all(targets.map(u=>fetch(u,{cache:'no-store'})));
   if(res.some(r=>!r.ok))throw Error('Missing source JSON');
   const data=await Promise.all(res.map(r=>r.json()));
-  [ledger,research,sessions,libraryIndex]=data;
+  [ledger,research,sessions,libraryIndex,comparison]=data;
   compass(ledger.editorialMeter.score);
   if($('hero-count'))$('hero-count').textContent=String(ledger.entries.length);
-  renderLedger();renderVerdictAudit();renderMilestones();renderDisciplines();renderJournal();renderSessions();
+  renderLedger();renderVerdictAudit();renderCSLComparison();renderMilestones();renderDisciplines();renderJournal();renderSessions();
  }catch(e){
   const message='<div class="empty">The public research files could not be loaded. Try refreshing; the source record is also available in the GitHub repository.</div>';
   for(const id of ['ledger-list','milestone-list','disciplines-list','journal-body'])if($(id))$(id).innerHTML=message;
