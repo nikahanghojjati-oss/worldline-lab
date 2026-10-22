@@ -326,6 +326,52 @@
         "WL-004"
       ],
       "fieldNote": "research/field-note-002.md"
+    },
+    {
+      "id": "NOTE-020",
+      "workId": "SRC-002",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "Independent sign check of Gödel circular timelike path",
+      "basis": "Gödel original §3 p.449 https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.21.447; hand algebra and numeric evaluation of the published metric's constant-r circle coefficient.",
+      "sectionsRead": [
+        "§3 p.449"
+      ],
+      "summary": "Setting dt=dr=dy=0 in transformed metric gives g_phi_phi=4a²sinh²r(sinh²r−1), timelike for r>asinh(1)=ln(1+sqrt(2))≈0.881373587; sign checks at r=0.5 and 1.0 agree.",
+      "method": "Symbolic factorization and numerical values: inner coefficient at r=0.5 −0.1978061734 and r=1.0 +0.5263334134.",
+      "limitations": "Local metric sign check does not validate Einstein-equation solution independently or demonstrate an observable physical CTC.",
+      "alternativeExplanations": "Real-world spacetime need not possess Gödel's global rotating cosmological geometry.",
+      "conclusion": "A partial mathematical derivation replicated, with no additional physical-history evidence.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-002"
+      ],
+      "fieldNote": "research/field-note-002.md"
+    },
+    {
+      "id": "NOTE-021",
+      "workId": "SRC-019",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "partially-studied",
+      "label": "One-bit Deutsch consistency toy computed",
+      "basis": "Deutsch original discussion of paradoxes and eqs.15-18 pp.3202-3203; maximum-entropy postulate p.3204, accessible https://gwern.net/doc/science/physics/1991-deutsch.pdf.",
+      "sectionsRead": [
+        "pp.3202-3204, especially eqs.15-18 and maximum entropy rule"
+      ],
+      "summary": "Classical deterministic NOT map lacks a Boolean fixed point. Quantum channel Phi(rho)=XrhoX fixes both I/2 and the pure plus state; max-entropy selection chooses I/2 among these.",
+      "method": "Exact matrix multiplication and eigenvalue calculation for a 2x2 X gate with I/2 and |+><+|; residual zero for both.",
+      "limitations": "Assumes a loop/self-consistency constraint rather than observing one; does not reproduce Deutsch's complete network or nonlinear effective CR dynamics.",
+      "alternativeExplanations": "Other CTC consistency models may predict inequivalent dynamics; ordinary laboratory gates cannot demonstrate physical chronology violation.",
+      "conclusion": "Conditional model statement reproduced as a toy calculation; no empirical branch detection.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-004"
+      ],
+      "fieldNote": "research/field-note-002.md"
     }
   ]
 }
