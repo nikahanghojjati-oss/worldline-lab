@@ -30,12 +30,12 @@ function apiApproval(p,receipt,pr,reviews){
 }
 async function fetchGitHubApproval(p,receipt,fetchJson){
  // fetchJson must be injected by a trusted environment; no private tokens or writes go to the client.
- const grab=fetchJson||async(url)=>{
+ const grab=fetchJson||(async(url)=>{
   const token=process.env.GITHUB_TOKEN;const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'};
   if(token)headers.Authorization='Bearer '+token;
   const response=await fetch(url,{headers});if(!response.ok)throw Error('GitHub approval HTTP '+response.status);
   return response.json();
- };
+ });
  const base='https://api.github.com/repos/'+repo+'/pulls/'+receipt.prNumber;
  return apiApproval(p,receipt,await grab(base),await grab(base+'/reviews?per_page=100'));
 }
