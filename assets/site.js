@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 const $=id=>document.getElementById(id);
-const allowed=['home','dashboard','ledger','journal','disciplines','atlas','sessions'];
+const allowed=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'];
 let ledger=null,research=null,sessions=null,filter='All';
 const html=s=>String(s==null?'':s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const trustedUrl=u=>typeof u==='string'&&/^https:\/\//.test(u)?u:'#ledger';
