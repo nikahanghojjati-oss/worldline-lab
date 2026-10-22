@@ -8,10 +8,10 @@
     "minutes": null,
     "reason": "Not exposed to the GitHub Pages website."
   },
-  "state": "ACTIVE · S-002-R005 EVIDENCE-FIRST RESEARCH MODEL VERIFIED",
-  "activeWork": "S-002-R005: investigated earliest saved historical 59, found no reproducible evidence-derived +9; with owner critique repaired neutral editorial starting point 59→50 in VC-010 (methodology ONLY, not physical evidence). Read complete published seven-page XENONnT 2026 main original, quantified 90% confidence CSL bound and published 9.1σ disfavor of GRW-associated parameter pair within white-noise Markovian CSL; created separate claim-specific scientific movement MOVE-001/WL-011 and public explanation. Central Everett-vs-quantum-equilibrium-Bohm actual histories remains unidentifiable with standard Born data.",
-  "lastVerified": "GitHub main: original 59 already present in founding data/ledger.json commit e051ffb80f241af492dc6994d5aa5bb0029293b1, explicitly called editorial and inherited; no scientific nine-point +9 derivation found. VC-010 preserves history, corrects current display to neutral 50 editorial (not physical chance). Original 2026 XENONnT main PDF text and Fig1/2 read: 1.16 t-year, 1–140 keV, CSL lambda/rC² <3.0×10^-3 s^-1m^-2 (90% CL); historic GRW pair in Markovian CSL 9.1σ away as reported, exact likelihood not independently rerun. Library 67 sources, 15/400 complete main-text studies, 52 reading notes; scientific claim movement MOVE-001 in 11-entry evidence ledger. Data and website code committed; latest deployment/integrity jobs still require final status verification.",
-  "nextStep": "S-002-R006: do not just read more papers. Reconstruct the XENONnT original Supplemental Material radiation response/likelihood and challenge environmental/detector backgrounds, determine which precisely specified one-history-vs-many-history hypotheses ever predict different measurements, produce a discriminating proposal or a rigorous equivalence obstruction, and update specific claim status with quantified evidence. Keep v0.2 source-review/commit-linked score safeguards and nine lab/site integrity checks underway; close seven-stream Observatory again.",
+  "state": "ACTIVE · S-002-R006 TEN ORIGINAL MAIN RESEARCH ARTICLES",
+  "activeWork": "S-002-R006: ten complete original published main-text critical reviews ranked by actual scientific claim discrimination, five including measured interference/ge detector and shared LISA analyses, plus colored noise, gravity witness and observer/time-irreversibility counterarguments. 74 sources, 25 full studies, 62 notes, ledger WL-012–017 and MOVE-002–007. No unique matched Everett-vs-Bohm likelihood: neutral editorial 50/100 continues (not odds).",
+  "lastVerified": "GitHub source report full-study-batch-003-ten-discriminator-candidates.md, individual source NOTE-053–062 and library 25 full/74 indexed/62 notes; all ten are complete main original article critical reviews, not independently replicated detector data or supplements. Shared LISA reanalyses distinguished. Six claim movements preserved in ledger, VC-011 50→50 unchanged.",
+  "nextStep": "S-002-R007: build v0.2 claim-review required fields and reversible versioned score audit, add CI fixtures; validate the v0.25 nine-lab reading syllabus and eight-stage source-provenance acceptance in automated local tests; verify GitHub Pages/CI and checkpoint all 7 streams. Scientific next gate: reproduce one original CSL experimental contour, distinguish shared LISA data from independent measurements.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -40,7 +40,9 @@
     "Citation/DOI syntax and dependent ID validation are NOT live URL HTTP reachability verification, independent scientific replication or desktop/mobile website accessibility QA.",
     "Original inherited 59 had no scientific +9; VC-010 59→50 is a methodological correction, not a new experiment or an inference of 50% odds.",
     "Published XENONnT main paper was read fully, but 9.1σ figure is the authors' reported profile-likelihood result. Raw trial-level data are not public; paper offers data on reasonable request; separate emission-model Supplemental Material not independently reproduced.",
-    "Everett's conventional unitary and Bohmian quantum-equilibrium predictions match for standard Born outcomes. Current research cannot promise a future date or numerical shift in central actual-history orientation without a discriminating physical model."
+    "Everett's conventional unitary and Bohmian quantum-equilibrium predictions match for standard Born outcomes. Current research cannot promise a future date or numerical shift in central actual-history orientation without a discriminating physical model.",
+    "S-002-R006 ten published main texts critically reviewed, but associated raw detector event data/likelihood, full supplements, and some numerical proof computations not independently replicated.",
+    "Main Everett versus equilibrium Bohmian quantum experiment equivalence persists; no physical histories-count experiment in these ten originals."
   ],
   "sessionHistory": [
     {
@@ -92,8 +94,8 @@
       "date": "2026-10-21",
       "label": "Predictive tests of physical history ontology",
       "objective": "Determine whether any measurement distinguishes one Bohmian actual history from multiple Everett branch histories and separately test genuinely modified collapse dynamics.",
-      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text. R003: original Everett 1957 whole-main-text critical reading; source-provenance limits; v0.2 and v0.25 remaining-work 36 science/12 website effort points plan. R004: first Truth Engine local schema CI, negative tests, provenance audit and 100-unique-researcher-ID integrity fix; no new physics source read. R005: historical arbitrary 59 identified and corrected to neutral editorial 50, original full-main-text XENONnT 2026 seven-page paper critically studied; exact model-parameter exclusion logged separately as MOVE-001 in Truth Ledger with report and public model-specific movement display.",
-      "status": "ACTIVE · R005 evidence calibration and quantitative model-specific experiment checkpoint",
+      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text. R003: original Everett 1957 whole-main-text critical reading; source-provenance limits; v0.2 and v0.25 remaining-work 36 science/12 website effort points plan. R004: first Truth Engine local schema CI, negative tests, provenance audit and 100-unique-researcher-ID integrity fix; no new physics source read. R005: historical arbitrary 59 identified and corrected to neutral editorial 50, original full-main-text XENONnT 2026 seven-page paper critically studied; exact model-parameter exclusion logged separately as MOVE-001 in Truth Ledger with report and public model-specific movement display. R006 ten original main-text discriminator candidates and six specific model-claim updates, VC-011 50 editorial neutral; scientific main answer unresolved.",
+      "status": "ACTIVE · S-002-R006 ten primary-paper milestone",
       "scope": "Original-source literature, competing quantum ontologies and physics / quantum computing / chemistry laboratory research presentation",
       "tokenCount": null,
       "elapsedMinutes": null,
@@ -113,7 +115,9 @@
           "S-002-R004: forecast original effort portfolio 36 research/12 website points; completed R20-01=4 science and W20-01=3 website estimated planning points, leaving 32 science/9 website. v0.2 not completed, existing v0.25 requires acceptance retesting.",
           "S-002-R005: historical first ledger and homepage prove preexisting 59 was editorial +9 without scientific provenance; neutral 50 methodology reset VC-010, nine older audits preserved.",
           "S-002-R005: critically read complete main XENONnT PRL 2026 with two figures, benchmark CSL 90% CL lambda/rC² <3×10^-3 and published 9.1σ historical GRW-associated parameter exclusion within specified Markovian CSL dynamics; supplementary event likelihood not reproduced.",
-          "S-002-R005: added MOVE-001 to scientificMoves, WL-011 parameter evidence update, NOTE-052 full primary main-text review; 15/400 complete critical studies, 52 notes; homepage/library/Truth Ledger shows corrected neutral baseline and separate scientific movement."
+          "S-002-R005: added MOVE-001 to scientificMoves, WL-011 parameter evidence update, NOTE-052 full primary main-text review; 15/400 complete critical studies, 52 notes; homepage/library/Truth Ledger shows corrected neutral baseline and separate scientific movement.",
+          "S-002-R006: ten original main text papers critically reviewed; full source tally 25/400, 62 notes, 74 distinct works; source-linked batch 003.",
+          "S-002-R006: model-specific ledger WL-012–017 and movements MOVE-002–007; central VC-011 50→50 with explicit physical nondiscrimination and shared LISA-data controls."
         ],
         "unresolved": [
           "Complete original Everett 1957 and GRW 1986 primary text review remains open.",
@@ -124,9 +128,10 @@
           "Complete original GRW pp470–491 and confirm original publisher Everett notation; test 0.2 validator and v0.25 nine-room browser acceptance.",
           "Finish W20-02–04 and live accessibility tests before v0.2 release claim; finish GRW and XENONnT source reviews and separately revalidate all v0.25 reading rooms.",
           "Independent XENONnT signal-model appendix, raw data and 9.1σ profile likelihood replication unavailable; avoid inferring exclusion of original discrete GRW or all collapse models.",
-          "Distinguishing Everett physical branch ontology vs Bohmian one-configuration equilibrium remains central open identifiability issue; precise test needed."
+          "Distinguishing Everett physical branch ontology vs Bohmian one-configuration equilibrium remains central open identifiability issue; precise test needed.",
+          "Separate raw detector data, likelihood and independent mathematical replication; v0.2 proposed revision human review and v0.25 browser/site testing."
         ],
-        "next": "S-002-R006: do not just read more papers. Reconstruct the XENONnT original Supplemental Material radiation response/likelihood and challenge environmental/detector backgrounds, determine which precisely specified one-history-vs-many-history hypotheses ever predict different measurements, produce a discriminating proposal or a rigorous equivalence obstruction, and update specific claim status with quantified evidence. Keep v0.2 source-review/commit-linked score safeguards and nine lab/site integrity checks underway; close seven-stream Observatory again."
+        "next": "S-002-R007: build v0.2 claim-review required fields and reversible versioned score audit, add CI fixtures; validate the v0.25 nine-lab reading syllabus and eight-stage source-provenance acceptance in automated local tests; verify GitHub Pages/CI and checkpoint all 7 streams. Scientific next gate: reproduce one original CSL experimental contour, distinguish shared LISA data from independent measurements."
       }
     }
   ],
@@ -192,15 +197,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "S-002-R005 repaired historical unearned 59 editorial preference and registered first quantitative physical-model movement from complete 2026 XENONnT main review",
+    "milestoneName": "S-002-R006 ten full main-text discriminator candidates and six real model claim advancements",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No measured GPT token/context usage or self-reported incoherence. Important scientific and website checkpoint saved but active model-differentiation source and statistical replication remain coherent ongoing work; no reason to hand off.",
-    "decisionBasis": "CONTINUE. Answered owner's question with historical commit provenance: 59 was an unjustified editorial number and corrected to neutral 50 without claiming physical 50% probability. Physical experimental finding does move model-specific ledger: XENONnT white-noise CSL benchmark parameters excluded under stated model and significance, though Everett-vs-Bohm actual histories remain observationally undetermined. One new authentic full main paper review, 15/400 total. Keep 75% science/25% presentation over meaningful cycles; next reconstruct paper's exact model/noise and identify operational discriminators. Preserve all historical audits.",
-    "updatePolicy": "After every round, refetch current authoritative state, update all seven workstreams and transition fields, count only actual full readings, keep separate per-claim experimental movement vs central ontology direction, preserve historical editorial repairs and why no change, append roundLog in same commit. No fabricated score probabilities or usage metrics.",
+    "documentedContinuityRisk": "No measured token or time metrics. Coherent phase continues with unshipped v0.2 controls and static QA of prior v0.25 reading rooms.",
+    "decisionBasis": "CONTINUE. Ten originals (Fein, Dai, Altamura, Donadi, Carlesso, Martin/Vennin, Aziz/Howl, Frauchiger/Renner, Bedingham/Maroney, te Vrugt et al.) critically reviewed, six detailed model claim changes, no measured Everett-vs-equilibrium-Bohm history distinction. Preserve 50 neutral compass, not measured odds. Proceed with truth-engine remaining features and v0.25 validation.",
+    "updatePolicy": "Every substantive science/site round: refetch current state and update 7 streams, literature depth counts, evidence movements/verdict no-change, transition fields, roundLog and next falsifiable action. Commit before claiming Observatory synchronized.",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -208,56 +213,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Current editorial orientation corrected 59→50 via VC-010 without 50% claim; original initial preference now flagged unjustified. Homepage question unchanged.",
-      "next": "50 is a neutral display anchor, not calculated odds; live mobile/browser final verification outstanding.",
+      "latest": "No home layout work R006; site remains neutral 50 and J-008 experiment-driven narrative now data-backed.",
+      "next": "v0.2 review/approval/reversal and real keyboard/mobile QA pending.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "New quantifiable WL-011/MOVE-001 empirical status: XENONnT published 90% CL CSL λ/rC² <3e-3 s^-1m^-2; historical GRW-associated pair reported 9.1σ excluded for specified white-noise CSL. VC-010 baseline repair is separate from this physical claim.",
-      "next": "Central actual history verdict stays unresolved; no direct Everett vs equilibrium Bohm model discrimination.",
+      "latest": "Six new entries WL-012–017 and six claim-specific scientific movements MOVE-002–007; VC-011 central 50→50 with cited model-indistinguishability.",
+      "next": "LISA source reanalyses not independent detector runs; central ontology not measured.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "SRC-066 whole original seven-page XENONnT 2026 main work studied and NOTE-052 appended. 67 authentic works, 15/400 whole-main-text critical studies, 52 reading notes; separate Supplement not certified.",
-      "next": "Original GRW 1986 complete main text, XENON supplementary signal model/raw detector likelihood unresolved.",
+      "latest": "Ten previously non-full original papers critically studied via main published texts. 74 real works, 25/400 full critical main studies, 62 notes NOTE-053–062.",
+      "next": "Original supplementary datasets/raw event-level likelihood not independently reconstructed.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "J-007 and R005 experiment-centered audit answer why 59 existed, quantify real model constraint, specify operational identifiability limitations and falsifiable next tests.",
-      "next": "Stop nondiscriminating volume incentives; prioritize true predictions, nulls, counterarguments and original likelihood math.",
+      "latest": "J-008 and ten-paper primary source research/full-study-batch-003-ten-discriminator-candidates.md committed, selected for measurable collapses and adversarial interpretation validity.",
+      "next": "Next normalization of force-noise, radiation and interference parameter comparisons.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Physics, Quantum computing and Chemistry updated with SRC-066 full original main review and source-linked MOVE-001 quantitative CSL/DP parameter restrictions; all nine reading queues preserved.",
-      "next": "Specialized full quantum experiments/real-data simulations remain future roadmap, lab user-interaction verification outstanding.",
+      "latest": "Physics, quantum computing and chemistry reading queues and caseHighlights expanded by source-linked ten-paper matrix; other six v0.25 labs intact.",
+      "next": "Nine-room full functional browser and mobile acceptance not yet verified.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "No geospatial pins modified: XENONnT detector is known underground at INFN Gran Sasso but no new coordinates invented; cosmological bubbles separate from quantum branches.",
-      "next": "Attribution/precise-site coordinate controls and globe/2D fallback remain future work.",
+      "latest": "No coordinate changes; no fictitious measurement location or Everett branch geographic sites added.",
+      "next": "Atlas 3D work remains future v0.3.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published GitHub-backed record; browser verification open",
-      "latest": "S-002-R005 seven-stream checkpoint documents methodological neutral 50 vs scientific model movement, exact status/depth/limits, no false experimental physics score, explicit CONTINUE.",
-      "next": "Review GitHub Pages CI / actual browser confirmation; complete evidence-first v0.2 approval/traceability pipeline next.",
+      "latest": "R006 real ten-paper science milestone saved; complete seven areas, unchanged score with genuine model-specific movements, transition CONTINUE.",
+      "next": "R007 build unshipped v0.2 score proposal audit and v0.25 static reading-room validation.",
       "lastReviewedOn": "2026-10-21"
     }
   ],
@@ -268,7 +273,7 @@
     "websiteShareTarget": 25,
     "measure": "approximate substantive-effort priorities over meaningful research/development cycles, not measured session time or token capacity",
     "researchFirst": true,
-    "plannedResearch": "Remaining roadmap v0.2 27 science/9 site relative planning points; existing v0.25 acceptance revalidation 9 science/3 site points; 36/12 combined planned effort, not tracked hours. R003 actual main-text Everett critical study complete; remaining GRW and XENONnT quantitative audits. S-002-R004: remaining planned 32 science vs 9 website relative units across v0.2 and v0.25; compensate early 4 science/3 site unit pair by prioritizing GRW/CSL scientific source work. R005: shift from papers-counting to explicit falsifiable model parameters/evidence movement; at least one original full XENONnT experiment reviewed and a bound quantified, note supplement/raw data limitation.",
+    "plannedResearch": "Remaining roadmap v0.2 27 science/9 site relative planning points; existing v0.25 acceptance revalidation 9 science/3 site points; 36/12 combined planned effort, not tracked hours. R003 actual main-text Everett critical study complete; remaining GRW and XENONnT quantitative audits. S-002-R004: remaining planned 32 science vs 9 website relative units across v0.2 and v0.25; compensate early 4 science/3 site unit pair by prioritizing GRW/CSL scientific source work. R005: shift from papers-counting to explicit falsifiable model parameters/evidence movement; at least one original full XENONnT experiment reviewed and a bound quantified, note supplement/raw data limitation. R006 delivered ten candidate-driven complete main-text studies; future research priority is quantitative exclusion contour reconstruction, not bibliography counts.",
     "websitePlan": "Follow ROADMAP.md 0.2 Truth Engine, 0.3 sourced globe/atlas, 0.4 deeper field laboratories, 0.5 continuity and 0.6 science review. Preserve 0.25 reading lists and 0.26 field presentation rooms and introductory tools. Include interdisciplinary laboratory plans. R003 prospective v0.2 Truth Engine and v0.25 nine-lab acceptance allocation at research/release-020-025-allocation.md; no claim of completed implementation. S-002-R004: W20-01 local data integrity CI verified with 3 planned website points; W20-02/03/04 still blocked from release certification. R005: public source-derived claim-specific result panels displayed independently of 50 editorial baseline; full v0.2 acceptance still open.",
     "deviationPolicy": "Urgent correctness, data integrity, security, accessibility and broken controls may be fixed ahead of allocation; document the reason and resume research priority.",
     "milestoneReporting": "Update this sessions record for significant research and website progress; explicitly record linked evidence and verdict change or no-change rationale in the research audit.",
@@ -1533,6 +1538,111 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "CONTINUE. Answered owner's question with historical commit provenance: 59 was an unjustified editorial number and corrected to neutral 50 without claiming physical 50% probability. Physical experimental finding does move model-specific ledger: XENONnT white-noise CSL benchmark parameters excluded under stated model and significance, though Everett-vs-Bohm actual histories remain observationally undetermined. One new authentic full main paper review, 15/400 total. Keep 75% science/25% presentation over meaningful cycles; next reconstruct paper's exact model/noise and identify operational discriminators. Preserve all historical audits.",
       "nextAction": "S-002-R006: do not just read more papers. Reconstruct the XENONnT original Supplemental Material radiation response/likelihood and challenge environmental/detector backgrounds, determine which precisely specified one-history-vs-many-history hypotheses ever predict different measurements, produce a discriminating proposal or a rigorous equivalence obstruction, and update specific claim status with quantified evidence. Keep v0.2 source-review/commit-linked score safeguards and nine lab/site integrity checks underway; close seven-stream Observatory again."
+    },
+    {
+      "id": "S-002-R006",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "scope": "Ten complete published original main-text research studies prioritized by measured parameter exclusion, measured-data reanalysis or adversarial claim-test invalidity; six model-specific ledger movements.",
+      "files": [
+        "research/full-study-batch-003-ten-discriminator-candidates.md",
+        "data/library.json",
+        "data/reading-notes.json",
+        "data/ledger.json",
+        "data/research.json",
+        "data/sessions.json"
+      ],
+      "verified": "Source linked reviewed whole main article notes NOTE-053..062 for SRC-048,067,068,069,070,071,072,014,073,074. 25 total fully studied, 74 index, 62 notes. Distinguishes genuine Fein molecule and Donadi Ge measurements from shared-data Dai/Altamura LISA analyses and conditional colored CSL/CMB/classical gravity/Wigner friend/time reversal theoretical papers.",
+      "research": {
+        "worksCatalogued": 74,
+        "readingNotes": 62,
+        "fullyStudiedWorks": 25,
+        "sourceDepth": "Ten complete accessible original main articles reviewed; not separate supplements/raw events/numerical replication. Eight new or broader theoretical model tests vs actual laboratory measurements distinguished.",
+        "sourcePacket": "research/full-study-batch-003-ten-discriminator-candidates.md",
+        "lastResearchRound": "S-002-R006"
+      },
+      "verdict": {
+        "oldScore": 50,
+        "newScore": 50,
+        "status": "no-change",
+        "auditId": "VC-011",
+        "why": "Six meaningful conditional model-specific advancements in MOVE-002..007 but no experiment distinguishing matched Everett many branches and equilibrium Bohm single realized history; neutrality not a probability."
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "No home layout work R006; site remains neutral 50 and J-008 experiment-driven narrative now data-backed.",
+          "next": "v0.2 review/approval/reversal and real keyboard/mobile QA pending.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "No home layout work R006; site remains neutral 50 and J-008 experiment-driven narrative now data-backed.",
+          "unchangedOrOpen": "v0.2 review/approval/reversal and real keyboard/mobile QA pending."
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "Six new entries WL-012–017 and six claim-specific scientific movements MOVE-002–007; VC-011 central 50→50 with cited model-indistinguishability.",
+          "next": "LISA source reanalyses not independent detector runs; central ontology not measured.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Six new entries WL-012–017 and six claim-specific scientific movements MOVE-002–007; VC-011 central 50→50 with cited model-indistinguishability.",
+          "unchangedOrOpen": "LISA source reanalyses not independent detector runs; central ontology not measured."
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "Ten previously non-full original papers critically studied via main published texts. 74 real works, 25/400 full critical main studies, 62 notes NOTE-053–062.",
+          "next": "Original supplementary datasets/raw event-level likelihood not independently reconstructed.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Ten previously non-full original papers critically studied via main published texts. 74 real works, 25/400 full critical main studies, 62 notes NOTE-053–062.",
+          "unchangedOrOpen": "Original supplementary datasets/raw event-level likelihood not independently reconstructed."
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "J-008 and ten-paper primary source research/full-study-batch-003-ten-discriminator-candidates.md committed, selected for measurable collapses and adversarial interpretation validity.",
+          "next": "Next normalization of force-noise, radiation and interference parameter comparisons.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "J-008 and ten-paper primary source research/full-study-batch-003-ten-discriminator-candidates.md committed, selected for measurable collapses and adversarial interpretation validity.",
+          "unchangedOrOpen": "Next normalization of force-noise, radiation and interference parameter comparisons."
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "published reading queues",
+          "latest": "Physics, quantum computing and chemistry reading queues and caseHighlights expanded by source-linked ten-paper matrix; other six v0.25 labs intact.",
+          "next": "Nine-room full functional browser and mobile acceptance not yet verified.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Physics, quantum computing and chemistry reading queues and caseHighlights expanded by source-linked ten-paper matrix; other six v0.25 labs intact.",
+          "unchangedOrOpen": "Nine-room full functional browser and mobile acceptance not yet verified."
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "No coordinate changes; no fictitious measurement location or Everett branch geographic sites added.",
+          "next": "Atlas 3D work remains future v0.3.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "No coordinate changes; no fictitious measurement location or Everett branch geographic sites added.",
+          "unchangedOrOpen": "Atlas 3D work remains future v0.3."
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "published GitHub-backed record; browser verification open",
+          "latest": "R006 real ten-paper science milestone saved; complete seven areas, unchanged score with genuine model-specific movements, transition CONTINUE.",
+          "next": "R007 build unshipped v0.2 score proposal audit and v0.25 static reading-room validation.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "R006 real ten-paper science milestone saved; complete seven areas, unchanged score with genuine model-specific movements, transition CONTINUE.",
+          "unchangedOrOpen": "R007 build unshipped v0.2 score proposal audit and v0.25 static reading-room validation."
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "CONTINUE. Ten originals (Fein, Dai, Altamura, Donadi, Carlesso, Martin/Vennin, Aziz/Howl, Frauchiger/Renner, Bedingham/Maroney, te Vrugt et al.) critically reviewed, six detailed model claim changes, no measured Everett-vs-equilibrium-Bohm history distinction. Preserve 50 neutral compass, not measured odds. Proceed with truth-engine remaining features and v0.25 validation.",
+      "nextAction": "S-002-R007: build v0.2 claim-review required fields and reversible versioned score audit, add CI fixtures; validate the v0.25 nine-lab reading syllabus and eight-stage source-provenance acceptance in automated local tests; verify GitHub Pages/CI and checkpoint all 7 streams. Scientific next gate: reproduce one original CSL experimental contour, distinguish shared LISA data from independent measurements."
     }
   ]
 }
