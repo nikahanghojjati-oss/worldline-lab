@@ -18,7 +18,12 @@ function record(p,db,stamp){
  const issues=check(p,db);if(issues.length)throw Error(issues.join(', '));
  if(!hex40.test(stamp.sha)||!stamp.reason||!stamp.id)throw Error('review record requires actual commit, ID and reason');
  if(db.truthEngine.changeLedger.some(x=>x.id===stamp.id))throw Error('duplicate');
- return {id:stamp.id,kind:'decision',date:stamp.date,oldScore:p.oldScore,newScore:p.proposedScore,priorJudgment:p.priorAuditId,evidenceCommit:p.reviewedEvidenceCommit,decisionCommit:stamp.sha,sourceIds:p.sourceIds,readingNoteIds:p.readingNoteIds,reason:stamp.reason,reverses:null};
+ if(p.oldScore!==p.proposedScore){
+  const a=stamp.approval;
+  if(!a||a.kind!=='github-human-approval'||a.verifiedVia!=='github-rest'||a.evidenceCommit!==p.reviewedEvidenceCommit||a.reviewer!==p.reviewer||!Number.isSafeInteger(a.reviewId)||!Number.isSafeInteger(a.prNumber))
+   throw Error('directional score revision requires an API-verified human approval for the exact evidence commit');
+ }
+ return {id:stamp.id,kind:'decision',date:stamp.date,oldScore:p.oldScore,newScore:p.proposedScore,priorJudgment:p.priorAuditId,evidenceCommit:p.reviewedEvidenceCommit,decisionCommit:stamp.sha,sourceIds:p.sourceIds,readingNoteIds:p.readingNoteIds,reason:stamp.reason,approvalEvidence:stamp.approval||null,reverses:null};
 }
 function reverse(entry,score,stamp){
  if(entry.newScore!==score||!hex40.test(stamp.sha)||!stamp.reason)throw Error('stale or unsupported reversal');
