@@ -85,6 +85,7 @@ assert.ok(mainQuestion.fixedBackgroundDiagnostic.warning.includes('NOT'),'condit
 assert.equal(base.pageFreshness.pages.length,8,'eight public routes require freshness inventory');
 assert.equal(base.pageFreshness.nextMandatorySweepRoundLogCount,14,'next mandatory full sweep R010');
 fails('freshness missing at fifth round',d=>{
+ d.sessions.roundLog.push({...d.sessions.roundLog.at(-1),id:'S-002-R009'});
  d.sessions.roundLog.push({...d.sessions.roundLog.at(-1),id:'S-002-R010'});
 },'five-round website sweep missing');
 fails('unpaired central test',d=>{
