@@ -30,6 +30,13 @@ assert.ok(adaptive.identicalConditionalModels.every(p=>p.jsdBits===0),'no adapti
 assert.ok(adaptive.alteredDynamicsCandidate.jsdBits>0,'changed conditional physics has a testable theoretical wedge');
 assert.equal(adaptive.ledgerChange,0);
 assert.equal(jsd(m.distribution(m.mutatedModel(0),m.policies()[0]),m.distribution(m.mutatedModel(0),m.policies()[0])),0);
+const requirement=m.interventionRequirement(.001);
+assert.equal(requirement.status,'CONDITIONAL_MUTATION_REQUIRED');
+assert.ok(requirement.minimumChangeInConditionalProbability>.01&&requirement.minimumChangeInConditionalProbability<.25);
+assert.ok(requirement.predictedJSD>=.001-1e-12);
+assert.equal(requirement.ledgerChange,0);
+assert.equal(requirement.ontologyInference,'NOT_IDENTIFIED');
+assert.throws(()=>m.interventionRequirement(-1),/design target/);
 const cuts=m.assumptionCuts(m.THEOREMS);
 assert.equal(cuts.smallestRelaxationSize,2,'each independent no-go conjunction must be broken');
 assert.equal(cuts.minimalRelaxationSets.length,6,'two Bell choices times three LF choices');
