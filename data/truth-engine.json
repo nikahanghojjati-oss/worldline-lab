@@ -1,0 +1,48 @@
+{
+  "schema": "worldline-truth-engine/v0.2",
+  "updated": "2026-10-21",
+  "releaseStatus": "candidate-structure-only",
+  "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
+  "baseline": {
+    "score": 59,
+    "reviewAuditId": "VC-009",
+    "reviewedEvidenceCommit": "959e3df0b0031201742cd1019ad6a15db514d18d",
+    "summary": "Everett main-text critical reading advances bibliography, not direct observation of physically actual multiple histories.",
+    "scientificVerdict": "unresolved"
+  },
+  "proposalRules": {
+    "claimClasses": [
+      "Experimental measurement",
+      "Formal theorem",
+      "Model prediction",
+      "Interpretation comparison",
+      "Cosmological inference"
+    ],
+    "mandatory": [
+      "claimClass",
+      "hypothesis",
+      "nullHypothesis",
+      "prediction",
+      "counterevidenceSearch",
+      "alternativeExplanations",
+      "sourceIds",
+      "readingNoteIds",
+      "uncertainty",
+      "impactRationale",
+      "priorAuditId",
+      "reviewedEvidenceCommit",
+      "oldScore",
+      "proposedScore"
+    ],
+    "humanScientificReviewRequired": true,
+    "automaticMeterChange": false,
+    "sourceReviewMustPrecedeProposal": true
+  },
+  "proposals": [],
+  "changeLedger": [],
+  "historicAudits": {
+    "authority": "data/library.json verdictAudit.changeLog",
+    "latestId": "VC-009",
+    "rule": "Past no-change VC records remain immutable; this array records future scored revisions only. A future revision must reference the previous audit and evidence-bearing repository commit."
+  }
+}
