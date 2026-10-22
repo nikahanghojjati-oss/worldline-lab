@@ -2,9 +2,9 @@
   "schema": "worldline-page-freshness/v1",
   "updated": "2026-10-22",
   "policy": "Session Observatory and main decision packet immediately after every substantive round. Every fifth completed round refresh/revalidate all eight public page routes, with live-source content updates or explicit no-new-source reason. Static CI enforces the sweep. Critical factual errors never wait.",
-  "roundCountAtBaseline": 12,
-  "lastCompletedSweepRoundLogCount": 9,
-  "nextMandatorySweepRoundLogCount": 14,
+  "roundCountAtBaseline": 15,
+  "lastCompletedSweepRoundLogCount": 12,
+  "nextMandatorySweepRoundLogCount": 17,
   "nextMandatorySweep": "S-002-R010",
   "cadenceRounds": 5,
   "requiredRoutes": [
