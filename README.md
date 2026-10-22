@@ -36,3 +36,6 @@ Configure GitHub Settings → Pages → Deploy from a branch → `main` → `/(r
 ## Acknowledgment
 
 The study's compact continuity workflow draws high-level lessons from the owner's Career Mode Showdown POS20 architecture, without copying its game-specific control planes or changing that project.
+
+## Session Observatory control center
+The public Session page shows a four-condition restart-packet meter, a clear Continue / Prepare / Transition recommendation, the newest public GitHub commits from across the project, and a workstream report backed by `data/sessions.json`. The activity list refreshes while the Sessions page is open and may be temporarily limited by GitHub API availability. New commits are project updates, not invented new GPT sessions. Substantive milestones should be logged in the same session record. See `SESSION_START.md` for the update contract.
