@@ -9,9 +9,9 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "IN PROGRESS",
-  "activeWork": "S-001 R004 archived: Hawking, Kay–Radzikowski–Wald and Visser chronology-horizon comparison; ongoing deeper horizon proof and Deutsch/postselection operational comparison.",
-  "lastVerified": "Round S-001-R004: original papers targeted for Hawking §§II–VI, KRW §§1/4–6 and Visser reliability §§I–V, with Roman-ring abstract countercheck. Filed NOTE-022–025 and field-note-003; 57 works, 88 indexed researchers, 25 notes, 5 partial and 0 full studies; ledger WL-003/WL-007 and no-change audit VC-005. Editorial 59/100 remains unchanged. Browser smoke-test and Pages deployment propagation still unverified.",
-  "nextStep": "Study the full KRW §5 proof and microlocal assumptions, then compare Deutsch and Lloyd on an explicitly identical toy circuit with input/output probabilities; audit noncompact-horizon exceptions, and update every Session Observatory field at the next round.",
+  "activeWork": "R005 completed: Worldline Lab now investigates one physically real timeline versus multiple simultaneous histories as its primary mission. Time travel is supporting context. Six source-based review sections + PBR scope check, library/lab/journal and legibility updates saved.",
+  "lastVerified": "R005 project mission changed on live-site source; six scientific sections and seventh PBR check in field-note-004, SRC-058..063, NOTE-026..032, WL-008/009, VC-006. 63 catalogued works, 98 contributor records, 32 research notes, 5 partial and 0 fully studied papers. Homepage, labs and latest journal updated; new readability CSS. Live cross-device QA pending.",
+  "nextStep": "Construct a reproducible hypothesis-by-observation matrix for Everett, Bohm and GRW/CSL; evaluate quantitative collapse visibility bounds, Born-rule questions, Bell experimental assumptions and modern CMB bubble-data limitations; verify website readability and mobile interactions in a browser.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -21,7 +21,10 @@
     "Interdisciplinary subject-specific simulations and automated literature-validation tests remain roadmap work.",
     "New GitHub commits do not by themselves establish that every live browser component or its deployment has been independently tested.",
     "KRW's microlocal proof, Visser's complete derivation and full quantum-gravity response are not independently replicated; all added studies remain partial or abstract-level.",
-    "New lab highlights, journal and round-by-round session archive are committed website code/data changes; deployment propagation, mobile layout and live browser controls require testing."
+    "New lab highlights, journal and round-by-round session archive are committed website code/data changes; deployment propagation, mobile layout and live browser controls require testing.",
+    "The latest R005 source review is chiefly original publisher abstracts and targeted SEP text, not comprehensive full papers.",
+    "Web typography and contrast changes require actual post-deployment desktop/mobile accessibility checks.",
+    "No reviewed experiment has established or excluded physically real Everett branch multiplicity."
   ],
   "sessionHistory": [
     {
@@ -29,7 +32,7 @@
       "date": "2026-10-21",
       "label": "Founding session · Worldline Lab",
       "objective": "Create an open, scientifically disciplined publication and a reliable research continuity system that survives chat boundaries.",
-      "work": "Founding Worldline Lab plus R004 original-source horizon-theorem/reliability comparison and publicly linked lab research.",
+      "work": "Founded Worldline Lab and completed five documented rounds, including the central ontology-first research framing and readability improvements.",
       "status": "Active · initial session",
       "scope": "Research architecture, repository construction, website publication, continuity methods",
       "tokenCount": null,
@@ -50,16 +53,18 @@
           "Round S-001-R001: mandatory per-round Session Observatory and decision update contract committed in PROJECT_RULES.md, SESSION_START.md and ROADMAP.md.",
           "Round S-001-R002: original-source targeted page-level analyses of Gödel, Hawking and Deutsch recorded in field-note-002.md and NOTE-015..017; Politzer and Lloyd abstract counterchecks as NOTE-018..019; 54 verified works, 84 scholars, 3 partial, 0 full readings, and scientific no-change audit VC-003.",
           "Round S-001-R003: Gödel closed-circle radius condition and Deutsch-style one-bit fixed points checked with hand algebra and numerical matrix tests; notes NOTE-020/021 and audit VC-004 preserve scientific no-change.",
-          "Round S-001-R004: comparison of Hawking, Kay–Radzikowski–Wald, and Visser saved in field-note-003, NOTE-022–025, WL-007 and audit VC-005; research pages and round archive updated in repository."
+          "Round S-001-R004: comparison of Hawking, Kay–Radzikowski–Wald, and Visser saved in field-note-003, NOTE-022–025, WL-007 and audit VC-005; research pages and round archive updated in repository.",
+          "R005: primary question changed to one physically actual history versus multiple physically real histories. Field Note 004, six source reviews + PBR, new linked labs and 59→59 evidence audit saved."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
           "Research claims and future compass adjustments require source-by-source scientific review.",
           "Interactive browser validation of new session control widgets, accessibility, responsive layout, and GitHub activity feed is outstanding.",
           "Key source-level review milestone remains open: complete detailed math/counterargument checks and independent model replication; no papers qualify as fully studied yet.",
-          "Verify published lab highlight cards, updated latest journal, source links and round decision archive on live site and mobile."
+          "Verify published lab highlight cards, updated latest journal, source links and round decision archive on live site and mobile.",
+          "Verify live readability at multiple screen sizes and recalculate true model-discriminating predictions."
         ],
-        "next": "Study the full KRW §5 proof and microlocal assumptions, then compare Deutsch and Lloyd on an explicitly identical toy circuit with input/output probabilities; audit noncompact-horizon exceptions, and update every Session Observatory field at the next round."
+        "next": "Construct a reproducible hypothesis-by-observation matrix for Everett, Bohm and GRW/CSL; evaluate quantitative collapse visibility bounds, Born-rule questions, Bell experimental assumptions and modern CMB bubble-data limitations; verify website readability and mobile interactions in a browser."
       }
     }
   ],
@@ -69,10 +74,13 @@
       "ROADMAP.md",
       "SESSION_START.md",
       "data/sessions.json",
-      "research/field-note-002.md",
-      "research/field-note-003.md",
+      "research/field-note-004.md",
       "data/library.json",
       "data/reading-notes.json",
+      "data/research.json",
+      "data/ledger.json",
+      "research/field-note-002.md",
+      "research/field-note-003.md",
       "research/field-note-001.md",
       "relevant entries in data/ledger.json"
     ],
@@ -83,10 +91,11 @@
       "Check cited sources before new evidence classification.",
       "Record a reproducible rationale for any meter change.",
       "Apply PROJECT_RULES.md: plan roughly 75% rigorous research and 25% roadmap-aligned website work over meaningful cycles, without fabricated effort telemetry.",
-      "Every worker and GPT chat must refresh the full Session Observatory and transition decision after EVERY substantive work round, even if the scientific verdict does not move; append a verified roundLog record."
+      "Every worker and GPT chat must refresh the full Session Observatory and transition decision after EVERY substantive work round, even if the scientific verdict does not move; append a verified roundLog record.",
+      "Core mission is real history multiplicity in our universe; do not make backward time travel the center of inquiry."
     ],
     "minimumPacket": "Repository authority · session ID · verified change (with source) · unresolved limit · one highest-value next action · restart guardrails",
-    "continuity": "S-001 remains active through R004. Latest evidence: field-note-003, NOTE-022–025, SRC-055–057, WL-003/WL-007, VC-005. 57 works, 25 notes, 5 partial, 0 full. All-round session closure policy remains mandatory; public site must be separately checked. Next: KRW proof and D-CTC/P-CTC same-circuit comparison."
+    "continuity": "Founding session S-001 through R005 remains active. Research Note 004 now defines the central hypothesis; SRC-058..063, NOTE-026..032, WL-008/009 and VC-006 are authoritative. Readable typography overrides in assets/readability.css need cross-device verification. Continue with quantitative observational equivalence. Every round must refresh the entire Observatory."
   },
   "activeSession": "S-001",
   "readinessModel": {
@@ -110,15 +119,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "Chronology protection: Hawking assumptions, KRW Hadamard theorem, Visser semiclassical reliability, and later operational CTC comparison",
+    "milestoneName": "Does the actual universe contain one physically realized history or multiple physically real histories?",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "Scientific argument coherent and source paths verified; no measured chat context use or independently tested deployment. Continue rather than inventing an exhaustion threshold.",
-    "decisionBasis": "R004 achieves a meaningful bounded deliverable (selected source-level theorem, counterarguments and on-site documentation), but the broader assigned milestone remains unfinished: full KRW proof reconstruction, physical reliability limitations, and same-circuit Deutsch/Lloyd comparison. Checkpoint prepared, next action identified, no natural transition boundary or known continuity loss. Continue S-001.",
-    "updatePolicy": "For every discrete research or website round and in every new GPT session: update all seven workstream summaries, progress counts, lastVerified, activeWork, nextStep, blockers, full transition gate and explicit CONTINUE/PREPARE HANDOFF/TRANSITION decision, source-linked verdict/no-change, and roundLog. Unsaved updates must be labelled UNSYNCED.",
+    "documentedContinuityRisk": "No observed loss of coherence reported; no trusted session token/context telemetry. All research and website work now documented in GitHub.",
+    "decisionBasis": "R005 commits an ontology-first mission across site and documentation, six substantive source-limited research sections plus a seventh PBR check, library/lab/journal updates and legibility changes. The wider scientific discrimination mission remains unfinished. A checkpoint exists, but no serious continuity loss or natural handoff boundary makes a new chat necessary.",
+    "updatePolicy": "Every substantive round every GPT worker: update all seven site workstreams, true reading counts, explicit verdict change/no-change, decisions including CONTINUE/PREPARE HANDOFF/TRANSITION, blockers and one next step, then append date and full round log.",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -126,56 +135,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Homepage untouched; editorial compass remains 59/100. Research journal updated; dashboard loads versioned JSON.",
-      "next": "After deployment verify home/journal feed and preserve editorial caveat.",
+      "latest": "Homepage hero, dispatch, features and Observatory framing changed to one physically real timeline versus many; Everett/Bohm/GRW now primary alternatives, compass 59 editorial only.",
+      "next": "Live contrast and small-screen QA; maintain source-linked central question.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "WL-003 clarified and WL-007 added for precise KRW theorem and Visser reliability objection; VC-005 records explicit 59→59 scientific no-change.",
-      "next": "Review KRW assumptions and test genuinely discriminating predictions.",
+      "latest": "New WL-008 ontology and WL-009 bubble-vs-branch evidence; WL-005 updated. VC-006 supports no movement of 59 editorial compass.",
+      "next": "Add validated observational-equivalence model and quantitative falsifiers.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "57 works, 88 contributor records, 25 source-level notes, 5 partially studied and 0 fully studied; added SRC-055–057, NOTE-022–025 with true read depths.",
-      "next": "Audit new bibliographic/author references and complete source proofs before raising review depth.",
+      "latest": "63 works, 98 researcher records, 32 notes; SRC-058..063 and NOTE-026..032; 5 partial, 0 full studies.",
+      "next": "Full-text methodological review with counterarguments; keep abstract status honest.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "New field-note-003 and J-002 journal report compare Hawking, KRW and Visser, with assumptions and objections; not a universal impossibility proof.",
-      "next": "Full KRW microlocal proof and same-circuit Deutsch/Lloyd analysis.",
+      "latest": "Field-note-004 has six major research sections plus PBR and a question-centered J-003 journal.",
+      "next": "Derive unitary/decoherence and collapse model predictions with reproducible sources.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Physics and Quantum computing labs now have source-linked current finding highlights; Physics reading priority updated for KRW/Visser.",
-      "next": "Live browser testing and deeper cited field instruments; no real experiment claimed.",
+      "latest": "Physics, mathematics, quantum computing, chemistry, astronomy, history and AI now expose ontology-first source-linked highlights. Prior reading lists and instruments preserved.",
+      "next": "Confirm new cards and source links on mobile/desktop; expand deep instruments.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "Atlas explicitly reviewed this round; no new location claim or geospatial code change.",
-      "next": "Sourced precision-aware map work remains scheduled under roadmap.",
+      "latest": "Atlas reviewed; no unverified location introduced. Inflationary bubble evidence tied to CMB sky data, not an invented site marker.",
+      "next": "Continue coordinate-verified origins and 2D fallback planned.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published",
-      "latest": "S-001-R004 all-seven-workstream checkpoint, full transition decision and new visible round-by-round audit implemented in GitHub-backed UI.",
-      "next": "Verify rendered round log and confirm live Pages propagation; close next research round with the same contract.",
+      "latest": "R005 checkpoint includes seven workstream decisions, 59→59 no-change audit and explicit CONTINUE handoff recommendation; repository is authoritative.",
+      "next": "Confirm current record renders, test mobile usability; checkpoint every future round.",
       "lastReviewedOn": "2026-10-21"
     }
   ],
@@ -538,6 +547,130 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "R004 achieves a meaningful bounded deliverable (selected source-level theorem, counterarguments and on-site documentation), but the broader assigned milestone remains unfinished: full KRW proof reconstruction, physical reliability limitations, and same-circuit Deutsch/Lloyd comparison. Checkpoint prepared, next action identified, no natural transition boundary or known continuity loss. Continue S-001.",
       "nextAction": "Study the full KRW §5 proof and microlocal assumptions, then compare Deutsch and Lloyd on an explicitly identical toy circuit with input/output probabilities; audit noncompact-horizon exceptions, and update every Session Observatory field at the next round."
+    },
+    {
+      "id": "S-001-R005",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "scope": "Owner redefines Worldline Lab around one physically real timeline versus many; six research investigations and readable website text",
+      "files": [
+        "research/field-note-004.md",
+        "assets/readability.css",
+        "index.html",
+        "assets/site.js",
+        "data/library.json",
+        "data/reading-notes.json",
+        "data/ledger.json",
+        "data/research.json",
+        "PROJECT_RULES.md",
+        "ROADMAP.md",
+        "SESSION_START.md",
+        "README.md",
+        "RESEARCH_PROTOCOL.md",
+        "data/sessions.json"
+      ],
+      "verified": "Six separately articulated source-bounded scientific research sections + a PBR scope check; 6 new research sources and seven critical notes; redesigned central question and documentary framing; new contrast/type stylesheet, updated seven labs and featured journal. No full paper incorrectly marked complete.",
+      "research": {
+        "worksCatalogued": 63,
+        "scholars": 98,
+        "readingNotes": 32,
+        "partiallyStudiedWorks": 5,
+        "fullyStudiedWorks": 0,
+        "sections": [
+          "Everett relative-state world ontology",
+          "Decoherence and Schrödinger's cat",
+          "Bohmian one actual configuration",
+          "Objective-collapse dynamics and molecule interference",
+          "Bell experiments and locality",
+          "Eternal-inflation cosmological bubbles",
+          "PBR wavefunction ontology scope check"
+        ],
+        "newWorks": [
+          "SRC-058",
+          "SRC-059",
+          "SRC-060",
+          "SRC-061",
+          "SRC-062",
+          "SRC-063"
+        ],
+        "sourceNotes": [
+          "NOTE-026",
+          "NOTE-027",
+          "NOTE-028",
+          "NOTE-029",
+          "NOTE-030",
+          "NOTE-031",
+          "NOTE-032"
+        ],
+        "fieldNote": "research/field-note-004.md",
+        "readDepth": "Original publisher and institution abstract summaries plus targeted Stanford Encyclopedia sections; zero additional completed whole-paper studies."
+      },
+      "verdict": {
+        "oldScore": 59,
+        "newScore": 59,
+        "status": "no-change",
+        "why": "One experienced record cannot discriminate multiple physically real quantum branches from a one-actual-configuration theory; Bell, decoherence, GRW bounds and cosmological bubbles do not provide direct unique branch-count evidence.",
+        "auditId": "VC-006",
+        "ledgerIds": [
+          "WL-005",
+          "WL-008",
+          "WL-009"
+        ]
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "Homepage hero, dispatch, features and Observatory framing changed to one physically real timeline versus many; Everett/Bohm/GRW now primary alternatives, compass 59 editorial only.",
+          "change": "Updated for ontology-first research and/or accessible presentation"
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "New WL-008 ontology and WL-009 bubble-vs-branch evidence; WL-005 updated. VC-006 supports no movement of 59 editorial compass.",
+          "change": "Updated for ontology-first research and/or accessible presentation"
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "63 works, 98 researcher records, 32 notes; SRC-058..063 and NOTE-026..032; 5 partial, 0 full studies.",
+          "change": "Updated for ontology-first research and/or accessible presentation"
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "Field-note-004 has six major research sections plus PBR and a question-centered J-003 journal.",
+          "change": "Updated for ontology-first research and/or accessible presentation"
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "published reading queues",
+          "latest": "Physics, mathematics, quantum computing, chemistry, astronomy, history and AI now expose ontology-first source-linked highlights. Prior reading lists and instruments preserved.",
+          "change": "Updated for ontology-first research and/or accessible presentation"
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "Atlas reviewed; no unverified location introduced. Inflationary bubble evidence tied to CMB sky data, not an invented site marker.",
+          "change": "Reviewed and preserved, no unsourced change"
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "published",
+          "latest": "R005 checkpoint includes seven workstream decisions, 59→59 no-change audit and explicit CONTINUE handoff recommendation; repository is authoritative.",
+          "change": "Updated for ontology-first research and/or accessible presentation"
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "R005 commits an ontology-first mission across site and documentation, six substantive source-limited research sections plus a seventh PBR check, library/lab/journal updates and legibility changes. The wider scientific discrimination mission remains unfinished. A checkpoint exists, but no serious continuity loss or natural handoff boundary makes a new chat necessary.",
+      "nextAction": "Construct a reproducible hypothesis-by-observation matrix for Everett, Bohm and GRW/CSL; evaluate quantitative collapse visibility bounds, Born-rule questions, Bell experimental assumptions and modern CMB bubble-data limitations; verify website readability and mobile interactions in a browser."
     }
   ]
 }
