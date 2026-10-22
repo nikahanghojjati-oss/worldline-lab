@@ -23,8 +23,8 @@ function compass(score){
  if($('main-needle'))$('main-needle').style.transform='rotate('+((v-50)*1.44)+'deg)';
  if($('home-score'))$('home-score').textContent=String(v);
  if($('orientation-bar'))$('orientation-bar').style.width=v+'%';
- if($('orientation-copy'))$('orientation-copy').textContent='Exploratory editorial orientation: '+v+'/100. The score is not a measured probability. No existing experiment uniquely demonstrates single or branching physical histories.';
- const label='Research compass shows a provisional exploratory orientation of '+v+' out of 100. This is not a probability; the empirical verdict remains unresolved.';
+ if($('orientation-copy'))$('orientation-copy').textContent='Neutral editorial anchor '+v+'/100, not a physical probability. The unsupported old 59 was retired. Model-specific measurements advance the claim ledger; Everett versus equilibrium Bohm remains unresolved.';
+ const label='Research compass neutral editorial anchor '+v+' out of 100, not a physical probability. Multiple-real-history ontology remains unresolved.';
  if($('home-compass'))$('home-compass').setAttribute('aria-label',label);
 }
 function compassTicks(){
@@ -55,16 +55,20 @@ function renderVerdictAudit(){
  const reviewed=works.filter(w=>w.access==='abstract-reviewed').length;
  const finished=works.filter(w=>w.access==='fully-studied').length;
  const mean=ledger.entries.reduce((sum,e)=>sum+Number(e.impact||0),0);
- const changed=logs.filter(v=>Number(v.delta||0)!==0).length;
- h.innerHTML='<div class="verdict-head"><div><span class="kicker">A TRANSPARENT VERDICT · VERSIONED HISTORY</span><h2>Why the compass moves — or does not</h2></div><span class="verdict-badge">'+html(ledger.editorialMeter.score)+'/100 · '+(changed?'Revision recorded':'UNCHANGED')+'</span></div>'+
- '<p>New articles, recorded research progress, and a changed verdict are three different things. The compass is still an editorial research illustration, never a measured probability of many worlds. We update the underlying verdict only when a methodologically sound source distinguishes competing physical predictions.</p>'+
- '<div class="verdict-metrics"><div><strong>'+works.length+'</strong><small>CATALOGUED WORKS · REAL REFERENCES</small></div><div><strong>'+reviewed+' abstract checks / '+finished+' full studies</strong><small>DOCUMENTED STUDY DEPTH</small></div><div><strong>'+(mean>0?'+':'')+mean+'</strong><small>COMBINED LEDGER-ENTRY METER IMPACT</small></div></div>'+
+ const changed=logs.filter(v=>Number(v.delta||0)!==0&&v.status!=='methodology-reset').length;
+ const movements=(ledger.scientificMovements||[]).slice().reverse().map(m=>{
+ const item=ledger.entries.find(e=>e.id===m.ledgerId);
+ return '<article class="wl-movement"><p class="micro">'+html(m.date)+' · '+html(m.id)+' · EXPERIMENTAL MODEL CONSTRAINT</p><h3>'+html(m.claim)+'</h3><p>'+html(m.from)+' → '+html(m.to)+'</p><p class="caption">What changed: '+html(m.modelDirection)+'. Central-history implication: '+html(m.centralHistoryDirection)+'.</p>'+(item?'<a href="'+html(trustedUrl(item.url))+'" target="_blank" rel="noopener noreferrer">Original experiment ↗</a>':'')+'</article>';
+ }).join('');
+ h.innerHTML='<div class="verdict-head"><div><span class="kicker">A TRANSPARENT VERDICT · VERSIONED HISTORY</span><h2>Why the compass moves — or does not</h2></div><span class="verdict-badge">'+html(ledger.editorialMeter.score)+'/100 · '+(changed?'SCIENTIFIC REVISION':'NEUTRAL EDITORIAL ANCHOR')+'</span></div>'+
+ '<p>The old 59 had no justified +9 tilt toward multiple histories. VC-010 resets it to a neutral editorial anchor of 50, never 50% odds. Specific experiments can still change physical-model conclusions below, even when the Everett-versus-Bohm ontological question remains open.</p>'+
+ '<div class="verdict-metrics"><div><strong>'+works.length+'</strong><small>CATALOGUED WORKS · REAL REFERENCES</small></div><div><strong>'+reviewed+' abstract checks / '+finished+' full studies</strong><small>DOCUMENTED STUDY DEPTH</small></div><div><strong>'+(mean>0?'+':'')+mean+'</strong><small>CENTRAL-HISTORY IMPACT; CLAIM ADVANCES BELOW</small></div></div>'+
  '<p class="micro">CURRENT SCIENTIFIC JUDGMENT</p><p>'+html(audit.empiricalConclusion||ledger.editorialMeter.empiricalVerdict)+'</p>'+
- '<div class="verdict-history">'+logs.slice().reverse().map(log=>{
+ '<section class="wl-model-movements" aria-label="Scientific findings that advanced"><h3>Where science has actually moved</h3><p>Model-specific measurements do constrain real physical hypotheses, without proving the number of Everett worlds.</p>'+movements+'</section><div class="verdict-history">'+logs.slice().reverse().map(log=>{
  const sourceLinks=(log.sourceIds||[]).slice(0,7).map(id=>{
   const w=works.find(x=>x.id===id);return w?'<a href="'+html(trustedUrl(w.url))+'" target="_blank" rel="noopener noreferrer">'+html(w.id)+' ↗</a>':'<span>'+html(id)+'</span>';
  }).join(' · ');
- return '<article><div class="micro">'+html(log.date)+' · '+html(log.id)+' · '+(Number(log.delta||0)===0?'NO VERDICT CHANGE':'VERDICT REVISED')+' · '+html(log.oldScore)+' → '+html(log.newScore)+'</div><p>'+html(log.trigger||'Research reassessment')+': '+html(log.justification||'No explanation recorded.')+'</p><div>'+sourceLinks+'</div></article>';
+ return '<article><div class="micro">'+html(log.date)+' · '+html(log.id)+' · '+(log.status==='methodology-reset'?'BASELINE REPAIR · NOT EXPERIMENTAL EVIDENCE':Number(log.delta||0)===0?'CENTRAL VERDICT UNCHANGED':'SCIENTIFIC VERDICT REVISED')+' · '+html(log.oldScore)+' → '+html(log.newScore)+'</div><p>'+html(log.trigger||'Research reassessment')+': '+html(log.justification||'No explanation recorded.')+'</p><div>'+sourceLinks+'</div></article>';
  }).join('')+'</div><p class="caption">What can move next? A review that supplies a distinguishing prediction, actual relevant measurements, uncertainty and independent comparison — documented in the versioned audit. Otherwise the meter stays put for an explicit reason.</p>';
 }
 function renderResearchExpansion(){
