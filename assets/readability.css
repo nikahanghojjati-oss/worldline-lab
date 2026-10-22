@@ -120,3 +120,11 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 .hammer-forge a{color:#15536a;text-decoration:underline;text-underline-offset:3px;font-weight:650}
 .hammer-boundary{padding:14px 17px;background:#fff9ed;border:1px solid #d4c39f;border-radius:6px}
 @media(max-width:650px){.hammer-metrics{grid-template-columns:1fr}.hammer-scenarios{grid-template-columns:1fr}}
+
+/* HAMMER v0.2 discovery: question fusion and epistemic firewall */
+.hammer-frontier{margin-top:23px;padding:clamp(17px,2.5vw,28px);background:#f7fbfa;border:1px solid #aec9c7;border-radius:8px}
+.hammer-frontier h3{font:500 clamp(22px,3vw,30px)/1.22 var(--serif);color:#123a4b;margin:9px 0 14px}
+.hammer-frontier select{margin:7px 0 15px}
+.hammer-quest-card{background:white;padding:clamp(17px,2vw,25px);border-left:4px solid #6a9299;border-radius:6px;border-top:1px solid #d3e3df;border-right:1px solid #d3e3df;border-bottom:1px solid #d3e3df;overflow-wrap:anywhere}
+.hammer-quest-card h4{font:500 21px/1.35 var(--serif);color:#244957;margin:8px 0 12px}
+.hammer-quest-card strong{color:#194458}
