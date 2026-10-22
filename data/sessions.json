@@ -8,10 +8,10 @@
     "minutes": null,
     "reason": "Not exposed to the GitHub Pages website."
   },
-  "state": "ACTIVE · S-002-R001 RESEARCH CHECKPOINT PUBLISHED",
-  "activeWork": "S-002 is the real successor chat following HANDOFF_S001_TO_S002.md. R001 compared Everett, equilibrium Bohm and GRW/CSL predictions, reviewed three complete published source main texts (Bohm Parts I/II; 2016 Hensen Bell statistics), audited 2026 collapse-parameter constraints at identified limited reading depth, and integrated a source-backed lab website comparison.",
-  "lastVerified": "Verified GitHub content commits: 67 unique source works, 100 scholar entries, 49 notes, 13/400 fully studied complete main texts (up from 10), 3 partial, 25 abstract-reviewed; 11 ledger entries; VC-008 editor-only score 59→59. New S-002 matrix and full batch 002 and updates to main website Physics/Quantum computing/Chemistry rooms recorded. GitHub file changes are verified; live Pages propagation, JavaScript behavior and mobile browser layout NOT yet independently verified.",
-  "nextStep": "S-002-R002: obtain and critically read complete original Everett 1957 and GRW 1986 papers with exact sections and Born-weight objections, then independently reconstruct 2026 XENONnT Markovian CSL confidence contours and control for environmental decoherence. Save verified result and all seven Observatory streams after that round.",
+  "state": "ACTIVE · S-002-R002 QA CHECKPOINT PUBLISHED",
+  "activeWork": "S-002-R002 site/continuity QA: preserved R001 model comparison, full critical original texts and physics/quantum computing/chemistry matrix; verified main data and Pages workflow successful, corrected Session Observatory starter to identify S-001 handoff as consumed and S-002 as actually active. No new science review in this QA-only round.",
+  "lastVerified": "GitHub re-read confirms S-002-R001 model data, 67 works, 49 notes, 13/400 true full original-main-text critical reviews, VC-008 (59→59). GitHub Pages workflow for R001 checkpoint commit 45f98a7 completed successfully. R002 corrects stale successor handoff message in assets/session-control.js. Live browser JS/keyboard/mobile not independently tested because public Pages could not be fetched in available website retrieval; Page workflow success does not prove browser usability.",
+  "nextStep": "S-002-R003: source-complete original Everett (1957) and GRW (1986) studies plus quantitative 2026 XENONnT Markovian CSL exclusion-likelihood audit, with environment confounders; after that research round, refresh every Observatory workstream, reading counts, ledger and no-change/change audit. Independently test the live Physics/Quantum Computing/Chemistry matrix on desktop and mobile when browser access permits.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
@@ -32,7 +32,8 @@
     "Original Everett 1957 and GRW 1986 whole main publications were NOT source-completely read in R001; original publisher abstracts only; full-study claim prohibited until reaudited.",
     "XENONnT 2026 targeted publisher material and LISA Pathfinder original abstract support conditional reported bounds; full likelihood, raw spectra and confidence curves remain unreplicated.",
     "Analytic two-path decoherence and GRW N=10^12 independent-hit visibility are toy calculations, not observed experiments and not a full CSL mass-geometry treatment.",
-    "R001 page code and research data are in GitHub main, but GitHub Pages propagation, public browser navigation and small-screen table scroll/contrast remain to be verified."
+    "R001 page code and research data are in GitHub main, but GitHub Pages propagation, public browser navigation and small-screen table scroll/contrast remain to be verified.",
+    "R002 GitHub Pages build succeeded for R001 checkpoint, but live site/browsers were not independently fetched/operated; keyboard/mobile matrix and clipboard controls remain QA."
   ],
   "sessionHistory": [
     {
@@ -84,8 +85,8 @@
       "date": "2026-10-21",
       "label": "Predictive tests of physical history ontology",
       "objective": "Determine whether any measurement distinguishes one Bohmian actual history from multiple Everett branch histories and separately test genuinely modified collapse dynamics.",
-      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration.",
-      "status": "ACTIVE · R001 committed",
+      "work": "R001: four-model Everett/Bohm/GRW/CSL prediction matrix, environmental density-matrix exercise, GRW independent-hit toy, two original Bohm 1952 complete critical readings and complete 2016 Hensen statistical study; XENONnT 2026 and LISA 2024 limited-depth audits, lab and journal integration. R002: repository and Pages workflow verification plus correction to consumed predecessor handoff packet text.",
+      "status": "ACTIVE · R002 QA checkpoint committed",
       "scope": "Original-source literature, competing quantum ontologies and physics / quantum computing / chemistry laboratory research presentation",
       "tokenCount": null,
       "elapsedMinutes": null,
@@ -96,15 +97,17 @@
           "A versioned Everett/Bohm/GRW/CSL matrix and transparent two-outcome algebra, with separate inflation-bubble and Bell-locality comparator, published as research report.",
           "2026 XENONnT and 2024 acceleration-noise claims audited at honestly marked abstract/targeted passage level.",
           "VC-008 editorial 59→59 with explicit no-change rationale and two new ledger entries.",
-          "Data-driven four-model comparison attached to Physics, Quantum computing and Chemistry presentation rooms and homepage source link, keeping all other rooms and atlas."
+          "Data-driven four-model comparison attached to Physics, Quantum computing and Chemistry presentation rooms and homepage source link, keeping all other rooms and atlas.",
+          "R002: verified R001 source counts against GitHub, confirmed successful GitHub Pages workflow, corrected stale Session Observatory packet that mislabeled actual S-002 as an unstarted successor; no research reviews claimed."
         ],
         "unresolved": [
           "Complete original Everett 1957 and GRW 1986 primary text review remains open.",
           "Reproduce actual source XENONnT likelihood/parameter exclusion and instrument environmental noise baselines.",
           "No experiment yet directly decides reality/count of Everett branches versus Bohmian equilibrium history.",
-          "Verify GitHub Pages live browser and mobile render, keyboard-focusable horizontally scrollable table."
+          "Verify GitHub Pages live browser and mobile render, keyboard-focusable horizontally scrollable table.",
+          "R002: GitHub Pages browser and mobile navigation rendering unavailable for independent direct verification; successful build does not validate controls."
         ],
-        "next": "S-002-R002: obtain and critically read complete original Everett 1957 and GRW 1986 papers with exact sections and Born-weight objections, then independently reconstruct 2026 XENONnT Markovian CSL confidence contours and control for environmental decoherence. Save verified result and all seven Observatory streams after that round."
+        "next": "S-002-R003: source-complete original Everett (1957) and GRW (1986) studies plus quantitative 2026 XENONnT Markovian CSL exclusion-likelihood audit, with environment confounders; after that research round, refresh every Observatory workstream, reading counts, ledger and no-change/change audit. Independently test the live Physics/Quantum Computing/Chemistry matrix on desktop and mobile when browser access permits."
       }
     }
   ],
@@ -170,15 +173,15 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "S-002-R001: first predictive one-history-versus-many-history model comparison and three original whole-main-text studies",
+    "milestoneName": "S-002-R002: verified publication and corrected Session Observatory actual/predecessor session state",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
-    "documentedContinuityRisk": "No measured or self-reported GPT exhaustion or coherence loss; a new real chat began and continued the project. Research phase continues with important missing original entire papers and experimental likelihood audit; no handoff recommended.",
-    "decisionBasis": "CONTINUE. S-002 successfully started after S-001 handoff. Three true source-complete main-text critical reviews and a quantitative Everett/Bohm/GRW/CSL matrix are committed with honest abstract-only boundaries. All seven fields and updated counts/ledger/audit documented; no history-discriminating observation or reason to move the editorial 59. Continue original Everett/GRW and 2026 XENONnT source work under research-first 75/25 policy.",
-    "updatePolicy": "Every substantive round must independently fetch latest canonical state, update all seven streams with explicit change/no change, research statuses, full transition decision and next action, append roundLog, ensure repository commit before claiming Observatory synced; never invent telemetry.",
+    "documentedContinuityRisk": "No measured chat usage/context depletion and no self-reported coherence loss. QA fixes completed within continuing S-002 scientific phase; first prediction matrix is not the completed broader experiment-discrimination research program.",
+    "decisionBasis": "CONTINUE. A GitHub Pages successful build and corrected handoff UI text verify saved publication and proper session identity, but no new physics evidence is introduced. Retain 59→59 from VC-008, 13/400 full critical study count, and 75% research/25% site effort across R001-R002. Next substantive work must be primary Everett/GRW whole-text and 2026 experimental likelihood review; no premature handoff.",
+    "updatePolicy": "Every substantive round, including QA: fetch latest sessions, update active record and all seven workstreams (explicit change and unchanged), assess all transition fields, append roundLog and commit; no source-review inflation or telemetry fiction.",
     "decision": "CONTINUE"
   },
   "workstreams": [
@@ -186,56 +189,56 @@
       "area": "Homepage & Observatory",
       "route": "home",
       "status": "published",
-      "latest": "Data-derived count 13/400, published S-002 prediction report link, unchanged legacy compass; homepage core question preserved.",
-      "next": "Verify public Pages display, accessibility and dynamic library total.",
+      "latest": "No scientific/homepage code change in R002; R001 research stats 13/400, score 59 preserved. Verified GitHub Pages successful prior R001 deploy.",
+      "next": "Unchanged; live DOM and mobile QA outstanding.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Evidence Ledger",
       "route": "ledger",
       "status": "published",
-      "latest": "WL-010 and WL-011 explain shared quantum predictions versus model-specific collapse tests; VC-008 editorial 59→59 no-change.",
-      "next": "Independently audit original collapse parameter exclusion confidence contours.",
+      "latest": "No new scientific finding. WL-010/011 and VC-008 intact; 59→59 editorial maintained.",
+      "next": "No new source review, no new VC entry warranted in QA-only round.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "67 indexed authentic works, 100 scholar records, 49 notes, 13/400 original main-text full critical studies, 3 partial, 25 abstract only; 3 full reviewed new R001.",
-      "next": "Everett original, GRW original and XENONnT whole technical article remain open.",
+      "latest": "No research status changes: 67 works, 49 notes, 13 whole-main-text full studies, three new during R001.",
+      "next": "Everett and GRW entire originals remain unreviewed; counts from JSON.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Journal & Research",
       "route": "journal",
       "status": "active",
-      "latest": "J-005 source-backed research journal and R001 full quantitative model comparison plus full-study-batch-002 committed.",
-      "next": "Full original Everett/GRW Born-rule and CSL objections are next scientific priority.",
+      "latest": "J-005 and R001 source reports verified in main unchanged in R002.",
+      "next": "Quantitative XENONnT exclusion reconstruction open.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Research Laboratories",
       "route": "disciplines",
       "status": "published reading queues",
-      "latest": "Physics, Quantum computing, Chemistry show shared four-model experiment-equivalence matrix, provenance, targeted source highlights; other six labs retained.",
-      "next": "Validate on mobile and extend to source-derived interactive instruments after real model bounds.",
+      "latest": "Four-model data matrix for Physics, Quantum computing and Chemistry in GitHub code; no new lab changes in R002.",
+      "next": "Live browser scroll, responsive layout, keyboard focus unverified.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Origins Atlas",
       "route": "atlas",
       "status": "published",
-      "latest": "No atlas code or pins changed; existing regional visual retained and separate CMB bubble-collision subtable recorded in primary research report.",
-      "next": "No new geography claiming origin of Everett branch; maintain 2D fallback/attribution.",
+      "latest": "Untouched R002; no added geospatial claim or any cosmological bubbles-to-branches conflation.",
+      "next": "3D true globe and independent geospatial provenance remain roadmap.",
       "lastReviewedOn": "2026-10-21"
     },
     {
       "area": "Session Observatory",
       "route": "sessions",
       "status": "published GitHub-backed record; browser verification open",
-      "latest": "Genuine S-002 new session and S-002-R001 appended; seven-section audit refreshed; full transition decision CONTINUE. All historical S-001 rounds retained.",
-      "next": "Verify live browser Sessions panel, activity-poll behavior and mobile readability.",
+      "latest": "Corrected copy/download packet: handoff is predecessor consumed S-001, actual S-002 verified; R002 all seven streams and transition re-evaluated.",
+      "next": "Public interactive clipboard/export behavior untested in browser.",
       "lastReviewedOn": "2026-10-21"
     }
   ],
@@ -1052,6 +1055,111 @@
       "transitionDecision": "CONTINUE",
       "transitionReason": "CONTINUE. S-002 successfully started after S-001 handoff. Three true source-complete main-text critical reviews and a quantitative Everett/Bohm/GRW/CSL matrix are committed with honest abstract-only boundaries. All seven fields and updated counts/ledger/audit documented; no history-discriminating observation or reason to move the editorial 59. Continue original Everett/GRW and 2026 XENONnT source work under research-first 75/25 policy.",
       "nextAction": "S-002-R002: obtain and critically read complete original Everett 1957 and GRW 1986 papers with exact sections and Born-weight objections, then independently reconstruct 2026 XENONnT Markovian CSL confidence contours and control for environmental decoherence. Save verified result and all seven Observatory streams after that round."
+    },
+    {
+      "id": "S-002-R002",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "scope": "GitHub publication and front-end Session Observatory continuity QA after scientific R001; fix stale handoff copy/download labeling S-002 as future although it is active.",
+      "files": [
+        "assets/session-control.js",
+        "data/sessions.json"
+      ],
+      "verified": "GitHub R001 report/library/notes/research/site files re-fetched with 67 works, 49 notes and 13 true whole-main-text studies. Pages build run 39715656493 for S-002-R001 ended success; new starter packet correctly displays predecessor handoff as consumed and actual S-002 active. Browser execution still unverified due public site web retrieval error.",
+      "research": {
+        "worksCatalogued": 67,
+        "scholars": 100,
+        "readingNotes": 49,
+        "partiallyStudiedWorks": 3,
+        "abstractReviewedWorks": 25,
+        "fullyStudiedWorks": 13,
+        "sourceDepth": "No new scientific paper or full critical source review performed in QA-only R002; previous R001 original-source claims and NOTE-043–049 preserved.",
+        "sourcePacket": "research/ontology-predictions-S002-R001.md",
+        "lastResearchRound": "S-002-R001"
+      },
+      "verdict": {
+        "oldScore": 59,
+        "newScore": 59,
+        "status": "no-change",
+        "why": "R002 modifies Session Observatory language and verifies publication, not new empirical physics. Preserve VC-008 without inventing a new source change audit.",
+        "auditId": "VC-008",
+        "noNewAudit": "Quality assurance only, no new research evidence or verdict-change event."
+      },
+      "workstreamsReviewed": [
+        {
+          "area": "Homepage & Observatory",
+          "route": "home",
+          "status": "published",
+          "latest": "No scientific/homepage code change in R002; R001 research stats 13/400, score 59 preserved. Verified GitHub Pages successful prior R001 deploy.",
+          "next": "Unchanged; live DOM and mobile QA outstanding.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "No scientific/homepage code change in R002; R001 research stats 13/400, score 59 preserved. Verified GitHub Pages successful prior R001 deploy.",
+          "unchangedOrOpen": "Unchanged; live DOM and mobile QA outstanding."
+        },
+        {
+          "area": "Evidence Ledger",
+          "route": "ledger",
+          "status": "published",
+          "latest": "No new scientific finding. WL-010/011 and VC-008 intact; 59→59 editorial maintained.",
+          "next": "No new source review, no new VC entry warranted in QA-only round.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "No new scientific finding. WL-010/011 and VC-008 intact; 59→59 editorial maintained.",
+          "unchangedOrOpen": "No new source review, no new VC entry warranted in QA-only round."
+        },
+        {
+          "area": "Research Library",
+          "route": "library",
+          "status": "published",
+          "latest": "No research status changes: 67 works, 49 notes, 13 whole-main-text full studies, three new during R001.",
+          "next": "Everett and GRW entire originals remain unreviewed; counts from JSON.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "No research status changes: 67 works, 49 notes, 13 whole-main-text full studies, three new during R001.",
+          "unchangedOrOpen": "Everett and GRW entire originals remain unreviewed; counts from JSON."
+        },
+        {
+          "area": "Journal & Research",
+          "route": "journal",
+          "status": "active",
+          "latest": "J-005 and R001 source reports verified in main unchanged in R002.",
+          "next": "Quantitative XENONnT exclusion reconstruction open.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "J-005 and R001 source reports verified in main unchanged in R002.",
+          "unchangedOrOpen": "Quantitative XENONnT exclusion reconstruction open."
+        },
+        {
+          "area": "Research Laboratories",
+          "route": "disciplines",
+          "status": "published reading queues",
+          "latest": "Four-model data matrix for Physics, Quantum computing and Chemistry in GitHub code; no new lab changes in R002.",
+          "next": "Live browser scroll, responsive layout, keyboard focus unverified.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Four-model data matrix for Physics, Quantum computing and Chemistry in GitHub code; no new lab changes in R002.",
+          "unchangedOrOpen": "Live browser scroll, responsive layout, keyboard focus unverified."
+        },
+        {
+          "area": "Origins Atlas",
+          "route": "atlas",
+          "status": "published",
+          "latest": "Untouched R002; no added geospatial claim or any cosmological bubbles-to-branches conflation.",
+          "next": "3D true globe and independent geospatial provenance remain roadmap.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Untouched R002; no added geospatial claim or any cosmological bubbles-to-branches conflation.",
+          "unchangedOrOpen": "3D true globe and independent geospatial provenance remain roadmap."
+        },
+        {
+          "area": "Session Observatory",
+          "route": "sessions",
+          "status": "published GitHub-backed record; browser verification open",
+          "latest": "Corrected copy/download packet: handoff is predecessor consumed S-001, actual S-002 verified; R002 all seven streams and transition re-evaluated.",
+          "next": "Public interactive clipboard/export behavior untested in browser.",
+          "lastReviewedOn": "2026-10-21",
+          "change": "Corrected copy/download packet: handoff is predecessor consumed S-001, actual S-002 verified; R002 all seven streams and transition re-evaluated.",
+          "unchangedOrOpen": "Public interactive clipboard/export behavior untested in browser."
+        }
+      ],
+      "transitionDecision": "CONTINUE",
+      "transitionReason": "CONTINUE. A GitHub Pages successful build and corrected handoff UI text verify saved publication and proper session identity, but no new physics evidence is introduced. Retain 59→59 from VC-008, 13/400 full critical study count, and 75% research/25% site effort across R001-R002. Next substantive work must be primary Everett/GRW whole-text and 2026 experimental likelihood review; no premature handoff.",
+      "nextAction": "S-002-R003: source-complete original Everett (1957) and GRW (1986) studies plus quantitative 2026 XENONnT Markovian CSL exclusion-likelihood audit, with environment confounders; after that research round, refresh every Observatory workstream, reading counts, ledger and no-change/change audit. Independently test the live Physics/Quantum Computing/Chemistry matrix on desktop and mobile when browser access permits."
     }
   ]
 }
