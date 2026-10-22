@@ -5,7 +5,7 @@
 
 ### Abstract
 
-We investigate when a putative intrinsic localization contribution can be statistically separated from environmental decoherence in a two-arm binary-interference experiment. For a generic contrast law, we derive the exact two-parameter Fisher matrix, its factorized two-arm determinant, a necessary local identifiability condition, an asymptotic variance floor, and a finite optimal-shot allocation. We apply this to a **dimensionless conceptual separation model**, with environmental sensitivity quadratic in displacement and a separate saturating response for intrinsic localization. The design search reveals why closely spaced small-separation arms are nearly indistinguishable, while extreme separations eventually become statistically weak as contrast vanishes. We also reproduce five **potential internal consistency problems** in the displayed mathematical equations and numbers of a 2025 *arXiv preprint* that proposes physical discrimination of decoherence and objective collapse. These are questions for correction or author clarification, **not accusations of fraudulent data**, and not evidence that collapse physics exists or fails. All scripts reject unverifiable measured-data status and all Truth Compass score changes.
+We investigate when a putative intrinsic localization contribution can be statistically separated from environmental decoherence in a two-arm binary-interference experiment. For a generic contrast law, we derive the exact two-parameter Fisher matrix, its factorized two-arm determinant, a necessary local identifiability condition, an asymptotic variance floor, and a finite optimal-shot allocation. We apply this to a **dimensionless conceptual separation model**, with environmental sensitivity quadratic in displacement and a separate saturating response for intrinsic localization. The design search reveals why closely spaced small-separation arms are nearly indistinguishable, while extreme separations eventually become statistically weak as contrast vanishes. We also reproduce six **potential internal consistency problems** in the displayed mathematical equations and numbers of a 2025 *arXiv preprint* that proposes physical discrimination of decoherence and objective collapse. These are questions for correction or author clarification, **not accusations of fraudulent data**, and not evidence that collapse physics exists or fails. All scripts reject unverifiable measured-data status and all Truth Compass score changes.
 
 ### 1. Scientific context and source provenance
 
@@ -79,7 +79,7 @@ An exhaustive finite search on `x=.15,.30,...,4.50` with 1000 ideal shots per ar
 
 ### 4. Third result: critical original-source mathematical and numerical consistency checks
 
-Using *only the displayed statements* from arXiv:2512.02838 as of our 2026-10-22 reading, `tools/hammer/source-critique.cjs` reproduces **five issues requiring author/figure clarification**. HAMMER does **not** infer deliberate mistakes or disprove the paper's whole model.
+Using *only the displayed statements* from arXiv:2512.02838 as of our 2026-10-22 reading, `tools/hammer/source-critique.cjs` reproduces **six issues requiring author/figure clarification**. HAMMER does **not** infer deliberate mistakes or disprove the paper's whole model.
 
 1. **Equation (5), gate unitarity:** The paper defines `D(beta)` as the standard **unitary** displacement operator but writes a scalar `exp[−(eta theta)²/2] × D(i eta theta sigma_z)` for a supposed unitary gate. Its norm squared would multiply by `exp[−(eta theta)²]` for nonzero coupling; e.g. at `eta theta=.5`, factor ≈**0.7788**, not one. Perhaps a normal-ordering prefactor was included twice. This needs comparison to the source derivation or correction.
 
@@ -91,7 +91,9 @@ Using *only the displayed statements* from arXiv:2512.02838 as of our 2026-10-22
 
 5. **Equation (12) using the stated example:** Substituting the stated parameters `λ_CSL=10^(−21) s^(−1)`, `m=10^(−17) kg`, `m0=1.66×10^(−27) kg`, `R=50nm`, `r_C=100nm` and `Δx=100nm` into equation (12) yields on the order of **10^(−2) s^(−1)**, not the independently quoted `7.93×10^4 s^(−1)`. The article spans multiple parameter regimes; **do not assume this is a direct figure replication until the exact figure scenario is clarified**.
 
-All five checks are *candidate mathematical corrections/author questions*; an externally validated literature-correction finding requires checking the definitive paper version, equations and original numerical code, and ideally contacting the author. The manuscript is a preprint, and its broader collapse program is not thereby proven false. The source audit does not authorize rewriting the Truth Compass or adding unverified findings as physical evidence.
+6. **Equation (15), Diósi–Penrose asymptote:** The printed expression is proportional to `1−R_0/sqrt(R_0²+Δx²)`. As `Δx/R_0→∞`, the rate approaches a **constant**, not a nonsaturating rate that scales as `1/Δx`. Its *difference from the asymptotic plateau* goes as `R_0/Δx`. For `Δx/R_0=10`, the normalized rate is ≈0.9005; for 100, ≈0.9900. This challenges the text immediately after (15), not the entire Diósi–Penrose framework.
+
+All six checks are *candidate mathematical corrections/author questions*; an externally validated literature-correction finding requires checking the definitive paper version, equations and original numerical code, and ideally contacting the author. The manuscript is a preprint, and its broader collapse program is not thereby proven false. The source audit does not authorize rewriting the Truth Compass or adding unverified findings as physical evidence.
 
 ### 5. Why this scientific work matters—and what it does not prove
 
