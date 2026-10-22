@@ -48,6 +48,45 @@ function renderLedger(){
    return '<article class="evidence-card"><div class="evidence-meta"><span class="id">'+html(e.id)+'</span><span class="date">'+html(e.date)+'</span><p class="micro">'+html(e.field)+'</p></div><div><h3>'+html(e.title)+'</h3><span class="pill '+kind+'">'+html(e.kind)+'</span> <span class="pill">'+html(e.status)+'</span><p>'+html(e.finding)+'</p><p class="caption">Evidence grade: '+html(e.strength)+'</p><p><a class="sourcelink" target="_blank" rel="noopener noreferrer" href="'+html(trustedUrl(e.url))+'">'+html(e.source)+' ↗</a></p><p class="source-note">'+html(e.notes)+'</p></div><div><span class="pill">Compass impact: '+(Number(e.impact)>0?'+':'')+html(e.impact)+'</span><p class="caption">'+html(e.direction)+'</p></div></article>';
   }).join(''):'<div class="empty">No entries match those filters. Clear the search or select another category.</div>';
 }
+
+function renderVerdictAudit(){
+ const h=$('verdict-monitor');if(!h||!libraryIndex||!ledger)return;
+ const audit=libraryIndex.verdictAudit||{},works=libraryIndex.works||[],logs=audit.changeLog||[];
+ const reviewed=works.filter(w=>w.access==='abstract-reviewed').length;
+ const finished=works.filter(w=>w.access==='fully-studied').length;
+ const mean=ledger.entries.reduce((sum,e)=>sum+Number(e.impact||0),0);
+ const changed=logs.filter(v=>Number(v.delta||0)!==0).length;
+ h.innerHTML='<div class="verdict-head"><div><span class="kicker">A TRANSPARENT VERDICT · VERSIONED HISTORY</span><h2>Why the compass moves — or does not</h2></div><span class="verdict-badge">'+html(ledger.editorialMeter.score)+'/100 · '+(changed?'Revision recorded':'UNCHANGED')+'</span></div>'+
+ '<p>New articles, recorded research progress, and a changed verdict are three different things. The compass is still an editorial research illustration, never a measured probability of many worlds. We update the underlying verdict only when a methodologically sound source distinguishes competing physical predictions.</p>'+
+ '<div class="verdict-metrics"><div><strong>'+works.length+'</strong><small>CATALOGUED WORKS · REAL REFERENCES</small></div><div><strong>'+reviewed+' abstract checks / '+finished+' full studies</strong><small>DOCUMENTED STUDY DEPTH</small></div><div><strong>'+(mean>0?'+':'')+mean+'</strong><small>COMBINED LEDGER-ENTRY METER IMPACT</small></div></div>'+
+ '<p class="micro">CURRENT SCIENTIFIC JUDGMENT</p><p>'+html(audit.empiricalConclusion||ledger.editorialMeter.empiricalVerdict)+'</p>'+
+ '<div class="verdict-history">'+logs.slice().reverse().map(log=>{
+ const sourceLinks=(log.sourceIds||[]).slice(0,7).map(id=>{
+  const w=works.find(x=>x.id===id);return w?'<a href="'+html(trustedUrl(w.url))+'" target="_blank" rel="noopener noreferrer">'+html(w.id)+' ↗</a>':'<span>'+html(id)+'</span>';
+ }).join(' · ');
+ return '<article><div class="micro">'+html(log.date)+' · '+html(log.id)+' · '+(Number(log.delta||0)===0?'NO VERDICT CHANGE':'VERDICT REVISED')+' · '+html(log.oldScore)+' → '+html(log.newScore)+'</div><p>'+html(log.trigger||'Research reassessment')+': '+html(log.justification||'No explanation recorded.')+'</p><div>'+sourceLinks+'</div></article>';
+ }).join('')+'</div><p class="caption">What can move next? A review that supplies a distinguishing prediction, actual relevant measurements, uncertainty and independent comparison — documented in the versioned audit. Otherwise the meter stays put for an explicit reason.</p>';
+}
+function renderResearchExpansion(){
+ const h=$('lab-program-overview');if(!h||!research||!libraryIndex)return;
+ const all=libraryIndex.works||[],targets=libraryIndex.expansionTargets||{},minimum=targets.minimumCataloguedWorks||400,stretch=targets.stretchCataloguedWorks||4000;
+ const summaries=all.filter(x=>x.access==='abstract-reviewed').length,fully=all.filter(x=>x.access==='fully-studied').length;
+ const tasks=research.disciplines.reduce((n,d)=>n+(d.topics||[]).length,0);
+ h.innerHTML='<span class="kicker">THE LITERATURE EXPANSION · DISCIPLINED GROWTH</span><h2>Tenfold research depth, with a hundredfold horizon.</h2><p>Our original library began with 40 works. The first corpus target is 400 unique verified works, with an ambitious 4,000-work stretch target. More importantly, we aim for 400 substantive full-text critical studies before claiming a mature synthesis; today’s completed count remains honestly separate.</p>'+
+ '<div class="program-stats"><div class="program-stat"><strong>'+all.length+' / '+minimum+'</strong><small>CATALOGUED / FIRST TARGET</small></div><div class="program-stat"><strong>'+fully+' / 400</strong><small>FULL SCIENTIFIC REVIEWS / INITIAL TARGET</small></div><div class="program-stat"><strong>'+summaries+'</strong><small>ABSTRACT / SUMMARY CHECKS</small></div><div class="program-stat"><strong>'+tasks+'</strong><small>SUBJECT TOPICS MAPPED</small></div></div>'+
+ '<div class="program-track" role="progressbar" aria-label="Catalogue growth toward first 400 works" aria-valuemin="0" aria-valuemax="'+minimum+'" aria-valuenow="'+all.length+'"><span style="width:'+Math.min(100,100*all.length/minimum)+'%"></span></div>'+
+ '<p class="caption">'+all.length+' distinct references catalogued. Stretch ambition: '+stretch+' sources. Targets are research plans, not completed readings. No dates or percentages of future study completion are implied.</p>';
+ const bridge=$('cross-lab-overview');if(!bridge)return;
+ const rooms=research.interdisciplinaryLabs||[];
+ bridge.innerHTML='<div class="kicker">BEYOND SPECIALIZATION</div><h2>Interdisciplinary research studios</h2><p>Some questions cross disciplines. The bridge rooms link to the constituent subject research, and future shared simulations will build on those independently documented findings.</p><div class="cross-lab-list">'+rooms.map(room=>{
+  const links=(room.fields||[]).map(field=>{
+   const d=research.disciplines.find(x=>x.name===field);
+   return d?'<a href="#disciplines?lab='+encodeURIComponent(d.slug)+'&room=presentation">'+html(field)+' ↗</a>':'';
+  }).join('');
+  return '<article class="cross-lab-card"><div class="micro">INTERDISCIPLINARY STUDIO · SCOPING STAGE</div><h3>'+html(room.name)+'</h3><p>'+html(room.question)+'</p><div class="micro">INITIAL COMPARATIVE INSTRUMENT</div><p>'+html(room.instrument)+'</p><div class="cross-lab-links">'+links+'</div></article>';
+ }).join('')+'</div>';
+}
+
 function renderMilestones(){
  const h=$('milestone-list');if(!h||!research)return;
  h.innerHTML=research.milestones.map(m=>'<div class="step"><div class="step-n">'+html(m.id.slice(1))+'</div><div style="flex:1"><h3>'+html(m.name)+'</h3><p>'+html(m.completion)+'</p><p class="caption">Acceptance gate: '+html(m.acceptance)+'</p></div><span class="status-tag">'+html(m.state.toUpperCase())+'</span></div>').join('');
@@ -91,6 +130,7 @@ function renderLabDetail(){
   }).join(''):'<div class="empty">No sources match this search. Clear the filter to see the full planned list.</div>';
  }
  search.addEventListener('input',draw);draw();
+ if(window.WorldlineLabEnhance)window.WorldlineLabEnhance(d,works);
 }
 function renderDisciplines(){
  const h=$('disciplines-list');if(!h||!research||!libraryIndex)return;
@@ -98,7 +138,7 @@ function renderDisciplines(){
   const works=plannedWorks(d),completed=works.filter(w=>w.access==='fully-studied').length;
   return '<a class="discipline lab-tile-link" href="#disciplines?lab='+encodeURIComponent(d.slug)+'" aria-label="Open '+html(d.name)+' lab reading plan with '+works.length+' sources"><span class="symbol" aria-hidden="true">'+html(d.symbol)+'</span><span class="tag">'+html(d.state)+'</span><h3>'+html(d.name)+'</h3><div class="micro">'+html(d.theme)+'</div><p>'+html(d.work)+'</p><div class="discipline-reading"><span>'+works.length+' planned sources · '+completed+' fully studied</span><span aria-hidden="true">Explore →</span></div></a>';
  }).join('');
- renderProgram();renderLabDetail();
+ renderProgram();renderResearchExpansion();renderLabDetail();
 }
 function renderJournal(){
  const h=$('journal-body');if(!h||!research)return;
@@ -143,7 +183,7 @@ async function load(){
   [ledger,research,sessions,libraryIndex]=data;
   compass(ledger.editorialMeter.score);
   if($('hero-count'))$('hero-count').textContent=String(ledger.entries.length);
-  renderLedger();renderMilestones();renderDisciplines();renderJournal();renderSessions();
+  renderLedger();renderVerdictAudit();renderMilestones();renderDisciplines();renderJournal();renderSessions();
  }catch(e){
   const message='<div class="empty">The public research files could not be loaded. Try refreshing; the source record is also available in the GitHub repository.</div>';
   for(const id of ['ledger-list','milestone-list','disciplines-list','journal-body'])if($(id))$(id).innerHTML=message;
