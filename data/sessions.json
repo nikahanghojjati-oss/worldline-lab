@@ -9,14 +9,15 @@
     "reason": "Not exposed to the GitHub Pages website."
   },
   "state": "IN PROGRESS",
-  "activeWork": "Continue source-level research on chronology protection and quantum branching. Session Observatory v3 control center and cross-section commit feed have been committed.",
-  "lastVerified": "Session Observatory v3 code and stylesheet committed; four-condition transition meter, project-wide GitHub activity reader, seven workstreams, and minimal handoff packet verified in repository. Interactive end-user browser QA is pending.",
-  "nextStep": "Review detailed primary work on Hawking chronology protection, Gödel CTC geometry, and Deutsch quantum consistency; add section-cited study notes and update the Truth Ledger only when there is genuine discriminating evidence. Test the published Sessions controls on desktop and mobile.",
+  "activeWork": "Session 001: discipline source-reading syllabi and eight-stage research plan committed; continue source-level reviews of chronology protection, quantum branching, and causal models.",
+  "lastVerified": "Nine clickable discipline reading queues and an eight-stage program committed to main; every one of the 40 indexed source records is assigned to at least one lab. JavaScript syntax and data IDs validated against the repository. Published interactive browser QA and final GitHub Pages propagation remain unverified.",
+  "nextStep": "Verify all nine laboratory reading pages on the published site, then complete a source-level study of Hawking chronology protection, Gödel CTC geometry, and Deutsch quantum consistency; write section-cited notes and update the evidence ledger only where discriminating evidence exists.",
   "blocking": [
     "Library initial corpus is selective and not an exhaustive list of relevant contributors.",
     "Study statuses are bibliographically constrained; accessible abstracts and institutional summaries are not equivalent to complete papers or books.",
     "Browser session handoff drafts remain local until explicitly reviewed and saved to GitHub.",
-    "Individual interactive discipline laboratories remain a future milestone."
+    "Discipline labs now contain interactive source reading plans; specialized physics simulations and other discipline tools are still planned.",
+    "A repository commit confirms code publication but does not independently verify all browser controls or GitHub Pages propagation."
   ],
   "sessionHistory": [
     {
@@ -24,7 +25,7 @@
       "date": "2026-10-21",
       "label": "Founding session · Worldline Lab",
       "objective": "Create an open, scientifically disciplined publication and a reliable research continuity system that survives chat boundaries.",
-      "work": "Established scientific atlas, Truth Compass, session continuity protocol, and a multidisciplinary research library with source-linked editorial verdict auditing.",
+      "work": "Established scientific atlas, Truth Compass, session continuity protocol, multidisciplinary library, nine discipline-specific reading queues, and the eight-stage research program with transparent study gates.",
       "status": "Active · initial session",
       "scope": "Research architecture, repository construction, website publication, continuity methods",
       "tokenCount": null,
@@ -39,7 +40,8 @@
           "All verdict change events must link their source IDs and supporting interpretation; no unearned numerical change was made.",
           "Published LIBRARY_PROTOCOL.md and research/field-note-001.md with a source-linked, limited preliminary scientific synthesis.",
           "Introduced a machine-readable transition assessment with explicit documented criteria and a cross-section workstream register.",
-          "Committed Session Observatory v3 with milestone-derived readiness meter and page-open GitHub commits feed, plus documented cross-project update protocol."
+          "Committed Session Observatory v3 with milestone-derived readiness meter and page-open GitHub commits feed, plus documented cross-project update protocol.",
+          "All 40 currently indexed publications have an assigned lab reading queue; completed-study markings are derived from the source library rather than presentation estimates."
         ],
         "unresolved": [
           "Independently verify the newly deployed Session Observatory on desktop and mobile and test clipboard/export.",
@@ -48,7 +50,7 @@
           "Perform detailed full-text reviews with section citations; none is recorded as complete in the founding library index.",
           "Interactive browser validation of new session control widgets, accessibility, responsive layout, and GitHub activity feed is outstanding."
         ],
-        "next": "Review detailed primary work on Hawking chronology protection, Gödel CTC geometry, and Deutsch quantum consistency; add section-cited study notes and update the Truth Ledger only when there is genuine discriminating evidence. Test the published Sessions controls on desktop and mobile."
+        "next": "Verify all nine laboratory reading pages on the published site, then complete a source-level study of Hawking chronology protection, Gödel CTC geometry, and Deutsch quantum consistency; write section-cited notes and update the evidence ledger only where discriminating evidence exists."
       }
     }
   ],
@@ -92,14 +94,14 @@
   },
   "transition": {
     "assessedOn": "2026-10-21",
-    "milestoneName": "Source-level comparison of chronology protection and quantum branching models",
+    "milestoneName": "Source-level comparison of chronology protection and quantum branching, following the newly published lab reading plan",
     "milestoneComplete": false,
     "checkpointCommitted": true,
     "openQuestionsRecorded": true,
     "nextActionDefined": true,
     "naturalBoundary": false,
     "documentedContinuityRisk": "not measured",
-    "decisionBasis": "The handoff packet has 3 of 4 requirements ready; the source-level physics review milestone is not finished. Continue Session 001 unless an explicit serious continuity warning arises.",
+    "decisionBasis": "Session 001 has the milestone of nine lab reading queues and an eight-stage research plan committed. The substantive comparative source-level physics review milestone is still open, and the compact handoff has the required recorded next step; continue Session 001 while research remains coherent.",
     "updatePolicy": "Update data/sessions.json on each substantial research or website milestone. The public Sessions page also fetches recent GitHub commits for near-current activity, while it is open."
   },
   "workstreams": [
@@ -121,8 +123,8 @@
       "area": "Research Library",
       "route": "library",
       "status": "published",
-      "latest": "40 works, 54 scholars, 11 fields, 10 study notes and discipline counts",
-      "next": "Convert priority sources into section-cited full-text critical studies."
+      "latest": "40 indexed works allocated to nine discipline reading lists with paper-level source links and documented reading-depth labels.",
+      "next": "Record the first completed source-level study with dated section citations and update each affected lab automatically."
     },
     {
       "area": "Journal & Research",
@@ -134,9 +136,9 @@
     {
       "area": "Research Laboratories",
       "route": "disciplines",
-      "status": "planned",
-      "latest": "Nine discipline summaries available; dedicated labs not yet built",
-      "next": "Build usable physics and quantum labs first."
+      "status": "published reading queues",
+      "latest": "Nine clickable lab tiles with 40 unique catalogued works allocated across discipline reading lists; priority order, status indicators, and eight research stages.",
+      "next": "Expand source coverage and begin source-level physics and quantum studies; build dedicated simulations later."
     },
     {
       "area": "Origins Atlas",
