@@ -57,3 +57,15 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 .wl-model-movements h3{margin:.2rem 0 .65rem;color:#173d50;font-size:1.3rem}
 .wl-movement{border:1px solid #d1e0df;border-radius:10px;background:#fff;padding:1rem;margin:.8rem 0;line-height:1.5}
 .wl-movement a{color:#185b72;text-decoration:underline}
+
+/* v0.2 research evidence: source-derived white-noise CSL limits, no fake combined odds */
+.wl-csl-view{margin:1.5rem 0;padding:1rem;border:1px solid #c0d5d6;border-radius:14px;background:rgba(230,242,240,.65)}
+.wl-csl-view h2{font-size:clamp(1.25rem,3vw,1.7rem);line-height:1.25;margin:.45rem 0 .75rem}
+.wl-csl-view p{max-width:82ch;line-height:1.6}
+.wl-csl-view a{color:#225c74;text-decoration:underline}
+.wl-csl-scroll{overflow-x:auto;max-width:100%;outline-offset:4px}
+.wl-csl-scroll table{min-width:710px;width:100%;border-collapse:collapse;font-size:.9rem;background:#fff}
+.wl-csl-scroll th,.wl-csl-scroll td{padding:.7rem .85rem;text-align:left;vertical-align:top;border-bottom:1px solid #d3e0df}
+.wl-csl-scroll th{background:#dcebe9;color:#184354}
+.wl-csl-scroll small{display:block;color:#4c6068;line-height:1.5;font-size:.79rem;margin-top:.25rem;max-width:40ch}
+@media(max-width:620px){.wl-csl-view{padding:.7rem}.wl-csl-scroll table{min-width:680px}}
