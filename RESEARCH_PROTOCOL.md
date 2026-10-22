@@ -28,3 +28,6 @@ Map coordinates denote a broadly associated institution for cited studies where 
 
 ## Public site
 GitHub Pages publishes from `main` root. The browser site is read-only against the canonical research JSON; no GitHub token is shipped to browsers. Publications must be committed to the repository.
+
+## Primary question — owner-approved 2026-10-21
+**Does the physical universe inhabited by human observers contain one physically realized history or multiple physically real timelines/branches?** This question supersedes the time-travel-first framing. Treat Everettian quantum branches, Bohmian definite particle histories, objective-collapse models, cosmological inflationary bubbles, and a person's one observed record as carefully separated claims. Backward travel, CTCs and grandfather paradoxes remain supporting questions, not prerequisites. Scientific verdict shifts require model-specific, independently attributable, discriminating observations; never count Bell violations, decoherence, simulations or cosmological bubbles as direct branch observations. Preserve all previously planned labs, atlas, library and sessions, 75% research/25% website priority, truthful source depth and mandatory every-round Session Observatory closure. The next research body should build a quantitative predictions matrix; see research/field-note-004.md and audit VC-006.
