@@ -1,7 +1,7 @@
 {
   "schema": "worldline-truth-engine/v0.2",
   "updated": "2026-10-21",
-  "releaseStatus": "candidate-structure-only",
+  "releaseStatus": "v0.2 W20-01 CI verified; W20-02 proposal-gate logic and W20-03 reversible decision primitive implemented/tested; full end-to-end approved-revision flow and W20-04 accessibility remain candidates, not shipped",
   "scope": "Local validation of source metadata, independent citations, URL format, geographic precision fields and mandatory proposal evidence. Does not establish any scientific truth or URL availability.",
   "baseline": {
     "score": 50,
@@ -34,17 +34,34 @@
       "priorAuditId",
       "reviewedEvidenceCommit",
       "oldScore",
-      "proposedScore"
+      "proposedScore",
+      "target",
+      "testedObservable",
+      "measurement",
+      "controls",
+      "discriminationArgument",
+      "reviewer",
+      "scoreMapping"
     ],
     "humanScientificReviewRequired": true,
     "automaticMeterChange": false,
-    "sourceReviewMustPrecedeProposal": true
+    "sourceReviewMustPrecedeProposal": true,
+    "localReviewerModule": "tools/truth-engine/review.cjs",
+    "reviewerGate": "check(p,data), record(p,data,review stamp), reverse(prior decision,current score,review stamp) in trusted Node, with real source/notes IDs and reviewed evidence commit SHA; no browser can mutate or auto-approve",
+    "noAutoWrites": true
   },
   "proposals": [],
   "changeLedger": [],
   "historicAudits": {
     "authority": "data/library.json verdictAudit.changeLog",
-    "latestId": "VC-010",
+    "latestId": "VC-011",
     "rule": "Past no-change VC records remain immutable; this array records future scored revisions only. A future revision must reference the previous audit and evidence-bearing repository commit."
+  },
+  "releaseAcceptance": {
+    "w2001": "verified: local data schema CI",
+    "w2002": "verified unit-level gate, pending integration to end-to-end governed proposals",
+    "w2003": "tested versioned decision and reversible record primitives, no real nonzero score approvals",
+    "w2004": "site ledger source movement published, browser/mobile review UX not independently verified",
+    "v025": "nine existing reading rooms and eight stages static fixture tests added; live navigation/back/phone keyboard QA open"
   }
 }
