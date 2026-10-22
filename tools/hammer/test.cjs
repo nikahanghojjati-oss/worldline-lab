@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const hammer=require('../../assets/hammer-core.js');
+const fixture=JSON.parse(fs.readFileSync(path.join(__dirname,'../../data/hammer.json'),'utf8'));
+const r=hammer.forge(fixture);
+assert.equal(r.results.length,3);
+assert.equal(r.centralVerdict,'UNRESOLVED');
+assert.equal(r.proposedLedgerScoreChange,0);
+const a=Object.fromEntries(r.results.map(x=>[x.id,x]));
+assert.equal(a['HM-001'].robustJSBits,0,'matched Everett/Bohm pointer distributions');
+assert.equal(a['HM-003'].robustJSBits,0,'nuisance impostor should defeat the nominal apparent discovery');
+assert.ok(a['HM-002'].robustJSBits>0,'specified conditional physical-loss separation');
+assert.ok(a['HM-002'].nominalJSBits>a['HM-002'].robustJSBits,'adversarial stress test must lower nominal apparent separation');
+assert.equal(hammer.jsd([.5,.5],[.5,.5]),0);
+assert.ok(Math.abs(hammer.jsd([1,0],[0,1])-1)<1e-12);
+assert.throws(()=>hammer.validate({...fixture,designs:[{...fixture.designs[0],models:[{...fixture.designs[0].models[0],variants:[{assumptions:'overconfident assumptions',p:[.9,.9]}]},fixture.designs[0].models[1]]}]}),/not normalized/);
+assert.throws(()=>hammer.validate({...fixture,designs:[{...fixture.designs[0],evidenceClass:'measured'}]}),/unverified measurements/);
+assert.throws(()=>hammer.validate({...fixture,designs:[fixture.designs[0],fixture.designs[0]]}),/duplicate/);
+assert.throws(()=>hammer.validate({...fixture,designs:[{...fixture.designs[0],sources:[]}]}),/source IDs/);
+console.log('PASS HAMMER theory forge: no-go, robust wedge, adversarial false-positive veto, normalization, provenance, no autonomous ledger move.');
