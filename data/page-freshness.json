@@ -1,0 +1,132 @@
+{
+  "schema": "worldline-page-freshness/v1",
+  "updated": "2026-10-22",
+  "policy": "Session Observatory and main decision packet immediately after every substantive round. Every fifth completed round refresh/revalidate all eight public page routes, with live-source content updates or explicit no-new-source reason. Static CI enforces the sweep. Critical factual errors never wait.",
+  "roundCountAtBaseline": 12,
+  "lastCompletedSweepRoundLogCount": 9,
+  "nextMandatorySweepRoundLogCount": 14,
+  "nextMandatorySweep": "S-002-R010",
+  "cadenceRounds": 5,
+  "requiredRoutes": [
+    "home",
+    "dashboard",
+    "ledger",
+    "journal",
+    "disciplines",
+    "atlas",
+    "library",
+    "sessions"
+  ],
+  "pages": [
+    {
+      "route": "home",
+      "lastContentRound": "S-002-R005",
+      "verifiedBasis": "Compass neutral 50 corrected on homepage; leading question remains current",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Homepage hero/editorial and Observatory shortcut accuracy",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    },
+    {
+      "route": "dashboard",
+      "lastContentRound": "S-002-R005",
+      "verifiedBasis": "Neutral baseline and three hypothesis summaries; formula test plan not yet summarized",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Prior assumptions vs conditional model support and experiments",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    },
+    {
+      "route": "ledger",
+      "lastContentRound": "S-002-R008",
+      "verifiedBasis": "Five-channel CSL comparison rendered and WL-018/MOVE-008 source-linked",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Display central discriminator queue and conditional scoring warnings",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    },
+    {
+      "route": "journal",
+      "lastContentRound": "S-002-R008",
+      "verifiedBasis": "J-009 latest scientific reconstruction driven from research.json",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Link the latest question-first report and original experimental test queue",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    },
+    {
+      "route": "disciplines",
+      "lastContentRound": "S-002-R008",
+      "verifiedBasis": "Physics, chemistry and quantum labs dynamically updated with source review highlights",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Survey all nine room labels for stale R003/R006 claims",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    },
+    {
+      "route": "atlas",
+      "lastContentRound": null,
+      "verifiedBasis": "No recent content refresh verified; informational markers are not branch or experiment geotags",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Full factual refresh and provenance label; do not invent new markers",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    },
+    {
+      "route": "library",
+      "lastContentRound": "S-002-R005",
+      "verifiedBasis": "Library uses dynamic work and notes JSON; old introduction/reviewer explanation might be stale",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Source status and no historic 59 explanation conflicts; link central question sources",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    },
+    {
+      "route": "sessions",
+      "lastContentRound": "S-002-R008",
+      "verifiedBasis": "Live session data from canonical JSON, seven streams; UI last changed earlier",
+      "lastFullSweepRound": null,
+      "lastFullSweepEvidenceCommit": null,
+      "lastFullSweepAction": null,
+      "lastFullSweepReason": null,
+      "interactiveBrowserChecked": false,
+      "sweepTask": "Make latest round, next 5-round sweep due and per-route audit status prominently visible",
+      "status": "DUE AT R010; dynamic GitHub data available; not independently end-to-end browser verified"
+    }
+  ],
+  "everyRoundRequirements": [
+    "Update canonical data/sessions.json all seven workstreams, roundLog and decision CONTINUE/HANDOFF in same round",
+    "Refresh source-linked question-answer decision, test outcome, assumptions and next falsifiable discriminator",
+    "Update data/ledger.json whenever actual specific scientific claim evidence changes; VC audit is not an automatic score shift",
+    "Show public live source-derived round status and latest decision on each page"
+  ],
+  "mandatorySweepAcceptance": [
+    "Record eight page audits with latest one-history vs many evidence and source provenance",
+    "At least one genuinely reviewed scientific finding per relevant page, or explicit evidence-backed no-new-source and accuracy check",
+    "Check misleading historic hardcoded text, missing source links and stale progress counts",
+    "Document keyboard/phone/browser status honestly, do not claim a manual run when none happened",
+    "Record observed/blocked layout/route behavior and fixes with GitHub SHA",
+    "GitHub CI rejects omitted five-round full route audit; website still requires human browser signoff"
+  ]
+}
