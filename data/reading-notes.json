@@ -922,6 +922,219 @@
         "appendicesAsRecorded": true,
         "independentFullReproduction": false
       }
+    },
+    {
+      "id": "NOTE-043",
+      "workId": "SRC-010",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R001",
+      "stage": "fully-studied",
+      "label": "Full main-text critique of Bohm (1952) Part I",
+      "basis": "Original complete https://cqi.inf.usi.ch/qic/bohm1.pdf, Phys Rev 85 166–179",
+      "sectionsRead": [
+        "Abstract, introduction, §§2–9, decomposed Schrödinger equation, Born distribution, quantum potential, two slits, scattering, hypothetical modifications"
+      ],
+      "summary": "Schrödinger wave psi=R exp(iS/ħ) and v=grad S/m with rho=abs(psi)^2 share transport; equilibrium yields standard Born frequencies despite a single particle configuration.",
+      "method": "Crosschecked quantum continuity/equivariance and conceptual slit trajectories; did not independently integrate many-body detector trajectories.",
+      "limitations": "The quantum-equilibrium assumption and nonlocal many-body/relativistic extensions remain; modified microscopic models differ from orthodox Bohm.",
+      "alternativeExplanations": "Everett many real branch records with same operational Born law; GRW true altered dynamical evolution.",
+      "conclusion": "Single actual Bohmian configuration and unitary Everett are not distinguished by ordinary statistics.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire original main text critically read; proof/data/supplement replication NOT certified",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-008",
+        "WL-010"
+      ],
+      "fieldNote": "research/full-study-batch-002.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-044",
+      "workId": "SRC-059",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R001",
+      "stage": "fully-studied",
+      "label": "Full main-text critique of Bohm (1952) Part II",
+      "basis": "Original complete https://cqi.inf.usi.ch/qic/bohm2.pdf, Phys Rev 85 180–193",
+      "sectionsRead": [
+        "Intro §§2–10 on measurement, pointer coupling, uncertainty and EPR, nonlocal effects, von Neumann's premise, Appendix A electromagnetic fields and Appendix B objections"
+      ],
+      "summary": "Conditional pointer packets can coexist in wavefunction while only one actual Bohm configuration lies in one packet; quantum equilibrium gives Born frequencies.",
+      "method": "Traced apparatus interaction, disjoint pointer support and EPR nonlocal wave-guidance consistency; reviewed both appendices conceptually.",
+      "limitations": "Ideal pointer separation, equilibrium and non-relativistic premises; full field derivations/experimental trajectories not reproduced.",
+      "alternativeExplanations": "Everett all branches physical and GRW physical stochastic collapse make different ontological or dynamical claims.",
+      "conclusion": "Bell violations do not exclude explicitly nonlocal standard Bohmian mechanics.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire original main text critically read; proof/data/supplement replication NOT certified",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-008",
+        "WL-010"
+      ],
+      "fieldNote": "research/full-study-batch-002.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-045",
+      "workId": "SRC-065",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R001",
+      "stage": "fully-studied",
+      "label": "Full main-text critique of Hensen et al. (2016) second loophole-free spin Bell test",
+      "basis": "Original complete https://www.nature.com/articles/srep30289, Scientific Reports 6 30289",
+      "sectionsRead": [
+        "Abstract, introduction, setup, 300-trial result, both heralded states, conventional/complete significance, 545 pooled trials, RNG timing/bias theorem to Eq35, methods/discussion"
+      ],
+      "summary": "Second run S=2.35±0.18, full p=.061 rather than conventional .029. Combined S=2.38±.136; full p=.017 via run-independent Fisher or .0080 in pooled 545 trials.",
+      "method": "Compared explicitly different null assumptions and calculated naive (S−2)/.18~1.94 but did not substitute it for rigorous p.",
+      "limitations": "Apparatus timing, free input settings and event-ready independence remain assumptions; raw detector events and supplementary statistics not rerun.",
+      "alternativeExplanations": "Nonlocal Bohmian and Everett give same Bell statistics; cannot discriminate outcome-history ontology.",
+      "conclusion": "Limits specified local hidden variable models, not single-history realism.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Entire original main text critically read; proof/data/supplement replication NOT certified",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-010"
+      ],
+      "fieldNote": "research/full-study-batch-002.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-046",
+      "workId": "SRC-007",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R001",
+      "stage": "abstract-reviewed",
+      "label": "Everett 1957 source-scope audit for ontology predictions",
+      "basis": "Original publisher DOI https://doi.org/10.1103/RevModPhys.29.454; crosschecked prior SRC-012 S-001 full SEP review",
+      "sectionsRead": [
+        "Original abstract/metadata and earlier full critical scholarly interpretation, not original full Everett main paper"
+      ],
+      "summary": "Strict relative-state unitary account and Born probabilities compared to standard equilibrium Bohm predictions.",
+      "method": "Derived independent 2×2 reduced system matrix in S-002 report; not an Everett original-paper full reconstruction.",
+      "limitations": "Everett's original Born-weight proof, other sections and appendices have not been completely reviewed in this round.",
+      "alternativeExplanations": "Bohmian single actual configurations and physical GRW collapse.",
+      "conclusion": "Keep original Everett access abstract-reviewed, not a new full study.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Only abstract or identified original passage examined; NOT full main text",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-010"
+      ],
+      "fieldNote": "research/ontology-predictions-S002-R001.md",
+      "fullReviewVerified": {
+        "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-047",
+      "workId": "SRC-066",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R001",
+      "stage": "abstract-reviewed",
+      "label": "XENONnT 2026 primary-publisher targeted collapse constraints",
+      "basis": "Original https://journals.aps.org/prl/abstract/10.1103/2jm3-4976, published 2026-03-23",
+      "sectionsRead": [
+        "Publisher abstract and targeted original article model passages; full spectra, methods and supplement NOT fully examined"
+      ],
+      "summary": "XENONnT first-run 1–140 keV X-rays with electron–proton cancellation model, reports 100× CSL and 5× DP improved constraints and originally proposed Markovian CSL region exclusions.",
+      "method": "Checked channel, material and relative exclusion claims only; no fit/likelihood independent reconstruction.",
+      "limitations": "Depend on dynamical-collapse model, background, charge cancellation and parameter conventions; not generic exclusion of collapse.",
+      "alternativeExplanations": "Other stochastic noise/correlation choices; conventional X-ray backgrounds; unitary QM.",
+      "conclusion": "Parameter exclusions do not physically count Everett branches; remain abstract-reviewed.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Only abstract or identified original passage examined; NOT full main text",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-011"
+      ],
+      "fieldNote": "research/ontology-predictions-S002-R001.md",
+      "fullReviewVerified": {
+        "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-048",
+      "workId": "SRC-067",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R001",
+      "stage": "abstract-reviewed",
+      "label": "2024 LISA Pathfinder kg-mass collapse constraints abstract",
+      "basis": "Original arXiv v1 https://arxiv.org/abs/2411.17588, submitted 2024-11-26",
+      "sectionsRead": [
+        "Original complete abstract and metadata only; no full seven-page paper"
+      ],
+      "summary": "LISA-based reported CSL bound lambda≤8.3×10^-11 /s for rC=10^-7m; underground lambda≤3×10^-11 /s is authors' possible future sensitivity.",
+      "method": "Extracted parameter condition and distinguished observational bound from forecast.",
+      "limitations": "No independent reading of acceleration noise spectrum, geometry or confidence calculations.",
+      "alternativeExplanations": "Conventional force noise or alternate CSL modeling.",
+      "conclusion": "Restricts specified model parameters, not history count; abstract-reviewed.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Only abstract or identified original passage examined; NOT full main text",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-011"
+      ],
+      "fieldNote": "research/ontology-predictions-S002-R001.md",
+      "fullReviewVerified": {
+        "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-049",
+      "workId": "SRC-042",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R001",
+      "stage": "abstract-reviewed",
+      "label": "GRW 1986 original scope and independent-hit illustrative toy check",
+      "basis": "Original DOI https://doi.org/10.1103/PhysRevD.34.470; ontology-predictions S002-R001",
+      "sectionsRead": [
+        "Publisher abstract and source model description only, entire original main text unavailable"
+      ],
+      "summary": "Illustrative GRW Poisson-hit model at N=10^12, lambda=10^-16/s, rc=10^-7m, d=10^-6m, t=10s gives Vratio ~0.9990005.",
+      "method": "Algebraic Nlambda(1−exp(−d²/(4rc²))) t evaluation; not a composite-body or CSL derivation.",
+      "limitations": "Original GRW mathematics not fully read; detector feasibility, mass geometry and environmental decoherence omitted.",
+      "alternativeExplanations": "Standard unitary decoherence can mimic signal; different CSL equations.",
+      "conclusion": "Shows conditional falsifiability, not observed collapse or branch multiplicity; abstract-reviewed.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Only abstract or identified original passage examined; NOT full main text",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-010",
+        "WL-011"
+      ],
+      "fieldNote": "research/ontology-predictions-S002-R001.md",
+      "fullReviewVerified": {
+        "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
     }
   ]
 }
