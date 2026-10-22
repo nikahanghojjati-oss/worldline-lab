@@ -1120,6 +1120,134 @@
       "verdictEffect": "none",
       "effectReason": "Assumed wormhole-ring geometry, not a demonstrated apparatus or measured branching.",
       "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-058",
+      "field": "Quantum foundations",
+      "title": "Decoherence, the measurement problem, and interpretations of quantum mechanics",
+      "authors": [
+        "Maximilian Schlosshauer"
+      ],
+      "year": 2005,
+      "type": "review",
+      "url": "https://doi.org/10.1103/RevModPhys.76.1267",
+      "role": "What decoherence explains and what it leaves open",
+      "access": "abstract-reviewed",
+      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "linkedLedger": [
+        "WL-008"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "No direct unique history-count discrimination.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-059",
+      "field": "Quantum foundations",
+      "title": "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables. II",
+      "authors": [
+        "David Bohm"
+      ],
+      "year": 1952,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRev.85.180",
+      "role": "Single actual particle configurations and nonlocal correlations",
+      "access": "abstract-reviewed",
+      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "linkedLedger": [
+        "WL-008"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "No direct unique history-count discrimination.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-060",
+      "field": "Quantum information",
+      "title": "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres",
+      "authors": [
+        "Bas Hensen",
+        "Ronald Hanson"
+      ],
+      "year": 2015,
+      "type": "paper",
+      "url": "https://doi.org/10.1038/nature15759",
+      "role": "Measured nonlocal quantum correlations, not branch existence",
+      "access": "abstract-reviewed",
+      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "linkedLedger": [
+        "WL-008"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "No direct unique history-count discrimination.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-061",
+      "field": "Quantum information",
+      "title": "A strong loophole-free test of local realism",
+      "authors": [
+        "Lynden Shalm",
+        "Sae Woo Nam"
+      ],
+      "year": 2015,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevLett.115.250402",
+      "role": "Measured photon Bell violation, not world count",
+      "access": "abstract-reviewed",
+      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "linkedLedger": [
+        "WL-008"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "No direct unique history-count discrimination.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-062",
+      "field": "Cosmology",
+      "title": "First Observational Tests of Eternal Inflation",
+      "authors": [
+        "Stephen Feeney",
+        "Matthew C. Johnson",
+        "Daniel J. Mortlock",
+        "Hiranya V. Peiris"
+      ],
+      "year": 2011,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevLett.107.071301",
+      "role": "CMB search for bubble collisions, separate from Everett",
+      "access": "abstract-reviewed",
+      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "linkedLedger": [
+        "WL-008"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "No direct unique history-count discrimination.",
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "id": "SRC-063",
+      "field": "Cosmology",
+      "title": "Forecasting constraints from the cosmic microwave background on eternal inflation",
+      "authors": [
+        "Stephen Feeney",
+        "Franz Elsner",
+        "Matthew C. Johnson",
+        "Hiranya V. Peiris"
+      ],
+      "year": 2015,
+      "type": "paper",
+      "url": "https://doi.org/10.1103/PhysRevD.92.083515",
+      "role": "Conditional observational forecasts for cosmic bubble collisions",
+      "access": "abstract-reviewed",
+      "note": "Original publisher/institution abstract inspected, 2026-10-21, research/field-note-004.md. Author list may be abbreviated; not full paper study.",
+      "linkedLedger": [
+        "WL-008"
+      ],
+      "verdictEffect": "none",
+      "effectReason": "No direct unique history-count discrimination.",
+      "verifiedAt": "2026-10-21"
     }
   ],
   "scholars": [
@@ -1275,7 +1403,8 @@
         "Quantum foundations"
       ],
       "works": [
-        "SRC-010"
+        "SRC-010",
+        "SRC-059"
       ],
       "focus": "Single-outcome alternative framework"
     },
@@ -2115,11 +2244,124 @@
         "SRC-057"
       ],
       "focus": "Reliability limits and model dependence in chronology protection"
+    },
+    {
+      "id": "R-089",
+      "name": "Maximilian Schlosshauer",
+      "fields": [
+        "Quantum foundations"
+      ],
+      "works": [
+        "SRC-058"
+      ],
+      "focus": "What decoherence explains and what it leaves open"
+    },
+    {
+      "id": "R-090",
+      "name": "Bas Hensen",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-060"
+      ],
+      "focus": "Measured nonlocal quantum correlations, not branch existence"
+    },
+    {
+      "id": "R-091",
+      "name": "Ronald Hanson",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-060"
+      ],
+      "focus": "Measured nonlocal quantum correlations, not branch existence"
+    },
+    {
+      "id": "R-092",
+      "name": "Lynden Shalm",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-061"
+      ],
+      "focus": "Measured photon Bell violation, not world count"
+    },
+    {
+      "id": "R-093",
+      "name": "Sae Woo Nam",
+      "fields": [
+        "Quantum information"
+      ],
+      "works": [
+        "SRC-061"
+      ],
+      "focus": "Measured photon Bell violation, not world count"
+    },
+    {
+      "id": "R-094",
+      "name": "Stephen Feeney",
+      "fields": [
+        "Cosmology"
+      ],
+      "works": [
+        "SRC-062",
+        "SRC-063"
+      ],
+      "focus": "CMB search for bubble collisions, separate from Everett"
+    },
+    {
+      "id": "R-095",
+      "name": "Matthew C. Johnson",
+      "fields": [
+        "Cosmology"
+      ],
+      "works": [
+        "SRC-062",
+        "SRC-063"
+      ],
+      "focus": "CMB search for bubble collisions, separate from Everett"
+    },
+    {
+      "id": "R-096",
+      "name": "Daniel J. Mortlock",
+      "fields": [
+        "Cosmology"
+      ],
+      "works": [
+        "SRC-062"
+      ],
+      "focus": "CMB search for bubble collisions, separate from Everett"
+    },
+    {
+      "id": "R-097",
+      "name": "Hiranya V. Peiris",
+      "fields": [
+        "Cosmology"
+      ],
+      "works": [
+        "SRC-062",
+        "SRC-063"
+      ],
+      "focus": "CMB search for bubble collisions, separate from Everett"
+    },
+    {
+      "id": "R-098",
+      "name": "Franz Elsner",
+      "fields": [
+        "Cosmology"
+      ],
+      "works": [
+        "SRC-063"
+      ],
+      "focus": "Conditional observational forecasts for cosmic bubble collisions"
     }
   ],
   "verdictAudit": {
     "currentScore": 59,
-    "empiricalConclusion": "Unresolved: no confirmed empirical discrimination between a single experienced physical history and branching Everettian histories, nor demonstration of traversable backward time travel.",
+    "empiricalConclusion": "Undetermined: one experienced record is observed, but the physically real multiplicity of quantum histories is not uniquely established or excluded by reviewed evidence.",
     "initialScoreExplanation": "59 is a preexisting editorial illustration, not a scientifically validated Bayesian posterior. No newly indexed work warrants an adjustment.",
     "changeLog": [
       {
@@ -2248,6 +2490,46 @@
         ],
         "fieldNote": "research/field-note-003.md",
         "justification": "KRW proves mathematical obstruction to standard linear quantum fields at base points of compactly generated Cauchy horizons, while Visser questions reliability of semiclassical-backreaction predictions. These qualified theoretical findings neither demonstrate a constructed CTC nor empirically distinguish one realized history from Everett branching. The editorial indicator cannot be updated for source volume or mathematical difficulty."
+      },
+      {
+        "id": "VC-006",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Shift core inquiry to one actual physical timeline versus multiple; six primary source-review themes and PBR scope check",
+        "sourceIds": [
+          "SRC-007",
+          "SRC-010",
+          "SRC-011",
+          "SRC-012",
+          "SRC-042",
+          "SRC-044",
+          "SRC-048",
+          "SRC-058",
+          "SRC-059",
+          "SRC-060",
+          "SRC-061",
+          "SRC-062",
+          "SRC-063"
+        ],
+        "ledgerIds": [
+          "WL-005",
+          "WL-008",
+          "WL-009"
+        ],
+        "readingNotes": [
+          "NOTE-026",
+          "NOTE-027",
+          "NOTE-028",
+          "NOTE-029",
+          "NOTE-030",
+          "NOTE-031",
+          "NOTE-032"
+        ],
+        "fieldNote": "research/field-note-004.md",
+        "justification": "Everett, Bohm and collapse models differ in interpretation and sometimes predictions but currently reviewed Bell, coherence and CMB results do not uniquely count actual branches. Bubble cosmology differs from quantum branching. The old 59/100 compass remains non-probabilistic editorial orientation."
       }
     ],
     "revisionRequirements": [
