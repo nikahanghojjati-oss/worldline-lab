@@ -475,6 +475,146 @@
         "WL-007"
       ],
       "fieldNote": "research/field-note-003.md"
+    },
+    {
+      "id": "NOTE-026",
+      "workId": "SRC-012",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Everett relative-state branch ontology",
+      "basis": "SEP revised June 2026 §§1,2.1,6; Everett 1957 publisher journal page",
+      "summary": "In Everett one evolving universal quantum state may contain many branch-relative macroscopic histories, but branch ontology is interpretive and no accessible direct branch census has been measured.",
+      "limitations": "Original Everett paper not fully read; preferred basis and Born weights require deeper criticism.",
+      "alternativeExplanations": "Multiple physical ontologies can yield indistinguishable current quantum statistics; avoid reading experiment as a branch census.",
+      "conclusion": "Central one-versus-many actual-history question not experimentally settled.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/field-note-004.md"
+    },
+    {
+      "id": "NOTE-027",
+      "workId": "SRC-011",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Decoherence does not select one actual outcome",
+      "basis": "Zurek 2003 and Schlosshauer 2005 publisher abstracts",
+      "summary": "Environmental entanglement suppresses accessible subsystem interference and makes robust records, but doesn't independently settle the global existence of additional branches.",
+      "limitations": "Full reduced-state derivation and device-specific environment not checked.",
+      "alternativeExplanations": "Multiple physical ontologies can yield indistinguishable current quantum statistics; avoid reading experiment as a branch census.",
+      "conclusion": "Central one-versus-many actual-history question not experimentally settled.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/field-note-004.md"
+    },
+    {
+      "id": "NOTE-028",
+      "workId": "SRC-010",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Bohmian definite particles as one-actual-outcome countermodel",
+      "basis": "Bohm 1952 Parts I and II publisher abstracts; SEP introductory comparison",
+      "summary": "One actual particle configuration guided nonlocally by the wave can reproduce usual quantum statistics in equilibrium.",
+      "limitations": "No full original equations or equilibrium derivation verified.",
+      "alternativeExplanations": "Multiple physical ontologies can yield indistinguishable current quantum statistics; avoid reading experiment as a branch census.",
+      "conclusion": "Central one-versus-many actual-history question not experimentally settled.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/field-note-004.md"
+    },
+    {
+      "id": "NOTE-029",
+      "workId": "SRC-042",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "GRW physical collapse versus persistence of coherence",
+      "basis": "GRW 1986 and Fein et al. 2019 original publisher abstracts",
+      "summary": "Objective collapse changes dynamical predictions; molecule interferometry excludes specific modifications while not proving multiple actual worlds.",
+      "limitations": "Full model parameters and experiment background corrections not yet reproduced.",
+      "alternativeExplanations": "Multiple physical ontologies can yield indistinguishable current quantum statistics; avoid reading experiment as a branch census.",
+      "conclusion": "Central one-versus-many actual-history question not experimentally settled.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/field-note-004.md"
+    },
+    {
+      "id": "NOTE-030",
+      "workId": "SRC-060",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Loophole-free Bell test is not a world-count measurement",
+      "basis": "Hensen 2015 Nature and Shalm 2015 NIST/PRL primary abstracts",
+      "summary": "Hensen spin Bell test reports 245 trials and CHSH S=2.42±0.20; Shalm photon tests strong Bell violation; both constrain specified local realism, not Everett versus nonlocal Bohmian ontology.",
+      "limitations": "Complete trial data and selection/calibration methods not reviewed.",
+      "alternativeExplanations": "Multiple physical ontologies can yield indistinguishable current quantum statistics; avoid reading experiment as a branch census.",
+      "conclusion": "Central one-versus-many actual-history question not experimentally settled.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/field-note-004.md"
+    },
+    {
+      "id": "NOTE-031",
+      "workId": "SRC-062",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Eternal inflation bubbles distinct from Everett branches",
+      "basis": "Feeney 2011 PRL and 2015 PRD original abstracts",
+      "summary": "WMAP 7-year search did not warrant a bubble-collision addition; even a bubble would be cosmological structure rather than a quantum branch.",
+      "limitations": "Full likelihood analysis and comparison with later satellite data not studied.",
+      "alternativeExplanations": "Multiple physical ontologies can yield indistinguishable current quantum statistics; avoid reading experiment as a branch census.",
+      "conclusion": "Central one-versus-many actual-history question not experimentally settled.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/field-note-004.md"
+    },
+    {
+      "id": "NOTE-032",
+      "workId": "SRC-044",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "PBR quantum state reality is not a proof of branch multiplicity",
+      "basis": "Pusey Barrett Rudolph 2012 Nature Physics publisher abstract",
+      "summary": "Under preparation independence, some epistemic-state theories conflict with quantum predictions, without establishing multiple actual outcome histories.",
+      "limitations": "Theorem proof and preparation independence were not reconstructed.",
+      "alternativeExplanations": "Multiple physical ontologies can yield indistinguishable current quantum statistics; avoid reading experiment as a branch census.",
+      "conclusion": "Central one-versus-many actual-history question not experimentally settled.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008"
+      ],
+      "fieldNote": "research/field-note-004.md"
     }
   ]
 }
