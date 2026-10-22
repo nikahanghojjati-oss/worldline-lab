@@ -22,6 +22,22 @@ The atlas is a stylized diagram. A true geographic projection or 3D globe has NO
 - Distinguish weighted research priority from empirical probability. Do not use evidence of time dilation to award many-worlds proof.
 - Acceptance: any score revision can be traced to its underlying reviewed data and reversible scientific argument.
 
+
+## Release 0.26 · Expanded field presentation rooms, first instruments, and literature-scale plan (2026-10-21)
+Preservation contract: the reading plan and status checklist never disappear when a field gets a presentation room or interactive laboratory. Each of the nine disciplines now has three room views: (1) linked source-reading plan; (2) research-topic presentation deck; (3) a functional introductory exploratory instrument. The initial instrument is a small labelled teaching model. Domain-specific validated research simulations and explanatory visualization suites remain future work.
+
+- 54 mapped research subtopics (six in each of nine discipline areas) define what to search next, with source provenance to be added as items are reviewed.
+- 3 interdisciplinary studio directions now link physics, chemistry, biology, quantum information, neuroscience, history, AI and mathematics. Shared interactive models and comparative evidence synthesis are staged for expansion.
+- Literature targets are genuine study goals, not forecasts: 400 unique verified works first (10 times the founding 40); 4,000 as an ambitious stretch (100 times). Scientific depth target: 400 documented full-text critical reviews first; the long-term stretch is 4,000 such reviews where relevant and feasible. Do not pretend a bibliography entry is a completed reading.
+- Stage all intake through unique title/DOI checks, traceable source, research relevance, abstracts versus full text, and explicit counterevidence. Every completed review requires dated, section-level notes and linked research session.
+- Evidence/progress display: catalogue counts, abstract checks and completed readings appear independently of the unchanged or updated Truth Compass. Each verdict assessment is saved as a change or no-change event, with source IDs and a falsifiable justification.
+- Planned phase 2: richer subject-specific models (not merely the introductory teaching sliders), scholarly audiovisual presentation rooms, verifiable experiment and observation sourcing, computational replication and interdisciplinary comparative research stations.
+- No source count or interface interaction automatically changes a scientific verdict.
+
+### Scientific reality check
+Growing the number of sources is useful only when it increases coverage of relevant, independent and contradictory research. Hundreds of unexamined or duplicate citations do not equal rigorous science. The final answer may remain unresolved because different interpretations share experimentally identical predictions.
+
+
 ## Release 0.3 · Atlas and provenance
 - Add an accessible, zoomable 2D geographic map showing the institution, experiment site, observation instrument and publication location as separate spatial fields.
 - Add a 3D Earth globe progressively, only with verified coordinates and clear source attribution; preserve a usable 2D fallback on mobile.
@@ -52,4 +68,4 @@ The atlas is a stylized diagram. A true geographic projection or 3D globe has NO
 - Acceptance: an immutable record shows what was searched, when, and why conclusions did or did not change.
 
 ## Next atomic work unit
-Implement ledger schema validation and exact-source scientific classification checks. Read RESEARCH_PROTOCOL.md, data/ledger.json and data/sessions.json. Avoid unrelated interface refactors until that unit has a tested acceptance gate.
+Verify new room navigation and model math across desktop/mobile, then carry out source-level reviews of chronology protection, quantum branching and competing measurement dynamics, with section-cited notes. Add automated uniqueness and source-schema validation for the enlarged bibliography. Every significant lab or reading milestone must update data/sessions.json and the verdict audit; there is no forced compass movement.
