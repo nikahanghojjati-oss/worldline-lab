@@ -95,8 +95,43 @@ function validate(data){
    if(p.oldScore!==ledger.editorialMeter?.score)warning(p.id,'proposal baseline differs from current score; review stale proposal');
   }
  }
+ const pg=data.pageFreshness;
+ if(pg){
+  const routes=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'];
+  if(pg.schema!=='worldline-page-freshness/v1')error('pageFreshness','invalid freshness schema');
+  if(!Array.isArray(pg.pages)||pg.pages.length!==8||new Set(pg.pages.map(x=>x.route)).size!==8)error('pageFreshness','eight unique route freshness records required');
+  for(const route of routes)if(!isArray(pg.pages).some(x=>x.route===route))error('pageFreshness','missing page '+route);
+  const count=isArray(sessions.roundLog).length;
+  const first=pg.nextMandatorySweepRoundLogCount;
+  if(!Number.isInteger(first)||first<1||pg.cadenceRounds!==5)error('pageFreshness','five-round cadence/first sweep invalid');
+  if(Number.isInteger(first)&&count>=first){
+   const expected=first+5*Math.floor((count-first)/5);
+   for(const page of isArray(pg.pages)){
+    if(!Number.isInteger(page.lastFullSweepRoundLogCount)||page.lastFullSweepRoundLogCount<expected)error(page.route,'five-round website sweep missing for round-log index '+expected);
+    if(!/^([a-f0-9]{40})$/.test(String(page.lastFullSweepEvidenceCommit||'')))error(page.route,'five-round audit must link an evidence commit SHA');
+    if(!['updated-from-source','revalidated-no-new-evidence'].includes(page.lastFullSweepAction))error(page.route,'five-round sweep lacks explicit update or evidence-based revalidation');
+    if(typeof page.lastFullSweepReason!=='string'||page.lastFullSweepReason.length<20)error(page.route,'five-round sweep missing substantive documented research relevance');
+   }
+  }
+ }
+ const dq=data.discriminator;
+ if(dq){
+  if(dq.schema!=='worldline-central-question/v1')error('discriminator','invalid primary-question schema');
+  if(dq.scorePolicy?.centralScore!==ledger.editorialMeter?.score)error('discriminator','primary-question score must match editorial meter');
+  if(!isArray(dq.candidates).length||new Set(isArray(dq.candidates).map(x=>x.id)).size!==dq.candidates.length)error('discriminator','discriminator candidate list or IDs invalid');
+  for(const proposal of isArray(dq.candidates)){
+   if(!proposal.candidateObservable||!proposal.manyHypothesis||!proposal.oneHypothesis||!proposal.nextTask)error(proposal.id,'missing paired hypotheses and operational observable');
+   for(const id of isArray(proposal.sources))if(!sources.has(id))error(proposal.id,'unknown discriminator primary source '+id);
+  }
+  if(dq.fixedBackgroundDiagnostic?.warning?.length<40)error('discriminator','conditional likelihood warning missing');
+ }
  return {errors:issues.filter(i=>i.level==='error'),warnings:issues.filter(i=>i.level==='warning'),counts:{works:works.length,scholars:scholars.length,notes:reviews.length,fullStudies:actualFull,ledgerEntries:entries.length,verdictAudits:audit.length,rounds:isArray(sessions.roundLog).length}};
 }
-function load(){const d={library:read('library'),notes:read('reading-notes'),ledger:read('ledger'),research:read('research'),sessions:read('sessions')};const tp=path.join(ROOT,'data','truth-engine.json');if(fs.existsSync(tp))d.truthEngine=JSON.parse(fs.readFileSync(tp,'utf8'));return d;}
+function load(){const d={library:read('library'),notes:read('reading-notes'),ledger:read('ledger'),research:read('research'),sessions:read('sessions')};const tp=path.join(ROOT,'data','truth-engine.json');if(fs.existsSync(tp))d.truthEngine=JSON.parse(fs.readFileSync(tp,'utf8'));
+ for(const [key,file] of [['pageFreshness','page-freshness.json'],['discriminator','discriminator-program.json']]){
+  const filename=path.join(ROOT,'data',file);
+  if(fs.existsSync(filename))d[key]=JSON.parse(fs.readFileSync(filename,'utf8'));
+ }
+ return d;}
 if(require.main===module){try{const result=validate(load());const machine=process.argv.includes('--json');if(machine)console.log(JSON.stringify(result,null,2));else{console.log('Worldline Truth Engine · local schema audit · '+(result.errors.length?'FAIL':'PASS'));console.log('Counts: '+JSON.stringify(result.counts));for(const item of [...result.errors,...result.warnings])console.log(item.level.toUpperCase()+' '+item.id+': '+item.message);console.log('This validates local integrity, not external URL reachability, scientific correctness or browser behavior.');}process.exitCode=result.errors.length?1:0;}catch(e){console.error('Cannot validate project data:',e.message);process.exitCode=1;}}
 module.exports={load,validate};
