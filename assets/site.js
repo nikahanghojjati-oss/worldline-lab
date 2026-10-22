@@ -78,7 +78,11 @@ function renderTruthEngine(){
  const source='https://github.com/nikahanghojjati-oss/worldline-lab/blob/main/data/truth-engine.json';
  const meter=Number(ledger.editorialMeter?.score);
  const baseline=Number(truthEngine.baseline?.score);
- const aligned=Number.isFinite(meter)&&baseline===meter;
+ // The baseline is a historical anchor, not necessarily the current score after a
+ // legitimately reviewed future revision. Compare with the newest published revision.
+ const newest=decisions.at(-1);
+ const expected=Number(newest?.newScore??baseline);
+ const aligned=Number.isFinite(meter)&&Number.isFinite(expected)&&expected===meter;
  const commitLink=sha=>typeof sha==='string'&&/^[0-9a-f]{40}$/.test(sha)
   ?'<a href="https://github.com/nikahanghojjati-oss/worldline-lab/commit/'+sha+'" target="_blank" rel="noopener noreferrer">Evidence commit '+html(sha.slice(0,10))+' ↗</a>'
   :'<span>No verified evidence commit reference</span>';
