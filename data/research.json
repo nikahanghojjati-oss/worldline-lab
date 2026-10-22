@@ -1,6 +1,6 @@
 {
   "schema": "worldline-research/v1",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
   "phase": "S-002-R008 experimental collapse-model parameter reconciliation and independently reproducible Ge Bayesian + LISA force-noise numeric limits",
   "milestones": [
@@ -211,7 +211,7 @@
           "readingNoteIds": [
             "NOTE-050"
           ],
-          "limitation": "Original main paper read in retypeset copy rather than verified publisher facsimile; independent full proof/empirical reproduction absent; score remains 59 editorial."
+          "limitation": "Original main paper read in retypeset copy rather than verified publisher facsimile; independent full proof/empirical reproduction absent; original 59 was later reset to neutral editorial 50; actual number of physical histories unresolved."
         },
         {
           "title": "S-002-R001 · Four-theory quantitative observational comparison",
@@ -234,8 +234,8 @@
           "limitation": "Only original Bohm I/II and 2016 Hensen are newly fully main-text reviewed. Other foundational and 2026 bound originals are abstracts/targeted passages; no experiment reproduced."
         },
         {
-          "title": "Full-text critical review complete · R006",
-          "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "title": "Founding source-critical study milestone (historical)",
+          "summary": "2 whole-main-text reviewed works then had documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; founding batch report is archived; today's live completion count comes from source status records.",
           "sourceIds": [
             "SRC-002",
             "SRC-003"
@@ -383,8 +383,8 @@
       },
       "caseHighlights": [
         {
-          "title": "Full-text critical review complete · R006",
-          "summary": "3 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "title": "Founding source-critical study milestone (historical)",
+          "summary": "3 whole-main-text reviewed works then had documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; founding batch report is archived; today's live completion count comes from source status records.",
           "sourceIds": [
             "SRC-044",
             "SRC-020",
@@ -577,7 +577,7 @@
           "readingNoteIds": [
             "NOTE-050"
           ],
-          "limitation": "Original main paper read in retypeset copy rather than verified publisher facsimile; independent full proof/empirical reproduction absent; score remains 59 editorial."
+          "limitation": "Original main paper read in retypeset copy rather than verified publisher facsimile; independent full proof/empirical reproduction absent; original 59 was later reset to neutral editorial 50; actual number of physical histories unresolved."
         },
         {
           "title": "S-002-R001 · Four-theory quantitative observational comparison",
@@ -598,8 +598,8 @@
           "limitation": "Only original Bohm I/II and 2016 Hensen are newly fully main-text reviewed. Other foundational and 2026 bound originals are abstracts/targeted passages; no experiment reproduced."
         },
         {
-          "title": "Full-text critical review complete · R006",
-          "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "title": "Founding source-critical study milestone (historical)",
+          "summary": "2 whole-main-text reviewed works then had documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; founding batch report is archived; today's live completion count comes from source status records.",
           "sourceIds": [
             "SRC-008",
             "SRC-020"
@@ -1230,8 +1230,8 @@
       },
       "caseHighlights": [
         {
-          "title": "Full-text critical review complete · R006",
-          "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
+          "title": "Founding source-critical study milestone (historical)",
+          "summary": "2 whole-main-text reviewed works then had documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; founding batch report is archived; today's live completion count comes from source status records.",
           "sourceIds": [
             "SRC-062",
             "SRC-002"
@@ -1260,6 +1260,38 @@
     }
   ],
   "journal": [
+    {
+      "id": "J-010",
+      "date": "22 October 2026",
+      "category": "CENTRAL QUESTION · TESTABLE RESEARCH R009",
+      "title": "What would actually change one history versus many?",
+      "intro": "Our highest scientific priority is to identify measurements where fully specified single-history and multiple-history models disagree, rather than simply cataloguing compatible quantum results.",
+      "sections": [
+        {
+          "heading": "Why the CSL calculations matter, but are indirect",
+          "text": "Germanium/XENON/LISA/molecule bounds constrain possible single-outcome collapse laws. Some such mechanisms are disfavored, but quantum-equilibrium Bohmian dynamics can still have one actual result while matching Everett standard Born observations."
+        },
+        {
+          "heading": "The same experiment can seem to favor opposite claims without a fixed model",
+          "text": "With Ge 576 counts and fixed simulated background 506, a preselected weak CSL signal and an overly strong signal give opposite Poisson likelihood ratios relative to no signal. Selecting a model parameter after observing data is cherry-picking. Full background uncertainty and a prior over parameter families are required before using it to adjust a numerical central score."
+        },
+        {
+          "heading": "Highest impact research targets",
+          "text": "Derive Everett/Bohmian equilibrium operational equivalence; investigate falsifiable Born-rule deviations in high-energy collision polarization, controlled recoherence of durable measurement records versus physical collapse, and adversarial Wigner-friend assumptions."
+        },
+        {
+          "heading": "Five-round website freshness",
+          "text": "Session decision is recorded every research round. Every five rounds all eight pages receive evidence-linked source checks and refresh or justified no-change, with the next full sweep at S-002-R010."
+        }
+      ],
+      "sourceIds": [
+        "WL-008",
+        "WL-010",
+        "WL-011",
+        "WL-018"
+      ],
+      "fullReport": "research/central-question-discriminators-S002-R009.md"
+    },
     {
       "id": "J-009",
       "date": "21 October 2026",
@@ -2007,5 +2039,14 @@
     "publicationProtocol": "Authoritative published summary numbers reused with exact paper prior, noise and geometry. No raw detector data or statistical joint meta-analysis.",
     "ledgerMovement": "MOVE-008",
     "scoreImpact": 0
+  },
+  "centralDiscriminatorProgram": {
+    "version": "S-002-R009",
+    "date": "2026-10-22",
+    "source": "data/discriminator-program.json",
+    "report": "research/central-question-discriminators-S002-R009.md",
+    "focus": "Actual physically realized one history vs multiple real histories: operational differences first, equal-Born experiment classes deprioritized",
+    "next": "Study 2025 high-energy nonlinear spin/polarization pilot-wave proposal and prove Everett-vs-equilibrium-Bohm ordinary measurement equivalence",
+    "score": "50 editorial neutral, no actual calibrated posterior"
   }
 }
