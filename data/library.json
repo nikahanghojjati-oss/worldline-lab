@@ -167,11 +167,15 @@
       "type": "paper",
       "url": "https://doi.org/10.1103/RevModPhys.29.454",
       "role": "Original relative-state formalism",
-      "access": "abstract-reviewed",
-      "note": "",
-      "linkedLedger": [],
+      "access": "fully-studied",
+      "note": "Full complete main-text critical original Everett 1957 review of §§1–6 and all proof-note passages in 22-page re-typeset original article copy, publisher DOI verified; notation fidelity to publisher facsimile not independently proofread. S-002-R003, NOTE-050, research/everett-1957-source-study-S002-R003.md. No physical experiment or complete philosophical Born-chance derivation reproduced.",
+      "linkedLedger": [
+        "WL-005",
+        "WL-008",
+        "WL-010"
+      ],
       "verdictEffect": "none",
-      "effectReason": "No discriminating empirical comparison between single and multiple realized timelines has been established by this record.",
+      "effectReason": "Everett explicitly treats all relative branches as actual within the theory, and assumes additive Born weight; quantum-equilibrium Bohm still yields the same standard outcome statistics, hence empirical history count unresolved.",
       "verifiedAt": "2026-10-21"
     },
     {
@@ -856,7 +860,7 @@
       "url": "https://doi.org/10.1103/PhysRevD.34.470",
       "role": "Foundational objective-collapse alternative to unitary quantum dynamics",
       "access": "abstract-reviewed",
-      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed.",
+      "note": "Publisher or primary-record abstract examined; see reading-notes.json. Full text NOT reviewed. S-002-R003: DOI and original journal 470–491 verified plus targeted publisher/indexed mathematical overview, but full 22-page article NOT studied; NOTE-051. Do not mark complete.",
       "linkedLedger": [],
       "verdictEffect": "none",
       "effectReason": "No change to the Truth Compass is justified by registering a citation; critical reading and discriminating observations are required.",
@@ -2818,6 +2822,34 @@
         "fieldNote": "research/ontology-predictions-S002-R001.md",
         "fullStudyReport": "research/full-study-batch-002.md",
         "justification": "Quantum-equilibrium Bohmian mechanics (one actual configuration) and Everettian unitary dynamics (multiple emergent relative states) agree on ordinary Born measurements. Bell tests constrain local hidden-variable classes, and 2026 XENONnT limits are conditional on specific altered collapse dynamics. Neither theory-only toy calculation nor reading new papers constitutes a history-count experiment. Compass 59 remains inherited editorial, not calibrated probability."
+      },
+      {
+        "id": "VC-009",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Complete six-section Everett 1957 original-main-text critical review and GRW 1986 original publisher abstract scope audit, plus release allocation evidence protocol",
+        "sourceIds": [
+          "SRC-007",
+          "SRC-010",
+          "SRC-059",
+          "SRC-012",
+          "SRC-042"
+        ],
+        "ledgerIds": [
+          "WL-005",
+          "WL-008",
+          "WL-010",
+          "WL-011"
+        ],
+        "readingNotes": [
+          "NOTE-050",
+          "NOTE-051"
+        ],
+        "fieldNote": "research/everett-1957-source-study-S002-R003.md",
+        "justification": "Everett 1957 explicitly treats branch terms as actual within universal unitary theory and derives a positive additive squared-amplitude measure for typical memory records. This defines a model and conceptual justification, not physical direct observation of branch multiplicity; equilibrium Bohm predicts the same Born records with one actual configuration. GRW 1986 targeted record was not full study. New source coverage and release plan do not support empirical score change; legacy 59 is editorial, not probability."
       }
     ],
     "revisionRequirements": [
