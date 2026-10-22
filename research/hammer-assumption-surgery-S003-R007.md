@@ -18,7 +18,7 @@ We do not establish a new fundamental theorem about nature, observe a physical b
 
 **Broader conceptual check:** *Stanford Encyclopedia of Philosophy*, [Many-Worlds Interpretation of Quantum Mechanics, Summer 2026](https://plato.stanford.edu/archives/sum2026/entries/qm-manyworlds/), especially section 6 on potential tests. This distinguishes physical collapse extensions from no-collapse unitary interpretations, while acknowledging the practical Everett/Bohm indistinguishability. Not a new experimental measurement.
 
-**Source-progress accounting:** None of these entries is silently promoted to fully read in the pre-existing Scholar Library. The prior 77 indexed works, 68 notes, 28 full original critical readings remain the last verified official counts.
+**Source-progress accounting:** None of these entries is silently promoted to fully read in the pre-existing Scholar Library. After source-level cataloguing, the verified library now contains **80 indexed works, 71 notes and 28 fully studied original main texts**. Exactly three new works were source-identified with partial/abstract depth; no new full original main paper was completed. Source-specific review notes NOTE-069–071 preserve the counterarguments and access limitations.
 
 ## 2. Exact CHSH countermodel that prevents an invalid many-worlds conclusion
 
