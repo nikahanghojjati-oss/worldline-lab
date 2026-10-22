@@ -82,3 +82,17 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 .question-gate-item h3{color:#183d4c;font-size:1.08rem;line-height:1.32;margin:.35rem 0}
 .question-gate-item p{line-height:1.54;font-size:.9rem;margin:.3rem 0}
 @media(max-width:540px){.research-round-banner{font-size:.83rem}.question-gates-view{padding:.7rem}}
+
+/* v0.2: Read-only, provenance-first human science review status. */
+.truth-engine-view{margin:22px 0 28px;padding:clamp(20px,3.5vw,36px);border:1px solid #a9c8c8;border-left:4px solid #245c69;border-radius:8px;background:#f6faf9;color:#203f4d}
+.truth-engine-view h3{font:500 clamp(24px,3vw,31px)/1.2 var(--serif);margin:9px 0 14px;color:#183b4b}
+.truth-engine-view p{font-size:14px;line-height:1.75;color:#2d4d59;margin:11px 0}
+.truth-engine-view .kicker{color:#245966}
+.truth-engine-status{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.truth-engine-status>strong,.truth-engine-status>span{padding:9px 12px;background:white;border:1px solid #bfd5d4;border-radius:5px;color:#234858;font-size:13px;line-height:1.5}
+.truth-engine-records{padding-left:24px;margin:16px 0}
+.truth-engine-records li{padding:11px 0;border-bottom:1px solid #c5d7d5;color:#244653;font-size:14px}
+.truth-engine-view a{color:#175468;text-decoration:underline;text-underline-offset:3px;font-weight:600}
+.truth-engine-empty{padding:15px 18px;border:1px solid #c6d8d5;border-radius:5px;background:white}
+.truth-engine-warning{color:#7b2835!important;background:#fff0f0;border:1px solid #ad5e6b;border-radius:5px;padding:12px 16px}
+.truth-engine-links{border-top:1px solid #c3d5d2;margin-top:20px!important;padding-top:15px}
