@@ -13,6 +13,10 @@ function cslQuotedEquationRate({lambda,mass,massReference,deltaOverRC,rOverRC}){
  if([lambda,mass,massReference].some(x=>!Number.isFinite(x)||x<=0))throw Error('positive physical quantities required');
  return lambda*(mass/massReference)**2*cslFactor(deltaOverRC,rOverRC);
 }
+function printedDiosiPenroseShape(deltaOverR0){
+ if(!Number.isFinite(deltaOverR0)||deltaOverR0<0)throw Error('nonnegative separation required');
+ return 1-1/Math.sqrt(1+deltaOverR0*deltaOverR0);
+}
 function gateNormSquared(etaTheta){if(!Number.isFinite(etaTheta))throw Error('finite gate strength required');return Math.exp(-etaTheta*etaTheta);}
 function rateLifetime(env,collapse){
  if(!Number.isFinite(env)||env<0||!Number.isFinite(collapse)||collapse<0||env+collapse===0)throw Error('nonnegative nonzero decay rates required');
@@ -45,6 +49,12 @@ function audit(){
     computedCoherenceLifetimeSeconds:calculatedLifetime,quotedSeconds:printedLifetime,
     quotedToComputed:printedLifetime/calculatedLifetime,
     caveat:'Check figure input values and the authors’ intended rate definition; not an experimentally measured lifetime.'},
+   {anchor:'Equation (15), Diósi–Penrose large-separation limit versus written claim of no saturation',
+    observation:'Displayed normalized rate 1-R0/sqrt(R0²+delta²) approaches 1, a finite saturation plateau; only its difference from the plateau falls as approximately R0/delta.',
+    atTenCorrelationLengths:printedDiosiPenroseShape(10),
+    atHundredCorrelationLengths:printedDiosiPenroseShape(100),
+    infiniteLimit:1,
+    caveat:'Applies to equation (15) as printed, not a claim about every Diósi–Penrose model or a full derivation.'},
    {anchor:'Equation (12), Figure 2/3 sample m, R, delta, rC, lambda compared with Section III ΓCSL=7.93e4 s^-1',
     observation:'Literal substitution into the printed CSL equation with the accompanying parameter values yields a different order of magnitude.',
     calculatedEq12CSLPerSecond:modelRate,printedCSLPerSecond:printedCollapse,
@@ -56,5 +66,5 @@ function audit(){
   newPhysicsDiscovery:false,revisionApproved:false,truthCompassChange:0
  };
 }
-module.exports={cslFactor,cslQuotedEquationRate,gateNormSquared,rateLifetime,audit};
+module.exports={cslFactor,cslQuotedEquationRate,printedDiosiPenroseShape,gateNormSquared,rateLifetime,audit};
 if(require.main===module)console.log(JSON.stringify(audit(),null,2));
