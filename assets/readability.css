@@ -128,3 +128,7 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 .hammer-quest-card{background:white;padding:clamp(17px,2vw,25px);border-left:4px solid #6a9299;border-radius:6px;border-top:1px solid #d3e3df;border-right:1px solid #d3e3df;border-bottom:1px solid #d3e3df;overflow-wrap:anywhere}
 .hammer-quest-card h4{font:500 21px/1.35 var(--serif);color:#244957;margin:8px 0 12px}
 .hammer-quest-card strong{color:#194458}
+
+.hammer-auto-memory{margin:18px 0 0;padding:15px 19px;border-radius:6px;background:#e5f0ed;border:1px solid #abc8c1;color:#234654}
+.hammer-auto-memory>strong{font-size:15px;color:#183f4d}
+.hammer-auto-memory p{font-size:13px;color:#2d515a;margin:9px 0}
