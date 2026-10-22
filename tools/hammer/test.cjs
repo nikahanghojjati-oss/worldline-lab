@@ -60,5 +60,11 @@ assert.ok(autonomous.trace.every(x=>x.scoreMovement===0),'brainstorming cannot m
 const restricted=discovery.search(fixture,{depth:100,beamWidth:100});
 assert.equal(restricted.depth,2,'bounded recursive research search');
 assert.equal(restricted.beamWidth,5,'bounded beam search');
+const correlations=discovery.correlationWitness();
+assert.equal(correlations.jointDivergenceBits,1,'joint differences can be maximal with identical marginals');
+assert.deepEqual(correlations.marginals.map(m=>m.divergenceBits),[0,0],'each marginal is identical');
+assert.equal(correlations.proposedLedgerScoreChange,0);
+assert.match(correlations.lesson,/Everett and equilibrium Bohm are not separated/);
+console.log('PASS HAMMER joint-correlation witness: same single-shot evidence can hide distinct toy correlations, but not prove branch ontology.');
 console.log('PASS HAMMER v0.2 AGI-inspired beam search: novel question combinations, counterexamples, bounded memory, no invented discovery.');
 console.log('PASS HAMMER v0.2 recursion: question fusion, conditional synergy, physical scope veto, next falsifier, data-processing firewall.');
