@@ -1135,6 +1135,75 @@
         "appendicesAsRecorded": false,
         "independentFullReproduction": false
       }
+    },
+    {
+      "id": "NOTE-050",
+      "workId": "SRC-007",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R003",
+      "stage": "fully-studied",
+      "label": "Hugh Everett original Relative State 1957 full critical main-text study",
+      "basis": "Complete 22-page re-typeset copy of published 1957 main paper https://scispace.com/pdf/relative-state-formulation-of-quantum-mechanics-3crdqguh8o.pdf; publisher original 29:454–462 DOI 10.1103/RevModPhys.29.454 verified; PDF opening, observer and final pages visually inspected; mirror typography NOT compared line-by-line with APS facsimile.",
+      "sectionsRead": [
+        "§§1–2 motivation and Process 1/Process 2/closed universe, mirror pp1–3",
+        "§3 strictly universal Process 2 and relative subsystem correlation, pp4–5",
+        "§4 Eqs1–8 relative state and system-pointer observation, pp5–8 including nonprojection footnote",
+        "§5 Eqs9–24 physical memory observers, repeatability, multiple outcomes/observer communication, pp9–15",
+        "§5 original note added in proof asserting all branches actual, around pp14–15",
+        "§5 Eqs25–34 positivity/additivity of squared amplitude measure and limiting record frequencies, pp15–20",
+        "§6 discussion and conclusion, pp20–22; no appendices in the published article"
+      ],
+      "summary": "Universal unitary Process 2 generates observer-relative definite memory sequences within a superposed global ψ. Everett explicitly identifies all components as actual (note in proof). Imposing additive positive measure over orthogonal components yields squared-amplitude weighting; typical Born-like records follow relative to chosen measure, not direct observed evidence of many physically existing timelines.",
+      "method": "Reviewed entire six-section main original article through faithfully re-typeset scan with publisher citation verified. Independently checked conditional relative-state structure and m(a)=|a|² additivity for a=√.6,b=√.4; two-record weights .36,.24,.24,.16 normalize to 1. Did not independently prove probability decision theory or fully proofread transcription against APS facsimile.",
+      "limitations": "The 22-page mirror is retypeset, not a publisher facsimile; typographical/formula fidelity needs comparison. Positive additive branch measure and typicality do not alone justify first-person subjective chance. Basis/branch individuation are approximations; an observer's one memory sequence is consistent with both Everett and Bohmian quantum equilibrium. No experiment or quantum-gravity prediction directly observes other histories.",
+      "alternativeExplanations": "Bohmian original equilibrium with one actual configuration (SRC-010, SRC-059), objective collapse GRW with modified dynamics (SRC-042), critical interpretations of Born rule and probability (SRC-012).",
+      "conclusion": "Full original-main-text literature review documents Everett's all-actual branches claim, but cannot count actual histories in our universe; verdict remains unresolved and unchanged.",
+      "fullTextRead": true,
+      "readDepthDefinition": "Complete 1957 original main text critically read in retypeset mirror; no facsimile fidelity proof, empirical replication or all philosophical proofs implied.",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-005",
+        "WL-008",
+        "WL-010"
+      ],
+      "fieldNote": "research/everett-1957-source-study-S002-R003.md",
+      "fullReviewVerified": {
+        "mainText": true,
+        "appendicesAsRecorded": true,
+        "independentFullReproduction": false
+      }
+    },
+    {
+      "id": "NOTE-051",
+      "workId": "SRC-042",
+      "date": "2026-10-21",
+      "sessionId": "S-002",
+      "roundId": "S-002-R003",
+      "stage": "abstract-reviewed",
+      "label": "GRW 1986 primary publisher bibliographic and localization abstract audit",
+      "basis": "https://doi.org/10.1103/PhysRevD.34.470, original journal pages 470–491 and author abstract plus indexed first-page excerpts",
+      "sectionsRead": [
+        "Publisher abstract and metadata, paper opening excerpts; NOT whole original pp470–491 nor full center-of-mass sections."
+      ],
+      "summary": "GRW modifies quantum evolution stochastically rather than merely reinterpreting unchanged unitary dynamics, modeling localization for microscopic and composite macroscopic systems and classical diffusion under approximations.",
+      "method": "Compared original publisher bibliographic and abstract claim to prior transparent S-002-R001 toy model, avoiding unverified mass-scaling equations.",
+      "limitations": "Entire original 22-page main text and detailed equations are not critically read, so no full-study credit; APS full original access constrained.",
+      "alternativeExplanations": "Ordinary environmental decoherence, Everett fully unitary, Bohmian definite actual configuration.",
+      "conclusion": "Collapse testability depends on specified physical generator and geometry, not branch direct observation.",
+      "fullTextRead": false,
+      "readDepthDefinition": "Abstract/targeted original record only",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-011",
+        "WL-010"
+      ],
+      "fieldNote": "research/everett-1957-source-study-S002-R003.md",
+      "fullReviewVerified": {
+        "mainText": false,
+        "appendicesAsRecorded": false,
+        "independentFullReproduction": false
+      }
     }
   ]
 }
