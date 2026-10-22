@@ -2088,6 +2088,29 @@
         ],
         "fieldNote": "research/field-note-002.md",
         "justification": "Gödel supplies an exact CTC spacetime, not an observation. Hawking's formation obstruction has specific energy/horizon assumptions and semiclassical caveats; Deutsch proves a fixed-point result given a CTC rather than establishing one. Politzer and Lloyd expose model dependence. None directly measures or distinguishes the count of physically realized histories; 59 is editorial and not an empirical probability."
+      },
+      {
+        "id": "VC-004",
+        "date": "2026-10-21",
+        "oldScore": 59,
+        "newScore": 59,
+        "delta": 0,
+        "status": "no-change",
+        "trigger": "Independent limited algebra checks of Gödel's circular-orbit sign and Deutsch-style one-bit channel fixed points",
+        "sourceIds": [
+          "SRC-002",
+          "SRC-019"
+        ],
+        "ledgerIds": [
+          "WL-002",
+          "WL-004"
+        ],
+        "readingNotes": [
+          "NOTE-020",
+          "NOTE-021"
+        ],
+        "fieldNote": "research/field-note-002.md",
+        "justification": "Replicating the radius threshold and self-consistent 2x2 density-matrix toy verifies conditional mathematics of stipulated models but supplies no physical detection of real CTCs or multiple quantum histories. No measurable discrimination; no score adjustment."
       }
     ],
     "revisionRequirements": [
