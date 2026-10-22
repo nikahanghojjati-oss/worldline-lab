@@ -2,7 +2,7 @@
   "schema": "worldline-research/v1",
   "updated": "2026-10-21",
   "mission": "Does the actual universe inhabited by humans contain one physically real timeline or multiple simultaneously real histories?",
-  "phase": "R006: ten original-source comprehensive main-text critical studies, with explicit non-replication caveats and one-versus-many timeline verdict audit.",
+  "phase": "S-002 first quantitative history-ontology discriminator comparison, three new complete main-text source reviews",
   "milestones": [
     {
       "id": "M1",
@@ -59,7 +59,14 @@
         "Relativity",
         "Quantum foundations"
       ],
-      "additionalSourceIds": [],
+      "additionalSourceIds": [
+        "SRC-007",
+        "SRC-010",
+        "SRC-059",
+        "SRC-042",
+        "SRC-065",
+        "SRC-066"
+      ],
       "prioritySourceIds": [
         "SRC-007",
         "SRC-010",
@@ -122,10 +129,30 @@
       "venue": {
         "readingPlan": "published",
         "presentationRoom": "v1 research presentation",
-        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interactiveLaboratory": "v1 introductory tools plus S-002 data-driven model-comparison demonstration; not a real experimental instrument",
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "S-002-R001 · Four-theory quantitative observational comparison",
+          "summary": "Everett and equilibrium Bohmian mechanics yield the same ordinary Born distribution while describing different actual histories. GRW/CSL differs only when physical collapse changes predicted observables. See detailed 2×2 decoherence and parameterized GRW toy.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-059",
+            "SRC-042",
+            "SRC-065",
+            "SRC-066"
+          ],
+          "readingNoteIds": [
+            "NOTE-043",
+            "NOTE-044",
+            "NOTE-045",
+            "NOTE-047",
+            "NOTE-049"
+          ],
+          "limitation": "Only original Bohm I/II and 2016 Hensen are newly fully main-text reviewed. Other foundational and 2026 bound originals are abstracts/targeted passages; no experiment reproduced."
+        },
         {
           "title": "Full-text critical review complete · R006",
           "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
@@ -324,7 +351,10 @@
         "SRC-018",
         "SRC-055",
         "SRC-056",
-        "SRC-058"
+        "SRC-058",
+        "SRC-010",
+        "SRC-059",
+        "SRC-065"
       ],
       "prioritySourceIds": [
         "SRC-060",
@@ -385,10 +415,28 @@
       "venue": {
         "readingPlan": "published",
         "presentationRoom": "v1 research presentation",
-        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interactiveLaboratory": "v1 introductory tools plus S-002 data-driven model-comparison demonstration; not a real experimental instrument",
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "S-002-R001 · Four-theory quantitative observational comparison",
+          "summary": "Everett and equilibrium Bohmian mechanics yield the same ordinary Born distribution while describing different actual histories. GRW/CSL differs only when physical collapse changes predicted observables. See detailed 2×2 decoherence and parameterized GRW toy.",
+          "sourceIds": [
+            "SRC-007",
+            "SRC-010",
+            "SRC-059",
+            "SRC-065"
+          ],
+          "readingNoteIds": [
+            "NOTE-043",
+            "NOTE-044",
+            "NOTE-045",
+            "NOTE-047",
+            "NOTE-049"
+          ],
+          "limitation": "Only original Bohm I/II and 2016 Hensen are newly fully main-text reviewed. Other foundational and 2026 bound originals are abstracts/targeted passages; no experiment reproduced."
+        },
         {
           "title": "Full-text critical review complete · R006",
           "summary": "2 whole-main-text reviewed works now have documented scientific arguments, methods, limitations and counterarguments. View the completed reading status and audited source notes in the Scholar Library; all ten reports are in Full-Source Study Batch 001.",
@@ -615,7 +663,9 @@
       "additionalSourceIds": [
         "SRC-011",
         "SRC-021",
-        "SRC-042"
+        "SRC-042",
+        "SRC-048",
+        "SRC-066"
       ],
       "prioritySourceIds": [
         "SRC-048",
@@ -672,10 +722,27 @@
       "venue": {
         "readingPlan": "published",
         "presentationRoom": "v1 research presentation",
-        "interactiveLaboratory": "v1 illustrative model; specialized instruments planned",
+        "interactiveLaboratory": "v1 introductory tools plus S-002 data-driven model-comparison demonstration; not a real experimental instrument",
         "interdisciplinary": "linked cross-field topics"
       },
       "caseHighlights": [
+        {
+          "title": "S-002-R001 · Four-theory quantitative observational comparison",
+          "summary": "GRW/CSL predicts size-, time- and model-specific visibility or spontaneous-radiation changes. 2019 molecule experiment and 2026 XENONnT bounds do not count quantum branches.",
+          "sourceIds": [
+            "SRC-042",
+            "SRC-048",
+            "SRC-066"
+          ],
+          "readingNoteIds": [
+            "NOTE-043",
+            "NOTE-044",
+            "NOTE-045",
+            "NOTE-047",
+            "NOTE-049"
+          ],
+          "limitation": "Only original Bohm I/II and 2016 Hensen are newly fully main-text reviewed. Other foundational and 2026 bound originals are abstracts/targeted passages; no experiment reproduced."
+        },
         {
           "title": "Molecular coherence constrains collapse",
           "summary": "Molecule interference tests superpositions and parameters of objective-collapse alternatives.",
@@ -968,6 +1035,37 @@
   ],
   "journal": [
     {
+      "id": "J-005",
+      "date": "21 October 2026",
+      "category": "SCIENTIFIC DISPATCH · SESSION S-002",
+      "title": "Two histories of the same measurement?",
+      "intro": "Everett and Bohmian quantum equilibrium disagree about which histories physically exist while agreeing on standard experimental frequencies.",
+      "sections": [
+        {
+          "heading": "Ontology is not automatically an observable",
+          "text": "Everett's unitary global wave has multiple branch-relative records. Bohmian mechanics assigns one actual guided particle configuration. Given quantum equilibrium, both yield the same Born measurement statistics."
+        },
+        {
+          "heading": "Where predictions really can differ",
+          "text": "GRW and CSL change the physical dynamics. Size and time-dependent loss of interference or spontaneous X-ray emission may constrain a specified localization mechanism; environmental decoherence is a major alternative that must be calibrated."
+        },
+        {
+          "heading": "A measured constraint, not a parallel-universe photograph",
+          "text": "March 2026 XENONnT 1–140 keV results constrain particular Markovian CSL/DP parameter choices. Bell tests constrain locality assumptions. Neither measures the number of actually real Everett branches."
+        },
+        {
+          "heading": "Our open conclusion",
+          "text": "Three newly completed full original-main-text critical reviews bring the indexed completed total to 13 of 400. The objective is scientific discrimination, not a higher review count; VC-008 leaves 59/100 as an inherited editorial orientation, not a probability."
+        }
+      ],
+      "sourceIds": [
+        "WL-008",
+        "WL-010",
+        "WL-011"
+      ],
+      "fullReport": "research/ontology-predictions-S002-R001.md"
+    },
+    {
       "id": "J-004",
       "date": "21 October 2026",
       "category": "FULL-SOURCE RESEARCH · R006 · TEN COMPLETE STUDIES",
@@ -1246,25 +1344,114 @@
   },
   "fullStudyMilestone": {
     "batch": "research/full-study-batch-001.md",
-    "completed": 10,
+    "completed": 13,
     "target": 400,
-    "percentOfSourceReviewTarget": 2.5,
-    "interpretation": "10 original full-main-text critical literature reviews; not 10 independent experimental reproductions or empirical probability",
+    "percentOfSourceReviewTarget": 3.25,
+    "interpretation": "13 critically reviewed complete published main texts, 3 new in S-002-R001; neither individual replication of every proof nor experimental independent validation.",
     "reviewedSources": [
+      "SRC-002",
+      "SRC-003",
       "SRC-008",
-      "SRC-044",
-      "SRC-062",
+      "SRC-010",
       "SRC-012",
       "SRC-020",
+      "SRC-044",
       "SRC-045",
       "SRC-047",
+      "SRC-059",
+      "SRC-062",
       "SRC-064",
-      "SRC-002",
-      "SRC-003"
+      "SRC-065"
     ],
-    "session": "S-001",
-    "round": "S-001-R006",
+    "session": "S-002",
+    "round": "S-002-R001",
     "completedOn": "2026-10-21",
-    "scoreChange": 0
+    "scoreChange": 0,
+    "newBatch": "research/full-study-batch-002.md",
+    "foundingBatch": "research/full-study-batch-001.md"
+  },
+  "modelComparison": {
+    "version": "S-002-R001",
+    "date": "2026-10-21",
+    "question": "One actual physically real history or many branch-relative physically real histories?",
+    "researchReport": "research/ontology-predictions-S002-R001.md",
+    "fullStudyReport": "research/full-study-batch-002.md",
+    "status": "Original-source prediction matrix complete; ontology remains empirically unresolved",
+    "rows": [
+      {
+        "model": "Everett · relative states",
+        "ontology": "Multiple real emergent branch-relative outcome records within one universal ψ",
+        "dynamics": "Linear unitary Schrödinger plus environment correlations; Born weights under interpretive debate",
+        "experiment": "Two-path interference and environment-controlled recoherence",
+        "observable": "V=|γ|; P(+)= (1+Re γ)/2 for equal amplitudes",
+        "sameAs": "Bohmian equilibrium: identical standard Born distribution for same preparation",
+        "difference": "No intrinsic stochastic physical localization or excess collapse radiation",
+        "status": "No direct branch census; original Everett 1957 publisher abstract only here",
+        "objection": "Preferred basis, branch granularity and Born weights require further review",
+        "sourceIds": [
+          "SRC-007",
+          "SRC-012"
+        ],
+        "readingDepth": "SRC-007 abstract; SRC-012 previously complete original scholarly entry"
+      },
+      {
+        "model": "Bohmian · quantum equilibrium",
+        "ontology": "One occupied actual configuration, with nonlocal guiding ψ and unoccupied wave packets",
+        "dynamics": "ψ linear, v=∇S/m; ρ=|ψ|² initially and equivariant",
+        "experiment": "Double slit, measurement pointer and event-ready Bell experiment",
+        "observable": "Born P(pointer region)=∫region |Ψ|²dq, V=|γ|",
+        "sameAs": "Everett under matched quantum equilibrium/measurement setups",
+        "difference": "Non-equilibrium or extra microscopic dynamics may differ, not standard Bohm",
+        "status": "Bohm originals Parts I/II full main text reviewed NOTE-043/044",
+        "objection": "Assumed equilibrium; relativistic nonlocal model details",
+        "sourceIds": [
+          "SRC-010",
+          "SRC-059"
+        ],
+        "readingDepth": "Entire original main published texts and Bohm II appendices"
+      },
+      {
+        "model": "GRW · spontaneous hits",
+        "ontology": "One stochastic collapse-selected physical outcome",
+        "dynamics": "Poisson hits λ, localization rC, geometry, constituents",
+        "experiment": "Large-mass molecule interference with controlled t,d,noise",
+        "observable": "Ideal toy V/Venv=exp[-N λ t(1−exp(−d²/4rC²))]",
+        "sameAs": "Practical unitary regime when Γt below sensitivity or background masks it",
+        "difference": "Extra correlated-size/time/separation interference loss",
+        "status": "GRW 1986 original abstract only; numeric toy is not an experiment",
+        "objection": "Composite geometry and conventional decoherence require real modeling",
+        "sourceIds": [
+          "SRC-042",
+          "SRC-048"
+        ],
+        "readingDepth": "Publisher abstracts and specified toy only"
+      },
+      {
+        "model": "CSL · mass-dependent collapse",
+        "ontology": "Stochastic physical change to ψ with definite-event behavior",
+        "dynamics": "Model-specific λCSL, rC, mass distribution and stochastic correlation",
+        "experiment": "XENONnT 1–140 keV excess X-ray spectrum; LISA Pathfinder force noise; interference",
+        "observable": "dR/dE spectral excess, noise PSD, V/Venv=exp[-Γ_CSL t] with separately derived geometry",
+        "sameAs": "Near ordinary unitary result at sufficiently low collapse rates",
+        "difference": "XENONnT 2026 excludes model-conditioned Markovian CSL regions under analysis assumptions",
+        "status": "Publisher abstract/targeted passages only, numerical confidence curves not rerun",
+        "objection": "Alternate noise spectra and emission background can modify model bounds",
+        "sourceIds": [
+          "SRC-066",
+          "SRC-067",
+          "SRC-048"
+        ],
+        "readingDepth": "Abstract/publisher passage level; not full papers"
+      }
+    ],
+    "exercise": {
+      "environmentOverlap": 0.2,
+      "unitaryPlusProbability": 0.6,
+      "grwVisibilityRatio": 0.999000499833375,
+      "grwPlusProbability": 0.5999000499833375,
+      "isExperiment": false
+    },
+    "separateCosmology": "Inflation bubbles and CMB collision nulls are distinct from Everett branches (SRC-062/WL-009).",
+    "verdictAudit": "VC-008"
   }
 }
