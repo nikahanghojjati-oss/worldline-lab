@@ -1338,6 +1338,34 @@
   ],
   "journal": [
     {
+      "id": "J-014",
+      "date": "22 October 2026",
+      "category": "HAMMER ASSUMPTION SURGERY · S-003-R007",
+      "title": "A quantum result can exclude a local theory without proving many physical worlds",
+      "intro": "HAMMER constructs an explicit nonlocal one-outcome model reproducing a maximally violating quantum CHSH dataset, then tests whether adaptive measurements can ever distinguish models that share all accessible Born conditional predictions. This is mathematics and critical source reasoning, not a new quantum observation.",
+      "sections": [
+        {
+          "heading": "A constructive countermodel",
+          "text": "Four singlet correlations violate the Bell-local CHSH ceiling: |S|=2√2 rather than 2. Yet a mathematical response rule giving exactly one recorded pair per trial reproduces the same distributions by depending nonlocally on the two detector settings. It is not a physical Bohmian derivation. This demonstrates why a Bell violation alone does not count actually realized histories."
+        },
+        {
+          "heading": "The operational impossibility certificate",
+          "text": "If two theories give the same full conditional probability P(next record | prior records, allowed operation) at every accessible step, the probability chain rule makes every finite adaptive sequence distribution identical. HAMMER verifies the result in eight two-step adaptive toy policies. Extra experiments of that class cannot generate a verdict-shifting likelihood."
+        },
+        {
+          "heading": "Find the missing physical intervention",
+          "text": "HAMMER searches for a counterfactual change in one measurable conditional probability sufficient to create a 0.001-bit Jensen–Shannon separation in an invented Bernoulli model; the minimum is roughly a 0.0471 probability change. This is not a physically derived quantum nonequilibrium mechanism or an experimental detection. It is a sharply defined future research requirement."
+        },
+        {
+          "heading": "Strongest counterargument and next step",
+          "text": "Local Friendliness results have different, stronger premises from Bell, and 2025/2026 literature disputes aspects of their interpretation. Identify a real physically allowed preparation/intervention with unequal predictions under fully specified one-history and many-history theories, document calibrations and alternatives, and obtain measured data. If no such operational distinction exists, record that boundary honestly rather than forcing the central Truth Compass away from neutral."
+        }
+      ],
+      "sourceIds": [
+        "WL-022"
+      ]
+    },
+    {
       "id": "J-013",
       "date": "22 October 2026",
       "category": "ORIGINAL MODEL EQUIVALENCE & TEST DESIGN · S-002-R012",
