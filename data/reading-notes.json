@@ -1,7 +1,7 @@
 {
   "schema": "worldline-reading-notes/v1",
   "date": "2026-10-21",
-  "policy": "These are notes from accessible publication abstracts and authoritative summaries, not complete readings. Never promote to full study without full-text method review and page/section provenance.",
+  "policy": "Notes record accessible journal abstracts or authoritative institutional summaries, not completed full-text studies. All notes include source provenance and limits; no new verdict credit until comparative predictions and measured results are examined critically.",
   "notes": [
     {
       "id": "NOTE-001",
@@ -152,6 +152,66 @@
       "fullTextRead": false,
       "ledgerImpact": 0,
       "confidence": "Bounded to publisher/archival summary; not a full-text critical review"
+    },
+    {
+      "id": "NOTE-011",
+      "workId": "SRC-041",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Wormhole chronology versus actual spacetime engineering",
+      "basis": "American Physical Society journal abstract · https://doi.org/10.1103/PhysRevLett.61.1446",
+      "summary": "Morris, Thorne and Yurtsever describe a conditional route from a traversable wormhole to a time machine, assuming such a wormhole can be constructed and maintained.",
+      "limitations": "The abstract itself flags weak-energy and quantum-gravity uncertainties. It does not report the creation of a traversable wormhole or demonstrate backward time travel.",
+      "conclusion": "Adds a conditional theoretical challenge to the research syllabus, but no empirical discrimination of physical histories.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "confidence": "Scoped to accessible abstract; no full text or independent replication review"
+    },
+    {
+      "id": "NOTE-012",
+      "workId": "SRC-042",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "GRW objective-collapse dynamics",
+      "basis": "American Physical Society journal abstract · https://doi.org/10.1103/PhysRevD.34.470",
+      "summary": "Ghirardi, Rimini and Weber propose a modified dynamical model that aims to recover microscopic quantum behavior and classical localization for macroscopic systems.",
+      "limitations": "A formulated alternative is not by itself experimental confirmation; the relevant tests require precise collapse parameters and constraints.",
+      "conclusion": "Provides a serious competing mechanism for measurement outcomes without proving or refuting Everett branches.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "confidence": "Scoped to accessible abstract; no full text or independent replication review"
+    },
+    {
+      "id": "NOTE-013",
+      "workId": "SRC-047",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Extended Wigner-friend experimental assumptions",
+      "basis": "Science Advances / PubMed research abstract · https://doi.org/10.1126/sciadv.aaw9832",
+      "summary": "Proietti and collaborators describe a six-photon extended Wigner-friend experiment and a Bell-type inequality violation tied to observer-independent-facts assumptions.",
+      "limitations": "The inference is conditional on assumptions including locality and free choice, and does not amount to an experimental observation of travel or interaction between alternate histories.",
+      "conclusion": "Observer-independent descriptions face nontrivial assumptions; no physically realized branching census is established.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "confidence": "Scoped to accessible abstract; no full text or independent replication review"
+    },
+    {
+      "id": "NOTE-014",
+      "workId": "SRC-048",
+      "date": "2026-10-21",
+      "sessionId": "S-001",
+      "stage": "abstract-reviewed",
+      "label": "Large-molecule quantum interference constraints",
+      "basis": "Nature Physics publisher abstract · https://doi.org/10.1038/s41567-019-0663-9",
+      "summary": "Fein and colleagues report matter-wave interference involving molecules exceeding 25 kDa and discuss tests that constrain modifications to quantum mechanics.",
+      "limitations": "Molecular interferometry is not an observation of multiple universes; experimental methods and collapse-model bounds need detailed full-text examination.",
+      "conclusion": "Raises priority for the chemistry and quantum-foundations cross-lab without shifting the history-count verdict.",
+      "fullTextRead": false,
+      "ledgerImpact": 0,
+      "confidence": "Scoped to accessible abstract; no full text or independent replication review"
     }
   ]
 }
