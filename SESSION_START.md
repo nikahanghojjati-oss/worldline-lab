@@ -1,6 +1,6 @@
 # Worldline Lab · session bootstrap
 
-> **S-003 active on October 22, 2026, latest checkpoint R011.** [data/sessions.json](data/sessions.json) is canonical. The screenshot-inspired [HAMMER page](hammer.html) and S-003 R004–R010 scientific research are already saved to GitHub. The shared theme across eight original sections and HAMMER is proposed in PR #12, pending final tests and publication. Verified science totals: **83 indexed primary works, 74 notes, 28 full original main-text studies, 25 Ledger findings, 12 model-scoped scientific movements**. The central Truth Compass remains editorial **50/100, not a measured probability**. Focus next on release-quality UI QA followed by reproduction of original quantum experimental raw data and physically meaningful rival-history predictions.
+> **S-003 active; latest canonical checkpoint S-003-R012 (2026-10-22).** [data/sessions.json](data/sessions.json) is the authority for research progress. The shared eight-route/HAMMER theme was merged via PR #12. The GLASS research dialogue was merged via PR #16 at commit `348fa55fe9a275aba6bc4cb11768cf01c6150bb2`; both its main-branch integrity workflow and GitHub Pages deployment workflow completed successfully. Verified scientific totals remain **83 indexed works, 74 notes, 28 full original main-text studies, 25 Ledger findings and 12 model-scoped movements**. The central Truth Compass is an editorial **50/100, not a measured probability**. Current Team E engineering work is in draft PR #17; its exact-head browser/axe CI is a separate gate. The next substantive completed research round is S-003-R013 and must include the mandatory eight-route freshness sweep before its checkpoint is committed.
 
 Website: https://nikahanghojjati-oss.github.io/worldline-lab/#sessions
 Repository: https://github.com/nikahanghojjati-oss/worldline-lab
@@ -20,7 +20,7 @@ Read [PROJECT_RULES.md](PROJECT_RULES.md) and [ROADMAP.md](ROADMAP.md) before pl
 4. Verify repository head, recent relevant commits, and any time-sensitive cited material.
 
 ## Session continuity contract
-- The founding S-001 and successor S-002 are archived; the genuine active ChatGPT session is **S-003**, R009 as of 2026-10-22. New session IDs are created only for a genuinely new chat, not to mark arbitrary rounds.
+- The founding S-001 and successor S-002 are archived; the canonical active session is **S-003**, latest recorded round **R012** as of 2026-10-22. New session IDs are created only for a genuinely new chat, not to mark arbitrary rounds.
 - Make one meaningful, reviewable advance per stage. Continue while the task remains coherent.
 - A handoff is recommended at a meaningful stage boundary with a committed, minimal restart packet or after serious self-reported context degradation.
 - Save: verified change / link to source, open limitation, and one highest-value next action.
