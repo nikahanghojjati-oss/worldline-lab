@@ -67,3 +67,17 @@ body:not(.hp-body) .page.active :is(.btn,.lab-back,.control){transition:backgrou
 @media(max-width:990px){.wl-header-inner{flex-direction:column;align-items:stretch;gap:8px}.wl-nav.nav,.wl-nav{overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding:0 0 3px;scrollbar-width:thin}.wl-brand{min-width:0}.wl-header.site-header,.wl-header.hc-header{position:relative}.wl-brand small{font-size:9px!important}.wl-nav.nav a,.wl-nav a{flex-shrink:0}}
 @media(max-width:650px){.wl-header-inner{padding:11px 15px}.wl-galaxy{height:39px;width:39px;flex-basis:39px;font-size:24px}.wl-brand{font-size:18px!important}.wl-nav.nav a,.wl-nav a{font-size:12px!important;padding:9px 12px}.wl-nav:after{content:"";min-width:5px}}
 @media(prefers-reduced-motion:reduce){body:not(.hp-body) .page{animation:none!important}.wl-nav a,.wl-nav.nav a{transition:none}}
+
+/* The same understated footer closes the magazine and HAMMER dashboards. */
+body:not(.hp-body) footer.bottom-note,.hc-body footer.hc-footer{
+ background:#071c2f!important;border-top:1px solid #355877!important;
+ color:#c7dfe9!important;font-size:12px;line-height:1.7
+}
+body:not(.hp-body) footer.bottom-note{
+ max-width:1540px;margin:14px auto 0;padding:23px clamp(14px,2.8vw,40px)!important;
+ display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap
+}
+body:not(.hp-body) footer.bottom-note a,.hc-body footer.hc-footer a{
+ color:#b4e2f6!important;text-decoration:underline;text-underline-offset:3px
+}
+body:not(.hp-body) footer.bottom-note a:hover,.hc-body footer.hc-footer a:hover{color:#fff!important}
