@@ -154,3 +154,9 @@ body.wl-unified{
 .wl-unified .page.active .lab-rooms-switcher a.chosen{color:white!important;background:#17517a!important}
 .wl-unified .page.active .room-deck-controls button:disabled{opacity:.65}
 .wl-unified .page.active .slide-inquiry,.wl-unified .page.active .instrument-caution{background:#21384e!important}
+
+/* The complete Session Observatory status is evidence prose, not a CSS class. */
+.wl-unified .page.active .sc-stream-badge{white-space:normal!important;overflow-wrap:anywhere;max-width:220px;min-width:0;text-align:center;line-height:1.55;flex-shrink:1;align-self:flex-start}
+.wl-unified .page.active .sc-stream{min-width:0}
+.wl-unified .page.active .sc-stream>div{min-width:0;overflow-wrap:anywhere}
+@media(max-width:600px){.wl-unified .page.active .sc-stream{flex-direction:column}.wl-unified .page.active .sc-stream-badge{max-width:100%}}
