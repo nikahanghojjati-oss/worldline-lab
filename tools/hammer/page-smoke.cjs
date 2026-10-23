@@ -25,6 +25,13 @@ async function ready(){for(let i=0;i<80;i++){try{if((await fetch(url+'/hammer.ht
    await page.waitForFunction(()=>document.getElementById('hp-round')?.textContent?.includes('S-003-'),{timeout:15000});
    await page.waitForFunction(()=>document.querySelector('#hammer-design option')&&document.querySelector('#hammer-outcome')?.textContent?.includes('Jensen'));
    assert.equal(await page.title(),'HAMMER — Worldline Lab Scientific Research Forge');
+   assert.equal(await page.locator('.hc-nav .wl-more summary').count(),1,'shared resources navigation exists');
+   assert.equal(await page.locator('link[href="assets/worldline-unified.css"]').count(),1,'HAMMER references the unified design system');
+   assert.equal(await page.evaluate(()=>document.body.classList.contains('wl-unified')),true,'HAMMER uses same design tokens');
+   await page.locator('.hc-nav .wl-more summary').click();
+   assert.equal(await page.locator('.hc-nav .wl-menu a[href="index.html#journal"]').count(),1,'journal accessible on HAMMER');
+   await page.locator('.hc-nav .wl-more summary').click();
+
    assert.equal(await page.locator('#hp-score').innerText(),String(ledger.editorialMeter.score),'central science gauge must be bound to ledger');
    assert.equal(await page.locator('#hp-findings').innerText(),String(ledger.entries.length));
    assert.equal(await page.locator('#hp-movement-count').innerText(),String(ledger.scientificMovements.length));
