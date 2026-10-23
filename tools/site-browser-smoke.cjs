@@ -37,6 +37,10 @@ async function run(viewportName,viewport){
  try{
   await page.goto(base+'#home',{waitUntil:'domcontentloaded'});
   await page.waitForFunction(r=>document.querySelector('#research-round-banner')?.textContent?.includes(r),latestRound,{timeout:15000});
+  const navItems=(await page.locator('.wl-nav a').allTextContents()).map(v=>v.trim().replace(/\\s+/g,' '));
+  assert.deepEqual(navItems,['Home','Research Labs','⚒ HAMMER','Truth Compass','Evidence Ledger','Journal','Origins Atlas','Resources','Sessions'],'uniform link order shared with HAMMER');
+  assert.equal(await page.locator('.wl-brand').count(),1,'one shared cosmic masthead');
+  assert.ok(await page.locator('link[href="assets/unified-site.css"]').count()===1,'shared design system loaded across routes');
   for(const route of ['home','dashboard','ledger','journal','disciplines','atlas','library','sessions']){
    await assertRoute(page,route);
   }
