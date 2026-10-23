@@ -1829,6 +1829,27 @@
       "verdictEffect": "Reported reservoir-induced loss of spontaneous recoherence under controlled bath supports open-system dynamics; no fundamental irreversibility theorem or multiple worlds detection.",
       "effectReason": "Operational spontaneous recoherence in a finite bath is compatible with unitary global dynamics and with quantum-equilibrium one-history theories.",
       "verifiedAt": "2026-10-22"
+    },
+    {
+      "id": "SRC-084",
+      "field": "Quantum foundations",
+      "title": "First constraint on Born-rule violations at high-energy colliders",
+      "authors": [
+        "Antony Valentini",
+        "Mira Varma"
+      ],
+      "year": 2026,
+      "type": "original physics preprint reanalysis of historical collider data",
+      "url": "https://arxiv.org/abs/2607.06938",
+      "role": "PEP collider model-dependent bound on Gaussian angular-smearing Born-rule departures at 29 GeV",
+      "access": "abstract-reviewed",
+      "note": "Arxiv original abstract: epsilon<0.042 at 95% confidence. Full six-page text, PEP data and likelihood not reproduced. No observed Born violation or history ontology result.",
+      "linkedLedger": [
+        "WL-026"
+      ],
+      "verdictEffect": "Upper bound on one specified Gaussian-smear departure; no central direction",
+      "effectReason": "Both Everett and quantum-equilibrium Bohm predict epsilon=0; a restricted model bound cannot count physical branches",
+      "verifiedAt": "2026-10-22"
     }
   ],
   "scholars": [
