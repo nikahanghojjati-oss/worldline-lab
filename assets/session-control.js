@@ -100,7 +100,7 @@ function render(){
  const streams=Array.isArray(state.workstreams)?state.workstreams:[];
  $('sc-workstreams').innerHTML=streams.map(x=>{
   let route=['home','dashboard','ledger','journal','disciplines','atlas','library','sessions'].includes(x.route)?x.route:'home';
-  return '<a href="#'+route+'" class="sc-stream"><div><div class="sc-stream-label">'+esc(x.area)+'</div><h3>'+esc(x.latest)+'</h3><p>'+esc(x.next||'Next action not recorded')+'</p></div><span class="sc-stream-badge '+esc(x.status)+'">'+esc(x.status)+'</span></a>';
+  return '<a href="#'+route+'" class="sc-stream"><div><div class="sc-stream-label">'+esc(x.area)+'</div><h3>'+esc(x.latest)+'</h3><p>'+esc(x.next||'Next action not recorded')+'</p></div><span class="sc-stream-badge '+(String(x.status||'').toLowerCase().includes('planned')?'planned':'')+'">'+esc(x.status)+'</span></a>';
  }).join('')||'<div class="empty">No workstreams recorded.</div>';
 }
 async function load(){try{let response=await fetch('data/sessions.json',{cache:'no-store'});if(!response.ok)throw Error('Could not load state file');state=await response.json();render();fetchCommits(false);}catch(e){$('sc-recommendation').textContent='SOURCE UNAVAILABLE';$('sc-explanation').textContent='The public record could not be loaded. Do not transition using an unverified checkpoint.';$('sc-activity-status').textContent='Inspect the GitHub repository directly.'}}

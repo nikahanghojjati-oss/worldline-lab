@@ -53,6 +53,8 @@ jobs:
           node tools/hammer/source-critique-test.cjs
           node tools/hammer/assumption-surgery-test.cjs
           node tools/hammer/observed-evidence-test.cjs
+          node tools/hammer/born-collider-audit-test.cjs
+          node tools/hammer/born-collider-audit.cjs
           node tools/hammer/observed-evidence.cjs
           node tools/hammer/assumption-surgery.cjs
           node tools/hammer/source-critique.cjs

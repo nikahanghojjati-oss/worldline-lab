@@ -1338,6 +1338,34 @@
   ],
   "journal": [
     {
+      "id": "J-016",
+      "date": "22 October 2026",
+      "category": "HAMMER · MODEL-SCOPED BORN-RULE COLLIDER CONSTRAINT · S-003-R012",
+      "title": "The high-energy collider boundary: where a Born-rule deviation might be seen",
+      "intro": "A July 2026 original preprint uses historic 29-GeV Bhabha-scattering data to bound a particular Gaussian angular-smearing Born-rule deviation. HAMMER tracks a new model-scoped Ledger movement, verifies its simple FWHM conversion, and explains why the result cannot count physically real Everett branches.",
+      "sections": [
+        {
+          "heading": "An actual 29-GeV source-data reanalysis",
+          "text": "Valentini and Varma (arXiv:2607.06938, July 2026) use previously collected SLAC PEP large-angle Bhabha scattering measurements to report Gaussian cos(theta)-smearing epsilon<0.042 (95% confidence). This is a preprint-level author statistical result; neither the original six-page fit nor past event-level PEP data have been independently replayed by HAMMER."
+        },
+        {
+          "heading": "An independently checked numerical implication",
+          "text": "For the assumed Gaussian profile, FWHM=2 sqrt(2ln2) epsilon. HAMMER reproduces the approximate upper width 0.0989 in cos(theta) using epsilon 0.042, with source-specific tests. The conversion is not an independent check of the paper's full 95% confidence interval."
+        },
+        {
+          "heading": "A possible experimental discrimination strategy",
+          "text": "An earlier 2025 peer-reviewed Phys Rev D study by these authors proposes probing spin/polarization Born-rule linearity at high energies. Its discussion warns that event selection and simulated background subtraction often assume the very Born rule being tested. A future controlled test must challenge those circular assumptions."
+        },
+        {
+          "heading": "What moved—and what cannot follow",
+          "text": "New WL-026 and MOVE-013 record a restricted experimental-source upper limit on the proposed angular-smear deformation, not observation of Born violation, not an experiment constructed by HAMMER, and not a central many-worlds preference. Everett and Bohm quantum equilibrium both predict the standard epsilon=0 behavior. Central 50 remains the uncalibrated neutral reference."
+        }
+      ],
+      "sourceIds": [
+        "WL-026"
+      ]
+    },
+    {
       "id": "J-015",
       "date": "22 October 2026",
       "category": "HAMMER · REAL EXPERIMENTS, THREE SCOPED SCIENTIFIC MOVEMENTS · S-003-R008",

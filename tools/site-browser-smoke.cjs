@@ -28,6 +28,21 @@ async function assertRoute(page,route){
  const status=page.locator('#research-round-banner');
  await status.waitFor({state:'visible',timeout:10000});
  assert.ok((await status.innerText()).includes(latestRound),'current canonical research round '+route+' '+latestRound);
+ const visual=await page.evaluate(()=>({
+  classOn:document.body.classList.contains('wl-unified'),
+  gradient:getComputedStyle(document.body).backgroundImage,
+  header:getComputedStyle(document.querySelector('.site-header')).backgroundImage,
+  fg:getComputedStyle(document.body).color,
+  font:getComputedStyle(document.body).fontFamily,
+  resources:!!document.querySelector('nav .wl-more summary'),
+  hammer:!!document.querySelector('nav a[href="hammer.html"]')
+ }));
+ assert.equal(visual.classOn,true,'all routes share cinematic design class '+route);
+ assert.match(visual.gradient,/gradient/,'cosmic site background '+route);
+ assert.match(visual.header,/gradient/,'shared cinematic header '+route);
+ assert.ok(visual.fg.includes('229')||visual.fg.includes('234')||visual.fg.includes('240'),'light-on-dark text color '+route+' '+visual.fg);
+ assert.match(visual.font,/system-ui|Segoe UI/,'shared font '+route);
+ assert.ok(visual.resources&&visual.hammer,'navigation includes accessible Resources and HAMMER '+route);
 }
 async function run(viewportName,viewport){
  const browser=await chromium.launch({headless:true});
@@ -40,6 +55,13 @@ async function run(viewportName,viewport){
   for(const route of ['home','dashboard','ledger','journal','disciplines','atlas','library','sessions']){
    await assertRoute(page,route);
   }
+  await assertRoute(page,'home');
+  const menu=page.locator('nav .wl-more');
+  await menu.locator('summary').click();
+  assert.equal(await menu.locator('a[href="#journal"]').count(),1,'Journal remains accessible from unified menu');
+  assert.equal(await menu.locator('a[href="#atlas"]').count(),1,'Atlas remains accessible from unified menu');
+  assert.equal(await menu.locator('a[href="#library"]').count(),1,'Library remains accessible from unified menu');
+  await menu.locator('summary').click();
   await assertRoute(page,'dashboard');
   await page.waitForFunction(()=>document.querySelector('#hammer-design option')&&document.querySelector('#hammer-outcome')?.textContent?.includes('Jensen'));
   assert.match(await page.locator('#hammer-forge').innerText(),/synthetic models, not observations/,'HAMMER does not invent experiments');

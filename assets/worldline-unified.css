@@ -1,0 +1,162 @@
+/* Worldline Lab unified cosmic visual system — S003-R011.
+   Source: owner's HAMMER cinematic mockup. Styling only: no numerical science changes.
+   Loaded AFTER component styles on original 8 hash routes. */
+/* Shared design tokens */
+body.wl-unified{
+ --ink:#f0f6ff;--slate:#c1d4e7;--muted:#bed0e2;--line:#29465f;--cream:#061425;
+ --white:#0d2338;--deep:#071e33;--blue:#52b7ff;--mint:#6cdbcb;--pink:#d7a1ff;
+ --gold:#f1c98a;--serif:system-ui,-apple-system,"Segoe UI",sans-serif;
+ --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+ --shadow:0 20px 55px #00091477;
+ color-scheme:dark;
+ background:radial-gradient(ellipse at 56% 6%,#12315c 0%,#071b33 36%,#030d19 78%);
+ color:#e5f0ff;font:14px/1.62 var(--sans);min-height:100vh;
+}
+/* Compact shared navigation, aligned with cinematic HAMMER masthead */
+.wl-unified .site-header{background:linear-gradient(90deg,#030b17,#071b30 53%,#030a14);border-bottom:1px solid #264864;box-shadow:0 8px 31px #000c184f;backdrop-filter:blur(18px)}
+.wl-unified .header-inner{max-width:1600px;padding:10px clamp(15px,2vw,31px);gap:15px}
+.wl-unified .brand{color:#d6eaff;letter-spacing:.15em;font:650 clamp(16px,1.55vw,22px)/1.08 Georgia,serif;min-width:max-content}
+.wl-unified .brand small{font:600 9px/1.5 system-ui,sans-serif;letter-spacing:.08em;color:#c0d4ed;margin-top:5px}
+.wl-unified .logo{height:45px;width:45px;background:radial-gradient(circle at 42% 42%,#f1e2fb 0 4%,#ab6ded 8%,#5525a4 20%,#123987 38%,#051630 60%);border:1px solid #5475c4;box-shadow:0 0 20px #7250d07d,inset 0 0 13px #9b5be44d}
+.wl-unified .logo svg{filter:drop-shadow(0 0 5px #b485f2)}
+.wl-unified .nav{align-items:center;justify-content:flex-end;gap:clamp(2px,.55vw,9px)}
+.wl-unified .nav a{border-radius:6px;padding:11px 11px;color:#e0e9f5;font:550 clamp(10px,.85vw,13px)/1.25 var(--sans);letter-spacing:0;min-height:43px;border:1px solid transparent;display:inline-flex;align-items:center;white-space:nowrap}
+.wl-unified .nav a:hover,.wl-unified .nav a[aria-current=page],.wl-unified .nav a.wl-hammer-active{background:linear-gradient(#104276,#092850);border-color:#2163a0;box-shadow:inset 0 0 12px #1689eb57;color:white}
+.wl-unified .edition{display:none}
+.wl-unified .shell{max-width:1536px;padding:24px clamp(16px,2vw,32px) 60px}
+/* Distinctive cosmic frame, same card corners and palette on all route pages */
+.wl-unified .page-head{border-bottom:1px solid #345775;margin-bottom:25px;padding:30px 8px 27px}
+.wl-unified .page-title,.wl-unified .display,.wl-unified .section-heading h2,
+.wl-unified .page :is(h1,h2,h3,h4),.wl-unified .page .stat-card .huge{color:#f5f8ff;font-family:var(--sans)!important;letter-spacing:-.025em}
+.wl-unified .page .kicker,.wl-unified .page .micro,.wl-unified .page .tile-index,.wl-unified .page .session-kicker{color:#95d5ee;letter-spacing:.12em}
+.wl-unified .page .dek,.wl-unified .page .caption,.wl-unified .page .detail,
+.wl-unified .page :is(p,li,small){color:#c8d9e7}
+.wl-unified .page a:not(.btn){color:#8bd2ff}
+.wl-unified .page a:not(.btn):hover{color:white}
+.wl-unified .page .page-title em,.wl-unified .page .display em{color:#d3a4f6}
+.wl-unified .research-round-banner{background:#0b2c43;color:#d5eafa;border:1px solid #386986;border-left:4px solid #4ebbf6;border-radius:8px;box-shadow:0 9px 28px #00091744}
+.wl-unified .page-head:before,.wl-unified .page-head:after{border-color:#2d5676}
+.wl-unified .section-heading{border-bottom:1px solid #355673}
+.wl-unified .eyebrow-line:after{background:#264d68}
+/* Large editorial home becomes a cinematic companion to HAMMER */
+.wl-unified #page-home .hero{padding-top:35px;gap:24px;min-height:510px}
+.wl-unified #page-home .hero-copy{padding:19px 6px 30px 22px}
+.wl-unified #page-home .hero-copy:before{background:linear-gradient(#8d67ff,#23abef,#2fdbba,#f3c68e);box-shadow:0 0 16px #338ef680}
+.wl-unified .display{font-weight:800!important;text-shadow:0 6px 26px #317cc026}
+.wl-unified #page-home .compass-stage{background:radial-gradient(circle at 50% 50%,#133c5b,#061426 72%)!important;border:1px solid #355b80!important;box-shadow:0 0 70px #2979cb1d!important;border-radius:14px}
+.wl-unified #page-home .compass-stage :is(.stage-top,.dial-label,.compass-footnote){color:#c9dff2}
+.wl-unified #page-home .compass-stage .compass-center{color:#f3f7ff}
+.wl-unified :is(.btn,.page .control,.lab-rooms-switcher a,.room-deck-controls button,.session-actions button,.session-actions a,.library-view button,.sc-refresh){background:#0e2d47;color:#d1ebfc;border:1px solid #3d6689;border-radius:6px;box-shadow:0 4px 16px #000e1a36}
+.wl-unified :is(.btn.primary,.page .control.active,.lab-rooms-switcher a.chosen,.session-actions button.primary,.library-view button.active){background:linear-gradient(#137ceb,#064486);color:white!important;border-color:#228bdf}
+.wl-unified .page .btn:hover,.wl-unified .page .control:hover{background:#164267;color:white}
+.wl-unified .hero-trio{background:#234563;border:1px solid #284963;gap:1px;border-radius:10px;overflow:hidden}
+.wl-unified .hero-trio .stat-card,.wl-unified #page-home .hero-trio .stat-card:nth-child(n){background:#0b263f;color:#f1f8ff;border-top:4px solid #4789d8}
+.wl-unified #page-home .hero-trio .stat-card:nth-child(2){border-top-color:#5bd5ae}
+.wl-unified #page-home .hero-trio .stat-card:nth-child(3){border-top-color:#d891f4}
+.wl-unified .stat-card :is(.detail,.micro){color:#cee1f0}
+/* Shared glass-card component treatment; the original content and JS remain intact */
+.wl-unified .page :is(.panel,.tile,.dispatch-card,.stat-card,.evidence-card,.article,
+ .session-frame,.session-history-card,.sc-dashboard-panel,.sc-gate,.sc-stream,.sc-commit,
+ .library-stat,.library-toolbar,.library-field,.library-work,.library-scholar,.library-note-card,
+ .lab-program-overview,.program-stat,.lab-subtopic,.lab-source,.room-deck,.room-sources,
+ .instrument,.instrument-outcome,.future-experiments,.room-slide,.lab-room-stage,
+ .research-program,.program-stage,.stage,.cross-lab-card,.library-empty,
+ .wl-csl-view,.wl-movement,.lab-instrument-cover){
+ background:linear-gradient(140deg,#0e2a43 0%,#091d32 100%)!important;
+ color:#eaf4ff!important;border-color:#305470!important;
+ box-shadow:0 12px 33px #000a1640;
+ border-radius:9px;
+}
+.wl-unified .page :is(.panel,.tile,.dispatch-card,.stat-card,.evidence-card,.session-frame,.sc-stream,.library-work,.lab-source,.room-deck):hover{border-color:#4d779f}
+.wl-unified .page :is(.tile,.library-field,.lab-source,.lab-subtopic,.sc-stream){transition:transform .22s ease,border-color .22s ease,background .22s ease}
+.wl-unified .page :is(.tile,.library-field,.lab-source,.lab-subtopic,.sc-stream):hover{transform:translateY(-2px);background:#133550!important}
+.wl-unified .page :is(.tile:nth-child(n),.library-stat:nth-child(n)){background:linear-gradient(145deg,#102c47,#081c30)!important}
+.wl-unified .page :is(.tile h3,.library-work h3,.library-field strong,.session-frame h2,.room-slide h3,.sc-stream h3,.program-stat strong,.stat-card .huge){color:#f3faff!important}
+.wl-unified .page :is(.tile p,.panel p,.article p,.session-frame p,.sc-stream p,.library-work .authors,.library-work .relevance,.lab-source p,.room-slide p,.instrument p,.library-field small,.program-stat small,.lab-subtopic p){color:#c6dbea!important}
+.wl-unified .page .tile-symbol{color:#8ccfff;opacity:.27}
+.wl-unified .page .tile-index,.wl-unified .page .source-id,.wl-unified .page .stage-index{color:#91d5ed}
+.wl-unified .page .notice,.wl-unified .page .session-decision,.wl-unified .page .sc-boundary,
+.wl-unified .page :is(.slide-inquiry,.instrument-caution,.instrument-outcome,.sc-stages span,.session-check,.session-fact,.session-select,.session-textarea,.sc-meter-note,.sc-refresh,.lab-rooms-switcher a,.session-chip,.pill,.library-work .research-status){
+ background:#133550!important;color:#daebf5!important;border-color:#47718f!important;
+}
+.wl-unified .page .notice.warning,.wl-unified .page .session-decision.caution{border-left-color:#e6ad9e!important;background:#352633!important}
+.wl-unified .page .notice :is(strong,a),.wl-unified .page .session-decision strong{color:#f7e4bf!important}
+.wl-unified .page :is(input,textarea,select){background:#0b253b;color:#ecf5fb;border:1px solid #4d7794;border-radius:5px}
+.wl-unified .page input::placeholder,.wl-unified .page textarea::placeholder{color:#b7cbd9}
+.wl-unified .page :is(.pill,.session-chip,.library-work .research-status,.sc-stream-badge){color:#d9e9f6;background:#183951;border:1px solid #416989}
+.wl-unified .page :is(.room-deck-controls button,.library-view button,.sc-refresh){background:#133550;color:#def0f8}
+.wl-unified .page .sc-meter:before{background:#0b253a;border-color:#426480}
+.wl-unified .page .sc-meter strong,.wl-unified .page .sc-meter span{color:#f0f7fb}
+.wl-unified .page .sc-meter{background:conic-gradient(#4da9e7 0 var(--sc-value),#1d405e var(--sc-value) 100%)}
+.wl-unified .page .session-status-track,.wl-unified .page .library-field .mini-track,.wl-unified .page .program-track{background:#1c455c}
+.wl-unified .page .session-stage,.wl-unified .page .session-mini,.wl-unified .page .sc-stream-label{color:#97d6e8}
+.wl-unified .page .library-field small,.wl-unified .page .session-fact span{color:#c4dbe7!important}
+.wl-unified .page .library-orb{background:radial-gradient(circle at 37% 23%,#ece3fb,#779cce 60%,#255479);border-color:#d3a66c}
+.wl-unified .page .library-orb :is(strong,span){color:#092438}
+.wl-unified .page .library-field .mini-track i,.wl-unified .page .program-track span{background:linear-gradient(90deg,#508df0,#58d8ce)}
+.wl-unified .page .session-history-details summary{color:#bce4f9}
+.wl-unified .page .room-slide .slide-inquiry p{color:#d1e7f5}
+.wl-unified .page .lab-room-stage{background:transparent!important;box-shadow:none}
+/* Highlight the original cinematic HAMMER features on the home page */
+.wl-unified #page-home .tiles{gap:13px}
+.wl-unified #page-home .tile{min-height:210px;box-shadow:0 14px 31px #00132266}
+.wl-unified .featured,.wl-unified .page :is(.library-hero,.session-hero,.room-cover,.cross-lab-card,.lab-hero,.verdict-monitor){background:radial-gradient(circle at 85% 12%,#22396b,#08233d 65%)!important;border:1px solid #486d94;color:#f4faff}
+.wl-unified .page :is(.featured,.library-hero,.session-hero,.room-cover,.cross-lab-card,.lab-hero,.verdict-monitor) :is(h2,h3,p,small,span){color:#e0f0fa}
+.wl-unified .page .featured .kicker{color:#89e3d9}
+.wl-unified .page .bottom-note{color:#c2d6e2}
+.wl-unified .bottom-note{border-top:1px solid #2c5371;color:#bed1e1}
+.wl-unified .bottom-note a{color:#a0d9fb}
+.wl-unified .page :is(.bar,.controls,.research-program-wrap,.cross-lab-wrap,.lab-program-overview,.library-verdict,.session-subsection){border-color:#345d7b}
+.wl-unified .page :is(.research-status,.slide-disclaimer,.instrument-caution small,.session-help,.session-form-label,.sc-open){color:#c1d5e5!important}
+/* Desktop fidelity to mockup; natural scroll without obscuring content on small screens */
+@media(max-width:1250px){.wl-unified .header-inner{flex-wrap:wrap;justify-content:center}.wl-unified .nav{justify-content:center}.wl-unified .brand{margin-right:auto}}
+@media(max-width:760px){.wl-unified .header-inner{padding:10px 13px}.wl-unified .brand{margin:0 0 8px}.wl-unified .nav{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;padding-bottom:4px;width:100%}.wl-unified .nav a{font-size:11px;flex-shrink:0}.wl-unified #page-home .hero{min-height:0}.wl-unified #page-home .compass-stage{min-height:325px}.wl-unified .page-head{padding:21px 4px}.wl-unified .shell{padding-inline:14px}.wl-unified .page .section-heading{display:block}}
+@media(prefers-reduced-motion:reduce){.wl-unified .page,.wl-unified .page :is(.tile,.sc-stream,.library-field,.lab-source){animation:none!important;transition:none!important;transform:none!important}}
+
+/* One accessible, shared navigation pattern on both the core pages and HAMMER. */
+.wl-unified :is(.nav,.hc-nav) .wl-more{position:relative;align-self:center;color:#e6eef9}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:6px;padding:11px 13px;min-height:43px;color:#e1edfa;background:#0d253d;border:1px solid #315777;border-radius:6px;cursor:pointer;font:550 12px/1.25 system-ui,"Segoe UI",sans-serif;white-space:nowrap}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary::-webkit-details-marker{display:none}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary:hover,.wl-unified :is(.nav,.hc-nav) .wl-more[open]>summary{background:#15436f;color:white;border-color:#397cbb}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary:focus-visible{outline:3px solid #ffd58f;outline-offset:3px}
+.wl-unified :is(.nav,.hc-nav) .wl-menu{display:flex;flex-direction:column;gap:4px;position:absolute;top:calc(100% + 9px);right:0;z-index:120;min-width:235px;padding:9px;border:1px solid #416d95;border-radius:8px;background:#0a1e35;box-shadow:0 20px 40px #000c18bb}
+.wl-unified :is(.nav,.hc-nav) .wl-menu a{display:block!important;min-height:37px;padding:9px 13px!important;color:#dbe9f6!important;text-decoration:none!important;white-space:nowrap;font-size:12px!important}
+.wl-unified :is(.nav,.hc-nav) .wl-menu a:hover,.wl-unified :is(.nav,.hc-nav) .wl-menu a[aria-current=page]{background:#12406b!important;color:white!important}
+.wl-unified .nav>a.wl-hammer-active{color:#ecf5ff!important}
+.wl-unified .hc-header{box-shadow:0 8px 31px #000c184f}
+.wl-unified .hc-brand{font-family:Georgia,serif!important}
+.wl-unified .hc-nav .hc-active{background:linear-gradient(#104276,#092850);border-color:#2163a0}
+.wl-unified :is(.site-header,.hc-header) a:focus-visible{outline:3px solid #ffd58f!important;outline-offset:3px}
+@media(max-width:760px){.wl-unified :is(.nav,.hc-nav) .wl-menu{position:fixed;right:12px;top:110px;min-width:min(285px,calc(100vw - 24px))}.wl-unified .hc-header{flex-wrap:wrap;padding:12px}.wl-unified .hc-nav{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;width:100%;padding-bottom:5px}.wl-unified .hc-brand{margin-right:auto}}
+
+/* R012 axe regression audit — never place pale-site ink on cosmic panels. */
+.wl-unified #research-round-banner .micro,.wl-unified #research-round-banner :is(p,strong,.caption){color:#e1f1fa!important}
+.wl-unified #research-round-banner a,.wl-unified #research-round-banner .caption>a{color:#a7dcff!important;text-decoration:underline}
+.wl-unified .page.active :is(.question-gates-view,.question-gate-item,.lab-research-updates,.lab-research-updates>.library-note-card,.session-history-details,.lab-guidance,.research-program-wrap,.lab-source-status,.session-chip,.library-note-card,.library-ledger-links a){
+ background:#0c2941!important;border-color:#3c6685!important;color:#dbeaf6!important}
+.wl-unified .page.active .lab-research-updates>.library-note-card{border-left:4px solid #65b4d3!important}
+.wl-unified .page.active .library-ledger-links a{display:inline-block;background:#133754!important;border:1px solid #416f8d!important;color:#b1e3ff!important;text-decoration:underline}
+.wl-unified .page.active .lab-research-updates .library-note-card :is(h3,p,.micro,small){color:#d6e9f6!important}
+.wl-unified .page.active .question-gates-view :is(p,h2,.caption,.micro){color:#d7ebf7!important}
+.wl-unified .page.active .question-gate-item :is(h3,p,.caption,.micro){color:#dceef8!important}
+.wl-unified .page.active .question-gates-view a{color:#a8e3ff!important}
+.wl-unified .page.active .room-slide .slide-inquiry :is(.micro,p){color:#e0f0fb!important}
+.wl-unified .page.active .instrument-caution :is(.micro,small,p){color:#deeff9!important}
+.wl-unified .page.active .session-history-details :is(summary,p,li,span){color:#d5ebf6!important}
+.wl-unified .page.active :is(.lab-source-meta,.lab-source-role,.lab-source-status,.source-id,.source-date,.stage-status,.session-stage,.session-mini,.session-chip,.lab-guidance,.session-form-label,.session-help,.sc-stream-label,.sc-meter-note,.sc-stream-badge,.instrument-slider output){color:#c3e4f9!important}
+.wl-unified .page.active :is(.lab-source-status,.lab-source-status.abstract,.lab-source-status.partial,.lab-source-status.finished){background:#123c57!important;border-color:#5282a0!important;color:#ddf3ff!important}
+.wl-unified .page.active :is(.session-history-card,.sc-commit,.sc-stream,.session-fact,.lab-subtopic,.lab-source,.library-field,.library-scholar,.library-work) :is(h2,h3,h4,p,span,small,li){color:#e0eef8!important}
+.wl-unified .page.active .session-decision :is(strong,p){color:#f5e7cd!important}
+.wl-unified .page.active .sc-dashboard :is(.sc-gate,.sc-stream,.sc-commit) :is(small,.micro,span,p,a){color:#d6e8f6!important}
+.wl-unified .page.active .sc-dashboard :is(.sc-gate,.sc-stream,.sc-commit) a{color:#ade6ff!important}
+.wl-unified .page.active .sc-dashboard .sc-meter-note{color:#c3d8e9!important}
+.wl-unified .page.active .lab-rooms-switcher a{color:#c8eafd!important}
+.wl-unified .page.active .lab-rooms-switcher a.chosen{color:white!important;background:#17517a!important}
+.wl-unified .page.active .room-deck-controls button:disabled{opacity:.65}
+.wl-unified .page.active .slide-inquiry,.wl-unified .page.active .instrument-caution{background:#21384e!important}
+
+/* The complete Session Observatory status is evidence prose, not a CSS class. */
+.wl-unified .page.active .sc-stream-badge{white-space:normal!important;overflow-wrap:anywhere;max-width:220px;min-width:0;text-align:center;line-height:1.55;flex-shrink:1;align-self:flex-start}
+.wl-unified .page.active .sc-stream{min-width:0}
+.wl-unified .page.active .sc-stream>div{min-width:0;overflow-wrap:anywhere}
+@media(max-width:600px){.wl-unified .page.active .sc-stream{flex-direction:column}.wl-unified .page.active .sc-stream-badge{max-width:100%}}
