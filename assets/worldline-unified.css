@@ -112,3 +112,19 @@ body.wl-unified{
 @media(max-width:1250px){.wl-unified .header-inner{flex-wrap:wrap;justify-content:center}.wl-unified .nav{justify-content:center}.wl-unified .brand{margin-right:auto}}
 @media(max-width:760px){.wl-unified .header-inner{padding:10px 13px}.wl-unified .brand{margin:0 0 8px}.wl-unified .nav{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;padding-bottom:4px;width:100%}.wl-unified .nav a{font-size:11px;flex-shrink:0}.wl-unified #page-home .hero{min-height:0}.wl-unified #page-home .compass-stage{min-height:325px}.wl-unified .page-head{padding:21px 4px}.wl-unified .shell{padding-inline:14px}.wl-unified .page .section-heading{display:block}}
 @media(prefers-reduced-motion:reduce){.wl-unified .page,.wl-unified .page :is(.tile,.sc-stream,.library-field,.lab-source){animation:none!important;transition:none!important;transform:none!important}}
+
+/* One accessible, shared navigation pattern on both the core pages and HAMMER. */
+.wl-unified :is(.nav,.hc-nav) .wl-more{position:relative;align-self:center;color:#e6eef9}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:6px;padding:11px 13px;min-height:43px;color:#e1edfa;background:#0d253d;border:1px solid #315777;border-radius:6px;cursor:pointer;font:550 12px/1.25 system-ui,"Segoe UI",sans-serif;white-space:nowrap}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary::-webkit-details-marker{display:none}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary:hover,.wl-unified :is(.nav,.hc-nav) .wl-more[open]>summary{background:#15436f;color:white;border-color:#397cbb}
+.wl-unified :is(.nav,.hc-nav) .wl-more>summary:focus-visible{outline:3px solid #ffd58f;outline-offset:3px}
+.wl-unified :is(.nav,.hc-nav) .wl-menu{display:flex;flex-direction:column;gap:4px;position:absolute;top:calc(100% + 9px);right:0;z-index:120;min-width:235px;padding:9px;border:1px solid #416d95;border-radius:8px;background:#0a1e35;box-shadow:0 20px 40px #000c18bb}
+.wl-unified :is(.nav,.hc-nav) .wl-menu a{display:block!important;min-height:37px;padding:9px 13px!important;color:#dbe9f6!important;text-decoration:none!important;white-space:nowrap;font-size:12px!important}
+.wl-unified :is(.nav,.hc-nav) .wl-menu a:hover,.wl-unified :is(.nav,.hc-nav) .wl-menu a[aria-current=page]{background:#12406b!important;color:white!important}
+.wl-unified .nav>a.wl-hammer-active{color:#ecf5ff!important}
+.wl-unified .hc-header{box-shadow:0 8px 31px #000c184f}
+.wl-unified .hc-brand{font-family:Georgia,serif!important}
+.wl-unified .hc-nav .hc-active{background:linear-gradient(#104276,#092850);border-color:#2163a0}
+.wl-unified :is(.site-header,.hc-header) a:focus-visible{outline:3px solid #ffd58f!important;outline-offset:3px}
+@media(max-width:760px){.wl-unified :is(.nav,.hc-nav) .wl-menu{position:fixed;right:12px;top:110px;min-width:min(285px,calc(100vw - 24px))}.wl-unified .hc-header{flex-wrap:wrap;padding:12px}.wl-unified .hc-nav{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;width:100%;padding-bottom:5px}.wl-unified .hc-brand{margin-right:auto}}
