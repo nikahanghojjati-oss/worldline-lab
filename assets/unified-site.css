@@ -19,7 +19,7 @@ body:not(.hp-body){background:radial-gradient(ellipse at 68% -12%,#183c68 0,tran
 .wl-header-github:hover{background:#17456c;color:#fff!important}
 .wl-header a:focus-visible{outline:3px solid #f6d29a!important;outline-offset:2px}
 body:not(.hp-body) .shell{max-width:1540px;padding:clamp(19px,2.7vw,38px) clamp(14px,2.8vw,40px) 90px}
-body:not(.hp-body) .page.active{color:#dfeefa}
+body:not(.hp-body) .page.active{color:#183c50}/* Research cards inherit dark ink; only dark-canvas headers are explicitly light below. */
 body:not(.hp-body) .page.active :is(.display,.page-title,.section-heading>h2,.session-subsection>h2){color:#f4f8fc}
 body:not(.hp-body) .page.active .display em,body:not(.hp-body) .page.active .page-title em{color:#f5c996}
 body:not(.hp-body) .page.active :is(.dek,.page-head>.dek,.hero-copy>.dek,.section-heading>p){color:#c6dbe9}
