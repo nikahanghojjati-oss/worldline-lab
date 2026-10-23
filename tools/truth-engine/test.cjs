@@ -19,6 +19,12 @@ fails('invalid place coordinate',d=>{d.ledger.entries[0].lat=120},'out-of-range'
 fails('missing claim class',d=>{d.ledger.entries[0].question=''},'missing claim classification');
 fails('invalid review date',d=>{d.notes.notes[0].date='2026-02-30'},'invalid review date');
 fails('score mismatch',d=>{d.ledger.editorialMeter.score=80},'editorial meter');
+fails('duplicate ledger ID',d=>d.ledger.entries.push(structuredClone(d.ledger.entries[0])),'duplicated');
+fails('missing evidence coordinate provenance',d=>{delete d.ledger.entries[0].locationType},'geographic provenance');
+fails('broken reading-note source reference',d=>{d.notes.notes[0].workId='SRC-999999'},'nonexistent work');
+fails('invalid editorial audit score arithmetic',d=>{d.library.verdictAudit.changeLog.at(-1).delta=999},'invalid old/new/delta');
+fails('central ontology score divergence',d=>{d.discriminator.scorePolicy.centralScore=51},'primary-question score must match');
+
 if(base.truthEngine){
  fails('proposal missing counterevidence',d=>d.truthEngine.proposals.push({
   id:'P-TEST',claimClass:'Experiment',hypothesis:'one versus many',nullHypothesis:'no change',
