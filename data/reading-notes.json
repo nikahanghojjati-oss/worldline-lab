@@ -1903,6 +1903,28 @@
         "WL-025"
       ],
       "fieldNote": "research/hammer-observed-evidence-S003-R008.md"
+    },
+    {
+      "id": "NOTE-075",
+      "workId": "SRC-084",
+      "date": "2026-10-22",
+      "sessionId": "S-003",
+      "roundId": "S-003-R012",
+      "stage": "abstract-reviewed",
+      "label": "Valentini Varma 2026 historical PEP collider Gaussian-smear Born-rule test",
+      "basis": "Original arXiv 2607.06938 abstract and original 2025 Phys Rev D paper introduction selectively checked",
+      "summary": "Reanalysis of 29 GeV Bhabha scattering bounds Gaussian cos(theta) smearing epsilon<0.042 at 95% CL; a restricted preprint model bound, not observed Born-rule violation or Everett-vs-Bohm test",
+      "method": "Independent FWHM transform 2sqrt(2ln2)*0.042≈0.0989; did not reproduce original 95% fit",
+      "limitations": "No full source/SLAC raw data, analysis nuisance/edge/detector covariance or author likelihood reproduction",
+      "alternativeExplanations": "Detector resolution, source selection under Born rule, other non-Gaussian deviations; viable standard interpretations unchanged",
+      "conclusion": "Model-specific MOVE-013, central50 unchanged",
+      "fullTextRead": false,
+      "readDepthDefinition": "Primary abstract only, related prior paper targeted intro not full",
+      "ledgerImpact": 0,
+      "ledgerIds": [
+        "WL-026"
+      ],
+      "fieldNote": "research/hammer-born-rule-collider-S003-R012.md"
     }
   ]
 }
