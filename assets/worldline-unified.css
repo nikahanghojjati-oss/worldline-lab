@@ -128,3 +128,29 @@ body.wl-unified{
 .wl-unified .hc-nav .hc-active{background:linear-gradient(#104276,#092850);border-color:#2163a0}
 .wl-unified :is(.site-header,.hc-header) a:focus-visible{outline:3px solid #ffd58f!important;outline-offset:3px}
 @media(max-width:760px){.wl-unified :is(.nav,.hc-nav) .wl-menu{position:fixed;right:12px;top:110px;min-width:min(285px,calc(100vw - 24px))}.wl-unified .hc-header{flex-wrap:wrap;padding:12px}.wl-unified .hc-nav{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;width:100%;padding-bottom:5px}.wl-unified .hc-brand{margin-right:auto}}
+
+/* R012 axe regression audit — never place pale-site ink on cosmic panels. */
+.wl-unified #research-round-banner .micro,.wl-unified #research-round-banner :is(p,strong,.caption){color:#e1f1fa!important}
+.wl-unified #research-round-banner a,.wl-unified #research-round-banner .caption>a{color:#a7dcff!important;text-decoration:underline}
+.wl-unified .page.active :is(.question-gates-view,.question-gate-item,.lab-research-updates,.lab-research-updates>.library-note-card,.session-history-details,.lab-guidance,.research-program-wrap,.lab-source-status,.session-chip,.library-note-card,.library-ledger-links a){
+ background:#0c2941!important;border-color:#3c6685!important;color:#dbeaf6!important}
+.wl-unified .page.active .lab-research-updates>.library-note-card{border-left:4px solid #65b4d3!important}
+.wl-unified .page.active .library-ledger-links a{display:inline-block;background:#133754!important;border:1px solid #416f8d!important;color:#b1e3ff!important;text-decoration:underline}
+.wl-unified .page.active .lab-research-updates .library-note-card :is(h3,p,.micro,small){color:#d6e9f6!important}
+.wl-unified .page.active .question-gates-view :is(p,h2,.caption,.micro){color:#d7ebf7!important}
+.wl-unified .page.active .question-gate-item :is(h3,p,.caption,.micro){color:#dceef8!important}
+.wl-unified .page.active .question-gates-view a{color:#a8e3ff!important}
+.wl-unified .page.active .room-slide .slide-inquiry :is(.micro,p){color:#e0f0fb!important}
+.wl-unified .page.active .instrument-caution :is(.micro,small,p){color:#deeff9!important}
+.wl-unified .page.active .session-history-details :is(summary,p,li,span){color:#d5ebf6!important}
+.wl-unified .page.active :is(.lab-source-meta,.lab-source-role,.lab-source-status,.source-id,.source-date,.stage-status,.session-stage,.session-mini,.session-chip,.lab-guidance,.session-form-label,.session-help,.sc-stream-label,.sc-meter-note,.sc-stream-badge,.instrument-slider output){color:#c3e4f9!important}
+.wl-unified .page.active :is(.lab-source-status,.lab-source-status.abstract,.lab-source-status.partial,.lab-source-status.finished){background:#123c57!important;border-color:#5282a0!important;color:#ddf3ff!important}
+.wl-unified .page.active :is(.session-history-card,.sc-commit,.sc-stream,.session-fact,.lab-subtopic,.lab-source,.library-field,.library-scholar,.library-work) :is(h2,h3,h4,p,span,small,li){color:#e0eef8!important}
+.wl-unified .page.active .session-decision :is(strong,p){color:#f5e7cd!important}
+.wl-unified .page.active .sc-dashboard :is(.sc-gate,.sc-stream,.sc-commit) :is(small,.micro,span,p,a){color:#d6e8f6!important}
+.wl-unified .page.active .sc-dashboard :is(.sc-gate,.sc-stream,.sc-commit) a{color:#ade6ff!important}
+.wl-unified .page.active .sc-dashboard .sc-meter-note{color:#c3d8e9!important}
+.wl-unified .page.active .lab-rooms-switcher a{color:#c8eafd!important}
+.wl-unified .page.active .lab-rooms-switcher a.chosen{color:white!important;background:#17517a!important}
+.wl-unified .page.active .room-deck-controls button:disabled{opacity:.65}
+.wl-unified .page.active .slide-inquiry,.wl-unified .page.active .instrument-caution{background:#21384e!important}
