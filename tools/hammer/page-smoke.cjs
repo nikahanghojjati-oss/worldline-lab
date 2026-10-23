@@ -25,7 +25,7 @@ async function ready(){for(let i=0;i<80;i++){try{if((await fetch(url+'/hammer.ht
    await page.waitForFunction(()=>document.getElementById('hp-round')?.textContent?.includes('S-003-'),{timeout:15000});
    await page.waitForFunction(()=>document.querySelector('#hammer-design option')&&document.querySelector('#hammer-outcome')?.textContent?.includes('Jensen'));
    assert.equal(await page.title(),'HAMMER — Worldline Lab Scientific Research Forge');
-   const hammerNav=(await page.locator('.wl-nav a').allTextContents()).map(v=>v.trim().replace(/\\s+/g,' '));
+   const hammerNav=(await page.locator('.wl-nav a').allTextContents()).map(v=>v.trim().replace(/\s+/g,' '));
    assert.deepEqual(hammerNav,['Home','Research Labs','⚒ HAMMER','Truth Compass','Evidence Ledger','Journal','Origins Atlas','Resources','Sessions'],'shared navigation identical to all research routes');
    assert.equal(await page.locator('link[href="assets/unified-site.css"]').count(),1,'shared design stylesheet active on HAMMER');
    assert.equal(await page.locator('.wl-brand').count(),1,'one unified galaxy brand');
