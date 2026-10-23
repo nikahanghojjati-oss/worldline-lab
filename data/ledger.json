@@ -749,6 +749,31 @@
         "NOTE-074",
         "research/hammer-observed-evidence-S003-R008.md"
       ]
+    },
+    {
+      "id": "WL-026",
+      "date": "2026-10-22",
+      "title": "Historical 29-GeV collider data constrain a specified Gaussian-smearing Born-rule deviation",
+      "field": "Quantum foundations",
+      "kind": "2026 original theoretical/experimental preprint reanalyzing prior PEP scattering measurements, not independently refitted",
+      "status": "Author-reported 95% upper bound on a specific Gaussian angular-smearing model, primary abstract verified; source likelihood/experimental raw data NOT independently reproduced",
+      "question": "How tightly can historical high-energy e+e- Bhabha scattering constrain a hypothetical Gaussian smearing of Born-rule differential cross sections?",
+      "finding": "Valentini and Varma report from existing SLAC PEP large-angle Bhabha scattering at sqrt(s)=29 GeV an upper bound epsilon<0.042 (95% confidence) on Gaussian smearing in x=cos(theta) of the quantum differential cross section. HAMMER independently converts this bound to Gaussian FWHM_x≈0.0989 via 2 sqrt(2 ln 2) epsilon, but has NOT reproduced original event counts, fitting likelihood or confidence coverage. This bounds the specified phenomenological departure, not all quantum-nonequilibrium states or the number of physically realized histories.",
+      "source": "Valentini and Varma, First constraint on Born-rule violations at high-energy colliders, arXiv:2607.06938, July 8 2026 (preprint); related 2025 peer-reviewed Phys Rev D 112 112024 DOI 10.1103/4llk-pt1j",
+      "url": "https://arxiv.org/abs/2607.06938",
+      "impact": 0,
+      "direction": "Empirical-source model-specific movement AGAINST Gaussian-smearing Born-rule deviations exceeding ε=0.042 at 95% CL, under preprint's historical 29-GeV collider reanalysis; neutral Everett-vs-Bohm ontology",
+      "strength": "Actual past collider data reanalyzed by original authors, preprint abstract reported bound; FWHM conversion reproduced but original statistical fit/quantile was not.",
+      "place": "SLAC PEP accelerator, Menlo Park, California, United States; no exact apparatus coordinate verified",
+      "lat": null,
+      "long": null,
+      "locationType": "Named historical scientific facility, no precise experiment coordinate",
+      "notes": "No observed Born-rule violation is claimed; epsilon=0 remains allowed. May depend on Gaussian profile, selection, angular resolution, edge corrections and modeled nuisance; paper itself not independently full read. Related spin and polarization tests proposed in Valentini/Varma 2025 stress Born-ruled backgrounds. Everett and standard quantum-equilibrium Bohm share epsilon=0 tested predictions.",
+      "reviewRefs": [
+        "SRC-084",
+        "NOTE-075",
+        "research/hammer-born-rule-collider-S003-R012.md"
+      ]
     }
   ],
   "scientificMovements": [
@@ -984,6 +1009,28 @@
       "centralHistoryDirection": "No inference that irreversibility is ontological wavefunction collapse or evidence for number of real branches",
       "centralScoreImpact": 0,
       "researchReport": "research/hammer-observed-evidence-S003-R008.md"
+    },
+    {
+      "id": "MOVE-013",
+      "date": "2026-10-22",
+      "ledgerId": "WL-026",
+      "sourceIds": [
+        "SRC-084"
+      ],
+      "readingNoteIds": [
+        "NOTE-075"
+      ],
+      "claim": "Gaussian angular smearing of Born-rule differential Bhabha scattering at 29 GeV under Valentini/Varma July2026 phenomenological model",
+      "from": "No source-graded specific 29GeV collider Born-rule angular-smear 95% limit recorded in current Worldline Lab model-scoped movements",
+      "to": "Author-reanalyzed historical PEP measurements give epsilon < 0.042 (95% confidence) for Gaussian smearing in cos(theta), reconstructed FWHM_x upper ≈0.0989; HAMMER did not refit raw data.",
+      "modelDirection": "AGAINST source-specified large angular-smearing deviations to the Born rule; not a universal exclusion of quantum nonequilibrium",
+      "reportedMeasurement": true,
+      "sourceModel95UpperEpsilon": 0.042,
+      "sourceStatus": "2026 preprint, original event likelihood not independently rerun",
+      "centralHistoryDirection": "NONE — matched ε=0 standard Everett and quantum-equilibrium Bohm predictions unchanged",
+      "centralScoreImpact": 0,
+      "researchReport": "research/hammer-born-rule-collider-S003-R012.md",
+      "reproducibleCode": "tools/hammer/born-collider-audit.cjs"
     }
   ]
 }
