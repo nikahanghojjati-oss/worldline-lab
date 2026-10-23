@@ -24,13 +24,13 @@ function renderMeter(ledger){
   label.setAttribute('aria-label','Truth Compass officially records '+n+' out of 100. This is an editorial indicator, not a probability of real histories.');
  }
  const verdict=typeof meter.empiricalVerdict==='string'?meter.empiricalVerdict:'Empirical count of physically realized histories remains unresolved.';
- $('hp-central-status').textContent=(meter.label||'Research verdict')+' · '+(valid?n+'/100':'not available');
+ $('hp-central-status').textContent=valid?(n===Number(meter.reference)?'NEUTRAL EDITORIAL · '+n+' / 100':(meter.label||'Evidence-based editorial decision')+' · '+n+' / 100'):'Score not available';
  $('hp-central-status').title=verdict;
 }
 function movementMarkup(m,byId){
  const e=byId.get(m.ledgerId),sourceUrl=safeLink(e?.url),files=researchPath(m.researchReport);
  const date=esc(m.date||e?.date||'Undated');
- return '<article class="hp-movement"><div><div class="hp-movement-id">'+esc(m.id)+' / '+date+'</div><span class="hp-tag">CLAIM-SPECIFIC SCIENTIFIC MOVEMENT</span></div>'+
+ return '<article class="hp-movement"><div class="hc-movement-art"><div class="hc-movement-glyph" aria-hidden="true">'+(m.id==='MOVE-010'?'✧':m.id==='MOVE-011'?'∞':m.id==='MOVE-012'?'≋':'✦')+'</div><div class="hp-movement-id">'+esc(m.id)+' / '+date+'</div><span class="hp-tag">MODEL-SPECIFIC</span></div>'+
  '<div><h3>'+esc(e?.title||m.claim||'Evidence movement')+'</h3>'+
  '<p><strong>What changed:</strong> '+esc(m.modelDirection||'See original source')+'</p>'+
  '<p>'+esc(m.to||'See underlying claim and evidence status')+'</p>'+
@@ -73,26 +73,40 @@ async function refresh(){
  const button=$('hp-refresh');if(button)button.disabled=true;
  try{
   const revision=Date.now();
-  const [ledger,session,library,reading]=await Promise.all([
+  const [ledger,session,library,reading,research]=await Promise.all([
    getJSON('data/ledger.json',revision),getJSON('data/sessions.json',revision),
-   getJSON('data/library.json',revision),getJSON('data/reading-notes.json',revision)]);
+   getJSON('data/library.json',revision),getJSON('data/reading-notes.json',revision),getJSON('data/research.json',revision)]);
   if(!Array.isArray(ledger.entries)||!Array.isArray(ledger.scientificMovements)||
-     !Array.isArray(session.roundLog)||!Array.isArray(library.works)||!Array.isArray(reading.notes))
+     !Array.isArray(session.roundLog)||!Array.isArray(library.works)||!Array.isArray(reading.notes)||!Array.isArray(research.disciplines))
     throw Error('The public research dataset has an unexpected structure.');
   setValue('hp-findings',ledger.entries.length);
   setValue('hp-movement-count',ledger.scientificMovements.length);
   setValue('hp-sources',library.works.length);
+  setValue('hp-notes',reading.notes.length);
+  setValue('hp-labs',research.disciplines.length);
   setValue('hp-studies',library.works.filter(w=>w.access==='fully-studied').length);
   setValue('hp-round',session.roundLog.at(-1)?.id||'—');
   renderMeter(ledger);renderMovements(ledger);renderSessions(session);
   const version=(session.roundLog.at(-1)?.id||'?')+'/'+(ledger.scientificMovements.at(-1)?.id||'none')+'/'+ledger.editorialMeter?.score;
   const updated=version===lastVersion?'No change since previous check. ':'Updated research dataset loaded. ';
   lastVersion=version;lastCheck=Date.now();
-  setCheckState(updated+'Published data checked '+new Date(lastCheck).toLocaleString()+'. Sources: data/ledger.json, data/sessions.json, data/library.json and data/reading-notes.json. Recheck on page focus or use Refresh. Scientific conclusions change only after GitHub commits and deployment.',false);
+  setCheckState(updated+'Published data checked '+new Date(lastCheck).toLocaleString()+'. Sources: ledger, sessions, library, reading-notes and research JSON. Recheck on page focus or use Refresh. Scientific conclusions change only after GitHub commits and deployment.',false);
  }catch(e){setCheckState('Unable to refresh published research: '+String(e.message)+'. The website does not substitute invented data. Try refreshing again.',true);}
  finally{loading=false;if(button)button.disabled=false;}
 }
 $('hp-refresh')?.addEventListener('click',refresh);
+for(const [buttonId,sectionSelector,openLabel,closedLabel] of [
+ ['hp-movements-more','.hc-movements','Show older movements','Show recent movements'],
+ ['hp-rounds-more','.hc-research-panel','Show additional research rounds','Show recent research only']
+]){
+ const button=$(buttonId),section=document.querySelector(sectionSelector);
+ button?.addEventListener('click',()=>{
+  if(!section)return;
+  const expanded=section.classList.toggle('hc-expanded');
+  button.setAttribute('aria-expanded',String(expanded));
+  button.textContent=expanded?closedLabel:openLabel;
+ });
+}
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-lastCheck>30000)refresh();});
 window.addEventListener('pageshow',e=>{if(e.persisted)refresh();});
 setInterval(()=>{if(!document.hidden&&Date.now()-lastCheck>120000)refresh();},120000);
