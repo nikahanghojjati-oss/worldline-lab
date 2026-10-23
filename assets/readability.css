@@ -132,3 +132,17 @@ body{font-size:16px;line-height:1.72;color:var(--ink)}
 .hammer-auto-memory{margin:18px 0 0;padding:15px 19px;border-radius:6px;background:#e5f0ed;border:1px solid #abc8c1;color:#234654}
 .hammer-auto-memory>strong{font-size:15px;color:#183f4d}
 .hammer-auto-memory p{font-size:13px;color:#2d515a;margin:9px 0}
+
+/* S-003-R011 · axe-confirmed WCAG contrast repairs for v0.2/v0.25 reading surfaces.
+   Preserve HAMMER layout and do not reinterpret an educational model as a discovery. */
+#page-dashboard .metric strong,
+#page-dashboard .step h3 { color:#173f50; }
+#page-ledger .notice .micro { color:#e9f6f9; }
+#truth-engine-view h3,
+#truth-engine-view > p { color:#193e50; }
+#page-library .library-full-study-link a { color:#164f70; }
+#sc-state { color:#eaf5fa; }
+#sc-round-log .session-history-card .session-badge { color:#215d5b; }
+#page-disciplines .lab-research-updates > .kicker,
+#page-disciplines .lab-research-updates > .caption { color:#f0fafc; }
+#page-disciplines .lab-research-updates .library-ledger-links a { color:#18465b; }
