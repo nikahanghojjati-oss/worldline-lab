@@ -1,0 +1,69 @@
+/* Worldline Lab unified research design — shared by every classic route and HAMMER.
+   Dark cosmic navigation + atmosphere; high-contrast paper/lab reading surfaces.
+   CSS only: no scientific claims, score changes or new data. */
+:root{--wl-night:#04111f;--wl-deep:#081c30;--wl-panel:#0e2840;--wl-stroke:#315576;--wl-cyan:#85d3fa;--wl-gold:#efc68b;--wl-paper:#f4f8fa;--wl-ink:#123346}
+html{scroll-padding-top:92px}
+body:not(.hp-body){background:radial-gradient(ellipse at 68% -12%,#183c68 0,transparent 36%),radial-gradient(ellipse at 8% 48%,#08253d 0,transparent 37%),linear-gradient(135deg,#04101c,#081c2e 49%,#04111e);color:#eaf3fc}
+.wl-header.site-header,.wl-header.hc-header{background:linear-gradient(100deg,#04101e 0%,#07192b 55%,#030c19 100%)!important;border-bottom:1px solid #295071;box-shadow:0 8px 25px #0005;backdrop-filter:blur(16px);position:sticky;top:0;z-index:60;padding:0;min-height:74px;height:auto}
+.wl-header-inner{width:100%;max-width:1600px;margin-inline:auto;padding:11px clamp(16px,2.5vw,38px);display:flex;align-items:center;justify-content:space-between;gap:18px}
+.wl-brand{display:flex;gap:12px;align-items:center;min-width:220px;color:#d7eafa!important;text-decoration:none;font:600 clamp(16px,1.5vw,22px)/1.14 Georgia,serif!important;letter-spacing:.12em!important}
+.wl-brand>span:last-child{display:block}
+.wl-brand small{display:block;font:600 10px/1.5 var(--sans,system-ui,sans-serif)!important;letter-spacing:.08em!important;margin-top:3px;color:#bfcfdd!important}
+.wl-galaxy{display:grid;place-items:center;width:47px;height:47px;flex:0 0 47px;border-radius:50%;font-size:29px;color:#e6ddff;line-height:1;text-shadow:0 0 7px #9d74fd,0 0 15px #3e8fe8;background:radial-gradient(circle at 37% 42%,#b592f8,#6035aa 21%,#2e428b 39%,#071a39 59%);border:2px solid #5794d8;box-shadow:inset 0 0 14px #8b66ed,0 0 17px #507ded7e}
+.wl-nav.nav,.wl-nav{display:flex;align-items:center;justify-content:flex-end;gap:5px;flex-wrap:wrap}
+.wl-nav.nav a,.wl-nav a{display:inline-flex;gap:7px;align-items:center;min-height:42px;padding:10px clamp(9px,1vw,14px);font:650 12px/1.3 var(--sans,system-ui,sans-serif)!important;letter-spacing:.01em!important;color:#e9f3fe!important;border:1px solid transparent;border-radius:6px!important;text-decoration:none;white-space:nowrap;transition:background .2s,border-color .2s}
+.wl-nav.nav a:hover,.wl-nav a:hover,.wl-nav a[aria-current="page"]{background:linear-gradient(135deg,#153f73,#082b59)!important;border-color:#3979b0;box-shadow:inset 0 0 12px #3485e766;color:#fff!important}
+.wl-nav a.wl-hammer-nav{border-color:#25558d;background:#0c3057;color:#f9dcaf!important}
+.wl-nav a.wl-hammer-nav:hover,.wl-nav a.wl-hammer-nav[aria-current="page"]{border-color:#68a8d8;background:#124578!important;color:#fff!important}
+.wl-header-github{display:inline-flex;align-items:center;min-height:40px;padding:8px 13px;border:1px solid #3a6183;border-radius:5px;white-space:nowrap;color:#bee1f5!important;font-size:11px;font-weight:700;letter-spacing:.04em;text-decoration:none}
+.wl-header-github:hover{background:#17456c;color:#fff!important}
+.wl-header a:focus-visible{outline:3px solid #f6d29a!important;outline-offset:2px}
+body:not(.hp-body) .shell{max-width:1540px;padding:clamp(19px,2.7vw,38px) clamp(14px,2.8vw,40px) 90px}
+body:not(.hp-body) .page.active{color:#dfeefa}
+body:not(.hp-body) .page.active :is(.display,.page-title,.section-heading>h2,.session-subsection>h2){color:#f4f8fc}
+body:not(.hp-body) .page.active .display em,body:not(.hp-body) .page.active .page-title em{color:#f5c996}
+body:not(.hp-body) .page.active :is(.dek,.page-head>.dek,.hero-copy>.dek,.section-heading>p){color:#c6dbe9}
+body:not(.hp-body) .page.active .section-heading{border-bottom:1px solid #375778}
+body:not(.hp-body) .page.active .section-heading h2{letter-spacing:-.02em}
+body:not(.hp-body) .page.active .hero-copy>.caption{color:#cde0ef}
+body:not(.hp-body) .page.active .eyebrow-line:after{background:#436780}
+body:not(.hp-body) .page.active .eyebrow-line .kicker{color:#a6e2f1}
+body:not(.hp-body) .page.active>.page-head>.kicker{color:#afe6f1}
+body:not(.hp-body) .research-round-banner{background:#12334b!important;border:1px solid #3a6686!important;border-radius:8px;color:#d8edf8!important}
+body:not(.hp-body) .research-round-banner *{color:#d8edf8!important}
+/* Unified paper surfaces provide consistent, legible instrument/reading cards. */
+body:not(.hp-body) .page.active :is(.tile,.stat-card,.metric,.panel,.session-frame,.session-history-card,.library-work,.library-stat,.evidence-row,.discipline,.lab-source,.library-note-card){border-color:#ccdbe2;box-shadow:0 12px 36px #00000020}
+body:not(.hp-body) .page.active .tile{background:linear-gradient(150deg,#f8fbfc,#e7f2f7);border:1px solid #c5d9e3;border-radius:9px}
+body:not(.hp-body) .page.active .tile:hover{border-color:#6daed4;box-shadow:0 15px 40px #0006}
+body:not(.hp-body) .page.active .tile-index{color:#24596c!important}
+body:not(.hp-body) .page.active .tile h3{color:#13374b!important}
+body:not(.hp-body) .page.active .tile p{color:#3c5767!important}
+body:not(.hp-body) .page.active .stat-card{background:linear-gradient(145deg,#f8fbfd,#e9f1f7);color:#15394c}
+body:not(.hp-body) .page.active .hero-trio{border:1px solid #406a81;background:#406a81;border-radius:8px;overflow:hidden;margin-top:12px}
+body:not(.hp-body) .page.active :is(.btn.primary,.session-actions button.primary){background:#14558a;color:#fff!important;border-color:#387db2}
+body:not(.hp-body) .page.active :is(.btn.primary,.session-actions button.primary):hover{background:#236da1}
+/* Previously failing axe contrast checks: never force ink-blue text onto a dark card.
+   Put lab-note and mathematical details on a coherent pale surface. */
+body:not(.hp-body) .page.active .metric{background:#f6fafc!important;color:#183e52!important}
+body:not(.hp-body) .page.active .metric strong{color:#17394b!important}
+body:not(.hp-body) .page.active .panel .steps .step h3{color:#193b4e!important}
+body:not(.hp-body) .page.active .notice{background:#eef6f6!important;color:#1b4655!important}
+body:not(.hp-body) .page.active .notice .micro{color:#215667!important}
+body:not(.hp-body) .page.active #truth-engine-view{background:#eef5f8!important;color:#173c4e!important}
+body:not(.hp-body) .page.active #truth-engine-view :is(h3,p){color:#234657!important}
+body:not(.hp-body) .page.active .library-full-study-link a{color:#124c61!important;background:#e8f3f6!important}
+body:not(.hp-body) .page.active #sc-state{background:#e8f6f9!important;color:#174659!important}
+body:not(.hp-body) .page.active .session-history-card .session-badge{background:#e2f5f3!important;color:#17545d!important}
+body:not(.hp-body) .page.active .lab-research-updates{background:#eff6f8!important;border-color:#c7dce3!important;color:#183f53!important}
+body:not(.hp-body) .page.active .lab-research-updates :is(.kicker,.caption){color:#255269!important}
+body:not(.hp-body) .page.active .lab-research-updates .library-note-card{background:#fff!important;border-color:#c4d9df!important;color:#183b4d!important}
+body:not(.hp-body) .page.active .lab-research-updates .library-ledger-links{color:#16556d!important}
+body:not(.hp-body) .page.active .lab-research-updates .library-note-card p{color:#244658!important}
+/* Side-by-side research panels share a single card architecture, but retain field-specific instruments. */
+body:not(.hp-body) .page.active :is(.panel,.session-frame,.library-stat){border-radius:9px}
+body:not(.hp-body) .page.active .full-review-dispatch{border:1px solid #4a6886;border-radius:9px}
+body:not(.hp-body) .page.active :is(.btn,.lab-back,.control){transition:background .2s,transform .2s,border-color .2s}
+@media(max-width:1350px){.wl-header-inner{gap:9px}.wl-brand{min-width:184px}.wl-nav.nav a,.wl-nav a{padding-inline:8px;font-size:11px!important}.wl-header-github{display:none}}
+@media(max-width:990px){.wl-header-inner{flex-direction:column;align-items:stretch;gap:8px}.wl-nav.nav,.wl-nav{overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding:0 0 3px;scrollbar-width:thin}.wl-brand{min-width:0}.wl-header.site-header,.wl-header.hc-header{position:relative}.wl-brand small{font-size:9px!important}.wl-nav.nav a,.wl-nav a{flex-shrink:0}}
+@media(max-width:650px){.wl-header-inner{padding:11px 15px}.wl-galaxy{height:39px;width:39px;flex-basis:39px;font-size:24px}.wl-brand{font-size:18px!important}.wl-nav.nav a,.wl-nav a{font-size:12px!important;padding:9px 12px}.wl-nav:after{content:"";min-width:5px}}
+@media(prefers-reduced-motion:reduce){body:not(.hp-body) .page{animation:none!important}.wl-nav a,.wl-nav.nav a{transition:none}}
