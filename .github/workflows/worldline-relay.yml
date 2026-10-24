@@ -1,0 +1,32 @@
+name: Worldline relay proposal integrity
+on:
+  pull_request:
+    paths:
+      - "leads/relay/**"
+      - "tools/relay/**"
+      - "PROJECT_RULES.md"
+      - ".github/workflows/worldline-relay.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-relay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify message/index checksums and pointer agreement
+        run: node tools/relay/check.cjs
+      - name: Exercise valid and adversarial relay fixtures
+        run: node tools/relay/test.cjs
+      - name: Reject modifications to immutable existing message envelopes
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git fetch origin "$BASE_REF"
+          node tools/relay/archive-diff.cjs "origin/$BASE_REF"
